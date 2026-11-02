@@ -1,5 +1,7 @@
 # Awesome Super Agent [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="center"><img src="assets/cover.png" alt="Awesome Super Agent" width="100%"></p>
+
 > 想了解 Super-agent，从这里开始。这是 DeepSeek Harness（DSH）研究原型的精选链接：它是什么、何时动手、怎么装，以及设计文章和代码差在哪。
 >
 > *English:* a curated list of links for the dsh-superagent research prototype, a proactive coding agent that runs on DeepSeek Harness. It is a research prototype, not a DeepSeek product. Entries are in Chinese; most linked official docs are in English.

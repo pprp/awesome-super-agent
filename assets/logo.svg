@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <title>Awesome Super Agent</title>
+  <circle cx="60" cy="60" r="17" stroke="#4D6BFE" stroke-width="10"/>
+  <path d="M77 42V66a9.5 9.5 0 0 0 19 0V60A36 36 0 1 0 82.2 88.4" stroke="#4D6BFE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="60" cy="60" r="6" fill="#FFB020"/>
+</svg>
