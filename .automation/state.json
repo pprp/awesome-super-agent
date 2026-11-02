@@ -1,56 +1,29 @@
 {
-  "last_run_at": "2026-11-02T20:32:00Z",
+  "last_run_at": "2026-11-02T21:40:00Z",
   "timezone": "UTC",
-  "baseline_commit": "b0da368",
+  "baseline_commit": "9e4d6c1",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-02T19:40:00Z",
-    "to": "2026-11-02T20:32:00Z"
+    "from": "2026-11-02T20:32:00Z",
+    "to": "2026-11-02T21:40:00Z"
   },
   "added": [
     {
-      "title": "ChrisCindy/dsh-superagent-prototype",
-      "url": "https://github.com/ChrisCindy/dsh-superagent-prototype",
-      "confidence": 0.91,
-      "reason": "Promoted from pending. Second commit c85e46f50 at 20:00:53Z (79 files, docs/009). Panel-only Policy, accept mode, prepare command, and writable roots. Main preset is read-only. Worker writes are limited to the ticket directory, temp, and configured roots; setup refuses state dir, $DSH_HOME, and the profile. Merge goes through host orchestrator_merge_request; worker gh refuses merge. docs/009 says the file sandbox stops writes, not reads, and sandbox:full turns it off. Earlier commit is the Feishu health line. engines.dsh still ^0.2.1-alpha.2. README lead is still upstream. Two commits ahead of 6337fc8. MIT."
-    },
-    {
-      "title": "Hewlbern/superOpenAgent",
-      "url": "https://github.com/Hewlbern/superOpenAgent",
-      "confidence": 0.9,
-      "reason": "Created 20:07Z. Independent TypeScript harness of the design essay, not on DSH. Router has no shell; Watchdog, async start/stop, file store, and a local environment interface are in the tree. Sharding, long-term memory, A2A, and credential isolation are listed as open. Quick start is a terminal channel. The 12.4/15.7 minute figures are quoted from the essay. super-open-agent 0.1.0, Node >= 20, MIT."
-    },
-    {
-      "title": "Meaple-SFKY/Super-Agent-Plugin",
-      "url": "https://github.com/Meaple-SFKY/Super-Agent-Plugin",
-      "confidence": 0.88,
-      "reason": "Dispatch loop landed 20:02Z; full-permission commit 20:28Z. DSH bundle @meaple-sfky/dsh-super-agent 0.1.0, engines.dsh ^0.2.1-rc.5, private, no LICENSE. Delegated sessions get danger-full-access and approval never; the commit says a worker wrote to $DSH_HOME. State is keyed by DSH_HOME, not by profile. Trigger needs its own GitHub identity. package description still says skeleton."
+      "title": "leolegends/carbon-superagent",
+      "url": "https://github.com/leolegends/carbon-superagent",
+      "confidence": 0.86,
+      "reason": "Created 20:51Z, first commit 20:45Z, package 0.2.0 at 21:08Z. Local panel inspired by the prototype attention principle. Executors are a logged-in claude or codex CLI (default claude), not DSH. Claude is disallowed git commit, git push, git reset --hard, and rm -rf; the panel commits. Each task gets a worktree branch agent/<slug>-<id6> under the data dir. acceptMode defaults to observe and autoPush defaults to false; when push is on, observe opens a draft PR. Node >=22.13. MIT. Author says it is not affiliated with DeepSeek, Anthropic, or OpenAI."
     }
   ],
   "updated": [
     {
-      "title": "mycguo/tebra-superagent",
-      "url": "https://github.com/mycguo/tebra-superagent",
-      "change": "Merged #11 at 20:25:22Z (86eac5049). Optional PostgreSQL in docs/011. SQLite stays the default. postgres must be selected in the profile entry; an env var alone does not switch. A failed connection refuses startup and does not fall back. A session advisory lock covers one schema. SQLite import defaults to a read-only check. Session files and git workspaces stay on disk. The Google-login sentence stays."
-    },
-    {
-      "title": "waixv-superagent/dsh-superagent-prototype",
-      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "change": "HEAD 43dfcd30f at 20:29:43Z. Feishu documents a ticket creates are created as the requester's identity and are not created as the bot and transferred; with no named identity the agent asks instead of falling back to the bot. Panel verification pills (5cd33dc4c) are chrome and were not added to the sentence."
-    },
-    {
-      "title": "PHLens/dsh-superagent-prototype",
-      "url": "https://github.com/PHLens/dsh-superagent-prototype",
-      "change": "Default branch dev is 4c97fe6db at 20:26:55Z, 5 commits ahead of 6337fc8. Confirmed plans run on native workers with immutable artifacts, versioned report acceptance, and real session cancellation. The commit message says 1325 tests, typecheck, build, and isolated native/browser acceptance passed. Durable recovery and backup remain T5. README lead is still upstream."
-    },
-    {
-      "title": "alnyx-dev/dsh-superagent-windows",
-      "url": "https://github.com/alnyx-dev/dsh-superagent-windows",
-      "change": "6984858e3 at 19:48:31Z names pwsh on Windows and bash elsewhere in the orchestrator allow list. A hardcoded bash name makes tools.restrict() reject the session on Windows because the profile did not register bash. This is the orchestrator resume path, not discussion #11905's missing worker shell."
+      "title": "Meaple-SFKY/Super-Agent-Plugin",
+      "url": "https://github.com/Meaple-SFKY/Super-Agent-Plugin",
+      "change": "HEAD 606f51a4e5 at 21:11Z. Settings (repo, stateDir, github wrapper/login/operators) are read from the sa-super-agent row, then env, then defaults. Default state dir remains $DSH_HOME/super-agent, so profiles that share a home still share it. Default repo is Meaple-SFKY/Super-Agent-demo. Default operator login Meaple-SFKY may request work and must not act as the agent. An admitted GitHub event dispatches a Worker with no extra click. Checkout prefers git worktree add -B agent/<ticket> from repoClone (no network, base worktree untouched) and otherwise clones --depth 50. A worker-bin/gh shim and a private GIT_CONFIG_GLOBAL are mounted; without a wrapper the task says it cannot push. The commit message records issue comment -> ticket -> worktree -> commit -> push -> bot PR #5 -> comment, and duplicate callbacks dispatch once. danger-full-access / approval never, skeleton description, private, and no LICENSE stay."
     }
   ],
   "pending": [
@@ -257,28 +230,34 @@
       "url": "https://github.com/adiant211/fusion-harness",
       "confidence": 0.6,
       "reason": "Created 2026-11-02T19:44:15Z. Python CLI on Claude via the Anthropic SDK, not DSH. Cites the prototype's outbox and speak-only-when-needed rule, then adds a scored harness-version loop. Not Trigger, Mandate, or Ticket. Leave the read for a deep run."
+    },
+    {
+      "title": "The AI News Report permissions explainer",
+      "url": "https://theainewsreport.com/2026-11-02-deepseek-dsh-superagent-permissions-explained.html",
+      "confidence": 0.42,
+      "reason": "HN story 50343713 at 2026-11-02T21:03:58Z (1 point) points here. The page says it read the authorization and execution docs, then says default observe only records what the agent would have done, which drops the explicit-request exception in docs/002. Recap. Do not list until that sentence is fixed."
     }
   ],
   "rejected_this_run": [
     {
-      "title": "playground and unrelated products",
-      "url": "https://github.com/nikkowong0000-lab/dsh-superagent-playground",
-      "reason": "nikkowong0000-lab/dsh-superagent-playground is a sandbox created 20:14Z. SkillfulAgents/SuperAgent is a separate desktop product (merge #1702 at 20:24Z) and does not implement the prototype. JavierFrancoLeal/jfranco-agentic-suite was pushed again and remains a marketing suite."
+      "title": "trial, test, and unchanged forks",
+      "url": "https://github.com/ebowwar/dsh-superagent-trial",
+      "reason": "In window and not listed: ebowwar/dsh-superagent-trial (trial lane, created 21:26Z) and yuanli-6/superagent-test (local test repo, pushed 21:27Z). New forks of the prototype created after 20:32Z (zzfb, zjeibb/first-dsh-superagent-prototype, Mihoub31, Masaruz101, ayokings202, Mohamed-Rabie85, ajinkyakambe, sulllll) still point at 6337fc8 and were not pushed past the upstream commit."
     },
     {
-      "title": "review board widget",
-      "url": "https://github.com/Lumos-789/react-monitor-agent",
-      "reason": "Commits at 19:46Z and 19:56Z ship a demo fixture and version 0.1.1. The board answers the essay's session-window question and its DSH bundle is a skill shell. Skins and widgets stay out. The 19:24Z plugin commit was already inside the previous window and was not listed."
-    },
-    {
-      "title": "harness discussions are not superagent",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11910",
-      "reason": "Newest discussion is #11910 (19:48:53Z), a Windows EPERM writing cordis.yml. #11909 (19:45:16Z) proposes a Rust harness. #11908 (19:44:25Z) reports a suspected fake login page; the fake URL is not copied. #11907 was edited at 20:11Z and still is not about superagent. Known threads #11700 #11706 #11801 #11805 #11818 #11845 #11882 #11905 had no new comments. arXiv totalResults 0. No harness release. Prototype still 6337fc8. npm latest still 0.2.1-rc.5."
+      "title": "not the default branch",
+      "url": "https://github.com/szocpaul/dsh-superagent-prototype",
+      "reason": "szocpaul main is still 6ecfb7479. Branch agent/run-smoke-fixture-e43800a39a2d moved at 21:18Z (2b5f1eefc6: read the delivery branch head from the server). PHLens dev is still 4c97fe6db6 (20:26Z); T5 lifecycle commit 24280ab5c2 at 21:10Z is only on agent/native-t5-lifecycle-backup-a76a17c6. waixv main is still 43dfcd30f9 (20:29Z); PR #15 (route each ticket to the delivery environment its target needs) was opened at 21:12Z and is not merged."
     },
     {
       "title": "listed sentence still true",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "reason": "MYCF711 0.9.118 (20:15Z) is an offline test flag. 0.9.119 (20:25Z) reports an expired credential and says it will not recover itself. The listed sentence stays true."
+      "reason": "0.9.120 at 21:27Z (f363d1a625) keeps a single 接下来 block when wake messages are merged. README badge and the unit-test count (229) changed. The listed sentence stays true. Newest harness discussion is still #11910 (19:48Z). #11905 still has zero comments. No harness release. npm latest remains 0.2.1-rc.5. Prototype remains 6337fc8."
+    },
+    {
+      "title": "permissions recap that drops the observe exception",
+      "url": "https://theainewsreport.com/2026-11-02-deepseek-dsh-superagent-permissions-explained.html",
+      "reason": "See pending. arXiv query timed out. HN had this one new story in the window."
     }
   ],
   "held_on_other_branches": [
@@ -290,5 +269,5 @@
     "deepseek-harness discussion #11845 (cursor/dsh-super-agent-c285). No new comments this window."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Hourly window only; 2026-11-01 articles stay pending for a deep run.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z); package.json version is 0.1.0 and engines.dsh is still ^0.2.1-alpha.2. Newest harness discussion is #11910 (2026-11-02T19:48:53Z), which is not about superagent. No harness release in this window (newest release dsh-v0.2.1-rc.5 published 2026-10-30T02:12:26Z). Open PRs on this repo: none. Cap remains 5; this run added 3 and updated 4. Direct commit to main, no PR."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z); package.json version is 0.1.0 and engines.dsh is still ^0.2.1-alpha.2. Newest harness discussion is #11910 (2026-11-02T19:48:53Z), which is not about superagent. No harness release in this window (newest release dsh-v0.2.1-rc.5 published 2026-10-30T02:12:26Z). Open PRs on this repo: none. Cap remains 5; this run added 1 and updated 1. Direct commit to main, no PR."
 }
