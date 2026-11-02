@@ -1,26 +1,56 @@
 {
-  "last_run_at": "2026-11-02T05:31:41Z",
+  "last_run_at": "2026-11-02T07:29:51Z",
   "timezone": "UTC",
-  "baseline_commit": "8507a07",
+  "baseline_commit": "8b6a9b4",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-02T04:31:00Z",
-    "to": "2026-11-02T05:31:41Z"
+    "from": "2026-11-02T06:31:00Z",
+    "to": "2026-11-02T07:29:51Z"
   },
   "added": [
     {
-      "title": "kulebbb/dsh-superagent",
-      "url": "https://github.com/kulebbb/dsh-superagent",
+      "title": "abubakarsiddik31/super-agent-2",
+      "url": "https://github.com/abubakarsiddik31/super-agent-2",
+      "type": "derivative",
+      "section": "衍生",
+      "confidence": 0.88,
+      "dedupe_key": "github:abubakarsiddik31/super-agent-2",
+      "published_at": "2026-11-02",
+      "why_relevant": "Community fork of 6337fc8. Host removes the router shell, file, settings, prompt and policy tools. Unlisted people cannot reach or resume workers. Management API needs a bearer from the state directory except GET state. Tests use a fake harness. Author says it has not run on the real harness and workers stay unconfined."
+    },
+    {
+      "title": "GeekGold/aion",
+      "url": "https://github.com/GeekGold/aion",
       "type": "derivative",
       "section": "衍生",
       "confidence": 0.86,
-      "dedupe_key": "github:kulebbb/dsh-superagent",
+      "dedupe_key": "github:GeekGold/aion",
       "published_at": "2026-11-02",
-      "why_relevant": "Personal desktop plugin. Stage 0 sidebar is a skeleton. Stage 1 copies the prototype domain core and replaces the team allow-list with an owner-only policy. Author says that core is not wired to the plugin entry. engines.dsh is ^0.2.1-rc.5. The 04:31Z run saw an empty repo; stage 1 merged at 05:14Z."
+      "why_relevant": "Rust harness forked from redoop/dsh-rs. Cordis plugins implement Router, Worker, Trigger and Watchdog from the design essay. Does not run on DeepSeek Harness. File-drop triggers only. Author says real IM and GitHub clients are still missing. Pushed 07:14Z."
+    },
+    {
+      "title": "pans1es/superagent-prototype-evaluation",
+      "url": "https://github.com/pans1es/superagent-prototype-evaluation",
+      "type": "evaluation",
+      "section": "解读",
+      "confidence": 0.83,
+      "dedupe_key": "github:pans1es/superagent-prototype-evaluation",
+      "published_at": "2026-11-02",
+      "why_relevant": "Unofficial small-sample comparison of 6337fc8 on Harness 0.2.1-rc.3 against a same-version single session, qwen3.7-plus, 75 runs, with CSV and figures. Scripts and raw traces are not published. Pushed 06:25Z, after the 05:31Z state and not present on open PR #15."
+    },
+    {
+      "title": "Harness discussion #11845",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11845",
+      "type": "discussion",
+      "section": "讨论",
+      "confidence": 0.84,
+      "dedupe_key": "github-discussion:deepseek-ai/deepseek-harness/11845",
+      "published_at": "2026-11-02",
+      "why_relevant": "Reads 6337fc8 and names four GitHub-only seams a Source kind cannot replace: startup, worker environment, API transport, and pull-request binding. Proposal for self-hosted GitLab. No patch."
     }
   ],
   "updated": [],
@@ -29,13 +59,13 @@
       "title": "effortprogrammer/oh-my-dsh-superagent",
       "url": "https://github.com/effortprogrammer/oh-my-dsh-superagent",
       "confidence": 0.46,
-      "reason": "Specification only, created 04:53Z. README says nothing is installable yet and no license is chosen. Inspired by the prototype, no code."
+      "reason": "Specification only. No push since 05:03Z. README says nothing is installable yet."
     },
     {
       "title": "qdriven/dsh-innate-agent",
       "url": "https://github.com/qdriven/dsh-innate-agent",
       "confidence": 0.74,
-      "reason": "Unchanged since 00:25Z. README is still the upstream prototype text."
+      "reason": "No push since 00:25Z. Repo description now mentions a localboard Source, but the tree was not re-read this hour."
     },
     {
       "title": "Harness discussion #11818",
@@ -47,7 +77,7 @@
       "title": "super-agent.io troubleshooting",
       "url": "https://super-agent.io/deepseek-super-agent/troubleshooting/",
       "confidence": 0.64,
-      "reason": "Sibling of a page already listed. Reviewed 01 Nov 2026, outside this hour. Diagnostic boundaries, not a new source."
+      "reason": "Sibling of a page already listed. Diagnostic boundaries, not a new source."
     },
     {
       "title": "kingy.ai design explainer",
@@ -65,7 +95,7 @@
       "title": "hxh230802/dsh-superagent-reactive",
       "url": "https://github.com/hxh230802/dsh-superagent-reactive",
       "confidence": 0.66,
-      "reason": "Recommended install shares the daily profile, which doc 006 rejects for this bundle."
+      "reason": "No push since 2026-11-01. Recommended install shares the daily profile, which doc 006 rejects for this bundle."
     },
     {
       "title": "deepseekv41flash panel and bridge",
@@ -84,45 +114,57 @@
       "url": "https://codingagentfix.com/guides/deepseek-super-agent/",
       "confidence": 0.48,
       "reason": "Author says they have not installed or run the prototype."
+    },
+    {
+      "title": "Juejin reading 7703105289100296201",
+      "url": "https://juejin.cn/post/7703105289100296201",
+      "confidence": 0.8,
+      "reason": "Closed PR #3 was not merged. Do not re-add until a human asks."
+    },
+    {
+      "title": "nocoo/pi-superagent",
+      "url": "https://github.com/nocoo/pi-superagent",
+      "confidence": 0.8,
+      "reason": "Closed PR #3 was not merged. Do not re-add until a human asks."
+    },
+    {
+      "title": "xiehust/sample-dsh-superagent-on-agentcore",
+      "url": "https://github.com/xiehust/sample-dsh-superagent-on-agentcore",
+      "confidence": 0.8,
+      "reason": "Closed PR #3 was not merged. Do not re-add until a human asks."
     }
   ],
   "rejected_this_run": [
     {
-      "title": "Wuzeyu-sz/dsh-original-skills",
-      "url": "https://github.com/Wuzeyu-sz/dsh-original-skills",
-      "reason": "Release v0.1.0 at 05:26Z ships two generic plugin-authoring skills. The zip does not contain dsh-superagent-setup."
+      "title": "dandyyan/dsh-superagent-reverse",
+      "url": "https://github.com/dandyyan/dsh-superagent-reverse",
+      "reason": "Created 07:17Z. README is one line, size 0, no code."
     },
     {
       "title": "plain forks of dsh-superagent-prototype",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/forks",
-      "reason": "Forks created in this hour still point at upstream 6337fc8 and add no commit."
+      "reason": "Forks created in this hour still point at upstream 6337fc8 and add no commit. super-agent-2 is the exception and is listed."
     },
     {
       "title": "playgrounds and ticket workspaces",
-      "url": "https://github.com/NingJiu-Agent/dsh-superagent-playground",
-      "reason": "Sandboxes, demos, and repos an agent opened a ticket in. Includes NingJiu-Agent, amazys-lab, shaozhongfei001, cjsmme-wq, and jnyross/UnpoliticalDeepSeekSuperAgent."
+      "url": "https://github.com/kakabot866-star/superagent-test",
+      "reason": "Sandboxes, demos, and repos an agent opened a ticket in. Includes kakabot866-star, AsuisAsu, yjy1992, jnyross, panbin0054, damon2012, dandyyan/dsh-superagent-playground, jianshiaka-hub, cjsmme-wq, twy93008, chen1257348987, dctongsheng."
     },
     {
-      "title": "ic.work recap",
-      "url": "https://www.ic.work/article/deepseek-open-sources-dsh-superagent-router-worker-coding-ag",
-      "reason": "Calls the prototype v0.1.0. The repository has no release. Recap of the synthetic timing table."
+      "title": "MYCF711/dsh-session-superagent 0.8.36–0.8.38",
+      "url": "https://github.com/MYCF711/dsh-session-superagent",
+      "reason": "Pushed 07:18Z. Version check, gh error text, and state merge so watchers are not dropped. The listed sentence is still accurate."
+    },
+    {
+      "title": "Harness discussions #11842–#11847 except #11845",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11847",
+      "reason": "Model import, MCP disclosure, download cards, and malformed tool JSON. Not about the superagent prototype. #11845 is listed."
     }
   ],
   "already_on_open_prs": [
-    "yang0228/dsh-superagent-analysis",
-    "cjy851096/nano-dsh-superagent",
-    "deepseek-harness#11805",
-    "HulnotHutu/dsh-superagent-qq",
-    "Check-mj/dsh-superagent-windows",
-    "ctfiot.com/314686.html",
-    "deepseek-harness#11706",
-    "deepseek-harness#11801",
-    "juejin.cn/post/7703105289100296201",
-    "nocoo/pi-superagent",
-    "xiehust/sample-dsh-superagent-on-agentcore",
-    "wiva-hq/superagent-imessage",
-    "LofiSu/deepseek-super-agent"
+    "hhse/dsh-superagent-setup",
+    "wiva-hq/superagent-imessage Photon v2 sentence"
   ],
-  "rejected_pattern": "Sandbox, playground, demo, mirror, empty, and ticket-workspace repositories were not listed. Windows ports that only make the POSIX scripts boot stay out while buyou-claw/dsh-superagent-win is listed.",
-  "npm_note": "latest remains 0.2.1-rc.5. Prototype still has a single commit, 6337fc8. No Harness commit and no superagent discussion landed in this hour. The install pin in the deploy section was not edited. MYCF711/dsh-session-superagent added a HANDOFF note at 04:41Z; the listed sentence is still accurate."
+  "rejected_pattern": "Sandbox, playground, demo, mirror, empty, and ticket-workspace repositories were not listed. Windows ports that only make the POSIX scripts boot stay out while buyou-claw/dsh-superagent-win is listed. Closed unmerged PRs #3 and #7 stay out until a human asks.",
+  "npm_note": "latest remains 0.2.1-rc.5. Prototype still has a single commit, 6337fc8. No Harness release. Install pin in the deploy section was not edited. PR #15 is still open and already holds hhse/dsh-superagent-setup plus the iMessage Photon v2 sentence."
 }
