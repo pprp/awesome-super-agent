@@ -12,8 +12,22 @@ Super-agent 在这里指 [dsh-superagent-prototype](https://github.com/deepseek-
 
 资料核对日期：2026-11-02。星数会过期，下面不写。
 
+## 使用引导
+
+一次使用就是这几步。安装命令在后面的[部署攻略](#部署攻略)。不想自己敲，就把 [SETUP.md](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/SETUP.md) 交给一个编程智能体，密钥不要贴进对话。
+
+![一次最简单的使用：评论、名单、工单、做完再开口、回到原对话](assets/usage.png)
+
+1. 在 Mac 或 Linux 上把服务跑起来。第一次 `scripts/dsh-superagent start` 以退出码 3 结束，是在等配置，不是装坏了。
+2. 侧栏打开 **Superagent**。GitHub 来源填 `owner/name`。允许名单先只写你自己。自动合并关掉，接受模式留在 `observe`。
+3. 用名单里的账号，在目标仓库的 Issue 下发一条**新评论**：`@机器人登录名 给 README 加一段 Quick Start，先不要合并`。
+4. 大约一分钟后，面板里出现一张工单。它先回一句确认，做完再在原来的 Issue 里交付，通常是一个 Pull Request。
+
+改已有 Issue 的正文、在正文里补一个 @，收不到。没被点名的事，在 `observe` 下只会被记成「本来会接」，不会真的去做。
+
 ## Contents
 
+- [使用引导](#使用引导)
 - [先读这五篇](#先读这五篇)
 - [官方](#官方)
 - [设计文章](#设计文章)
@@ -53,8 +67,14 @@ Super-agent 在这里指 [dsh-superagent-prototype](https://github.com/deepseek-
 - [Super-agent 设计探索：迈向更自主的 Agent 系统](https://mp.weixin.qq.com/s/zoS7GlReWPhfCjENGxXCdg) - 中文原文。常驻 Router 只做路由，Worker 隔离执行；Trigger 的快过滤和慢过滤；Thread 订阅直通；Inline & Spill；Chain of Recall；投机执行但默不作声；全双工 `start()` / `stop()`（文中说 Harness 已有，默认不开）；IM 回复大约限制在 100 词；云端无状态 Agent Loop、数据库里的会话、无状态边缘守护进程（BYOM）；外部 Watchdog 可以判断跑偏并改提示词。文末写明原型只实现了其中一条路径，不是产品。署名 Yujia Qiao，DeepSeek Harness team。
 - [知乎转载副本](https://blog.eimoon.com/p/deepseek-super-agent-design/) - 微信打不开时的全文副本，保留了「这不是现有功能说明」的声明。
 - [英文机器翻译](https://threadnavigator.com/thread/2116857257245987236/) - 第三方标注为 @DeepSeekHarness 帖子的机器翻译，含同一组实验数字。不是官方英译。原帖 [x.com/DeepSeekHarness/status/2116857257245987236](https://x.com/DeepSeekHarness/status/2116857257245987236)。
-- [IT之家](https://www.ithome.com/1/020/615.htm) - 2026-10-31 21:36 的报道，链到仓库。
-- [量子位](https://www.qbitai.com/2026/10/506904.html) - 2026-10-31 21:49 的报道，链到仓库。
+
+下面三张图来自这篇长文，标号对应文中的第 2 到第 6 节。标号 [5]、[6] 里的 Session 数据库、端侧 daemon、Watchdog 是文章中的设计，公开原型没有这三块。原型里在跑的是 Router、Worker、工单，以及 GitHub（可选飞书）。
+
+![整体架构：Trigger 经过两级过滤进入 Router，再分给隔离的 Worker；Watchdog 与 Session 数据库在文中、不在公开原型里](assets/architecture-overview.jpg)
+
+![双层架构：IM、GitHub 等信道只和 Router 说话，具体任务在彼此隔离的 Worker Session 里做](assets/architecture-router-worker.jpg)
+
+![订阅直通：第一件事走 Router，同一条 Thread 上之后的消息直接进已经订阅的 Worker](assets/architecture-subscription.jpg)
 
 文章里有、公开原型里没有的：Watchdog 会话、云端循环加边缘守护进程、BYOM、异步 ReAct 那套 `start()` / `stop()`。仓库里有的是 Engine、Ticket、Eval，以及 Router / Worker 两套 preset。`docs/003` 会把前台 shell 在 5 秒后转成后台任务，这和文章里的云端守护进程不是一回事。
 
