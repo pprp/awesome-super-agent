@@ -137,6 +137,9 @@ Super-agent 在这里指官方仓库里的 dsh-superagent-prototype。它跑在 
 - [HulnotHutu/dsh-superagent-qq](https://github.com/HulnotHutu/dsh-superagent-qq) - 🔌 上游树上的 QQ 群来源。配置过的群里，经 OneBot v11 进来的消息变成 Trigger，回复回到群里。代码在 `src/sources/qq.ts`，说明在 `docs/009-qq-source.md`，本地小工具是 `napq`。作者写明与腾讯无关，用第三方客户端连接 QQ 可能违反用户协议.
 - [Check-mj/dsh-superagent-windows](https://github.com/Check-mj/dsh-superagent-windows) - 🔌 Windows 适配，基线 `6337fc8`，差量在 `WINDOWS-DELTA.md`。另有设计长文里的 Watchdog：独立 Session，默认定时 30 分钟看工单是否停滞，设为 0 则关闭（`src/app/watchdog.ts`）。Router 分片默认关；打开后同一条 Thread 固定进同一个 Router，空分片到第一次投递才创建（`src/app/shards.ts`）。桌面壳不引用上游源码.
 - [kulebbb/dsh-superagent](https://github.com/kulebbb/dsh-superagent) - 🔌 个人桌面插件，钉在 DSH `0.2.1-rc.5`。侧边栏目前只显示骨架；领域核心和「只有我」的 Policy 已有测试，作者写明还没接到插件入口.
+- [shibaeff/dsh-superagent-prototype](https://github.com/shibaeff/dsh-superagent-prototype) - 🔌 上游 MIT 分支，给 ChatGPT 订阅加了一条脚本化的 Codex 登录。`codex-install` 装社区插件 `@jcy2387/dsh-codex-provider`，`codex-use` 把 `openai-codex` 存成 Executor 和评估模型。作者在 DSH `0.2.1-rc.3` 上核对过能列出模型，没有打过模型调用。说明在 `docs/009-codex-auth.md`.
+- [mycguo/dsh-superagent-prototype](https://github.com/mycguo/dsh-superagent-prototype) - 🔌 署名 Tebra 的分支，README 写明供内部评估，不是 DeepSeek 的仓库。一个 `superagent` profile 同时盯多个 GitHub 仓库，`scripts/prepare-github-ticket` 按仓库分缓存。本机面板可以加 Google 登录（`docs/009-google-login.md`），不更换模型供应商.
+- [alasong/ssa1101](https://github.com/alasong/ssa1101) - 🔌 独立的轻编排（目录名 `dsh-superagent-lite`）。`scripts/server.ts` 默认对每个 assignment spawn `dsh --json`，`SA_WORKER=fake` 才用假会话。README 仍写 SessionFactory 是桩，Cordis bundle 只打挂载日志，准入记账还在外部的 kaa.
 
 ## 生态
 
