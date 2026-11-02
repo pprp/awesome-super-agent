@@ -1,29 +1,22 @@
 {
-  "last_run_at": "2026-11-02T22:36:00Z",
+  "last_run_at": "2026-11-02T23:35:00Z",
   "timezone": "UTC",
-  "baseline_commit": "0ce89ca",
+  "baseline_commit": "980e9f6",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-02T21:40:00Z",
-    "to": "2026-11-02T22:36:00Z"
+    "from": "2026-11-02T22:36:00Z",
+    "to": "2026-11-02T23:35:00Z"
   },
-  "added": [
-    {
-      "title": "Super-agent 设计课",
-      "url": "https://github.com/aicoder2048/learn-deepseek-super-agent",
-      "confidence": 0.88,
-      "reason": "Created 2026-11-02T21:56:37Z, pushed 22:07Z. Nine-lesson Chinese interactive course. SA08 keeps the explicit-request exception in off/observe/auto and says a subscription follow-up grants no new authority. The comparison table marks essay mechanisms implemented, partial, or absent from the docs: no Watchdog session; 006's hourly check is a schedule in the operator's own profile. SA07 says the essay replaced coding with a timer and measured scheduling. SA08 install points only at SETUP.md and says a directory is not a sandbox. Simulations are labeled as the author's. MIT. Author says it is not affiliated with DeepSeek and does not ship the essay or its images."
-    }
-  ],
+  "added": [],
   "updated": [
     {
       "title": "Meaple-SFKY/Super-Agent-Plugin",
       "url": "https://github.com/Meaple-SFKY/Super-Agent-Plugin",
-      "change": "HEAD 4ff6f2b589c9 at 22:09Z, plus 00b6ff7117cc at 21:41Z. An admitted GitHub event now enters the resident Router inbox. sa-dispatch starts a Worker and sa-ignore dismisses it; neither call leaves the event pending. A person-facing reply after the Worker must match OUTCOME: SUCCESS, PARTIAL, or FAILED, or it is requeued. Authenticated GET/POST /api/super-agent/settings edit the sa-super-agent row through the host config editor; GET /api/super-agent/readiness is the checklist. Routes stay unmounted when the host has no authenticated fetch. The 22:09 commit message records Router reply plus bot PR #7 with PARTIAL. PR #5, worktree, gh shim, danger-full-access, skeleton description, and no LICENSE stay."
+      "change": "HEAD c37d6684ef at 22:50Z. After 4ff6f2b: 8afa5f1 (22:30Z, just before the window) binds delivered rows to router_session_id, resets foreign rows when a new Router is ready, requeues deliveries older than 3 minutes, and recycles the Router after two undecided turns. Router creation failure marks queued events done and dispatches Workers directly. dc26570 (22:37Z) adds a schema-default watchdog (enabled, 15 min interval, 15 min stuck): a model-free loop interrupts stuck Workers and requeues stranded deliveries; a healthy sweep writes one audit row. sa-watchdog is created only when something is wrong and has no shell, no file tools, and no sa-dispatch. c37d668 keeps the deterministic summary when the reviewer says WATCHDOG: OK or nothing. Follow-ups during a running Worker can arrive as [thread-update]; uncovered counts are named in the Router reply. README at 22:39Z records PR #8 SUCCESS, PR #9 from a requeue with no new comment, and PR #10 with an in-flight follow-up. package.json description still says skeleton. No LICENSE."
     }
   ],
   "pending": [
@@ -150,8 +143,8 @@
     {
       "title": "sisyphuslabs/dori-superagent",
       "url": "https://github.com/sisyphuslabs/dori-superagent",
-      "confidence": 0.58,
-      "reason": "herdr + omo harness. The DeepSeek comparison landed at 2026-11-02T04:17:13Z. 16:56Z only blocks closing a lane-owned worktree whose git state cannot be read. Marketing tone. Not on DSH. Leave it for a deep run."
+      "confidence": 0.55,
+      "reason": "Default branch moved at 2026-11-02T22:59:24Z (248c291): install.sh pull notes and dori verify-pr. Still herdr + omo, not a DSH port. Not promoted."
     },
     {
       "title": "ldc861117/sugent",
@@ -240,24 +233,29 @@
   ],
   "rejected_this_run": [
     {
-      "title": "trial, test, playground, and unchanged forks",
-      "url": "https://github.com/acoder99-art/test_dsh_superagent",
-      "reason": "In window and not listed: acoder99-art/test_dsh_superagent (created 22:23Z), Susml/superagent-playground (21:41Z), wzsh26/dsh-superagent-my-workspace (memora personality plugin, pushed 22:04Z), codefufuai/codefufuai (card refresh 21:54Z). New forks created after 21:40Z (yjagorD, cwimsatt, sumitc91, ms3819code, avnishchaudhary9031-max, albertobolio, stevewithington, josedcape, OISadaptive) still point at 6337fc8."
+      "title": "playground and test repos",
+      "url": "https://github.com/aalnbeae/superagent-playground",
+      "reason": "aalnbeae/superagent-playground pushed 2026-11-02T23:13:34Z and is a test repo. acoder99-art/test_dsh_superagent was created 22:23Z, before this window. Not listed."
     },
     {
       "title": "not the default branch",
       "url": "https://github.com/PHLens/dsh-superagent-prototype",
-      "reason": "PHLens dev is still 4c97fe6db6 (20:26Z). agent/native-t5-lifecycle-backup-a76a17c6 moved to a7daa08469 at 22:31Z (keep question channel actions attached). waixv main is still 43dfcd30f9 (20:29Z). Open PRs #16–#18 are panel UI (copy session id, hero count, Feishu deeplink) and #15 is still unmerged. szocpaul main is still 6ecfb7479 (2026-11-01); pushed_at 22:26Z is not main."
+      "reason": "PHLens pushed_at 2026-11-02T23:08:16Z but default branch dev is still 4c97fe6db6 (2026-11-02T20:26:55Z). kohakushigure/dsh-superagent-lab pushed_at 23:08:01Z but main is still 96077805a5 (16:31:37Z)."
     },
     {
       "title": "listed sentence still true",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "reason": "0.9.121 at 22:27Z slows retries to at most once per 2 hours after 6 consecutive failures (tests 229 to 231). The listed sentence stays true. Newest harness discussion is still #11910. #11905 still has zero comments. No harness release. npm latest remains 0.2.1-rc.5. Prototype remains 6337fc8."
+      "reason": "0.9.122 at 2026-11-02T23:22:56Z shows which failure this is and the next retry time (tests 231 to 232). The listed sentence stays true."
     },
     {
-      "title": "news recap before this window",
-      "url": "https://www.helpnetsecurity.com/2026/11/02/deepseek-dsh-superagent/",
-      "reason": "WordPress date_gmt 2026-11-02T07:09:55Z. It keeps the explicit-request exception. News recap of the docs, before this window. Not added."
+      "title": "not a DSH port",
+      "url": "https://github.com/sisyphuslabs/dori-superagent",
+      "reason": "22:58Z–22:59Z commits are install.sh and dori verify-pr. Still herdr + omo. Stays pending."
+    },
+    {
+      "title": "harness discussion is not superagent",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11911",
+      "reason": "Created 2026-11-02T22:56:09Z. Plugin native secondary windows. No mention of superagent, Ticket, or Mandate. #11905 still has zero comments."
     }
   ],
   "held_on_other_branches": [
@@ -269,5 +267,5 @@
     "deepseek-harness discussion #11845 (cursor/dsh-super-agent-c285). No new comments this window."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Hourly window only; 2026-11-01 articles stay pending for a deep run.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z); package.json version is 0.1.0 and engines.dsh is still ^0.2.1-alpha.2. Newest harness discussion is still #11910 (2026-11-02T19:48:53Z). No harness release in this window (newest release dsh-v0.2.1-rc.5 published 2026-10-30T02:12:26Z). Open PRs on this repo: none. Cap remains 5; this run added 1 and updated 1. Direct commit to main, no PR."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). 0.2.2-alpha.2 exists and does not satisfy engines ^0.2.1-alpha.2. Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z); package.json version is 0.1.0 and engines.dsh is still ^0.2.1-alpha.2. Newest harness discussion is #11911 (2026-11-02T22:56:09Z), not about superagent. No harness release in this window (newest release dsh-v0.2.1-rc.5 published 2026-10-30T02:12:26Z). Open PRs on this repo: none. Cap remains 5; this run added 0 and updated 1. Direct commit to main, no PR."
 }
