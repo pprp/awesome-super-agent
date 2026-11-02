@@ -22,6 +22,6 @@ jobs:
             --max-concurrency 4
             --timeout 20
             --accept 200,206,429
-            --exclude 'mp\.weixin\.qq\.com|x\.com|twitter\.com'
+            --exclude 'mp\.weixin\.qq\.com|x\.com|twitter\.com|npmjs\.com|substack\.com|blog\.eimoon\.com'
             README.md
             CONTRIBUTING.md
