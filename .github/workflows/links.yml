@@ -1,0 +1,26 @@
+name: links
+
+on:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          fail: true
+          args: >-
+            --no-progress
+            --max-concurrency 4
+            --timeout 20
+            --exclude 'mp\.weixin\.qq\.com|x\.com|twitter\.com'
+            README.md
+            CONTRIBUTING.md
