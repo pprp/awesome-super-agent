@@ -1,0 +1,98 @@
+{
+  "last_run_at": "2026-11-02T03:11:01Z",
+  "timezone": "UTC",
+  "baseline_commit": "e326376",
+  "npm_dsh_latest_checked": "0.2.1-rc.5",
+  "npm_dsh_engines": "^0.2.1-alpha.2",
+  "upstream_prototype_head": "6337fc8",
+  "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
+  "added": [
+    {
+      "title": "编码 Agent 开始「自己接活」了？",
+      "url": "https://juejin.cn/post/7703105289100296201",
+      "type": "reading",
+      "section": "解读 / 文章和代码",
+      "confidence": 0.9,
+      "dedupe_key": "juejin:7703105289100296201"
+    },
+    {
+      "title": "nocoo/pi-superagent",
+      "url": "https://github.com/nocoo/pi-superagent",
+      "type": "derivative",
+      "section": "衍生",
+      "confidence": 0.86,
+      "dedupe_key": "github:nocoo/pi-superagent"
+    },
+    {
+      "title": "xiehust/sample-dsh-superagent-on-agentcore",
+      "url": "https://github.com/xiehust/sample-dsh-superagent-on-agentcore",
+      "type": "derivative",
+      "section": "衍生",
+      "confidence": 0.84,
+      "dedupe_key": "github:xiehust/sample-dsh-superagent-on-agentcore"
+    }
+  ],
+  "updated": [
+    {
+      "title": "saltapp/dsh-superagent-prototype-cn",
+      "url": "https://github.com/saltapp/dsh-superagent-prototype-cn",
+      "change": "mark 📘 changed to 📝; it is a community translation, not an official document"
+    },
+    {
+      "title": "lede and deploy",
+      "change": "Opening is one sentence plus three links. Deploy keeps the mismatches with 006 and no longer copies the install block. npm latest and the essay's timing figures are not pinned in the list."
+    }
+  ],
+  "pending": [
+    {
+      "title": "cheng200606/dsh-superagent",
+      "url": "https://github.com/cheng200606/dsh-superagent",
+      "confidence": 0.62,
+      "reason": "Windows patch set. Overlaps buyou-claw/dsh-superagent-win, which is already listed."
+    },
+    {
+      "title": "Betsy20/dsh-superagent-windows",
+      "url": "https://github.com/Betsy20/dsh-superagent-windows",
+      "confidence": 0.55,
+      "reason": "Another Windows port. Same job as the listed buyou-claw port."
+    },
+    {
+      "title": "wiva-hq/superagent-imessage",
+      "url": "https://github.com/wiva-hq/superagent-imessage",
+      "confidence": 0.7,
+      "reason": "iMessage Source on the prototype. README says the iMessage path is not verified end to end, and the page promotes Photon Spectrum."
+    },
+    {
+      "title": "qdriven/dsh-innate-agent",
+      "url": "https://github.com/qdriven/dsh-innate-agent",
+      "confidence": 0.35,
+      "reason": "GitHub description claims a localboard Source and a tmux-free loop. The README is still the upstream prototype text."
+    },
+    {
+      "title": "TianzeLuo/dsh-super-agent",
+      "url": "https://github.com/TianzeLuo/dsh-super-agent",
+      "confidence": 0.6,
+      "reason": "Separate DSH control-plane plugin, not this prototype. Install line targets the web profile, which 006 tells operators not to use for dsh-superagent."
+    },
+    {
+      "title": "TechNode: DeepSeek open-sources dsh-superagent prototype",
+      "url": "https://technode.global/2026/11/02/deepseek-dsh-superagent-research-prototype/",
+      "confidence": 0.45,
+      "reason": "News recap. The list already has MarkTechPost for that role, and contributing excludes news that does not add a reading of the source."
+    },
+    {
+      "title": "ai-tldr.dev dsh-superagent",
+      "url": "https://ai-tldr.dev/tools/dsh-superagent/",
+      "confidence": 0.3,
+      "reason": "Directory aggregation. Use only as a lead."
+    },
+    {
+      "title": "Wuzeyu-sz/dsh-original-skills",
+      "url": "https://github.com/Wuzeyu-sz/dsh-original-skills",
+      "confidence": 0.4,
+      "reason": "Description names a dsh-superagent-setup skill. The repository was empty when checked on 2026-11-02."
+    }
+  ],
+  "rejected_pattern": "GitHub repos whose description is only a sandbox, playground, demo, or test target for the prototype were not listed. Empty repos were not listed.",
+  "npm_note": "latest rechecked 2026-11-02T03:11:01Z as 0.2.1-rc.5. engines.dsh is ^0.2.1-alpha.2. The README no longer records the version string."
+}
