@@ -249,8 +249,10 @@ scripts/dsh-superagent status
 - [saltapp/dsh-superagent-prototype-cn](https://github.com/saltapp/dsh-superagent-prototype-cn) - 📝 社区中文文档.
 - [buyou-claw/dsh-superagent-win](https://github.com/buyou-claw/dsh-superagent-win) - 🔌 Windows 移植。上游只在 POSIX 上启动；这一份把 `PATH` 和 Git 配置收到单条命令上。prepare 要用 PowerShell（`$env:DSH_SUPERAGENT_DIR`），不能用 `sh`。测试仍按 Linux 写.
 - [JHOpenDev/dsh-superagent-inbox](https://github.com/JHOpenDev/dsh-superagent-inbox) - 🔌 给原型加的文件收件箱 Source：一个目录驱动它，不需要外部账号.
+- [wiva-hq/superagent-imessage](https://github.com/wiva-hq/superagent-imessage) - 🔌 实验性的 iMessage Source。本机走 Messages，Linux 走 Photon Spectrum，私聊默认关闭。有 `tests/imessage.spec.ts`，README 没有公开的端到端运行记录.
 - [MYCF711/dsh-session-superagent](https://github.com/MYCF711/dsh-session-superagent) - 🔌 会话级：盯一个 GitHub 仓库，有变化就唤醒会话。自述凭证不进模型.
 - [vicfei/dsh-super-agent](https://github.com/vicfei/dsh-super-agent) - 🔌 独立重实现，给 Claude Code、Codex、opencode 用，不跑在 DSH 上。默认 `observe` 只打印 WOULD-ACCEPT.
+- [LofiSu/deepseek-super-agent](https://github.com/LofiSu/deepseek-super-agent) - 🔌 独立重实现，自带薄 Harness 和 `ds-agent`。Router / Worker、Trigger 和 Watchdog 不跑在 DSH 上，作者写明不是 DeepSeek 产品.
 - [cjy851096/nano-dsh-superagent](https://github.com/cjy851096/nano-dsh-superagent) - 🔌 约 3400 行的独立骨架，用来对照设计长文里原型没有的 Watchdog、异步 `start()` / `stop()` 和 Inline & Spill。不跑在 DSH 上；文中的批处理压测是作者自己的.
 - [HulnotHutu/dsh-superagent-qq](https://github.com/HulnotHutu/dsh-superagent-qq) - 🔌 上游树上的 QQ 群来源。配置过的群里，经 OneBot v11 进来的消息变成 Trigger，回复回到群里。代码在 `src/sources/qq.ts`，说明在 `docs/009-qq-source.md`，本地小工具是 `napq`。作者写明与腾讯无关，用第三方客户端连接 QQ 可能违反用户协议.
 - [Check-mj/dsh-superagent-windows](https://github.com/Check-mj/dsh-superagent-windows) - 🔌 Windows 适配，基线 `6337fc8`，差量在 `WINDOWS-DELTA.md`。另有设计长文里的 Watchdog：独立 Session，默认定时 30 分钟看工单是否停滞，设为 0 则关闭（`src/app/watchdog.ts`）。Router 分片默认关；打开后同一条 Thread 固定进同一个 Router，空分片到第一次投递才创建（`src/app/shards.ts`）。桌面壳不引用上游源码.
