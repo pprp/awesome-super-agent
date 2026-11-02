@@ -247,8 +247,10 @@ scripts/dsh-superagent status
 - [saltapp/dsh-superagent-prototype-cn](https://github.com/saltapp/dsh-superagent-prototype-cn) - 📝 社区中文文档.
 - [buyou-claw/dsh-superagent-win](https://github.com/buyou-claw/dsh-superagent-win) - 🔌 Windows 移植。上游只在 POSIX 上启动；这一份把 `PATH` 和 Git 配置收到单条命令上。prepare 要用 PowerShell（`$env:DSH_SUPERAGENT_DIR`），不能用 `sh`。测试仍按 Linux 写.
 - [JHOpenDev/dsh-superagent-inbox](https://github.com/JHOpenDev/dsh-superagent-inbox) - 🔌 给原型加的文件收件箱 Source：一个目录驱动它，不需要外部账号.
+- [wiva-hq/superagent-imessage](https://github.com/wiva-hq/superagent-imessage) - 🔌 实验性的 iMessage Source。本机走 Messages，Linux 走 Photon Spectrum，私聊默认关闭。有 `tests/imessage.spec.ts`，README 没有公开的端到端运行记录.
 - [MYCF711/dsh-session-superagent](https://github.com/MYCF711/dsh-session-superagent) - 🔌 会话级：盯一个 GitHub 仓库，有变化就唤醒会话。自述凭证不进模型.
 - [vicfei/dsh-super-agent](https://github.com/vicfei/dsh-super-agent) - 🔌 独立重实现，给 Claude Code、Codex、opencode 用，不跑在 DSH 上。默认 `observe` 只打印 WOULD-ACCEPT.
+- [LofiSu/deepseek-super-agent](https://github.com/LofiSu/deepseek-super-agent) - 🔌 独立重实现，自带薄 Harness 和 `ds-agent`。Router / Worker、Trigger 和 Watchdog 不跑在 DSH 上，作者写明不是 DeepSeek 产品.
 
 ## 生态
 
