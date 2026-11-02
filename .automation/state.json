@@ -1,68 +1,32 @@
 {
-  "last_run_at": "2026-11-02T16:36:00Z",
+  "last_run_at": "2026-11-02T17:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "90bd0f5",
+  "baseline_commit": "1a168bd",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-02T15:36:00Z",
-    "to": "2026-11-02T16:36:00Z"
+    "from": "2026-11-02T16:36:00Z",
+    "to": "2026-11-02T17:36:00Z"
   },
-  "added": [
+  "added": [],
+  "updated": [
     {
       "title": "miyako-sa/dsh-superagent",
       "url": "https://github.com/miyako-sa/dsh-superagent",
-      "type": "derivative",
-      "section": "衍生",
-      "confidence": 0.86,
-      "dedupe_key": "github:miyako-sa/dsh-superagent",
-      "published_at": "2026-11-02T16:28:12Z",
-      "why_relevant": "Maintained fork, default branch telegram-source, 7 commits ahead of 6337fc8. Telegram Source extracted. Worker orchestrator_send_file attaches up to 10 files, 50 MB, rejects missing, directory, and relative paths. A finishing report must pass files to orchestrator_report or the tool is already gone. Sources that cannot send files ignore the field. Explicit cards tell the router to answer a non-work direct message. scripts/dsh-superagent recognizes a Node 24 service MainThread. README lead is still upstream."
+      "change": "16:36:21Z d3ba02766 is the 8th commit ahead of 6337fc8. orchestrator_report now takes files_text for the person. Without it, files go out with a one-line name notice. The internal summary is never sent to the person."
     },
     {
-      "title": "NattoCB/dsh-plugin-superagent",
-      "url": "https://github.com/NattoCB/dsh-plugin-superagent",
-      "type": "derivative",
-      "section": "衍生",
-      "confidence": 0.86,
-      "dedupe_key": "github:NattoCB/dsh-plugin-superagent",
-      "published_at": "2026-11-02T16:22:31Z",
-      "why_relevant": "DSH project console, not a prototype fork. Project, Ticket, Assignment, and DSH Session are stored apart. The composer requires an explicit project. No LLM router and no Watchdog. Loopback 3081. Human acceptance. Author's verification.md records one real worker on DSH 0.2.0-rc.2; screenshots are synthetic. Version 0.1.1, peer @deepseek-ai/dsh-llm@0.2.0-rc.2. Different ticket model. MIT."
-    },
-    {
-      "title": "two-workspaces/dsh-superagent",
-      "url": "https://github.com/two-workspaces/dsh-superagent",
-      "type": "derivative",
-      "section": "衍生",
-      "confidence": 0.84,
-      "dedupe_key": "github:two-workspaces/dsh-superagent",
-      "published_at": "2026-11-02T15:47:30Z",
-      "why_relevant": "Unofficial Railway template, no LICENSE. Node 22 image pins prototype 6337fc8 and @deepseek-ai/dsh@0.2.1-rc.3. Management API stays on 127.0.0.1:3082. Caddy basic auth rewrites Host to loopback and strips Origin. /healthz has no password. The image build forces isLoopback true so a public hostname can save model keys. Configure does not change accept mode. README says proactive work stays off and an allowed mention still opens a ticket. Commands run as root."
+      "title": "waixv-superagent/dsh-superagent-prototype",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
+      "change": "17:05Z orchestrator_pipeline_check reads Swarm testruns or a failed Jenkins log on the host; the token stays in executor p4 settings. 17:06Z only the p4 backend follows a pipeline; a git backend ends at the local check. A merged pipeline stays history when a person resumes the ticket. docs/012 still marks the P1 plan gate unimplemented. README lead is still upstream."
     },
     {
       "title": "lyra-planet/claude-superagent",
       "url": "https://github.com/lyra-planet/claude-superagent",
-      "type": "derivative",
-      "section": "衍生",
-      "confidence": 0.84,
-      "dedupe_key": "github:lyra-planet/claude-superagent",
-      "published_at": "2026-11-02T16:19:30Z",
-      "why_relevant": "Independent Claude Code host. Author says the domain core is copied from 6337fc8 with an owns follow-up rule, sessions on Claude Agent SDK 0.3.310. Router has no shell. Worker Bash can be sandboxed. PreToolUse blocks merging its own PR. Extra terminal source. Panel remains 127.0.0.1:3082. Package 0.0.0. README dropped the top unofficial note at 16:19Z; NOTICE.md still credits the prototype. MIT. Not on DSH."
-    }
-  ],
-  "updated": [
-    {
-      "title": "miyako-sa/dsh-superagent-telegram",
-      "url": "https://github.com/miyako-sa/dsh-superagent-telegram",
-      "change": "15:37Z downloads photos, documents, video, and voice into a token-scoped directory and records telegram-files. 15:47Z sends up to 10 attachment documents after the text. The text placeholder remains. Outbound files need the host fork's orchestrator_send_file, which 6337fc8 does not have. Version stays 0.1.0."
-    },
-    {
-      "title": "vicfei/dsh-super-agent",
-      "url": "https://github.com/vicfei/dsh-super-agent",
-      "change": "0.5.0 at 15:53Z pushes dsh/ticket-<n> and opens a PR when the worker exits cleanly with new commits. Delivery failure stays in the report. npm package @vicfei/dsh-super-agent. Default observe still prints WOULD-ACCEPT only."
+      "change": "17:08Z 32d83433d limits sandboxed Bash writes to the ticket directory and drafts. State db, worker git config, and shims are no longer writable. PreToolUse also blocks REST merges, gh deletes, and Grep or Glob from the home directory. The author recorded one request-to-PR run on a test repo with the narrower sandbox. Package stays 0.0.0. SDK stays 0.3.310. README was not in this commit."
     }
   ],
   "pending": [
@@ -190,7 +154,7 @@
       "title": "sisyphuslabs/dori-superagent",
       "url": "https://github.com/sisyphuslabs/dori-superagent",
       "confidence": 0.58,
-      "reason": "herdr + omo harness. The DeepSeek comparison landed at 2026-11-02T04:17:13Z. 16:10Z commits are a restart read-only check and an unpushed-work check. Marketing tone. Not on DSH. Leave it for a deep run."
+      "reason": "herdr + omo harness. The DeepSeek comparison landed at 2026-11-02T04:17:13Z. 16:56Z only blocks closing a lane-owned worktree whose git state cannot be read. Marketing tone. Not on DSH. Leave it for a deep run."
     },
     {
       "title": "ldc861117/sugent",
@@ -251,28 +215,45 @@
       "url": "https://agientry.com/en/articles/deepseek-harness-super-agent",
       "confidence": 0.68,
       "reason": "datePublished and dateModified are 2026-11-01, before this window. English rewrite of the design essay. The body still narrates Watchdog as Harness behavior; the close says some article ideas are future directions. Overlaps the existing 解读 entries. Leave the line-by-line read for a deep run."
+    },
+    {
+      "title": "Ezra-Zhao/dsh-superagent-cheatsheet-es-pt",
+      "url": "https://github.com/Ezra-Zhao/dsh-superagent-cheatsheet-es-pt",
+      "confidence": 0.42,
+      "reason": "Created 2026-11-02T16:54:00Z. One README plus a setup checklist, with GitHub Sponsors, Gumroad, and Ko-fi links. The auth card says default observe only records work and does not start it, which drops the explicit-request exception in docs/002. Do not list until that sentence is fixed."
+    },
+    {
+      "title": "lahavi/awesome-superagent",
+      "url": "https://github.com/lahavi/awesome-superagent",
+      "confidence": 0.62,
+      "reason": "English awesome list created 2026-11-02T16:43:45Z. Mostly the same official docs, plus news recaps and items this list keeps out (hhse/dsh-superagent-setup, deepseekv41flash panel and bridge, pans1es evaluation). Duplicate aggregation. Used only as a clue this hour."
     }
   ],
   "rejected_this_run": [
     {
-      "title": "playgrounds, sandboxes, trials, and smoke repos",
-      "url": "https://github.com/Elvispku/superagent-trial",
-      "reason": "In window: Elvispku/superagent-trial, dylanshawai/dsh-superagent-demo, zzy755241-netizen/superagent-test, Uhao86/agent-playground, Eastdongjun/dsh-superagent-playground, wanggongche/superagent-test, kuangjiguguhao-art/superagent-test."
+      "title": "playgrounds, sandboxes, trials, and ticket workspaces",
+      "url": "https://github.com/iqijun/superagent-playground",
+      "reason": "In window: iqijun/superagent-playground, richardskypixel-max/dsh-superagent-playground, commonrom/superagent-playground, ulekpro100-glitch/terrible-website, mrn86/TestSuperAgent, xxuuzhen-agent/agent-inbox (one init commit, empty language). New forks of 6337fc8 with no commits of their own were not listed."
     },
     {
       "title": "general Harness discussions",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11896",
-      "reason": "Newest discussion is #11896 (2026-11-02T16:06:07Z). #11895 and #11896 do not mention superagent. #11892's 16:08Z comment is a desktop cookie crash. #11700, #11706, #11801, #11805, #11818, #11845, and #11882 had no new comments."
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11901",
+      "reason": "Newest discussion is #11901 (2026-11-02T17:19:03Z). #11897 through #11901 do not mention superagent. #11700, #11706, #11801, #11805, #11818, #11845, and #11882 had no new comments."
     },
     {
       "title": "unchanged listed sentence",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "reason": "MYCF711 0.9.106-0.9.113 through 16:13Z are status-code lists, error age, and preflight speed. hi-unc1e 15:42Z only adds parallel-chat shortcuts. waixv 16:22Z adds an editor-holder row on the overview. The listed sentences stay true."
+      "reason": "MYCF711 0.9.114 at 17:26Z only honors x-poll-interval and waits longer on permanent errors. mycguo main is still d1fa7826d (08:37Z); open PR #11 adds PostgreSQL and is not merged. The listed sentences stay true."
+    },
+    {
+      "title": "not the prototype ticket model",
+      "url": "https://github.com/Herobetrine/super-agent",
+      "reason": "Pushed 17:15Z. Windows studio that drives Codex, Claude Code, DeepSeek Harness, and Antigravity as CLIs. Not a dsh-superagent port."
     },
     {
       "title": "no new primary article in the hour",
       "url": "https://arxiv.org/search/?query=dsh-superagent&searchtype=all",
-      "reason": "arXiv totalResults 0 for dsh-superagent and DeepSeek Super-agent. No harness release. Prototype still 6337fc8. npm latest still 0.2.1-rc.5."
+      "reason": "arXiv totalResults 0. No harness release. Prototype still 6337fc8. npm latest still 0.2.1-rc.5. HN story 50327721 is the official repo and was last updated 01:59Z. cellcog last-modified 16:44Z still has dateModified 2026-11-01. agentspulse, aicybr, helpnetsecurity, and ruijh's 49-chart notes are older than this window."
     }
   ],
   "held_on_other_branches": [
@@ -284,5 +265,5 @@
     "deepseek-harness discussion #11845 (cursor/dsh-super-agent-c285). No new comments this window."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Hourly window only; 2026-11-01 articles stay pending for a deep run.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). Registry modified 2026-10-29T16:01:29.872Z. Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z); package.json version is 0.1.0 and engines.dsh is still ^0.2.1-alpha.2. Newest harness discussion is #11896 (2026-11-02T16:06:07Z). No harness release in this window (newest release dsh-v0.2.1-rc.5 published 2026-10-30T02:12:26Z). cursor/dsh-super-agent-c285 is still 8500aee. Open PRs on this repo: none. Cap remains 5; this run added 4 and updated 2."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). Registry modified 2026-10-29T16:01:29.872Z. Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z); package.json version is 0.1.0 and engines.dsh is still ^0.2.1-alpha.2. Newest harness discussion is #11901 (2026-11-02T17:19:03Z). No harness release in this window (newest release dsh-v0.2.1-rc.5 published 2026-10-30T02:12:26Z). cursor/dsh-super-agent-c285 is still 8500aee. Open PRs on this repo: none. Cap remains 5; this run added 0 and updated 3."
 }
