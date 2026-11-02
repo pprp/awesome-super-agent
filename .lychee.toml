@@ -1,0 +1,11 @@
+# Hosts that answer 403 to link checkers. The pages are real; see README.
+no_progress = true
+timeout = 20
+max_retries = 2
+max_concurrency = 4
+exclude = [
+  '^https://www\.npmjs\.com/',
+  '^https://blog\.eimoon\.com/',
+  '^https://threadnavigator\.com/',
+  '^https://www\.marktechpost\.com/',
+]
