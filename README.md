@@ -191,7 +191,7 @@ scripts/dsh-superagent status
 - 第一次 `start` 以退出码 3 结束，是服务已经起来、但在等配置，不是装坏了。006 的四档：0 正常；1 没在跑、重复实例、无响应或运行时错误，重启可能修好；2 在跑，但来源或 Policy 同步这类部件报错，重启修不好；3 在跑并等待设置，重启修不好。社区笔记：[中文](https://blog.laozhang.ai/zh/posts/deepseek-super-agent-github) / [英文](https://blog.laozhang.ai/en/posts/deepseek-super-agent-github)。那是 API 经销商的博客，作者写明没有真的派完一单；退出码以 006 这张表为准。
 - 没写 `stateDir` 时，面板可能停在别的端口，而不是示例里的 3082。
 - 升级时编辑现有的 `cordis.patch.yml`。不要重新执行 profile 创建命令。
-- Node 24 上 `ps` 的 `comm` 可能显示成 `MainThread`，`status` 会打印空的 `pids` 并以 1 退出，tmux 里其实是健康的。见「讨论」一节的 deepseek-harness#11700。原型仓库关了 Issues，这类讨论在 Harness 仓库。
+- Node 24 上 `ps` 的 `comm` 可能显示成 `MainThread`，`status` 会打印空的 `pids` 并以 1 退出，tmux 里其实是健康的。同一处判断还会让 `stop` 打印已停止、进程和端口却还在，`start` 可能再开一个 tmux 窗口。见「讨论」一节的 deepseek-harness#11700 和 #11805。原型仓库关了 Issues，这类讨论在 Harness 仓库。
 - 通知游标有可能永远跳过一条晚到的提及，同一条讨论里有描述。
 
 ## 概念
@@ -230,6 +230,7 @@ scripts/dsh-superagent status
 - [DeepSeek Super Agent: Complete Guide](https://super-agent.io/deepseek-super-agent/) - 📝 独立站点，声明与官方无关。讲清了 GitHub App 不能替代智能体账号，`observe` 不是把点名请求也暂停。图是概念示意，不是一次真实部署.
 - [From a GitHub Request to a Reviewable PR](https://pragmaticai.substack.com/p/deepseek-superagent-from-a-github) - 📝 两分钟：第一单只改 README 的 Quick Start，先不要合并。文中写明视频里的 diff 不是一次真实 DSH 运行的产物。配套视频：[YouTube](https://www.youtube.com/watch?v=7vYILOY6_nE).
 - [掘金：源码拆解 + 本地部署](https://juejin.cn/post/7702737817416105999) - 📝 七牛的文章，把模型指到他们自己的网关。安装顺序可以作索引；@ 的写法和星数以官方文档和仓库为准.
+- [DSH Superagent 中文源码剖析](https://github.com/yang0228/dsh-superagent-analysis) - 📝 把 Engine、Intake、Policy 和 Executor 钉到 `6337fc8` 的文件和行号。截图是上游组件加演示数据，作者写明没有跑过真实工单.
 - [OpenFree 条目](https://openfree.tools/zh/dsh-superagent) - 📝 一屏 README 复述，不是部署指南.
 
 ### 目录
@@ -249,6 +250,7 @@ scripts/dsh-superagent status
 - [JHOpenDev/dsh-superagent-inbox](https://github.com/JHOpenDev/dsh-superagent-inbox) - 🔌 给原型加的文件收件箱 Source：一个目录驱动它，不需要外部账号.
 - [MYCF711/dsh-session-superagent](https://github.com/MYCF711/dsh-session-superagent) - 🔌 会话级：盯一个 GitHub 仓库，有变化就唤醒会话。自述凭证不进模型.
 - [vicfei/dsh-super-agent](https://github.com/vicfei/dsh-super-agent) - 🔌 独立重实现，给 Claude Code、Codex、opencode 用，不跑在 DSH 上。默认 `observe` 只打印 WOULD-ACCEPT.
+- [cjy851096/nano-dsh-superagent](https://github.com/cjy851096/nano-dsh-superagent) - 🔌 约 3400 行的独立骨架，用来对照设计长文里原型没有的 Watchdog、异步 `start()` / `stop()` 和 Inline & Spill。不跑在 DSH 上；文中的批处理压测是作者自己的.
 
 ## 生态
 
@@ -276,7 +278,7 @@ scripts/dsh-superagent status
 
 ## 讨论
 
-- [Node 24 下 status 看不到进程，晚到的 GitHub 提及可能被游标跳过](https://github.com/deepseek-ai/deepseek-harness/discussions/11700) - 📝 操作向的讨论。同仓库附近的 #11706、#11774、#11781 是补丁，不是指南.
+- [Node 24 下 status 看不到进程，晚到的 GitHub 提及可能被游标跳过](https://github.com/deepseek-ai/deepseek-harness/discussions/11700) - 📝 操作向的讨论。[#11805](https://github.com/deepseek-ai/deepseek-harness/discussions/11805) 补充：`stop` 会打印已停止，进程和端口其实还在。附近的 #11706、#11774、#11781 是补丁，不是指南.
 
 ## Contributing
 
