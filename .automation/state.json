@@ -1,46 +1,26 @@
 {
-  "last_run_at": "2026-11-02T13:48:00Z",
+  "last_run_at": "2026-11-02T14:28:00Z",
   "timezone": "UTC",
-  "baseline_commit": "eb5f8e4",
+  "baseline_commit": "cde016d",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-02T12:52:00Z",
-    "to": "2026-11-02T13:48:00Z"
+    "from": "2026-11-02T13:48:00Z",
+    "to": "2026-11-02T14:28:00Z"
   },
   "added": [
     {
-      "title": "MingoYung/dsh-superagent-power",
-      "url": "https://github.com/MingoYung/dsh-superagent-power",
+      "title": "ForkbombEu/superagent",
+      "url": "https://github.com/ForkbombEu/superagent",
       "type": "derivative",
       "section": "衍生",
-      "confidence": 0.91,
-      "dedupe_key": "github:MingoYung/dsh-superagent-power",
-      "published_at": "2026-11-02T13:16:10Z",
-      "why_relevant": "DSH composer plugin, not a ticket-engine rewrite. A Sup switch shared by DSH_HOME plus the superagent profile starts and stops an already installed profile. Stop calls Runtime.stop() then appExit, and the UI stays on until the process is gone. Busy work needs a second confirmation. Spawn is node <cli> --profile superagent --no-open. Verified by the author on Windows, DSH NEXT 2.0.21-next, embedded 0.2.1-rc.4, CLI 0.2.1-rc.5. macOS and Linux are not verified. Version 0.1.0. engines.dsh is 0.2.1-rc.4 or rc.5. Not a DeepSeek plugin. MIT. Head dbde1c5484 at 13:21:18Z."
-    },
-    {
-      "title": "lesterppo/dsh-superagent-rs",
-      "url": "https://github.com/lesterppo/dsh-superagent-rs",
-      "type": "derivative",
-      "section": "衍生",
-      "confidence": 0.87,
-      "dedupe_key": "github:lesterppo/dsh-superagent-rs",
-      "published_at": "2026-11-02T13:18:10Z",
-      "why_relevant": "Rust 0.1.0 port of the prototype core: model, policy gate, engine, and a cwd-scoped worker that refuses path escapes. Replies go to an outbox. No panel, DSH session, cordis bundle, or Feishu/GitHub sender. Inferred accept outside auto is recorded as would-accept and ignored. Muse Spark and DeepSeek chat clients exist; the author says Muse has no key and the worker exits instead of faking a call. Not on DSH. MIT. Single commit 13de3d885a."
-    },
-    {
-      "title": "RichardoMrMu/mini-super-agent",
-      "url": "https://github.com/RichardoMrMu/mini-super-agent",
-      "type": "derivative",
-      "section": "衍生",
-      "confidence": 0.84,
-      "dedupe_key": "github:RichardoMrMu/mini-super-agent",
-      "published_at": "2026-11-02T13:07:50Z",
-      "why_relevant": "Teaching event engine. THIRD_PARTY_NOTICES cites 6337fc8 and the design essay and says no upstream files were copied. One fixture walks session-await, router/workers, thread pass-through, and SQLite crash recovery. Deterministic mock model, no GitHub, not on DSH. engines node >=22.5 <23. Author says it is not a production framework. MIT. Later commits in the hour only repair doc and test bytes. Head moved through 13:36:44Z."
+      "confidence": 0.88,
+      "dedupe_key": "github:ForkbombEu/superagent",
+      "published_at": "2026-11-02T13:42:08Z",
+      "why_relevant": "Missed by the 13:48Z run: repo name is superagent, not dsh-superagent. Unofficial Coolify Compose package, no LICENSE. Created 11:19Z; in-window commit 3d4577e4 at 13:42:08Z adds Caddy basic auth. Node 24 image clones prototype main and installs @deepseek-ai/dsh@0.2.1-rc.3. Management API stays on 127.0.0.1:3082; a sidecar rewrites Host. Outer Coolify Caddy applies HTTP basic auth to every path. README says the Coolify path is not end-to-end tested and that observe still accepts explicit allowlisted requests."
     }
   ],
   "updated": [],
@@ -206,28 +186,39 @@
       "url": "https://neoneye.github.io/agent-memory-atlas/systems/dsh-superagent/",
       "confidence": 0.62,
       "reason": "Page title matches and HTTP 200. The first bytes have no date. Not compared with 6337fc8 this hour. Leave it for a deep run."
+    },
+    {
+      "title": "Zn-Dk/codex-team-chat",
+      "url": "https://github.com/Zn-Dk/codex-team-chat",
+      "confidence": 0.55,
+      "reason": "HEAD fcb562459fae at 2026-11-02T13:56:45Z, inside this window. Codex Desktop multi-chat skill. Cites the prototype as inspiration and does not implement Trigger, Mandate, Ticket, Eval, or Sources."
     }
   ],
   "rejected_this_run": [
     {
       "title": "playgrounds, sandboxes, and ticket workspaces",
-      "url": "https://github.com/pengchengwanli2024/superagent-playground",
-      "reason": "Repos pushed so an agent has somewhere to open a PR. In this window: pengchengwanli2024/superagent-playground, dshxp75/superagent-playground, 20chuangge/superagent-sandbox, 123qazQAZ255/superagent-sandbox, SingchiWong/dsh-superagent-test, wuyaqi45/superagent-sandbox, aiheiwukong-agent/superagent-playground, 1966536949/superagent-sandbox, junglejsd/superagent-demo, fat-blue-fish/dsh-superagent-playground."
+      "url": "https://github.com/stilllostinla/superagent-playground",
+      "reason": "After 13:48Z: stilllostinla/superagent-playground, wzsh26/dsh-superagent-my-workspace, wuRDmemory/dsh-superagent-test, lilu668/superagent-playground, gturkmenlabs/superagent-playground, gj86942341-agent/superagent-sandbox."
     },
     {
-      "title": "empty or stub repos",
-      "url": "https://github.com/Ghostaiczp/dsh-superagent",
-      "reason": "Ghostaiczp/dsh-superagent is an empty repo created at 13:24Z."
+      "title": "empty repos",
+      "url": "https://github.com/watercuper/dsh-superagent",
+      "reason": "watercuper/dsh-superagent is empty (14:03Z). vsim1964/dsh-superagent was created empty at 14:32:27Z, after this window."
     },
     {
       "title": "general Harness discussions",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11875",
-      "reason": "Titles checked for #11875 Windows web_fetch EACCES, #11876 manual session sort, #11877 input history, #11878 DSH Forum sidebar, #11879 Codex tool-call pairing, #11880 multi-line chat titles, #11881 401 reported as QUOTA. None are the superagent bundle. #11882 is pending, not an operational finding."
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11886",
+      "reason": "Newest discussion is #11886 (2026-11-02T14:26:48Z), a plugin rollback bug. #11883 through #11886 do not mention superagent. #11700, #11706, #11801, #11805, #11818, and #11845 had no new comments. #11882 was already pending and gained no comments."
     },
     {
-      "title": "unrelated repos updated in the window",
-      "url": "https://github.com/bytedance/deer-flow",
-      "reason": "bytedance/deer-flow is a general long-horizon harness. latifmuzakki289-commits/Superagent-deepseek describes a productivity helper and is not the DSH prototype. MYCF711 0.9.72-0.9.75 through 13:45Z is glossary, panel wording, and injection tests; the listed sentence stays true."
+      "title": "unchanged listed sentence",
+      "url": "https://github.com/MYCF711/dsh-session-superagent",
+      "reason": "MYCF711 0.9.83-0.9.87 through 14:24:56Z are status, ack, and UI sort commits. The listed sentence stays true. 0.9.88 at 14:29:34Z is after this window."
+    },
+    {
+      "title": "no new primary article",
+      "url": "https://arxiv.org/search/?query=dsh-superagent&searchtype=all",
+      "reason": "arXiv totalResults 0 for dsh-superagent and DeepSeek Super-agent. HN Algolia had no in-window superagent story or comment. Reddit and V2EX had no new primary source."
     }
   ],
   "held_on_other_branches": [
@@ -239,5 +230,5 @@
     "deepseek-harness discussion #11845 (cursor/dsh-super-agent-c285). No new comments this window."
   ],
   "rejected_pattern": "Sandbox, playground, demo, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Hourly window only; 2026-11-01 articles stay pending for a deep run.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). Prototype still has a single commit, 6337fc8 (committer 2026-10-31T12:05:39Z, pushed_at 2026-10-31T12:05:51Z). Newest harness discussion is #11882 (2026-11-02T13:34:42Z); #11875-#11881 do not mention superagent, and #11882 is a contribution note without a reproduced defect. MYCF711 0.9.72-0.9.75 through 13:45Z does not change the listed sentence. wiva-hq, mitkox, and aicodeking had no commit that falsifies the listed sentences. PR #15 is closed and unmerged. cursor/dsh-super-agent-c285 is still 8500aee. Docs and the product page still do not mention superagent."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). Registry modified 2026-10-29T16:01:29.872Z. Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z); package.json engines.dsh is still ^0.2.1-alpha.2. Newest harness discussion is #11886 (2026-11-02T14:26:48Z). Docs site last-modified 2026-10-17 and the product page last-modified 2026-10-29; neither page mentions superagent. No harness release in this window (newest release dsh-v0.2.1-rc.5 published 2026-10-30T02:12:26Z). cursor/dsh-super-agent-c285 is still 8500aee. PR #15 stayed closed unmerged."
 }

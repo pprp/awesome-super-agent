@@ -151,6 +151,7 @@ Super-agent 在这里指官方仓库里的 dsh-superagent-prototype。它跑在 
 - [MingoYung/dsh-superagent-power](https://github.com/MingoYung/dsh-superagent-power) - 🔌 DSH 输入栏里的全局开关，管已经装好的独立 superagent profile，不重写工单引擎。开关属于 `DSH_HOME` 加这个 profile，不属于某个会话。关闭先调用 `Runtime.stop()`，再 `appExit`；确认进程退出后界面才显示已关闭，有活动任务时要再确认才会中断。子进程是 `node <cli> --profile superagent --no-open`。作者在 Windows、DSH NEXT `2.0.21-next`、内嵌 `0.2.1-rc.4`、独立 CLI `0.2.1-rc.5` 上验收过，macOS 和 Linux 还没有。版本 0.1.0，`engines.dsh` 钉在 `0.2.1-rc.4` 或 `rc.5`。不是 DeepSeek 的插件。MIT.
 - [lesterppo/dsh-superagent-rs](https://github.com/lesterppo/dsh-superagent-rs) - 🔌 原型核心的 Rust 0.1.0 移植：领域模型、Policy 门禁和 Engine，Worker 在本地目录里跑，路径逃逸会拒绝。回复只记进 outbox，不发飞书或 GitHub，也没有面板、DSH Session 和 cordis 打包。不在 `auto` 时，推断接受记成 would-accept 再忽略。可以接 Muse Spark 或 DeepSeek 的聊天接口；作者写明 Muse 还没有密钥，缺密钥就退出，不假装调用成功。不跑在 DSH 上。MIT.
 - [RichardoMrMu/mini-super-agent](https://github.com/RichardoMrMu/mini-super-agent) - 🔌 教学用的事件引擎，对照设计长文和 `6337fc8`，没有复制上游文件。同一份 fixture 分四步看会话阻塞、Router / Worker、线程直通和 SQLite 崩溃恢复。模型是确定性 mock，不接 GitHub，也不跑在 DSH 上。Node 从 22.5 起、不到 23。作者写明不是生产框架。MIT.
+- [ForkbombEu/superagent](https://github.com/ForkbombEu/superagent) - 🔌 非官方的 Coolify Compose 包，仓库没有 LICENSE。镜像是 Node 24，克隆原型 `main`，全局安装 `@deepseek-ai/dsh@0.2.1-rc.3`。管理接口仍只听 `127.0.0.1:3082`，旁边的 Caddy 把 Host 改回这个地址；外层 Coolify 的 Caddy 对全部路径做 HTTP Basic Auth。README 写明这条路径没有做完端到端测试，也写明默认 `observe` 仍会做名单里的点名请求。不要把 3082 直接公布出去.
 
 ## 生态
 
