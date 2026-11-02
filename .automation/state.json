@@ -1,36 +1,26 @@
 {
-  "last_run_at": "2026-11-02T10:32:00Z",
+  "last_run_at": "2026-11-02T11:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "8fd8143",
+  "baseline_commit": "7d8b056",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-02T09:43:00Z",
-    "to": "2026-11-02T10:32:00Z"
+    "from": "2026-11-02T10:32:00Z",
+    "to": "2026-11-02T11:36:00Z"
   },
   "added": [
     {
-      "title": "xyzOvO/dsh-superagent-prototype",
-      "url": "https://github.com/xyzOvO/dsh-superagent-prototype",
+      "title": "jwangkun/dsh-superagent",
+      "url": "https://github.com/jwangkun/dsh-superagent",
       "type": "derivative",
       "section": "衍生",
-      "confidence": 0.84,
-      "dedupe_key": "github:xyzOvO/dsh-superagent-prototype",
-      "published_at": "2026-11-02T10:01:49Z",
-      "why_relevant": "Default branch fix/windows-support is two commits ahead of 6337fc8. Six win32-only plugin changes: drive-letter absolute paths, an environment object instead of env(1), prepare via cmd.exe, pwsh on the orchestrator allowlist so tools.restrict does not fail plugin load, plus gh.cmd skipped by the foreign-file scan. The author records one Windows 11 / Node 24 issue-to-PR round trip. scripts/dsh-superagent still needs fcntl; Windows uses the panel or HTTP API. Different contract from buyou-claw's boot wrapper."
-    },
-    {
-      "title": "0xdrmnhttn13/dsh-superagent-prototype",
-      "url": "https://github.com/0xdrmnhttn13/dsh-superagent-prototype",
-      "type": "derivative",
-      "section": "衍生",
-      "confidence": 0.91,
-      "dedupe_key": "github:0xdrmnhttn13/dsh-superagent-prototype",
-      "published_at": "2026-11-02T10:23:56Z",
-      "why_relevant": "Commit c905b96 removes the DSH runtime and ships Superagent Investigator. SQLite still holds Trigger, Policy, Mandate, Ticket, and Assignment. Pi sessions register only sa_context, sa_evidence, and sa_report. Intake is an owner-only Unix socket for UTF-8 evidence. No GitHub or Feishu source. Restrictions are application-level, not an OS sandbox. MIT."
+      "confidence": 0.88,
+      "dedupe_key": "github:jwangkun/dsh-superagent",
+      "published_at": "2026-11-02T10:51:25Z",
+      "why_relevant": "Community branch of 6337fc8, not a deepseek-ai repo. A message from the agent account is its own explicit request only when the body starts with @login; other self-authored text is still skipped, on both notification intake and repository polling. setup applies PATH and GIT_CONFIG_* only for the check, then restores them. Default stateDir is state/dsh-superagent. package.json is 0.1.3, GitHub releases stop at v0.1.2, and npm has no dsh-superagent package. The repo ships a built lib/. MIT."
     }
   ],
   "updated": [],
@@ -39,7 +29,7 @@
       "title": "effortprogrammer/oh-my-dsh-superagent",
       "url": "https://github.com/effortprogrammer/oh-my-dsh-superagent",
       "confidence": 0.46,
-      "reason": "Specification only. README says nothing is installable yet and no license is chosen. Inspired by the prototype, no code."
+      "reason": "Specification only as of the prior run. gh api returned 404 this hour, so it was not re-checked."
     },
     {
       "title": "qdriven/dsh-innate-agent",
@@ -117,7 +107,13 @@
       "title": "szocpaul/dsh-superagent-prototype",
       "url": "https://github.com/szocpaul/dsh-superagent-prototype",
       "confidence": 0.7,
-      "reason": "Prime Runner Bridge lives on agent/run-smoke-fixture-8b43e5eb9239, not main. In-window commit only moves the private socket into the account runtime directory."
+      "reason": "main is still 6ecfb7479 (2026-11-01). Prime Runner Bridge tip 001-prime-runner-bridge is e04ed796b from 2026-11-01. Branch agent/run-smoke-fixture-8b43e5eb9239 moved at 2026-11-02T11:34:01Z (bind the tool the runner kernel is set up with). Not the default branch."
+    },
+    {
+      "title": "Ryosnow/dsh-superagent-prototype",
+      "url": "https://github.com/Ryosnow/dsh-superagent-prototype",
+      "confidence": 0.48,
+      "reason": "docs-zh (386f1cc, 2026-11-02T10:39:56Z) adds Chinese _zh.md siblings and doc tests. main is still 6337fc8. Overlaps the listed saltapp Chinese docs. Not the default branch."
     },
     {
       "title": "tpx-bsd/dsh-superagent-prototype",
@@ -159,33 +155,33 @@
   "rejected_this_run": [
     {
       "title": "playgrounds, sandboxes, and ticket workspaces",
-      "url": "https://github.com/ffff2525/superagent-trial",
-      "reason": "Empty or trial repos pushed so an agent has somewhere to open a PR. Includes ffff2525/superagent-trial, wzshangzhong/dsh-superagent-my-workspace, yuzihang777/superagent-playground, beiluo/dsh-superagent-demo, FuShengWu/dsh_superagent_test, miluokou/superagent-test, Jawawad/superagent-test, latifmuzakki289-commits/Superagent-deepseek, jz-agent/superagent-test, shenming188-web/superagent-playground, and writeuper/super-agent-learn."
+      "url": "https://github.com/SS-LAU/dsh-superagent-playground",
+      "reason": "Repos pushed so an agent has somewhere to open a PR. In this window: SS-LAU/dsh-superagent-playground, beiluo/dsh-superagent-demo, MechaVanguard/dsh-superagent-test, damon2012/dsh-superagent-test, Jiangyuguo99999/dsh-superagent-demo, dandyyan/dsh-superagent-playground, 1565341095/erp-agent-lab, meetcfz/superagent-lab, ffff2525/superagent-trial, ymingming375-netizen/superagent-test, jnyross/UnpoliticalDeepSeekSuperAgent, junglejsd/superagent-demo."
+    },
+    {
+      "title": "empty or stub repos",
+      "url": "https://github.com/wu2176292786-collab/dsh-superagent",
+      "reason": "wu2176292786-collab/dsh-superagent is an empty repo (HTTP 409). zyonlyforf-create/DSH_superagent is one 37-byte README. weichen74/dsh_superagent returned 404."
     },
     {
       "title": "unchanged mirrors",
-      "url": "https://github.com/novus-qzz/dsh-superagent-prototype",
-      "reason": "novus-qzz matches 6337fc8. arcabotai was pushed at 09:24Z and is back to that same commit. seifly has no commit after 09:43Z."
+      "url": "https://github.com/tom-dsh-agent/dsh-superagent-prototype",
+      "reason": "New forks whose main is still 6337fc8: tom-dsh-agent (pushed_at 11:23Z is not a new main commit), The-Best-K, winson-AI, yh22e, HaoTang9878, Jeandoom, cttoy, s20sc, liaohcc, fabricioabarzan-source, HA0329. Ryosnow main is the same; its docs-zh branch is pending."
     },
     {
-      "title": "news recaps and API-key guides",
-      "url": "https://teamorouter.com/blogs/deepseek-super-agent",
-      "reason": "TeamoRouter is an API-key install guide, which CONTRIBUTING excludes. frontiernow.dev and the already-pending TNGlobal note restate the launch."
-    },
-    {
-      "title": "unrelated agent repos",
-      "url": "https://github.com/oryx-labs/SuperAgent",
-      "reason": "oryx-labs/SuperAgent is empty. bassemZohdy/super-app-agent, agentscope-ai/QwenPaw, RudyCity/superagent, siliconwitchery/superstack-agent-plugins, and caixuf/super-agent are not dsh-superagent."
+      "title": "general Harness discussions",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11866",
+      "reason": "#11862 admission Peer, #11863 settings.section slot clash, #11864 session/search FTS, #11865 compaction, #11866 dsh-subagent-codebuddy, and #11867 junction realpath do not mention the superagent bundle. #11866 is a general CodeBuddy subagent plugin (lloydzhou/dsh-subagent-codebuddy, repo last push 08:30Z)."
     }
   ],
   "held_on_other_branches": [
     "hhse/dsh-superagent-setup (draft PR #15)",
     "wiva-hq/superagent-imessage Photon v2 sentence (draft PR #15)",
-    "abubakarsiddik31/super-agent-2 (cursor/dsh-super-agent-c285 still 8500aee). Repo itself moved: 10:09Z coding-agent CLI over MCP, 10:23Z end-to-end ticket on the standalone host. Do not copy the branch.",
-    "GeekGold/aion (cursor/dsh-super-agent-c285 still 8500aee). 10:22Z Phase 7 read-only Worker tool; 10:24Z Phase 8 installs the trigger as a plugin and adds aion super-agent run --source. Do not copy the branch.",
+    "abubakarsiddik31/super-agent-2 (cursor/dsh-super-agent-c285 still 8500aee). No push after 10:24:24Z. Do not copy the branch.",
+    "GeekGold/aion (cursor/dsh-super-agent-c285 still 8500aee). No push after 10:25:27Z. Do not copy the branch.",
     "pans1es/superagent-prototype-evaluation (cursor/dsh-super-agent-c285). No commits this window.",
     "deepseek-harness discussion #11845 (cursor/dsh-super-agent-c285). No new comments."
   ],
   "rejected_pattern": "Sandbox, playground, demo, mirror, empty, and ticket-workspace repositories were not listed. Windows ports that only wrap the POSIX boot scripts stay out while buyou-claw/dsh-superagent-win is listed. xyzOvO is listed because the plugin itself does not load on win32 until the allowlist, path, and gh.cmd contract changes. Closed unmerged PRs #3 and #7 stay out until a human asks. Draft PR #15 and cursor/dsh-super-agent-c285 were not copied.",
-  "npm_note": "latest remains 0.2.1-rc.5. Prototype still has a single commit, 6337fc8. Newest harness discussion is #11861 (2026-11-02T10:21:18Z); #11856–#11861 do not mention superagent. Listed discussions #11700, #11706, #11801, #11805, and #11818 had no new comments. MYCF711 0.9.8–0.9.12 adds an event timeline for missed wake-ups and does not change the listed sentence. alasong/ssa1101 console commits through 10:01Z still leave SessionFactory described as a stub. LofiSu memory dedupe, ds-agent serve, ingress rules, and the A2A adapter contract do not make the listed sentence false. Docs and the product page still do not mention superagent."
+  "npm_note": "latest remains 0.2.1-rc.5. Prototype still has a single commit, 6337fc8. Newest harness discussion is #11867 (2026-11-02T11:34:56Z); #11862–#11867 do not mention superagent. Listed discussions #11700, #11706, #11801, #11805, #11818, and #11845 had no new comments. MYCF711 0.9.38–0.9.45 (through 11:32Z) adds watch_status JSON and a docs test-count check and does not change the listed sentence. 0xdrmnhttn13 main is still c905b96; later pushes are side branches. LofiSu #69 at 10:32:12Z enforces shard precedence and reply ownership and does not make the listed sentence false. sisyphuslabs/dori-superagent default branch is still the 09:56Z report-template commit. Docs and the product page still do not mention superagent."
 }
