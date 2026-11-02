@@ -1,39 +1,40 @@
 {
-  "last_run_at": "2026-11-02T11:36:00Z",
+  "last_run_at": "2026-11-02T12:52:00Z",
   "timezone": "UTC",
-  "baseline_commit": "7d8b056",
+  "baseline_commit": "4611bd6",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-02T10:32:00Z",
-    "to": "2026-11-02T11:36:00Z"
+    "from": "2026-11-02T11:36:00Z",
+    "to": "2026-11-02T12:52:00Z"
   },
   "added": [
     {
-      "title": "jwangkun/dsh-superagent",
-      "url": "https://github.com/jwangkun/dsh-superagent",
+      "title": "aicodeking/dsh-superagent-gui",
+      "url": "https://github.com/aicodeking/dsh-superagent-gui",
       "type": "derivative",
       "section": "衍生",
-      "confidence": 0.88,
-      "dedupe_key": "github:jwangkun/dsh-superagent",
-      "published_at": "2026-11-02T10:51:25Z",
-      "why_relevant": "Community branch of 6337fc8, not a deepseek-ai repo. A message from the agent account is its own explicit request only when the body starts with @login; other self-authored text is still skipped, on both notification intake and repository polling. setup applies PATH and GIT_CONFIG_* only for the check, then restores them. Default stateDir is state/dsh-superagent. package.json is 0.1.3, GitHub releases stop at v0.1.2, and npm has no dsh-superagent package. The repo ships a built lib/. MIT."
-    },
+      "confidence": 0.91,
+      "dedupe_key": "github:aicodeking/dsh-superagent-gui",
+      "published_at": "2026-11-02T12:31:53Z",
+      "why_relevant": "Local web GUI created in this window. An installed agent CLI works in a git worktree or a plain copy; the folder changes only on Merge or Apply. Keeps Trigger, Mandate, and default observe (inferred work becomes a suggestion). Leaves out Feishu, GitHub polling, and cordis packaging. DSH is spawned as dsh --profile headless and the README marks that live run unconfirmed. Node 22.12+, no runtime dependencies, version 0.1.0. macOS and Linux. Not a DeepSeek product. MIT, copyright retained for the DeepSeek Harness Team."
+    }
+  ],
+  "updated": [
     {
       "title": "mitkox/copilot-superagent",
       "url": "https://github.com/mitkox/copilot-superagent",
-      "type": "derivative",
+      "type": "update",
       "section": "衍生",
-      "confidence": 0.86,
+      "confidence": 0.93,
       "dedupe_key": "github:mitkox/copilot-superagent",
-      "published_at": "2026-11-02T10:45:47Z",
-      "why_relevant": "Independent VS Code extension. Ticket engine comes from 6337fc8; execution is a GitHub Copilot SDK 1.0.28 session with one git worktree per ticket. Intake is Copilot Chat, GitHub, and Microsoft Teams. DSH is not installed. The service stops when the extension host closes. Commands still use the operator's OS privileges. Version 0.3.0. The 10:45Z merge retains shell leases and scopes Teams polling. Author says it is not a GitHub, Microsoft, or DeepSeek product. MIT."
+      "published_at": "2026-11-02T11:41:11Z",
+      "why_relevant": "Merge 693f4db makes version 0.3.0 false. vscode/package.json is 0.4.0. The same change removes the legacy DSH runtime, Feishu, the web panel, and the launcher. README now requires Copilot Business or Enterprise plus Copilot CLI 1.0.105 (protocol 3), still SDK 1.0.28, and blocks custom providers and personal-plan inference endpoints. Intake, worktree-per-ticket, host lifetime, and the non-affiliation sentence stay."
     }
   ],
-  "updated": [],
   "pending": [
     {
       "title": "effortprogrammer/oh-my-dsh-superagent",
@@ -105,7 +106,7 @@
       "title": "Haizhilingyu/dsh-superagent-prototype",
       "url": "https://github.com/Haizhilingyu/dsh-superagent-prototype",
       "confidence": 0.78,
-      "reason": "main is still 6337fc8. Branch remote-executor (09:18Z) adds RemoteExecutor and a Node daemon for pi workers. Not the default branch."
+      "reason": "main is still 6337fc8. Branch remote-executor tip 1602ba2 at 2026-11-02T12:14:53Z only injects DSH_SUPERAGENT_* into the prepare command. Not the default branch."
     },
     {
       "title": "shiw-yang/dsh-superagent-prototype",
@@ -117,7 +118,7 @@
       "title": "szocpaul/dsh-superagent-prototype",
       "url": "https://github.com/szocpaul/dsh-superagent-prototype",
       "confidence": 0.7,
-      "reason": "main is still 6ecfb7479 (2026-11-01). Prime Runner Bridge tip 001-prime-runner-bridge is e04ed796b from 2026-11-01. Branch agent/run-smoke-fixture-8b43e5eb9239 moved at 2026-11-02T11:34:01Z (bind the tool the runner kernel is set up with). Not the default branch."
+      "reason": "main is still 6ecfb7479 (2026-11-01). Branch agent/run-smoke-fixture-8b43e5eb9239 moved again at 2026-11-02T12:50:30Z (54d84ef: let a ticket run again after its last segment stopped). Not the default branch."
     },
     {
       "title": "Ryosnow/dsh-superagent-prototype",
@@ -159,29 +160,46 @@
       "title": "sisyphuslabs/dori-superagent",
       "url": "https://github.com/sisyphuslabs/dori-superagent",
       "confidence": 0.58,
-      "reason": "herdr + omo harness. The DeepSeek comparison landed at 2026-11-02T04:17:13Z. This window only skips unfilled [REPORT] templates. Marketing tone. Not on DSH. Leave it for a deep run."
+      "reason": "herdr + omo harness. The DeepSeek comparison landed at 2026-11-02T04:17:13Z. Later commits stay on the report loop. Marketing tone. Not on DSH. Leave it for a deep run."
+    },
+    {
+      "title": "ldc861117/sugent",
+      "url": "https://github.com/ldc861117/sugent",
+      "confidence": 0.72,
+      "reason": "MIT workbench. packages/dsh-superagent is a git subtree of the prototype (package 0.1.0) and src/sugent/kernel.ts is an owner-only Intake to Eval gate (accept_act, accept_observe, attach_ticket, ignore_noise). That landing is 2026-11-02T07:12:53Z, before this window. In-window commits are OverlayFS hot-evolution (11:43Z) and mac ad-hoc signing (12:30Z). README is promotional. Leave the listing for a deep run."
+    },
+    {
+      "title": "Zekk-creator/deepseek-super-agent-analysis",
+      "url": "https://github.com/Zekk-creator/deepseek-super-agent-analysis",
+      "confidence": 0.64,
+      "reason": "Personal illustrated notes of the 2026-10-31 design essay, added 2026-11-02T12:07:49Z. No code and no license. Overlaps the essay and the existing 解读 entries. Links a 2026-11-01 ccino.org recap and an uml.org.cn reprint of the original essay."
     }
   ],
   "rejected_this_run": [
     {
       "title": "playgrounds, sandboxes, and ticket workspaces",
-      "url": "https://github.com/SS-LAU/dsh-superagent-playground",
-      "reason": "Repos pushed so an agent has somewhere to open a PR. In this window: SS-LAU/dsh-superagent-playground, beiluo/dsh-superagent-demo, MechaVanguard/dsh-superagent-test, damon2012/dsh-superagent-test, Jiangyuguo99999/dsh-superagent-demo, dandyyan/dsh-superagent-playground, 1565341095/erp-agent-lab, meetcfz/superagent-lab, ffff2525/superagent-trial, ymingming375-netizen/superagent-test, jnyross/UnpoliticalDeepSeekSuperAgent, junglejsd/superagent-demo."
+      "url": "https://github.com/fat-blue-fish/dsh-superagent-playground",
+      "reason": "Repos pushed so an agent has somewhere to open a PR. In this window: fat-blue-fish/dsh-superagent-playground, panbin0054/superagent-demo, beiluo/dsh-superagent-demo, mikimiki-agent/sandbox, Louis-Lao-03/agent-playground, TravisWangchn/dsh-superagent-test, WorldTree12306/superagent-playground, worldye/superagent-playground, jz-agent/superagent-test, wuRDmemory/dsh-superagent-test, Zachary-Libra/dsh-superagent-playground, Jiangyuguo99999/dsh-superagent-demo."
     },
     {
       "title": "empty or stub repos",
-      "url": "https://github.com/wu2176292786-collab/dsh-superagent",
-      "reason": "wu2176292786-collab/dsh-superagent is an empty repo (HTTP 409). zyonlyforf-create/DSH_superagent is one 37-byte README. weichen74/dsh_superagent returned 404."
+      "url": "https://github.com/gj86942341-dsh/sturdy-dsc",
+      "reason": "gj86942341-dsh/sturdy-dsc is a one-line README. mahdisikandary-code/dsh-superagent-test and L-Harukaze/Deepseek_Super_Agent are empty."
     },
     {
       "title": "unchanged mirrors",
-      "url": "https://github.com/tom-dsh-agent/dsh-superagent-prototype",
-      "reason": "New forks whose main is still 6337fc8: tom-dsh-agent (pushed_at 11:23Z is not a new main commit), The-Best-K, winson-AI, yh22e, HaoTang9878, Jeandoom, cttoy, s20sc, liaohcc, fabricioabarzan-source, HA0329. Ryosnow main is the same; its docs-zh branch is pending."
+      "url": "https://github.com/GreyCatVP/dsh-superagent-prototype",
+      "reason": "GreyCatVP/dsh-superagent-prototype was created this hour and its only commit is still 6337fc8."
     },
     {
       "title": "general Harness discussions",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11866",
-      "reason": "#11862 admission Peer, #11863 settings.section slot clash, #11864 session/search FTS, #11865 compaction, #11866 dsh-subagent-codebuddy, and #11867 junction realpath do not mention the superagent bundle. #11866 is a general CodeBuddy subagent plugin (lloydzhou/dsh-subagent-codebuddy, repo last push 08:30Z)."
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11868",
+      "reason": "#11868 is a Cordis 3D map, #11869 is a general DSH self-development note, #11870 is a desktop crash after force-quit, and #11871 is PhoneDSH. None mention the superagent bundle. #11700, #11706, #11801, #11805, #11818, and #11845 had no new comments."
+    },
+    {
+      "title": "unrelated repos updated in the window",
+      "url": "https://github.com/RudyCity/superagent",
+      "reason": "RudyCity/superagent is a Bun terminal assistant. JavierFrancoLeal/jfranco-agentic-suite is a DSH governance suite using the Super Agent name. zeng6125-rgb/dsh-supervisor is a general transcript reviewer. V2EX t/1253930 name-drops the prototype and links no new source. HN had no superagent story. No new arXiv paper or primary article in the window."
     }
   ],
   "held_on_other_branches": [
@@ -193,5 +211,5 @@
     "deepseek-harness discussion #11845 (cursor/dsh-super-agent-c285). No new comments."
   ],
   "rejected_pattern": "Sandbox, playground, demo, mirror, empty, and ticket-workspace repositories were not listed. Windows ports that only wrap the POSIX boot scripts stay out while buyou-claw/dsh-superagent-win is listed. xyzOvO is listed because the plugin itself does not load on win32 until the allowlist, path, and gh.cmd contract changes. Closed unmerged PRs #3 and #7 stay out until a human asks. Draft PR #15 and cursor/dsh-super-agent-c285 were not copied.",
-  "npm_note": "latest remains 0.2.1-rc.5. Prototype still has a single commit, 6337fc8. Newest harness discussion is #11867 (2026-11-02T11:34:56Z); #11862–#11867 do not mention superagent. Listed discussions #11700, #11706, #11801, #11805, #11818, and #11845 had no new comments. MYCF711 0.9.38–0.9.45 (through 11:32Z) adds watch_status JSON and a docs test-count check and does not change the listed sentence. 0xdrmnhttn13 main is still c905b96; later pushes are side branches. LofiSu #69 at 10:32:12Z enforces shard precedence and reply ownership and does not make the listed sentence false. sisyphuslabs/dori-superagent default branch is still the 09:56Z report-template commit. Docs and the product page still do not mention superagent."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z). Newest harness discussion is #11871 (2026-11-02T12:19:17Z); #11868–#11871 do not mention superagent. MYCF711 0.9.65–0.9.69 through 12:31Z are gate-injection tests and a hardcoded-color metric fix; the listed sentence stays true. jwangkun and wiva-hq had no commit after 11:36Z. Draft PR #15 is still open. cursor/dsh-super-agent-c285 is still 8500aee. Docs and the product page still do not mention superagent."
 }
