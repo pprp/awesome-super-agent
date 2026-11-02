@@ -3,6 +3,8 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > DeepSeek Harness（DSH）里 Super-agent 的精选清单。先看怎么用一次，再按类找官方、设计、文档、部署、解读和周边。
+>
+> *English:* a curated list of links for the [dsh-superagent research prototype](https://github.com/deepseek-ai/dsh-superagent-prototype), a proactive coding agent that runs on [DeepSeek Harness](https://www.deepseek.com/en/harness/). It is a research prototype, not a DeepSeek product. Entries are in Chinese; most linked official docs are in English.
 
 Super-agent 在这里指 [dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype)：一个跑在 [DeepSeek Harness](https://www.deepseek.com/en/harness/) 上的研究原型。它盯住 **一个** github.com 仓库（可选再接飞书），只接允许名单里的人派的活，每张工单在独立 Session 和目录里做完，再回到原来的 Issue 或对话里交付，通常是一个 Pull Request。面板只把需要人处理的事摆出来。
 
@@ -12,12 +14,16 @@ Super-agent 在这里指 [dsh-superagent-prototype](https://github.com/deepseek-
 
 资料核对日期：2026-11-02。星数会过期，下面不写。
 
-标记就这六个，全篇统一：
+每条链接前打一个标记，只用这六个：
 
-| | | | |
-| --- | --- | --- | --- |
-| 🟢 原型里有 | ⚪ 只在设计文章里 | 📘 官方 | 📝 社区解读 |
-| 🛠️ 自己动手装 | 🔌 周边插件，不是这个原型 | | |
+- 🟢 原型里有
+- ⚪ 只在设计文章里
+- 📘 官方
+- 📝 社区解读
+- 🛠️ 自己动手装
+- 🔌 周边插件，不是这个原型
+
+节标题前的 emoji 只用来导航，不是标记。
 
 ## 目录
 
@@ -73,7 +79,7 @@ Super-agent 在这里指 [dsh-superagent-prototype](https://github.com/deepseek-
 - 📘 [DeepSeek Harness](https://www.deepseek.com/en/harness/) — 产品页。全球公开预览，Cordis 上「万物皆插件」。
 - 📘 [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — Harness 本体，MIT。外部贡献走 Discussions 和带 `dsh-plugin` topic 的插件，不接受外部 PR。见 [CONTRIBUTING.md](https://github.com/deepseek-ai/deepseek-harness/blob/master/CONTRIBUTING.md) / [中文](https://github.com/deepseek-ai/deepseek-harness/blob/master/CONTRIBUTING.zh.md)。
 - 📘 [Harness 文档](https://deepseek-harness.github.io/deepseek-harness/) — 文档站。[Quickstart](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart)、[插件市场](https://deepseek-harness.github.io/deepseek-harness/en/guide/plugin-market)。
-- 📘 [`@deepseek-ai/dsh`](https://www.npmjs.com/package/@deepseek-ai/dsh) — CLI：profile、插件、配置。原型安装块钉的是 `0.2.1-rc.3`；`package.json` 的 `engines.dsh` 是 `^0.2.1-alpha.2`。2026-11-02 登记的 `latest` 是 `0.2.1-rc.5`（满足 engines），`0.2.2-alpha.2` 不满足。跟部署文档走。
+- 📘 [`@deepseek-ai/dsh`](https://www.npmjs.com/package/@deepseek-ai/dsh) — CLI：profile、插件、配置。装哪个版本，以 [006](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/006-deployment.md) 安装块里钉的版本和原型 `package.json` 的 `engines.dsh` 为准。
 
 <a id="design"></a>
 
@@ -83,7 +89,7 @@ Super-agent 在这里指 [dsh-superagent-prototype](https://github.com/deepseek-
 
 - ⚪ [Super-agent 设计探索：迈向更自主的 Agent 系统](https://mp.weixin.qq.com/s/zoS7GlReWPhfCjENGxXCdg) — 中文原文。常驻 Router 只做路由，Worker 隔离执行；Trigger 的快过滤和慢过滤；Thread 订阅直通；Inline & Spill；Chain of Recall；投机执行但默不作声；全双工 `start()` / `stop()`（文中说 Harness 已有，默认不开）；IM 回复大约限制在 100 词；云端无状态 Agent Loop、数据库里的会话、无状态边缘守护进程（BYOM）；外部 Watchdog 可以判断跑偏并改提示词。文末写明原型只实现了其中一条路径，不是产品。署名 Yujia Qiao，DeepSeek Harness team。
 - 📝 [知乎转载副本](https://blog.eimoon.com/p/deepseek-super-agent-design/) — 微信打不开时的全文副本，保留了「这不是现有功能说明」的声明。
-- 📝 [英文机器翻译](https://threadnavigator.com/thread/2116857257245987236/) — 第三方标注为 @DeepSeekHarness 帖子的机器翻译，含同一组实验数字。不是官方英译。原帖 [x.com/DeepSeekHarness/status/2116857257245987236](https://x.com/DeepSeekHarness/status/2116857257245987236)。
+- 📝 [英文机器翻译](https://threadnavigator.com/thread/2116857257245987236/) — 第三方标注为 @DeepSeekHarness 帖子的机器翻译。不是官方英译。原帖 [x.com/DeepSeekHarness/status/2116857257245987236](https://x.com/DeepSeekHarness/status/2116857257245987236)。
 
 下面三张图来自这篇长文，标号对应文中的第 2 到第 6 节。标号 [5]、[6] 里的 Session 数据库、端侧 daemon、Watchdog 是 ⚪。原型里在跑的是 Router、Worker、工单，以及 GitHub（可选飞书）。
 
@@ -95,38 +101,38 @@ Super-agent 在这里指 [dsh-superagent-prototype](https://github.com/deepseek-
 
 ⚪ 有、🟢 没有的：Watchdog 会话、云端循环加边缘守护进程、BYOM、异步 ReAct 那套 `start()` / `stop()`。仓库里有的是 Engine、Ticket、Eval，以及 Router / Worker 两套 preset。`docs/003` 会把前台 shell 在 5 秒后转成后台任务，这和文章里的云端守护进程不是一回事。
 
-文中实验是合成负载：大约 300 条消息、大约 20 个真实请求，编码换成计时器，跑 5 次。Super-agent 的 p50/p95 是 12.4/15.7 分钟、缓存读 23.2M token；中性单会话是 20.4/29.5 分钟、6.1M。不要把这组数字当成真实仓库上的生产力结论。
+文中的实验是合成负载，编码换成了计时器。数字见原文，不要当成真实仓库上的生产力结论。
 
 <a id="docs"></a>
 
 ## 📚 文档
 
-编号文档要按顺序读，后一篇只用前面已经定义过的概念。
+下面都是 📘 官方文档。编号文档要按顺序读，后一篇只用前面已经定义过的概念。
 
-| | 文档 | 你能得到什么 |
-| --- | --- | --- |
-| 💡 | [000 Philosophy](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/000-philosophy.md) | 注意力原则，以及操作者要收窄名单、减少噪音、为它发出的话负责。 |
-| 🗺️ | [001 Domain model](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/001-domain.md) | 概念表、Trigger → Eval → 执行的流向、被否掉的概念、中英对照。 |
-| 🔐 | [002 Authorization](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/002-authorization.md) | 谁能开工、能走多远。门禁和订阅扇出是两条路。接受模式、Policy 版本、恢复和停止。 |
-| ⚙️ | [003 Execution](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/003-execution.md) | 一张工单怎么执行、交付、恢复。一工单一 Session、一目录；prepare 命令；并发；自动合并只是提示词；工单何时结束。 |
-| ✍️ | [004 Prompts](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/004-prompts.md) | 智能体读什么。团队可改的三段、技能覆盖、组装顺序、提示词版本不可变。 |
-| 🖥️ | [005 Panel](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/005-panel.md) | 侧栏面板：现在要不要我、系统是否健康、一张工单从 Trigger 到 Ticket 的历史。 |
-| 📦 | [006 Deployment](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/006-deployment.md) | 安装、账号、机器配置、启停、设置、Management API、升级、排错。 |
-| 🏗️ | [007 Architecture](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/007-architecture.md) | 概念到 Runtime、Engine、类和源文件的开发者地图。 |
-| 🍳 | [008 Cookbook](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/008-cookbook.md) | 用一个虚构的 webhook Source 演示怎么加一种来源。 |
+| 文档 | 你能得到什么 |
+| --- | --- |
+| [000 Philosophy](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/000-philosophy.md) | 注意力原则，以及操作者要收窄名单、减少噪音、为它发出的话负责。 |
+| [001 Domain model](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/001-domain.md) | 概念表、Trigger → Eval → 执行的流向、被否掉的概念、中英对照。 |
+| [002 Authorization](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/002-authorization.md) | 谁能开工、能走多远。门禁和订阅扇出是两条路。接受模式、Policy 版本、恢复和停止。 |
+| [003 Execution](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/003-execution.md) | 一张工单怎么执行、交付、恢复。一工单一 Session、一目录；prepare 命令；并发；自动合并只是提示词；工单何时结束。 |
+| [004 Prompts](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/004-prompts.md) | 智能体读什么。团队可改的三段、技能覆盖、组装顺序、提示词版本不可变。 |
+| [005 Panel](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/005-panel.md) | 侧栏面板：现在要不要我、系统是否健康、一张工单从 Trigger 到 Ticket 的历史。 |
+| [006 Deployment](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/006-deployment.md) | 安装、账号、机器配置、启停、设置、Management API、升级、排错。 |
+| [007 Architecture](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/007-architecture.md) | 概念到 Runtime、Engine、类和源文件的开发者地图。 |
+| [008 Cookbook](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/008-cookbook.md) | 用一个虚构的 webhook Source 演示怎么加一种来源。 |
 
-### ✍️ 提示词
+### 提示词
 
 提示词在 [`prompts/`](https://github.com/deepseek-ai/dsh-superagent-prototype/tree/main/prompts)。团队通常改这三份：
 
-- [`team/communication.md`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/prompts/team/communication.md) — 何时开口。
-- [`team/scope.md`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/prompts/team/scope.md) — 何时做到可评审的 PR，何时停成草稿。
-- [`team/delivery.md`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/prompts/team/delivery.md) — 提交署名和自动合并。
+- 🟢 [`team/communication.md`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/prompts/team/communication.md) — 何时开口。
+- 🟢 [`team/scope.md`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/prompts/team/scope.md) — 何时做到可评审的 PR，何时停成草稿。
+- 🟢 [`team/delivery.md`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/prompts/team/delivery.md) — 提交署名和自动合并。
 
-### 🧰 技能
+### 技能
 
-- [`dsh-superagent-github`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/skills/dsh-superagent-github/SKILL.md) — 用 `gh` 读 Issue、PR、评审和 CI。
-- [`dsh-superagent-feishu`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/skills/dsh-superagent-feishu/SKILL.md) — 用机器人身份读飞书消息和文档。
+- 🟢 [`dsh-superagent-github`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/skills/dsh-superagent-github/SKILL.md) — 用 `gh` 读 Issue、PR、评审和 CI。
+- 🟢 [`dsh-superagent-feishu`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/skills/dsh-superagent-feishu/SKILL.md) — 用机器人身份读飞书消息和文档。
 
 <a id="deploy"></a>
 
@@ -134,7 +140,7 @@ Super-agent 在这里指 [dsh-superagent-prototype](https://github.com/deepseek-
 
 官方步骤以 [006](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/006-deployment.md) 为准。下面是照着做时最容易踩错的地方。
 
-### 🧰 前置
+### 前置
 
 - macOS 或 Linux。服务脚本用 `tmux` 和 `fcntl`，Windows 原生跑不起来。要在 Windows 上跑，看 [🌱 衍生](#forks)。
 - Node.js 22.19+ 或 24+，pnpm，git 2.32+，Python 3.8+，tmux。
@@ -144,11 +150,11 @@ Super-agent 在这里指 [dsh-superagent-prototype](https://github.com/deepseek-
 - 飞书可选：`lark-cli`（文档用 1.0.90 测过）和一个带机器人的飞书 / Lark 应用。[larksuite/cli](https://github.com/larksuite/cli)，[飞书 CLI 文档](https://open.feishu.cn/document/mcp_open_tools/feishu-cli-let-ai-actually-do-your-work-in-feishu)。
 - 仓库若要按工单开 worktree，本机留一份 clone。用了 Git LFS 就装 `git-lfs`。
 
-### 🔒 隔离
+### 隔离
 
 `dsh-superagent-worker` 和 `dsh-superagent-router` 以操作者的系统用户、`danger-full-access` 运行。账号包装只是切换凭证，不隔离进程。Worker 能按路径执行程序，也能读家目录。要隔离，就用一个只放智能体凭证的专用系统账号。这两个 preset 只给 dsh-superagent 用，不要选进个人 Session，也不要关掉它们的配置行。
 
-### 📥 安装
+### 安装
 
 在还没有 `superagent` profile 的机器上跑一次。已有 profile 时不要重跑 `dsh superagent --from-default-profile`，那条命令会换掉 profile 并删掉 `cordis.patch.yml`。
 
@@ -165,7 +171,7 @@ dsh plugin --profile superagent add "link:$PWD"
 
 不要用「装进日常 web profile」的一句话插件命令。部署文档要求单独的 `superagent` profile，并且先在本地 `pnpm build`，再用 `link:$PWD`。
 
-### ▶️ 启动
+### 启动
 
 ```sh
 scripts/dsh-superagent start
@@ -176,7 +182,7 @@ scripts/dsh-superagent status
 
 打开日志里的 URL，侧栏进 **Superagent**。在来源、名单、执行环境配好之前，Overview 会告诉你缺什么。
 
-### 🎫 第一次派活
+### 第一次派活
 
 1. 设置里的 GitHub 来源填 `owner/name`，CLI 填包装脚本的绝对路径。保存时会检查 CLI 能不能用、账号有没有推送权限，不过就拒绝保存。
 2. 允许名单先只加你自己。名单是空的，任何请求都不会变成工单。
@@ -195,11 +201,11 @@ scripts/dsh-superagent status
 
 三种模式下，允许名单上的人直接点名都有效。名单上的机器人最多提出候选。消息本身改不了名单、规则和授权范围。
 
-### 🖥️ 面板和 API
+### 面板和 API
 
 面板标签：Overview、Source、Trigger、Eval、Execution、Settings。人可以在面板里重试或停止工单。本地 Management API 基址是 `http://127.0.0.1:<port>/orchestrator/api/`，请求头要带 `x-orchestrator-request: 1`，只接受本机 Host。具体路由和示例 `curl` 在 006。
 
-### ⚠️ 常见坑
+### 常见坑
 
 - 第一次 `start` 以退出码 3 结束，是服务已经起来、但在等配置，不是装坏了。006 的四档：0 正常；1 没在跑、重复实例、无响应或运行时错误，重启可能修好；2 在跑，但来源或 Policy 同步这类部件报错，重启修不好；3 在跑并等待设置，重启修不好。社区笔记：[中文](https://blog.laozhang.ai/zh/posts/deepseek-super-agent-github) / [英文](https://blog.laozhang.ai/en/posts/deepseek-super-agent-github)。那是 API 经销商的博客，作者写明没有真的派完一单；退出码以 006 这张表为准。
 - 没写 `stateDir` 时，面板可能停在别的端口，而不是示例里的 3082。
@@ -211,22 +217,22 @@ scripts/dsh-superagent status
 
 ## 🧩 概念
 
-定义来自 [001](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/001-domain.md)，一行一个。
+定义来自 [001](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/001-domain.md)，一行一个，都是 🟢 原型里有的。
 
-| | 概念 | 是什么 |
-| --- | --- | --- |
-| 📥 | Source 来源 | 事件流。记住读位置和机器人身份，丢掉自己的消息和范围外事件，再把 Trigger 译成 Thread 和回复地址。 |
-| ⚡ | Trigger 触发 | 一条不可变事件。同一条接受两次，只产生一张工单。 |
-| 🧵 | Thread 线程 | 按时间排好的 Trigger。同一条上同时最多一次 Eval。 |
-| 🔗 | Correlation 关联 | 一条 Trigger 所属的多个 Thread 之间的关系。只补上下文，不负责路由。 |
-| 📤 | Channel 渠道 | Thread 的写侧。确认、回复、PR、处理完的评审，都是写。 |
-| 📜 | Policy 策略 | 带版本的评估规则，加上每个来源自己的名单和接受模式。不同来源的身份互不映射。 |
-| ⚖️ | Eval 评估 | 对一批 Trigger 的无状态判断，先门禁再评估。只有它能创建工单。 |
-| 🪪 | Mandate 授权 | 一次接受所授予的范围和强度，不可变。范围变大就要新工单。 |
-| 🎫 | Ticket 工单 | 一份已授权的工作。open 与 ended 之间可以因人的消息恢复，除非被人停掉。 |
-| 🤝 | Assignment 派工 | 工单和某一个 Executor 实例的绑定。一张工单在时间上可以有多次。 |
-| 🔔 | Subscription 订阅 | 工单和 Thread 的多对多。匹配的 Trigger 扇出给订阅者，不再检查是谁发的，也不再走 Eval。 |
-| 🤖 | Executor 执行器 | 真正跑派工的端口：一工单一 Session、一目录。实现上是 DSH Session。 |
+| 概念 | 是什么 |
+| --- | --- |
+| Source 来源 | 事件流。记住读位置和机器人身份，丢掉自己的消息和范围外事件，再把 Trigger 译成 Thread 和回复地址。 |
+| Trigger 触发 | 一条不可变事件。同一条接受两次，只产生一张工单。 |
+| Thread 线程 | 按时间排好的 Trigger。同一条上同时最多一次 Eval。 |
+| Correlation 关联 | 一条 Trigger 所属的多个 Thread 之间的关系。只补上下文，不负责路由。 |
+| Channel 渠道 | Thread 的写侧。确认、回复、PR、处理完的评审，都是写。 |
+| Policy 策略 | 带版本的评估规则，加上每个来源自己的名单和接受模式。不同来源的身份互不映射。 |
+| Eval 评估 | 对一批 Trigger 的无状态判断，先门禁再评估。只有它能创建工单。 |
+| Mandate 授权 | 一次接受所授予的范围和强度，不可变。范围变大就要新工单。 |
+| Ticket 工单 | 一份已授权的工作。open 与 ended 之间可以因人的消息恢复，除非被人停掉。 |
+| Assignment 派工 | 工单和某一个 Executor 实例的绑定。一张工单在时间上可以有多次。 |
+| Subscription 订阅 | 工单和 Thread 的多对多。匹配的 Trigger 扇出给订阅者，不再检查是谁发的，也不再走 Eval。 |
+| Executor 执行器 | 真正跑派工的端口：一工单一 Session、一目录。实现上是 DSH Session。 |
 
 订阅上的后续消息是上下文，不带来新的授权。Worker 没有向人提问的通道；要人做决定时，走结构化的 attention，一次一个具体问题。
 
@@ -236,28 +242,28 @@ scripts/dsh-superagent status
 
 官方文档优先。下面这些用来对照「文章写了什么、仓库做了什么」。
 
-### 🔬 文章和代码
+### 文章和代码
 
-- [dsh-superagent 深挖报告](https://www.bytenote.net/article/dsh-superagent-deep-dive-report) — 把实验条件、默认 `observe`、以及「隔离是 Session 加目录，不是沙箱」写清楚了。
-- [读缓存涨到 3.8 倍，P95 少 14 分钟，云端那半还只在文章里](https://halfatoken.com/insights/deepseek-super-agent/) — 对同一组实验做反算：相对「倾向委派」的单会话，p50 差距大约 1.4 分钟；并在树里没有找到 Watchdog、边缘守护进程或 BYOM。反算是作者自己的，不是 DeepSeek 的结论。
-- [Ticket、Mandate、Executor](https://www.harelasaf.com/articles/deepseek-dsh-superagent-prototype-ticket-mandate-executor-design) — 只读了 000–003 和 007。订阅线程上的跟进不授予新权力；Worker 持有那条消息时，主会话只能停止这项工作。作者没有跑代码，也没有读设计长文。
-- [MarkTechPost](https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/) — 英文新闻稿，正确地把 p95 标成合成工具模拟。它把异步 ReAct 和未实现的想法放在一起，读的时候用上面的 ⚪ / 🟢 对照。
+- 📝 [dsh-superagent 深挖报告](https://www.bytenote.net/article/dsh-superagent-deep-dive-report) — 把实验条件、默认 `observe`、以及「隔离是 Session 加目录，不是沙箱」写清楚了。
+- 📝 [读缓存涨到 3.8 倍，P95 少 14 分钟，云端那半还只在文章里](https://halfatoken.com/insights/deepseek-super-agent/) — 对同一组实验做反算，并在树里没有找到 Watchdog、边缘守护进程或 BYOM。反算是作者自己的，不是 DeepSeek 的结论。
+- 📝 [Ticket、Mandate、Executor](https://www.harelasaf.com/articles/deepseek-dsh-superagent-prototype-ticket-mandate-executor-design) — 只读了 000–003 和 007。订阅线程上的跟进不授予新权力；Worker 持有那条消息时，主会话只能停止这项工作。作者没有跑代码，也没有读设计长文。
+- 📝 [MarkTechPost](https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/) — 英文新闻稿，正确地把 p95 标成合成工具模拟。它把异步 ReAct 和未实现的想法放在一起，读的时候用上面的 ⚪ / 🟢 对照。
 
-### 📰 短文
+### 短文
 
-- [Piotr Sobolewski（中文）](https://sobolewski.pro/zh/blog/deepseek-superagent) / [English](https://sobolewski.pro/en/blog/deepseek-superagent) — `off` / `observe` / `auto` 的短地图，以及 `danger-full-access` 为什么需要专用系统账号。
-- [DeepSeek Super Agent: Complete Guide](https://super-agent.io/deepseek-super-agent/) — 独立站点，声明与官方无关。讲清了 GitHub App 不能替代智能体账号，`observe` 不是把点名请求也暂停。图是概念示意，不是一次真实部署。
-- [From a GitHub Request to a Reviewable PR](https://pragmaticai.substack.com/p/deepseek-superagent-from-a-github) — 两分钟：第一单只改 README 的 Quick Start，先不要合并。文中写明视频里的 diff 不是一次真实 DSH 运行的产物。配套视频：[YouTube](https://www.youtube.com/watch?v=7vYILOY6_nE)。
-- [掘金：源码拆解 + 本地部署](https://juejin.cn/post/7702737817416105999) — 七牛的文章，把模型指到他们自己的网关。安装顺序可以作索引；@ 的写法和星数以官方文档和仓库为准。
-- [OpenFree 条目](https://openfree.tools/zh/dsh-superagent) — 一屏 README 复述，不是部署指南。
+- 📝 [Piotr Sobolewski（中文）](https://sobolewski.pro/zh/blog/deepseek-superagent) / [English](https://sobolewski.pro/en/blog/deepseek-superagent) — `off` / `observe` / `auto` 的短地图，以及 `danger-full-access` 为什么需要专用系统账号。
+- 📝 [DeepSeek Super Agent: Complete Guide](https://super-agent.io/deepseek-super-agent/) — 独立站点，声明与官方无关。讲清了 GitHub App 不能替代智能体账号，`observe` 不是把点名请求也暂停。图是概念示意，不是一次真实部署。
+- 📝 [From a GitHub Request to a Reviewable PR](https://pragmaticai.substack.com/p/deepseek-superagent-from-a-github) — 两分钟：第一单只改 README 的 Quick Start，先不要合并。文中写明视频里的 diff 不是一次真实 DSH 运行的产物。配套视频：[YouTube](https://www.youtube.com/watch?v=7vYILOY6_nE)。
+- 📝 [掘金：源码拆解 + 本地部署](https://juejin.cn/post/7702737817416105999) — 七牛的文章，把模型指到他们自己的网关。安装顺序可以作索引；@ 的写法和星数以官方文档和仓库为准。
+- 📝 [OpenFree 条目](https://openfree.tools/zh/dsh-superagent) — 一屏 README 复述，不是部署指南。
 
-### 🗂️ 目录
+### 目录
 
 这些是 DSH 插件目录，不是 superagent 的安装方式。
 
-- [dsh.plus](https://dsh.plus/en/) — 策展过的 DSH 插件目录，收录了这个原型的一句话简介。站内那个「装进 DSH」的插件是目录插件本身。
-- [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) — DSH 插件精选，CC0。站点 [awesome-dsh-plugin.com](https://awesome-dsh-plugin.com/)。官方在 [Harness discussion #215](https://github.com/deepseek-ai/deepseek-harness/discussions/215) 指向过它。
-- [billLiao/awesome-dsh-plugin](https://github.com/billLiao/awesome-dsh-plugin) — 按 GitHub topic `dsh-plugin` 收来的大清单，含弱相关。浏览站：[billliao.github.io/awesome-dsh-plugin](https://billliao.github.io/awesome-dsh-plugin/)。要找 superagent，用上面那份策展清单，而不是这份主题抓取。
+- 📝 [dsh.plus](https://dsh.plus/en/) — 策展过的 DSH 插件目录，收录了这个原型的一句话简介。站内那个「装进 DSH」的插件是目录插件本身。
+- 📝 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) — DSH 插件精选，CC0。站点 [awesome-dsh-plugin.com](https://awesome-dsh-plugin.com/)。官方在 [Harness discussion #215](https://github.com/deepseek-ai/deepseek-harness/discussions/215) 指向过它。
+- 📝 [billLiao/awesome-dsh-plugin](https://github.com/billLiao/awesome-dsh-plugin) — 按 GitHub topic `dsh-plugin` 收来的大清单，含弱相关。浏览站：[billliao.github.io/awesome-dsh-plugin](https://billliao.github.io/awesome-dsh-plugin/)。要找 superagent，用上面那份策展清单，而不是这份主题抓取。
 
 <a id="forks"></a>
 
@@ -265,11 +271,11 @@ scripts/dsh-superagent status
 
 这些不是 `deepseek-ai` 名下的代码。
 
-- 📘 [saltapp/dsh-superagent-prototype-cn](https://github.com/saltapp/dsh-superagent-prototype-cn) — 社区中文文档。
-- 🪟 [buyou-claw/dsh-superagent-win](https://github.com/buyou-claw/dsh-superagent-win) — Windows 移植。上游只在 POSIX 上启动；这一份把 `PATH` 和 git 配置收到单条命令上。prepare 要用 PowerShell（`$env:DSH_SUPERAGENT_DIR`），不能用 `sh`。测试仍按 Linux 写。
-- 📥 [JHOpenDev/dsh-superagent-inbox](https://github.com/JHOpenDev/dsh-superagent-inbox) — 给原型加的文件收件箱 Source：一个目录驱动它，不需要外部账号。
-- 🔔 [MYCF711/dsh-session-superagent](https://github.com/MYCF711/dsh-session-superagent) — 会话级：盯一个 GitHub 仓库，有变化就唤醒会话。自述凭证不进模型。
-- 🔁 [vicfei/dsh-super-agent](https://github.com/vicfei/dsh-super-agent) — 独立重实现，给 Claude Code、Codex、opencode 用，不跑在 DSH 上。默认 `observe` 只打印 WOULD-ACCEPT。
+- 📝 [saltapp/dsh-superagent-prototype-cn](https://github.com/saltapp/dsh-superagent-prototype-cn) — 社区中文文档。
+- 🔌 [buyou-claw/dsh-superagent-win](https://github.com/buyou-claw/dsh-superagent-win) — Windows 移植。上游只在 POSIX 上启动；这一份把 `PATH` 和 git 配置收到单条命令上。prepare 要用 PowerShell（`$env:DSH_SUPERAGENT_DIR`），不能用 `sh`。测试仍按 Linux 写。
+- 🔌 [JHOpenDev/dsh-superagent-inbox](https://github.com/JHOpenDev/dsh-superagent-inbox) — 给原型加的文件收件箱 Source：一个目录驱动它，不需要外部账号。
+- 🔌 [MYCF711/dsh-session-superagent](https://github.com/MYCF711/dsh-session-superagent) — 会话级：盯一个 GitHub 仓库，有变化就唤醒会话。自述凭证不进模型。
+- 🔌 [vicfei/dsh-super-agent](https://github.com/vicfei/dsh-super-agent) — 独立重实现，给 Claude Code、Codex、opencode 用，不跑在 DSH 上。默认 `observe` 只打印 WOULD-ACCEPT。
 
 <a id="ecosystem"></a>
 
@@ -277,38 +283,38 @@ scripts/dsh-superagent status
 
 跑 superagent 时偶尔会一起用到的。皮肤和挂件不收。和本原型的工单模型不同的，不要混装当替代品。
 
-### 🐦 飞书
+### 飞书
 
 和原型自带的飞书 Source 不是同一个东西。
 
-- [omdsh-dev/dsh-lark](https://github.com/omdsh-dev/dsh-lark) — DSH 的飞书 / Lark IM 通道。
-- [PGZXB/dsh-feishu](https://github.com/PGZXB/dsh-feishu) — 飞书里的 DSH 控制台，卡片审批，扫码配置。
-- [PlutoKeating/dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot) — 飞书桥，流式卡片，多角色。AGPL-3.0。
+- 🔌 [omdsh-dev/dsh-lark](https://github.com/omdsh-dev/dsh-lark) — DSH 的飞书 / Lark IM 通道。
+- 🔌 [PGZXB/dsh-feishu](https://github.com/PGZXB/dsh-feishu) — 飞书里的 DSH 控制台，卡片审批，扫码配置。
+- 🔌 [PlutoKeating/dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot) — 飞书桥，流式卡片，多角色。AGPL-3.0。
 
-### 🐙 GitHub 与工作流
+### GitHub 与工作流
 
-- [PerryLink/dsh-github](https://github.com/PerryLink/dsh-github) — GitHub CI、带人工批准的 PR 评审机器人。Apache-2.0。
-- [omdsh-dev/dsh_workflow](https://github.com/omdsh-dev/dsh_workflow) — 把一次性多 Agent 调度做成可保存、可恢复的工作流。
-- [toolclub/dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) — 持久的多模型工作流小组。
-- [GZX2211/dsh-Visual-Workflow](https://github.com/GZX2211/dsh-Visual-Workflow) — 可视化编排，含人工确认。
-- [john-walks-slow/dsh-proactive](https://github.com/john-walks-slow/dsh-proactive) — 由模型预约的主动跟进，唤醒冷会话。和 superagent 的 Policy / Ticket 不是同一套。
+- 🔌 [PerryLink/dsh-github](https://github.com/PerryLink/dsh-github) — GitHub CI、带人工批准的 PR 评审机器人。Apache-2.0。
+- 🔌 [omdsh-dev/dsh_workflow](https://github.com/omdsh-dev/dsh_workflow) — 把一次性多 Agent 调度做成可保存、可恢复的工作流。
+- 🔌 [toolclub/dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) — 持久的多模型工作流小组。
+- 🔌 [GZX2211/dsh-Visual-Workflow](https://github.com/GZX2211/dsh-Visual-Workflow) — 可视化编排，含人工确认。
+- 🔌 [john-walks-slow/dsh-proactive](https://github.com/john-walks-slow/dsh-proactive) — 由模型预约的主动跟进，唤醒冷会话。和 superagent 的 Policy / Ticket 不是同一套。
 
-### 🧰 命令行
+### 命令行
 
-- [GitHub CLI](https://cli.github.com/) — 原型要求 `gh` 2.48+。
+- 🛠️ [GitHub CLI](https://cli.github.com/) — 原型要求 `gh` 2.48+。
 
 <a id="talk"></a>
 
 ## 💬 讨论
 
-- [Node 24 下 status 看不到进程，晚到的 GitHub 提及可能被游标跳过](https://github.com/deepseek-ai/deepseek-harness/discussions/11700) — 操作向的讨论。同仓库附近的 #11706、#11774、#11781 是补丁，不是指南。
+- 📝 [Node 24 下 status 看不到进程，晚到的 GitHub 提及可能被游标跳过](https://github.com/deepseek-ai/deepseek-harness/discussions/11700) — 操作向的讨论。同仓库附近的 #11706、#11774、#11781 是补丁，不是指南。
 
 <a id="contributing"></a>
 
 ## 🤝 贡献
 
-欢迎补链接。一条一条来：能打开的 URL、一句话说明它比官方文档多给了什么，并打上前面的标记（🟢 ⚪ 📘 📝 🛠️ 🔌）。设计文章里的能力，请标明原型有没有实现。
+欢迎补链接，规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。一条一条来：能打开的 URL、一句话说明它比官方文档多给了什么，并打上前面六个标记之一（🟢 ⚪ 📘 📝 🛠️ 🔌）。📘 只给 `deepseek-ai` 官方的东西；社区文档、移植和重实现不标 📘。设计文章里的能力，请标明原型有没有实现。
 
-新条目放进对应的节，不要另开一类。目录、文档表和概念表里的 emoji 已经固定，跟那里的含义走。
+新条目放进对应的节，不要另开一类。
 
 不收：DeepSeek API Key 教程、与这个 bundle 无关的 Harness 皮肤、没有读过正文的新闻转述，以及和 [006](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/006-deployment.md) 矛盾的一行安装命令。
