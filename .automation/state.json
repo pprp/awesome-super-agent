@@ -1,49 +1,59 @@
 {
-  "last_run_at": "2026-11-02T08:40:00Z",
+  "last_run_at": "2026-11-02T09:43:00Z",
   "timezone": "UTC",
-  "baseline_commit": "bd633e1",
+  "baseline_commit": "e4bd8b8",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-02T05:31:41Z",
-    "to": "2026-11-02T08:40:00Z"
+    "from": "2026-11-02T08:40:00Z",
+    "to": "2026-11-02T09:43:00Z"
   },
   "added": [
     {
-      "title": "shibaeff/dsh-superagent-prototype",
-      "url": "https://github.com/shibaeff/dsh-superagent-prototype",
-      "type": "derivative",
-      "section": "衍生",
-      "confidence": 0.84,
-      "dedupe_key": "github:shibaeff/dsh-superagent-prototype",
-      "published_at": "2026-11-02T08:29:48Z",
-      "why_relevant": "MIT fork. Commit fcadb0c adds docs/009-codex-auth.md and codex-install / codex-models / codex-use. Checked on DSH 0.2.1-rc.3 with @jcy2387/dsh-codex-provider@0.2.1-rc.2: models listed, no model call."
-    },
-    {
-      "title": "mycguo/dsh-superagent-prototype",
-      "url": "https://github.com/mycguo/dsh-superagent-prototype",
+      "title": "waixv-superagent/dsh-superagent-prototype",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
       "type": "derivative",
       "section": "衍生",
       "confidence": 0.86,
-      "dedupe_key": "github:mycguo/dsh-superagent-prototype",
-      "published_at": "2026-11-02T08:08:56Z",
-      "why_relevant": "Tebra-branded fork, 19 commits and 67 files ahead of 6337fc8. Doc 006 describes one profile watching several GitHub repositories, with scripts/prepare-github-ticket. Google login is a loopback panel gate and does not switch model providers."
+      "dedupe_key": "github:waixv-superagent/dsh-superagent-prototype",
+      "published_at": "2026-11-02T09:02:07Z",
+      "why_relevant": "Fork, 26 commits ahead of 6337fc8. This window adds a read-only TAPD source (disabled by default), a task center whose lease is not a sandbox, and a Feishu plan card. docs/012 still marks the P1 gate unimplemented. Older commits add optional Perforce shelve/Swarm delivery; git stays the default and the shim refuses submit."
     },
     {
-      "title": "alasong/ssa1101",
-      "url": "https://github.com/alasong/ssa1101",
+      "title": "Yao-MY06/more-agent",
+      "url": "https://github.com/Yao-MY06/more-agent",
       "type": "derivative",
       "section": "衍生",
-      "confidence": 0.82,
-      "dedupe_key": "github:alasong/ssa1101",
-      "published_at": "2026-11-02T08:21:31Z",
-      "why_relevant": "Apache-2.0 lite orchestrator. dsh-session.ts spawns dsh --json per assignment; SA_WORKER=fake keeps the stub. README still says SessionFactory is a stub and the Cordis bundle only logs a mount."
+      "confidence": 0.88,
+      "dedupe_key": "github:Yao-MY06/more-agent",
+      "published_at": "2026-11-02T09:33:49Z",
+      "why_relevant": "MIT resident on feat/m0-shadow-run. Vendors the prototype at 6337fc8; manifest hashes keep src/core unchanged and trim four host files. M0 ShadowExecutor records the ticket and never starts a worker or sends a message. Leader calls claude -p with tools disabled. Does not run on DSH."
+    },
+    {
+      "title": "yingpengma/cc-super-agent",
+      "url": "https://github.com/yingpengma/cc-super-agent",
+      "type": "derivative",
+      "section": "衍生",
+      "confidence": 0.84,
+      "dedupe_key": "github:yingpengma/cc-super-agent",
+      "published_at": "2026-11-02T09:29:54Z",
+      "why_relevant": "MIT scripts for Claude Code that follow the essay's Router/Worker split. Not a 6337fc8 fork and not on DSH. Watchdog is the author's cron every 15 minutes. The README dialogue is labeled illustrative. This hour added the web work-group column and moved worker rules into the system prompt."
     }
   ],
-  "updated": [],
+  "updated": [
+    {
+      "title": "shibaeff/dsh-superagent-prototype",
+      "url": "https://github.com/shibaeff/dsh-superagent-prototype",
+      "section": "衍生",
+      "confidence": 0.92,
+      "dedupe_key": "github:shibaeff/dsh-superagent-prototype",
+      "published_at": "2026-11-02T08:42:24Z",
+      "why_relevant": "Commit 12477e04 documents a second install, codex-install --codex-package dsh-codex-auth@0.3.4-rc.2, which reuses Codex CLI auth.json. That package accepts DSH 0.2.1-rc.1 and rc.2 only. The author records one headless answer on rc.2. The @jcy2387/dsh-codex-provider check on rc.3 still made no model call."
+    }
+  ],
   "pending": [
     {
       "title": "effortprogrammer/oh-my-dsh-superagent",
@@ -61,7 +71,7 @@
       "title": "Harness discussion #11818",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11818",
       "confidence": 0.62,
-      "reason": "Field report uses a GitHub App and has no reproduction on an unmodified checkout."
+      "reason": "Field report uses a GitHub App and has no reproduction on an unmodified checkout. No new comments in this window."
     },
     {
       "title": "super-agent.io troubleshooting",
@@ -109,23 +119,81 @@
       "title": "nocoo/pi-superagent",
       "url": "https://github.com/nocoo/pi-superagent",
       "confidence": 0.84,
-      "reason": "Closed unmerged PR #3 stays out. This window added a Basalt dashboard and CLI notes (through 2026-11-02T08:22:59Z) on the same Pi port. Do not re-add until a human asks."
+      "reason": "Closed unmerged PR #3 stays out. Do not re-add until a human asks."
+    },
+    {
+      "title": "Haizhilingyu/dsh-superagent-prototype",
+      "url": "https://github.com/Haizhilingyu/dsh-superagent-prototype",
+      "confidence": 0.78,
+      "reason": "main is still 6337fc8. Branch remote-executor (09:18Z) adds RemoteExecutor and a Node daemon for pi workers. Not the default branch."
+    },
+    {
+      "title": "shiw-yang/dsh-superagent-prototype",
+      "url": "https://github.com/shiw-yang/dsh-superagent-prototype",
+      "confidence": 0.72,
+      "reason": "Four commits over 6337fc8: pr-skill prompt, clearing a pending question, one progress card per Executor. README lead is still upstream."
+    },
+    {
+      "title": "szocpaul/dsh-superagent-prototype",
+      "url": "https://github.com/szocpaul/dsh-superagent-prototype",
+      "confidence": 0.7,
+      "reason": "Prime Runner Bridge lives on agent/run-smoke-fixture-8b43e5eb9239, not main. In-window commit only moves the private socket into the account runtime directory."
+    },
+    {
+      "title": "tpx-bsd/dsh-superagent-prototype",
+      "url": "https://github.com/tpx-bsd/dsh-superagent-prototype",
+      "confidence": 0.66,
+      "reason": "main is 8 commits ahead and introduces RepositoryHost. README lead is still the upstream text. Not enough of a new contract for this hour's cap."
+    },
+    {
+      "title": "pakgin/cc-superagent",
+      "url": "https://github.com/pakgin/cc-superagent",
+      "confidence": 0.6,
+      "reason": "main is still 6337fc8. refactor/session-port adds a SessionPort seam and Claude Agent SDK spikes that are not wired into Runtime."
+    },
+    {
+      "title": "dsh.works install note",
+      "url": "https://dsh.works/notes/deepseek-superagent-is-a-dsh-bundle",
+      "confidence": 0.7,
+      "reason": "Dated 2026-11-02. Measures that github: plugin add fails because lib/ is gitignored and there is no prepare script, and that the documented build-and-link path pauses on a missing repository. The same note says observe records a would-accept and does nothing, which drops the explicit-request exception in docs/002."
+    },
+    {
+      "title": "wiva-hq/superagent-imessage 0.2.0",
+      "url": "https://github.com/wiva-hq/superagent-imessage",
+      "confidence": 0.74,
+      "reason": "0.2.0 at 09:22Z ranks Photon v2 as the verified mode. Draft PR #15 already rewrites this sentence. Do not copy that PR, and do not rewrite the listed sentence from here."
+    },
+    {
+      "title": "samanhappy/dsh-superagent",
+      "url": "https://github.com/samanhappy/dsh-superagent",
+      "confidence": 0.6,
+      "reason": "Real fork (GitLab, PingCode, WeCom, WeChat) but the newest commit is 2026-11-02T08:18:47Z, before this window. Leave it for a deep run."
     }
   ],
   "rejected_this_run": [
     {
       "title": "playgrounds, sandboxes, and ticket workspaces",
-      "url": "https://github.com/wlgcmmp/superagent-playground",
-      "reason": "Repos created or pushed this window only so an agent has somewhere to open a PR. Includes wlgcmmp, guoxubo2025-cloud, Louis-Lao-03, Jiangyuguo99999, chen1257348987, dsh-agent-fly, yjy1992/test, wiikener, kakabot866-star, AsuisAsu, jnyross, panbin0054, damon2012, dandyyan/dsh-superagent-playground, jianshiaka-hub, and cjsmme-wq."
+      "url": "https://github.com/anjing137/dsh-superagent-lab",
+      "reason": "Repos pushed this window only so an agent has somewhere to open a PR. Includes anjing137/dsh-superagent-lab, PASCAL-LIU/superagent-sandbox, lqy-superagent/dsh-superagent-sandbox, FuShengWu/dsh_superagent_test, jnyross/UnpoliticalDeepSeekSuperAgent, damon2012/dsh-superagent-test, standbyme626/rentradar-agent, JerikcXIONG/DSHSuperAgentDemo, darcysiu/DSHsuperagent, and markedfootball/duh-superagent."
     },
     {
-      "title": "dandyyan/dsh-superagent-reverse",
-      "url": "https://github.com/dandyyan/dsh-superagent-reverse",
-      "reason": "Description is reverse visibility probe. Not a source, port, or write-up."
+      "title": "empty mirrors",
+      "url": "https://github.com/macky-droid/dsh-superagent-prototype",
+      "reason": "macky-droid/dsh-superagent-prototype and QuYue/dsh-superagent match 6337fc8 and have size 0."
     },
     {
-      "title": "Help Net Security brief",
-      "reason": "Short news recap of authorization and auto-merge. No code reading. Not promoted."
+      "title": "news recaps",
+      "reason": "Mashable India (09:15Z), Convergence Now, Help Net Security, Open Source For You, and GIGAZINE restate the launch. No code reading."
+    },
+    {
+      "title": "fatezero345 windows prepare scripts",
+      "url": "https://github.com/fatezero345/dsh-superagent-prototype",
+      "reason": "windows-deployment-support only adds prepare.cmd/prepare.sh. buyou-claw/dsh-superagent-win already covers a Windows boot port."
+    },
+    {
+      "title": "ZhangZangQian ones source design",
+      "url": "https://github.com/ZhangZangQian/dsh-superagent-prototype",
+      "reason": "docs/007-ones-source.md is marked design proposal, not yet implemented."
     }
   ],
   "held_on_other_branches": [
@@ -136,6 +204,6 @@
     "pans1es/superagent-prototype-evaluation (cursor/dsh-super-agent-c285)",
     "deepseek-harness discussion #11845 (cursor/dsh-super-agent-c285)"
   ],
-  "rejected_pattern": "Sandbox, playground, demo, mirror, empty, and ticket-workspace repositories were not listed. Windows ports that only make the POSIX scripts boot stay out while buyou-claw/dsh-superagent-win is listed. Closed unmerged PRs #3 and #7 stay out until a human asks.",
-  "npm_note": "latest remains 0.2.1-rc.5. Prototype still has a single commit, 6337fc8. No new superagent discussion after #11845, which is still only on cursor/dsh-super-agent-c285. MYCF711/dsh-session-superagent 0.8.51–0.8.54 (ETag, first-poll jitter, quota backoff, Retry-After) does not change the listed sentence. Draft PR #15 and branch cursor/dsh-super-agent-c285 were not copied onto this commit."
+  "rejected_pattern": "Sandbox, playground, demo, mirror, empty, and ticket-workspace repositories were not listed. Windows ports that only make the POSIX scripts boot stay out while buyou-claw/dsh-superagent-win is listed. Closed unmerged PRs #3 and #7 stay out until a human asks. Draft PR #15 and cursor/dsh-super-agent-c285 were not copied.",
+  "npm_note": "latest remains 0.2.1-rc.5. Prototype still has a single commit, 6337fc8. Newest harness discussion is #11855 (2026-11-02T08:57:09Z); #11846–#11855 do not mention superagent. #11845 was not updated this window and stays on cursor/dsh-super-agent-c285. MYCF711 0.8.56–0.8.87 does not change the listed sentence. alasong/ssa1101 08:51Z restores headless account auth; the README still calls SessionFactory a stub. Docs and the product page still do not mention superagent."
 }
