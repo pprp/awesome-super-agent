@@ -143,6 +143,8 @@ Super-agent 在这里指官方仓库里的 dsh-superagent-prototype。它跑在 
 - [waixv-superagent/dsh-superagent-prototype](https://github.com/waixv-superagent/dsh-superagent-prototype) - 🔌 上游分支。只读 TAPD 来源默认关闭、不回写；任务中心按租约把工单放进共享工作区，租约不是沙箱。飞书方案卡片在 `src/app/plan.ts`，同一份 `docs/012` 的阶段表仍把 P1 方案门写成未实现。更早的提交把交付改成可切换的 Perforce shelve / Swarm，默认仍是 Git，包装会拒绝 `p4 submit`。README 开头仍是上游原文.
 - [Yao-MY06/more-agent](https://github.com/Yao-MY06/more-agent) - 🔌 默认分支 `feat/m0-shadow-run` 把原型引擎钉在 `6337fc8`，放进 `vendor/dsh-superagent`，`src/core` 按清单哈希未改。M0 只影子运行：Leader 用 `claude -p` 选项目，ShadowExecutor 只记账，不启动 Worker，也不发消息。不跑在 DSH 上。MIT.
 - [yingpengma/cc-super-agent](https://github.com/yingpengma/cc-super-agent) - 🔌 按设计长文做的独立 Router / Worker，给 Claude Code 用，不跑在 DSH 上，也不是 `6337fc8` 的分支。Watchdog 是作者自己的 cron，每 15 分钟一次。README 里的对话是示意，不是一次真实运行.
+- [xyzOvO/dsh-superagent-prototype](https://github.com/xyzOvO/dsh-superagent-prototype) - 🔌 默认分支 `fix/windows-support`。win32 上插件有六处不改就起不来：盘符绝对路径、子进程直接带环境、prepare 走 `cmd.exe`、编排会话白名单用 `pwsh`（否则 `tools.restrict` 让整个插件加载失败）、另写 `gh.cmd` 并在外来文件扫描里跳过 `*.cmd`。作者在提交说明里记了 Windows 11、Node 24 上从 Issue 到 PR 的一次往返。服务脚本仍依赖 `fcntl`，Windows 上改走面板或 HTTP API.
+- [0xdrmnhttn13/dsh-superagent-prototype](https://github.com/0xdrmnhttn13/dsh-superagent-prototype) - 🔌 独立的本地调查代理，README 称为 Superagent Investigator。SQLite 里仍是 Trigger、Policy、Mandate、Ticket 和 Assignment，执行换成受限的 Pi 会话，只注册 `sa_context`、`sa_evidence`、`sa_report`。本机仅所有者可连的 Unix socket 收 UTF-8 证据。不跑 DSH，也没有 GitHub 或飞书来源。工具限制在应用层，不是操作系统沙箱。MIT.
 
 ## 生态
 
