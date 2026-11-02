@@ -256,6 +256,7 @@ scripts/dsh-superagent status
 - [cjy851096/nano-dsh-superagent](https://github.com/cjy851096/nano-dsh-superagent) - 🔌 约 3400 行的独立骨架，用来对照设计长文里原型没有的 Watchdog、异步 `start()` / `stop()` 和 Inline & Spill。不跑在 DSH 上；文中的批处理压测是作者自己的.
 - [HulnotHutu/dsh-superagent-qq](https://github.com/HulnotHutu/dsh-superagent-qq) - 🔌 上游树上的 QQ 群来源。配置过的群里，经 OneBot v11 进来的消息变成 Trigger，回复回到群里。代码在 `src/sources/qq.ts`，说明在 `docs/009-qq-source.md`，本地小工具是 `napq`。作者写明与腾讯无关，用第三方客户端连接 QQ 可能违反用户协议.
 - [Check-mj/dsh-superagent-windows](https://github.com/Check-mj/dsh-superagent-windows) - 🔌 Windows 适配，基线 `6337fc8`，差量在 `WINDOWS-DELTA.md`。另有设计长文里的 Watchdog：独立 Session，默认定时 30 分钟看工单是否停滞，设为 0 则关闭（`src/app/watchdog.ts`）。Router 分片默认关；打开后同一条 Thread 固定进同一个 Router，空分片到第一次投递才创建（`src/app/shards.ts`）。桌面壳不引用上游源码.
+- [kulebbb/dsh-superagent](https://github.com/kulebbb/dsh-superagent) - 🔌 个人桌面插件，钉在 DSH `0.2.1-rc.5`。侧边栏目前只显示骨架；领域核心和「只有我」的 Policy 已有测试，作者写明还没接到插件入口.
 
 ## 生态
 

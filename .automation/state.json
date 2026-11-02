@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-02T04:31:00Z",
+  "last_run_at": "2026-11-02T05:31:41Z",
   "timezone": "UTC",
   "baseline_commit": "8507a07",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
@@ -8,44 +8,46 @@
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-02T03:30:00Z",
-    "to": "2026-11-02T04:31:00Z"
+    "from": "2026-11-02T04:31:00Z",
+    "to": "2026-11-02T05:31:41Z"
   },
   "added": [
     {
-      "title": "wiva-hq/superagent-imessage",
-      "url": "https://github.com/wiva-hq/superagent-imessage",
+      "title": "kulebbb/dsh-superagent",
+      "url": "https://github.com/kulebbb/dsh-superagent",
       "type": "derivative",
       "section": "衍生",
       "confidence": 0.86,
-      "dedupe_key": "github:wiva-hq/superagent-imessage",
+      "dedupe_key": "github:kulebbb/dsh-superagent",
       "published_at": "2026-11-02",
-      "why_relevant": "iMessage Source on the prototype (src/sources/imessage.ts, tests/imessage.spec.ts). The 03:47Z README dropped the author's earlier 'not verified end to end' sentence. Still marked experimental, with no public live run."
-    },
-    {
-      "title": "LofiSu/deepseek-super-agent",
-      "url": "https://github.com/LofiSu/deepseek-super-agent",
-      "type": "derivative",
-      "section": "衍生",
-      "confidence": 0.86,
-      "dedupe_key": "github:lofisu/deepseek-super-agent",
-      "published_at": "2026-10-31",
-      "why_relevant": "Independent TypeScript runtime. Promoted from the previous pending queue after the five-item cap reset. package.json does not depend on @deepseek-ai/dsh."
+      "why_relevant": "Personal desktop plugin. Stage 0 sidebar is a skeleton. Stage 1 copies the prototype domain core and replaces the team allow-list with an owner-only policy. Author says that core is not wired to the plugin entry. engines.dsh is ^0.2.1-rc.5. The 04:31Z run saw an empty repo; stage 1 merged at 05:14Z."
     }
   ],
   "updated": [],
   "pending": [
     {
+      "title": "effortprogrammer/oh-my-dsh-superagent",
+      "url": "https://github.com/effortprogrammer/oh-my-dsh-superagent",
+      "confidence": 0.46,
+      "reason": "Specification only, created 04:53Z. README says nothing is installable yet and no license is chosen. Inspired by the prototype, no code."
+    },
+    {
       "title": "qdriven/dsh-innate-agent",
       "url": "https://github.com/qdriven/dsh-innate-agent",
       "confidence": 0.74,
-      "reason": "src/sources/localboard.ts follows the cookbook, but the README is still the upstream prototype text."
+      "reason": "Unchanged since 00:25Z. README is still the upstream prototype text."
     },
     {
       "title": "Harness discussion #11818",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11818",
       "confidence": 0.62,
-      "reason": "Field report uses a GitHub App and a Telegram bridge. Author says there is no reproduction on an unmodified checkout."
+      "reason": "Unchanged. Field report uses a GitHub App and has no reproduction on an unmodified checkout."
+    },
+    {
+      "title": "super-agent.io troubleshooting",
+      "url": "https://super-agent.io/deepseek-super-agent/troubleshooting/",
+      "confidence": 0.64,
+      "reason": "Sibling of a page already listed. Reviewed 01 Nov 2026, outside this hour. Diagnostic boundaries, not a new source."
     },
     {
       "title": "kingy.ai design explainer",
@@ -63,25 +65,19 @@
       "title": "hxh230802/dsh-superagent-reactive",
       "url": "https://github.com/hxh230802/dsh-superagent-reactive",
       "confidence": 0.66,
-      "reason": "MSP source and experience library. Recommended install shares the daily profile, which doc 006 rejects for this bundle."
+      "reason": "Recommended install shares the daily profile, which doc 006 rejects for this bundle."
     },
     {
       "title": "deepseekv41flash panel and bridge",
       "url": "https://github.com/deepseekv41flash/dsh-superagent-panel",
       "confidence": 0.9,
-      "reason": "Already proposed on open PR #7, together with dsh-superagent-bridge. PR #7 is now closed; do not re-add until a human asks, because that PR was closed without merge."
-    },
-    {
-      "title": "ruijh/dsh-superagent-prototype-analysis",
-      "url": "https://github.com/ruijh/dsh-superagent-prototype-analysis",
-      "confidence": 0.5,
-      "reason": "Chart survey. Held in the previous run for the same reason."
+      "reason": "Closed PR #7 was not merged. Do not re-add until a human asks."
     },
     {
       "title": "TNGlobal news recap",
       "url": "https://technode.global/2026/11/02/deepseek-dsh-superagent-research-prototype/",
       "confidence": 0.55,
-      "reason": "News recap of the README and the dedicated-account warning. No code reading beyond what the list already says."
+      "reason": "News recap. No code reading beyond what the list already says."
     },
     {
       "title": "codingagentfix setup guide",
@@ -92,24 +88,24 @@
   ],
   "rejected_this_run": [
     {
-      "title": "abdulwadoodalali/dsh-superagent-prototype",
-      "url": "https://github.com/abdulwadoodalali/dsh-superagent-prototype",
-      "reason": "README is the upstream text. Description claims a spatial Session map; the extra tree is an unrelated stageshow skill."
+      "title": "Wuzeyu-sz/dsh-original-skills",
+      "url": "https://github.com/Wuzeyu-sz/dsh-original-skills",
+      "reason": "Release v0.1.0 at 05:26Z ships two generic plugin-authoring skills. The zip does not contain dsh-superagent-setup."
     },
     {
-      "title": "maochiy/deepseek-harness-superagent",
-      "url": "https://github.com/maochiy/deepseek-harness-superagent",
-      "reason": "Workspace the agent executes tickets in, not a source or guide."
+      "title": "plain forks of dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/forks",
+      "reason": "Forks created in this hour still point at upstream 6337fc8 and add no commit."
     },
     {
-      "title": "kulebbb/dsh-superagent",
-      "url": "https://github.com/kulebbb/dsh-superagent",
-      "reason": "Empty repository."
+      "title": "playgrounds and ticket workspaces",
+      "url": "https://github.com/NingJiu-Agent/dsh-superagent-playground",
+      "reason": "Sandboxes, demos, and repos an agent opened a ticket in. Includes NingJiu-Agent, amazys-lab, shaozhongfei001, cjsmme-wq, and jnyross/UnpoliticalDeepSeekSuperAgent."
     },
     {
-      "title": "dgcrxs/Superagent-DSH",
-      "url": "https://github.com/dgcrxs/Superagent-DSH",
-      "reason": "Test repository."
+      "title": "ic.work recap",
+      "url": "https://www.ic.work/article/deepseek-open-sources-dsh-superagent-router-worker-coding-ag",
+      "reason": "Calls the prototype v0.1.0. The repository has no release. Recap of the synthetic timing table."
     }
   ],
   "already_on_open_prs": [
@@ -123,8 +119,10 @@
     "deepseek-harness#11801",
     "juejin.cn/post/7703105289100296201",
     "nocoo/pi-superagent",
-    "xiehust/sample-dsh-superagent-on-agentcore"
+    "xiehust/sample-dsh-superagent-on-agentcore",
+    "wiva-hq/superagent-imessage",
+    "LofiSu/deepseek-super-agent"
   ],
-  "rejected_pattern": "Sandbox, playground, demo, mirror, and empty repositories were not listed. Windows ports that only make the POSIX scripts boot stay out while buyou-claw/dsh-superagent-win is listed.",
-  "npm_note": "latest remains 0.2.1-rc.5 and satisfies engines ^0.2.1-alpha.2. 0.2.2-alpha.2 does not. Prototype still has a single commit, 6337fc8. No version line was edited."
+  "rejected_pattern": "Sandbox, playground, demo, mirror, empty, and ticket-workspace repositories were not listed. Windows ports that only make the POSIX scripts boot stay out while buyou-claw/dsh-superagent-win is listed.",
+  "npm_note": "latest remains 0.2.1-rc.5. Prototype still has a single commit, 6337fc8. No Harness commit and no superagent discussion landed in this hour. The install pin in the deploy section was not edited. MYCF711/dsh-session-superagent added a HANDOFF note at 04:41Z; the listed sentence is still accurate."
 }
