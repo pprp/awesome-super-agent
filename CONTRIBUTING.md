@@ -1,13 +1,16 @@
 # Contributing
 
-这个清单只收 DeepSeek Harness Super-agent（`dsh-superagent`）用得上的资料。
+这个清单只收 DeepSeek Harness Super-agent（`dsh-superagent`）用得上的资料。新链接放进 `README.md` 里已有的节，沿用页首那六个标记：
 
-一条链接请包含：
+| 标记 | 放哪 |
+| --- | --- |
+| 🟢 原型里有 | 📘 官方、📚 文档、🧩 概念 |
+| ⚪ 只在设计文章里 | 🧠 设计 |
+| 📘 官方 | 📘 官方、📚 文档 |
+| 📝 社区解读 | 📝 解读 |
+| 🛠️ 自己动手装 | 🚀 使用、🛠️ 部署 |
+| 🔌 周边插件 | 🔌 生态；移植放 🌱 衍生 |
 
-- 能直接打开的 URL
-- 一句话：它比官方文档多给了什么
-- 关系：官方文档、设计文章、部署笔记、代码解读、移植，或周边插件
-
-请标明设计文章里的能力在公开原型中是否存在。星数和下载量不用写。
+一条链接请包含能打开的 URL，和一句话：它比官方文档多给了什么。设计文章里的能力，请标明原型有没有实现。星数和下载量不用写。
 
 不收 DeepSeek API Key 教程、与该 bundle 无关的皮肤，以及和 [部署文档](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/006-deployment.md) 矛盾的安装命令。
