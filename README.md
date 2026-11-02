@@ -146,6 +146,7 @@ Super-agent 在这里指官方仓库里的 dsh-superagent-prototype。它跑在 
 - [xyzOvO/dsh-superagent-prototype](https://github.com/xyzOvO/dsh-superagent-prototype) - 🔌 默认分支 `fix/windows-support`。win32 上插件有六处不改就起不来：盘符绝对路径、子进程直接带环境、prepare 走 `cmd.exe`、编排会话白名单用 `pwsh`（否则 `tools.restrict` 让整个插件加载失败）、另写 `gh.cmd` 并在外来文件扫描里跳过 `*.cmd`。作者在提交说明里记了 Windows 11、Node 24 上从 Issue 到 PR 的一次往返。服务脚本仍依赖 `fcntl`，Windows 上改走面板或 HTTP API.
 - [0xdrmnhttn13/dsh-superagent-prototype](https://github.com/0xdrmnhttn13/dsh-superagent-prototype) - 🔌 独立的本地调查代理，README 称为 Superagent Investigator。SQLite 里仍是 Trigger、Policy、Mandate、Ticket 和 Assignment，执行换成受限的 Pi 会话，只注册 `sa_context`、`sa_evidence`、`sa_report`。本机仅所有者可连的 Unix socket 收 UTF-8 证据。不跑 DSH，也没有 GitHub 或飞书来源。工具限制在应用层，不是操作系统沙箱。MIT.
 - [jwangkun/dsh-superagent](https://github.com/jwangkun/dsh-superagent) - 🔌 上游 `6337fc8` 的社区分支，不是 DeepSeek 的仓库。同一 GitHub 账号写下的 Issue 或评论，只有正文以 `@` 加上自己的登录名开头，才算这个账号自己的点名请求，其余自己写的回复仍跳过；通知流和按仓库轮询走同一条规则。`setup` 只在自检时改 `PATH` 和 `GIT_CONFIG_*`，查完就恢复，避免放进已有 profile 后留在进程里。默认 `stateDir` 是状态目录下的 `state/dsh-superagent`。`package.json` 为 0.1.3，GitHub Release 停在 v0.1.2，npm 上没有名为 `dsh-superagent` 的包。仓库带编译好的 `lib/`。MIT.
+- [mitkox/copilot-superagent](https://github.com/mitkox/copilot-superagent) - 🔌 独立的 VS Code 扩展，工单引擎来自原型 `6337fc8`，执行换成 GitHub Copilot SDK `1.0.28` 的会话，每张工单一个 git worktree。收件是 Copilot Chat、GitHub 和 Microsoft Teams，不装 DSH。扩展宿主关掉后服务就停，命令仍用操作者的系统权限。版本 0.3.0。作者写明不是 GitHub、Microsoft 或 DeepSeek 的产品。MIT.
 
 ## 生态
 
