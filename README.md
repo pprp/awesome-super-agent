@@ -220,6 +220,7 @@ scripts/dsh-superagent status
 ### 文章和代码
 
 - [dsh-superagent 深挖报告](https://www.bytenote.net/article/dsh-superagent-deep-dive-report) - 📝 把实验条件、默认 `observe`、以及「隔离是 Session 加目录，不是沙箱」写清楚了.
+- [本机管理接口与批次授权](https://www.ctfiot.com/314686.html) - 📝 对照 `6337fc8` 的社区审计，不是上游公告。本机管理接口用部署文档里的请求头辨认面板，保存 GitHub 来源时会运行配置里的 CLI。同一次评估里，门禁没通过的触发仍写在 `triggerIds` 上，Mandate 记的是这批里最强的发送者。作者的 PoC 仓库尚未公开。这个接口只监听本机.
 - [读缓存涨到 3.8 倍，P95 少 14 分钟，云端那半还只在文章里](https://halfatoken.com/insights/deepseek-super-agent/) - 📝 对同一组实验做反算，并在树里没有找到 Watchdog、边缘守护进程或 BYOM。反算是作者自己的，不是 DeepSeek 的结论.
 - [Ticket、Mandate、Executor](https://www.harelasaf.com/articles/deepseek-dsh-superagent-prototype-ticket-mandate-executor-design) - 📝 只读了 000–003 和 007。订阅线程上的跟进不授予新权力；Worker 持有那条消息时，主会话只能停止这项工作。作者没有跑代码，也没有读设计长文.
 - [MarkTechPost](https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/) - 📝 英文新闻稿，正确地把 p95 标成合成工具模拟。它把异步 ReAct 和未实现的想法放在一起，读的时候用上面的 ⚪ / 🟢 对照.
@@ -251,6 +252,8 @@ scripts/dsh-superagent status
 - [MYCF711/dsh-session-superagent](https://github.com/MYCF711/dsh-session-superagent) - 🔌 会话级：盯一个 GitHub 仓库，有变化就唤醒会话。自述凭证不进模型.
 - [vicfei/dsh-super-agent](https://github.com/vicfei/dsh-super-agent) - 🔌 独立重实现，给 Claude Code、Codex、opencode 用，不跑在 DSH 上。默认 `observe` 只打印 WOULD-ACCEPT.
 - [cjy851096/nano-dsh-superagent](https://github.com/cjy851096/nano-dsh-superagent) - 🔌 约 3400 行的独立骨架，用来对照设计长文里原型没有的 Watchdog、异步 `start()` / `stop()` 和 Inline & Spill。不跑在 DSH 上；文中的批处理压测是作者自己的.
+- [HulnotHutu/dsh-superagent-qq](https://github.com/HulnotHutu/dsh-superagent-qq) - 🔌 上游树上的 QQ 群来源。配置过的群里，经 OneBot v11 进来的消息变成 Trigger，回复回到群里。代码在 `src/sources/qq.ts`，说明在 `docs/009-qq-source.md`，本地小工具是 `napq`。作者写明与腾讯无关，用第三方客户端连接 QQ 可能违反用户协议.
+- [Check-mj/dsh-superagent-windows](https://github.com/Check-mj/dsh-superagent-windows) - 🔌 Windows 适配，基线 `6337fc8`，差量在 `WINDOWS-DELTA.md`。另有设计长文里的 Watchdog：独立 Session，默认定时 30 分钟看工单是否停滞，设为 0 则关闭（`src/app/watchdog.ts`）。Router 分片默认关；打开后同一条 Thread 固定进同一个 Router，空分片到第一次投递才创建（`src/app/shards.ts`）。桌面壳不引用上游源码.
 
 ## 生态
 
@@ -278,7 +281,9 @@ scripts/dsh-superagent status
 
 ## 讨论
 
-- [Node 24 下 status 看不到进程，晚到的 GitHub 提及可能被游标跳过](https://github.com/deepseek-ai/deepseek-harness/discussions/11700) - 📝 操作向的讨论。[#11805](https://github.com/deepseek-ai/deepseek-harness/discussions/11805) 补充：`stop` 会打印已停止，进程和端口其实还在。附近的 #11706、#11774、#11781 是补丁，不是指南.
+- [Node 24 下 status 看不到进程，晚到的 GitHub 提及可能被游标跳过](https://github.com/deepseek-ai/deepseek-harness/discussions/11700) - 📝 操作向的讨论。[#11805](https://github.com/deepseek-ai/deepseek-harness/discussions/11805) 补充：`stop` 会打印已停止，进程和端口其实还在。同仓库的 #11774、#11781 是补丁.
+- [通知看起来正常，提及却可能进不来](https://github.com/deepseek-ai/deepseek-harness/discussions/11706) - 📝 按 SETUP.md 装好后，作者把一个私有仓库的 Issue 做到了 PR。GitHub 来源可以一直显示就绪，通知数却是 0。`LANG=zh_CN.UTF-8` 时，测试对不上 git 的英文文案。机器上另一份更旧的 `gh` 若从系统钥匙串取令牌，操作者自己的 git 会改用智能体账号认证.
+- [重试和 prepare 可以活过它们的 Assignment](https://github.com/deepseek-ai/deepseek-harness/discussions/11801) - 📝 对照 `6337fc8` 的 `src/executor/dsh.ts`。提供方重试可以在 Assignment 停掉之后仍把内容交给 Worker。Ticket 的停止取消不了还没有 Worker 的 prepare。失败的 prepare 留下目录后，重试会把那个目录当成已经准备好.
 
 ## Contributing
 

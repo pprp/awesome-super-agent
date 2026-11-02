@@ -1,118 +1,127 @@
 {
-  "last_run_at": "2026-11-02T03:18:00Z",
+  "last_run_at": "2026-11-02T03:30:00Z",
   "timezone": "UTC",
   "baseline_commit": "e326376",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
+  "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "added": [
     {
-      "title": "DSH Superagent 中文源码剖析",
-      "url": "https://github.com/yang0228/dsh-superagent-analysis",
-      "type": "reading",
-      "section": "解读",
-      "confidence": 0.88,
-      "dedupe_key": "github:yang0228/dsh-superagent-analysis",
+      "title": "HulnotHutu/dsh-superagent-qq",
+      "url": "https://github.com/HulnotHutu/dsh-superagent-qq",
+      "type": "derivative",
+      "section": "衍生",
+      "confidence": 0.93,
+      "dedupe_key": "github:hulnothutu/dsh-superagent-qq",
+      "published_at": "2026-11-01"
+    },
+    {
+      "title": "Check-mj/dsh-superagent-windows",
+      "url": "https://github.com/Check-mj/dsh-superagent-windows",
+      "type": "derivative",
+      "section": "衍生",
+      "confidence": 0.9,
+      "dedupe_key": "github:check-mj/dsh-superagent-windows",
       "published_at": "2026-10-31"
     },
     {
-      "title": "cjy851096/nano-dsh-superagent",
-      "url": "https://github.com/cjy851096/nano-dsh-superagent",
-      "type": "derivative",
-      "section": "衍生",
-      "confidence": 0.84,
-      "dedupe_key": "github:cjy851096/nano-dsh-superagent",
+      "title": "本机管理接口与批次授权",
+      "url": "https://www.ctfiot.com/314686.html",
+      "type": "reading",
+      "section": "解读",
+      "confidence": 0.86,
+      "dedupe_key": "ctfiot:314686",
+      "published_at": "2026-11-01"
+    },
+    {
+      "title": "Harness discussion #11706",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11706",
+      "type": "discussion",
+      "section": "讨论",
+      "confidence": 0.92,
+      "dedupe_key": "github:deepseek-ai/deepseek-harness/discussions/11706",
+      "published_at": "2026-11-01"
+    },
+    {
+      "title": "Harness discussion #11801",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11801",
+      "type": "discussion",
+      "section": "讨论",
+      "confidence": 0.9,
+      "dedupe_key": "github:deepseek-ai/deepseek-harness/discussions/11801",
       "published_at": "2026-11-01"
     }
   ],
   "updated": [
     {
       "title": "Node 24 status pitfall",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11805",
-      "change": "Noted that the same MainThread miss makes stop report success while the process keeps listening, and start can open a second tmux window."
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11700",
+      "change": "Stopped calling #11706 a patch. #11774 and #11781 stay described as patches. #11805 is already in open PR #10 and was not edited again."
     }
   ],
   "pending": [
     {
-      "title": "cheng200606/dsh-superagent",
-      "url": "https://github.com/cheng200606/dsh-superagent",
-      "confidence": 0.62,
-      "reason": "Windows patch set. Overlaps buyou-claw/dsh-superagent-win."
-    },
-    {
-      "title": "Betsy20/dsh-superagent-windows",
-      "url": "https://github.com/Betsy20/dsh-superagent-windows",
-      "confidence": 0.55,
-      "reason": "Another Windows port of the same job."
-    },
-    {
-      "title": "wiva-hq/superagent-imessage",
-      "url": "https://github.com/wiva-hq/superagent-imessage",
-      "confidence": 0.7,
-      "reason": "iMessage Source. Author says the path is not verified end to end."
+      "title": "LofiSu/deepseek-super-agent",
+      "url": "https://github.com/LofiSu/deepseek-super-agent",
+      "confidence": 0.86,
+      "reason": "Independent TypeScript runtime, distinct from vicfei/dsh-super-agent. Held for the five-item cap."
     },
     {
       "title": "qdriven/dsh-innate-agent",
       "url": "https://github.com/qdriven/dsh-innate-agent",
-      "confidence": 0.35,
-      "reason": "Description claims a localboard Source. README is still the upstream prototype text."
+      "confidence": 0.74,
+      "reason": "src/sources/localboard.ts follows the cookbook, but the README is still the upstream prototype text."
     },
     {
-      "title": "TianzeLuo/dsh-super-agent",
-      "url": "https://github.com/TianzeLuo/dsh-super-agent",
-      "confidence": 0.6,
-      "reason": "Separate DSH control-plane plugin. Install line targets the web profile, which 006 tells operators not to use for this bundle."
+      "title": "Harness discussion #11818",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11818",
+      "confidence": 0.62,
+      "reason": "Field report uses a GitHub App and a Telegram bridge. Author says there is no reproduction on an unmodified checkout."
+    },
+    {
+      "title": "kingy.ai design explainer",
+      "url": "https://kingy.ai/blog/deepseek-super-agent-design-explained/",
+      "confidence": 0.72,
+      "reason": "Overlaps the existing halfatoken reading of the same synthetic table."
+    },
+    {
+      "title": "Juejin 5-minute explainer",
+      "url": "https://juejin.cn/post/7702895830290808859",
+      "confidence": 0.7,
+      "reason": "Restates the domain path and does not add an upstream URL."
     },
     {
       "title": "hxh230802/dsh-superagent-reactive",
       "url": "https://github.com/hxh230802/dsh-superagent-reactive",
       "confidence": 0.66,
-      "reason": "Fork adds an MSP source and an experience library, but the recommended install shares the daily profile and skips the dedicated superagent profile from 006."
+      "reason": "MSP source and experience library. Recommended install shares the daily profile, which doc 006 rejects for this bundle."
     },
     {
-      "title": "deepseekv41flash/dsh-superagent-panel",
+      "title": "deepseekv41flash panel and bridge",
       "url": "https://github.com/deepseekv41flash/dsh-superagent-panel",
-      "confidence": 0.72,
-      "reason": "Embeds the prototype panel into DSH NEXT. Already proposed on open PR #7. Hold until that install path is checked against 006."
+      "confidence": 0.9,
+      "reason": "Already proposed on open PR #7, together with dsh-superagent-bridge."
     },
     {
       "title": "ruijh/dsh-superagent-prototype-analysis",
       "url": "https://github.com/ruijh/dsh-superagent-prototype-analysis",
       "confidence": 0.5,
-      "reason": "49-chart visual survey. Some measured notes, but the page is organized around chart count."
-    },
-    {
-      "title": "Harness discussion #11818 field report",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11818",
-      "confidence": 0.62,
-      "reason": "Sanitized notes from an adapted install. Author says there is no reproduction against an unmodified checkout, and the GitHub identity is an App."
-    },
-    {
-      "title": "Harness discussion #11765 tool surfaces",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11765",
-      "confidence": 0.58,
-      "reason": "Proposal while reading the prototype. Author did not run a real dsh-superagent instance."
-    },
-    {
-      "title": "Harness discussion #11714 install night",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11714",
-      "confidence": 0.64,
-      "reason": "Operator diary of a macOS install. Mixes prototype setup with general Harness breakage."
-    },
-    {
-      "title": "TechNode recap",
-      "url": "https://technode.global/2026/11/02/deepseek-dsh-superagent-research-prototype/",
-      "confidence": 0.45,
-      "reason": "News recap without a reading of the source."
-    },
-    {
-      "title": "DataStudios recap",
-      "url": "https://www.datastudios.org/post/deepseek-dsh-superagent-mit-proactive-coding-agent-github-feishu",
-      "confidence": 0.4,
-      "reason": "News recap. Dates and license only restate the repository."
+      "reason": "Chart survey. Held in the previous run for the same reason."
     }
   ],
-  "rejected_pattern": "Sandbox, playground, demo, and test-target repositories were not listed.",
-  "npm_note": "latest remains 0.2.1-rc.5. No version edit. Prototype still has a single commit, 6337fc8."
+  "already_on_open_prs": [
+    "yang0228/dsh-superagent-analysis",
+    "cjy851096/nano-dsh-superagent",
+    "deepseek-harness#11805",
+    "juejin.cn/post/7703105289100296201",
+    "nocoo/pi-superagent",
+    "xiehust/sample-dsh-superagent-on-agentcore",
+    "cheng200606/dsh-superagent",
+    "deepseekv41flash/dsh-superagent-panel",
+    "deepseekv41flash/dsh-superagent-bridge"
+  ],
+  "rejected_pattern": "Sandbox, playground, demo, mirror, and empty repositories were not listed. Windows ports that only make the POSIX scripts boot stay out while buyou-claw/dsh-superagent-win is listed.",
+  "npm_note": "latest remains 0.2.1-rc.5 and satisfies engines ^0.2.1-alpha.2. 0.2.2-alpha.2 does not. Prototype still has a single commit, 6337fc8. No version line was edited."
 }
