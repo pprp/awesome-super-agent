@@ -152,6 +152,9 @@ Super-agent 在这里指官方仓库里的 dsh-superagent-prototype。它跑在 
 - [lesterppo/dsh-superagent-rs](https://github.com/lesterppo/dsh-superagent-rs) - 🔌 原型核心的 Rust 0.1.0 移植：领域模型、Policy 门禁和 Engine，Worker 在本地目录里跑，路径逃逸会拒绝。回复只记进 outbox，不发飞书或 GitHub，也没有面板、DSH Session 和 cordis 打包。不在 `auto` 时，推断接受记成 would-accept 再忽略。可以接 Muse Spark 或 DeepSeek 的聊天接口；作者写明 Muse 还没有密钥，缺密钥就退出，不假装调用成功。不跑在 DSH 上。MIT.
 - [RichardoMrMu/mini-super-agent](https://github.com/RichardoMrMu/mini-super-agent) - 🔌 教学用的事件引擎，对照设计长文和 `6337fc8`，没有复制上游文件。同一份 fixture 分四步看会话阻塞、Router / Worker、线程直通和 SQLite 崩溃恢复。模型是确定性 mock，不接 GitHub，也不跑在 DSH 上。Node 从 22.5 起、不到 23。作者写明不是生产框架。MIT.
 - [ForkbombEu/superagent](https://github.com/ForkbombEu/superagent) - 🔌 非官方的 Coolify Compose 包，仓库没有 LICENSE。镜像是 Node 24，克隆原型 `main`，全局安装 `@deepseek-ai/dsh@0.2.1-rc.3`。管理接口仍只听 `127.0.0.1:3082`，旁边的 Caddy 把 Host 改回这个地址；外层 Coolify 的 Caddy 对全部路径做 HTTP Basic Auth。README 写明这条路径没有做完端到端测试，也写明默认 `observe` 仍会做名单里的点名请求。不要把 3082 直接公布出去.
+- [miyako-sa/dsh-superagent-telegram](https://github.com/miyako-sa/dsh-superagent-telegram) - 🔌 非官方的 Telegram Source 插件。长轮询把私聊、列出的群和频道里的文本收成 Trigger，经宿主的 Policy 开工单，回复回到原来的聊天和话题。官方仓库没有这个来源，也不导出 Source 类型，所以插件自带要用的那一份，只往宿主的 `orchestrator` 上注册 `telegram`；没有这项服务时保持空转。媒体只留占位，令牌只从环境变量读。`docs/UPSTREAM.md` 把对照机器写成宿主 `0.2.1-rc.3`、DSH `0.2.1-rc.3`、Node 24，上游提交记的是 `6337fc8`。版本 0.1.0。MIT，作者写明与 DeepSeek 无关.
+- [hi-unc1e/dsh-superagent-prototype](https://github.com/hi-unc1e/dsh-superagent-prototype) - 🔌 上游 `6337fc8` 的分支，多了一个默认关闭的本机来源 `parallel-chat`。同一条聊天流里的消息各自理解，再交给已有的工单执行器；面板在 `src/client/chat.tsx`。接收开关默认关。README 开头仍是上游原文.
+- [kohakushigure/dsh-superagent-lab](https://github.com/kohakushigure/dsh-superagent-lab) - 🔌 独立研究仓库。`local-superagent/` 用 Node 24 内置模块做 Router、Worker、两级过滤、SQLite 和 Watchdog，零 npm 依赖，不跑在 DSH 上，来源只有本机 HTTP 和 CLI。不设密钥时走 mock；`docs/08` 写明那一轮自 loop 产出的是模板提案，真实网关还没测过。README 写明原生 Windows 跑不了官方原型：`stateDir` 拒绝盘符，服务脚本依赖 `fcntl` 和 tmux。MIT，作者写明不是 DeepSeek 的仓库.
 
 ## 生态
 
