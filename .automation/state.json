@@ -1,37 +1,37 @@
 {
-  "last_run_at": "2026-11-03T12:37:54Z",
+  "last_run_at": "2026-11-03T13:27:44Z",
   "timezone": "UTC",
-  "baseline_commit": "1230b68",
+  "baseline_commit": "5ad9ec8",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-03T11:37:22Z",
-    "to": "2026-11-03T12:37:54Z"
+    "from": "2026-11-03T12:37:54Z",
+    "to": "2026-11-03T13:27:44Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "feel-think/dsh-superagent-prototype",
-      "url": "https://github.com/feel-think/dsh-superagent-prototype",
-      "change": "14 ahead, tip e6f16afc at 2026-11-03T12:21:10Z. mcpToolAllowlist (empty by default; __ prefixes) plus a read-only stateDir accessor. The 11:12Z Feishu follow loop was already on main."
+      "title": "vicfei/dsh-super-agent",
+      "url": "https://github.com/vicfei/dsh-super-agent",
+      "change": "0.7.0 at 2026-11-03T13:07:43Z (npm 13:10:21Z). An accepted follow-up by the opener joins the open ticket instead of opening another; other people are not joined. The worker sees it on the next claim (unassigned or last assignment exit 0), bodies capped at 2000 and 12000. Resume also stores the resuming message. policy.merge.requireCi defaults off; when on, missing, failing, pending, or unreadable CI holds the merge."
     },
     {
-      "title": "Charley188/codex-superagent-harness",
-      "url": "https://github.com/Charley188/codex-superagent-harness",
-      "change": "d09060e5 at 2026-11-03T12:12:31Z adds a per-conversation model, reasoning, and speed picker. Live reads at ff86b469 were already on main."
-    },
-    {
-      "title": "lesterppo/dsh-superagent-rs",
-      "url": "https://github.com/lesterppo/dsh-superagent-rs",
-      "change": "963937ab at 2026-11-03T11:34:38Z adds the real-life layer: Git worktree, dry-run gh poll, explicit-only acceptance, no push and no merge. --post-replies and --create-pr are opt-in."
+      "title": "waixv-superagent/dsh-superagent-prototype",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
+      "change": "main tip ee620c68 at 2026-11-03T13:22:19Z. 12:54Z Feishu whole-message control words pause or resume the same processing flag (merged 13:19Z). Must be human, addressed, and on the Policy allow list. Not a Trigger. Message ids are remembered for 7 days. A running Executor turn is not interrupted. The 13:22Z panel chip layout does not change behavior."
     },
     {
       "title": "JACKWang19559/dsh-superagent-windows",
       "url": "https://github.com/JACKWang19559/dsh-superagent-windows",
-      "change": "0.1.0-windows.4 tip fa393f185 at 2026-11-03T12:25:50Z moves startup into the conversation and stores the latest 30 runs. Opening a conversation does not start work."
+      "change": "0.1.0-windows.5 tip 3762958cb3 at 2026-11-03T12:55:15Z, 6 ahead of 6337fc8. Management prefix is /orchestrator/api without a trailing slash, so /orchestrator/api/state matches. Client and presets stay windows.4."
+    },
+    {
+      "title": "DylanMing/dsh-superagent-prototype",
+      "url": "https://github.com/DylanMing/dsh-superagent-prototype",
+      "change": "47292af3 at 2026-11-03T12:35:32Z is docs only, 9 ahead of 6337fc8. Bilingual numbered docs. README lead is no longer the upstream text. Code tip remains 7669a0cd. Two minutes before the previous stamp, which had said the tip did not move."
     }
   ],
   "pending": [
@@ -327,7 +327,7 @@
       "title": "wlc221222-creator/superagent-lite",
       "url": "https://github.com/wlc221222-creator/superagent-lite",
       "confidence": 0.74,
-      "reason": "Created 2026-11-03T08:18:19Z, before this window. Independent Python Router/Worker MVP, stdlib and SQLite, Claude Code via claude -p. README still marks CodexWorker as a placeholder. In-window commit 2333122af22e at 2026-11-03T09:08:53Z adds an Android client, a .NET 8 WinForms client, and a visual pass taken from the prototype panel. Not Trigger, Mandate, or a DSH bundle. Below the auto-write bar until the admission rules are read line by line."
+      "reason": "In-window commit 953bc61aa7 at 2026-11-03T12:44:45Z only splits the Windows client download. Still an independent Python Router/Worker, not Trigger, Mandate, or a DSH bundle. Below the auto-write bar."
     },
     {
       "title": "XiaoXianThis/Sous",
@@ -357,7 +357,7 @@
       "title": "OCCAgent/dsh-superagent-prototype learning site",
       "url": "https://github.com/OCCAgent/dsh-superagent-prototype",
       "confidence": 0.6,
-      "reason": "Default tip a5040d7db4 at 2026-11-03T12:31:35Z adds learning-site pages. README lead is still the upstream text. The home page frames two agent papers. Not read line by line. Leave it for a deep run."
+      "reason": "Default tip 0a00f52921 at 2026-11-03T13:24:13Z adds learning-site pages and case-study markdown. README lead is still the upstream text. Not read line by line. Leave it for a deep run."
     },
     {
       "title": "tercel53/dsh-superagent-prototype",
@@ -376,23 +376,19 @@
       "url": "https://github.com/Tianyi0505/dsh-superagent-prototype",
       "confidence": 0.4,
       "reason": "Orphan republish at 12:20Z with an npm release workflow. README lead and package author are still the upstream text. Package name is dsh-superagent with publishConfig.access public. Not a new contract. Do not list the lookalike."
+    },
+    {
+      "title": "Harness discussion #12011",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12011",
+      "confidence": 0.74,
+      "reason": "Created 2026-11-03T12:40:20Z by unknowbug. Zero comments. Asks to stop forcing a second profile/GUI, citing docs/006's separate profile, same-origin management API, and the host session lease (sessionInUse). The author says a Windows 11 deployment on DSH 0.2.2-alpha.3 already goes issue to PR. A feature request about the documented two-profile layout, same class as #11947. Not an upstream defect. #12012-#12016 do not mention superagent. #11970, #11905, #11932, and #11947 still have zero comments."
     }
   ],
   "rejected_this_run": [
     {
-      "title": "sandboxes, playgrounds, demos, and empty sketches",
-      "url": "https://github.com/hx2060/superagents",
-      "reason": "In-window noise, not listed: hx2060/superagents (two-line initial commit), OhhhPeach, sweetiepeach, hasen-zcs, kstdd666, dorshimerhiggins812-cyber, and the sandbox/playground/demo repos whose descriptions say they exist for the agent to edit."
-    },
-    {
-      "title": "listed sentences still true",
-      "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "reason": "MYCF711 0.9.152-0.9.164 through 9073ff4f05 at 11:57:53Z are panel layout only. larksuite/cli moved at 11:34Z and the listed 1.0.90 test note stays true. DylanMing and samanhappy default tips did not move after 11:37Z."
-    },
-    {
-      "title": "upstream sync and doc-only forks",
-      "url": "https://github.com/112233-nih/dsh-superagent-prototype",
-      "reason": "112233-nih only merges upstream 8c32a9d. zx110511 adds a serial comma in 004-prompts.md. Neither is a new contract."
+      "title": "sandboxes, playgrounds, and an empty repo",
+      "url": "https://github.com/xepher/dsh_superagent",
+      "reason": "In-window noise, not listed: xepher/dsh_superagent (empty, created 12:41Z), tys-T/dsh-superagent-test (sandbox), bombless/dsh-superagent-workspace, tonyli3118/superagent-playground, zmjkkzz-web/dsh-superagent-sandbox, bwandmff/superagent-test, VissageMo-agent/agent-playground. Official prototype pushed_at is still 09:29Z."
     }
   ],
   "held_on_other_branches": [
@@ -402,13 +398,12 @@
     "GeekGold/aion (cursor/dsh-super-agent-c285 still 8500aee). Do not copy the branch.",
     "pans1es/superagent-prototype-evaluation (cursor/dsh-super-agent-c285). Do not copy the branch.",
     "deepseek-harness discussion #11845 (cursor/dsh-super-agent-c285). No new comments this window.",
-    "deadczarvc/dsh-superagent-prototype windows-native-worker-shims (82cc88e, 2026-11-03T01:37:23Z). Default branch main is still 6337fc8. Do not list the branch.",
-    "jerrysheen/dsh-superagent-prototype windows-native-startup (ab87d6a419d8, 2026-11-03T06:38:03Z). Default branch main is still 6337fc8. Do not list the branch.",
-    "PHLens dev is still 3539813 (2026-11-03T00:39:43Z). Side branches moved around 07:29Z. Do not list them.",
-    "waixv agent/gateway-watchdog-recovery-09300979529b is f1a589d6 at 2026-11-03T12:28:21Z. Default branch main is still dc6c5b9. Do not list the branch.",
-    "shibaeff fix/dsh-tui-session-deletion is 7ba90b3 at 2026-11-03T11:30:15Z, and feat/claude-code-model-provider is 6d70adc at 2026-11-03T12:32:25Z. Default branch main is still 12477e04. Do not list the branches.",
-    "wydddddcool agent/ticket-project-routing-0c7ec5608781 is e7ad4f4a at 2026-11-03T11:18:40Z. Default branch main is still 1da1e8d. Do not list the branch."
+    "deadczarvc/dsh-superagent-prototype windows-native-worker-shims. Default branch main is still 6337fc8. Do not list the branch.",
+    "jerrysheen/dsh-superagent-prototype windows-native-startup. Default branch main is still 6337fc8. Do not list the branch.",
+    "shibaeff default main is still 12477e04 (pushed_at 12:32Z, before this window). Do not list fix/dsh-tui-session-deletion or feat/claude-code-model-provider.",
+    "wydddddcool default main is still 1da1e8d. Do not list agent/ticket-project-routing-0c7ec5608781.",
+    "waixv Feishu control words are on default main ee620c68. Do not list other branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer whose observe table drops the explicit-request exception stays pending. A file bridge that does not call dsh stays pending. A QQ bundle that injects superagentIm is listed only with the fact that the published prototype does not provide that service.",
-  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z), same tree as 6337fc8. Newest harness discussion is #12010. #12003-#12010 are not superagent. #11970, #11905, #11932, and #11947 still have zero comments. Cap remains 5; this run added 0 and updated 4. Direct commit to main, no PR. Window 2026-11-03T11:37:22Z to 2026-11-03T12:37:54Z. Based on origin/main 1230b68, which already added DylanMing, samanhappy, and JACKWang."
+  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z), same tree as 6337fc8. Newest harness discussion is #12016. #12012-#12016 are not superagent. #12011 is a two-profile feature request and stays pending. #11970, #11905, #11932, and #11947 still have zero comments. Cap remains 5; this run added 0 and updated 4. Direct commit to main, no PR. Window 2026-11-03T12:37:54Z to 2026-11-03T13:27:44Z. Based on origin/main 5ad9ec8."
 }
