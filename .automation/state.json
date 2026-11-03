@@ -1,53 +1,38 @@
 {
-  "last_run_at": "2026-11-03T17:38:30Z",
+  "last_run_at": "2026-11-03T18:38:20Z",
   "timezone": "UTC",
-  "baseline_commit": "891c5ab",
+  "baseline_commit": "4e1901f",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-03T16:36:36Z",
-    "to": "2026-11-03T17:38:30Z"
+    "from": "2026-11-03T17:38:30Z",
+    "to": "2026-11-03T18:38:20Z"
   },
   "added": [
     {
-      "title": "chunonesoft/open-superagent",
-      "url": "https://github.com/chunonesoft/open-superagent",
-      "change": "Created 2026-11-03T17:06:21Z. 29 commits ahead of 6337fc8, tip 4e16b730 at 17:10:59Z. Self-hosted GitLab plus DingTalk. One code host. Relative URL root rewrite. SSH insteadOf. Chat-only without a code host. Department sync uses staffId. Package 0.2.0, engines ^0.2.1-alpha.2, author field still upstream."
-    },
-    {
-      "title": "reboot87/dsh-superagent-ones",
-      "url": "https://github.com/reboot87/dsh-superagent-ones",
-      "change": "3 commits ahead of orphan 8c32a9d, tip c2375771 at 2026-11-03T17:02:21Z. ONES source default off. mentionsMe looks for the literal @agent. ones-cli.js says it is a skeleton against example api.ones.com paths. README lead still upstream."
-    },
-    {
-      "title": "hq000204/dsh-living-home",
-      "url": "https://github.com/hq000204/dsh-living-home",
-      "change": "Field note at 2026-11-03T17:22:55Z, also discussion #12056. DSH desktop on one Windows PC, not the prototype ticket model. Watchdog is a nightly checklist plus bridge scripts. No LICENSE."
+      "title": "lzskyline/dsh-superagent-mode",
+      "url": "https://github.com/lzskyline/dsh-superagent-mode",
+      "change": "Created 2026-11-03T17:31:29Z. Only commit ae4316b1 at 18:21:59Z. Preset bundle derived from standard: superagent spawns superagent-worker, worker spawn uses standard. No Ticket, Trigger, Policy, GitHub, or Feishu. No engines.dsh. MIT, private 0.1.1."
     }
   ],
   "updated": [
     {
       "title": "vicfei/dsh-super-agent",
       "url": "https://github.com/vicfei/dsh-super-agent",
-      "change": "45f1d740 at 2026-11-03T17:33:26Z. Four live WeChat fixes, npm still 0.8.1. QR content is a URL. Statusless getupdates and sendmessage are success. Empty group_id stays a DM and stays addressed."
+      "change": "0.9.0 commit 6729f888 at 18:01:55Z, npm 18:05:43Z. Sandbox default off (bwrap/sandbox-exec, no silent fallback; Windows has no existence check). Watchdog default off, one nudge and one reminder, never admits or kills. watch() does not pass progress, so consultLlm does not skip. One Slow Path call per thread per cycle; explicit skips the model. WeChat fixes from 16:58-17:33Z are in this package."
     },
     {
       "title": "Meaple-SFKY/Super-Agent-Plugin",
       "url": "https://github.com/Meaple-SFKY/Super-Agent-Plugin",
-      "change": "5890636e at 2026-11-03T17:33:13Z. Dispatch uses CodeHost. GitLab delivery via glab. SUCCESS without a remote branch is UNVERIFIED. Branch name is stored on the dispatch row (migration v11) so prepare, verify, and recovery use the same name."
+      "change": "d0b92e39 at 2026-11-03T18:31:39Z. turn/start no longer clears a wake marker collected before it. Two idle turns still count and recycle."
     },
     {
-      "title": "yinhaox/dsh-game-studio",
-      "url": "https://github.com/yinhaox/dsh-game-studio",
-      "change": "7845e21c at 2026-11-03T17:25:41Z. Windows worker shims are gh.cmd and lark-cli.cmd. studio.yaml keeps godot; STUDIO_GODOT is the process override. CI candidates name the failing job."
-    },
-    {
-      "title": "szmdshagent/dsh-superagent-plugins",
-      "url": "https://github.com/szmdshagent/dsh-superagent-plugins",
-      "change": "Index pins both bundles at ddd0b4e5 (2026-11-03T16:42:15Z). Pane peer dsh-superagent ^0.1.0 is optional. Tip 364a1ed4 at 17:04:09Z is README wording. index.json returned 200."
+      "title": "hq000204/dsh-living-home",
+      "url": "https://github.com/hq000204/dsh-living-home",
+      "change": "Discussion #12061 at 18:14:18Z is an English restatement of #12056. Adds 24 sessions, 202 facts, ~20 MB, and the registry archive order. Same repo."
     }
   ],
   "pending": [
@@ -476,13 +461,43 @@
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12051",
       "confidence": 0.55,
       "reason": "Created 2026-11-03T16:57:44Z by linxuhao. Zero comments checked in the body only. scrubbedParentEnv keeps GIT_CONFIG_COUNT and GIT_CONFIG_VALUE_n after dropping GIT_CONFIG_KEY_n, so git exits 128. A harness bug that can hit any child, not a superagent finding. #12049, #12050, #12052, #12053, #12054, and #12055 do not describe the prototype. #12056 is the living-home note and is listed there."
+    },
+    {
+      "title": "Apiyi router-worker explainer",
+      "url": "https://help.apiyi.com/deepseek-super-agent-router-worker-architecture.html",
+      "confidence": 0.72,
+      "reason": "Published 2026-11-03T03:19:58Z, before this window. Restates the public architecture and the synthetic 12.4/15.7 table, and links an example call to api.apiyi.com. Overlaps the existing 解读 entries."
+    },
+    {
+      "title": "DEV: stars without a code change",
+      "url": "https://dev.to/dishant0406/deepseeks-super-agent-got-14k-stars-the-code-didnt-change-4n7f",
+      "confidence": 0.7,
+      "reason": "Published 2026-11-03T08:02:49Z, before this window. Star-count commentary plus the synthetic table. Overlaps the existing 解读 entries."
+    },
+    {
+      "title": "aiforpro setup blurb",
+      "url": "https://aiforpro.ai/mcp/dsh-superagent/",
+      "confidence": 0.55,
+      "reason": "Published 2026-11-03T09:31:35Z, before this window. Says observe only records requests that could have been accepted, which drops the explicit-request exception in docs/002. Do not list until that sentence is fixed."
+    },
+    {
+      "title": "Dataconomy recap",
+      "url": "https://dataconomy.com/2026/11/02/deepseek-releases-open-source-dsh-superagent-coding-agent/",
+      "confidence": 0.48,
+      "reason": "Dated November 2, 2026. Says default observe records requests the agent would have accepted without executing them, which drops the explicit-request exception in docs/002. Recap."
+    },
+    {
+      "title": "tech-noisy Japanese recap",
+      "url": "https://tech-noisy.com/2026/11/04/deepseek-dsh-superagent-prototype/",
+      "confidence": 0.6,
+      "reason": "Page stamp is Nov 04 2026 and the body says the last update is 2026-11-02. High-level recap that some essay designs are unimplemented. Overlaps the existing 解读 entries. Not in this hour's window."
     }
   ],
   "rejected_this_run": [
     {
-      "title": "sandboxes, labs, demos, and the pixel-sect skin",
-      "url": "https://github.com/gtoooooooow-dot/dsh-superagent-lab",
-      "reason": "In-window noise, not listed: gtoooooooow-dot/dsh-superagent-lab (17:30Z, test lab), datongcfl/superagent-lab (17:25Z, ticket workspace), DongLiKVK/superagent-lab (17:18Z, sandbox), QQQQQinyulu/dsh-superagent-demo (17:11Z, test repo), jamestesting0/helio-superagent (16:44Z, Dori elo bot), WucrDev/superagent (game screenshots; newest commit 16:09Z), EternalNight996/dsh-super-agents 0.1.155-0.1.159 (17:17Z-17:32Z) still the pixel-sect sidebar. Official prototype pushed_at is still 09:29Z."
+      "title": "playgrounds, a game, a skin, and non-contract commits",
+      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
+      "reason": "Not listed this hour: VBK playground, datongcfl/superagent-lab, DongLiKVK/superagent-lab, gtoooooooow-dot/dsh-superagent-lab, bombless workspace, QQQQQinyulu demo, zhaomengqi playground. WucrDev/superagent is an off-road three.js game. EternalNight996/dsh-super-agents moved 0.1.174-0.1.177 (panel stop-action test) and stays out with the earlier skin rejection. chunonesoft 95d8537 is a logo. MYCF711 0.9.166 only fixes a duplicated 前. 66ai-biz 48afb293 is ci-probe.txt. awesome-dsh-plugin 76b69f1 is a site-bridge browser note. parthi-vesta-tinker/radbench-superagents remains a Vesta demo."
     }
   ],
   "held_on_other_branches": [
@@ -501,8 +516,9 @@
     "PHLens default dev is still 89326b3. agent/native-t6-internal-coordination-5d4240d9 is 57cdecbc34; repo pushed_at 2026-11-03T16:00:55Z. Do not list the branch.",
     "0xdrmnhttn13/dsh-superagent-prototype main is still 57a81ae577 (2026-11-02T14:15:10Z). pushed_at 2026-11-03T16:58:09Z is not main. Do not list feat/local-investigation-ingress or the other side branches.",
     "PHLens default dev is still 89326b3. agent/native-t6-internal-coordination-5d4240d9 is 7e36b4cb16. Do not list the branch.",
-    "ZadAnthony/DSH-Projects pushed_at 2026-11-03T15:58:05Z is before this window. Multi-session project plugin, not the prototype ticket model. Discussion #12053 points at it. Not listed."
+    "ZadAnthony/DSH-Projects pushed_at 2026-11-03T15:58:05Z is before this window. Multi-session project plugin, not the prototype ticket model. Discussion #12053 points at it. Not listed.",
+    "PHLens default dev is still 89326b3 (committed 2026-11-03T07:47:52Z). pushed_at 2026-11-03T18:22:19Z is not a new default-branch commit. Do not list other branches."
   ],
-  "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer whose observe table drops the explicit-request exception stays pending. A file bridge that does not call dsh stays pending. An ONES source whose CLI file says the endpoints are examples is listed with that fact. A desktop field note is listed only with the fact that it is not the prototype ticket model.",
-  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z), same tree as 6337fc8. Newest harness discussion is #12056 (listed as the living-home note). #12049-#12055 are not the prototype. #12011 stays pending. #11970, #11905, #11932, and #11947 still have zero comments. Cap remains 5; this run added 3 and updated 4. Direct commit to main, no PR. Window 2026-11-03T16:36:36Z to 2026-11-03T17:38:30Z. Based on origin/main 891c5ab."
+  "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
+  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z), same tree as 6337fc8. updated_at 2026-11-03T18:29:08Z is not a new commit. Newest harness discussion is #12061 (English restatement of the listed living-home note). #12057-#12060 do not mention superagent. #12011 stays pending. #11970, #11905, #11932, and #11947 still have zero comments. Cap remains 5; this run added 1 and updated 3. Direct commit to main, no PR. Window 2026-11-03T17:38:30Z to 2026-11-03T18:38:20Z. Based on origin/main 4e1901f."
 }
