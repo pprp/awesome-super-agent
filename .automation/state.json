@@ -1,43 +1,33 @@
 {
-  "last_run_at": "2026-11-03T19:37:19Z",
+  "last_run_at": "2026-11-03T20:31:15Z",
   "timezone": "UTC",
-  "baseline_commit": "25db3f5",
+  "baseline_commit": "5d13a9e",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-03T18:38:20Z",
-    "to": "2026-11-03T19:37:19Z"
+    "from": "2026-11-03T19:37:19Z",
+    "to": "2026-11-03T20:31:15Z"
   },
   "added": [
     {
-      "title": "AIJIUCHENG/opcsuperagent",
-      "url": "https://github.com/AIJIUCHENG/opcsuperagent",
-      "change": "Created 2026-11-03T19:10:10Z. Independent Python essay implementation, tip 36864504 at 19:04:24Z. Web and console only. observe keeps explicit requests and records inferred as would-accept. Speculative rules run only in auto. In-process Watchdog defaults on. Claude -p cannot deliver mid-run. Panel screenshot is panel-demo. MIT."
+      "title": "YansongG-HKU/dsh-superagent-windows",
+      "url": "https://github.com/YansongG-HKU/dsh-superagent-windows",
+      "change": "Default branch windows-port, 9 ahead of 8c32a9d, tip 5285381d at 2026-11-03T20:23:57Z. Win32 host, GH_CONFIG_DIR identity, pwsh prepare, notifications-scope fallback. Cluster is one instance per repo. Panel Repositories page this hour. Feishu not ported. Author E2E is a private playground; WINDOWS.md says Aug 2026. Version 0.3.0."
     },
     {
-      "title": "Yiminnn/agent-ops",
-      "url": "https://github.com/Yiminnn/agent-ops",
-      "change": "Created 2026-11-03T18:50:33Z. Claude Code plugin, no copied prototype code. Tip d74686fa at 18:43:21Z. launchd heartbeat watchdog, not an essay Session. Hooks do not see inside scripts. No LICENSE."
+      "title": "chasey-myagi/dsh-superagent",
+      "url": "https://github.com/chasey-myagi/dsh-superagent",
+      "change": "4 ahead of 8c32a9d, tip e40d3446 at 2026-11-03T20:32:54Z. Local gh-local source, flock prepare, env file inside the tmux pane, prepare stderr tail, start timeout 180s with exit 3 while the process lives, ticket trace jsonl. Feishu malformed-line test is it.skip. README lead still upstream."
     }
   ],
   "updated": [
     {
-      "title": "vicfei/dsh-super-agent",
-      "url": "https://github.com/vicfei/dsh-super-agent",
-      "change": "0.9.1 npm 18:41:13Z Inline & Spill (8000 inline budget, 300-char preview). 1.0.0 npm 18:49:39Z speculation default off, tickets promote. 1.0.1 npm 18:59:45Z WeChat 1800-char chunks and wechat_binder. Tip 6e1b7c582f."
-    },
-    {
-      "title": "Meaple-SFKY/Super-Agent-Plugin",
-      "url": "https://github.com/Meaple-SFKY/Super-Agent-Plugin",
-      "change": "33392eea at 18:41:09Z recovers a pushed branch with a confirmed-absent review by opening the PR/MR only. f4c5f864 at 18:42:33Z documents D6 (first event on a new thread skipped by the global notification cursor) without changing that path."
-    },
-    {
-      "title": "PHLens/dsh-superagent-prototype",
-      "url": "https://github.com/PHLens/dsh-superagent-prototype",
-      "change": "dev is 8 ahead of 6337fc8. Tip 2495905c88 at 18:58:16Z splits one confirmed goal into internal Assignments. Coordinator model failure leaves new judgments pending. File workers have no shell. T7-T11 still open."
+      "title": "yinhaox/dsh-game-studio",
+      "url": "https://github.com/yinhaox/dsh-game-studio",
+      "change": "f8a8d596 at 2026-11-03T18:36:55Z fails studio.py check on Godot parse lines even when import exits 0, and also diffs origin/main...HEAD and HEAD~1. 6f74f0e9 at 19:48:48Z adds docs/coil-probe-report.md for a private Coil 3D run. Author claims only."
     }
   ],
   "pending": [
@@ -524,9 +514,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "demos, playgrounds, empty repos, the game, and the pixel-sect skin",
-      "url": "https://github.com/darenhun-agent/dsh-superagent-demo",
-      "reason": "In-window noise, not listed: darenhun-agent/dsh-superagent-demo (19:21Z), VBK-AI-Agent-Gateway/superagent-playground (19:03Z), l2702643902-ux/qweq (19:27Z, test loop README), BrainAlex/superbot (19:22Z, no default branch), WucrDev/superagent (19:10Z, game), EternalNight996/dsh-super-agents 0.1.184 (19:16Z) still the AgentTeams skin. Official prototype pushed_at is still 09:29Z; updated_at 19:31Z is not a commit."
+      "title": "empty forks, sandboxes, tests, and non-DSH superagent repos",
+      "url": "https://github.com/jamescashio/superagent-sandbox",
+      "reason": "In-window noise, not listed: empty forks of 8c32a9d (hoangpm, agentehermesreis, Themoneyhollic, cheungsingyi, andreasnahrgang, hotneutron, dekoza, chengsanseng-tech, Arad883), jamescashio/superagent-sandbox, fanxiong/superAgentTest, 07drs1992-del/Test_github_superagent, VBK playground, WucrDev. yizhiqianbi main is identical to 8c32a9d; cursor/odoo-crm-v0-572f is not the default branch. chunonesoft 95d8537da2 at 18:08Z, pushed 19:50Z, only replaces the logo. bytedance/deer-flow, SpellingDragon/tagent, jamestesting0/helio-superagent, and SkillfulAgents/SuperAgent are not this prototype. Official prototype pushed_at is still 09:29Z; updated_at 20:30Z is not a commit."
     }
   ],
   "held_on_other_branches": [
@@ -546,8 +536,9 @@
     "0xdrmnhttn13/dsh-superagent-prototype main is still 57a81ae577 (2026-11-02T14:15:10Z). pushed_at 2026-11-03T16:58:09Z is not main. Do not list feat/local-investigation-ingress or the other side branches.",
     "PHLens default dev is still 89326b3. agent/native-t6-internal-coordination-5d4240d9 is 7e36b4cb16. Do not list the branch.",
     "ZadAnthony/DSH-Projects pushed_at 2026-11-03T15:58:05Z is before this window. Multi-session project plugin, not the prototype ticket model. Discussion #12053 points at it. Not listed.",
-    "PHLens default dev is still 89326b3 (committed 2026-11-03T07:47:52Z). pushed_at 2026-11-03T18:22:19Z is not a new default-branch commit. Do not list other branches."
+    "PHLens default dev is still 89326b3 (committed 2026-11-03T07:47:52Z). pushed_at 2026-11-03T18:22:19Z is not a new default-branch commit. Do not list other branches.",
+    "yizhiqianbi/dsh-superagent-prototype main is identical to 8c32a9d. cursor/odoo-crm-v0-572f is not the default branch. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z), same tree as 6337fc8. updated_at 2026-11-03T19:31:32Z is not a new commit. Newest harness discussion is #12063 (open plugin market). #12062 is a Windows desktop plugin install note. Neither mentions superagent. #12011 stays pending. #11970, #11905, #11932, and #11947 still have zero comments. Cap remains 5; this run added 2 and updated 3. Direct commit to main, no PR. Window 2026-11-03T18:38:20Z to 2026-11-03T19:37:19Z. Based on origin/main 25db3f5."
+  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z), same tree as 6337fc8. updated_at 2026-11-03T20:30:04Z is not a new commit. Newest harness discussion is #12068 (mcp-client probe). #12064-#12068 do not mention superagent. #12011 stays pending. #11970, #11905, #11932, and #11947 still have zero comments. chunonesoft tip 95d8537da2 is a logo swap and does not change the listed sentence. Cap remains 5; this run added 2 and updated 1. Direct commit to main, no PR. Window 2026-11-03T19:37:19Z to 2026-11-03T20:31:15Z. Based on origin/main 5d13a9e."
 }
