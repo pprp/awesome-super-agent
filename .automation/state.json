@@ -1,27 +1,22 @@
 {
-  "last_run_at": "2026-11-03T21:44:01Z",
+  "last_run_at": "2026-11-03T22:31:24Z",
   "timezone": "UTC",
-  "baseline_commit": "392580d",
+  "baseline_commit": "c5ffd26",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-03T20:31:15Z",
-    "to": "2026-11-03T21:44:01Z"
+    "from": "2026-11-03T21:44:01Z",
+    "to": "2026-11-03T22:31:24Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "YansongG-HKU/dsh-superagent-windows",
-      "url": "https://github.com/YansongG-HKU/dsh-superagent-windows",
-      "change": "Default branch windows-port is 10 ahead of 8c32a9d. Tip 79cdc5c749d6 at 2026-11-03T20:58:54Z, package 0.3.1. commands.ts passes windowsHide on every gh, git, and lark-cli call. cluster.mjs run() covers git, gh, node, and pnpm; icacls and taskkill do too. Stops the DSH Desktop GUI from flashing a console on each CLI call."
-    },
-    {
       "title": "chasey-myagi/dsh-superagent",
       "url": "https://github.com/chasey-myagi/dsh-superagent",
-      "change": "9 ahead of 8c32a9d. 39725137a518 at 2026-11-03T20:50:32Z accepts a MainThread ucomm when the command line program is node or dsh, so start, status, and stop no longer time out while the service is answering. Tip f61afea0d48d at 2026-11-03T21:31:22Z tells the orchestrator to call recall_facts before orchestrator_route or orchestrator_eval_decide, skip without blocking when the tool is missing, errors, or DSH_MEMORY_DISABLE is set, records a dispatch event and recall rate, and emits assignment.ended before ticket.ended. Dogfood docs and the env-file test isolation do not change the listed contract."
+      "change": "15 ahead of 8c32a9d. Tip 2ccc27baef at 2026-11-03T22:02:38Z. bcd0e69191 at 21:45:39Z keeps recall_facts and get_evidence on the router and worker allow-lists when the profile registers them; the router allow-list previously omitted recall_facts, so the prompt never reached the tool. 07828aeedb at 22:00:55Z installs recallGate on the main session when recall_facts is registered: the first orchestrator_route or orchestrator_eval_decide whose JSON contains \"accept\" is refused once until recall_facts runs, the retry passes, then the counters reset. No gate when the tool is not registered. The author says DSH_MEMORY_DISABLE takes that unregistered path, and records router recall 0/4 then 2/2 on the next tickets. Docs-only commits do not add a new contract."
     }
   ],
   "pending": [
@@ -504,13 +499,25 @@
       "url": "https://github.com/SpellingDragon/tagent",
       "confidence": 0.4,
       "reason": "General Go super-agent framework, created 2026-07-24. In-window tip 660cf71c9a at 19:25:58Z is a test wait. Not a DSH port. Not listed."
+    },
+    {
+      "title": "juniorsk88/dsh-superagent",
+      "url": "https://github.com/juniorsk88/dsh-superagent",
+      "confidence": 0.52,
+      "reason": "Created 2026-11-03T22:20:51Z. Three commits over 8c32a9d: a Portuguese private-copy note and a GitHub Actions check. The test step is continue-on-error for the whole suite; the workflow comment says 1196/1197 and names the Feishu event-consumer test as red on this upstream commit. Not re-run here. README lead after the note is still upstream. A study copy, not a new contract."
+    },
+    {
+      "title": "luworks/openchat",
+      "url": "https://github.com/luworks/openchat",
+      "confidence": 0.6,
+      "reason": "In-window snapshot 013c64b493 at 2026-11-03T22:18:27Z adds role metrics. README credits the design essay and the prototype vocabulary, and says the repo contains no prototype code. Not Trigger, Mandate, or Ticket. Leave the listing for a deep run."
     }
   ],
   "rejected_this_run": [
     {
-      "title": "workspaces, playgrounds, and non-default branches",
-      "url": "https://github.com/bombless/dsh-superagent-workspace",
-      "reason": "In-window noise, not listed. bombless/dsh-superagent-workspace pushed_at 2026-11-03T21:32:48Z is not a new default-branch contract; main tip c2e4b1b478 is still the 16:09Z merge of an agent ticket PR. VBK-AI-Agent-Gateway/superagent-playground pushed 20:38Z and stays a playground. yizhiqianbi/dsh-superagent-prototype main is still 8c32a9d; pushed_at 21:36:44Z is cursor/erp-adapter-contract-2fbb, cursor/sop-production-progress-4c72, and cursor/odoo-crm-v0-572f. Do not list those branches. Official prototype pushed_at is still 09:29Z; updated_at 21:30Z is WatchEvents, not a commit. Discussion #12069 is dsh-live-compact, not superagent."
+      "title": "in-window noise",
+      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
+      "reason": "Not listed. VBK playground pushed 2026-11-03T22:15:45Z. inspiration-city/superagent-starter-kit is a paid workspace connector. jamestesting0/helio-superagent is a Dori for an elo bot. RyanOnMe/whalepod is a separate DSH team product, not the prototype ticket model; its newest commit is 21:35Z. MkThingsHQ and papisoV are catalog refreshes. codefufuai/codefufuai only refreshed profile cards; Acfufu/dsh-superagent-prototype was last pushed 2026-10-31. TYEclipse/dsh-plugins-hub featured unrelated plugins. SpellingDragon/tagent is still the Go framework. zereight/robot 2ded3bbf7c is browser visibility and CI, not a DSH bundle. Discussions #12070-#12072 do not mention superagent. Official prototype pushed_at is still 09:29Z; updated_at 22:27Z is not a commit."
     }
   ],
   "held_on_other_branches": [
@@ -535,5 +542,5 @@
     "yizhiqianbi/dsh-superagent-prototype main is still 8c32a9d. pushed_at 2026-11-03T21:36:44Z is cursor/erp-adapter-contract-2fbb and cursor/sop-production-progress-4c72, plus the older cursor/odoo-crm-v0-572f. Do not list those branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent remains 1.0.1 (2026-11-03T18:59:45.350Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). updated_at 2026-11-03T21:30:02Z is not a new commit. Newest harness discussion is #12069 (cordis.patch.yml inside agent presets; zero comments; not superagent). #12065 was edited and is a session-log bug, not superagent. #12011 stays pending. #11970, #11905, #11932, and #11947 still have zero comments. lukebot1/dsh-superagent-bootstrap, effortprogrammer/oh-my-dsh-superagent, and hxh230802/dsh-superagent-reactive still 404. Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-03T20:31:15Z to 2026-11-03T21:44:01Z. Based on origin/main 392580d."
+  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent remains 1.0.1 (2026-11-03T18:59:45.350Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). updated_at 2026-11-03T22:27:01Z is not a new commit. Newest harness discussion is #12072 (web search drops answer prose; zero comments; not superagent). #12070 and #12071 are not superagent. #12011 stays pending. #11970, #11905, #11932, and #11947 still have zero comments. lukebot1/dsh-superagent-bootstrap, effortprogrammer/oh-my-dsh-superagent, and hxh230802/dsh-superagent-reactive still 404. Listed dsh-superagent-named repos other than chasey did not push in this window. Cap remains 5; this run added 0 and updated 1. Direct commit to main, no PR. Window 2026-11-03T21:44:01Z to 2026-11-03T22:31:24Z. Based on origin/main c5ffd26."
 }
