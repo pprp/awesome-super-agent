@@ -1,27 +1,46 @@
 {
-  "last_run_at": "2026-11-03T10:45:36Z",
+  "last_run_at": "2026-11-03T11:37:22Z",
   "timezone": "UTC",
-  "baseline_commit": "0996188",
+  "baseline_commit": "fce2d75",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-03T09:55:00Z",
-    "to": "2026-11-03T10:45:36Z"
+    "from": "2026-11-03T10:45:36Z",
+    "to": "2026-11-03T11:37:22Z"
   },
-  "added": [],
-  "updated": [
+  "added": [
     {
-      "title": "AIR-DUSTER1/dsh-superagent-review",
-      "url": "https://github.com/AIR-DUSTER1/dsh-superagent-review",
-      "change": "af2fb75e1eee at 2026-11-03T09:54:51Z, nine seconds before the previous last_run_at and not recorded then. New Feishu Triggers store whether the message is already in a thread. --reply-in-thread is added only then. A top-level chat message omits it. Legacy addresses without the marker still try a thread reply first. Feishu error 2200 retries the same idempotency key without the thread flag and does not send a second message. A failed reply appears once as an outgoing problem. The overview no longer repeats it as a runtime error."
+      "title": "DylanMing/dsh-superagent-prototype",
+      "url": "https://github.com/DylanMing/dsh-superagent-prototype",
+      "confidence": 0.9,
+      "reason": "Fork created 2026-11-03T08:35:50Z. Compare against 6337fc8 is ahead by 8, including the merge of orphan 8c32a9d. Own commits: SourceKind registry, panel source, Gitea/GitLab webhook sources, local CodeHost worktree, MainThread status scan at 11:07:51Z, beginner and development guides at 11:18Z and 11:25Z. Guide says panel is default-on and the two forge sources are default-off, Gitea/GitLab are code-only, and one local smoke ran panel to ticket end. Tip 7669a0cd8d."
     },
     {
-      "title": "wydddddcool/dsh-personal-agent",
-      "url": "https://github.com/wydddddcool/dsh-personal-agent",
-      "change": "Default branch tip is merge 1da1e8d04cc9 at 2026-11-03T08:35:00Z, 11 commits ahead of 6337fc8. The 08:50Z run recorded cd880842 (9 ahead) and this merge landed inside that window after the check. prompts/replies.md: an unsolicited message is sent only if the person will decide, confirm, change direction, or use the result. A message that only informs stays internal. A ready result nobody will act on stays internal. A question whose answer changes nothing is not asked. The test limits when to speak, not the wording once speaking is warranted."
+      "title": "samanhappy/dsh-superagent",
+      "url": "https://github.com/samanhappy/dsh-superagent",
+      "confidence": 0.88,
+      "reason": "Previously pending because the newest commit was 2026-11-02T08:18:47Z. Default branch tip is now 0c49e37bab at 2026-11-03T11:02:29Z, 14 ahead of 6337fc8. README documents GitLab via glab, PingCode, WeCom, and WeChat iLink. The in-window commit adds a git shim: DSH_SUPERAGENT_WORKER shells keep the deployment GIT_CONFIG_GLOBAL and GIT_CONFIG_NOSYSTEM; other shells get the operator configuration back."
+    },
+    {
+      "title": "JACKWang19559/dsh-superagent-windows",
+      "url": "https://github.com/JACKWang19559/dsh-superagent-windows",
+      "confidence": 0.86,
+      "reason": "Fork created 2026-11-03T07:51:35Z, missed by earlier hourly scans. 151ad5b7c5 at 2026-11-03T11:16:01Z is 0.1.0-windows.3: idle until an explicit on-demand launch of one repository and branch. Tip ebc54aacfe at 11:20:04Z only normalizes a Windows test path. Distinct from the listed Windows ports. Feishu stays default-off. No end-to-end issue-to-PR record in the README."
+    }
+  ],
+  "updated": [
+    {
+      "title": "feel-think/dsh-superagent-prototype",
+      "url": "https://github.com/feel-think/dsh-superagent-prototype",
+      "change": "Default branch tip 04f3b753b5 at 2026-11-03T11:12:41Z, 13 ahead of 6337fc8. Merges agent/close-feishu-loop, which the previous run kept off the default branch. A Feishu or both reply calls checkedImText, sends a new lark-cli message, then followForContext on feishu thread chat_id:message_id. ticketEnded and unknownTicket skip the follow. Other follow errors retry the send. docs/009 says a runtime without engine still sends and cannot subscribe, and Both fails a too-long reply before the JSON file is written."
+    },
+    {
+      "title": "Charley188/codex-superagent-harness",
+      "url": "https://github.com/Charley188/codex-superagent-harness",
+      "change": "ff86b46975 at 2026-11-03T11:19:12Z. Registered project roots can be read live. Excludes dot names and names containing .env, credential, secret, or private_key. docx, pptx, and xlsx are read from the zip. A read does not replace a later read. Edits stay in the isolated copy."
     }
   ],
   "pending": [
@@ -144,12 +163,6 @@
       "url": "https://github.com/wiva-hq/superagent-imessage",
       "confidence": 0.74,
       "reason": "0.2.0 at 09:22Z ranks Photon v2 as the verified mode. PR #15 closed unmerged at 2026-11-02T13:16:10Z. Same rule as closed PRs #3 and #7: do not copy it, and do not rewrite the listed sentence from here. Default branch did not move."
-    },
-    {
-      "title": "samanhappy/dsh-superagent",
-      "url": "https://github.com/samanhappy/dsh-superagent",
-      "confidence": 0.6,
-      "reason": "Real fork (GitLab, PingCode, WeCom, WeChat) but the newest commit is 2026-11-02T08:18:47Z, before this window. No commits since 09:43Z. Leave it for a deep run."
     },
     {
       "title": "sisyphuslabs/dori-superagent",
@@ -310,8 +323,8 @@
     {
       "title": "elicie/dsh-superagent-prototype",
       "url": "https://github.com/elicie/dsh-superagent-prototype",
-      "confidence": 0.7,
-      "reason": "Ten commits ahead of 6337fc8. Newest main commit is 05e4ff0bc8 at 2026-11-03T03:19:01Z, before this window: add a Superagent instance from the panel, after earlier commits that run several instances in one Harness process. pushed_at was 05:48Z without a newer commit. Not reviewed line by line. Leave it for a deep run."
+      "confidence": 0.74,
+      "reason": "Thirteen commits ahead of 6337fc8. Default-branch tip is 5274ee56a3 at 2026-11-03T08:26:49Z, before this window: a worker's tools are refused outside its Ticket directory, Executor sessions are listed under that instance's workspace, and an instance is added from the header selector. pushed_at 2026-11-03T10:40:44Z did not add a newer commit. The 03:19Z note was stale. Leave the listing for a deep run."
     },
     {
       "title": "wangruofeng007 attention-budget essay",
@@ -336,23 +349,35 @@
       "url": "https://github.com/JCLee777/super-agent-rs",
       "confidence": 0.52,
       "reason": "Created 2026-11-03T10:20:58Z. Commits 45856696fd80 and 6afff950cd64 at 2026-11-03T10:26:52Z add a Rust architecture note and pin the prototype submodule at 8c32a9dc5d72. README and docs describe Source, Trigger, Thread, Eval, Mandate, and Ticket. There is no Cargo.toml and no Rust crate. Design only. Not listed."
+    },
+    {
+      "title": "duty9527/super-agent",
+      "url": "https://github.com/duty9527/super-agent",
+      "confidence": 0.64,
+      "reason": "Created 2026-11-03T11:15:48Z. Local read-only Router/Worker on @earendil-works/pi-coding-agent@1.5.0, one main conversation, no shell and no file writes. Architecture says full Trigger admission, many-to-many thread subscription, and a general outbox are not implemented. It does not name DSH or 6337fc8. Below the auto-write bar."
+    },
+    {
+      "title": "mzs0207/dsh-superagent-prototype",
+      "url": "https://github.com/mzs0207/dsh-superagent-prototype",
+      "confidence": 0.7,
+      "reason": "Two commits ahead of 6337fc8. c7e0a4ac81 at 2026-11-03T06:21:59Z says self-managed GitLab repositories and sources. b72f9ccb53 at 2026-11-03T10:39:44Z says repository-host selection and Linux service startup. Both are before this window and were not read line by line. Overlaps the listed huangyj GitLab source. Leave it for a deep run."
     }
   ],
   "rejected_this_run": [
     {
       "title": "listed sentences still true",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "reason": "MYCF711 0.9.143-0.9.148 through 4b6faa547092 at 10:28:02Z are panel layout only. LofiSu 9a0def393599 at 09:59:33Z releases a mesh node when a non-queued Worker turn rejects (#97); #95 and #96 are tests. The listed sentences do not mention those mechanisms and remain true. PHLens dev, shibaeff main, waixv, vicfei, and mengzhongjie did not move after 09:55Z."
+      "reason": "MYCF711 0.9.151-0.9.157 through 4fff0954acd4 at 11:31:15Z are UI stats and empty states. shibaeff pushed_at 11:30:17Z but main is still 12477e04ad20. wydddddcool pushed_at 11:18:46Z but main is still 1da1e8d04cc9. Prototype main is still 8c32a9d, tree 3efbb036. npm latest and next remain 0.2.1-rc.5. alpha remains 0.2.2-alpha.3."
     },
     {
-      "title": "empty, demo, playground, and bare forks",
-      "url": "https://github.com/zheyuan671/dsh-superagent-demo",
-      "reason": "In-window noise, not listed: zheyuan671/dsh-superagent-demo (empty initial commit 10:41Z), jeffrey-walter/superagent-demo, zhuchenyu876/super-agent (empty, description supercool), and bare forks of the prototype whose pushed_at is still 09:29:14Z. dai-junjie was not pushed after 09:55Z."
+      "title": "sandbox, playground, demo, and ticket workspaces",
+      "url": "https://github.com/bombless/dsh-superagent-workspace",
+      "reason": "Not listed: bombless game workspace, laobadao/tao12121321/AshModeling/ik5875249-crypto/kjac7141-droid/agent-clawsphere playgrounds and sandboxes, JafeChang byte-formatting playground, zheyuan671 and jeffrey-walter demos, iy1001 test repo, KhalidAbdelaty revenue-lab runs, Frz2004 TaskFlow workspace, cwijayasundara invoice demo, YongjiangChandler thesis smoke, kstdd666 and hasen-zcs empty inits, zhuchenyu876 first commit. 112233-nih only merged orphan 8c32a9d. zx110511 in-window commits are serial-comma docs. lahavi/awesome-superagent b202940894 at 11:01Z still aggregates resources this list keeps out."
     },
     {
-      "title": "non-default branch and harness discussions",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12002",
-      "reason": "feel-think main is still c6c87a49937e. pushed_at 10:33:31Z is branch agent/close-feishu-loop, not the default branch. Newest harness discussion is #12002 at 10:23:54Z. #11996-#12002 do not mention dsh-superagent. #11997's comment is a busy-service note. #11970, #11905, #11932, and #11947 still have zero comments. No npm publish after 07:48Z. No new superagent paper or HN story in the window. lukebot1, effortprogrammer, and hxh230802 still 404."
+      "title": "harness discussions are not an operational finding",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12003",
+      "reason": "Newest discussion is #12003 at 2026-11-03T11:19:01Z (session.export includeDescendants). It does not mention dsh-superagent. No new discussion after #12002 mentions superagent. #11970, #11905, #11932, and #11947 still have zero comments. No new release after dsh-v0.2.2-alpha.3. No new HN story in the window. No new superagent paper."
     }
   ],
   "held_on_other_branches": [
@@ -367,5 +392,5 @@
     "PHLens dev is still 3539813 (2026-11-03T00:39:43Z). Side branches moved around 07:29Z. Do not list them."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer whose observe table drops the explicit-request exception stays pending. A file bridge that does not call dsh stays pending. A QQ bundle that injects superagentIm is listed only with the fact that the published prototype does not provide that service.",
-  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z); updated_at 10:32Z is watch and fork activity. Newest harness discussion is #12002. #11996-#12002 are not superagent. #11970, #11905, #11932, and #11947 still have zero comments. Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-03T09:55:00Z to 2026-11-03T10:45:36Z. The AIR commit is 09:54:51Z and was missing from the previous run's recorded tip."
+  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z), same tree as 6337fc8. Newest harness discussion is #12003. It is not superagent. #11970, #11905, #11932, and #11947 still have zero comments. Open PRs on this repo: none. Cap remains 5; this run added 3 and updated 2. Direct commit to main, no PR. Window 2026-11-03T10:45:36Z to 2026-11-03T11:37:22Z."
 }
