@@ -1,32 +1,62 @@
 {
-  "last_run_at": "2026-11-03T02:40:23Z",
+  "last_run_at": "2026-11-03T03:41:20Z",
   "timezone": "UTC",
-  "baseline_commit": "6bc09de",
+  "baseline_commit": "0d807e2",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-03T01:48:00Z",
-    "to": "2026-11-03T02:40:23Z"
+    "from": "2026-11-03T02:40:23Z",
+    "to": "2026-11-03T03:41:20Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "zhangzihaoDT/dsh-superagent-mashang-service",
+      "url": "https://github.com/zhangzihaoDT/dsh-superagent-mashang-service",
+      "confidence": 0.88,
+      "reason": "Created 2026-11-03T02:54:42Z. Two commits ahead of 6337fc8. 7be2ed86d430 (02:43Z, committer 02:55:16Z) adds user LaunchAgent local.dsh.superagent (scripts/launchd_service.py) and a native macOS menu-bar controller. Quitting the controller leaves launchd running. Paths are embedded in the plist. package dsh-superagent 0.1.0 private, engines.dsh still ^0.2.1-alpha.2. README lead after the preface is still upstream. LICENSE copyright line still says DeepSeek Harness Team. MIT. Not a DeepSeek repository."
+    },
+    {
+      "title": "cjcj5438/omp-superagent-prototype",
+      "url": "https://github.com/cjcj5438/omp-superagent-prototype",
+      "confidence": 0.86,
+      "reason": "Created 2026-11-03T02:40:16Z, seven seconds before the window. Implementation commit 1b6863b071c8 at 02:52:35Z is inside the window; docs count fix 37c16f143c38 at 03:04:15Z. Rewrites the source, Trigger, Policy, Eval, and Ticket loop onto omp --mode rpc. Not on DSH. One daemon, one GitHub repository, Feishu optional. policy mode defaults to observe. Inferred acceptance while mode is not auto is recorded as would-accept and ignored. An accept still needs one assessment per enabled rule and at least one match. Empty allow-list yields not_a_member. Package omp-superagent 0.1.0 private. LICENSE copyright line still says DeepSeek Harness Team. MIT."
+    },
+    {
+      "title": "ucsdzehualiu/mini_super_agent",
+      "url": "https://github.com/ucsdzehualiu/mini_super_agent",
+      "confidence": 0.86,
+      "reason": "Created 2026-11-03T03:03:38Z. AgentScope local replica, not DSH, and not RichardoMrMu/mini-super-agent. Router stays up and only emits task briefs; workers are discarded. A subscription hit on an in-flight task is delivered without calling the Router. Watchdog marks and prompts and does not cancel. No GitHub or Feishu source. Tools are an ALLOW stub and run on the host. Console at 127.0.0.1:8080. README claims about 4000 lines of Python and 96 tests. MIT, copyright ucsdzehualiu. Architecture note e9343626ba55 at 03:26:40Z."
+    },
+    {
+      "title": "在 GitHub 评论里派活（葡萄牙语）",
+      "url": "https://bralvim.github.io/superagente-github/",
+      "confidence": 0.88,
+      "reason": "brAlvim/brAlvim.github.io commit 3a0296625ac0 at 2026-11-03T03:27:15Z. Page HTTP 200. Install pin matches docs/006: npm install -g @deepseek-ai/dsh@0.2.1-rc.3. Says a GitHub App cannot replace the user account and secrets stay in the terminal. Examples are all addressed comments. Does not say that default observe still runs an explicit request and only records unaddressed work as would-accept."
+    }
+  ],
   "updated": [
     {
       "title": "kohakushigure/dsh-superagent-lab",
       "url": "https://github.com/kohakushigure/dsh-superagent-lab",
-      "change": "main 7681d47611e2 at 2026-11-03T02:03:47Z. 239ac26 (01:56Z) posts a worker report with gh issue comment when a project rule sets channel=github and the thread is owner/repo#N. Worker still has no outbound channel. The 00:24Z note on issue #1 is still the author's. Comment 6593408334 at 01:55:45Z is a channel probe from the same login. docs/14 says deliver() handles channel=github-pr, but deliver() returns unless channel is exactly github, so that draft-PR branch does not run. The rehearsal PR is a dry-run. pushed_at 02:29:04Z is agent/loop-record; default branch did not move after 02:03Z."
+      "change": "main c587cdf3a9fb at 2026-11-03T03:36:11Z. 574288af14c9 (03:06Z) makes deliverOnce accept channel github and github-pr. github-pr with report.branch or rule.prBranch calls gh pr create; draft is on unless draft is false, then posts an issue comment with the PR URL, branch, changes, ran, and NOT RUN. No branch still posts only the comment. dry-run only when cfg.channel.dryRun is set. Worker still has no outbound channel. docs/15 records draft PR #47 from that path and draft PR #48 for issue #35. The 00:24Z note on issue #1 is still the author's. The previous sentence that deliver() returns unless channel is exactly github is false."
+    },
+    {
+      "title": "leolegends/carbon-superagent",
+      "url": "https://github.com/leolegends/carbon-superagent",
+      "change": "main fd4051744bd4 at 2026-11-03T02:48:13Z is still package 0.2.0. ddc6bbf1a177 (02:46Z) makes the worktree temporary under .carbon-data/worktrees/. Branch is still agent/ plus the task key and the first 6 characters of the id. A clean finished worktree is removed and the branch stays; a dirty worktree stays. Work does not touch the current checkout. Afterward the card can open a PR onto a chosen branch, merge into a local branch, or git apply the diff onto the project folder as uncommitted changes. Merging into the current checkout requires a clean tree and aborts on conflict with nothing written. apply uses git apply --check first. Observe and auto-push defaults are unchanged: push off, and observe opens a draft PR when push is on."
+    },
+    {
+      "title": "yinhaox/dsh-game-studio",
+      "url": "https://github.com/yinhaox/dsh-game-studio",
+      "change": "main bca9781f5a94 at 2026-11-03T02:52:15Z. patches/superagent-windows.patch now also sets NOTIFICATION_LOOKBACK_MS to 10 minutes and stores that lookback as the GitHub since cursor, so a slow poll cannot skip a mention. The drive-letter stateDir and bash allow-list hunks remain. README install steps still do not apply the patch. The 02:47Z input-action commit does not change the listed studio sentence."
     },
     {
       "title": "waixv-superagent/dsh-superagent-prototype",
       "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "change": "main 02610dc3a37e at 2026-11-03T02:24:51Z, 10 commits ahead of 43dfcd30. PRs #15 and #19 merged at 02:22Z: accept names a configured target, and resolveDelivery maps GitHub with no target to the watched repository, TAPD to the depot, and anything else to settings.executor.backend. resolveTarget refuses an unconfigured spelling and names the configured targets. The prompt still says never run p4 submit. PRs #16-#18 are panel-only (copy session id, hero count, Feishu card deeplink) and are not in the sentence."
-    },
-    {
-      "title": "vicfei/dsh-super-agent",
-      "url": "https://github.com/vicfei/dsh-super-agent",
-      "change": "main 9b31610742 at 2026-11-03T02:30:48Z is package 0.6.0. defaultMergePolicy().enabled is false. When enabled, evaluateMerge only merges dsh/ticket-N, requires an allowed-list approval whose commit_id is the head, caps additions+deletions at 200, and a CHANGES_REQUESTED from that list vetoes. Bots and reviewers outside the list do not count. Draft, conflict, or unknown mergeability also wait. Observe still records inferred work as would-accept; the README example still accepts an explicit request."
+      "change": "main e2e4de24d39f at 2026-11-03T03:32:26Z. Merge of #20 at 02:40:24Z adds scripts/feishu-status.mjs, a companion outside the DSH process, intended to run every minute. It reads loopback :3082 /orchestrator/api/overview, sends and patches one Feishu card, and tries to pin it. A failed overview read becomes the red offline card. It does not edit tickets or plugin config. Feishu updates a card for 14 days; REFRESH_DAYS is 13. PRs #21 and #23 (plan-card line breaks, search filters, Mac board width) stay out of the sentence."
     }
   ],
   "pending": [
@@ -250,7 +280,7 @@
       "title": "Kevin-Pal/cc-codex-super-agent",
       "url": "https://github.com/Kevin-Pal/cc-codex-super-agent",
       "confidence": 0.7,
-      "reason": "Created 2026-11-02T10:06:22Z, before this window. Claude Code Router plus native Codex Workers, inspired by the essay, explicitly not a DSH port and not Trigger/Mandate/Ticket. This hour only edited README and CHANGELOG (23:41Z-23:42Z) to say a person can talk to a Worker directly. Leave the listing for a deep run."
+      "reason": "Created 2026-11-02T10:06:22Z, before this window. Claude Code Router plus native Codex Workers, inspired by the essay, explicitly not a DSH port and not Trigger/Mandate/Ticket. 2026-11-03T02:47:21Z (feb3e1778264) only moves language navigation. Still pending for a deep run."
     },
     {
       "title": "YoloLab super-agent architecture note",
@@ -269,28 +299,40 @@
       "url": "https://github.com/AIR-DUSTER1/dsh-gatehouse",
       "confidence": 0.62,
       "reason": "Already cited inside the AIR-DUSTER1/dsh-superagent-review sentence. Do not add a second row. Console code is the 2026-11-02T10:33:24Z first commit. This window only renamed the companion (eb5c270757, 00:58Z) and added AGENTS.md (2003a44a92, 01:14Z). No LICENSE file. The console does not run Git."
+    },
+    {
+      "title": "r-ayin/dsh-autonomous-bridge",
+      "url": "https://github.com/r-ayin/dsh-autonomous-bridge",
+      "confidence": 0.72,
+      "reason": "Created 2026-11-03T02:41:13Z. Python stdlib scripts turn autonomous_studio .planning/status.json into markdown task files. It does not register a Source and does not spawn dsh. The worker is a pasted automation prompt or a person. README says it does not git push and never auto-runs a deploy stage. MIT. Below the auto-write bar until it actually drives the prototype."
+    },
+    {
+      "title": "Korean Super-agent recap",
+      "url": "https://ai-dev-blog.pages.dev/blog/deepseek-super-agent/",
+      "confidence": 0.62,
+      "reason": "jrkim3888/my_astro_blog commit 2d743cfb7d86 at 2026-11-03T03:11:15Z, pubDate 2026-11-03 with no clock time. Says default observe only records proactively found candidates and does not state that an explicit named request still runs. Watchdog is narrated as a DeepSeek mechanism; a later sentence says some essay designs are not in the prototype. Overlaps the existing 解读 entries. Do not list until the observe sentence includes the explicit-request exception."
     }
   ],
   "rejected_this_run": [
     {
       "title": "listed sentences still true",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "reason": "MYCF711 698dfe0ea0 at 2026-11-03T02:24:49Z is 0.9.125 (skip GitHub calls after auth is known-bad). LofiSu e32e3106d7 at 02:29Z is CI plus Feishu group admission. leolegends e71f016818 at 02:34Z adds skills, a chosen PR base, and a Mission Control bar; package stays 0.2.0 and observe still opens a draft when push is on. yinhaox 456154f0df at 02:29Z widens the write guard and capture args. AIR-DUSTER1 main tip is still 37e637ff3a at 01:05Z. PHLens dev is still 3539813 at 00:39Z. lishuoipad main is still 2de5500473a4 at 01:18Z. None of those listed sentences became false."
+      "reason": "MYCF711 main a90a5637a62e at 2026-11-03T03:23:39Z is 0.9.126 (circuit breaker inside run() for gh calls). LofiSu bb11c96dbb18 at 03:11:09Z adds an iMessage channel and a local OpenAI-compatible gateway. Neither listed sentence became false. PHLens dev is still 3539813b4a33 (00:39Z); pushed_at 03:21:57Z is side branches. AIR-DUSTER1/dsh-superagent-review main is still 37e637ff3ac4 (01:05Z)."
     },
     {
-      "title": "empty, playground, mirror, and ticket workspaces",
-      "url": "https://github.com/xiaozefeng/superagent-playground",
-      "reason": "Created or pushed in this window and not listed: xiaozefeng/superagent-playground, ChaoyuZhang1/test_dsh_superagent, mickshu/dsh-superagent, jialianghe-eng/pool-counterflow-trainer, guru4elephant/dsh-superagent-demo-project, houmaodou/dsh-superagent-test, 01ai-agent/superagent-test, JohnGoo-bot/dsh-superagent-test, jsshwqz/dsh-superagent-test, c61ivszkms/superagent-test, guo19145696756-creator/dsh-superagent-lab, siluphye/dsh-superagent-work. migetaa/dsh-superagent-prototype describes itself as a mirror. dgcrxs/Superagent-DSH is a deployment-check repo with a garbled README. beiluo/dsh-superagent-demo is not a super-agent."
+      "title": "harness discussions are not superagent",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11943",
+      "reason": "#11935 through #11943 were created after 2026-11-03T02:40:23Z. Newest is #11943 at 2026-11-03T03:34:18Z (V4.1 Flash repetition). #11938 is the agentsCommunication cross-client MCP bridge, not this prototype. #11932 and #11905 still have zero comments. No release after dsh-v0.2.1-rc.5. Prototype main is still 6337fc8. npm latest is still 0.2.1-rc.5."
     },
     {
-      "title": "harness discussions are not an operational finding",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11934",
-      "reason": "#11933 (chat link context menu, 02:19Z) and #11934 (web error process feedback, 02:25Z) do not mention superagent. #11932 is pending. No release after dsh-v0.2.1-rc.5. Prototype HEAD is still 6337fc8. npm latest is still 0.2.1-rc.5."
+      "title": "empty, playground, and ticket workspaces",
+      "url": "https://github.com/Volica/deepseek-superagent",
+      "reason": "Volica/deepseek-superagent and jjs2zy/Superagent are empty (HTTP 409). deryhgvbh/dsh-superagent and 839047121g-commits/dsh-local-demo are one-commit experiments. shiyong-fan/superagent-test, xiixsss/superagent-playground, YgsZp/superagent-sandbox, newxiongsir/superagent-e2e, lukebot1/agent-playground, guru4elephant/dsh-superagent-demo-project, and xiaozefeng/superagent-playground are playgrounds or sandboxes. Not listed."
     },
     {
-      "title": "not a dsh-superagent implementation",
-      "url": "https://github.com/sisyphuslabs/dori-superagent",
-      "reason": "dori in-window commits stay herdr + omo. like-study1/Oh-My-DSH is a plugin-index sync. Name collisions checked and left out: caixuf/super-agent, Youzini-afk/Varin, SkillfulAgents/SuperAgent, agentscope-ai/QwenPaw. No arXiv, HN, or new original write-up in this window."
+      "title": "panel-only waixv commits",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/pull/23",
+      "reason": "PRs #21 and #23 change plan-card line breaks, search filters, and the Mac board width. They do not change who may start work or where a ticket is delivered. Left out of the sentence. The status-card script from #20 is recorded separately."
     }
   ],
   "held_on_other_branches": [
@@ -302,6 +344,6 @@
     "deepseek-harness discussion #11845 (cursor/dsh-super-agent-c285). No new comments this window.",
     "deadczarvc/dsh-superagent-prototype windows-native-worker-shims (82cc88e, 2026-11-03T01:37:23Z). Default branch main is still 6337fc8. Do not list the branch."
   ],
-  "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only; pre-window implementations stay pending for a deep run. The PHLens dev tip at 00:39Z was corrected because the previous sentence was already false.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). 0.2.2-alpha.2 exists and does not satisfy engines ^0.2.1-alpha.2 when prerelease is excluded. Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z); package.json version is 0.1.0 and engines.dsh is still ^0.2.1-alpha.2. Newest harness discussion is #11934 (2026-11-03T02:25:26Z); #11932 mentions the prototype and stays pending. No harness release in this window (newest release dsh-v0.2.1-rc.5 published 2026-10-30T02:12:26Z). Open PRs on this repo: none. Cap remains 5; this run added 0 and updated 3. Direct commit to main, no PR."
+  "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. A file bridge that does not call dsh stays pending. A recap that drops the explicit-request exception stays pending.",
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). 0.2.2-alpha.2 exists and does not satisfy engines ^0.2.1-alpha.2 when prerelease is excluded. Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z); package.json version is 0.1.0 and engines.dsh is still ^0.2.1-alpha.2. Newest harness discussion is #11943 (2026-11-03T03:34:18Z), not about superagent. No harness release in this window (newest release dsh-v0.2.1-rc.5 published 2026-10-30T02:12:26Z). Open PRs on this repo: none. Cap remains 5; this run added 4 and updated 4. Direct commit to main, no PR. Window ended 2026-11-03T03:41:20Z."
 }
