@@ -1,38 +1,43 @@
 {
-  "last_run_at": "2026-11-03T18:38:20Z",
+  "last_run_at": "2026-11-03T19:37:19Z",
   "timezone": "UTC",
-  "baseline_commit": "4e1901f",
+  "baseline_commit": "25db3f5",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-03T17:38:30Z",
-    "to": "2026-11-03T18:38:20Z"
+    "from": "2026-11-03T18:38:20Z",
+    "to": "2026-11-03T19:37:19Z"
   },
   "added": [
     {
-      "title": "lzskyline/dsh-superagent-mode",
-      "url": "https://github.com/lzskyline/dsh-superagent-mode",
-      "change": "Created 2026-11-03T17:31:29Z. Only commit ae4316b1 at 18:21:59Z. Preset bundle derived from standard: superagent spawns superagent-worker, worker spawn uses standard. No Ticket, Trigger, Policy, GitHub, or Feishu. No engines.dsh. MIT, private 0.1.1."
+      "title": "AIJIUCHENG/opcsuperagent",
+      "url": "https://github.com/AIJIUCHENG/opcsuperagent",
+      "change": "Created 2026-11-03T19:10:10Z. Independent Python essay implementation, tip 36864504 at 19:04:24Z. Web and console only. observe keeps explicit requests and records inferred as would-accept. Speculative rules run only in auto. In-process Watchdog defaults on. Claude -p cannot deliver mid-run. Panel screenshot is panel-demo. MIT."
+    },
+    {
+      "title": "Yiminnn/agent-ops",
+      "url": "https://github.com/Yiminnn/agent-ops",
+      "change": "Created 2026-11-03T18:50:33Z. Claude Code plugin, no copied prototype code. Tip d74686fa at 18:43:21Z. launchd heartbeat watchdog, not an essay Session. Hooks do not see inside scripts. No LICENSE."
     }
   ],
   "updated": [
     {
       "title": "vicfei/dsh-super-agent",
       "url": "https://github.com/vicfei/dsh-super-agent",
-      "change": "0.9.0 commit 6729f888 at 18:01:55Z, npm 18:05:43Z. Sandbox default off (bwrap/sandbox-exec, no silent fallback; Windows has no existence check). Watchdog default off, one nudge and one reminder, never admits or kills. watch() does not pass progress, so consultLlm does not skip. One Slow Path call per thread per cycle; explicit skips the model. WeChat fixes from 16:58-17:33Z are in this package."
+      "change": "0.9.1 npm 18:41:13Z Inline & Spill (8000 inline budget, 300-char preview). 1.0.0 npm 18:49:39Z speculation default off, tickets promote. 1.0.1 npm 18:59:45Z WeChat 1800-char chunks and wechat_binder. Tip 6e1b7c582f."
     },
     {
       "title": "Meaple-SFKY/Super-Agent-Plugin",
       "url": "https://github.com/Meaple-SFKY/Super-Agent-Plugin",
-      "change": "d0b92e39 at 2026-11-03T18:31:39Z. turn/start no longer clears a wake marker collected before it. Two idle turns still count and recycle."
+      "change": "33392eea at 18:41:09Z recovers a pushed branch with a confirmed-absent review by opening the PR/MR only. f4c5f864 at 18:42:33Z documents D6 (first event on a new thread skipped by the global notification cursor) without changing that path."
     },
     {
-      "title": "hq000204/dsh-living-home",
-      "url": "https://github.com/hq000204/dsh-living-home",
-      "change": "Discussion #12061 at 18:14:18Z is an English restatement of #12056. Adds 24 sessions, 202 facts, ~20 MB, and the registry archive order. Same repo."
+      "title": "PHLens/dsh-superagent-prototype",
+      "url": "https://github.com/PHLens/dsh-superagent-prototype",
+      "change": "dev is 8 ahead of 6337fc8. Tip 2495905c88 at 18:58:16Z splits one confirmed goal into internal Assignments. Coordinator model failure leaves new judgments pending. File workers have no shell. T7-T11 still open."
     }
   ],
   "pending": [
@@ -423,8 +428,8 @@
     {
       "title": "zeokeel/ZeoKeel-Super-Agent",
       "url": "https://github.com/zeokeel/ZeoKeel-Super-Agent",
-      "confidence": 0.68,
-      "reason": "Created 2026-11-03T13:17:56Z. In-window tip 62bcdafff21c at 15:15:14Z is a workspace panel. README says the sidebar follows DSH layout and offers a DeepSeek chat model. Not checked line by line against docs/002. Leave the listing for a deep run."
+      "confidence": 0.66,
+      "reason": "Created 2026-11-03T13:17:56Z. In-window tip e8fad517fe at 19:30:57Z is UI interaction polish. README says the sidebar follows DSH layout and offers a DeepSeek chat model. Still not checked line by line against docs/002. Not listed."
     },
     {
       "title": "xdlkc/nexus",
@@ -491,13 +496,37 @@
       "url": "https://tech-noisy.com/2026/11/04/deepseek-dsh-superagent-prototype/",
       "confidence": 0.6,
       "reason": "Page stamp is Nov 04 2026 and the body says the last update is 2026-11-02. High-level recap that some essay designs are unimplemented. Overlaps the existing 解读 entries. Not in this hour's window."
+    },
+    {
+      "title": "Sumus DeepSeek Superagent explainer",
+      "url": "https://sumus.im/blog/deepseek-superagent",
+      "confidence": 0.6,
+      "reason": "datePublished 2026-11-03T07:50:05Z, before this window. English recap. The visible observe sentence says unsolicited work is only recorded until auto. Overlaps the existing 解读 entries. Not listed this hour."
+    },
+    {
+      "title": "JavierFrancoLeal/jfranco-agentic-suite",
+      "url": "https://github.com/JavierFrancoLeal/jfranco-agentic-suite",
+      "confidence": 0.45,
+      "reason": "Created 2026-11-01. In-window tip 650df42847 at 19:32:10Z is sync-all republish. Branded Super Agent Ready DSH plugin suite, not the prototype ticket model. Marketing. Not listed."
+    },
+    {
+      "title": "Leon-Huang001208/super-agent",
+      "url": "https://github.com/Leon-Huang001208/super-agent",
+      "confidence": 0.5,
+      "reason": "Created 2026-11-03T17:28:56Z, before this window. In-window tip ba3662416c at 18:45:54Z is documentation governance. Paperclip integration, not Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "SpellingDragon/tagent",
+      "url": "https://github.com/SpellingDragon/tagent",
+      "confidence": 0.4,
+      "reason": "General Go super-agent framework, created 2026-07-24. In-window tip 660cf71c9a at 19:25:58Z is a test wait. Not a DSH port. Not listed."
     }
   ],
   "rejected_this_run": [
     {
-      "title": "playgrounds, a game, a skin, and non-contract commits",
-      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
-      "reason": "Not listed this hour: VBK playground, datongcfl/superagent-lab, DongLiKVK/superagent-lab, gtoooooooow-dot/dsh-superagent-lab, bombless workspace, QQQQQinyulu demo, zhaomengqi playground. WucrDev/superagent is an off-road three.js game. EternalNight996/dsh-super-agents moved 0.1.174-0.1.177 (panel stop-action test) and stays out with the earlier skin rejection. chunonesoft 95d8537 is a logo. MYCF711 0.9.166 only fixes a duplicated 前. 66ai-biz 48afb293 is ci-probe.txt. awesome-dsh-plugin 76b69f1 is a site-bridge browser note. parthi-vesta-tinker/radbench-superagents remains a Vesta demo."
+      "title": "demos, playgrounds, empty repos, the game, and the pixel-sect skin",
+      "url": "https://github.com/darenhun-agent/dsh-superagent-demo",
+      "reason": "In-window noise, not listed: darenhun-agent/dsh-superagent-demo (19:21Z), VBK-AI-Agent-Gateway/superagent-playground (19:03Z), l2702643902-ux/qweq (19:27Z, test loop README), BrainAlex/superbot (19:22Z, no default branch), WucrDev/superagent (19:10Z, game), EternalNight996/dsh-super-agents 0.1.184 (19:16Z) still the AgentTeams skin. Official prototype pushed_at is still 09:29Z; updated_at 19:31Z is not a commit."
     }
   ],
   "held_on_other_branches": [
@@ -520,5 +549,5 @@
     "PHLens default dev is still 89326b3 (committed 2026-11-03T07:47:52Z). pushed_at 2026-11-03T18:22:19Z is not a new default-branch commit. Do not list other branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z), same tree as 6337fc8. updated_at 2026-11-03T18:29:08Z is not a new commit. Newest harness discussion is #12061 (English restatement of the listed living-home note). #12057-#12060 do not mention superagent. #12011 stays pending. #11970, #11905, #11932, and #11947 still have zero comments. Cap remains 5; this run added 1 and updated 3. Direct commit to main, no PR. Window 2026-11-03T17:38:30Z to 2026-11-03T18:38:20Z. Based on origin/main 4e1901f."
+  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z), same tree as 6337fc8. updated_at 2026-11-03T19:31:32Z is not a new commit. Newest harness discussion is #12063 (open plugin market). #12062 is a Windows desktop plugin install note. Neither mentions superagent. #12011 stays pending. #11970, #11905, #11932, and #11947 still have zero comments. Cap remains 5; this run added 2 and updated 3. Direct commit to main, no PR. Window 2026-11-03T18:38:20Z to 2026-11-03T19:37:19Z. Based on origin/main 25db3f5."
 }
