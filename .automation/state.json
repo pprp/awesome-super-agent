@@ -1,45 +1,50 @@
 {
-  "last_run_at": "2026-11-03T07:45:00Z",
+  "last_run_at": "2026-11-03T08:50:00Z",
   "timezone": "UTC",
-  "baseline_commit": "f3c3b55",
+  "baseline_commit": "130f4f6",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "6337fc823ce20251c8de8085948165c81aaa701e",
   "upstream_prototype_head_date": "2026-10-31T12:05:39Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-03T06:41:00Z",
-    "to": "2026-11-03T07:45:00Z"
+    "from": "2026-11-03T07:45:00Z",
+    "to": "2026-11-03T08:50:00Z"
   },
   "added": [
     {
-      "title": "Harness discussion #11970",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11970",
-      "confidence": 0.93,
-      "reason": "Created 2026-11-03T07:03:17Z by grep-uoffer. Zero comments. readNotified compares issue.created_at to the notification cursor, so a mention whose notification arrives after the cursor moved is dropped with no Trigger, not counted as filtered, source stays ready, received stays 0. Author estimates about one in three at a 60s poll and a 23s delay. PR descriptions and comment timestamps have the same race. Distinct from #11700's previous-round-minus-5s window. Neither proposed patch is in 6337fc8. DSH 0.2.1-rc.3, Node 22.22, Ubuntu 24.04 on WSL2."
+      "title": "Charley188/codex-superagent-harness",
+      "url": "https://github.com/Charley188/codex-superagent-harness",
+      "confidence": 0.88,
+      "reason": "Created 2026-11-03T07:54:44Z. Tip 5cf1fefb0496 at 08:21:51Z. Local Codex CLI web harness, not on DSH. Vendors prototype 6337fc8 and harness layout ce7073d. Router, isolated workers, author Watchdog, 20-minute default turn (1-120), concurrency 1-16 with a 4-way model check. Unconfirmed exits stay pending review. Pause does not freeze ordinary chat. GitHub, Feishu, and full rule mode are not wired. Codex 0.166.0-alpha.5.1, Windows 10/11. MIT."
     },
     {
-      "title": "drscrewdriver/dsh-superagent-governance",
-      "url": "https://github.com/drscrewdriver/dsh-superagent-governance",
-      "confidence": 0.84,
-      "reason": "Created 2026-11-03T06:53:22Z. Tip 7f2613509e1f at 07:17:31Z is v0.0.2. Copies the host standard preset to yu-governance and will not overwrite an unmarked preset of the same id. In-memory ledger and six yu_* tools. Host setInterval patrol defaults to 300s and marks stuck after 900s of silence into an in-process inbox; it does not call a model or push into a session. Client apply() is a no-op. engines.dsh lists 0.2.1-rc.1 through rc.5. Not a fork, and it cannot mount into the exclusive superagent profile. GitHub description still says reserved. MIT, copyright drscrewdriver."
+      "title": "yuzhiyang1/dsh-superagent-java",
+      "url": "https://github.com/yuzhiyang1/dsh-superagent-java",
+      "confidence": 0.86,
+      "reason": "Repo created 2026-11-02T10:30:02Z and was missed by earlier hourly scans. In-window commit 8bbb5bac9081 at 2026-11-03T08:11:08Z changes the prepare/pause boundary and redacts prepare-failure diagnostics to 4096 characters. Java 21 rewrite aligned to 6337fc8, loopback panel, observe keeps the explicit-request distinction, shell is not a sandbox. Acceptance notes say local tests are not a real-account deployment. MIT."
     }
   ],
   "updated": [
     {
       "title": "AIR-DUSTER1/dsh-superagent-review",
       "url": "https://github.com/AIR-DUSTER1/dsh-superagent-review",
-      "change": "b071df690199 at 2026-11-03T06:49:25Z. Review mode posts a plain-language explanation plus a fixed handoff (recorded, handed to development, no fix until approval and scheduling) and later notifies the requester of the development start time in Asia/Shanghai, explicitly not a completion time. Pre-approval side effects are named as no commands, file edits, or subscription cleanup."
+      "change": "5fb7b2ef8332 at 2026-11-03T07:54:59Z. An unconsumed active Grant can be rescheduled or withdrawn. Reschedule requires a future start and a later expiry, then notifies the requester. Withdraw marks the Grant revoked and returns the proposal to pending review. The same idempotency key replays; the same key with different content conflicts. A different late key is not rejected by revision, so that stronger claim was not written."
     },
     {
-      "title": "huangyj-dev/dsh-superagent-prototype",
-      "url": "https://github.com/huangyj-dev/dsh-superagent-prototype",
-      "change": "11 commits ahead, tip ace5acbcdb30 at 2026-11-03T07:22:30Z. GitLab issue or merge-request descriptions that mention the agent open one ticket with a stable id; later edits do not repeat it; the agent's own description is skipped. Replies address repository instead of a one-item list; before this, send() targeted an empty project and every reply was gone. 752045497e09 at 06:36:31Z, missed by the previous snapshot, adds optional GitHub botUsername so one account can test by mentioning a placeholder."
+      "title": "PHLens/dsh-superagent-prototype",
+      "url": "https://github.com/PHLens/dsh-superagent-prototype",
+      "change": "dev is 7 commits ahead. Tip 89326b3282e2 at 2026-11-03T07:47:52Z publishes only a verified recovery point, restores into an inert copy, and does not let unconfirmed resource refs authorize reads. An unanswered Question cannot complete work. A cold reconciled execution resumes from the saved answer only. Production cutover remains T11."
+    },
+    {
+      "title": "wydddddcool/dsh-personal-agent",
+      "url": "https://github.com/wydddddcool/dsh-personal-agent",
+      "change": "main cd880842eda3 at 2026-11-03T08:29:48Z is 9 commits ahead. f1f6f1cdb6f2 at 08:04:12Z sets the router preset thresholdRatio to 0.2. Workers keep the host default. /compact still condenses on demand. The author recorded a deployment that was slow near 545k tokens and had never auto-condensed."
     },
     {
       "title": "waixv-superagent/dsh-superagent-prototype",
       "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "change": "Tip 12824fdde544 at 2026-11-03T07:14:00Z. orchestrator_pipeline_rerun asks Swarm to rerun failing checks of the current version with no new review version. RERUN_GRACE_MS is 5 minutes, during which the old failure is not a new failure. Green review and approval notices are short; a merge or submit no longer adds an extra completion sentence. The overview opens on the board; the editor route is ?view=editor."
+      "change": "Tip 836756fc924b at 2026-11-03T08:19:11Z. Pipeline notices name the Swarm review id. Green and approved notices stay one line. Blocked reasons keep the window, outcome, and action, and drop the explanation of why a reshelve did not rerun."
     }
   ],
   "pending": [
@@ -305,7 +310,7 @@
       "title": "lukebot1/dsh-superagent-bootstrap",
       "url": "https://github.com/lukebot1/dsh-superagent-bootstrap",
       "confidence": 0.73,
-      "reason": "Created 2026-11-03T04:17:02Z. Idempotent install scripts plus a claimed 1m55s Issue-to-PR note in docs/04. scripts/03-configure.py defaults MODE to auto. The README table says observe only records and off is closed, which drops the explicit-request exception in docs/002. 01-install creates the profile with dsh <profile> --from-default-profile web. The measured environment is dsh 0.2.1-rc.5 and Node 26. Do not list until the observe sentence matches 002 and the sample does not start in auto."
+      "reason": "Created 2026-11-03T04:17:02Z. gh api returned 404 this hour, so the observe-table defect was not re-checked. Do not list until the observe sentence matches 002 and the sample does not start in auto."
     },
     {
       "title": "jerrysheen/dsh-superagent-prototype windows-native-startup",
@@ -330,33 +335,34 @@
       "url": "https://github.com/elicie/dsh-superagent-prototype",
       "confidence": 0.7,
       "reason": "Ten commits ahead of 6337fc8. Newest main commit is 05e4ff0bc8 at 2026-11-03T03:19:01Z, before this window: add a Superagent instance from the panel, after earlier commits that run several instances in one Harness process. pushed_at was 05:48Z without a newer commit. Not reviewed line by line. Leave it for a deep run."
+    },
+    {
+      "title": "wangruofeng007 attention-budget essay",
+      "url": "https://wangruofeng007.com/blog/2026-11/dsh-superagent-attention-first/",
+      "confidence": 0.74,
+      "reason": "Published 2026-11-02 14:17, before this window. It does keep the explicit-request exception. It overlaps the existing 解读 entries and says the public essay text could not be found, which this list already links. The 30-minute background-job and 16-line prompt claims were not re-checked against 6337fc8. Leave it for a deep run."
     }
   ],
   "rejected_this_run": [
     {
+      "title": "harness alpha is not a superagent change",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-alpha.3",
+      "reason": "Published 2026-11-03T07:56:48Z. npm alpha dist-tag is 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). latest and next remain 0.2.1-rc.5. Release notes are desktop, review, and SDK items. They do not mention dsh-superagent. Same prerelease rule as 0.2.2-alpha.2: it does not satisfy engines ^0.2.1-alpha.2. Prototype HEAD is still 6337fc8."
+    },
+    {
       "title": "listed sentences still true",
       "url": "https://github.com/LofiSu/deepseek-super-agent",
-      "reason": "LofiSu tip 34aef25a4907 at 2026-11-03T06:45:36Z defers the mesh pump until a terminal state is committed. The listed sentence does not name the mesh. MYCF711 b1351dac11 at 07:07:10Z is 0.9.130 (paused watches drop a stale lastError) and ba5bd2ca6d at 07:25:07Z is 0.9.131 (403 split into rate limit and permission). The listed sentence does not name the version. ketchupz1999 6fa681e2e9 at 06:52:58Z only adds a screenshot wall."
+      "reason": "LofiSu tip ed8980dfff87 at 08:14:10Z adds iMessage group fail-closed, gateway token-file races, and restart recovery. The listed sentence does not name those surfaces. ketchupz1999 9e60d512f4f1 at 07:48:08Z only moves the architecture diagram. huangyj-dev is still 11 ahead at ace5acb."
     },
     {
-      "title": "empty, playground, mirror, and ticket workspaces",
-      "url": "https://github.com/commonrom/superagent-playground",
-      "reason": "Not listed: commonrom/superagent-playground, beiluo/dsh-superagent-demo, super-agent-ops/super-agent-demo, guru4elephant/dsh-superagent-demo-project, 839047121g-commits/dsh-local-demo, becausehome/superagent-test, DestMountain/superagent-sandbox, JohnGoo/dsh-superagent-test, caochanglesparkers/dsh-superagent-lab, rainbowtp/dshSuperagent, RoronoaZoroh/dsh-superagent-hqk-test, BewhL-L/DeepSeek-Super-Agent, RoseVolica/deepseek-superagent-agent. dai-junjie/dsh-superagent-prototype-practices was created at 06:53:38Z and is an empty repository."
-    },
-    {
-      "title": "not the super-agent contract",
-      "url": "https://github.com/zhairy/dsh-agent-swarm",
-      "reason": "Discussion #11967 at 06:46:37Z announces zhairy/dsh-agent-swarm 3.3.0. The repo was created 2026-10-07 and is a general 12-expert DSH plugin. It uses Ticket, Watchdog, and Router/Worker words, but it is not a port of dsh-superagent-prototype. #11966, #11968, and #11969 do not mention superagent."
-    },
-    {
-      "title": "default branch did not move",
-      "url": "https://github.com/PHLens/dsh-superagent-prototype",
-      "reason": "pushed_at 07:29:13Z is side branches (agent/feishu-user-canary and others). dev is still 3539813b4a33. wydddddcool/dsh-personal-agent pushed_at 07:28:19Z; main is still 5c1d66457eb7. jerrysheen main is still 6337fc8 and windows-native-startup is still ab87d6a419d8. Haizhilingyu main is still 6337fc8."
+      "title": "empty, playground, and ticket workspaces",
+      "url": "https://github.com/dai-junjie/dsh-superagent-prototype-practices",
+      "reason": "dai-junjie still has only the empty init commit 2165f06e7764 at 07:36:17Z. Not listed: oh8/dsh-superagent-playground, commonrom/superagent-playground, VissageMo-agent/agent-playground, byshb/agent-playground, jjsdf-alt/superagent-sandbox, 1291584455chen-beep/dsh-superagent-test, XFK888/superagent-playground, 3482254509/superagent-demo, JafeChang/dsh-superagent-lab."
     },
     {
       "title": "harness discussions are not an operational finding",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11969",
-      "reason": "Newest discussion is #11970, which is listed. #11966 through #11969 do not mention the prototype except #11967, which is the swarm announcement above. #11905, #11932, and #11947 still have zero comments. No release after dsh-v0.2.1-rc.5. Prototype HEAD is still 6337fc8. npm latest is still 0.2.1-rc.5. HN had no new superagent story in the window. No new paper or blog."
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11983",
+      "reason": "Newest discussion is #11983 at 2026-11-03T08:30:16Z. #11971-#11983 do not mention superagent. #11970, #11905, #11932, and #11947 still have zero comments. No new superagent paper. xiaodu.blog/articles/389 is dated 2026-11-01. HN stories in search are from previous days."
     }
   ],
   "held_on_other_branches": [
@@ -371,5 +377,5 @@
     "PHLens dev is still 3539813 (2026-11-03T00:39:43Z). Side branches moved around 07:29Z. Do not list them."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer whose observe table drops the explicit-request exception stays pending. A file bridge that does not call dsh stays pending. A QQ bundle that injects superagentIm is listed only with the fact that the published prototype does not provide that service.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). 0.2.2-alpha.2 exists and does not satisfy engines ^0.2.1-alpha.2 when prerelease is excluded. Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z); package.json version is 0.1.0 and engines.dsh is still ^0.2.1-alpha.2. Newest harness discussion is #11970 (2026-11-03T07:03:17Z) and it is listed. #11966-#11969 do not change the prototype. #11905, #11932, and #11947 still have zero comments. No harness release in this window (newest release dsh-v0.2.1-rc.5 published 2026-10-30T02:12:26Z). Open PRs on this repo: none. Cap remains 5; this run added 2 and updated 3. Direct commit to main, no PR. Window ended 2026-11-03T07:45:00Z."
+  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha dist-tag moved to 0.2.2-alpha.3 at 2026-11-03T07:48:26.202Z; GitHub release dsh-v0.2.2-alpha.3 published 2026-11-03T07:56:48Z and does not mention superagent. 0.2.2-alpha.3 does not satisfy engines ^0.2.1-alpha.2 when prerelease is excluded. Prototype still has a single commit, 6337fc8 (pushed_at 2026-10-31T12:05:51Z). Newest harness discussion is #11983. #11971-#11983 are not superagent. #11970, #11905, #11932, and #11947 still have zero comments. Open PRs on this repo: none. Cap remains 5; this run added 2 and updated 4. Direct commit to main, no PR. Window 2026-11-03T07:45:00Z to 2026-11-03T08:50:00Z."
 }
