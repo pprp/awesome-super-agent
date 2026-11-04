@@ -1,29 +1,30 @@
 {
-  "last_run_at": "2026-11-03T23:51:09Z",
+  "last_run_at": "2026-11-04T00:43:54Z",
   "timezone": "UTC",
-  "baseline_commit": "9cb04ea",
+  "baseline_commit": "b72af74",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-03T22:31:24Z",
-    "to": "2026-11-03T23:51:09Z"
+    "from": "2026-11-03T23:51:09Z",
+    "to": "2026-11-04T00:43:54Z"
   },
   "added": [
     {
-      "title": "hextor-ndc/superagent",
-      "url": "https://github.com/hextor-ndc/superagent",
-      "change": "Default-branch merge 60c7648e75 at 2026-11-03T23:12:11Z. Vendored domain core pins 6337fc823ce20251c8de8085948165c81aaa701e. t3code workers via /mcp. listProjects follows nextCursor. SUPERAGENT_MODEL is sent as modelSelection on t3_thread_launch, including launchScratch. No root LICENSE file; package.json says MIT."
-    },
-    {
-      "title": "当 Agent 指挥 Agent",
-      "url": "https://starrysea1412.github.io/agent-orchestrator/",
-      "change": "StarrySea1412/agent-orchestrator created 2026-11-03T23:23:03Z, tip a30e323c7b at 23:22:47Z. Illustrated reading. observe section keeps the explicit-request exception. Author says the code was not run. No LICENSE."
+      "title": "jiaoqsh/dsh-superagent-prototype",
+      "url": "https://github.com/jiaoqsh/dsh-superagent-prototype",
+      "change": "26 ahead of 6337fc8. Tip b069791458 at 2026-11-04T00:31:49Z. Replay bench drives the real Engine and Policy. letGo records released; candidate cards list it; dispatch says it is not a duplicate. Stop rule refuses a nameless refusal. Watchdog is not in the product. 00:23Z and 00:27Z are the industry-comparison docs only. The comparison table says default observe without the explicit-request exception."
     }
   ],
-  "updated": [],
+  "updated": [
+    {
+      "title": "hextor-ndc/superagent",
+      "url": "https://github.com/hextor-ndc/superagent",
+      "change": "Tip 1a9fd3c715 at 2026-11-04T00:17:46Z, code 5e11984229. A launch waits for an in-flight stop and interrupts a run it started after the assignment was stopped. Failed turns continue up to 3 times and resume from failing after a restart. Pending t3code approvals and questions rename the attention view. GitHub observe rows are opt-in and cleared when eval mode is off. Package remains 0.1.0."
+    }
+  ],
   "pending": [
     {
       "title": "Harness discussion #11932",
@@ -323,7 +324,7 @@
       "title": "XiaoXianThis/Sous",
       "url": "https://github.com/XiaoXianThis/Sous",
       "confidence": 0.48,
-      "reason": "Default tip ae28dc0a3b at 2026-11-03T16:03:56Z builds M3 tasks, routing, permission policy, review, delivery, and Web Push. Not read line by line against Trigger, Mandate, or Ticket. Still a cloud personal assistant that cites the prototype. Not listed this hour."
+      "reason": "Default tip dfa115aced at 2026-11-04T00:25:21Z makes opencode ask before edits and shell commands, because ACP has no ask mode. Still a cloud personal assistant. Not read as Trigger, Mandate, or Ticket. Not listed."
     },
     {
       "title": "JCLee777/super-agent-rs",
@@ -516,13 +517,25 @@
       "url": "https://github.com/luworks/openchat",
       "confidence": 0.6,
       "reason": "In-window snapshot 013c64b493 at 2026-11-03T22:18:27Z adds role metrics. README credits the design essay and the prototype vocabulary, and says the repo contains no prototype code. Not Trigger, Mandate, or Ticket. Leave the listing for a deep run."
+    },
+    {
+      "title": "Wuzeyu-sz/dsh-plugin-authoring",
+      "url": "https://github.com/Wuzeyu-sz/dsh-plugin-authoring",
+      "confidence": 0.4,
+      "reason": "Tip 49b9769bba at 2026-11-04T00:33:56Z only shortens a Chinese name (v0.2.1). The default tree has skills/dsh-local-plugin-authoring and skills/dsh-plugin-upstream-contribute. It does not contain a dsh-superagent-setup skill, despite the GitHub description still naming one. Not an install path for the prototype."
+    },
+    {
+      "title": "whllowp/dsh-superagent-prototype-rsi",
+      "url": "https://github.com/whllowp/dsh-superagent-prototype-rsi",
+      "confidence": 0.55,
+      "reason": "pushed_at 2026-11-04T00:26:18Z did not move main. Default tip 397c6ddc85 was committed 2026-11-03T18:28:17Z, before this window: an RSI knowledge base, plus a zelda-pet desktop companion from 2026-11-02. Six commits ahead of 6337fc8. Not listed this hour."
     }
   ],
   "rejected_this_run": [
     {
       "title": "in-window noise",
-      "url": "https://github.com/songhyeqiao-tech/dsh-agent-sandbox",
-      "reason": "Not listed. songhyeqiao-tech/dsh-agent-sandbox at 2026-11-03T23:50:57Z adds hello.txt for a demo and says the repo is safe to delete. Nadertov/superagent-sandbox, liuling1984/dsh-superagent-playground, and wuxuejun-agent/superagent-playground are sandboxes. SkillfulAgents/SuperAgent 0.6.4 is a dashboard comment control. pungme/superagent-desktop 2.1.1 is a Claude Code Mac app. SpellingDragon/tagent is still the Go framework's tests. jamestesting0/helio-superagent is a Dori for an elo bot. narkco-kang/agent-fleet is a cross-device coordinator, not the prototype ticket model. JavierFrancoLeal/jfranco-agentic-suite 42407c5714 at 23:35:43Z is another sync-all republish. Discussions #12073-#12075 do not mention superagent. Official prototype pushed_at is still 09:29Z; updated_at 23:27Z is not a commit. lukebot1, effortprogrammer, and hxh230802 still 404."
+      "url": "https://github.com/ckey-agent/dsh",
+      "reason": "Not listed. ckey-agent/dsh is a 38-byte trial README. Sandboxes pushed in the window: Nadertov/superagent-sandbox, zhangzejun0305/superagent-workspace, wuxuejun-agent/superagent-playground, songhyeqiao-tech/dsh-agent-sandbox, VissageMo-agent/agent-playground. SpellingDragon/tagent remains the Go framework. RyanOnMe/whalepod remains a separate DSH team product. SkillfulAgents/SuperAgent, JavierFrancoLeal/jfranco-agentic-suite, OpenGithubs and discoverhubgroup rank pages, and indicaindependent seats are not the prototype. Discussions #12076 and #12077 do not mention superagent. Official prototype pushed_at is still 2026-11-03T09:29:14Z; updated_at 2026-11-04T00:31:52Z is not a commit."
     }
   ],
   "held_on_other_branches": [
@@ -547,5 +560,5 @@
     "yizhiqianbi/dsh-superagent-prototype main is still 8c32a9d. pushed_at 2026-11-03T21:36:44Z is cursor/erp-adapter-contract-2fbb and cursor/sop-production-progress-4c72, plus the older cursor/odoo-crm-v0-572f. Do not list those branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent remains 1.0.1 (2026-11-03T18:59:45.350Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). updated_at 2026-11-03T23:27:49Z is not a new commit. Newest harness discussion is #12075 (Windows workspace-write child 0xC0000142; zero comments; not superagent). #12073 and #12074 are not superagent. #12011 stays pending. #11970, #11905, #11932, and #11947 still have zero comments. lukebot1/dsh-superagent-bootstrap, effortprogrammer/oh-my-dsh-superagent, and hxh230802/dsh-superagent-reactive still 404. chasey-myagi/dsh-superagent pushed_at is still 2026-11-03T22:02:39Z. Cap remains 5; this run added 2 and updated 0. Direct commit to main, no PR. Window 2026-11-03T22:31:24Z to 2026-11-03T23:51:09Z. Based on origin/main 9cb04ea."
+  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent remains 1.0.1 (2026-11-03T18:59:45.350Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). updated_at 2026-11-04T00:31:52Z is not a new commit. Newest harness discussion is #12077 (user cancel and subagent settlement; zero comments; not superagent). #12076 is a dual-instance bootstrapIncludes proposal and does not mention superagent. #12011 stays pending. #11970, #11905, #11932, and #11947 still had zero comments at the previous check and were not re-opened by a superagent comment this hour. lukebot1/dsh-superagent-bootstrap, effortprogrammer/oh-my-dsh-superagent, and hxh230802/dsh-superagent-reactive were not re-checked after earlier 404s. Cap remains 5; this run added 1 and updated 1. Direct commit to main, no PR. Window 2026-11-03T23:51:09Z to 2026-11-04T00:43:54Z. Based on origin/main b72af74."
 }
