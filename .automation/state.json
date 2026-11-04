@@ -1,32 +1,27 @@
 {
-  "last_run_at": "2026-11-04T15:28:55Z",
+  "last_run_at": "2026-11-04T16:34:43Z",
   "timezone": "UTC",
-  "baseline_commit": "53a4139",
+  "baseline_commit": "b95cb0d",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-04T14:42:00Z",
-    "to": "2026-11-04T15:28:55Z"
+    "from": "2026-11-04T15:28:55Z",
+    "to": "2026-11-04T16:34:43Z"
   },
   "added": [],
   "updated": [
     {
       "title": "SilasSolivagus/dsh-superagent",
       "url": "https://github.com/SilasSolivagus/dsh-superagent",
-      "change": "Tip 80ffcec1ce30 at 2026-11-04T14:54:14Z. 69828aa96ab5 at 14:43Z writes a note Input when the roster agent named at accept is gone before launch, so the built-in worker fallback is visible on the ticket and delivered to the worker. c6f6c5a31ea7 at 14:47Z removes the docs preset delegation group (tool-subagent and tool-subagent-control) because agentPreset standard reopens a shell. bash and pwsh stay disabled: true. shell group, tool-jobs, and tool-fs stay mounted. docs/009 says the worker preset still pins agentPreset standard. Subagent permission is the deployment sandboxMode default, not inheritance from the worker session; the author saw danger-full-access because this machine sandboxMode is that value."
+      "change": "Tip 8712e1841bbb at 2026-11-04T16:20:34Z. covers() used string equality for roster scopes, so an owner/name written in another case dropped that agent. Scopes now use the existing sameName() helper (toLowerCase on both sides). * still matches any repository. A different repository name still falls through to the default worker. Docs preset and the removed-roster note are unchanged."
     },
     {
-      "title": "MYCF711/dsh-session-superagent",
-      "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "change": "0.9.179 tip c0da515c40a3 at 2026-11-04T14:49:24Z. Gitee lists pass since as the previous cursor minus 30 minutes; the first poll with no cursor stays full. Author recorded 34 items full and 5 with a one-day since. apply() returns after one log line when ctx.tools.register is missing. Static compare of npm next 0.2.2-rc.1: CLI, dsh-web-app, and dsh-goal .d.ts match 0.2.1-rc.5; cordis 4.1.0 effect/on/get unchanged, log level numbers swapped, provision shape {fiber} to {ctx,uid}. Not run on a real 0.2.2-rc.1. Node floor stays >=22.19; the new host asks >=24.9.0."
-    },
-    {
-      "title": "kohakushigure/dsh-superagent-lab",
-      "url": "https://github.com/kohakushigure/dsh-superagent-lab",
-      "change": "8a46514bfc28 at 2026-11-04T15:09:29Z. The local loops are not children of DSH: scheduled task local-superagent-keepalive runs start-all.ps1 every 10 minutes, and dsh-with-loop.cmd kicks start-all before launching DSH. Closing DSH does not stop the loops. 6b8f851122dd at 15:05Z also starts the patent loop on 3091. Author recorded LastTaskResult 0 and two processes. Threads not listed in PROJECTS are not taken over. 4107107a6b69 at 15:04Z keeps the -Hidden autostart argument."
+      "title": "veragao0101-cmd/butler-skill",
+      "url": "https://github.com/veragao0101-cmd/butler-skill",
+      "change": "Tip 6eac7c53f838 at 2026-11-04T15:52:40Z, 20 commits after 49d28c54f0c2. Butler mode is manual /butler only. PreToolUse scripts/guard.sh asks before a main-session write outside .claude/butler/ or a command outside the read-only allowlist. Calls that carry agent_id are not guarded. Resume, continue, and reopening a session do not restore the hook. bypassPermissions returns deny, because Claude Code 2.1.318 treats ask as allow inside protected directories such as .claude/ and .git/. A wrong CLAUDE_PLUGIN_ROOT makes the hook error and the guard stop. strictPluginOnlyCustomization skips hooks on a manually copied skill. Author tested 2.1.318. Windows Git Bash is untested. Plugin marketplace id is veragao0101-cmd/butler-skill. Still not on DSH. The old sentence that said the boundary was only a skill rule is replaced."
     }
   ],
   "pending": [
@@ -629,13 +624,19 @@
       "url": "https://github.com/doraemon4u/superagent",
       "confidence": 0.1,
       "reason": "Created 2026-11-04T12:29:23Z. GitHub returned 409 empty repository. Not listed."
+    },
+    {
+      "title": "artstur/Along",
+      "url": "https://github.com/artstur/Along",
+      "confidence": 0.62,
+      "reason": "In-window tip 5cd93a1527 at 2026-11-04T16:17:36Z (0a0ee6c5f3 at 15:59:55Z) routes goal and task calls to http://127.0.0.1:3082/along-source/api. The tree has no Along Source plugin. dsh-agent.mjs is a one-shot @deepseek-ai/dsh-sdk-client prompt on profile sdk, not Trigger, Mandate, or Ticket. /goal/event still calls runTaskCodex. README calls the repo a demo. Not listed."
     }
   ],
   "rejected_this_run": [
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at moved and is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is #12181. #12175 is a general swarm plugin. #12173 and #12176-#12181 are not superagent. #12161 still has zero comments. shujiancao/dsh-superagent is a Vue app named xdclass_front. ZJBSQH/ZJB_super_agent and marson1622/dsh-superagent are title-only READMEs. Playgrounds, demos, and test repos stay out. deepseekv41flash panel docs 0.2.3-0.2.5 stay out because closed PR #7 was not merged. waixv 8c15f7905466 removes an unlisted whole-chat pill; the listed newest-topic link remains. Shuai-S console 082b393255dd is an npm publish workflow only. LofiSu #141 is a docs status merge. thanatos tip is still d4d75a807261 (08:06Z); pushed_at 14:46Z is not a new default commit. gerdr-panel commits are settings chrome and a board refresh. yuxfeng, feel-think, vicfei, chasey, OCCAgent, jiaoqsh, AIR, shibaeff, Yiminnn, Anslen, Arcobalneo, PHLens, hextor, Meaple, 66AI, and the earlier Shuai-S sources did not move past the previous sentences. SeddonShen/dsh-tomte is still an empty 409. No new paper with a clock time inside the window. Open PR list was empty. Cap remains 5; this run added 0 and updated 3."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at moved and is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is #12189. #12182-#12188 are desktop, sqlite, session folders, and paint cost. #12189 asks to delete finished subagent sessions for MichengAI/dsh-btw, not the prototype. #12174 still has zero comments. LofiSu a989e14fb653 is the already-reviewed #141 docs merge (committer 14:53:42Z); pushed_at 16:30:32Z is not a new commit. waixv 8c15f7905466 was already reviewed. Shuai-S console 9948101f00ce is an npm-publish path prefix. billLiao/awesome-dsh-plugin b672998d1686 is the topic-crawl sync. Playgrounds, sandboxes, empty repos, RentRadar, Hermes, and Sabrina-qu's greeter stay out. SeddonShen/dsh-tomte is still an empty repository. stayw1thme999/dsh-workflow-kit did not move. hongyue0721/dsh-kimicode-swarm pushed_at 15:28:39Z is before this window and is still a general swarm plugin. No new paper with a clock time inside the window. Open PR list was empty. Cap remains 5; this run added 0 and updated 2."
     }
   ],
   "held_on_other_branches": [
@@ -665,5 +666,5 @@
     "docsor1212/dsh-superagent-prototype main is still 8c32a9d. fix/status-ucomm-node-mainthread is 8f3f2a0b7f82 and fix/locale-stable-test-assertions is a2031da4e1c5. Do not list the branches. The finding is cited from discussion #12145 inside the #11700 sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 0 and updated 3. Direct commit to main, no PR. Window 2026-11-04T14:42:00Z to 2026-11-04T15:28:55Z. Based on origin/main 53a4139."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-04T15:28:55Z to 2026-11-04T16:34:43Z. Based on origin/main b95cb0d."
 }
