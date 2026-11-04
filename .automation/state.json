@@ -1,48 +1,22 @@
 {
-  "last_run_at": "2026-11-04T04:39:55Z",
+  "last_run_at": "2026-11-04T05:35:08Z",
   "timezone": "UTC",
-  "baseline_commit": "65440ac",
+  "baseline_commit": "951619c",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-04T03:42:30Z",
-    "to": "2026-11-04T04:39:55Z"
+    "from": "2026-11-04T04:39:55Z",
+    "to": "2026-11-04T05:35:08Z"
   },
-  "added": [
-    {
-      "title": "z-zijie/dsh-superagent-prototype",
-      "url": "https://github.com/z-zijie/dsh-superagent-prototype",
-      "change": "2 ahead of 8c32a9d. Tip ee064916c991 at 2026-11-04T03:49:08Z. GitCode source polls one gitcode.com repo via gc. First round sets cursors only. Shared-account posts count only when the plain text starts with @login, a separator, and keyword superagent (empty keyword: a bare @login). Own unmarked posts and marker replies are skipped. Observe switches default off. Tickets bind the source PR or the agent's PR whose branch last segment is DSH_SUPERAGENT_NAME. setupPending pauses; missing config is sourceOff; missing repo or gc is error. The same tip makes scripts/dsh-superagent ignore the system proxy for loopback /orchestrator/api/state. README lead is still upstream. engines.dsh is still ^0.2.1-alpha.2."
-    },
-    {
-      "title": "zeokeel/ZeoKeel-Super-Agent",
-      "url": "https://github.com/zeokeel/ZeoKeel-Super-Agent",
-      "change": "Independent Go binary, MIT, not on DSH. evaluate.go: explicit requests open a ticket in off, observe, and auto; inferred with no matched rule is ignore; empty accept mode is observe and records would_accept without a ticket; off drops inferred; auto allows a matched inferred accept. The same Trigger accepted twice keeps one ticket. rc.4 proposal migration was not re-run. README still says writing the original project is unfinished. Tip 5c3812b720 at 2026-11-04T04:13:11Z is a UI commit."
-    }
-  ],
+  "added": [],
   "updated": [
     {
-      "title": "thanatoscosmic-ai/pi-superagent",
-      "url": "https://github.com/thanatoscosmic-ai/pi-superagent",
-      "change": "Tip a94afb3820ef at 2026-11-04T03:49:49Z. Install is now clone, npm install, and a gitignored .env (OPENAI_BASE_URL, OPENAI_MODEL, OPENAI_API_KEY). npm start reads it; existing env wins. Without --cwd, npm start edits the pi-superagent repo; scripts/pi-superagent.mjs keeps the caller cwd. Package remains 0.2.0 and is not on npm. src/policy.ts was not in this commit."
-    },
-    {
-      "title": "Yiminnn/agent-ops",
-      "url": "https://github.com/Yiminnn/agent-ops",
-      "change": "Tip daa0b539241e at 2026-11-04T04:03:24Z. session.sh launch needs --goal DEF-n --expect with a commitments.md row, or --ops. resume needs one of those or --continue. Registry columns 12-13. Missing commitments.md or pending.md refuses --goal; --ops still works. drift-check.sh is mechanical and prints DRIFT UNKNOWN on a missing input or failed gh query. drift-audit.sh runs one read-only worker per working day, at most 3 decisions. Watchdog alerts once per episode when drift-audit.done is missing, failed, or older than 30 working hours. No LICENSE."
-    },
-    {
-      "title": "chasey-myagi/dsh-superagent",
-      "url": "https://github.com/chasey-myagi/dsh-superagent",
-      "change": "19 ahead of 8c32a9d. Tip 3992d18b3a6a at 2026-11-04T03:43:00Z is the dogfood log. 295d33111d30 at 03:38:23Z adds scripts/local/stop-duplicates: after a squash-merge it matches open tickets by issue number or title Jaccard >= 0.4 and POSTs tickets/<id>/stop, then a gh-local comment. --dry-run prints only. The merge does not depend on the script. Not an engine dedupe."
-    },
-    {
-      "title": "OCCAgent/dsh-superagent-prototype",
-      "url": "https://github.com/OCCAgent/dsh-superagent-prototype",
-      "change": "37 ahead of 6337fc8. Tip 3419716ee617 at 2026-11-04T04:11:26Z only touches learning-site. The experiment page is the author's index and records their 2026-11-03T23:36Z snapshot as 3/4 features with continuity failed. Those numbers are not an upstream measurement and do not change Router, Worker, or admission. deploy-learning-site.yml publishes Pages when learning-site changes on main."
+      "title": "feel-think/dsh-superagent-prototype",
+      "url": "https://github.com/feel-think/dsh-superagent-prototype",
+      "change": "Default branch was rewritten onto orphan 8c32a9d and no longer contains e6f16afc. Tip 4e811964bdb0 is 16 ahead (committer 2026-11-04T05:19:25Z, author 2026-11-04T05:10:04Z). That commit reverts the main-Session direct answer: after a hand-back or after the ticket ends, the main Session still cannot emit the answer; a handed-back candidate can only be accepted, attached elsewhere, or ignored. answer still requires the worker report to have named reply_to_trigger_id. Spool source, Feishu follow loop, and mcpToolAllowlist remain in the history. README lead is still upstream. engines.dsh is still ^0.2.1-alpha.2."
     }
   ],
   "pending": [
@@ -56,7 +30,7 @@
       "title": "effortprogrammer/oh-my-dsh-superagent",
       "url": "https://github.com/effortprogrammer/oh-my-dsh-superagent",
       "confidence": 0.46,
-      "reason": "Still 404 this hour. Specification only as of the prior run. Not re-checked."
+      "reason": "Still 404 at 2026-11-04T05:33Z. Specification only as of the prior run. Not re-checked beyond existence."
     },
     {
       "title": "qdriven/dsh-innate-agent",
@@ -92,7 +66,7 @@
       "title": "hxh230802/dsh-superagent-reactive",
       "url": "https://github.com/hxh230802/dsh-superagent-reactive",
       "confidence": 0.66,
-      "reason": "gh api returned 404 this hour, so the daily-profile install was not re-checked. Do not list until the repo exists and the install matches doc 006."
+      "reason": "gh api returned 404 at 2026-11-04T05:33Z, so the daily-profile install was not re-checked. Do not list until the repo exists and the install matches doc 006."
     },
     {
       "title": "deepseekv41flash panel and bridge",
@@ -302,7 +276,7 @@
       "title": "lukebot1/dsh-superagent-bootstrap",
       "url": "https://github.com/lukebot1/dsh-superagent-bootstrap",
       "confidence": 0.73,
-      "reason": "Still 404 this hour, so the observe-table defect was not re-checked. Do not list until the observe sentence matches 002 and the sample does not start in auto."
+      "reason": "Still 404 at 2026-11-04T05:33Z, so the observe-table defect was not re-checked. Do not list until the observe sentence matches 002 and the sample does not start in auto."
     },
     {
       "title": "jerrysheen/dsh-superagent-prototype windows-native-startup",
@@ -537,13 +511,19 @@
       "url": "https://github.com/whllowp/dsh-superagent-prototype-rsi",
       "confidence": 0.55,
       "reason": "pushed_at 2026-11-04T00:26:18Z did not move main. Default tip 397c6ddc85 was committed 2026-11-03T18:28:17Z, before this window: an RSI knowledge base, plus a zelda-pet desktop companion from 2026-11-02. Six commits ahead of 6337fc8. Not listed this hour."
+    },
+    {
+      "title": "aagiernetad/pi-studio",
+      "url": "https://github.com/aagiernetad/pi-studio",
+      "confidence": 0.4,
+      "reason": "Description cites Pi Durable and the Super-agent essay. Pushed 2026-11-04T05:25:45Z. README is the Tauri + Vite template. The tree is a JSONL Node/Rust bridge (runtime/src, src-tauri/src/supervisor.rs) with no Trigger, Mandate, or Ticket. Not listed."
     }
   ],
   "rejected_this_run": [
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at 2026-11-04T04:30:25Z is not a commit. npm latest and next remain 0.2.1-rc.5; alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Harness pushed_at is still 2026-11-03T07:58:43Z. Discussions after #12092 in the window are #12095, #12096, and #12097; none mention superagent. #12094 is 03:41:36Z, before the window. No new paper, HN story, or Reddit post. Sandboxes and demos were not listed: VBK-AI-Agent-Gateway/superagent-playground, dshsuperagent-oss/superagent-sandbox, dshsuperagent-oss/superagent-sandbox-migracao, Enncho2026/superagent-sandbox, devakishore/dsh-superagent-prototype, beiluo/dsh-superagent-demo, sccarlosfotografo-ai/superagent-sandbox, guru4elephant/dsh-superagent-demo-project. JingxuanC/roostbot drives a long-lived dsh profile and is not Ticket/Mandate. jiaoqsh main is still 7da11e5f60; bench/fault-more is not the default branch."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at 2026-11-04T05:30:51Z is not a commit. npm latest and next remain 0.2.1-rc.5; alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Harness pushed_at is still 2026-11-03T07:58:43Z. Discussions #12098-#12108 were created or updated in the window; none of the newest 12 bodies mention superagent. #11970, #11905, #11932, #11947, and #12011 still have zero comments. No new arXiv hit. HN hits are all on or before 2026-11-02. wuzhiping b3e59f3eb56f at 05:10Z only recolors the sidebar icon. waixv, PHLens, OCCAgent, and Yiminnn pushed_at moved without a new default-branch commit. Sandboxes, demos, empty inits, and a token mint were not listed: aslongyouloveme/dsh-superagent-playground, meimeiceshi/dsh-superagent-lab, vinstar1/superagent-demo, ai-storage-agent/c2k-pilot, derekzhangxiang/dsh-superagent-test, yuelianggu/SuperAgent, weijiafu14/dsh-cos-super-agent-demo, isthealireza/SuperAgent, bxyh/super-agent. LUgABeEEE/dsh-superagent-workspace is a sidebar filter patch against @deepseek-ai/dsh-client-ui-workspace@0.2.1-rc.5; skins stay out. pingdotgg/t3code e68e19d6 is an Android card fix and does not change the hextor sentence."
     }
   ],
   "held_on_other_branches": [
@@ -570,5 +550,5 @@
     "jiaoqsh/dsh-superagent-prototype main is still 7da11e5f60. bench/fault-more is c0c524aa6ac0 at 2026-11-04T04:10Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0 (2026-11-04T00:57:50.969Z); no newer publish. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). updated_at 2026-11-04T04:30:25Z is not a new commit. Newest harness discussion is #12097 (plugin UI rebrand; zero comments; not superagent). #12095 and #12096 are not superagent. #12094 is before the window. #12011 stays pending. #11970, #11905, #11932, and #11947 still have zero comments. Cap remains 5; this run added 2 and updated 4. Direct commit to main, no PR. Window 2026-11-04T03:42:30Z to 2026-11-04T04:39:55Z. Based on origin/main 65440ac."
+  "npm_note": "latest and next remain 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0 (2026-11-04T00:57:50.969Z); no newer publish. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). updated_at 2026-11-04T05:30:51Z is not a new commit. Newest harness discussion is #12108 (exFAT attachments; zero comments; not superagent). #12098-#12107 are not superagent. #11970, #11905, #11932, #11947, and #12011 still have zero comments. Cap remains 5; this run added 0 and updated 1. Direct commit to main, no PR. Window 2026-11-04T04:39:55Z to 2026-11-04T05:35:08Z. Based on origin/main 951619c."
 }
