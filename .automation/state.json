@@ -1,27 +1,28 @@
 {
-  "last_run_at": "2026-11-04T22:50:00Z",
+  "last_run_at": "2026-11-04T23:45:00Z",
   "timezone": "UTC",
-  "baseline_commit": "37cc34a",
+  "baseline_commit": "69a5e12",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-04T21:36:00Z",
-    "to": "2026-11-04T22:50:00Z"
+    "from": "2026-11-04T22:50:00Z",
+    "to": "2026-11-04T23:45:00Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "RechargedIdeas/organism",
+      "url": "https://github.com/RechargedIdeas/organism",
+      "change": "Python work layer, not DSH. Tip 841436ce0a41 at 2026-11-04T23:03:43Z. Listed persons who address the agent are explicit in every mode. may_accept_inferred is true only in auto with an enabled matched rule. No would-accept record. SQLite WAL store, one OS lock, effects at-least-once."
+    }
+  ],
   "updated": [
     {
       "title": "MYCF711/dsh-session-superagent",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "change": "0.9.201 tip dd70e77ee818 at 2026-11-04T22:35:29Z. 0.9.195 keeps poll watermarks and 13 omitted fields. 0.9.196-0.9.199 fix Gitee merged state, comment paging, 403 rate limits, label POST, and truncated lists. 0.9.200 redacts wake(). 0.9.201 truncates on a UTF-8 boundary. Inference remains Gitee-only."
-    },
-    {
-      "title": "PHLens/dsh-superagent-prototype",
-      "url": "https://github.com/PHLens/dsh-superagent-prototype",
-      "change": "dev tip e352e52633b5 at 2026-11-04T21:03:42Z, 10 ahead of 6337fc8, schema 19. T8 stores a bounded local-child audit edge. Native start stays disabled. Missed by the 21:36Z note. Remote web and Feishu delivery were not in this commit."
+      "change": "0.9.206 tip bf3014548cf4 at 2026-11-04T23:31:58Z is the dispatch table. 0.9.202 drops stale panel responses and shows write failures. 0.9.203 sends only touched fields. 0.9.204-0.9.205 make a skipped gate exit 3 and hold one preflight lock with a token. 0.9.206 refuses cross-origin writes, __proto__ watcher ids, bodies over 64KB, and . or .. repo segments. Inference remains Gitee-only."
     }
   ],
   "pending": [
@@ -605,7 +606,7 @@
       "title": "KKKKhazix/agent-autoloop",
       "url": "https://github.com/KKKKhazix/agent-autoloop",
       "confidence": 0.72,
-      "reason": "Tip 5fc5d0d589ed at 2026-11-04T12:28:43Z. This hour also adds a GitLab event source (cd46c1af2ad4 at 11:51:22Z). Still not a DSH bundle and not the prototype Ticket model. Leave the listing for a deep run."
+      "reason": "Tip f5d1bb0f261c at 2026-11-04T23:29:29Z. Dismissed cards no longer repeat for the same outage, and a later new job still notifies. c0ceda50206e recognizes a system systemd unit. Still not a DSH bundle and not the prototype Ticket model. Not listed."
     },
     {
       "title": "disemay12/superagent",
@@ -660,7 +661,7 @@
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at moved and is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is #12208 at 2026-11-04T22:38:06Z (wait_agent blocks a user message). #12203-#12208 do not mention superagent. codefufuai/codefufuai f536dacdc60d only refreshes cards. DeepSeekNexus/nexus-superagent-sandbox is a disposable ticket repo. Laixiaomin tip remains 53cd912a8934, already noted on 37cc34a. Sandboxes, playgrounds, and workspaces stay out. Cap remains 5; this run added 0 and updated 2."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at 2026-11-04T23:30:35Z is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is still #12208 (2026-11-04T22:38:06Z). No discussion updated after 22:50Z mentions superagent. awesome-dsh-plugin fa94055bbfac only rewrites the MingoYung description prerequisites; that repo did not move. KKKKhazix/agent-autoloop f5d1bb0f261c dedupes cards and is still not a DSH Ticket model. lomivu.com is dated 3 November 2026. Sandboxes stay out. Cap remains 5; this run added 1 and updated 1."
     }
   ],
   "held_on_other_branches": [
@@ -690,5 +691,5 @@
     "docsor1212/dsh-superagent-prototype main is still 8c32a9d. fix/status-ucomm-node-mainthread is 8f3f2a0b7f82 and fix/locale-stable-test-assertions is a2031da4e1c5. Do not list the branches. The finding is cited from discussion #12145 inside the #11700 sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-04T21:36:00Z to 2026-11-04T22:50:00Z. Based on origin/main 37cc34a."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 1 and updated 1. Direct commit to main, no PR. Window 2026-11-04T22:50:00Z to 2026-11-04T23:45:00Z. Based on origin/main 69a5e12."
 }
