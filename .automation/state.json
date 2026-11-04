@@ -1,43 +1,53 @@
 {
-  "last_run_at": "2026-11-04T10:42:00Z",
+  "last_run_at": "2026-11-04T11:36:14Z",
   "timezone": "UTC",
-  "baseline_commit": "a4ff6ce",
+  "baseline_commit": "f28b142",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-04T09:38:26Z",
-    "to": "2026-11-04T10:42:00Z"
+    "from": "2026-11-04T10:42:00Z",
+    "to": "2026-11-04T11:36:14Z"
   },
   "added": [
     {
-      "title": "Shuai-S/dsh-superagent-relay",
-      "url": "https://github.com/Shuai-S/dsh-superagent-relay",
-      "change": "Created 2026-11-04T10:28:58Z, tip 0ccbb5a30991. Queue Source kind relay on the prototype orchestrator service. relay-cli push defaults addressed true (mention); --no-addressed omits it. Default actor id Shuai-S. Cursor advances after receive. No committed lib/; package entry is lib/index.js. No engines.dsh. Optional cordis peer ^4.0.2, devDependency 4.0.4. No LICENSE file; package.json says MIT. Not run inside a profile."
+      "title": "Shuai-S/dsh-superagent-mail",
+      "url": "https://github.com/Shuai-S/dsh-superagent-mail",
+      "change": "Public push 2026-11-04T10:44:57Z, tip c3ed315ddb05 (committer 10:28:27Z). IMAP/SMTP Source kind mail. To-header match is direct; CC-only is not. First contact or UIDVALIDITY change stores exists (message count), not the highest UID, and emits nothing that round. Thread is a per-mailbox SHA-1 of the subject after Re/Fwd/回复/答复/转发. SMTP In-Reply-To points at the triggering message only. Plain text is uncapped; HTML fallback caps at 8000. Attachments are counted, not downloaded. Password is a text field in engine config. The plugin does not filter the allow-list; host defaults ignore unlisted senders, so an empty list accepts nothing and a listed direct is explicit. Cursors at ~/.local/state/dsh-superagent-mail/cursors.json. No engines.dsh. lib/ is not committed; entry is lib/index.js. No LICENSE file; package.json says MIT. Not run inside a profile. 0.1.0."
     },
     {
-      "title": "Lencen/dsh-agent-lines",
-      "url": "https://github.com/Lencen/dsh-agent-lines",
-      "change": "Created 2026-11-04T09:02:06Z. Tip 1c5189653ddc at 2026-11-04T10:32:28Z rewrites the first-use README. Persistent named DSH sessions, not Ticket/Trigger/Policy. Only the createFrom line may line_create. Example maxLines 16, maxReplyDepth 8, childPreset standard. 0.3 is one team per plugin instance. Install script targets the DSH Web profile, not doc 006. engines.dsh >=0.2.1-rc.5 <0.3.0. Apache-2.0. Experimental."
+      "title": "Shuai-S/dsh-superagent-console",
+      "url": "https://github.com/Shuai-S/dsh-superagent-console",
+      "change": "Public push 2026-11-04T10:43:01Z, tip 8fe2a91dec6d (committer 10:28:27Z). Desktop-profile plugin. Proxies the official panel to 127.0.0.1:3082 and adds x-orchestrator-request. Does not store engine state. Install clones the official prototype into ~/.dsh/state/superagent-console/engine, skips --from-default-profile when the profile directory exists, refuses profile name desktop, and does not overwrite a non-template cordis.patch.yml. Provider sync skips plaintext apiKey/apiToken. No engines.dsh. Dev dependencies pin 0.2.1-alpha.2. No LICENSE file; package.json says MIT. 0.1.0."
     }
   ],
   "updated": [
     {
-      "title": "superchao5717/dsh-local-superagent",
-      "url": "https://github.com/superchao5717/dsh-local-superagent",
-      "change": "GitHub rename from ling5717. Tip ddba5265a606 at 2026-11-04T10:06:19Z is 0.3.0. Multiple supervisors per workspace, migrated single-supervisor ledger, optional autonomy continuation default off (30 minutes, once per task), review token and epoch, no file isolation. 45-minute cap, two continue rounds, 4-minute review wait, maxWorkers 2/4, and danger-full-access remain."
+      "title": "yuxfeng275/dsh-superagent-prototype",
+      "url": "https://github.com/yuxfeng275/dsh-superagent-prototype",
+      "change": "26 ahead of 8c32a9d, tip 8fd429d26c84 at 2026-11-04T11:01:29Z. WeCom and DingTalk credentials are panel fields in the settings database; history records that a secret changed, not the value. Empty fields pause the source until the form is complete. JSON credential files are gone. ledger health reports intent/sent/confirmed/failed counts and in-process duplicate sends avoided. Schema 15 adds the environment registry and edge job queue. executor.environment empty keeps ticket workers local; an environment id runs each ticket turn as one task on that host and waits if it is offline. Kinds byom, cloud-sandbox, shared-host, managed-runner; only online accepts work. orchestrator_worker can dispatch a separate task on an explicit human request."
     },
     {
-      "title": "Arcobalneo/pi-super",
-      "url": "https://github.com/Arcobalneo/pi-super",
-      "change": "0.3.0 tip 41be8d4d8977 at 2026-11-04T10:24:28Z. Removes the 0.2.1 constraints parameter and phrase checker. Verbatim mandate, grounded ready, persistent role sessions, attach/stop, after dependencies, one retry, stepTimeoutMinutes default 30. CHANGELOG heading still says unreleased. acceptInferred still defaults true."
+      "title": "superchao5717/dsh-local-superagent",
+      "url": "https://github.com/superchao5717/dsh-local-superagent",
+      "change": "0.4.0 tip 8c300ac40d4b at 2026-11-04T11:14:55Z. One global settings object for model, auto review, pause, and autonomy. Queues, workspace, and review context stay per supervisor. schema 3 migrates board.settings and keeps legacySettings. maxWorkers default 2, range 1-4, is a per-supervisor cap. Author reports 78 offline tests. Do not downgrade the ledger onto 0.3.0."
+    },
+    {
+      "title": "feel-think/dsh-superagent-prototype",
+      "url": "https://github.com/feel-think/dsh-superagent-prototype",
+      "change": "18 ahead, tip 5d24acf68c6d at 2026-11-04T10:58:14Z. plugins/goal is dsh-superagent-goal. Five-second scheduler writes spool JSON on the cron minute. Thread goal-<id>, conversation goal, sender goal must be a person or the write is skipped. Missed minutes are not replayed. Prompts cap at 10000 each and 20000 composed, 100 goals. Default common.md tells the worker to report ready on failure and names Nick. Loopback header x-goal-request."
     },
     {
       "title": "Anslen/dsh-personal-agent",
       "url": "https://github.com/Anslen/dsh-personal-agent",
-      "change": "Tip 19d25ed841ca at 2026-11-04T10:29:39Z, six commits after 421f6b2bf51a. qq_history filters and snapshot freshness, shared sticker library, sticker_save. Fixed channel receipt removed; the model writes the first reply."
+      "change": "Tip f728c91f0b0b at 2026-11-04T11:22:34Z. Group replies prepend <@senderId> from the trigger actor, not from @ text or the quoted author. Already-mentioned senders are not duplicated. Private chats are unchanged. Triggers set dispatch orchestrator. A reply may target a follow-up trigger that belongs to the current ticket."
+    },
+    {
+      "title": "Lencen/dsh-agent-lines",
+      "url": "https://github.com/Lencen/dsh-agent-lines",
+      "change": "0.3.1 tip d7ee8875acac at 2026-11-04T10:51:01Z. Changelog says no runtime change and schema stays v6. install.sh selects the DSH Web profile."
     }
   ],
   "pending": [
@@ -543,7 +553,7 @@
       "title": "ADWMC/Patchwork",
       "url": "https://github.com/ADWMC/Patchwork",
       "confidence": 0.74,
-      "reason": "Pushed 2026-11-04T08:08:05Z, tip 4dd5bc1e0e84. This hour adds skills guidance and AGENTS/DESIGN docs. patchwork_superagent is still its own queue, not the prototype Ticket model. The native-superagent boundary doc remains dated 2026-11-01. Not listed."
+      "reason": "Tip e273a815b1ce at 2026-11-04T11:27:11Z. This hour adds a DSH 0.2.1-rc.2 through 0.2.2-alpha.3 range and Windows path normalization in its own superagent review. patchwork_superagent is still its own queue, not the prototype Ticket model. Not listed."
     },
     {
       "title": "lixiyu/dsh-superagent-chat",
@@ -567,26 +577,32 @@
       "title": "gerdr-dev/gerdr-panel-superagent",
       "url": "https://github.com/gerdr-dev/gerdr-panel-superagent",
       "confidence": 0.74,
-      "reason": "Created 2026-11-03T14:52:51Z, before this window. Tip 11550d26be08 at 2026-11-04T10:20:24Z only handles an MR that is already merged or closed when first seen. Gerdr panel that cites the prototype attention rule and dispatches Claude Code or Codex. Not Trigger, Mandate, or Ticket on DSH. Leave the listing for a deep run."
+      "reason": "Tip 0ab2bfc2525f at 2026-11-04T11:22:20Z. This hour is media markup and wait_for. Still a Gerdr panel that dispatches Claude Code or Codex. Not Trigger, Mandate, or Ticket on DSH. Leave the listing for a deep run."
     },
     {
       "title": "KKKKhazix/agent-autoloop",
       "url": "https://github.com/KKKKhazix/agent-autoloop",
       "confidence": 0.72,
-      "reason": "Created 2026-11-03T08:02:11Z, before this window. Tip 7793cd2d2b78 at 2026-11-04T10:34:56Z enforces card-answer length caps (text 4000, by 500, ref 500) that previously lived only in the schema. Cited by the pi-super 0.3 changelog as a design reference. Not a DSH bundle. Leave the listing for a deep run."
+      "reason": "Tip c94a9c5ec33a at 2026-11-04T11:15:21Z resumes an interrupted session instead of starting a new one. Still not a DSH bundle. Leave the listing for a deep run."
     },
     {
       "title": "disemay12/superagent",
       "url": "https://github.com/disemay12/superagent",
       "confidence": 0.4,
       "reason": "Created 2026-11-04T10:30:49Z. OpenCode skill contract for DeepSeek-class models. Says no approval gates. Not Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "Guying60/dsh-superagent-prototype",
+      "url": "https://github.com/Guying60/dsh-superagent-prototype",
+      "confidence": 0.4,
+      "reason": "Fork created 2026-11-04T10:54:30Z. One commit 938d868df331 at 10:53:23Z on 6337fc8 adds dsh-orchestrator/: a contest proposal, slides, and demo.js. package.json author says DeepSeek Harness Competition Team. It does not modify the prototype src/ and is not Trigger, Mandate, or Ticket. Not listed."
     }
   ],
   "rejected_this_run": [
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at 2026-11-04T10:29:25Z is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No new GitHub release. @vicfei/dsh-super-agent remains 1.1.0. Discussions #12149 and #12150 do not mention superagent. #12148 was updated at 09:35:36Z, before this window. Sandboxes, demos, tests, and pilot workspaces were not listed: Lafinger/dsh-superagent-test, dshsuperagent-oss/superagent-sandbox, jingtaozhang/dsh-supser-agent-test, waldenlake/dsh-superagent-demo, LTW-2720/dsh-superagent-sandbox, standbyme626/rentradar-agent, zmjjkk-qiuqiu/superagent-sandbox, OxygenPlusOne-DSH/DSH_superagent_test, VizuaraAI/superagent-demo, helloNorth/superagent-playground, pouramin/superagent-test, machinetus/superagent-test, ai-storage-agent/c2k-pilot, Nasim8499/superagent-github-status. ozbillwang/dsh-superagent-prototype main is still 8c32a9d. yuxfeng275 and shibaeff pushed_at moved without a new default-branch commit. pingdotgg/t3code default commit is still 8b44f42b14c8 at 07:01Z. Mowen559/superagent is an August repository and this hour's hub commit does not describe the prototype."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at 2026-11-04T11:27:00Z is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No new GitHub release. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is #12154. #12153 is a macOS desktop click bug. #12154 asks for host-trusted message provenance for dsh-longterm-memory and dsh-qqbot-merge, not the prototype. Sandboxes, demos, tests, pilots, and prototype URL mirrors were not listed: toddd0702-sys/superagent-sandbox, tiaametiaame-sudo/-iop0-hjo-uhj, tiaametiaame-sudo/elitee, bilolabduazimof-arc/Genton, bilolabduazimof-arc/Bilol, nishonovboburmirzo1999-oss/ghrcex, butisello/dsh-superagent-test, Icerphoenix/superagent-test, Lafinger/dsh-superagent-test, standbyme626/rentradar-agent, ai-storage-agent/c2k-pilot, beiluo/dsh-superagent-demo, pouramin/superagent-test, liuxiaolang/superagent, VizuaraAI/superagent-demo. LofiSu #118 #123 #124 #125 #127 do not change the listed sentence. pingdotgg/t3code pushed_at 11:18:54Z did not add a default-branch commit after 10:30Z. Open PR list on this repo is empty."
     }
   ],
   "held_on_other_branches": [
@@ -616,5 +632,5 @@
     "docsor1212/dsh-superagent-prototype main is still 8c32a9d. fix/status-ucomm-node-mainthread is 8f3f2a0b7f82 and fix/locale-stable-test-assertions is a2031da4e1c5. Do not list the branches. The finding is cited from discussion #12145 inside the #11700 sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z); no GitHub release. alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype engines.dsh is still ^0.2.1-alpha.2. @vicfei/dsh-super-agent is 1.1.0 (2026-11-04T00:57:50.969Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Newest harness discussion is #12150. #12149 and #12150 are not superagent. Cap remains 5; this run added 2 and updated 3. Direct commit to main, no PR. Window 2026-11-04T09:38:26Z to 2026-11-04T10:42:00Z. Based on origin/main a4ff6ce."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z); no GitHub release. alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype engines.dsh is still ^0.2.1-alpha.2. @vicfei/dsh-super-agent is 1.1.0 (2026-11-04T00:57:50.969Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Newest harness discussion is #12154. #12153 and #12154 are not superagent. Cap remains 5; this run added 2 and updated 5. Direct commit to main, no PR. Window 2026-11-04T10:42:00Z to 2026-11-04T11:36:14Z. Based on origin/main f28b142."
 }
