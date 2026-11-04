@@ -1,37 +1,27 @@
 {
-  "last_run_at": "2026-11-04T20:32:58Z",
+  "last_run_at": "2026-11-04T21:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "be9dd3b",
+  "baseline_commit": "628619b",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-04T19:35:25Z",
-    "to": "2026-11-04T20:32:58Z"
+    "from": "2026-11-04T20:32:58Z",
+    "to": "2026-11-04T21:36:00Z"
   },
   "added": [],
   "updated": [
     {
       "title": "MYCF711/dsh-session-superagent",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "change": "0.9.187 tip 71cda0c38ca7 at 2026-11-04T20:25:19Z. 0.9.184 auto-creates a Gitee ack label after GET; half-width colon is illegal, default is 主理鱼-已处理. 0.9.185 writes lastReopened after markGiteeReopened and keeps lastReopened/lastStates in POLL_RESULT_FIELDS, so the panel can show reopen; inference still writes only on Gitee. 0.9.187 normalizes stored colon labels on read. 0.9.183 is the regression lock; 0.9.186 is empty-state color and the doubled 前."
+      "change": "0.9.193 tip dc2b61242ba4 at 2026-11-04T21:33:50Z only updates the dispatch table. 0.9.188 (5fe140baa6b7, 20:32:33Z) adds labelNote to watch_ack JSON, pages ensureGiteeLabel at 100 per page up to 5 pages, clears lastReopened only when that number is absent from the current page, and makes the regression gate lock delete only its own pid. 0.9.192 fixes the empty-state interval sentence and the restore-all no-op. 0.9.189-0.9.191 and the 0.9.193 code are aria and contrast."
     },
     {
-      "title": "waixv-superagent/dsh-superagent-prototype",
-      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "change": "Tip f6e9da4d3a0b at 2026-11-04T20:00:12Z. Plan cards use full-width rows unless the labels are short and have no description; revise is multiline. A render error stays inside the panel with retry and overview. Feishu cards share one shell; the worker prompt distinguishes text from one html file. Callback values unchanged."
-    },
-    {
-      "title": "PHLens/dsh-superagent-prototype",
-      "url": "https://github.com/PHLens/dsh-superagent-prototype",
-      "change": "dev tip 268e7218b35a at 2026-11-04T19:49:05Z, 9 ahead of 6337fc8, schema 18. T7: bounded project materials, confirmed knowledge only, managed skills re-authorized before each body load, and a code-validation receipt before a worker can finish. Delegation, remote web, and Feishu delivery were not in this commit."
-    },
-    {
-      "title": "hextor-ndc/superagent",
-      "url": "https://github.com/hextor-ndc/superagent",
-      "change": "Tip 0dc3b4279c03 at 2026-11-04T19:48:24Z. superagent_new_project_form is an HTML form in the console thread and under the panel queue. Create calls the existing superagent_new_project with group/name and no model in between. ARCHIVE, symlinks, and ticket worktrees stay out of the group list."
+      "title": "Laixiaomin001/dshm-local-superagent",
+      "url": "https://github.com/Laixiaomin001/dshm-local-superagent",
+      "change": "Tip 53cd912a8934 at 2026-11-04T21:03:43Z. 8ddc159d2cd4 at 20:39Z adds the MIT LICENSE file, drops private, and adds an English README plus an expected-output walkthrough. prompt-rules.md says the read-only preset only blocks write/edit/bash and records danger-full-access on the child as a prompt convention. startActivation still sets no approval mode."
     }
   ],
   "pending": [
@@ -652,13 +642,19 @@
       "url": "https://thevibelog.dev/blog/deepseek-super-agent-2026",
       "confidence": 0.66,
       "reason": "HTTP 200. datePublished is 2026-11-04T00:00:00.000Z, before this window, with no clock time. The body keeps the explicit-request exception and says observe logs inferred work as would-accept. A FAQ snippet says setup starts proactive work in observe mode. Overlaps the existing 解读 entries. Not listed this hour."
+    },
+    {
+      "title": "CheapTokens dsh-superagent setup",
+      "url": "https://cheaptokens.dev/en/blog/dsh-superagent-github-issues-cheaptokens/",
+      "confidence": 0.46,
+      "reason": "Page says published Nov 4, 2026, with no clock time. The install pins docs/006's 0.2.1-rc.3 and says default observe records proactive work without doing it, which drops the explicit-request exception in docs/002. It also says main has one commit. Recap. Do not list until the observe sentence is fixed."
     }
   ],
   "rejected_this_run": [
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at moved and is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is #12202. #12200 is a general subagent disconnect with no superagent mention, #12201 is a low-integrity Electron launch failure, #12202 is reasoning effort on Flash. None mention superagent. awesome-dsh-plugin 461ba51cac0e only regenerates READMEs and the diff has no superagent lines. pingdotgg/t3code 7f6f47b27b44 and 62db6623cb30 are PDF and scanner tests, not the superagent control plane. Meaple tip remains 074f8f1309dc (19:29Z, before the window). Sandboxes, playgrounds, and workspaces stay out. Cap remains 5; this run added 0 and updated 4."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at moved and is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is #12206. #12203 is a Usage page that shows zero cost, #12204 is a same-session workspace-instruction switch, #12205 is a per-boot cookie name filling the 16 KiB localhost jar, #12206 is a translucent menu bleeding through the composer. None mention superagent. DeepSeekNexus/nexus-superagent-sandbox is a disposable test ticket repo. awesome-dsh-plugin regen and the new catalog rows (session messaging, supermemory, and the rest) have no superagent lines. t3code df70f505a3c3 is a managed-policy LAN note, not the superagent control plane. Cap remains 5; this run added 0 and updated 2."
     }
   ],
   "held_on_other_branches": [
@@ -688,5 +684,5 @@
     "docsor1212/dsh-superagent-prototype main is still 8c32a9d. fix/status-ucomm-node-mainthread is 8f3f2a0b7f82 and fix/locale-stable-test-assertions is a2031da4e1c5. Do not list the branches. The finding is cited from discussion #12145 inside the #11700 sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 0 and updated 4. Direct commit to main, no PR. Window 2026-11-04T19:35:25Z to 2026-11-04T20:32:58Z. Based on origin/main be9dd3b."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-04T20:32:58Z to 2026-11-04T21:36:00Z. Based on origin/main 628619b."
 }
