@@ -1,46 +1,57 @@
 {
-  "last_run_at": "2026-11-04T12:42:00Z",
+  "last_run_at": "2026-11-04T13:45:00Z",
   "timezone": "UTC",
-  "baseline_commit": "16bd452",
+  "baseline_commit": "3df0353",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-04T11:36:14Z",
-    "to": "2026-11-04T12:42:00Z"
+    "from": "2026-11-04T12:42:00Z",
+    "to": "2026-11-04T13:45:00Z"
   },
   "added": [
     {
-      "title": "Me106y/dsh-superagent-launcher",
-      "url": "https://github.com/Me106y/dsh-superagent-launcher",
-      "change": "Created 2026-11-04T11:31:57Z, public tip 16812bcf4829 at 12:25:04Z, default branch master. Rust egui launcher, Linux and macOS. Lists profiles whose package.json mounts dsh-superagent. Starts node <runtime> --profile <name> --no-open. Panel URL gets the last token= from the log. Stop uses lsof then kill -TERM only if the command line contains --profile <name>. Preflight is gh api repos/<repo> permissions.push before cp -a. Bind is PUT /orchestrator/api/settings/source:github with x-orchestrator-request. Ports scan 3082 through 3199 and fall back to 3082. Prepare is a POSIX shell clone/fetch. No LICENSE; README says ask first. Not compiled here."
+      "title": "SilasSolivagus/dsh-superagent",
+      "url": "https://github.com/SilasSolivagus/dsh-superagent",
+      "change": "Imported at 2026-11-04T11:36:39Z as e4234c615fdb, not a git fork. Tip df1526115603 at 13:27:46Z. KV assignees:v1, enabled defaults false. When enabled, accept carries suggest() assignee, prepare writes ticket.execution.assignee, launch uses that preset and model, falling back to the built-in worker if the assignee or preset is gone. Live suggest() gets an empty load map, so concurrency does not drop a full agent. Docs preset dsh-superagent-worker-docs disables tool-bash and tool-pwsh only; shell group, tool-jobs, tool-fs, and subagent stay mounted. README lead is still upstream. engines.dsh ^0.2.1-alpha.2. MIT, author still DeepSeek Harness Team."
     },
     {
-      "title": "ColinStayInLife/dsh-superagent-windows",
-      "url": "https://github.com/ColinStayInLife/dsh-superagent-windows",
-      "change": "Created 2026-11-04T12:18:10Z. Not a git fork; compare against 8c32a9d and 6337fc8 returned 404. Sole commit aba89bae5a8f, committer 11:08:34Z, published this hour. Verified paths.ts absolute-part win and environment.ts win32 .cmd shims. service-script.spec.ts skips the whole file on win32. Commit message records 1182 passed, 0 failed, 16 skipped, tsc and tsdown, POSIX not re-run. No issue-to-PR note. README lead is still upstream. LICENSE copyright and author remain DeepSeek Harness Team. engines.dsh remains ^0.2.1-alpha.2. MIT."
+      "title": "Shuai-S/dsh-superagent-wechat",
+      "url": "https://github.com/Shuai-S/dsh-superagent-wechat",
+      "change": "Created 2026-11-04T12:59:46Z. Sole commit a2c22eb1e112. SourceKind wechat via inject orchestrator. DMs are direct; bot and group_id messages are dropped. Outbound needs context_token and is refused after windowHours (default 20). Base URL must be https weixin.qq.com on 443. No lib/, no LICENSE file, package.json says MIT. Not installed here."
+    },
+    {
+      "title": "Shuai-S/dsh-superagent-wecom",
+      "url": "https://github.com/Shuai-S/dsh-superagent-wecom",
+      "change": "Created 2026-11-04T12:59:33Z. Sole commit 046a00741cb5. SourceKind wecom. Callback defaults to 0.0.0.0:3090. encodingAESKey length 43. Trigger id wecom:<MsgId>. All messages addressed direct. No lib/, no LICENSE file. Not installed here."
+    },
+    {
+      "title": "Shuai-S/dsh-superagent-qq",
+      "url": "https://github.com/Shuai-S/dsh-superagent-qq",
+      "change": "Created 2026-11-04T12:59:20Z. Sole commit 4091981c7cd2. SourceKind qq. GROUP_AT_MESSAGE_CREATE is mention, C2C with user_openid is direct. README says field names are not checked on a real device. No lib/, no LICENSE file. Not installed here."
     }
   ],
   "updated": [
     {
-      "title": "Lencen/dsh-agent-lines",
-      "url": "https://github.com/Lencen/dsh-agent-lines",
-      "change": "0.3.3 tip 58f09c9b7a91 at 2026-11-04T12:29:39Z. 0.3.2 1f4661e09714 at 11:57:11Z starts with an unbound manager when lines and the legacy line/sessionId pair are absent. agent id defaults to agent-lines. allowCreate and allowClaim default on only in that zero-config path. DB is DSH_HOME/agent-lines/lines.db, or ~/.dsh/agent-lines/lines.db when DSH_HOME is unset. Schema stays v6. 0.3.3 is the landing page only."
-    },
-    {
       "title": "hextor-ndc/superagent",
       "url": "https://github.com/hextor-ndc/superagent",
-      "change": "Merge ba7d4b1063bb at 2026-11-04T12:12:43Z of cbeb86d8d42c. superagent_new_project creates a folder, one commit of README.md and REPO_MAP.md on main, t3 project add --title=<title>, and writes repositories.json plus REPOSITORIES.md. Symlinks are refused. Default deny is only ARCHIVE/. The comment says PERSONAL/, FAMILY/, and COMMON/ can take work."
+      "change": "Merge 7a1d2d82d75c at 2026-11-04T12:57:19Z of 4ddf8c9f5b8d. superagent_add_project registers a catalogued git checkout whose status is not-registered by running t3 project add, because the MCP token is refused t3_project_create. Missing SUPERAGENT_CATALOGUE throws. An already listed T3 project returns without the CLI. A linked worktree is refused with its main checkout named. One refusal does not stop the other inputs. It does not write the git repo or the catalogue."
     },
     {
       "title": "yinhaox/dsh-game-studio",
       "url": "https://github.com/yinhaox/dsh-game-studio",
-      "change": "a96181fe6450 at 2026-11-04T12:11:41Z adds closeMergedIssue to patches/superagent-windows.patch: a merged bound PR closes the originating issue with gh issue close --reason completed and comment Merged in #<n>. An issue that is not open is left alone. A closed-unmerged PR does not close the issue. A close failure is swallowed. docs/004-deployment.md says to git apply the patch; the README install steps still do not. 09307a12ed5c at 12:28:30Z adds a size check to the scope prompt and docs/006-granularity.md, plus scripts/studio-metrics.py. Coil 3D figures in that doc were not re-measured. coil-3d v0.1.0 was not re-fetched this hour beyond the existing 404 note."
+      "change": "07a2ef8be67b at 2026-11-04T13:14:12Z replaces the two Coil 3D figures in docs/006-granularity.md with a measured table: coarse UI shell 126 steps and 510911 input tokens, footer fine ticket 43 steps and 87351 input tokens. The doc says the longest step seen was 4.5 minutes, so there is still no step timeout, and asks for directories rather than a closed file list."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussion #12161",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12161",
+      "confidence": 0.74,
+      "reason": "Created 2026-11-04T12:46:09Z by erwins22. Zero comments. Asks for a plugin-level GitLab CE source (base URL, token, issue/MR/comment in, MR out) and says the prototype is tied to github.com and excludes GitHub Enterprise Server. A feature request, same class as #11947 and #12011. Not an upstream defect. #12162, #12163, and #12164 do not mention superagent. #12160 is before the window. #12165 is after 13:27:26Z."
+    },
     {
       "title": "Harness discussion #11932",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/11932",
@@ -602,15 +613,15 @@
     {
       "title": "Fadil369/brainsait-superagent",
       "url": "https://github.com/Fadil369/brainsait-superagent",
-      "confidence": 0.35,
-      "reason": "Created 2026-11-04T11:32:01Z. Tip 94fbcdedc392 at 12:15:25Z is a multi-brain scaffold with Lark. The description does not name dsh-superagent, Trigger, Mandate, or Ticket. Not listed."
+      "confidence": 0.62,
+      "reason": "In-window tip f6fee595ec9b at 2026-11-04T12:57:41Z wires six router brains. cordis.patch.yml inserts id dsh-superagent (stateDir ~/.dsh/state/brainsait-superagent, port 3083, acceptMode observe) and dsh-superagent-lark, and src/sources/lark.ts defines a Lark source. No LICENSE. The patch was already in the 11:36Z scaffold, which the previous hour left pending. This hour's commit is the router, not a new Ticket contract. Not listed."
     }
   ],
   "rejected_this_run": [
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at 2026-11-04T12:30:44Z is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1 with no GitHub release. alpha remains 0.2.2-alpha.3, newest release tag dsh-v0.2.2-alpha.3 at 2026-11-03T07:56:48Z. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is #12159. #12155 through #12159 do not mention superagent. yuxfeng main is still 8fd429d26c84 (26 ahead); pushed_at 11:45:21Z is not a new default commit. feel-think main is still 5d24acf68c6d (18 ahead); pushed_at 11:48:11Z is not a new default commit. pingdotgg/t3code had no default-branch commit after the cutoff. MYCF711 0.9.173 and 0.9.174 do not change the listed sentence. LofiSu local UI, Feishu plus iMessage, and mesh merges through 123ee4055fd7 do not change the listed sentence. Sandboxes, demos, and ticket workspaces stay out: beiluo/dsh-superagent-demo, standbyme626/rentradar-agent, bombless/dsh-superagent-workspace (Caddy game deploy). Open PR list on this repo is empty. effortprogrammer, hxh230802, lukebot1, and GeekGold/aion still 404."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at moved and is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. GitHub prerelease dsh-v0.2.2-rc.1 was published 2026-11-04T13:07:14Z; the notes do not mention superagent, and it still does not satisfy engines.dsh. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion in the scan is #12164; #12165 is after the trigger cutoff. #12162-#12164 are not superagent. #11970, #11905, #11932, #11947, #12011, and #12126 still have zero comments. yuxfeng, feel-think, LofiSu, vicfei, waixv, chasey, OCCAgent, jiaoqsh, AIR, shibaeff, thanatos, Yiminnn, Lencen, Me106y, ColinStayInLife, and the earlier Shuai-S mail/console/relay default tips did not move past the previous sentences. Lencen b2b01dc8 and Me106y dc0cd21 are docs and an unbound badge before 12:42Z and do not change the listed contracts. pingdotgg/t3code pushed_at 13:13Z is not a new default commit. gerdr-panel-superagent 1cbff63c is still not Trigger, Mandate, or Ticket. KKKKhazix tip after the window stays pending. MYCF711 0.9.175 stores ghConfigDir and does not put the path in the wake text, so the listed credentials sentence still holds. No new paper or community primary in the window. Open PR list was not re-opened. effortprogrammer, hxh230802, and lukebot1 were not re-checked beyond the prior 404s."
     }
   ],
   "held_on_other_branches": [
@@ -640,5 +651,5 @@
     "docsor1212/dsh-superagent-prototype main is still 8c32a9d. fix/status-ucomm-node-mainthread is 8f3f2a0b7f82 and fix/locale-stable-test-assertions is a2031da4e1c5. Do not list the branches. The finding is cited from discussion #12145 inside the #11700 sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z); no GitHub release. alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). Prototype engines.dsh is still ^0.2.1-alpha.2. @vicfei/dsh-super-agent is 1.1.0 (2026-11-04T00:57:50.969Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Newest harness discussion is #12159. #12155-#12159 are not superagent. Cap remains 5; this run added 2 and updated 3. Direct commit to main, no PR. Window 2026-11-04T11:36:14Z to 2026-11-04T12:42:00Z. Based on origin/main 16bd452."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). GitHub prerelease dsh-v0.2.2-rc.1 was published 2026-11-04T13:07:14Z; notes do not mention superagent, and it does not satisfy prototype engines.dsh ^0.2.1-alpha.2. alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 4 and updated 2. Direct commit to main, no PR. Window 2026-11-04T12:42:00Z to 2026-11-04T13:45:00Z. Based on origin/main 3df0353."
 }
