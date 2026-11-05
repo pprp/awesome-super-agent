@@ -1,25 +1,72 @@
 {
-  "last_run_at": "2026-11-05T22:36:44Z",
+  "last_run_at": "2026-11-05T23:42:00Z",
   "timezone": "UTC",
-  "baseline_commit": "54506cb",
+  "baseline_commit": "190e0e8",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-05T21:41:59Z",
-    "to": "2026-11-05T22:36:44Z"
+    "from": "2026-11-05T22:36:44Z",
+    "to": "2026-11-05T23:42:00Z"
   },
   "added": [],
   "updated": [
     {
       "title": "AirKyzzZ/hermes-superagent",
       "url": "https://github.com/AirKyzzZ/hermes-superagent",
-      "change": "Default main moved from 10d94e18c93e to 3ccc59753f91 at 22:32:31Z. 15c36e81c8e8 at 22:20:05Z and 3ccc59753f91 only edit docs/dogfood-design.md and the README checklist. The design says pull connectors, an item ledger, reconciliation of untouched items, and workers on other machines are missing. Sources stay push-only: gateway chat, webhooks, and superagent ingest. Store, outbox, watchdog, cancel, and digest are unchanged. The live-model checkbox is still open. Badge was not re-checked."
+      "change": "Default main moved from 3ccc59753f91 at 22:32:31Z to 5e23d8e71d59 at 23:25:46Z. cd50e6abfb9c at 22:44:56Z retries undelivered outbox messages with backoff (30s, then 60s doubling, cap 1800s) instead of dropping after 5 failures; superagent outbox --drop is the explicit drop. A migration clears failed_at when drop_reason is null. 776c77f1776a at 22:59:52Z alerts on lasting tick errors (alert_after_seconds default 300), alerts at once when a tick holds the lock past deadline_seconds (default 600) or a previous tick never finished, and runs heartbeat argv only when the tick has no errors. a072a81d9711 at 23:03:49Z adds an item ledger that does not delete rows. 5e23d8e71d59 polls command connectors into that ledger during the tick. CLI has list/show/close/ignore/snooze/accept and does not assign tickets. docs/dogfood-design.md still says pull connectors and the ledger are missing. Roadmap checkboxes for the ledger-plus-daily-reconciliation and the first live model run stay open. Badge says 352. Not re-run."
+    },
+    {
+      "title": "wuzhiping/superagent",
+      "url": "https://github.com/wuzhiping/superagent",
+      "change": "Default main moved from ec00af60c727 at 20:59:23Z to 2b29cca84752 at 23:29:43Z. bba84b193d3a at 22:48:07Z adds orchestrator_read charter for the ticket's own project and rewinds the ntfy cursor 600s on a topic switch. 2b29cca84752 separates charterRepository from the Gitea event repository and filters ntfy intake by ingestTags. giteaCharter() does not fall back to the event repository. Host replies publish tag dsh-superagent. Author-recorded rehearsal timings and the shawoo/PDP versus shawoo/rsi_superagent check were not re-run."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions after #12350",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12350",
+      "confidence": 0.8,
+      "reason": "Newest discussion is still #12350, created 2026-11-05T22:24:13Z, before this window. No newer discussion. Not a prototype defect. Not listed."
+    },
+    {
+      "title": "sisyphuslabs/dori-superagent inbox flush",
+      "url": "https://github.com/sisyphuslabs/dori-superagent/commit/201e6ca018e4",
+      "confidence": 0.5,
+      "reason": "Default main moved to 201e6ca018e4 at 2026-11-05T22:59:58Z. The commit releases held inbox entries and flushes one pane. README still says herdr + omo, not a DSH port. Not listed."
+    },
+    {
+      "title": "pingdotgg/t3code secret providers",
+      "url": "https://github.com/pingdotgg/t3code/commit/b46abbf3deb3",
+      "confidence": 0.55,
+      "reason": "Default main moved from 25b53299b75d at 21:34:41Z to b46abbf3deb3 at 2026-11-05T23:30:58Z. In-window commits are secret providers, mobile chrome, and Ultracode on Sonnet 5.5 and Haiku 5.5. hextor-ndc/superagent did not move. The listed sentence was not rewritten."
+    },
+    {
+      "title": "awesome-dsh-plugin catalog batch",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/0d74a2a6adc1",
+      "confidence": 0.7,
+      "reason": "Tip 0d74a2a6adc1 at 2026-11-05T23:16:42Z regenerates READMEs, bumps dsh-session-relay to v1.3.1, and adds orion-nebula-dev/dsh-Dynamic-Workflow v0.4.0. Commit subjects do not mention the prototype bundle. The listed sentence was not rewritten."
+    },
+    {
+      "title": "SkillfulAgents/SuperAgent 0.6.5-rc.2",
+      "url": "https://github.com/SkillfulAgents/SuperAgent/commit/b54e8a00baa7",
+      "confidence": 0.2,
+      "reason": "Tip b54e8a00baa7 at 2026-11-05T22:59:21Z only bumps package.json to 0.6.5-rc.2. Still not Trigger, Mandate, or Ticket, and it does not run on DSH. Not listed."
+    },
+    {
+      "title": "Legeo969/superagent-playground value restored",
+      "url": "https://github.com/Legeo969/superagent-playground/commit/ae13a5c16599",
+      "confidence": 0.2,
+      "reason": "Tip ae13a5c16599 at 2026-11-05T22:39:56Z restores value.txt to ok. Still a scratch repo. Not listed."
+    },
+    {
+      "title": "suboyong connectivity ping",
+      "url": "https://github.com/suboyong/dsh-superagent-prototype/issues/7",
+      "confidence": 0.35,
+      "reason": "Issue #7 opened 2026-11-05T22:41:48Z asks the running agent to reply that it received a trigger and to change nothing. Default main is still the upstream tip pushed 2026-11-03T09:29:14Z. A ticket-workspace ping, not a new contract. Not listed."
+    },
     {
       "title": "grunvald91/My_ai_assistent external PR monitor",
       "url": "https://github.com/grunvald91/My_ai_assistent/commit/4fc15239779a",
@@ -1219,7 +1266,7 @@
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.272. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12350. arXiv returned no dsh-superagent hits. HN has no new story. Juejin search returned no posts. Legeo969/superagent-playground, codefufuai cards, plantilla, helio, SkillfulAgents, and dori were not listed. Cap remains 5; this run added 0 and updated 1. grunvald91/My_ai_assistent stayed pending."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.272. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12350. arXiv returned no dsh-superagent hits. HN has no new story. Legeo969, SkillfulAgents, dori, t3code, and the plugin catalog were not listed. Cap remains 5; this run added 0 and updated 2."
     }
   ],
   "held_on_other_branches": [
@@ -1262,8 +1309,10 @@
     "waixv-superagent/dsh-superagent-prototype main is still 4cb8827d3f57 (2026-11-05T16:37:17Z). pushed_at 2026-11-05T18:19:16Z is agent/clangd-ue-debugging-48a2aa0dd826 (ad16a4aabae4, docs about editor breakpoints). Do not list the branch.",
     "RechargedIdeas/organism main is still 345856911476 (2026-11-05T18:56:39Z). pushed_at 2026-11-05T20:18:28Z is ci/runner-hardening (be5daf782bfa, 19:07Z) and claude/cool-hawking-1cb4d3 (e6df586a18ba, 19:40Z, Custode upgrade docs). Do not list those branches.",
     "pingdotgg/t3code main is still 25b53299b75d (2026-11-05T21:34:41Z). pushed_at 2026-11-05T22:34Z is PullRequestEvent and reviews, not a new default-branch commit. hextor-ndc/superagent did not move. Do not rewrite the listed sentence.",
-    "sisyphuslabs/dori-superagent main is still f27d8c21ed54 (2026-11-05T07:52:32Z). pushed_at 2026-11-05T22:22:53Z is issues, a fork, and a watch. Do not list other branches."
+    "sisyphuslabs/dori-superagent main is still f27d8c21ed54 (2026-11-05T07:52:32Z). pushed_at 2026-11-05T22:22:53Z is issues, a fork, and a watch. Do not list other branches.",
+    "pingdotgg/t3code main is b46abbf3deb3 (2026-11-05T23:30:58Z). In-window commits are secret providers and mobile chrome. hextor-ndc/superagent did not move. Do not rewrite the listed sentence.",
+    "sisyphuslabs/dori-superagent main is 201e6ca018e4 (2026-11-05T22:59:58Z). Inbox flush on herdr + omo. Do not list it as a DSH port."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.272 (2026-11-05T17:37:36.354Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 1. Direct commit to main, no PR. Window 2026-11-05T21:41:59Z to 2026-11-05T22:36:44Z. Based on origin/main 54506cb. grunvald91/My_ai_assistent external-PR monitor stayed pending (personal private bot, no LICENSE)."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.272 (2026-11-05T17:37:36.354Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-05T22:36:44Z to 2026-11-05T23:42:00Z. Based on origin/main 190e0e8. Hermes ledger and command connectors landed on default main; the dogfood table still calls them missing. wuzhiping charterRepository and ntfy tag filter landed on default main."
 }
