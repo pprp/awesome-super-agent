@@ -1,36 +1,22 @@
 {
-  "last_run_at": "2026-11-05T04:48:10Z",
+  "last_run_at": "2026-11-05T05:45:00Z",
   "timezone": "UTC",
-  "baseline_commit": "ed98795",
+  "baseline_commit": "0ec5ffd",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-05T03:38:22Z",
-    "to": "2026-11-05T04:48:10Z"
+    "from": "2026-11-05T04:48:10Z",
+    "to": "2026-11-05T05:45:00Z"
   },
   "added": [
     {
-      "title": "siyu1231/dsh-superagent-prototype",
-      "url": "https://github.com/siyu1231/dsh-superagent-prototype",
+      "title": "Shuai-S/dsh-superagent-dingtalk",
+      "url": "https://github.com/Shuai-S/dsh-superagent-dingtalk",
       "type": "衍生",
-      "summary": "Fork, 16 ahead of 8c32a9d, tip c1b01f82ccca at 2026-11-05T03:40:26Z. Workspaces replace the single GitHub repo. Windows .cmd shims, cmd.exe for batch, pwsh else powershell.exe. Finished ticket sessions are archived. Router sidebar hover opens the session list for the router and worker-<ticket> sessions that have startedAt.",
-      "confidence": 0.9
-    },
-    {
-      "title": "Algovate/superagent-explained",
-      "url": "https://github.com/Algovate/superagent-explained",
-      "type": "解读",
-      "summary": "Runnable essay companion, tip fdb1f80023f1 at 2026-11-05T04:28:59Z. Sections 2-6 samples, not the prototype. Keyword filter is not off/observe/auto. Watchdog sample is a rule stand-in. No license field. private 0.1.0.",
-      "confidence": 0.84
-    },
-    {
-      "title": "Shuai-S/dsh-superagent-sources",
-      "url": "https://github.com/Shuai-S/dsh-superagent-sources",
-      "type": "衍生",
-      "summary": "Manifest-only bundle, repo created 2026-11-05T03:35:51Z, two minutes before the previous stamp, not recorded then. Tip 5642c880865e. Five npm source packages, SourceKind singleton, disable by id. DingTalk npm 0.1.1 was not read line by line.",
+      "summary": "Standalone DingTalk Source. Configured groups need isInAtList or atUsers. Other conversations are direct. Health treats an inbound message as connected. npm 0.1.1. In-window commit is README only.",
       "confidence": 0.86
     }
   ],
@@ -38,32 +24,32 @@
     {
       "title": "MYCF711/dsh-session-superagent",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "change": "0.9.241 tip afc7eb3e30c9 at 2026-11-05T04:36:03Z. JSON tool errors, enabled-only session cap of 20, gitee prefix on watch_stop, activeHours must be HH:MM-HH:MM, wake: error prefix. 0.9.240-0.9.241 are KB comments and stale doc numbers."
+      "change": "0.9.249 tip 29c78e140c95. lastReported capped, bad state no longer crashes diagnose, settings sidebar switches, props.key gate."
     },
     {
-      "title": "Aily-DSH/dsh-superagent-manager",
-      "url": "https://github.com/Aily-DSH/dsh-superagent-manager",
-      "change": "0.3.6 tip c3987f3fccf4 at 2026-11-05T04:36:06Z. Amber notice when the instance profile bundle list lags the host anchor. A longer list does not warn."
+      "title": "mycguo/tebra-superagent",
+      "url": "https://github.com/mycguo/tebra-superagent",
+      "change": "f80583665551 startup skips repository read/push probes. Saving a Source still checks."
     },
     {
-      "title": "wangqiongkaka/dsh-superagent",
-      "url": "https://github.com/wangqiongkaka/dsh-superagent",
-      "change": "8 ahead, tip e5d3c47b5cd1 at 2026-11-05T04:29:47Z. analysis_requested can admit a read-only review. Inferred mandate is no longer a single-module small change. Table header relabel only on the tip commit."
-    },
-    {
-      "title": "crazykeybd/nuclear-dev-kit",
-      "url": "https://github.com/crazykeybd/nuclear-dev-kit",
-      "change": "Tip 9c842e21da94 at 2026-11-05T04:19:32Z. deploy_superagent.py dry-run unless --yes; skills install to $DSH_HOME/skills. VENDOR.md still describes per-ticket install."
+      "title": "MingoYung/dsh-superagent-power",
+      "url": "https://github.com/MingoYung/dsh-superagent-power",
+      "change": "0.1.1 be943419a78c engines include 0.2.2-rc.1. No new end-to-end note."
     },
     {
       "title": "AIR-DUSTER1/dsh-superagent-review",
       "url": "https://github.com/AIR-DUSTER1/dsh-superagent-review",
-      "change": "Tip 71b8d4ae3b72 at 2026-11-05T04:17:57Z. Retry only ELOCKED for 31s. apply() does not await runtime.ready, so the panel registers before account probes."
+      "change": "71b8d4ae3b72 retries ELOCKED until the 30s stale window. Panel routes register before account probes."
     },
     {
       "title": "RechargedIdeas/organism",
       "url": "https://github.com/RechargedIdeas/organism",
-      "change": "Tip 89456dd90a44 at 2026-11-05T04:34:19Z. ProcessExecutor jail plus organism work drive. Network allowlist is not enforced. A second Decision on an open Thread is held."
+      "change": "Human follow-ups join the next run. Stop signals the process group. Tip a2069c57f123."
+    },
+    {
+      "title": "Shuai-S/dsh-superagent-sources",
+      "url": "https://github.com/Shuai-S/dsh-superagent-sources",
+      "change": "Tip 50b4080970ce is a README wording change. Wiring remains 5642c880865e."
     }
   ],
   "pending": [
@@ -659,7 +645,7 @@
       "title": "gerdr-dev/gerdr-panel-superagent",
       "url": "https://github.com/gerdr-dev/gerdr-panel-superagent",
       "confidence": 0.74,
-      "reason": "In-window tip b49c221d6fa7 at 2026-11-05T00:17:03Z tells each worker its task through the tools' MCP instructions. 7a654a16a843 at 00:11:15Z starts other agents through tasks.add. README still dispatches Claude Code or Codex, and the proactive setting defaults to recording what it would have done. Not Trigger, Mandate, or Ticket on DSH. Not listed."
+      "reason": "In-window tip 842e672b7a26 at 2026-11-05T05:26:04Z is a teammate card and activity feed. b972047ed984 at 04:58Z is multi-select ask_human. README still dispatches Claude Code or Codex. Not Trigger, Mandate, or Ticket on DSH. Not listed."
     },
     {
       "title": "KKKKhazix/agent-autoloop",
@@ -712,9 +698,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "in-window noise",
+      "title": "already on 0ec5ffd or out of scope",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at moved; it is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. dsh-agent-lines remains 0.3.5. Newest harness discussion is #12236 (2026-11-05T04:30:54Z). #12231 is an account-profile blank after restart, #12232 is a 0.2.2-rc.1 assemble/tools failure, #12233 is a pydantic incomplete_details literal, #12234 is a macOS chat-scroll header shift, #12235 is a zero-comment request to choose models for compaction and auto-review, #12236 is a desktop uninstall falling back to the public npm registry. None are the prototype. #12230 is before the window. Sandboxes, playgrounds, demos, and ticket workspaces stay out: BlueBorey/superagent-sandbox, yysdashe/dsh-playground, keatonstarke/dsh-superagent-playground, Lewis-Lian/superagent-playground, qunjin42-bot/dsh-superagent-playground, Frankcnsa/dsh-superagent-poc, beiluo/dsh-superagent-demo, shujiancao/dsh-superagent (still the Vue app), newtamato/work_with_superagent, MaxEvansLiuer/superagent_autoloop, machinetus/superagent-test, DEYIF/superagent-playground. Juejin 7704412345254379563 (2026-11-05T04:32:58Z) stages an unsolicited overnight fix as the running system and stays pending. Cap remains 5; this run added 3 and updated 6."
+      "reason": "0ec5ffd already added Algovate, siyu1231, and Shuai-S/dsh-superagent-sources, and already updated wangqiongkaka, nuclear, and Aily 0.3.6. Prototype tip remains 8c32a9d. npm latest 0.2.1-rc.5, next 0.2.2-rc.1, alpha 0.2.2-alpha.3. @vicfei/dsh-super-agent 1.1.0. dsh-agent-lines 0.3.5. Newest harness discussion is #12244. #12231-#12244 do not mention superagent. Shuai-S mail, qq, wechat, wecom, relay, and console commits are README wording only. Sandboxes, empty repos, and hx2060/superagents stay out. yinhaox studio commits were not read line by line. gerdr-panel-superagent tip 842e672b7a26 is still not Trigger, Mandate, or Ticket. Cap remains 5; this run added 1 and updated 6."
     }
   ],
   "held_on_other_branches": [
@@ -748,5 +734,5 @@
     "Yiminnn/agent-ops main is 5ca65fdc08d8 at 2026-11-05T01:41:40Z. DELIVER lines, Slack reads, quiet drift, and the stale-skill notice are on the default branch and listed. Do not list yimin/retro-1104 separately."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. dsh-agent-lines is 0.3.5. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 3 and updated 6. Direct commit to main, no PR. Window 2026-11-05T03:38:22Z to 2026-11-05T04:48:10Z. Based on origin/main ed98795."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. dsh-agent-lines is 0.3.5. dsh-superagent-sources is 0.1.0. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 1 and updated 6. Direct commit to main, no PR. Window continues after 0ec5ffd through 2026-11-05T05:45:00Z. Based on origin/main 0ec5ffd."
 }
