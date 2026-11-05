@@ -1,30 +1,49 @@
 {
-  "last_run_at": "2026-11-05T00:35:00Z",
+  "last_run_at": "2026-11-05T01:40:00Z",
   "timezone": "UTC",
-  "baseline_commit": "d89624c",
+  "baseline_commit": "9c325b7",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-04T23:45:00Z",
-    "to": "2026-11-05T00:35:00Z"
+    "from": "2026-11-05T00:35:00Z",
+    "to": "2026-11-05T01:40:00Z"
   },
-  "added": [],
-  "updated": [
+  "added": [
     {
-      "title": "RechargedIdeas/organism",
-      "url": "https://github.com/RechargedIdeas/organism",
-      "change": "Tip 7613bb26de85 at 2026-11-05T00:17:01Z. may_accept_inferred now needs an enabled graduated rule (rule.auto, default false), so an ungraduated rule stays in observe even in auto. A matched rule that is not accepted is recorded as would_accept on Outcome.IGNORE. Graduation needs 20 labeled would-accepts on this policy version, agreement at least 0.9, a compilable pattern of at most 200 characters, and an instruction. graduate() returns a new Policy and does not write the stored one. Eval ignores a Trigger, including an explicit one, once it is more than 3600 seconds old (deadline_passed). An assessor exception leaves the Trigger for the next run. b5499572e115 at 2026-11-04T23:59:24Z adds a read-only GitHub source: gh api with argv only, one repo's notifications, then issue comments and PR review comments. The agent's own login is not a Trigger. @login is a mention. A failed item holds the cursor in front of it. No GitHub writes, no Feishu, no DSH Session."
-    },
+      "title": "NavigatorXia/way2sa",
+      "url": "https://github.com/NavigatorXia/way2sa",
+      "type": "解读",
+      "summary": "Eight-lesson static course over docs 001-008. Submodule pinned to 6337fc8; README says 8c32a9d is the same tree. L02 says explicit requests work in every mode and off only blocks inferred. No LICENSE. Tip 9f450ea8f5 at 2026-11-05T00:54:12Z.",
+      "confidence": 0.86
+    }
+  ],
+  "updated": [
     {
       "title": "MYCF711/dsh-session-superagent",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "change": "0.9.211 tip cfa3fe286678 at 2026-11-05T00:21:26Z. 0.9.207 (c98778a3cc8d, 23:35Z) caps HTTP watcher creates at 20 per session and 200 global (429), rejects sessionId over 200, requires a 32-hex Gitee token, and throttles forced npm update checks to 60 seconds. 0.9.208 (1e452a0161b4, 23:55Z) keeps deferReason exactly quota; the old quota09:30Z string made the panel filter empty. 0.9.209 (b4b0fe93d711, 00:00Z) advances the watermark and ETag only after a successful wake; a failed wake stays in history and is retried, and a busy session does not back off. 0.9.210 (a88b808df9e6, 00:08Z) uses batch limit 5 as the fallback and skips the GBK test without ICU. 0.9.211 marks eight knowledge-base items done and forbids ordinal preflight citations. Inference remains Gitee-only."
+      "change": "0.9.218 tip 46ae16f2da67 at 2026-11-05T01:27:33Z. 0.9.212 treats Gitee issue_state resolved as closed and tells the panel to wait instead of dropping a click. 0.9.213 reloads after a partial batch failure. 0.9.214 reads wake placeholders from defaults. 0.9.215 extracts interval and offline checks. 0.9.216 fixes the 0.9.203 save map, the undefined defer filter, silent gh-dir unbind, and the missing suggestion button. 0.9.217 pauses only the filtered screen. 0.9.218 only fixes the author's audit scripts. Inference remains Gitee-only."
+    },
+    {
+      "title": "RechargedIdeas/organism",
+      "url": "https://github.com/RechargedIdeas/organism",
+      "change": "Tip 30e733412aa8 at 2026-11-05T00:43:16Z. Reply channel queues per ticket; marker skips a resend; only HTTP 410 is gone; handlers are empty while external writes are off. operator.py can status, list, pause, resume, stop, retry, and evaluate. route sends a human message to the one open ticket that owns the thread. Hand-back, release, and PR following are not built. A Policy takes effect only when a TrustStore approver signed that version; notices do not cancel tickets."
+    },
+    {
+      "title": "Lencen/dsh-agent-lines",
+      "url": "https://github.com/Lencen/dsh-agent-lines",
+      "change": "0.3.4 tip 32a035a85223 at 2026-11-05T01:13:07Z, npm 2026-11-05T01:14:27.867Z. Removes the sentence that one-off subtasks should use subagent / Agent Teams. install.sh defaults to dsh-agent-lines@0.3.4. No runtime change. Schema remains v6."
     }
   ],
   "pending": [
+    {
+      "title": "dpsm/agent-harness-anatomy dsh-superagent teardown",
+      "url": "https://github.com/dpsm/agent-harness-anatomy/blob/main/dsh-superagent/article.md",
+      "confidence": 0.76,
+      "reason": "Article merged 2026-11-05T00:56:19Z through 01:27:38Z (tip 95c2d751e5). Read-only teardown pinned to 6337fc8, Apache-2.0, footnotes to permalinks. The observe sentence is scoped to an inferred accept: outside auto it becomes would_accept and does not create a Ticket. It does not restate that an explicit request still runs in observe. It does not mention the later 8c32a9d republish. Overlaps the listed HY anatomy (also locked to 6337fc8). Not listed."
+    },
     {
       "title": "superbaby/dsh-superagent-prototype",
       "url": "https://github.com/superbaby/dsh-superagent-prototype",
@@ -197,7 +216,7 @@
       "title": "sisyphuslabs/dori-superagent",
       "url": "https://github.com/sisyphuslabs/dori-superagent",
       "confidence": 0.5,
-      "reason": "Default branch tip 06c4600b77f6 at 2026-11-03T09:54:25Z (repo pushed_at 2026-11-03T09:59:32Z) feeds repo lessons into launch briefs. Still herdr + omo, not a DSH port. Not promoted."
+      "reason": "In-window tip d82d153568da at 2026-11-05T00:35:53Z adds Telegram edited messages, voice, and media identification. Still herdr + omo, not a DSH port. Not promoted."
     },
     {
       "title": "ldc861117/sugent",
@@ -605,7 +624,7 @@
       "title": "KKKKhazix/agent-autoloop",
       "url": "https://github.com/KKKKhazix/agent-autoloop",
       "confidence": 0.7,
-      "reason": "Tip ee74f430b1fb at 2026-11-05T00:25:04Z is CI: mutation checks must all be caught, and a daily kill, mutation, and latest-Node run. adb7145794ff rebuilds a projection only when the files that decide stored content change. b18288bda25a hides expired card content. Still not a DSH bundle and not the prototype Ticket model. Not listed."
+      "reason": "Main tip 1e04f73df61e at 2026-11-05T00:37:13Z makes install and update follow the latest Release instead of main. Repo pushed_at 2026-11-05T01:29:11Z did not move that tip. Still not a DSH bundle and not the prototype Ticket model. Not listed."
     },
     {
       "title": "disemay12/superagent",
@@ -660,7 +679,7 @@
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at 2026-11-05T00:29:28Z is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is #12214 (2026-11-05T00:18:05Z). #12209-#12214 do not mention superagent. #12191 was edited at 23:47:44Z and does not mention superagent. PHLens dev is still e352e52633b5; pushed_at 00:06:43Z is a PullRequestEvent. Yiminnn main is still d832ad9f27c7; yimin/retro-1104 ea52c316995d at 00:22:29Z is not the default branch. t3code 4b87a45770d2 is mobile Effect rules, not the superagent control plane. New forks Suedama86, Vetlo, and delgatv still point at the upstream tip. babymc163/DSH is a README-only registration repo. SkillfulAgents/SuperAgent commits are meeting-roster app state. New dsh-voice-analyze, dsh-assistant-legal, dsh-workspace-tints, and tespio/dsh-performance are not the prototype. Cap remains 5; this run added 0 and updated 2."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at 2026-11-05T01:28:06Z is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is #12216 (2026-11-05T01:28:13Z). #12215 is an open-in-app catalog request. #12216 asks for native undo and message edit on 0.2.2-rc.1. Neither mentions superagent. #12210 comments at 00:49Z and 01:05Z are a cordis/Node upgrade correction, not superagent. Sandboxes BlueBorey, dzxiatian-crypto, and VBK playground moved and stay out. zhangzihaoDT bf4bd637df80 at 00:50:27Z only retargets example paths after a workspace/ move and does not change the listed sentence. Yiminnn main is still d832ad9f27c7; yimin/retro-1104 ba39dcb4810b at 01:19:25Z is not the default branch. dori d82d153568da at 00:35:53Z is Telegram inbound on herdr/omo. agent-autoloop main is 1e04f73df61e at 00:37:13Z (install follows the latest Release). Cap remains 5; this run added 1 and updated 3."
     }
   ],
   "held_on_other_branches": [
@@ -689,8 +708,9 @@
     "yizhiqianbi/dsh-superagent-prototype main is still 8c32a9d. pushed_at 2026-11-04T07:11:30Z is not the default branch. Do not list cursor branches.",
     "docsor1212/dsh-superagent-prototype main is still 8c32a9d. fix/status-ucomm-node-mainthread is 8f3f2a0b7f82 and fix/locale-stable-test-assertions is a2031da4e1c5. Do not list the branches. The finding is cited from discussion #12145 inside the #11700 sentence.",
     "Yiminnn/agent-ops main is still d832ad9f27c7 (2026-11-04T05:41:33Z). yimin/retro-1104 is ea52c316995d at 2026-11-05T00:22:29Z (DELIVER lines, Slack reads). Do not list the branch.",
-    "PHLens default dev is still e352e52633b5 (2026-11-04T21:03:42Z). pushed_at 2026-11-05T00:06:43Z is a PullRequestEvent, not a new default-branch commit. Do not list other branches."
+    "PHLens default dev is still e352e52633b5 (2026-11-04T21:03:42Z). pushed_at 2026-11-05T00:06:43Z is a PullRequestEvent, not a new default-branch commit. Do not list other branches.",
+    "Yiminnn/agent-ops main is still d832ad9f27c7 (2026-11-04T05:41:33Z). yimin/retro-1104 is ba39dcb4810b at 2026-11-05T01:19:25Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-04T23:45:00Z to 2026-11-05T00:35:00Z. Based on origin/main d89624c."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. dsh-agent-lines is 0.3.4 (published 2026-11-05T01:14:27.867Z). Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 1 and updated 3. Direct commit to main, no PR. Window 2026-11-05T00:35:00Z to 2026-11-05T01:40:00Z. Based on origin/main 9c325b7."
 }
