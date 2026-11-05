@@ -1,37 +1,42 @@
 {
-  "last_run_at": "2026-11-05T10:34:10Z",
+  "last_run_at": "2026-11-05T11:45:00Z",
   "timezone": "UTC",
-  "baseline_commit": "dc673d1",
+  "baseline_commit": "2b23fa6",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-05T09:42:36Z",
-    "to": "2026-11-05T10:34:10Z"
+    "from": "2026-11-05T10:34:10Z",
+    "to": "2026-11-05T11:45:00Z"
   },
   "added": [],
   "updated": [
     {
       "title": "MYCF711/dsh-session-superagent",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "change": "0.9.262 d81b75e17b53 at 09:49Z, npm 09:53Z. schemaVersion 1, bak fallback, wake sections. SETUP.md install script. 0.9.263 tip 99acd39b42bd at 10:07Z, npm 10:16Z. /trace returns traces and the judgment page inlines the timeline. Author recorded 442/442 then 445/445."
+      "change": "0.9.264 d912985cb6f3 at 10:49Z, npm 10:56Z. Panel only: official 16x16 icons, dt-timeline, section settings links, update and copy errors. 0.9.265 tip a2abf054952b at 11:30Z, not on npm. Confirm is one Modal. Decision log uses DecisionLine. Author recorded 448/448 then 459/459. Wake text unchanged."
     },
     {
       "title": "ForkbombEu/superagent",
       "url": "https://github.com/ForkbombEu/superagent",
-      "change": "Tip ab27365b59f1 at 10:15:40Z. SUPERAGENT_REVIEWER_MODEL and SUPERAGENT_REVIEWER_EFFORT configure the Claude Code reviewer. Unknown effort exits 1. Still not a code gate on the worker merge."
+      "change": "Tip 4d0a6b5139a5 at 10:49:09Z. Workers run claude-review through bash because WORK_TOOLS hides subagent_claude_code and DSH strips token env. Credential, model, and effort go to a 0600 tmpfs file. Exit 0/1/2/3. Managed settings stay read-only. Still not an orchestrator merge gate. Claude Code 2.1.318."
     },
     {
-      "title": "wangqiongkaka/dsh-superagent",
-      "url": "https://github.com/wangqiongkaka/dsh-superagent",
-      "change": "17 ahead of 8c32a9d. Tip f3b81e4faa80 at 10:05:35Z. Ignored-file cleanup needs a sha256 token. Docker mounts block deletion. Ended tickets refuse the old session at pre-step. Sidebar opens the execution page for worker- sessions. cleanedAt is stored and cleared on the next successful prepare."
+      "title": "Shuai-S/dsh-superagent-sources",
+      "url": "https://github.com/Shuai-S/dsh-superagent-sources",
+      "change": "Tip ad0b6814b57d at 11:03:14Z. Each entry disables itself with !!js when its package name is a substring of profileContext JSON. Author says dsh 0.2.1-rc.4 sources-only, coexistence, and removal boots had no duplicate-kind errors. Not re-run here. package.json is 0.1.1. npm is still 0.1.0."
+    },
+    {
+      "title": "OCCAgent/dsh-superagent-prototype",
+      "url": "https://github.com/OCCAgent/dsh-superagent-prototype",
+      "change": "47 ahead of 6337fc8. Tip a51c13cebc80 at 11:29:58Z. #21 merged 90fb8bac5ce4 at 10:39:47Z. Code 3de4e25262eb sends one notice when an explicit human request ends unavailable with reason timeout. Policy requeue and assessor-chosen unavailable send none. Later commits are learning-site docs."
     },
     {
       "title": "waixv-superagent/dsh-superagent-prototype",
       "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "change": "Tip 4d3889ab2b34 at 10:09:57Z merges 497492e7137e. Back from a deep-linked Ticket or Thread goes to the parent menu, and the browser history stays inside the panel."
+      "change": "Tip e3e771dea0b7 at 10:29:49Z merges bfbeeba9ef37. The 10:34 sentence still named 4d3889ab. orchestrator_plan accepts one unified diff and diff_base. Panel renders hunks. Feishu card keeps a summary. Limits 200000 chars, 6000 lines, 100 files, 400 hunks."
     }
   ],
   "pending": [
@@ -681,7 +686,7 @@
       "title": "gerdr-dev/gerdr-panel-superagent",
       "url": "https://github.com/gerdr-dev/gerdr-panel-superagent",
       "confidence": 0.74,
-      "reason": "In-window tip ebd7efec05dd at 2026-11-05T08:20:43Z. Board tasks use the board's commands; a person can tell the router to rearrange a card. README still dispatches Claude Code or Codex. Not Trigger, Mandate, or Ticket on DSH. Not listed."
+      "reason": "In-window tip f08a22995b75 at 2026-11-05T11:24:44Z opens a member chat as a second drawer over the requirement. README still dispatches Claude Code or Codex. Not Trigger, Mandate, or Ticket on DSH. Not listed."
     },
     {
       "title": "KKKKhazix/agent-autoloop",
@@ -759,13 +764,13 @@
       "title": "beiluo/dsh-superagent-demo",
       "url": "https://github.com/beiluo/dsh-superagent-demo",
       "confidence": 0.2,
-      "reason": "Pushed 2026-11-05T10:19:47Z. README is an A-share ontology site. Not Trigger, Mandate, or Ticket. Not listed."
+      "reason": "Tip eac4e0a177cb at 2026-11-05T10:40:49Z merges another A-share ontology page. Not Trigger, Mandate, or Ticket. Not listed."
     },
     {
       "title": "empty homes still empty",
       "url": "https://github.com/laomin88/dsh-superagent-repo",
       "confidence": 0.3,
-      "reason": "At this run, Stone-face/dsh-superagent-source, laomin88/dsh-superagent-repo, xiaomiren/dsh-superagent-demo, vuxjqk/dsh-superagent-config, and zheyuan671/dsh-superagent-demo are still size 0 with a short README. zhengzhoucaijingxueyuan/superagent-playground and testno9529-beep/test-dsh-superagent are playgrounds. Not listed."
+      "reason": "At this run, zheyuan671/dsh-superagent-demo tip 9ba2f56c3999 at 11:18:15Z only appends a README line (size 2). thomasyang1984/DSH-complymatrix-superagent is size 0. The earlier empty homes were not re-opened. Not listed."
     },
     {
       "title": "Harness discussions #12283-#12289",
@@ -778,13 +783,49 @@
       "url": "https://github.com/lanshi17/dsh-booth",
       "confidence": 0.7,
       "reason": "pushed_at 2026-11-05T09:43:41Z deleted agent/readme-design-notes-note-7f960c735387. Default master is still 33126f3479ca at 03:35Z. Sentence left unchanged."
+    },
+    {
+      "title": "andrewngg/dsh-superagent-battlestar",
+      "url": "https://github.com/andrewngg/dsh-superagent-battlestar",
+      "confidence": 0.55,
+      "reason": "Created 2026-11-05T10:50:53Z. Tip cf20de7c9c98 at 11:31:57Z adds per-provider token test buttons. MIT. The DSH plugin is private @local/dsh-super-butler 0.1.0: it starts a local hub and a sidebar console for devices, ComfyUI, CLI, and a phone. README says the prototype is a concept reference. Not Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "thomasyang1984/DSH-complymatrix-superagent empty",
+      "url": "https://github.com/thomasyang1984/DSH-complymatrix-superagent",
+      "confidence": 0.2,
+      "reason": "Created 2026-11-05T11:23:45Z. Size 0, no default branch commit. Description says it is for complymatrix development. Not listed."
+    },
+    {
+      "title": "yinhaox template i18n CI",
+      "url": "https://github.com/yinhaox/dsh-game-studio/commit/1a156cc518a7",
+      "confidence": 0.7,
+      "reason": "Commit 1a156cc518a7 at 2026-11-05T11:00:56Z adds template/scripts/i18n-check.py and runs it in the Godot template CI. It does not change the superagent patches. The listed sentence was not rewritten."
+    },
+    {
+      "title": "XB-Dong/dsh-amazonops-superagent P1 docs",
+      "url": "https://github.com/XB-Dong/dsh-amazonops-superagent",
+      "confidence": 0.68,
+      "reason": "Tip 3c22879a992e at 2026-11-05T10:54:06Z only marks the P1 spec and migration note as historical. README claims a Chinese operations workbench on the official runtime, with would_accept for one stock rule. The ticket code was not read this hour. Not listed."
+    },
+    {
+      "title": "RechargedIdeas/organism O6 blocked",
+      "url": "https://github.com/RechargedIdeas/organism/commit/35ab6f947acc",
+      "confidence": 0.7,
+      "reason": "Tip 35ab6f947acc at 2026-11-05T11:15:05Z only edits docs/GAP_ANALYSIS.md. O6 is blocked on D5: configuring the trust store makes build_minimal_stack raise RegistrationRejected because registrations still use placeholder signatures. The default stays unchecked. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions #12290-#12298",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12298",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-05T10:39:19Z through 11:26:21Z. Bodies do not mention superagent. Not upstream prototype defects. Newest discussion is #12298."
     }
   ],
   "rejected_this_run": [
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. dsh-session-superagent is 0.9.263. Newest harness discussion is #12289. #12283 through #12289 do not mention superagent. larksuite/cli and pingdotgg/t3code pushed_at moved; neither commit changes the listed superagent sentence. OCCAgent default main is still 9420085cd348. Cap remains 5; this run added 0 and updated 4."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. dsh-session-superagent npm is 0.9.264; git tip is 0.9.265 and is not published. Newest harness discussion is #12298. #12290 through #12298 do not mention superagent. byshb/agent-playground and bombless/dsh-superagent-workspace pushed_at moved; their default-branch tips are before this window. pingdotgg/t3code pushed_at moved; the default-branch tip is still 337c5858c33b at 08:49Z. wangqiongkaka tip remains f3b81e4faa80. Cap remains 5; this run added 0 and updated 5."
     }
   ],
   "held_on_other_branches": [
@@ -816,8 +857,8 @@
     "PHLens default dev is still e352e52633b5 (2026-11-04T21:03:42Z). pushed_at 2026-11-05T00:06:43Z is a PullRequestEvent, not a new default-branch commit. Do not list other branches.",
     "Yiminnn/agent-ops main is still d832ad9f27c7 (2026-11-04T05:41:33Z). yimin/retro-1104 is ba39dcb4810b at 2026-11-05T01:19:25Z. Do not list the branch.",
     "Yiminnn/agent-ops main is 5ca65fdc08d8 at 2026-11-05T01:41:40Z. DELIVER lines, Slack reads, quiet drift, and the stale-skill notice are on the default branch and listed. Do not list yimin/retro-1104 separately.",
-    "OCCAgent/dsh-superagent-prototype main is still 9420085cd348 (2026-11-05T01:54:06Z). pushed_at 2026-11-05T10:18:07Z is agent/iterate-from-diagnosis-58b74a1fc314 at 3de4e25262eb (10:18:01Z). Do not list the branch."
+    "OCCAgent iterate-from-diagnosis merged to default main as #21 at 2026-11-05T10:39:47Z (90fb8bac5ce4, code 3de4e25262eb). The timeout receipt is in the listed sentence. Do not list the branch separately."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. dsh-session-superagent is 0.9.263 (npm 2026-11-05T10:16:00.135Z). dsh-agent-lines remains 0.3.5. dsh-superagent-sources is 0.1.0. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 4. Direct commit to main, no PR. Window 2026-11-05T09:42:36Z to 2026-11-05T10:34:10Z. Based on origin/main dc673d1."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. dsh-session-superagent npm is 0.9.264 (2026-11-05T10:56:12.651Z); git tip 0.9.265 is not on npm. dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 5. Direct commit to main, no PR. Window 2026-11-05T10:34:10Z to 2026-11-05T11:45:00Z. Based on origin/main 2b23fa6."
 }
