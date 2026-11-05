@@ -21,6 +21,12 @@
   ],
   "pending": [
     {
+      "title": "grunvald91/My_ai_assistent external PR monitor",
+      "url": "https://github.com/grunvald91/My_ai_assistent/commit/4fc15239779a",
+      "confidence": 0.72,
+      "reason": "In-window default-branch commits e50044d6e32d at 2026-11-05T21:45:49Z, 912796e9b785 at 21:46:53Z, and 4fc15239779a at 22:00:38Z add a five-minute VPS poll for external PRs on one personal deployment. docs/superagent-multi-repo.md says the stock Source does not subscribe to PRs outside grunvald91/Ai_growth_os, so scripts/superagent-external-pr-monitor.mjs writes a superagent-prwatch:v1 Issue comment when the snapshot changes and does not merge or deploy. Package my_ai_assistent is private, there is no LICENSE, and the README is a personal Telegram bot. Default tip 597d8ee16b20 at 22:21:17Z is Telegram HTMLBubbles, not the prototype. Not listed."
+    },
+    {
       "title": "Harness discussions #12349-#12350",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12350",
       "confidence": 0.8,
@@ -1213,7 +1219,7 @@
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.272. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12350. arXiv returned no dsh-superagent hits. HN has no new story. Juejin search returned no posts. Legeo969/superagent-playground, codefufuai cards, plantilla, helio, SkillfulAgents, and dori were not listed. Cap remains 5; this run added 0 and updated 1."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.272. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12350. arXiv returned no dsh-superagent hits. HN has no new story. Juejin search returned no posts. Legeo969/superagent-playground, codefufuai cards, plantilla, helio, SkillfulAgents, and dori were not listed. Cap remains 5; this run added 0 and updated 1. grunvald91/My_ai_assistent stayed pending."
     }
   ],
   "held_on_other_branches": [
@@ -1259,5 +1265,5 @@
     "sisyphuslabs/dori-superagent main is still f27d8c21ed54 (2026-11-05T07:52:32Z). pushed_at 2026-11-05T22:22:53Z is issues, a fork, and a watch. Do not list other branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.272 (2026-11-05T17:37:36.354Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 1. Direct commit to main, no PR. Window 2026-11-05T21:41:59Z to 2026-11-05T22:36:44Z. Based on origin/main 54506cb."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.272 (2026-11-05T17:37:36.354Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 1. Direct commit to main, no PR. Window 2026-11-05T21:41:59Z to 2026-11-05T22:36:44Z. Based on origin/main 54506cb. grunvald91/My_ai_assistent external-PR monitor stayed pending (personal private bot, no LICENSE)."
 }
