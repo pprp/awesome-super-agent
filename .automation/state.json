@@ -1,30 +1,60 @@
 {
-  "last_run_at": "2026-11-05T17:36:00Z",
+  "last_run_at": "2026-11-05T18:35:08Z",
   "timezone": "UTC",
-  "baseline_commit": "171c109",
+  "baseline_commit": "9c30e22",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-05T16:33:12Z",
-    "to": "2026-11-05T17:36:00Z"
+    "from": "2026-11-05T17:36:00Z",
+    "to": "2026-11-05T18:35:08Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "tyler-jewell/dsh-plugins",
+      "url": "https://github.com/tyler-jewell/dsh-plugins",
+      "change": "New 短文 row. Stock setup note created 17:35Z, tip a402bf53fc4b at 17:47Z. Pins dsh 0.2.1-rc.3 and prototype 8c32a9d. Observe sentence keeps the explicit-mention exception. Second from-default-profile is described as replacing the profile. 1Password stays off the superagent profile."
+    }
+  ],
   "updated": [
     {
       "title": "MYCF711/dsh-session-superagent",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "change": "0.9.271 9a839b3a45ae at 16:51Z, tip 6ede3eaacb29 at 17:16Z is tests only, npm 17:05Z. Version page can POST /session-superagent/update after a confirm. Body is an optional strict semver. guardWrite then a fixed plugin-add argv, shell false. installedVersion, runningVersion, and needsReload stay separate. Exit 0 does not switch the running code and does not restart. Author recorded Chromium 156 39/39 and npm test 570/570. Real DSH WebView slot, screen reader, touch, and watcher requests still not walked. Wake text unchanged."
+      "change": "0.9.272 16ec0260e61e at 17:31Z, npm 17:37Z. The in-panel updater now also resolves app.asar/dsh/node_modules/@deepseek-ai/dsh/lib/bin.js. 0.9.271 returned cli_not_found on a real Electron install. Author ran bin.js --help and did not run plugin add. Tests 20/20 and 571/571."
     },
     {
-      "title": "waixv-superagent/dsh-superagent-prototype",
-      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "change": "Tip 4cb8827d3f57 at 16:37Z. 16:20Z merge f6d9f8db70c4 adds a fixed retro interview section and docs/025-reproducible-verification.md. Those two commits were inside the previous stamp and were not in the listed sentence. 16:32Z merge fd512b4dc3bc turns the first P2/P3 idle launch into a read-only analysis by default. 16:37Z splits the board machine lane from the idle pool and adds POST tickets/:id/promote to human P1. docs/019 section 4 still marks analysis depth, stash lifecycle, and the morning digest as undone."
+      "title": "AirKyzzZ/hermes-superagent",
+      "url": "https://github.com/AirKyzzZ/hermes-superagent",
+      "change": "Default main tip 785d683a9f0e at 17:42Z. Worker identity is .superagent-identity.json mode 0600 under {home}/workers/{ticket}/{assignment}, read via session_cwd(), because Hermes 0.22.7 runs the turn's tools in the gateway process. README now says CI ran workers on real Hermes 0.22.7 with a fake model. Router chat is still a fake host. No live-model run. gate, claim window, and stop signals unchanged."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12333-#12340",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12340",
+      "confidence": 0.8,
+      "reason": "#12333 was created 2026-11-05T17:28:42Z, inside the previous clock window, and was not recorded then. It is a 0.2.2-rc.1 goal-status mismatch, not a prototype defect. #12334 through #12340 were created 17:36:04Z through 18:23:58Z: a desktop preset snapshot after upgrade, a context clamp that sends max_completion_tokens=1, a glob path bug, a skill showcase, an ESP32 iPhone plugin, a Windows sandbox integrity label, and a session-search index failure on an old subagent descriptor. Bodies do not mention superagent, Trigger, Mandate, Ticket, or 原型. Newest discussion is #12340. Not listed."
+    },
+    {
+      "title": "RechargedIdeas/organism D5 wiring",
+      "url": "https://github.com/RechargedIdeas/organism/commit/743893d4cdfa",
+      "confidence": 0.7,
+      "reason": "743893d4cdfa at 2026-11-05T18:14:27Z makes the desktop catalog, MoA reference experts, and the generative runtime read the trust store. Generative output under a trust store now returns None and records a refused evolution event, because the approver signing step is not built. 682f44b1d5b2 at 17:45Z narrows the email extractor. ecd7a87c92f7 at 18:21Z is a fake-clock test. The listed sentence already says an empty trust store approves nothing and a bad signature stores nothing. It was not rewritten."
+    },
+    {
+      "title": "in-window sandboxes and an off-road demo",
+      "url": "https://github.com/yangxiqwer/dsh-superagent-playground",
+      "confidence": 0.2,
+      "reason": "yangxiqwer/dsh-superagent-playground was created 2026-11-05T17:47:53Z with no description. bdjwdbd/dsh-superagent-playground was created 17:41:02Z and says it is an end-to-end verification playground. VBK-AI-Agent-Gateway/superagent-playground pushed 18:01:01Z and was already a trial repo. Ethandz2026/yanhe-superagent-lab pushed 18:10:49Z and says it is a trial field. No3214/Superagent was created 18:14:32Z and is empty. WucrDev/superagent tip e3867cfa4d8f at 18:00:41Z is a three.js off-road prototype, not Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "KKKKhazix/agent-autoloop number limits",
+      "url": "https://github.com/KKKKhazix/agent-autoloop/commit/9bddfa4c2bc1",
+      "confidence": 0.7,
+      "reason": "Tip 9bddfa4c2bc1 at 2026-11-05T17:37:46Z removes undocumented numeric limits from tests and docs. Still not a DSH bundle and not the prototype Ticket model. Not listed."
+    },
     {
       "title": "Harness discussions #12329-#12332",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12332",
@@ -62,10 +92,10 @@
       "reason": "Pushed 2026-11-05T16:40:55Z. Telegram business template for reservations and orders. Not a DSH bundle. Not listed."
     },
     {
-      "title": "SkillfulAgents/SuperAgent key manager",
+      "title": "SkillfulAgents/SuperAgent voice admission",
       "url": "https://github.com/SkillfulAgents/SuperAgent",
       "confidence": 0.2,
-      "reason": "Tip 8c4130e1303d at 2026-11-05T16:57:45Z merges a desktop key manager. Not Trigger, Mandate, or Ticket, and it does not run on DSH. Not listed."
+      "reason": "Tip fa264688408d at 2026-11-05T17:50:17Z merges voice-session admission and credential refresh. Not Trigger, Mandate, or Ticket, and it does not run on DSH. Not listed."
     },
     {
       "title": "Harness discussions #12324-#12328",
@@ -137,7 +167,7 @@
       "title": "prgrmrwy/ohmysa",
       "url": "https://github.com/prgrmrwy/ohmysa",
       "confidence": 0.76,
-      "reason": "Created 2026-11-05T15:06:46Z, tip 2e596d4974e7 at 15:20Z. systemd user launcher. Pins @deepseek-ai/dsh@0.2.1-rc.5 and prototype 8c32a9d, and sets DSH_HOME to ~/.ohmysa/dsh-home. The manifest also installs magpie, auto-model-routing, and dsh-cockpit-bridge, and sets the profile default preset to danger-full-access. No LICENSE. private 0.1.0. Not listed."
+      "reason": "In-window tip 48db3ce6cf70 at 2026-11-05T18:11:40Z documents a persistent systemd user unit: ohmysa install-service restarts on failure and starts at boot; without it, start stays a transient unit. ohmysa.yaml still pins @deepseek-ai/dsh@0.2.1-rc.5 and prototype 8c32a9d, sets DSH_HOME to ~/.ohmysa/dsh-home, installs magpie, auto-model-routing, and dsh-cockpit-bridge, and sets defaultPreset to danger-full-access. No LICENSE. private 0.1.0. Not listed."
     },
     {
       "title": "Harness discussions #12317-#12323",
@@ -746,10 +776,10 @@
       "reason": "Created 2026-11-03T13:58:33Z. Simplified Chinese docs 000-008, prompts, and both skills at 13:59:18Z. docs/002 keeps the explicit-request exception and records an inferred positive assessment in observe as would-accept. Overlaps the listed saltapp Chinese docs. Not a second docs row this hour."
     },
     {
-      "title": "mrtpk/dsh-superagent-prototype-explainer",
+      "title": "mrtpk explainer site commit",
       "url": "https://github.com/mrtpk/dsh-superagent-prototype-explainer",
-      "confidence": 0.66,
-      "reason": "Repo created 2026-11-03T13:50:19Z. Default tip bfa3f81aed committer date is 2026-11-03T06:25:41Z, before this window. Not read line by line. Leave it for a deep run."
+      "confidence": 0.72,
+      "reason": "Tip b3b7be55e56c at 2026-11-05T17:40:22Z commits the built site/ so a box can serve it. The policy page says only auto makes an inferred accept real and other modes record would_accept, and that a thread follow-up cannot weaken an explicit request. The rest of the site was not read line by line. Overlaps the existing 解读 entries. Not a second 解读 row this hour."
     },
     {
       "title": "haxejs/dsh-superagent-prototype",
@@ -1044,7 +1074,7 @@
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-05T17:27:12Z is not a commit). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.271. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12332. #12329-#12332 do not mention the prototype. AirKyzzZ main is still a0c9e07fec02. vHao11 default is still d189f20abbf0. arXiv returned no dsh-superagent hits. HN has no new story in the window. Cap remains 5; this run added 0 and updated 2."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-05T18:29:41Z is not a commit). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.272. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12340. #12333-#12340 do not mention the prototype. waixv main is still 4cb8827. vHao11 default is still d189f20abbf0. arXiv returned no dsh-superagent hits. HN has no new story in the window. Cap remains 5; this run added 1 and updated 2."
     }
   ],
   "held_on_other_branches": [
@@ -1080,8 +1110,11 @@
     "OCCAgent/dsh-superagent-prototype main is still a51c13cebc80 (2026-11-05T11:29:58Z). pushed_at 2026-11-05T12:24:29Z is not a new default-branch commit. Do not list agent/composite-e2e-run-962cf90238fc or the other side branches.",
     "AirKyzzZ/hermes-superagent main is a0c9e07fec02 (2026-11-05T16:06:43Z). The readme redesign and catalog note are on the default branch and the listed sentence names them. Do not add a second docs row.",
     "AirKyzzZ/hermes-superagent main is still a0c9e07fec02 (2026-11-05T16:06:43Z). pushed_at 2026-11-05T17:22:58Z is test/e2e-real-hermes (6d5ae6c4444e) and other side branches. Do not list them. The listed sentence already names the default tip.",
-    "vHao11/dsh-superagent default windows-adapt is still d189f20abbf0 (2026-11-05T13:20Z). Open PR #3 at 17:05Z targets feat/i-lane-integration-hotfixes, not the default branch. Do not list feat/s-lane-phase2."
+    "vHao11/dsh-superagent default windows-adapt is still d189f20abbf0 (2026-11-05T13:20Z). Open PR #3 at 17:05Z targets feat/i-lane-integration-hotfixes, not the default branch. Do not list feat/s-lane-phase2.",
+    "waixv-superagent/dsh-superagent-prototype main is still 4cb8827d3f57 (2026-11-05T16:37:17Z). pushed_at 2026-11-05T18:19:16Z is agent/clangd-ue-debugging-48a2aa0dd826 (ad16a4aabae4, docs only). Do not list the branch.",
+    "AirKyzzZ/hermes-superagent main is 785d683a9f0e (2026-11-05T17:42:29Z). The identity-file change is on the default branch and the listed sentence names it. pushed_at 2026-11-05T18:28:47Z is not a newer default-branch commit. Do not list test/e2e-real-hermes, test/e2e-router-path, or the other side branches.",
+    "vHao11/dsh-superagent default windows-adapt is still d189f20abbf0 (2026-11-05T13:20Z). Open PR #3 was last updated 2026-11-05T17:05:26Z, before this window, and still targets feat/i-lane-integration-hotfixes, not the default branch. Do not list feat/s-lane-phase2."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.271 (2026-11-05T17:05:01.094Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-05T16:33:12Z to 2026-11-05T17:36:00Z. Based on origin/main 171c109."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.272 (2026-11-05T17:37:36.354Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 1 and updated 2. Direct commit to main, no PR. Window 2026-11-05T17:36:00Z to 2026-11-05T18:35:08Z. Based on origin/main 9c30e22."
 }
