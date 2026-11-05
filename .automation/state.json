@@ -1,28 +1,27 @@
 {
-  "last_run_at": "2026-11-04T23:45:00Z",
+  "last_run_at": "2026-11-05T00:35:00Z",
   "timezone": "UTC",
-  "baseline_commit": "69a5e12",
+  "baseline_commit": "d89624c",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-04T22:50:00Z",
-    "to": "2026-11-04T23:45:00Z"
+    "from": "2026-11-04T23:45:00Z",
+    "to": "2026-11-05T00:35:00Z"
   },
-  "added": [
+  "added": [],
+  "updated": [
     {
       "title": "RechargedIdeas/organism",
       "url": "https://github.com/RechargedIdeas/organism",
-      "change": "Python work layer, not DSH. Tip 841436ce0a41 at 2026-11-04T23:03:43Z. Listed persons who address the agent are explicit in every mode. may_accept_inferred is true only in auto with an enabled matched rule. No would-accept record. SQLite WAL store, one OS lock, effects at-least-once."
-    }
-  ],
-  "updated": [
+      "change": "Tip 7613bb26de85 at 2026-11-05T00:17:01Z. may_accept_inferred now needs an enabled graduated rule (rule.auto, default false), so an ungraduated rule stays in observe even in auto. A matched rule that is not accepted is recorded as would_accept on Outcome.IGNORE. Graduation needs 20 labeled would-accepts on this policy version, agreement at least 0.9, a compilable pattern of at most 200 characters, and an instruction. graduate() returns a new Policy and does not write the stored one. Eval ignores a Trigger, including an explicit one, once it is more than 3600 seconds old (deadline_passed). An assessor exception leaves the Trigger for the next run. b5499572e115 at 2026-11-04T23:59:24Z adds a read-only GitHub source: gh api with argv only, one repo's notifications, then issue comments and PR review comments. The agent's own login is not a Trigger. @login is a mention. A failed item holds the cursor in front of it. No GitHub writes, no Feishu, no DSH Session."
+    },
     {
       "title": "MYCF711/dsh-session-superagent",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "change": "0.9.206 tip bf3014548cf4 at 2026-11-04T23:31:58Z is the dispatch table. 0.9.202 drops stale panel responses and shows write failures. 0.9.203 sends only touched fields. 0.9.204-0.9.205 make a skipped gate exit 3 and hold one preflight lock with a token. 0.9.206 refuses cross-origin writes, __proto__ watcher ids, bodies over 64KB, and . or .. repo segments. Inference remains Gitee-only."
+      "change": "0.9.211 tip cfa3fe286678 at 2026-11-05T00:21:26Z. 0.9.207 (c98778a3cc8d, 23:35Z) caps HTTP watcher creates at 20 per session and 200 global (429), rejects sessionId over 200, requires a 32-hex Gitee token, and throttles forced npm update checks to 60 seconds. 0.9.208 (1e452a0161b4, 23:55Z) keeps deferReason exactly quota; the old quota09:30Z string made the panel filter empty. 0.9.209 (b4b0fe93d711, 00:00Z) advances the watermark and ETag only after a successful wake; a failed wake stays in history and is retried, and a busy session does not back off. 0.9.210 (a88b808df9e6, 00:08Z) uses batch limit 5 as the fallback and skips the GBK test without ICU. 0.9.211 marks eight knowledge-base items done and forbids ordinal preflight citations. Inference remains Gitee-only."
     }
   ],
   "pending": [
@@ -600,13 +599,13 @@
       "title": "gerdr-dev/gerdr-panel-superagent",
       "url": "https://github.com/gerdr-dev/gerdr-panel-superagent",
       "confidence": 0.74,
-      "reason": "Tip 08c9af2f2973 at 2026-11-04T12:05:06Z is phone-column swipe chrome. Still a Gerdr panel that dispatches Claude Code or Codex. Not Trigger, Mandate, or Ticket on DSH. Leave the listing for a deep run."
+      "reason": "In-window tip b49c221d6fa7 at 2026-11-05T00:17:03Z tells each worker its task through the tools' MCP instructions. 7a654a16a843 at 00:11:15Z starts other agents through tasks.add. README still dispatches Claude Code or Codex, and the proactive setting defaults to recording what it would have done. Not Trigger, Mandate, or Ticket on DSH. Not listed."
     },
     {
       "title": "KKKKhazix/agent-autoloop",
       "url": "https://github.com/KKKKhazix/agent-autoloop",
-      "confidence": 0.72,
-      "reason": "Tip f5d1bb0f261c at 2026-11-04T23:29:29Z. Dismissed cards no longer repeat for the same outage, and a later new job still notifies. c0ceda50206e recognizes a system systemd unit. Still not a DSH bundle and not the prototype Ticket model. Not listed."
+      "confidence": 0.7,
+      "reason": "Tip ee74f430b1fb at 2026-11-05T00:25:04Z is CI: mutation checks must all be caught, and a daily kill, mutation, and latest-Node run. adb7145794ff rebuilds a projection only when the files that decide stored content change. b18288bda25a hides expired card content. Still not a DSH bundle and not the prototype Ticket model. Not listed."
     },
     {
       "title": "disemay12/superagent",
@@ -661,7 +660,7 @@
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at 2026-11-04T23:30:35Z is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is still #12208 (2026-11-04T22:38:06Z). No discussion updated after 22:50Z mentions superagent. awesome-dsh-plugin fa94055bbfac only rewrites the MingoYung description prerequisites; that repo did not move. KKKKhazix/agent-autoloop f5d1bb0f261c dedupes cards and is still not a DSH Ticket model. lomivu.com is dated 3 November 2026. Sandboxes stay out. Cap remains 5; this run added 1 and updated 1."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at 2026-11-05T00:29:28Z is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. Newest harness discussion is #12214 (2026-11-05T00:18:05Z). #12209-#12214 do not mention superagent. #12191 was edited at 23:47:44Z and does not mention superagent. PHLens dev is still e352e52633b5; pushed_at 00:06:43Z is a PullRequestEvent. Yiminnn main is still d832ad9f27c7; yimin/retro-1104 ea52c316995d at 00:22:29Z is not the default branch. t3code 4b87a45770d2 is mobile Effect rules, not the superagent control plane. New forks Suedama86, Vetlo, and delgatv still point at the upstream tip. babymc163/DSH is a README-only registration repo. SkillfulAgents/SuperAgent commits are meeting-roster app state. New dsh-voice-analyze, dsh-assistant-legal, dsh-workspace-tints, and tespio/dsh-performance are not the prototype. Cap remains 5; this run added 0 and updated 2."
     }
   ],
   "held_on_other_branches": [
@@ -688,8 +687,10 @@
     "jiaoqsh/dsh-superagent-prototype main is still 7da11e5f60. bench/fault-more is c0c524aa6ac0 at 2026-11-04T04:10Z. Do not list the branch.",
     "jiaoqsh bench/fault-more is now on default main e134241616c3 (2026-11-04T06:21:51Z). The fault notes are in the listed sentence. Do not list the branch separately.",
     "yizhiqianbi/dsh-superagent-prototype main is still 8c32a9d. pushed_at 2026-11-04T07:11:30Z is not the default branch. Do not list cursor branches.",
-    "docsor1212/dsh-superagent-prototype main is still 8c32a9d. fix/status-ucomm-node-mainthread is 8f3f2a0b7f82 and fix/locale-stable-test-assertions is a2031da4e1c5. Do not list the branches. The finding is cited from discussion #12145 inside the #11700 sentence."
+    "docsor1212/dsh-superagent-prototype main is still 8c32a9d. fix/status-ucomm-node-mainthread is 8f3f2a0b7f82 and fix/locale-stable-test-assertions is a2031da4e1c5. Do not list the branches. The finding is cited from discussion #12145 inside the #11700 sentence.",
+    "Yiminnn/agent-ops main is still d832ad9f27c7 (2026-11-04T05:41:33Z). yimin/retro-1104 is ea52c316995d at 2026-11-05T00:22:29Z (DELIVER lines, Slack reads). Do not list the branch.",
+    "PHLens default dev is still e352e52633b5 (2026-11-04T21:03:42Z). pushed_at 2026-11-05T00:06:43Z is a PullRequestEvent, not a new default-branch commit. Do not list other branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 1 and updated 1. Direct commit to main, no PR. Window 2026-11-04T22:50:00Z to 2026-11-04T23:45:00Z. Based on origin/main 69a5e12."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z, tree 3efbb036). Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-04T23:45:00Z to 2026-11-05T00:35:00Z. Based on origin/main d89624c."
 }
