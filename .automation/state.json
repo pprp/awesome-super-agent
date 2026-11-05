@@ -1,78 +1,69 @@
 {
-  "last_run_at": "2026-11-05T06:38:32Z",
+  "last_run_at": "2026-11-05T07:59:47Z",
   "timezone": "UTC",
-  "baseline_commit": "0196701",
+  "baseline_commit": "206aa77",
   "npm_dsh_latest_checked": "0.2.1-rc.5",
   "npm_dsh_latest_time": "2026-10-29T14:15:23.355Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-05T05:45:00Z",
-    "to": "2026-11-05T06:38:32Z"
+    "from": "2026-11-05T06:38:32Z",
+    "to": "2026-11-05T07:59:47Z"
   },
   "added": [
     {
-      "title": "vHao11/dsh-superagent",
-      "url": "https://github.com/vHao11/dsh-superagent",
+      "title": "leokyler/dsh-superagent-docker",
+      "url": "https://github.com/leokyler/dsh-superagent-docker",
       "type": "衍生",
-      "summary": "Default branch windows-adapt, created 2026-11-05T06:06:42Z, tip b0ca277c171b. Schedule source has no sender and is not an explicit request. Task types refuse unclassified work. Claude Code bridge file was not read line by line. Author still DeepSeek Harness Team. private 0.1.0.",
-      "confidence": 0.88
+      "summary": "Created 2026-11-05T02:38:17Z, missed by earlier hourly stamps, tip 48b8a93a44e1 at 07:40:02Z. Node 24 image, dsh 0.2.1-rc.3, shallow clone of prototype main, socat loopback proxy, MainThread status patch, self-heal on two non-0/2/3 statuses. README observe sentence covers proactive would-accept only. MIT.",
+      "confidence": 0.86
     }
   ],
   "updated": [
     {
       "title": "MYCF711/dsh-session-superagent",
       "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "change": "0.9.254 tip ce44d90d0d6d at 2026-11-05T06:26:17Z. allowAuthors now persists. HTTP cap matches the tool. Gitee alphanumeric trace. watch_ack note keeps 20."
-    },
-    {
-      "title": "vicfei/dsh-super-agent",
-      "url": "https://github.com/vicfei/dsh-super-agent",
-      "change": "Tip 01c953250b03. Timer source, init/doctor, example sandbox on. package.json and npm still 1.1.0."
-    },
-    {
-      "title": "waixv-superagent/dsh-superagent-prototype",
-      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "change": "Tip 42ced7f9c10d. One-click fork update with backup, health check, and rollback."
-    },
-    {
-      "title": "yinhaox/dsh-game-studio",
-      "url": "https://github.com/yinhaox/dsh-game-studio",
-      "change": "Tip 8706eacb63f4. Story audio, critic role, FFmpeg frames, binary video not scanned as text."
-    },
-    {
-      "title": "zhangzihaoDT/dsh-superagent-mashang-service",
-      "url": "https://github.com/zhangzihaoDT/dsh-superagent-mashang-service",
-      "change": "Tip 096356f7f85f. README lead is the Mashang boundary. business_job for data-refresh-daily."
+      "change": "0.9.258 tip 049c0ede161a at 2026-11-05T07:44:28Z. Pending wake retry, three quality metrics, activeHours on HTTP, watch_start resume note, create/edit filters, watch_status fields."
     },
     {
       "title": "samanhappy/dsh-superagent",
       "url": "https://github.com/samanhappy/dsh-superagent",
-      "change": "16 ahead of 6337fc8, tip 1c9f8cbcf0bb. Explicit-request images go to candidate cards and worker assignments."
+      "change": "17 ahead of 6337fc8, tip 4a66e058ccff. IM length check moved to Source channel check for Feishu, WeCom, and Weixin."
     },
     {
-      "title": "wuzhiping/superagent",
-      "url": "https://github.com/wuzhiping/superagent",
-      "change": "34 ahead, tip b5b758d4620e. Topic default follows the chosen project. INSTALL.md plugin add. README install block still the old npx git+ line."
-    },
-    {
-      "title": "wangqiongkaka/dsh-superagent",
-      "url": "https://github.com/wangqiongkaka/dsh-superagent",
-      "change": "9 ahead, tip 9aee56ccb5a0. Source settings group list collapsed by default."
-    },
-    {
-      "title": "crazykeybd/nuclear-dev-kit",
-      "url": "https://github.com/crazykeybd/nuclear-dev-kit",
-      "change": "Tip ebc2eb7ffc91. superagent/ copy became nuclear-dev-agent. VENDOR.md removed. Gates call nuclearctl.py."
+      "title": "feel-think/dsh-superagent-prototype",
+      "url": "https://github.com/feel-think/dsh-superagent-prototype",
+      "change": "19 ahead of 8c32a9d, tip 3ab041812fbe. Spool Feishu replies no longer call checkedImText. docs/009 still describes the old 100-word failure."
     },
     {
       "title": "siyu1231/dsh-superagent-prototype",
       "url": "https://github.com/siyu1231/dsh-superagent-prototype",
-      "change": "22 ahead of 8c32a9d, tip 362a8693b6c8. Tracked tickets in the right column."
+      "change": "30 ahead of 8c32a9d, tip 77194be3efe1. Ticket conversation tab reads the Session log."
+    },
+    {
+      "title": "waixv-superagent/dsh-superagent-prototype",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
+      "change": "Tip eb16346bb6ff. Web Source ticket from the panel, inline worker answers, Unreal editor lease on worker shells."
+    },
+    {
+      "title": "Shuai-S/dsh-superagent-console",
+      "url": "https://github.com/Shuai-S/dsh-superagent-console",
+      "change": "0.1.3 tip 1ff2f5025672. Plugin install dialog matches the official manager."
+    },
+    {
+      "title": "crazykeybd/nuclear-dev-kit",
+      "url": "https://github.com/crazykeybd/nuclear-dev-kit",
+      "change": "Tip 41ad59379d23. Deploy strips an empty cordis.patch.yml array and sets mcp-nuclear-dev disabled false."
     }
   ],
   "pending": [
+    {
+      "title": "Arremeza/dsh-superagent-railway",
+      "url": "https://github.com/Arremeza/dsh-superagent-railway",
+      "confidence": 0.74,
+      "reason": "Created 2026-11-05T07:09:25Z, tip 2e7fb1187a5c at 07:33:47Z. Node 22 image, @deepseek-ai/dsh@0.2.1-rc.3, vendors a local copy of dsh-superagent because the author says upstream may rewrite history. No root README and no repo LICENSE; vendor package is still private 0.1.0, author DeepSeek Harness Team, engines.dsh ^0.2.1-alpha.2. start.sh rewrites cordis.patch.yml on every boot to webserver 127.0.0.1:3082 plus stateDir, and there is no socat or Caddy, so the loopback panel is not shown reaching Railway's proxy. Overlaps the listed two-workspaces Railway template. Vendor tree was not diffed to a known commit. Not listed."
+    },
     {
       "title": "NBHZW/harness-superagent-poc",
       "url": "https://github.com/NBHZW/harness-superagent-poc",
@@ -83,7 +74,7 @@
       "title": "Fei-Good/superagent-source-analysis",
       "url": "https://github.com/Fei-Good/superagent-source-analysis",
       "confidence": 0.3,
-      "reason": "Search listed it at 2026-11-05T06:00:20Z. git trees on main returned 409 empty repository. Not listed."
+      "reason": "Still an empty repository (HTTP 409) at 2026-11-05T07:45Z. Not listed."
     },
     {
       "title": "qianxi-00/Super_Agent_Demo",
@@ -95,7 +86,7 @@
       "title": "mycguo/tebra-superagent missing",
       "url": "https://github.com/mycguo/tebra-superagent",
       "confidence": 0.6,
-      "reason": "gh api returned 404 at 2026-11-05T06:38Z. The public user repo list did not show a rename. The listed sentence was not rewritten and the row was not removed."
+      "reason": "gh api still returned 404 at 2026-11-05T07:45Z. The listed sentence was not rewritten and the row was not removed."
     },
     {
       "title": "Juejin overnight-fix recap",
@@ -744,7 +735,7 @@
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). updated_at moved; it is not a commit. npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12251 (2026-11-05T06:10:50Z). #12245 through #12251 do not mention superagent. #12244 is before this window. Sandboxes, playgrounds, demos, and smoke repos stay out: kentlee517/superagent-smoke, whr198766qqpp/agent-playground, vincentdaily/superagent-playground, qunjin42-bot/dsh-superagent-playground, beiluo/dsh-superagent-demo, testno9529-beep/test-dsh-superagent, RoronoaZoroh/dsh-superagent-hqk-test, qianxi-00/Super_Agent_Demo. Yiminnn/agent-ops pushed_at moved and main is still 5ca65fdc08d8. pingdotgg/t3code had no default-branch commit in the window. SignalRoom 23160f4f8790 is icons. butler-skill 83c2de40e278 is an SVG. Laixiaomin 0e24ac17d321 is a field note. Cap remains 5; this run added 1 and updated 10."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). npm latest remains 0.2.1-rc.5. next remains 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.1.0. dsh-agent-lines remains 0.3.5. Newest harness discussion is #12263. Titles from #12252 through #12263 do not mention superagent, and issue search for superagent updated today returned nothing. Sandboxes, playgrounds, and demos stay out: Tank543jq123/dsh-superagent-lab, akrishiki4869-bit/superagent-playground, caibaoli/superagent-sandbox. zgaduj/dsh-demo-app was created at 06:36:50Z, before this window. vicfei tip 6dda53f9e804 is README only for behavior already listed. wuzhiping tip 9e17a33bf569 adds a deck-to-PDF script and does not change the listed sentence. Yiminnn tip 00560a72919c only changes when drift lines print. Cap remains 5; this run added 1 and updated 7."
     }
   ],
   "held_on_other_branches": [
@@ -778,5 +769,5 @@
     "Yiminnn/agent-ops main is 5ca65fdc08d8 at 2026-11-05T01:41:40Z. DELIVER lines, Slack reads, quiet drift, and the stale-skill notice are on the default branch and listed. Do not list yimin/retro-1104 separately."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. dsh-agent-lines is 0.3.5. dsh-superagent-sources is 0.1.0. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 1 and updated 10. Direct commit to main, no PR. Window 2026-11-05T05:45:00Z to 2026-11-05T06:38:32Z. Based on origin/main 0196701."
+  "npm_note": "latest remains 0.2.1-rc.5 (published 2026-10-29T14:15:23.355Z). next remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3 (2026-11-03T07:48:26.202Z). @vicfei/dsh-super-agent is 1.1.0. dsh-agent-lines is 0.3.5. dsh-superagent-sources is 0.1.0. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 1 and updated 7. Direct commit to main, no PR. Window 2026-11-05T06:38:32Z to 2026-11-05T07:59:47Z. Based on origin/main 206aa77."
 }
