@@ -11,7 +11,13 @@
     "from": "2026-11-05T15:37:45Z",
     "to": "2026-11-05T16:33:12Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "jliguori1312 ADR-0006",
+      "url": "https://github.com/jliguori1312/agent-orchestrator/blob/main/docs/adr/0006-reject-dsh-superagent-keep-read-only-reference.md",
+      "change": "Merged df9ae7fe1cc4 at 2026-11-05T15:56:46Z. Author rejects adopt, fork, and wrap, and keeps the prototype as a read-only domain-model reference. The note names off/observe/auto without restating the explicit-request exception. Star counts were not copied."
+    }
+  ],
   "updated": [
     {
       "title": "MYCF711/dsh-session-superagent",
@@ -1044,5 +1050,5 @@
     "AirKyzzZ/hermes-superagent main is a0c9e07fec02 (2026-11-05T16:06:43Z). The readme redesign and catalog note are on the default branch and the listed sentence names them. Do not add a second docs row."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.270 (2026-11-05T16:13:01.661Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 3. Direct commit to main, no PR. Window 2026-11-05T15:37:45Z to 2026-11-05T16:33:12Z. Based on origin/main b2ac3c6."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.270 (2026-11-05T16:13:01.661Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 3. Direct commit to main, no PR. Window 2026-11-05T15:37:45Z to 2026-11-05T16:33:12Z. Based on origin/main b2ac3c6. Follow-up on the same window added the jliguori1312 ADR-0006 read-only note under 短文. Cap remains 5; added 1 and updated 3."
 }
