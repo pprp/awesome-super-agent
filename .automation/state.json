@@ -1,33 +1,27 @@
 {
-  "last_run_at": "2026-11-05T20:35:06Z",
+  "last_run_at": "2026-11-05T21:41:59Z",
   "timezone": "UTC",
-  "baseline_commit": "a946e3d",
+  "baseline_commit": "e583300",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-05T19:43:15Z",
-    "to": "2026-11-05T20:35:06Z"
+    "from": "2026-11-05T20:35:06Z",
+    "to": "2026-11-05T21:41:59Z"
   },
-  "added": [
-    {
-      "title": "back1ply/claude-superagent",
-      "url": "https://github.com/back1ply/claude-superagent",
-      "change": "New 衍生 row. Public at 19:53Z, tip d669914dba95. Claude Code plugin. Local requests are explicit. Forge mentions from the allow list are explicit and still open tickets in default observe. Proactive accepts become tickets only in auto; otherwise observed with would_accept. Tests 31/31. MIT. No Feishu, no resident process, no auto-merge."
-    },
-    {
-      "title": "MotionCorr superagent",
-      "url": "https://github.com/KingAlejandro/MotionCorr-standalone/tree/main/agents/superagent",
-      "change": "New 衍生 row. Merged to default main at 20:15Z (a6e95fefad0b). T3 Code worker for this repo only. gate() is explicit /agent or agent labels. README says observe/auto were not ported. Dropped tickets that already acknowledged now get one closing sentence (5743c822211a). Unittest 13/13. Repo license GPL-2.0; the note credits the MIT prototype."
-    }
-  ],
+  "added": [],
   "updated": [
     {
       "title": "AirKyzzZ/hermes-superagent",
       "url": "https://github.com/AirKyzzZ/hermes-superagent",
-      "change": "Default main moved from cc18a798dea6 to 66363d2e572c at 20:30Z. 84ac11a59feb at 20:14Z stops the watchdog from restarting a finished assignment or a silent exit: a dead worker with a log is parked waiting, blocked, and a person is asked. 6698e320ee93 at 20:22Z admits webhook:<route> events as addressed, so an allowed login is explicit without an @; via_router defaults false and code opens the ticket. 66363d2e572c refuses unknown config keys, keeps the last good file, fails the tick on a send error, and drops a message after 5 failures. README badge says 217 tests. Not re-run here. Still no live-model run."
+      "change": "Default main moved from 66363d2e572c to 10d94e18c93e at 20:42Z. 8567106b1b67 at 20:34:47Z was inside the previous stamp and not recorded: router superagent_cancel claims an admitted trigger in the 3600s window, ends the ticket, then stops the worker. A stop failure leaves the ticket ended. CLI cancel on the watchdog profile does not claim a trigger. Ready, blocked, failed, and escalations are labeled with the first six words of the goal. e1af2b1c037b at 20:38Z adds watchdog-only superagent_digest for the last 24 hours, including what record-mode rules would have started; it does not start them. Send queues only when [digest] channel is set. A blueprint defaults to hour 8 and does not run unless enabled. 706685401012 and 10d94e18c93e make a message-id-less webhook id webhook:{user_id}:{delivery id}, so one route redelivery is one trigger. Badge says 227 tests. Not re-run. Still no live-model run."
+    },
+    {
+      "title": "wuzhiping/superagent",
+      "url": "https://github.com/wuzhiping/superagent",
+      "change": "Default main is 40 ahead of 6337fc8, tip ec00af60c727 at 20:59Z. 67ccde6fe9c7 at 20:57Z reads the charter from the Gitea card path (default README.md) and requires a version: number; otherwise the Kanban description is the mirror. PUT retries once on 409/422. The new s3 source probes a bucket and creates no Trigger. Empty credentials use the storage record. Docs-only tip. Author-claimed tests were not re-run."
     }
   ],
   "pending": [
@@ -1146,13 +1140,37 @@
       "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
       "confidence": 0.2,
       "reason": "VBK-AI-Agent-Gateway/superagent-playground pushed 2026-11-05T19:49:36Z and still says it is a trial repo. Not listed."
+    },
+    {
+      "title": "Harness discussions #12346-#12348",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12348",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-05T20:56:44Z through 21:31:18Z. #12346 is a Session-data idea list. #12347 is an empty final answer after max_tokens with only reasoning. #12348 is capability drift on a cross-profile resume. Bodies do not mention superagent, Trigger, Mandate, Ticket, or 原型. Newest discussion checked is #12348. Not listed."
+    },
+    {
+      "title": "Legeo969/superagent-playground",
+      "url": "https://github.com/Legeo969/superagent-playground",
+      "confidence": 0.2,
+      "reason": "Created 2026-11-05T20:59:44Z, pushed 21:00:54Z. Description says it is a scratch repo for end-to-end verification. Not listed."
+    },
+    {
+      "title": "pingdotgg/t3code GitLab and mobile UI",
+      "url": "https://github.com/pingdotgg/t3code/commit/25b53299b75d",
+      "confidence": 0.2,
+      "reason": "In-window default-branch commits through 938b4d45255f at 21:15Z are PR paint, mobile approval buttons, and GitLab author links and merge credits. 25b53299b75d at 21:34:41Z, after the cron trigger and before this stamp, shows GitLab file comments as review threads. hextor-ndc/superagent did not move. The listed sentence was not rewritten."
+    },
+    {
+      "title": "tyler-jewell/dsh-plugins and d4vid-le/SignalRoom 404",
+      "url": "https://github.com/tyler-jewell/dsh-plugins",
+      "confidence": 0.7,
+      "reason": "Public GitHub returned HTTP 404 for tyler-jewell/dsh-plugins and d4vid-le/SignalRoom at 2026-11-05T21:41Z. Search could not see either owner. The listed sentences were not rewritten and the rows were not removed."
     }
   ],
   "rejected_this_run": [
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z; updated_at moved but is not a commit). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.272. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is still #12345. arXiv returned no dsh-superagent hits. HN has no new story. mycguo/tebra-superagent is still not a public repo. Playgrounds were not listed. Cap remains 5; this run added 2 and updated 1."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.272. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12348. arXiv returned no dsh-superagent hits. HN has no new story. Reddit, Juejin, V2EX, and Zhihu had no in-window prototype post. Legeo969/superagent-playground was not listed. MotionCorr pushed_at 20:34:47Z did not move the default commit a6e95fefad0b. Cap remains 5; this run added 0 and updated 2."
     }
   ],
   "held_on_other_branches": [
@@ -1196,5 +1214,5 @@
     "RechargedIdeas/organism main is still 345856911476 (2026-11-05T18:56:39Z). pushed_at 2026-11-05T20:18:28Z is ci/runner-hardening (be5daf782bfa, 19:07Z) and claude/cool-hawking-1cb4d3 (e6df586a18ba, 19:40Z, Custode upgrade docs). Do not list those branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.272 (2026-11-05T17:37:36.354Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 2 and updated 1. Direct commit to main, no PR. Window 2026-11-05T19:43:15Z to 2026-11-05T20:35:06Z. Based on origin/main a946e3d."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.272 (2026-11-05T17:37:36.354Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-05T20:35:06Z to 2026-11-05T21:41:59Z. Based on origin/main e583300."
 }
