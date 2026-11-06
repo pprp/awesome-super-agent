@@ -1,42 +1,43 @@
 {
-  "last_run_at": "2026-11-06T13:37:00Z",
+  "last_run_at": "2026-11-06T14:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "b881d0d",
+  "baseline_commit": "80cd85b",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-06T12:40:00Z",
-    "to": "2026-11-06T13:37:00Z"
+    "from": "2026-11-06T13:37:00Z",
+    "to": "2026-11-06T14:36:00Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "TianzeLuo/dsh-super-agent",
+      "url": "https://github.com/TianzeLuo/dsh-super-agent",
+      "reason": "Control-plane plugin, not the prototype ticket model. Tip 802f29d04322 at 2026-11-06T13:43:04Z marks blocked-approval and sends an approval-request trigger. Default approvalTimeoutMs is 60000. It does not auto-approve."
+    }
+  ],
   "updated": [
     {
-      "title": "vicfei/dsh-super-agent",
-      "url": "https://github.com/vicfei/dsh-super-agent",
-      "change": "npm 1.2.1 at 2026-11-06T13:15:28Z is version-only 2264b4887840. Tip f35193be6d75 at 13:30:31Z adds a 45-minute WeChat typing heartbeat. Not republished."
+      "title": "AirKyzzZ/hermes-superagent",
+      "url": "https://github.com/AirKyzzZ/hermes-superagent",
+      "change": "Tip 6a3f1a093ce1 at 2026-11-06T14:28:59Z writes worker briefs from the ledger. 56089962685e at 14:07:35Z adds setup and doctor. The dogfood table still lists the context pack under Missing."
     },
     {
-      "title": "waixv-superagent/dsh-superagent-prototype",
-      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "change": "Tip a6d6d2ffa988 at 13:24:07Z. Subagent model grants, kept editors, delivery readiness, and an approved 1-4 person team. Trigger admission unchanged."
+      "title": "samanhappy/dsh-superagent",
+      "url": "https://github.com/samanhappy/dsh-superagent",
+      "change": "23 ahead of 6337fc8. Tip cc933f5580a4 at 2026-11-06T14:32:26Z names the package @samanhappy/dsh-superagent 0.1.0. npm returned 404. Morning commits limit chat subscriptions, check out the configured base branch, and take repository roles from one Source."
     },
     {
       "title": "Meaple-SFKY/Super-Agent-Dsh-Plugin",
       "url": "https://github.com/Meaple-SFKY/Super-Agent-Dsh-Plugin",
-      "change": "Tip 6a284791cab8 at 13:21:46Z is still 0.1.1. Bot ed25519 key, admin collaborator invites, accepted repository invitations, report files, Telegram files default on."
+      "change": "Tip ff8a17cbe0d3 at 2026-11-06T14:28:21Z pins the three DSH helper packages for URL installs. 869243d3d302 at 13:34:28Z uninstalls plugin-created files. Still 0.1.1. Admission unchanged."
     },
     {
       "title": "wuzhiping/superagent",
       "url": "https://github.com/wuzhiping/superagent",
-      "change": "55 ahead of 6337fc8. Tip 58e541ddbd9f at 13:04:15Z adds ABC.md only. PM duty gate unchanged."
-    },
-    {
-      "title": "Anslen/dsh-personal-agent",
-      "url": "https://github.com/Anslen/dsh-personal-agent",
-      "change": "Tip 8d7d933ad428 at 12:50:21Z. Group auto-mention stays on text and markdown. Image and video no longer send a separate mention."
+      "change": "57 ahead of 6337fc8. Tip 7919ef22edbb at 2026-11-06T14:01:23Z tightens ABC.md to a 15-minute readiness walk-through and adds the ABC deck. The PM duty gate is unchanged."
     }
   ],
   "pending": [
@@ -1911,13 +1912,44 @@
       "url": "https://github.com/1145114nnn-hub/superagent-playground",
       "confidence": 0.2,
       "reason": "Playgrounds, sandboxes, test targets, the README-only najmiddin fork, and unrelated SuperAgent names pushed in this window were not listed. xiehust/sample-dsh-superagent-on-agentcore tip 0e23acb63906 is a general LLM-router note on an unlisted Bedrock sample."
+    },
+    {
+      "title": "Harness discussions #12459-#12462",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12462",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-06T13:49:33Z through 14:12:38Z. #12459 asks for a background MCP job. #12460 is model-listing logs. #12461 is the harness subagent model-selection policy at compaction, not the prototype bundle. #12462 is a lone UTF-16 surrogate. Bodies do not describe Trigger, Mandate, or Ticket. Newest discussion checked is #12462."
+    },
+    {
+      "title": "thefullgc/opensuperagent",
+      "url": "https://github.com/thefullgc/opensuperagent",
+      "confidence": 0.62,
+      "reason": "Created 2026-11-02T14:07:30Z. Independent Node app inspired by the essay, Apache-2.0, not on DSH. Ingress persists a Trigger and routes by task id or one open thread subscription. Tip 2b6c55bb90d1 at 2026-11-06T13:54:36Z only rejects a malformed Origin with 403. The explicit-request exception was not read. Not listed."
+    },
+    {
+      "title": "ikkeflikkeri/software-factory",
+      "url": "https://github.com/ikkeflikkeri/software-factory",
+      "confidence": 0.25,
+      "reason": "Created 2026-11-06T11:49:50Z. Tip f298e3dbbd71 area is a webapp dark-theme merge at 14:25Z. The README says the repository is where a dsh-superagent setup opens pull requests. It is a target workspace, not a bundle. Not listed."
+    },
+    {
+      "title": "empty and starter repositories in the window",
+      "url": "https://github.com/Xiangx520/Super-Agent-Taffy",
+      "confidence": 0.2,
+      "reason": "Xiangx520/Super-Agent-Taffy is empty. whutlichao/superagent-plugin is a title-only README. uerss123/superagent-test is a title-only README. LuckySeven-cyber/superagent is a starter README with no implementation. kkkill-pp/superagent-sandbox and liuruofan-agent/superagent-lab are a sandbox and a practice repo. Not listed."
+    },
+    {
+      "title": "Youzini-afk/Varin",
+      "url": "https://github.com/Youzini-afk/Varin",
+      "confidence": 0.15,
+      "reason": "pushed_at 2026-11-06T14:24:01Z. Default main is still 102c94f72c86, committed 2026-11-06T11:24:34Z. It describes a general agent harness, not the DSH prototype. Not listed."
     }
   ],
   "rejected_this_run": [
-    "Sandbox, empty, Hermes, and non-prototype repositories in the window were not listed.",
-    "Harness discussions #12452-#12458 do not describe the prototype bundle.",
-    "MYCF711 0.9.286 does not change the listed sentence.",
-    "mycguo/tebra-superagent returned 404. The listed row was not removed."
+    "Sandbox, practice, empty, and starter repositories in the window were not listed.",
+    "Harness discussions #12459-#12462 do not describe the prototype bundle.",
+    "thefullgc/opensuperagent stays pending until the explicit-request exception is read.",
+    "ikkeflikkeri/software-factory is a target workspace, not a bundle.",
+    "@samanhappy/dsh-superagent and dsh-superagent were both 404 on npm."
   ],
   "held_on_other_branches": [
     "hhse/dsh-superagent-setup (PR #15 closed unmerged at 2026-11-02T13:16:10Z). Do not copy.",
@@ -1977,8 +2009,11 @@
     "pingdotgg/t3code tip 6577c6b61851 at 2026-11-06T11:11:59Z is a background service memory change. hextor-ndc/superagent did not move (main still 0dc3b4279c03). Do not rewrite the listed sentence.",
     "pingdotgg/t3code main is still 6577c6b61851. pushed_at 2026-11-06T13:32:07Z is not a new default-branch commit. hextor-ndc/superagent did not move. Do not rewrite the listed sentence.",
     "szmdshagent/dsh-superagent-plugins pushed_at 2026-11-06T13:30:15Z. Default main is still 364a1ed46c0c. Do not rewrite the listed sentence.",
-    "waixv-superagent/dsh-superagent-prototype main is a6d6d2ffa988 (2026-11-06T13:24:07Z). The subagent grants, kept editor, and approved team are in the listed sentence."
+    "waixv-superagent/dsh-superagent-prototype main is a6d6d2ffa988 (2026-11-06T13:24:07Z). The subagent grants, kept editor, and approved team are in the listed sentence.",
+    "szmdshagent/dsh-superagent-plugins pushed_at 2026-11-06T14:30:14Z. Default main is still 364a1ed46c0c. Do not rewrite the listed sentence.",
+    "pingdotgg/t3code pushed_at 2026-11-06T14:26:33Z. Default main is still 6577c6b61851. hextor-ndc/superagent did not move. Do not rewrite the listed sentence.",
+    "MosBot-AI/hermes-superagent pushed_at 2026-11-06T14:12:25Z. Default main is still 287bcd537f86, committed 2026-11-06T12:59:16Z. Do not list it."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.1 (2026-11-06T13:15:28.519Z); the 13:30Z typing heartbeat is on tip f35193be6d75 and was not republished. dsh-session-superagent npm is 0.9.286 (2026-11-06T12:34:48.736Z); the listed sentence still ends at 0.9.272. @nemotte/pi-superagent 0.1.0-alpha.1 was not rechecked this window."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is still 1.2.1 (2026-11-06T13:15:28.519Z); the repo tip was not newer than f35193be6d75. dsh-session-superagent npm is still 0.9.286 (2026-11-06T12:34:48.736Z); the listed sentence still ends at 0.9.272. @samanhappy/dsh-superagent and the unscoped name dsh-superagent both returned 404. @nemotte/pi-superagent was not rechecked this window."
 }
