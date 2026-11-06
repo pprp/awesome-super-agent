@@ -1,43 +1,37 @@
 {
-  "last_run_at": "2026-11-06T14:36:00Z",
+  "last_run_at": "2026-11-06T15:44:00Z",
   "timezone": "UTC",
-  "baseline_commit": "80cd85b",
+  "baseline_commit": "ad323a5",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-06T13:37:00Z",
-    "to": "2026-11-06T14:36:00Z"
+    "from": "2026-11-06T14:36:00Z",
+    "to": "2026-11-06T15:44:00Z"
   },
-  "added": [
-    {
-      "title": "TianzeLuo/dsh-super-agent",
-      "url": "https://github.com/TianzeLuo/dsh-super-agent",
-      "reason": "Control-plane plugin, not the prototype ticket model. Tip 802f29d04322 at 2026-11-06T13:43:04Z marks blocked-approval and sends an approval-request trigger. Default approvalTimeoutMs is 60000. It does not auto-approve."
-    }
-  ],
+  "added": [],
   "updated": [
-    {
-      "title": "AirKyzzZ/hermes-superagent",
-      "url": "https://github.com/AirKyzzZ/hermes-superagent",
-      "change": "Tip 6a3f1a093ce1 at 2026-11-06T14:28:59Z writes worker briefs from the ledger. 56089962685e at 14:07:35Z adds setup and doctor. The dogfood table still lists the context pack under Missing."
-    },
     {
       "title": "samanhappy/dsh-superagent",
       "url": "https://github.com/samanhappy/dsh-superagent",
-      "change": "23 ahead of 6337fc8. Tip cc933f5580a4 at 2026-11-06T14:32:26Z names the package @samanhappy/dsh-superagent 0.1.0. npm returned 404. Morning commits limit chat subscriptions, check out the configured base branch, and take repository roles from one Source."
+      "change": "Tip still cc933f5580a4 at 2026-11-06T14:32:26Z. npm @samanhappy/dsh-superagent 0.1.0 published 2026-11-06T14:36:01.067Z. Unscoped dsh-superagent is still 404. engines.dsh unchanged."
     },
     {
       "title": "Meaple-SFKY/Super-Agent-Dsh-Plugin",
       "url": "https://github.com/Meaple-SFKY/Super-Agent-Dsh-Plugin",
-      "change": "Tip ff8a17cbe0d3 at 2026-11-06T14:28:21Z pins the three DSH helper packages for URL installs. 869243d3d302 at 13:34:28Z uninstalls plugin-created files. Still 0.1.1. Admission unchanged."
+      "change": "Tip 7b58015d072c at 2026-11-06T15:07:03Z returns absolute shell-quoted watchdog commands only when watchdog.mjs, install-launchd.sh, and uninstall.sh are all present. The permissions page otherwise points at the one-click switch. Still 0.1.1. Admission unchanged. Lockfile-only 401e0cf4069a does not change the listed pin."
     },
     {
-      "title": "wuzhiping/superagent",
-      "url": "https://github.com/wuzhiping/superagent",
-      "change": "57 ahead of 6337fc8. Tip 7919ef22edbb at 2026-11-06T14:01:23Z tightens ABC.md to a 15-minute readiness walk-through and adds the ABC deck. The PM duty gate is unchanged."
+      "title": "AirKyzzZ/hermes-superagent",
+      "url": "https://github.com/AirKyzzZ/hermes-superagent",
+      "change": "Tip ccf83a2ea38a at 2026-11-06T14:59:16Z adds the offline task-list scene. cd8c0659645c at 14:50:03Z files new ledger items with triage rules. Badge on that tip is 540. Dogfood Briefs and Tracking rows were not rewritten. pushed_at 15:10:39Z is not a newer commit."
+    },
+    {
+      "title": "huanlin-labs/superagent-github-mock",
+      "url": "https://github.com/huanlin-labs/superagent-github-mock",
+      "change": "Tip 172157239dff at 2026-11-06T15:12:58Z is private 0.1.1. A bare gh shim prints gh api usage and exits 2; -h and --help exit 0. The test workflow succeeded on this sha."
     }
   ],
   "pending": [
@@ -1942,14 +1936,45 @@
       "url": "https://github.com/Youzini-afk/Varin",
       "confidence": 0.15,
       "reason": "pushed_at 2026-11-06T14:24:01Z. Default main is still 102c94f72c86, committed 2026-11-06T11:24:34Z. It describes a general agent harness, not the DSH prototype. Not listed."
+    },
+    {
+      "title": "Harness discussions #12463-#12476",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12476",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-06T14:39:08Z through 15:38:07Z. #12463 is message rendering. #12464 is \"choose model for teamate\" at 2026-11-06T14:38:00Z. The keyword scan of #12463-#12476, including deleted #12473, did not match superagent, Mandate, Ticket, or orchestrator. #12465 is hidden reply nodes. #12466 is a Python SDK env_mode. #12467 is a plugin-contract proposal; keyword-triggered is plugin selection. #12468 is a macOS sidebar. #12469 is mobile layout tokens. #12470 is New Session workspace choice. #12471 is a schedule badge stuck on unrelated sessions. #12472 is Agent Teams keeping an old LLM provider. #12473 is a deleted permission probe. #12474-#12476 are Chrome notify, a Korean language pack, and a sidebar workspace plugin. Bodies checked do not describe the prototype bundle. Newest discussion checked is #12476."
+    },
+    {
+      "title": "MYCF711 0.10.0",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/releases/tag/v0.10.0",
+      "confidence": 0.74,
+      "reason": "npm dsh-session-superagent 0.10.0 at 2026-11-06T15:09:09.947Z. GitHub release v0.10.0 published 2026-11-06T15:08:18Z. Commit 8439ef97b68b at 15:03:01Z. The notes are a panel stability cut: session-scoped /state, draft versions, scoped ETags, Orbit action locks, and a11y. The author records 675/675. The listed watcher sentence still ends at 0.9.272. Not rewritten."
+    },
+    {
+      "title": "hongyaok/hermes-SuperAgent",
+      "url": "https://github.com/hongyaok/hermes-SuperAgent",
+      "confidence": 0.62,
+      "reason": "Default main e99c1b45bb36 at 2026-11-06T15:30:00Z merges composer UX. README says a Hermes plugin inspired by dsh-superagent. sa_assessor.py accepts an explicit message after a question check, and ignores unaddressed text when allow_proactive is off; that is not the prototype off/observe/auto table. sa_watcher.py defaults github_watch_mode to observe and only launches a worker when the mode is auto. The repo name matches the already listed AirKyzzZ/hermes-superagent. Not listed."
+    },
+    {
+      "title": "prgrmrwy/ohmysa health.runtime.state",
+      "url": "https://github.com/prgrmrwy/ohmysa",
+      "confidence": 0.7,
+      "reason": "Tip 9f9ff05527ee at 2026-11-06T15:07:36Z reads health.runtime.state because health.runtime is an object and the old match timed out apply after 120s. 7f33066fea37 the same minute retries pnpm 11 profile installs. ohmysa.yaml still pins @deepseek-ai/dsh@0.2.1-rc.5 and prototype 8c32a9dc5d72. package.json is private 0.1.0 with no license. Not listed."
+    },
+    {
+      "title": "in-window sandboxes and target repos",
+      "url": "https://github.com/yy1844/dsh-superagent-playground",
+      "confidence": 0.2,
+      "reason": "yy1844/dsh-superagent-playground pushed 2026-11-06T15:41:51Z is a sandbox. lonniehz/superagent-sandbox pushed 15:39:01Z is a sandbox. aslongyouloveme/dsh-mp-a and dsh-mp-b are test repos. ikkeflikkeri/software-factory remains a target workspace. tkj-dsh/superagent-playground was a notes edit. Not listed."
     }
   ],
   "rejected_this_run": [
-    "Sandbox, practice, empty, and starter repositories in the window were not listed.",
-    "Harness discussions #12459-#12462 do not describe the prototype bundle.",
-    "thefullgc/opensuperagent stays pending until the explicit-request exception is read.",
-    "ikkeflikkeri/software-factory is a target workspace, not a bundle.",
-    "@samanhappy/dsh-superagent and dsh-superagent were both 404 on npm."
+    "Harness discussions #12463-#12476 do not describe the prototype bundle.",
+    "MYCF711 0.10.0 does not change the listed watcher sentence, which still ends at 0.9.272.",
+    "hongyaok/hermes-SuperAgent stays pending: the assessor is not the prototype admission table, and the name matches the listed Hermes plugin.",
+    "prgrmrwy/ohmysa stays unlisted: private 0.1.0, no LICENSE, still pins dsh 0.2.1-rc.5.",
+    "Sandbox, test, and ticket-workspace repositories in the window were not listed.",
+    "Unscoped npm package dsh-superagent is still 404."
   ],
   "held_on_other_branches": [
     "hhse/dsh-superagent-setup (PR #15 closed unmerged at 2026-11-02T13:16:10Z). Do not copy.",
@@ -2012,8 +2037,10 @@
     "waixv-superagent/dsh-superagent-prototype main is a6d6d2ffa988 (2026-11-06T13:24:07Z). The subagent grants, kept editor, and approved team are in the listed sentence.",
     "szmdshagent/dsh-superagent-plugins pushed_at 2026-11-06T14:30:14Z. Default main is still 364a1ed46c0c. Do not rewrite the listed sentence.",
     "pingdotgg/t3code pushed_at 2026-11-06T14:26:33Z. Default main is still 6577c6b61851. hextor-ndc/superagent did not move. Do not rewrite the listed sentence.",
-    "MosBot-AI/hermes-superagent pushed_at 2026-11-06T14:12:25Z. Default main is still 287bcd537f86, committed 2026-11-06T12:59:16Z. Do not list it."
+    "MosBot-AI/hermes-superagent pushed_at 2026-11-06T14:12:25Z. Default main is still 287bcd537f86, committed 2026-11-06T12:59:16Z. Do not list it.",
+    "MosBot-AI/hermes-superagent pushed_at 2026-11-06T15:37:00Z. Default main is still 287bcd537f86, committed 2026-11-06T12:59:16Z. Do not list the side branch.",
+    "AirKyzzZ/hermes-superagent pushed_at 2026-11-06T15:10:39Z. Default main is ccf83a2ea38a at 2026-11-06T14:59:16Z. The triage rules and the offline task-list scene are on the default branch and in the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is still 1.2.1 (2026-11-06T13:15:28.519Z); the repo tip was not newer than f35193be6d75. dsh-session-superagent npm is still 0.9.286 (2026-11-06T12:34:48.736Z); the listed sentence still ends at 0.9.272. @samanhappy/dsh-superagent and the unscoped name dsh-superagent both returned 404. @nemotte/pi-superagent was not rechecked this window."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is still 1.2.1 (2026-11-06T13:15:28.519Z). dsh-session-superagent npm is 0.10.0 (2026-11-06T15:09:09.947Z); the listed sentence still ends at 0.9.272. @samanhappy/dsh-superagent 0.1.0 was published 2026-11-06T14:36:01.067Z. The unscoped name dsh-superagent returned 404. @nemotte/pi-superagent was not rechecked this window."
 }
