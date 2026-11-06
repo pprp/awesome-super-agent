@@ -1,36 +1,119 @@
 {
-  "last_run_at": "2026-11-06T03:37:03Z",
+  "last_run_at": "2026-11-06T04:38:45Z",
   "timezone": "UTC",
-  "baseline_commit": "c3d368b",
+  "baseline_commit": "9a2c85a",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-06T02:39:07Z",
-    "to": "2026-11-06T03:37:03Z"
+    "from": "2026-11-06T03:37:03Z",
+    "to": "2026-11-06T04:38:45Z"
   },
-  "added": [
-    {
-      "title": "hustnn/dsh-superagent-ui",
-      "url": "https://github.com/hustnn/dsh-superagent-ui",
-      "change": "Created 2026-11-06T02:35:06Z, tip 7b0f84fe9181 at 02:38:36Z, about 30s before the previous stamp and not recorded then. Companion console beside a running prototype. Submodule pins 8c32a9d. Install checks out that pin and applies 0001-status-desktop-app.patch so the macOS desktop process name DeepSeek Harness counts as the service. BFF binds 127.0.0.1:3090 with a launch token. Mock preview needs no network. Worker stays danger-full-access. Author recorded a Feishu-plus-GitHub run on macOS; the GitHub-only check used a mocked gh. Linux untested. Windows unsupported because of tmux. Private package, Node >=24, pnpm 10.18.3, MIT."
-    },
-    {
-      "title": "aoncodev/claude-superagent",
-      "url": "https://github.com/aoncodev/claude-superagent",
-      "change": "Public 2026-11-06T03:00:39Z, tip 9f5a8b015340 at 03:08:52Z. Claude Code plugin, not on DSH, distinct from lyra-planet, Arohtea, and back1ply. Charter is frozen, workers stay in their worktrees, the result lands on superagent/<run-id> and is not merged to the base branch. From the first approval until the run ends, hooks block push, deploy, publish, and production markers that the Charter did not allow. Workers and the fidelity reviewer cannot run superagent approve. Exceptions, a missing git repo, and a missing .superagent directory fail open. No LICENSE file. node --test was not re-run."
-    }
-  ],
+  "added": [],
   "updated": [
     {
-      "title": "kohakushigure/dsh-superagent-lab",
-      "url": "https://github.com/kohakushigure/dsh-superagent-lab",
-      "change": "Default main moved to eea1ec968b37 at 2026-11-06T03:16:22Z. docs/18 records that the author unregistered the every-10-minute local-superagent-keepalive task because it popped a cmd window. install-autostart.ps1 still registers the logon task local-superagent with powershell.exe -WindowStyle Hidden. run-hidden.vbs hardcodes G:\\Agent-workspace\\dsh-superagent\\scripts\\hosting\\start-all.ps1. spawn.ps1 detaches node with start /b. Without the 10-minute task, a dead process is not pulled back except watchdog-ext inside the loop. Author recorded LastTaskResult=0 and process count 2. Not re-run."
+      "title": "thanatoscosmic-ai/pi-superagent",
+      "url": "https://github.com/thanatoscosmic-ai/pi-superagent",
+      "change": "Default main moved to 3305e75b64d1 at 2026-11-06T04:29:01Z. Esc only interrupts; exit is Ctrl+C twice, Ctrl+D, or /exit. /delete and POST /api/tickets/:id/delete stop a running ticket, drop its thread subscription and trigger fanout, and do not requeue its messages. README says the work directory stays at stateDir/work/<id>."
+    },
+    {
+      "title": "lanshi17/dsh-booth",
+      "url": "https://github.com/lanshi17/dsh-booth",
+      "change": "Default master moved to 30279cb995e5 at 2026-11-06T04:16:50Z, tag v0.2.0, evidence only. Behavior is fbac51059a3d at 03:04:59Z, which was not on master at the previous stamp. booth drops provider.json, provider.yml, and --patch. It reads GET /models and writes agent-default-model and llm-pi-ai.providers into the profile cordis.patch.yml. Keys are refs.BOOTH_<ID>_KEY in ~/.dsh/.credentials.yaml. An old provider.json migrates once on booth up."
+    },
+    {
+      "title": "leokyler/dsh-superagent-docker",
+      "url": "https://github.com/leokyler/dsh-superagent-docker",
+      "change": "Default main moved to 8e8f9950c75f at 2026-11-06T04:34:42Z, CI only. 31d631173647 at 03:57:00Z switches the base image to mcr.microsoft.com/devcontainers/javascript-node:24-bookworm and replaces its pnpm 12 with pnpm 11. 4b33b57f58e4 at 04:17:49Z installs DSH_SUPERAGENT_APT_PACKAGES before the service starts; compose maps SUPERAGENT_APT_PACKAGES. A failed install still starts the panel. DSH stays 0.2.1-rc.3."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12374-#12384",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12384",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-06T03:43:52Z through 04:33:29Z. #12374 is a UTF-16 skill-list truncation. #12375 asks a host plugin to admit a non-owner browser. #12376 is a sharp pin. #12377 is stale desktop cookies and HTTP 431. #12378 is flattened internal libraries. #12379 asks for Tauri. #12380 is an unpaired surrogate bricking a session. #12381 is a slash menu after a combining mark. #12382 is plugin-market search. #12383 is the Shiguang Reader plugin. #12384 is a desktop welcome authentication failure after downgrade, and the body does not say superagent, Mandate, Ticket, or orchestrator. Newest discussion checked is #12384. Not listed."
+    },
+    {
+      "title": "MYCF711 0.9.275",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/16ca950e5240",
+      "confidence": 0.7,
+      "reason": "npm dsh-session-superagent 0.9.275 published 2026-11-06T03:42:35Z. Default main is 16ca950e5240, committer 2026-11-05T20:29:05Z, pushed_at 2026-11-06T04:33:46Z. The subject is primary-button contrast and the update-failure/busy boundary. The listed sentence still ends at 0.9.272. Not rewritten."
+    },
+    {
+      "title": "TianzeLuo/dsh-super-agent panel guards",
+      "url": "https://github.com/TianzeLuo/dsh-super-agent/commit/961777eba413",
+      "confidence": 0.72,
+      "reason": "Created 2026-10-31, MIT, a DSH control-plane plugin, and it is not in the list or earlier state. Default master moved to 961777eba413 at 2026-11-06T04:32:34Z. In-window subjects are panel focus guards, single-instance ownership, and preview layout. The admission contract was not read against Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "aicoder2048 course justfile",
+      "url": "https://github.com/aicoder2048/learn-deepseek-super-agent/commit/97d23b64e22a",
+      "confidence": 0.34,
+      "reason": "Tip 97d23b64e22a at 2026-11-06T03:57:03Z adds a justfile recipe just super-agent-course on port 8766 and two README lines. The listed course sentence was not rewritten."
+    },
+    {
+      "title": "pingdotgg/t3code home-relative paths",
+      "url": "https://github.com/pingdotgg/t3code/commit/6d5772b33dea",
+      "confidence": 0.45,
+      "reason": "Default main moved to 6d5772b33dea at 2026-11-06T04:35:52Z. In-window subjects include a local-branch PR label and expanding home-relative thread project paths. hextor-ndc/superagent did not move (main still 0dc3b4279c03, pushed 2026-11-04T19:48:24Z). The listed sentence was not rewritten."
+    },
+    {
+      "title": "RechargedIdeas/organism push is not a new main tip",
+      "url": "https://github.com/RechargedIdeas/organism/commit/bf956102ecfd",
+      "confidence": 0.7,
+      "reason": "pushed_at is 2026-11-06T04:26:09Z. Default main is still bf956102ecfd, committed 2026-11-06T02:30:19Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu push is not a new main tip",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/6d4707d02c20",
+      "confidence": 0.72,
+      "reason": "pushed_at is 2026-11-06T04:30:45Z. Default main is still 6d4707d02c20, committed 2026-11-06T03:21:22Z. The one-line reimplementation note was not rewritten."
+    },
+    {
+      "title": "candyxiao9216/superagent-launch-desk",
+      "url": "https://github.com/candyxiao9216/superagent-launch-desk",
+      "confidence": 0.25,
+      "reason": "Created 2026-11-06T04:23:00Z. Tip 3438448ba43f at 04:23:32Z is a teaching kanban with a planted refresh bug and no agent runtime. Not Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "vuxjqk/dsh-superagent-config",
+      "url": "https://github.com/vuxjqk/dsh-superagent-config",
+      "confidence": 0.2,
+      "reason": "Tip 8d9d2f6b208b at 2026-11-06T04:29:22Z merges a README whose only instruction is pnpm test. Not a bundle. Not listed."
+    },
+    {
+      "title": "in-window empties and sandboxes",
+      "url": "https://github.com/Nemotte/pi-superagent",
+      "confidence": 0.15,
+      "reason": "Nemotte/pi-superagent was created 2026-11-06T04:24:40Z and is an empty repository. wufan1352021895/superagent-playground was created 03:52:09Z and is empty. DSSAhermes/dssa-sandbox was created 03:34:21Z and describes itself as a test ground. VBK-AI-Agent-Gateway/superagent-playground tip f85f80549641 at 03:52:46Z is a CRM preview ticket. Not listed."
+    },
+    {
+      "title": "hx2060/superagent calendar",
+      "url": "https://github.com/hx2060/superagent",
+      "confidence": 0.15,
+      "reason": "Tip cc12fe0fad97 at 2026-11-06T04:29:46Z is a month/week/day calendar page. Not a DSH bundle. Not listed."
+    },
+    {
+      "title": "Yangkailiang1/personal-superagent v0.5",
+      "url": "https://github.com/Yangkailiang1/personal-superagent/commit/385fa51ab976",
+      "confidence": 0.35,
+      "reason": "Tip 385fa51ab976 at 2026-11-06T04:20:44Z records a v0.5 dashboard. Still a personal multi-agent desk, not Trigger, Mandate, or Ticket on DSH. Not listed."
+    },
+    {
+      "title": "minonl/dia v0.0.11",
+      "url": "https://github.com/minonl/dia/commit/6b700c4c86f6",
+      "confidence": 0.3,
+      "reason": "Tip 6b700c4c86f6 at 2026-11-06T04:18:43Z is release v0.0.11. dia is a preset and audit framework; the README mentions dsh only as another TypeScript runtime. Not listed."
+    },
+    {
+      "title": "touhid314/super-agent and ZhouHangCN/SuperAgent",
+      "url": "https://github.com/touhid314/super-agent",
+      "confidence": 0.2,
+      "reason": "touhid314/super-agent tip 3f2b8a3bf268 at 2026-11-06T04:11:22Z is a Codex/Claude/Antigravity panel. ZhouHangCN/SuperAgent tip 98b85d31c59c at 03:47:08Z says it is a test. SkillfulAgents/SuperAgent was pushed 03:58:57Z; tip 71dae43126e3 at 02:59:25Z is an HTML preview. None are the prototype bundle. Not listed."
+    },
     {
       "title": "LofiSu approval-hold hardening",
       "url": "https://github.com/LofiSu/deepseek-super-agent/commit/6d4707d02c20",
@@ -1492,9 +1575,8 @@
   ],
   "rejected_this_run": [
     {
-      "title": "in-window noise",
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.272. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12373. arXiv has no dsh-superagent hit. HN has no new story in this window. LofiSu #158, the docker CI workflow, the booth push, and t3code were not rewritten. Playgrounds, demos, the off-road game, and the empty canvas were not listed. tyler-jewell/dsh-plugins, mycguo/tebra-superagent, kohakushigure/llm-patent-batch-generator, yinhaox/bastion-3d, yinhaox/lanternfall, and d4vid-le/SignalRoom still do not resolve; rows were not removed. Cap remains 5; this run added 2 and updated 1."
+      "title": "in-window sandboxes and non-bundles",
+      "reason": "Nemotte/pi-superagent and wufan1352021895/superagent-playground are empty. candyxiao9216/superagent-launch-desk is a planted teaching bug. vuxjqk/dsh-superagent-config is a one-line test README. hx2060/superagent is a calendar. DSSAhermes/dssa-sandbox and VBK playground stay out."
     }
   ],
   "held_on_other_branches": [
@@ -1546,5 +1628,5 @@
     "pingdotgg/t3code main is 2917f2846558 (2026-11-06T00:29:50Z). In-window commits are product UI. hextor-ndc/superagent did not move. Do not rewrite the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.272 (2026-11-05T17:37:36.354Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 2 and updated 1. Direct commit to main, no PR. Window 2026-11-06T02:39:07Z to 2026-11-06T03:37:03Z. Based on origin/main c3d368b. Listed hustnn/dsh-superagent-ui (missed by about 30s last hour) and aoncodev/claude-superagent. kohakushigure unregistered the 10-minute keepalive task; the logon installer was not rewritten."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.2.0. dsh-session-superagent npm is 0.9.275 (2026-11-06T03:42:35.084Z); the listed sentence still ends at 0.9.272."
 }
