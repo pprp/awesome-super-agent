@@ -1,37 +1,48 @@
 {
-  "last_run_at": "2026-11-06T07:36:00Z",
+  "last_run_at": "2026-11-06T08:38:00Z",
   "timezone": "UTC",
-  "baseline_commit": "642c62c",
+  "baseline_commit": "b11f6bc",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-06T06:33:33Z",
-    "to": "2026-11-06T07:36:00Z"
+    "from": "2026-11-06T07:36:00Z",
+    "to": "2026-11-06T08:38:00Z"
   },
-  "added": [],
-  "updated": [
+  "added": [
     {
-      "title": "waixv-superagent/dsh-superagent-prototype",
-      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "change": "Tip 3ba7d77ebe02 at 2026-11-06T06:53:38Z. Rider-style run configurations landed in 92bedab38082. Project, engine, and optional editorExe derive the UBT command; explicit commands still override. policy.ts only adds those two fields. Admission unchanged."
+      "title": "wxh6667/dsh-superagent-prototype",
+      "url": "https://github.com/wxh6667/dsh-superagent-prototype",
+      "change": "15 ahead of 8c32a9d. a86cc86c3f3c unregisters github-watch and feishu-watch; source files remain. Tip 589929858c38 is notes."
     },
+    {
+      "title": "immars/dsh-superagent-prototype",
+      "url": "https://github.com/immars/dsh-superagent-prototype",
+      "change": "18 ahead of 8c32a9d. Tip b27e9e72e0e4 adds a Schedules clock that is not a Source. jira-watch and gitlab-watch were not read."
+    }
+  ],
+  "updated": [
     {
       "title": "thanatoscosmic-ai/pi-superagent",
       "url": "https://github.com/thanatoscosmic-ai/pi-superagent",
-      "change": "b557b94f2f1a retries a transient assistant error 10 times in the same session, backoff 10s doubling and capped at 60s. isRetryableAssistantError decides. The running ticket's worker usage is what the footnote shows. Package still 0.2.0."
-    },
-    {
-      "title": "veragao0101-cmd/butler-skill",
-      "url": "https://github.com/veragao0101-cmd/butler-skill",
-      "change": "Tip 5b16628edfd7 isolates one ledger, archive, and number sequence per topic. The butler reads only the current topic. Shared rules stay in 规则.md."
+      "change": "Tip 323f4bab1cfb at 2026-11-06T08:28:36Z removes the 30-minute wall clock. 1eaad0cde508 drops the default 100-turn cap and sets OPENAI_CONTEXT_WINDOW default 1000000. Package still 0.2.0."
     },
     {
       "title": "gekailin/dsh-super-chat",
       "url": "https://github.com/gekailin/dsh-super-chat",
-      "change": "Tip 002a6e0d16f3. POST chat/tags replaces one message's tags and can create topics. Auto-tag still fills empty labels only. The untagged filter is client-side and does not touch Trigger or dispatch."
+      "change": "Tip 4621fb143125 keeps the WeChat bridge alive every 15s when credentials exist. retcode 1102 ends the session. Not on npm."
+    },
+    {
+      "title": "wuzhiping/superagent",
+      "url": "https://github.com/wuzhiping/superagent",
+      "change": "Tip 1647467ba410 refuses PM-post execution inside dutyOf unless the charter allowance matches. Code pmExecutionNotAllowed."
+    },
+    {
+      "title": "Check-mj/dsh-superagent-windows",
+      "url": "https://github.com/Check-mj/dsh-superagent-windows",
+      "change": "Tip fd4b769ecad8 pins peers to >=0.2.2-rc.1 <0.2.3-0 and reads history with page(). Windows delta section 3 was not changed."
     }
   ],
   "pending": [
@@ -1690,12 +1701,48 @@
       "url": "https://github.com/pingdotgg/t3code/commit/291bcc392c42",
       "confidence": 0.45,
       "reason": "Default main moved to 291bcc392c42 at 2026-11-06T07:29:23Z. In-window subjects are shutdown recovery, window size, and cross-packaging. hextor-ndc/superagent did not move (main still 0dc3b4279c03, pushed 2026-11-04T19:48:24Z). The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions #12402-#12409",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12409",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-06T07:30:41Z through 08:19:45Z. #12402 is a Mac Intel build. #12403 is a plugin index. #12404 and #12405 are Team board and member cap. #12406 is deferred tool projection. #12407 is missing d.ts in app.asar. #12408 is an IME composer rewrite; the word trigger is the slash menu. #12409 is notification focus. Bodies do not describe the prototype bundle. Newest discussion checked is #12409. Not listed."
+    },
+    {
+      "title": "MYCF711 0.9.279",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/2cc2710f99ea",
+      "confidence": 0.7,
+      "reason": "npm dsh-session-superagent 0.9.279 published 2026-11-06T07:58:15.360Z. Tip 2cc2710f99ea delegates Input and Switch to host primitives when those exports exist. The changelog does not change the watcher. The listed sentence still ends at 0.9.272. Not rewritten."
+    },
+    {
+      "title": "TianzeLuo router notification retain",
+      "url": "https://github.com/TianzeLuo/dsh-super-agent/commit/2576098342b3",
+      "confidence": 0.72,
+      "reason": "Default master moved to 2576098342b3 at 2026-11-06T08:06:02Z. In-window subjects keep Router sessions so a notification click selects the panel. The admission contract was still not read against Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "Meaple-SFKY/Super-Agent-Dsh-Plugin M0",
+      "url": "https://github.com/Meaple-SFKY/Super-Agent-Dsh-Plugin",
+      "confidence": 0.55,
+      "reason": "Created 2026-11-06T08:01:38Z. Tip bfbdc83d38d6 is API notes. The tree is an M0 scaffold: model, ports, kind, and a guardian. README names Telegram and GitHub and says install arrives with M5. Those sources are not in the tree. The previously listed Meaple-SFKY/Super-Agent-Plugin returned 404. That row was not removed. Not listed."
+    },
+    {
+      "title": "JilinJL/learn-super-agent",
+      "url": "https://github.com/JilinJL/learn-super-agent",
+      "confidence": 0.7,
+      "reason": "Created 2026-11-06T08:05:41Z. Tip eaa9d0065320 is a README update. Content commit 669d218d5022 is an 11-chapter course locked to 8c32a9d. The authorization chapter was not read line by line against the explicit-request exception. A course is already listed at aicoder2048/learn-super-agent. Not listed."
+    },
+    {
+      "title": "ATCBK/learn-dsh-superagent",
+      "url": "https://github.com/ATCBK/learn-dsh-superagent",
+      "confidence": 0.66,
+      "reason": "Created 2026-11-06T07:56:37Z. Tip ccf31ec45d6e. A listed addressed human stays explicit, but an unlisted addressed human is inferred whenever mode is not off, and assess() drops non-auto inferred work without a would_accept Decision. Stays pending."
     }
   ],
   "rejected_this_run": [
     {
-      "title": "in-window trials, labs, desks, and general DSH plugins",
-      "reason": "563155924/superagent-lab is a test repository. zeromultiplied/dsh-superagent-trial is a trial. testno9529-beep/test-dsh-superagent is a test. rafaelwan/SuperAgent and rajasampath125/superagent were empty. wufan1352021895/superagent-playground is empty. candyxiao9216/superagent-release-desk is a teaching desk. hatanokokoroyo/dsh-team-mail is a DSH mail panel, not the prototype. The other dsh-* repositories created this hour are host plugins, pets, token boards, and learning tools. Not listed."
+      "title": "in-window discussions, UI bumps, courses, and the Meaple scaffold",
+      "reason": "Discussions #12402-#12409 do not describe the prototype. MYCF711 0.9.279 does not change the watcher. TianzeLuo remains a panel retain. JilinJL was not read line by line. ATCBK drops would_accept. Meaple M0 has no Source implementation. Sandboxes and empty repos were not listed."
     }
   ],
   "held_on_other_branches": [
@@ -1744,8 +1791,10 @@
     "OCCAgent iterate-from-diagnosis merged to default main as #22 at 2026-11-06T00:27:28Z (911760cf2ca1). The claim-based timeout is in the listed sentence. Do not list the branch separately.",
     "RechargedIdeas/organism main is 91a362402b67 (2026-11-06T00:13:06Z). ci/runner-hardening is on the default branch and does not change the listed sentence. Do not add a second row.",
     "VBK-AI-Agent-Gateway/superagent-playground pushed_at 2026-11-06T00:27:47Z is not a new default-branch commit. main is still ca8b345d3c9e. Do not list it.",
-    "pingdotgg/t3code main is 2917f2846558 (2026-11-06T00:29:50Z). In-window commits are product UI. hextor-ndc/superagent did not move. Do not rewrite the listed sentence."
+    "pingdotgg/t3code main is 2917f2846558 (2026-11-06T00:29:50Z). In-window commits are product UI. hextor-ndc/superagent did not move. Do not rewrite the listed sentence.",
+    "waixv-superagent/dsh-superagent-prototype pushed_at 2026-11-06T07:43:53Z is not a new default-branch commit. main is still 3ba7d77ebe02. Do not rewrite the listed sentence.",
+    "pingdotgg/t3code tip 2756da402b5d at 2026-11-06T07:45:43Z is an arm64 macOS packaging fix. hextor-ndc/superagent did not move (main still 0dc3b4279c03). Do not rewrite the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.2.0. dsh-session-superagent npm is 0.9.278 (2026-11-06T06:58:54.774Z); the changelog moves tabs and Orbit rows onto host primitives and does not change the watcher. The listed sentence still ends at 0.9.272. dsh-super-chat and @nemotte/pi-superagent are not on npm."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.2.0. dsh-session-superagent npm is 0.9.279 (2026-11-06T07:58:15.360Z); the changelog delegates Input and Switch to host primitives and does not change the watcher. The listed sentence still ends at 0.9.272. dsh-super-chat and @nemotte/pi-superagent are not on npm. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0."
 }
