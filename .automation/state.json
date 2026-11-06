@@ -1,37 +1,22 @@
 {
-  "last_run_at": "2026-11-06T15:44:00Z",
+  "last_run_at": "2026-11-06T16:27:00Z",
   "timezone": "UTC",
-  "baseline_commit": "ad323a5",
+  "baseline_commit": "b6d21d5",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-06T14:36:00Z",
-    "to": "2026-11-06T15:44:00Z"
+    "from": "2026-11-06T15:44:00Z",
+    "to": "2026-11-06T16:27:00Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "samanhappy/dsh-superagent",
-      "url": "https://github.com/samanhappy/dsh-superagent",
-      "change": "Tip still cc933f5580a4 at 2026-11-06T14:32:26Z. npm @samanhappy/dsh-superagent 0.1.0 published 2026-11-06T14:36:01.067Z. Unscoped dsh-superagent is still 404. engines.dsh unchanged."
-    },
-    {
       "title": "Meaple-SFKY/Super-Agent-Dsh-Plugin",
       "url": "https://github.com/Meaple-SFKY/Super-Agent-Dsh-Plugin",
-      "change": "Tip 7b58015d072c at 2026-11-06T15:07:03Z returns absolute shell-quoted watchdog commands only when watchdog.mjs, install-launchd.sh, and uninstall.sh are all present. The permissions page otherwise points at the one-click switch. Still 0.1.1. Admission unchanged. Lockfile-only 401e0cf4069a does not change the listed pin."
-    },
-    {
-      "title": "AirKyzzZ/hermes-superagent",
-      "url": "https://github.com/AirKyzzZ/hermes-superagent",
-      "change": "Tip ccf83a2ea38a at 2026-11-06T14:59:16Z adds the offline task-list scene. cd8c0659645c at 14:50:03Z files new ledger items with triage rules. Badge on that tip is 540. Dogfood Briefs and Tracking rows were not rewritten. pushed_at 15:10:39Z is not a newer commit."
-    },
-    {
-      "title": "huanlin-labs/superagent-github-mock",
-      "url": "https://github.com/huanlin-labs/superagent-github-mock",
-      "change": "Tip 172157239dff at 2026-11-06T15:12:58Z is private 0.1.1. A bare gh shim prints gh api usage and exits 2; -h and --help exit 0. The test workflow succeeded on this sha."
+      "change": "Tip 97b42344c4a9 at 2026-11-06T15:43:26Z, missed by the 15:44Z stamp that stopped at 7b58015d072c. The GitHub setup step accepts '*'. An empty token list, or a configured empty selection, rehydrates as '*'. Next advances when status is validated, '*' is selected, and an operator is set. Still 0.1.1. Admission files were not in the commit."
     }
   ],
   "pending": [
@@ -1966,15 +1951,51 @@
       "url": "https://github.com/yy1844/dsh-superagent-playground",
       "confidence": 0.2,
       "reason": "yy1844/dsh-superagent-playground pushed 2026-11-06T15:41:51Z is a sandbox. lonniehz/superagent-sandbox pushed 15:39:01Z is a sandbox. aslongyouloveme/dsh-mp-a and dsh-mp-b are test repos. ikkeflikkeri/software-factory remains a target workspace. tkj-dsh/superagent-playground was a notes edit. Not listed."
+    },
+    {
+      "title": "Harness discussions #12477-#12482",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12482",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-06T15:47:43Z through 16:10:24Z. #12477 is a landlock warning on Apple silicon. #12478 is a Windows updater path. #12479 is a Chinese duration label. #12480 asks for .svelte uploads. #12481 is standard and whalechan failing because list-agents never starts. #12482 asks to bump pi-ai from 1.3.0 to 1.5.0. Bodies do not describe the prototype bundle. Newest discussion checked is #12482."
+    },
+    {
+      "title": "MYCF711 0.10.1",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/58fca5fb1155",
+      "confidence": 0.74,
+      "reason": "npm dsh-session-superagent 0.10.1 at 2026-11-06T16:09:49.089Z. Tip 58fca5fb1155 at 16:03:42Z. 9b6f12b752b6 at 15:53:24Z adds brandName, defaultAckLabel, and defaultAckLabelGitee. The changelog says the defaults match 0.10.0 and an existing watcher ackLabel is not overwritten. The author records 689/689, UI 11/11, and Chromium 47/47. The listed sentence still ends at 0.9.272. Not rewritten."
+    },
+    {
+      "title": "suyuandsh/superagent-clone-installer",
+      "url": "https://github.com/suyuandsh/superagent-clone-installer",
+      "confidence": 0.55,
+      "reason": "Created 2026-11-06T16:14:18Z. One commit 7978891d7ac4 extracts a vendored dsh-superagent-src.tar.gz, builds it, writes a superagent profile on 127.0.0.1:3083, and runs dsh plugin --profile superagent add. The script also runs apt-get and dsh superagent --from-default-profile web. Not checked against docs/006. Not listed."
+    },
+    {
+      "title": "RechargedIdeas/organism lint ratchet",
+      "url": "https://github.com/RechargedIdeas/organism/commit/094eca2a4084",
+      "confidence": 0.7,
+      "reason": "Tip 094eca2a4084 at 2026-11-06T15:55:50Z merges fix/lint-ratchet-main. The files are ruff and mypy expectation edits under sdk/python. The listed sentence still ends at the 2026-11-05 work-executor tip 9235027d7026. Not rewritten."
+    },
+    {
+      "title": "billLiao/awesome-dsh-plugin sync",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/408d360de470",
+      "confidence": 0.4,
+      "reason": "Tip 408d360de470 at 2026-11-06T16:01:41Z is Sync 2026-11-07T00:01. It refreshes the topic catalog. The listed sentence already points readers at the curated list. Not rewritten."
+    },
+    {
+      "title": "in-window sandboxes after 15:44",
+      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
+      "confidence": 0.2,
+      "reason": "VBK-AI-Agent-Gateway/superagent-playground pushed 2026-11-06T16:34:02Z and describes a trial repo. szsm6666/agent-workspace pushed 16:24:08Z and describes a workbench. lele169/superagent was created 15:53:55Z with description 无. Not listed."
     }
   ],
   "rejected_this_run": [
-    "Harness discussions #12463-#12476 do not describe the prototype bundle.",
-    "MYCF711 0.10.0 does not change the listed watcher sentence, which still ends at 0.9.272.",
-    "hongyaok/hermes-SuperAgent stays pending: the assessor is not the prototype admission table, and the name matches the listed Hermes plugin.",
-    "prgrmrwy/ohmysa stays unlisted: private 0.1.0, no LICENSE, still pins dsh 0.2.1-rc.5.",
-    "Sandbox, test, and ticket-workspace repositories in the window were not listed.",
-    "Unscoped npm package dsh-superagent is still 404."
+    "Harness discussions #12477-#12482 do not describe the prototype bundle.",
+    "MYCF711 0.10.1 does not change the listed watcher sentence, which still ends at 0.9.272.",
+    "suyuandsh/superagent-clone-installer stays pending: vendored tarball plus install commands that were not checked against docs/006.",
+    "RechargedIdeas/organism tip 094eca2a4084 is a lint ratchet and does not change the listed sentence.",
+    "billLiao/awesome-dsh-plugin 408d360de470 is a catalog sync.",
+    "Sandbox and empty repositories in the window were not listed."
   ],
   "held_on_other_branches": [
     "hhse/dsh-superagent-setup (PR #15 closed unmerged at 2026-11-02T13:16:10Z). Do not copy.",
@@ -2039,8 +2060,11 @@
     "pingdotgg/t3code pushed_at 2026-11-06T14:26:33Z. Default main is still 6577c6b61851. hextor-ndc/superagent did not move. Do not rewrite the listed sentence.",
     "MosBot-AI/hermes-superagent pushed_at 2026-11-06T14:12:25Z. Default main is still 287bcd537f86, committed 2026-11-06T12:59:16Z. Do not list it.",
     "MosBot-AI/hermes-superagent pushed_at 2026-11-06T15:37:00Z. Default main is still 287bcd537f86, committed 2026-11-06T12:59:16Z. Do not list the side branch.",
-    "AirKyzzZ/hermes-superagent pushed_at 2026-11-06T15:10:39Z. Default main is ccf83a2ea38a at 2026-11-06T14:59:16Z. The triage rules and the offline task-list scene are on the default branch and in the listed sentence."
+    "AirKyzzZ/hermes-superagent pushed_at 2026-11-06T15:10:39Z. Default main is ccf83a2ea38a at 2026-11-06T14:59:16Z. The triage rules and the offline task-list scene are on the default branch and in the listed sentence.",
+    "MosBot-AI/hermes-superagent pushed_at 2026-11-06T16:11:14Z. Default main is still 287bcd537f863e, committed 2026-11-06T12:59:16Z. Do not list feat/e0-native-plugin-foundation.",
+    "pingdotgg/t3code pushed_at 2026-11-06T16:18:56Z. Default main is still 6577c6b61851. hextor-ndc/superagent did not move. Do not rewrite the listed sentence.",
+    "szmdshagent/dsh-superagent-plugins pushed_at 2026-11-06T16:32:43Z. Default main is still 364a1ed46c0c. Do not rewrite the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is still 1.2.1 (2026-11-06T13:15:28.519Z). dsh-session-superagent npm is 0.10.0 (2026-11-06T15:09:09.947Z); the listed sentence still ends at 0.9.272. @samanhappy/dsh-superagent 0.1.0 was published 2026-11-06T14:36:01.067Z. The unscoped name dsh-superagent returned 404. @nemotte/pi-superagent was not rechecked this window."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is still 1.2.1 (2026-11-06T13:15:28.519Z). dsh-session-superagent npm is 0.10.1 (2026-11-06T16:09:49.089Z); the listed sentence still ends at 0.9.272. @samanhappy/dsh-superagent 0.1.0 was published 2026-11-06T14:36:01.067Z. The unscoped name dsh-superagent returned 404. Prototype tip is still 8c32a9dc5d72. @nemotte/pi-superagent was not rechecked this window."
 }
