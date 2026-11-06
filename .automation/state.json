@@ -1,27 +1,32 @@
 {
-  "last_run_at": "2026-11-06T17:36:52Z",
+  "last_run_at": "2026-11-06T18:45:00Z",
   "timezone": "UTC",
-  "baseline_commit": "1b7c467",
+  "baseline_commit": "9e46bde",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-06T16:27:00Z",
-    "to": "2026-11-06T17:36:52Z"
+    "from": "2026-11-06T17:36:52Z",
+    "to": "2026-11-06T18:45:00Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "AirKyzzZ/hermes-superagent",
-      "url": "https://github.com/AirKyzzZ/hermes-superagent",
-      "change": "Tip 2fdb5e4b6b9e at 2026-11-06T17:09:16Z. 8d5c94eac877 nudges a foreground Claude Code session only when relaunch is on. d2bf8433f986 reads GitLab through glab from /. Badge on this tip reads 603. Dogfood Briefs and Tracking rows still say Missing. First live run is still unchecked."
-    },
-    {
       "title": "Meaple-SFKY/Super-Agent-Dsh-Plugin",
       "url": "https://github.com/Meaple-SFKY/Super-Agent-Dsh-Plugin",
-      "change": "Tip 9d0c69568ba9 at 2026-11-06T17:21:19Z. 0bbdcb7798f2 sets package.json to 0.2.0, still private. One person message resumes at most one ended ticket. gate.ts is outside the diff since 97b42344c4a9. The Telegram sanitizer keeps CJK filenames. The wildcard GitHub strings are still in the client. Acceptance note claims 600 tests; this run did not re-run them."
+      "change": "Tip c3dd85af42fb at 2026-11-06T18:01:53Z. 626e2e6198e0 at 17:58:06Z sets package.json and API_VERSION to 0.2.1. A configured Telegram or GitHub install opens on the summary (step 3, finish done). Reconfigure resets step 0. 0.2.2 adds Edit buttons that call onEditStep, but h(SetupView) does not pass onEditStep. gate.ts is outside the diff since 9d0c69568ba9. Still private. Not on npm."
+    },
+    {
+      "title": "vicfei/dsh-super-agent",
+      "url": "https://github.com/vicfei/dsh-super-agent",
+      "change": "Tip 312cdbcb5cbf at 2026-11-06T18:04:39Z. 6f9b176b24c3 at 13:35:18Z was missed by the 13:37Z stamp that still named f35193be6d75: the typing heartbeat runs before the long poll, and the abort branch keeps typingAt. --web serves wechat-login on 127.0.0.1, default port 8899. package.json and npm stay 1.2.1."
+    },
+    {
+      "title": "leolegends/carbon-superagent",
+      "url": "https://github.com/leolegends/carbon-superagent",
+      "change": "Tip 9ad31fa74576 at 2026-11-06T18:29:42Z merges 59f6e999d91e. useClaudeMemory defaults off. It reads Claude Code markdown memory for the repo, inlines a 24000-character budget, and copies the rest under .carbon/claude-memory, which info/exclude keeps out of commits. Package stays 0.2.0. observe is unchanged."
     }
   ],
   "pending": [
@@ -2010,13 +2015,59 @@
       "url": "https://github.com/pingdotgg/t3code",
       "confidence": 0.7,
       "reason": "t3code pushed_at 2026-11-06T17:26:07Z and the default tip is still 6577c6b61851. MosBot-AI/hermes-superagent pushed_at 17:26:41Z and main is still 287bcd537f86. szmdshagent/dsh-superagent-plugins pushed_at 16:32:43Z and main is still 364a1ed46c0c. Listed sentences were not rewritten."
+    },
+    {
+      "title": "Harness discussions #12487 and #12488",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12488",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-06T17:59:21Z and 18:20:52Z. #12487 is a Windows markdown link whose backslash escapes a dot, so the preview opens the wrong path. #12488 is desktop welcome failing after about 70 startups because dsh-auth cookies exceed the header limit (HTTP 431). Bodies do not describe the prototype bundle. Newest discussion checked is #12488."
+    },
+    {
+      "title": "MYCF711 docs cleanup",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/70862519e088",
+      "confidence": 0.74,
+      "reason": "Tip 70862519e088 at 2026-11-06T18:16:48Z merges docs/repo-cleanup. 9b5e3a859946 removes temp files and rearranges the README and icons. package.json is still 0.10.1. npm is still 0.10.1 (2026-11-06T16:09:49Z). The listed sentence still ends at 0.9.272. Not rewritten."
+    },
+    {
+      "title": "hcarsa-hub/dsh-superagent-lite",
+      "url": "https://github.com/hcarsa-hub/dsh-superagent-lite",
+      "confidence": 0.25,
+      "reason": "Created 2026-11-06T18:27:17Z. Tip fa9c3201c8a6 is an initial commit. The tree is LICENSE plus a README whose only line is the title. Not a bundle. Not listed."
+    },
+    {
+      "title": "whutlichao/superagent-plugin Orca design",
+      "url": "https://github.com/whutlichao/superagent-plugin/blob/main/docs/design/orca-superagent.md",
+      "confidence": 0.66,
+      "reason": "Tip 6af09cc04239 at 2026-11-06T17:58:57Z adds a design pinned to prototype 8c32a9d for an Orca 1.4.251 plugin. The document says the design is final and implementation tickets are not created yet. README is still a title. Not listed."
+    },
+    {
+      "title": "ceociocto/super-agent-demo",
+      "url": "https://github.com/ceociocto/super-agent-demo",
+      "confidence": 0.3,
+      "reason": "Created 2026-11-06T18:06:55Z. Tip 7b2b1017cc4f is a Colima console and an internal talk. The README says the code-fix path is a fixed drill, not a general coding agent, and it does not call a paid model by default. Not Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "empty and sandbox repos after 17:36",
+      "url": "https://github.com/imthegoodboy/SuperAgent",
+      "confidence": 0.2,
+      "reason": "imthegoodboy/SuperAgent was created 2026-11-06T18:01:35Z and is empty. niall289/superagent-test and lhysjsn/dsh-superagent-test describe themselves as sandboxes. ikkeflikkeri/software-factory tip cedc93debd66 is Google sign-in on a target workspace. Not listed."
+    },
+    {
+      "title": "tips that did not move after 17:36",
+      "url": "https://github.com/pingdotgg/t3code",
+      "confidence": 0.7,
+      "reason": "t3code pushed_at 2026-11-06T18:29:15Z and the default tip is still 6577c6b61851. MosBot-AI/hermes-superagent pushed_at 17:57:37Z and main is still 287bcd537f86. AirKyzzZ tip was already 2fdb5e4b6b9e at 17:09Z. Listed sentences were not rewritten."
     }
   ],
   "rejected_this_run": [
-    "Harness discussions #12483-#12486 do not describe the prototype bundle.",
-    "heventure/dsh-superagent-home is a photo target repository, not a bundle.",
-    "t3code, MosBot-AI, and szmdshagent pushes did not move their default tips.",
-    "No new list row. MYCF711 0.10.1, the organism lint tip, and the in-window sandboxes were already pending at 16:27Z."
+    "Harness discussions #12487 and #12488 do not describe the prototype bundle.",
+    "hcarsa-hub/dsh-superagent-lite is a title and a license.",
+    "whutlichao/superagent-plugin is a design with no implementation tickets.",
+    "ceociocto/super-agent-demo is a fixed Colima drill, not the prototype.",
+    "imthegoodboy/SuperAgent is empty. niall289 and lhysjsn are sandboxes. software-factory remains a target workspace.",
+    "MYCF711 70862519e088 is a docs cleanup. package.json and npm stay 0.10.1. The listed sentence still ends at 0.9.272.",
+    "t3code and MosBot-AI pushes did not move their default tips.",
+    "No new list row."
   ],
   "held_on_other_branches": [
     "hhse/dsh-superagent-setup (PR #15 closed unmerged at 2026-11-02T13:16:10Z). Do not copy.",
@@ -2084,8 +2135,10 @@
     "AirKyzzZ/hermes-superagent pushed_at 2026-11-06T15:10:39Z. Default main is ccf83a2ea38a at 2026-11-06T14:59:16Z. The triage rules and the offline task-list scene are on the default branch and in the listed sentence.",
     "MosBot-AI/hermes-superagent pushed_at 2026-11-06T16:11:14Z. Default main is still 287bcd537f863e, committed 2026-11-06T12:59:16Z. Do not list feat/e0-native-plugin-foundation.",
     "pingdotgg/t3code pushed_at 2026-11-06T16:18:56Z. Default main is still 6577c6b61851. hextor-ndc/superagent did not move. Do not rewrite the listed sentence.",
-    "szmdshagent/dsh-superagent-plugins pushed_at 2026-11-06T16:32:43Z. Default main is still 364a1ed46c0c. Do not rewrite the listed sentence."
+    "szmdshagent/dsh-superagent-plugins pushed_at 2026-11-06T16:32:43Z. Default main is still 364a1ed46c0c. Do not rewrite the listed sentence.",
+    "pingdotgg/t3code pushed_at 2026-11-06T18:29:15Z. Default main is still 6577c6b61851. hextor-ndc/superagent did not move. Do not rewrite the listed sentence.",
+    "MosBot-AI/hermes-superagent pushed_at 2026-11-06T17:57:37Z. Default main is still 287bcd537f86, committed 2026-11-06T12:59:16Z. Do not list the side branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is still 1.2.1 (2026-11-06T13:15:28.519Z). dsh-session-superagent npm is 0.10.1 (2026-11-06T16:09:49.089Z); the listed sentence still ends at 0.9.272. @samanhappy/dsh-superagent 0.1.0 was published 2026-11-06T14:36:01.067Z. The unscoped name dsh-superagent returned 404. Prototype tip is still 8c32a9dc5d72. @nemotte/pi-superagent is still 0.1.0-alpha.1 (2026-11-06T08:30:28.820Z)."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is still 1.2.1 (2026-11-06T13:15:28.519Z); tip 312cdbcb5cbf was not republished. dsh-session-superagent npm is 0.10.1 (2026-11-06T16:09:49.089Z); the listed sentence still ends at 0.9.272. @samanhappy/dsh-superagent 0.1.0 was published 2026-11-06T14:36:01.067Z. The unscoped name dsh-superagent returned 404. Prototype tip is still 8c32a9dc5d72. @nemotte/pi-superagent is still 0.1.0-alpha.1 (2026-11-06T08:30:28.820Z). Meaple package.json is private 0.2.2 and is not on npm."
 }
