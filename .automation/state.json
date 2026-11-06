@@ -1,56 +1,71 @@
 {
-  "last_run_at": "2026-11-06T10:40:11Z",
+  "last_run_at": "2026-11-06T11:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "6a90c2d",
+  "baseline_commit": "2660461",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-06T09:40:00Z",
-    "to": "2026-11-06T10:40:11Z"
+    "from": "2026-11-06T10:40:11Z",
+    "to": "2026-11-06T11:36:00Z"
   },
-  "added": [
-    {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "change": "Public 2026-11-06T10:06:28Z. Only commit cb45cc5f68c7. Local source calls decide(accept) in the same transaction. Shipped patch sets mode local and disables github-watch and feishu-watch. Not on npm."
-    },
-    {
-      "title": "Super Agent Harness architecture review",
-      "url": "https://github.com/ai-storage-agent/superagent/blob/main/harness-architecture-review.md",
-      "change": "67b056170a1f at 2026-11-06T10:13:51Z. Draft against 8c32a9d. The remote Worker Runtime is a proposal, not an implementation."
-    }
-  ],
+  "added": [],
   "updated": [
     {
-      "title": "gekailin/dsh-super-chat",
-      "url": "https://github.com/gekailin/dsh-super-chat",
-      "change": "Tip moved from 24849c309b14 to 6c5e7a038a93 at 2026-11-06T10:12:05Z. Changelog names topic eviction, SQLite quarantine, stop races, and WeChat origin checks. Those fixes were not re-read line by line. The pinned workspace sentence stays."
+      "title": "immars/dsh-superagent-prototype",
+      "url": "https://github.com/immars/dsh-superagent-prototype",
+      "change": "Default main moved from b27e9e72e0e4 to 89b84e97ea1e (committed 2026-11-06T10:35:57Z, pushed 11:08:31Z). 19 ahead of 8c32a9d, behind 0. Source status names an extra instance as kind title · label, or the instance id when the label is empty. The primary instance stays the kind title."
     },
     {
-      "title": "ForkbombEu/superagent",
-      "url": "https://github.com/ForkbombEu/superagent",
-      "change": "Tip d86d845c3fc2 at 2026-11-06T09:25:05Z. Claude review stores a fix plan and posts only the summary. Missed by the 09:40 stamp."
+      "title": "Meaple-SFKY/Super-Agent-Dsh-Plugin",
+      "url": "https://github.com/Meaple-SFKY/Super-Agent-Dsh-Plugin",
+      "change": "Tip 0ef075952c1b at 2026-11-06T11:30:25Z, 21 commits after cb8642eb2be4. Wildcard discovery caps at 200 and refreshes about every 10 minutes. 404/410 drops a discovered repo. A ready report ends the ticket. No LICENSE file."
     },
     {
-      "title": "Laixiaomin001/dshm-local-superagent",
-      "url": "https://github.com/Laixiaomin001/dshm-local-superagent",
-      "change": "Tip 0bcdba95902a at 2026-11-06T10:15:04Z replaces three plugins with seven xiaomin-* plugins. Still not Trigger, Mandate, or Ticket."
-    },
-    {
-      "title": "veragao0101-cmd/butler-skill",
-      "url": "https://github.com/veragao0101-cmd/butler-skill",
-      "change": "Tip 691682a3e5e2 at 2026-11-06T09:59:35Z. One status line per worker report, and an opt-in patrol cron."
-    },
-    {
-      "title": "Shuai-S/dsh-superagent-wechat",
-      "url": "https://github.com/Shuai-S/dsh-superagent-wechat",
-      "change": "Tip 413a91b464b9 at 2026-11-06T08:37:40Z was twenty seconds before the 08:38 stamp and still absent. Bind page listens on 127.0.0.1:26678. Admission unchanged."
+      "title": "wuzhiping/superagent",
+      "url": "https://github.com/wuzhiping/superagent",
+      "change": "Tip 4c5b17fb5d10 at 2026-11-06T11:04:58Z. 54 ahead of 6337fc8. 3385eb381239 and the tip only add the AIOS narrative deck. The PM gate is unchanged."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12435-#12446",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12446",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-06T10:41:12Z through 11:29:19Z. #12435 is workspace-write on pre-existing Windows directories. #12436 and #12437 are session and reply loss after 0.2.2-rc.1. #12438 is a macOS drag region. #12439 is two copies of one kernel package; the word prototype is the JavaScript prototype. #12440 is presetForSession. #12441 is a subagent parent-session error string. #12442-#12445 are fs observation, privilege text, ripgrep, and edit misses. #12446 is dsh-hmr on Windows; trigger means a reload. Bodies do not describe the prototype bundle. Newest discussion checked is #12446. Not listed."
+    },
+    {
+      "title": "MYCF711 0.9.283",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/a2e401d82583",
+      "confidence": 0.74,
+      "reason": "npm 0.9.283 at 2026-11-06T11:08:04Z. Tip a2e401d82583 at 11:02:54Z. Changelog heading is the pending save state machine: a newer draft is not overwritten, and success waits for a reread. The author says the real watcher write was not exercised. The listed sentence still ends at 0.9.272."
+    },
+    {
+      "title": "andrewngg/dsh-superagent-battlestar",
+      "url": "https://github.com/andrewngg/dsh-superagent-battlestar",
+      "confidence": 0.4,
+      "reason": "Tip af202a95aa48 at 2026-11-06T11:29:15Z is an APK file picker. ee4a91a4beb6 at 10:50:28Z is task threads and Hermes session reuse. The repository describes a multi-device butler, not Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "cg-dsh mirror push is not a new main tip",
+      "url": "https://github.com/cg-dsh/dsh-superagent-prototype",
+      "confidence": 0.7,
+      "reason": "pushed_at 2026-11-06T10:43:25Z. Default main is still dcd324844ad0, committed 2026-11-06T02:05:14Z, and the subject says it is a mirror. Not listed."
+    },
+    {
+      "title": "kadaliao/open-super-agent",
+      "url": "https://github.com/kadaliao/open-super-agent",
+      "confidence": 0.15,
+      "reason": "Tip 2d13a1f0caa2 at 2026-11-06T11:05:02Z gives each task its own browser window. The description is a Grok Bot alternative, not the DSH prototype bundle. Not listed."
+    },
+    {
+      "title": "dshsuperagent-oss/superagent-sandbox",
+      "url": "https://github.com/dshsuperagent-oss/superagent-sandbox",
+      "confidence": 0.15,
+      "reason": "pushed_at 2026-11-06T11:00:10Z. Default main is still a295066f0da7, committed 2026-11-06T02:26:15Z. The description calls it a repo sandbox. Not listed."
+    },
     {
       "title": "Harness discussions #12374-#12384",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12384",
@@ -1824,8 +1839,8 @@
   ],
   "rejected_this_run": [
     {
-      "title": "discussions after #12414, UI bumps, and unchanged tips",
-      "reason": "Discussions #12415-#12434 do not describe the prototype. MYCF711 0.9.282 does not change the watcher. Sandboxes were not listed. back1ply, Nemotte npm, and the Super Chat workspace fold were already on main at 6a90c2d and were not written twice. Official prototype is still 8c32a9d. npm @deepseek-ai/dsh latest and next remain 0.2.2-rc.1."
+      "title": "discussions after #12434, UI bumps, decks that are recorded, and non-default pushes",
+      "reason": "Discussions #12435-#12446 do not describe the prototype. MYCF711 0.9.283 does not change the watcher. Battlestar stays a device hub. cg-dsh is still a mirror. kadaliao is not the prototype. The sandbox stays out. szmdshagent pushed_at 11:23Z is a pull request, and main is still 364a1ed46c0c. pingdotgg/t3code tip 6577c6b61851 is a server memory change; hextor-ndc/superagent main is still 0dc3b4279c03. Official prototype is still 8c32a9d. npm @deepseek-ai/dsh latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3."
     }
   ],
   "held_on_other_branches": [
@@ -1881,8 +1896,10 @@
     "JACKWang19559/dsh-superagent-windows main is still f241022a67f5 (2026-11-04T02:43:35Z). pushed_at 2026-11-06T09:28:19Z is claude/competent-jones-3f6e5f. Do not list the branch.",
     "immars/dsh-superagent-prototype main is still b27e9e72e0e4 (2026-11-06T08:05:29Z). pushed_at 2026-11-06T10:30:55Z is not a new default-branch commit. Do not list other branches.",
     "waixv-superagent/dsh-superagent-prototype main is still 3ba7d77ebe02 (2026-11-06T06:53:38Z). pushed_at 2026-11-06T10:07:28Z is not a new default-branch commit.",
-    "pingdotgg/t3code tip c8267db9ac19 at 2026-11-06T10:33:20Z is sidebar drag scrolling. hextor-ndc/superagent did not move (main still 0dc3b4279c03). Do not rewrite the listed sentence."
+    "pingdotgg/t3code tip c8267db9ac19 at 2026-11-06T10:33:20Z is sidebar drag scrolling. hextor-ndc/superagent did not move (main still 0dc3b4279c03). Do not rewrite the listed sentence.",
+    "szmdshagent/dsh-superagent-plugins pushed_at 2026-11-06T11:23:34Z is a PullRequestEvent. Default main is still 364a1ed46c0c (2026-11-03T17:04:09Z). Do not rewrite the listed sentence.",
+    "pingdotgg/t3code tip 6577c6b61851 at 2026-11-06T11:11:59Z is a background service memory change. hextor-ndc/superagent did not move (main still 0dc3b4279c03). Do not rewrite the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.2.0. dsh-session-superagent npm is 0.9.282 (2026-11-06T10:23:46.656Z); the changelog is CollapsibleList and first-load validation and does not change the watcher. The listed sentence still ends at 0.9.272. dsh-super-chat is not on npm. @nemotte/pi-superagent 0.1.0-alpha.1 published 2026-11-06T08:30:28.820Z and @nemotte/pi-superagent-extension 0.1.0-alpha.1 published 2026-11-06T08:31:58.847Z. @missher/dsh-superagent is not on npm. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.2.0. dsh-session-superagent npm is 0.9.283 (2026-11-06T11:08:04.301Z); the changelog is the pending save state machine and does not change the watcher. The listed sentence still ends at 0.9.272. dsh-super-chat is not on npm. @nemotte/pi-superagent 0.1.0-alpha.1 and @nemotte/pi-superagent-extension 0.1.0-alpha.1 are unchanged. @missher/dsh-superagent is not on npm. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0."
 }
