@@ -1,29 +1,34 @@
 {
-  "last_run_at": "2026-11-06T21:41:13Z",
+  "last_run_at": "2026-11-06T22:38:03Z",
   "timezone": "UTC",
-  "baseline_commit": "3bf031c",
+  "baseline_commit": "102b9d8",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-06T20:32:13Z",
-    "to": "2026-11-06T21:41:13Z"
+    "from": "2026-11-06T21:41:13Z",
+    "to": "2026-11-06T22:38:03Z"
   },
-  "added": [
+  "added": [],
+  "updated": [
+    {
+      "title": "leolegends/carbon-superagent",
+      "url": "https://github.com/leolegends/carbon-superagent",
+      "change": "Tip 410adc1936ae at 2026-11-06T22:32:12Z. Cluster join trades a cjt_ token for a per-node cwk_ credential. multiAgent defaults off and only Claude gets the prompt. Package stays 0.2.0."
+    },
     {
       "title": "louifinn/dsh-superagent-further",
       "url": "https://github.com/louifinn/dsh-superagent-further",
-      "change": "13 ahead of 8c32a9d, tip ed1569ab60fc at 2026-11-06T21:28:57Z, pushed 21:30:38Z. Node service script, shutdown route, owner ACL, stdin replies, GitHub Source unbind. Private 0.1.0."
+      "change": "17 ahead of 8c32a9d, tip e26d0e025f0f at 2026-11-06T22:30:14Z. A held state-directory lock or session writer says which host to stop. The service script stops a launch that is already hosted."
     },
     {
       "title": "Javey-Li/dsh-superagent-prototype",
       "url": "https://github.com/Javey-Li/dsh-superagent-prototype",
-      "change": "18 ahead of 8c32a9d, tip 74ed9e96a0e0 at 2026-11-06T21:33:44Z. Live-thread Triggers skip Eval. whoSaid follows authority. T3 waiting follows the same thread and claimPull binds a summary PR."
+      "change": "24 ahead of 8c32a9d, tip 82ca78068258 at 2026-11-06T22:17:37Z. Failed tickets with no new input for 24 hours are reported dropped. Three blocked report prefixes keep following the same thread."
     }
   ],
-  "updated": [],
   "pending": [
     {
       "title": "Harness discussions #12491-#12494",
@@ -2136,15 +2141,41 @@
       "url": "https://github.com/pingdotgg/t3code",
       "confidence": 0.7,
       "reason": "t3code pushed_at 2026-11-06T18:29:15Z and the default tip is still 6577c6b61851. MosBot-AI/hermes-superagent pushed_at 17:57:37Z and main is still 287bcd537f86. AirKyzzZ tip was already 2fdb5e4b6b9e at 17:09Z. Listed sentences were not rewritten."
+    },
+    {
+      "title": "Harness discussions #12495 and #12496",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12496",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-06T21:52:13Z and 22:12:59Z. #12495 is Codex auto-review temperature. #12496 is a session log dropped from the workspace registry. Both have zero comments. Bodies do not describe the prototype bundle. Newest discussion checked is #12496."
+    },
+    {
+      "title": "buzhdiao/dsh-superagent-prototype comments",
+      "url": "https://github.com/buzhdiao/dsh-superagent-prototype",
+      "confidence": 0.62,
+      "reason": "2 ahead of 8c32a9d, tip 9506967e65cb at 2026-11-06T22:14:49Z comments 23 app files in Chinese. The 2026-11-05 doc_zh commit was outside this window. Comment accuracy was not reviewed. Not listed."
+    },
+    {
+      "title": "jonsutton86 feat/full-superagent-architecture",
+      "url": "https://github.com/jonsutton86/dsh-superagent-prototype",
+      "confidence": 0.55,
+      "reason": "main is still 8c32a9d. Branch feat/full-superagent-architecture tip 27382f57b77e at 2026-11-06T21:57:04Z adds src/supervision. Non-default branches stay off the list."
+    },
+    {
+      "title": "Jorge Turbica repo-of-the-day",
+      "url": "https://blog.jorgeturbica.dev/en/repo-of-the-day-dsh-superagent-deepseek-s-agent-that-turns-mentions-into-prs",
+      "confidence": 0.45,
+      "reason": "Page says 6 Nov 2026 and no hour. Install pins @deepseek-ai/dsh@0.2.1-rc.3. Outside a confirmed window, and the command is behind the listed npm tag. Not listed."
     }
   ],
   "rejected_this_run": [
-    "Harness discussions #12491-#12494 do not describe the prototype bundle.",
-    "MYCF711 0.10.4 drops a stale ETag. The listed sentence still ends at 0.9.272.",
-    "organism 3c4c2505ef40 is an NLP-CLI tool host. The listed admission sentence was not rewritten.",
-    "superagent-max 2b22706f9787 records CI for the already listed conversation repair.",
-    "t3code tip b90e554e0a94 at 21:09:15Z is macOS release CI. hextor-ndc/superagent did not move.",
-    "No new paper or official release in the window."
+    "Harness discussions #12495 and #12496 do not describe the prototype bundle.",
+    "jonsutton86 and kenny8zeng default branches are still 8c32a9d. Their other branches were not listed.",
+    "buzhdiao tip 9506967e65cb is Chinese line comments. Not listed.",
+    "codefufuai/codefufuai b1cefaa9656b only refreshes cards.",
+    "LYLStudio/super-agent-project is a generic CLI. paxxie2/super-agent-hephi-review does not mention dsh-superagent.",
+    "naspirator/max-superagent-lab is a test lab. halanyali26-agent/superagent-playground and lhysjsn/dsh-superagent-test are sandboxes.",
+    "SkillfulAgents/SuperAgent default tip is still aab0b769d1fb. pingdotgg/t3code default tip is still b90e554e0a94, so hextor was not rewritten.",
+    "npm latest and next remain 0.2.2-rc.1. dsh-session-superagent remains 0.10.4. The listed sentence still ends at 0.9.272."
   ],
   "held_on_other_branches": [
     "hhse/dsh-superagent-setup (PR #15 closed unmerged at 2026-11-02T13:16:10Z). Do not copy.",
@@ -2220,8 +2251,11 @@
     "SkillfulAgents/SuperAgent pushed_at 2026-11-06T19:52:18Z. Default main is still aab0b769d1fb at 2026-11-06T17:23:39Z. Do not list it as a DSH port.",
     "pingdotgg/t3code tip 40dc2910ea87 at 2026-11-06T20:27:56Z is a citation comment. hextor-ndc/superagent main is still 0dc3b4279c03. Do not rewrite the listed sentence.",
     "pingdotgg/t3code tip b90e554e0a942605c4de2d4ff5d4654caf998e27 at 2026-11-06T21:09:15Z is macOS release CI. hextor-ndc/superagent main is still 0dc3b4279c03. Do not rewrite the listed sentence.",
-    "SkillfulAgents/SuperAgent pushed_at 2026-11-06T21:38:15Z. Default main is still aab0b769d1fb at 2026-11-06T17:23:39Z. Do not list it as a DSH port."
+    "SkillfulAgents/SuperAgent pushed_at 2026-11-06T21:38:15Z. Default main is still aab0b769d1fb at 2026-11-06T17:23:39Z. Do not list it as a DSH port.",
+    "jonsutton86/dsh-superagent-prototype main is 8c32a9d. feat/full-superagent-architecture 27382f57b77e at 2026-11-06T21:57:04Z was not listed.",
+    "kenny8zeng/dsh-superagent-prototype main is 8c32a9d. agent/add-chinese-readme-619ee872b92d and agent/add-readme-line-8a0f3819e78d were not listed.",
+    "pingdotgg/t3code pushed_at 2026-11-06T22:24:04Z and the default tip is still b90e554e0a94 at 2026-11-06T21:09:15Z. hextor-ndc/superagent was not pushed. Do not rewrite the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is still 1.2.1 (2026-11-06T13:15:28.519Z); tip 5b33a716fe13 was not republished. dsh-session-superagent npm is 0.10.4 (2026-11-06T20:39:52.098Z); the listed sentence still ends at 0.9.272. @samanhappy/dsh-superagent 0.1.0 was published 2026-11-06T14:36:01.067Z. The unscoped name dsh-superagent returned 404. Prototype tip is still 8c32a9dc5d72. @nemotte/pi-superagent is still 0.1.0-alpha.1 (2026-11-06T08:30:28.820Z). Meaple package.json is private 0.3.0 and is not on npm. dsh-plugin-subagent-lite returned 404."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is still 1.2.1 (2026-11-06T13:15:28.519Z). dsh-session-superagent npm is still 0.10.4 (2026-11-06T20:39:52.098Z); the listed sentence still ends at 0.9.272. @samanhappy/dsh-superagent is still 0.1.0 (2026-11-06T14:36:01.067Z). The unscoped name dsh-superagent returned 404. Prototype tip is still 8c32a9dc5d72. @nemotte/pi-superagent is still 0.1.0-alpha.1 (2026-11-06T08:30:28.820Z). @nemotte/pi-superagent-extension is still 0.1.0-alpha.1 (2026-11-06T08:31:58.702Z)."
 }
