@@ -1,34 +1,45 @@
 {
-  "last_run_at": "2026-11-06T05:40:00Z",
+  "last_run_at": "2026-11-06T06:33:33Z",
   "timezone": "UTC",
-  "baseline_commit": "749ed94",
+  "baseline_commit": "cf45df7",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-06T04:38:45Z",
-    "to": "2026-11-06T05:40:00Z"
+    "from": "2026-11-06T05:40:00Z",
+    "to": "2026-11-06T06:33:33Z"
   },
   "added": [
     {
-      "title": "Nemotte/pi-superagent",
-      "url": "https://github.com/Nemotte/pi-superagent",
+      "title": "gekailin/dsh-super-chat",
+      "url": "https://github.com/gekailin/dsh-super-chat",
       "section": "衍生",
-      "note": "Pi SDK 1.5.0 port. Default observe. Listed addressed stays explicit in off. Assess records would_accept unless mode is auto. Tip d61bb3e05632 is fixture paths. Not on npm."
+      "note": "super-chat Source. Local actor is explicit. Tags are dispatch cues. Chat-only patches Setup.run in memory. Auto-tag fills empty labels only. Tip 999826d4c59f. Not on npm. engines ^0.2.1-rc.5."
+    },
+    {
+      "title": "Super-agent local test",
+      "url": "https://github.com/maruthiprithivi/superagent-local-test",
+      "section": "解读",
+      "note": "Five-task comparison kit: prototype router/worker versus one session with one subagent. Hidden tests score the PR. No published scores. Tip 11edcf1a59c6. MIT."
     }
   ],
   "updated": [
     {
       "title": "waixv-superagent/dsh-superagent-prototype",
       "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "change": "Tip cb2d8c344d23 at 2026-11-06T05:17:02Z. 603a515a25 counts only idle launches that left the queue and drops unstarted idle records; idle-held P2/P3 are not stall alerts. POST promote accepts only P0/P1 and can start a turn. POST priority changes the level and does not start a worker."
+      "change": "Tip ed68b30746df at 2026-11-06T06:06:49Z. Editor compile-and-launch targets, one host process, shared editor slot. policy.ts only adds the target list. Admission unchanged."
     },
     {
-      "title": "Super-agent 设计课",
-      "url": "https://github.com/aicoder2048/learn-super-agent",
-      "change": "Repo renamed from learn-deepseek-super-agent at 1e5c5996a4ed, 2026-11-06T05:31:35Z. README title and clone URL changed. Lesson text was not in that commit. The old URL 301s."
+      "title": "wuzhiping/superagent",
+      "url": "https://github.com/wuzhiping/superagent",
+      "change": "8f91b0520ed5 maps a post's Kanban login e-mail to kaneoUserId. Tip 4fe03366f0d2 is watch.bat and the kaneo-mcp skill text. Duty gate unchanged."
+    },
+    {
+      "title": "Nemotte/pi-superagent",
+      "url": "https://github.com/Nemotte/pi-superagent",
+      "change": "Tip 5ae620d96c6f records CI 42171893012 as portable-verified on Linux, macOS, and Windows. Admission unchanged. npm still unpublished."
     }
   ],
   "pending": [
@@ -1615,12 +1626,42 @@
       "url": "https://github.com/TianzeLuo/dsh-super-agent/commit/132031c79ca4",
       "confidence": 0.55,
       "reason": "Default master 132031c79ca4 at 2026-11-06T05:04:15Z scrolls the current tab into view and stops flex from clipping long text. Admission was not read against Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "Harness discussions #12389-#12395",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12395",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-06T05:36:47Z through 06:17:42Z. #12389 is a preStep filter crash and developer-role leak. #12390 asks for a session without a workspace. #12391 asks for a sidebar workspace header slot. #12392 is an updater ACL drop. #12393 is a custom preset export break after 0.2.2-rc.1. #12394 asks to add folders to a workspace. #12395 is an autocompact preset copy after upgrade. Bodies do not describe the prototype bundle. #12389 and #12390 fell inside the previous window after that scan. Newest discussion checked is #12395. Not listed."
+    },
+    {
+      "title": "MYCF711 0.9.277",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/f7697fb169f1",
+      "confidence": 0.74,
+      "reason": "npm dsh-session-superagent 0.9.277 published 2026-11-06T06:03:58Z. Tip f7697fb169f1 at 05:48:05Z native-izes buttons and records an Orbit/Modal pass. The changelog says the real DSH Web GUI and the watcher were not exercised. The listed sentence still ends at 0.9.272. Not rewritten."
+    },
+    {
+      "title": "aicoder2048 course skills config",
+      "url": "https://github.com/aicoder2048/learn-super-agent/commit/11ebed1d5ebd",
+      "confidence": 0.4,
+      "reason": "Tip 11ebed1d5ebd at 2026-11-06T05:58:47Z enables mattpocock-skills and records issue-tracker config. Lesson text was not in that commit. The listed sentence was not rewritten."
+    },
+    {
+      "title": "pingdotgg/t3code dictation and PR focus",
+      "url": "https://github.com/pingdotgg/t3code/commit/5c004fd08bd8",
+      "confidence": 0.45,
+      "reason": "Default main moved to 5c004fd08bd8 at 2026-11-06T06:27:32Z. In-window subjects are iPhone dictation and keeping PR generation on the change. hextor-ndc/superagent did not move (main still 0dc3b4279c03, pushed 2026-11-04T19:48:24Z). The listed sentence was not rewritten."
+    },
+    {
+      "title": "vHao11 push is still not the default tip",
+      "url": "https://github.com/vHao11/dsh-superagent/commit/1b4a9d1a4b26",
+      "confidence": 0.7,
+      "reason": "pushed_at is 2026-11-06T06:12:37Z. Default windows-adapt is still d189f20abbf0, committed 2026-11-05T13:20:18Z. Branch agent/engine-tasktype-impl-84aaf5bfb968 is 1b4a9d1a4b26 at 06:06:51Z and only adds fake ACP driver tests. Not listed."
     }
   ],
   "rejected_this_run": [
     {
-      "title": "in-window demos and general plugins",
-      "reason": "lizuqing/superagent-demo is empty. zheyuan671/dsh-superagent-demo is a test README. candyxiao9216/superagent-launch-desk stays a teaching desk. cenbonew/dsh-ctx-visualizer is a general Harness context viewer, not the prototype bundle."
+      "title": "in-window desks, sandboxes, and empty repos",
+      "reason": "candyxiao9216/superagent-release-desk is a teaching desk with a planted filter bug. 17746717517yjd-spec/deepseek-superagent is a two-line README. szsm6666/agent-workspace is empty. jiaojiao314/dsh-superagent-playground, tkj-dsh/superagent-playground, yy1844/dsh-superagent-playground, and BUSHIGENMENNI-Agent/playground are sandboxes. xhuc832/DshTryDemo2 is a demo. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -1672,5 +1713,5 @@
     "pingdotgg/t3code main is 2917f2846558 (2026-11-06T00:29:50Z). In-window commits are product UI. hextor-ndc/superagent did not move. Do not rewrite the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.2.0. dsh-session-superagent npm is 0.9.276 (2026-11-06T05:14:18.712Z); CHANGELOG says the watcher was not changed. The listed sentence still ends at 0.9.272."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.2.0. dsh-session-superagent npm is 0.9.277 (2026-11-06T06:03:58.796Z); the changelog says the watcher was not exercised. The listed sentence still ends at 0.9.272. dsh-super-chat is not on npm."
 }
