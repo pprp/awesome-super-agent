@@ -1,37 +1,27 @@
 {
-  "last_run_at": "2026-11-06T01:36:21Z",
+  "last_run_at": "2026-11-06T02:39:07Z",
   "timezone": "UTC",
-  "baseline_commit": "a395e4d",
+  "baseline_commit": "cad62fd",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-06T00:33:55Z",
-    "to": "2026-11-06T01:36:21Z"
+    "from": "2026-11-06T01:36:21Z",
+    "to": "2026-11-06T02:39:07Z"
   },
   "added": [],
   "updated": [
     {
       "title": "wuzhiping/superagent",
       "url": "https://github.com/wuzhiping/superagent",
-      "change": "Default main moved from ad8e06eb532c at 00:06:48Z to 5071ab13251b at 2026-11-06T01:15:22Z. Compare with 6337fc8 is 45 ahead. duties.md sits beside the charter. A duty: label is gated on accept (dutyUndefined / dutyUnsupported become ignore, no ticket). A resolved duty is pinned as a brief; orchestrator_read duty reads the spec. Author-recorded 9 duty tests, a 71-test focused run, and the shawoo/rsi_superagent trial were not re-run."
+      "change": "Default main moved from 5071ab13251b at 01:15:22Z to eccd363b79c1 at 2026-11-06T01:51:49Z. Compare with 6337fc8 is 47 ahead. 334d318a9bb3 at 01:43:15Z makes Gitea a charter carrier: the card is 宪章仓库, apply() runs charterHealth every 5 minutes, and the issue/PR poll loop is not started. Tickets take repositories from Kanban repo: labels. The post perspective disables Source cards (no enable switch, test button, or save bar). eccd363b79c1 only reprints SOP and STORY. Author-recorded 48 tests were not re-run."
     },
     {
-      "title": "zhangzihaoDT/dsh-superagent-mashang-service",
-      "url": "https://github.com/zhangzihaoDT/dsh-superagent-mashang-service",
-      "change": "2dd71e5b5ae1 at 00:53:55Z requires reply_to_trigger_id and reply_text together and stores answerTexts. orchestrator_reply purpose=answer must send that text or answerTextMismatch refuses it. 63bfc49427d4 at 01:05:34Z adds a local macOS business runtime window (sales-scheduler, data-pipeline, allupdate) that does not install a LaunchAgent. Author-recorded business_runtime tests were not re-run."
-    },
-    {
-      "title": "vicfei/dsh-super-agent",
-      "url": "https://github.com/vicfei/dsh-super-agent",
-      "change": "Default main moved to 0936fd63dd43 at 2026-11-06T00:51:39Z. The approval sweep treats an effect row approval-req:<ticket> as already asked, so several eligible tickets are not re-rendered after newest-wins supersedes the request row. Package and npm remain 1.2.0. The author tests were not re-run."
-    },
-    {
-      "title": "Yiminnn/agent-ops",
-      "url": "https://github.com/Yiminnn/agent-ops",
-      "change": "Default main moved from 5ca65fdc08d8 at 2026-11-05T01:41:40Z to 9bcae79d2a6f at 2026-11-06T01:10:25Z. Heartbeat step 3 sweeps Slack DMs, mentions, named people, and pending threads. heartbeat-local.md no longer holds a Read channels list. Still no LICENSE. Not re-run."
+      "title": "waixv-superagent/dsh-superagent-prototype",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
+      "change": "Default main moved from 4cb8827d3f57 at 2026-11-05T16:37:17Z to b54f49604633 at 2026-11-06T02:23:49Z. #90 (366abcc4db70) adds Unreal clangd/lldb scripts and does not change admission. #88 adds scripts/repro-ab.mjs: same probe on arm A and arm B, relations in ab.json, unknown fields refused, incomplete is exit 3. case.json stays the panel entry. prompts/work.md asks for the report when a before/after is measurable. Author tests were not re-run."
     }
   ],
   "pending": [
@@ -1366,13 +1356,67 @@
       "url": "https://github.com/tyler-jewell/dsh-plugins",
       "confidence": 0.7,
       "reason": "Public GitHub returned HTTP 404 for tyler-jewell/dsh-plugins and d4vid-le/SignalRoom at 2026-11-05T21:41Z. Search could not see either owner. The listed sentences were not rewritten and the rows were not removed."
+    },
+    {
+      "title": "Harness discussions #12360-#12365",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12365",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-06T01:37:03Z through 02:30:38Z, after the 01:36:21Z stamp that stopped at #12358. #12360 is --port 0 cookie growth and HTTP 431. #12361 is the Windows in-app updater still byte-identical to 0.2.1-rc.5. #12362 is undici's 10s connectTimeout; the only trigger hit is the English word. #12363 is deepseek-flash TRANSPORT on a long session. #12364 drops a user message before dispatch; trigger names a stale reasoningEffort. #12365 asks for a cross-session API and mentions SuperAgent only as in-session sub-agents that share a filesystem. Bodies do not mention the prototype, Mandate, Ticket, or 原型. Newest discussion checked is #12365. Not listed."
+    },
+    {
+      "title": "moonoops/dsh-super-agent-droy",
+      "url": "https://github.com/moonoops/dsh-super-agent-droy",
+      "confidence": 0.45,
+      "reason": "Created 2026-11-06T01:43:25Z, one commit ac664c0575ca at committer 01:33:08Z, pushed 01:43:35Z, message v0.1.0 sanitized local-first release. README says GitHub and Feishu webhooks were removed and Core4 plus Hindsight were added. package.json still describes optional GitHub and Feishu Sources, and src/sources still has github.ts and feishu.ts plus the feishu and github skills. Not listed."
+    },
+    {
+      "title": "cg-dsh/dsh-superagent-prototype mirror",
+      "url": "https://github.com/cg-dsh/dsh-superagent-prototype",
+      "confidence": 0.4,
+      "reason": "Created 2026-11-06T01:58:43Z. Description says it is a private mirror of the prototype. 015067b75aa1 at 01:58:37Z edits src/sources/github.ts to read notifications from before the polling cursor, plus package.json. dcd324844ad0 at 02:05:14Z only documents the mirror. Not listed."
+    },
+    {
+      "title": "RechargedIdeas/organism v1.11.0",
+      "url": "https://github.com/RechargedIdeas/organism/commit/bf956102ecfd",
+      "confidence": 0.55,
+      "reason": "Tip bf956102ecfd at 2026-11-06T02:30:19Z is release v1.11.0, OC-1 through OC-13 substrate fixes. The file list touches the organism SDK router, sandbox, and proto contracts. gate.py and organism_sdk/work are not in the commit. The listed sentence still ends at 9235027d7026. Not rewritten."
+    },
+    {
+      "title": "andrewngg/dsh-superagent-battlestar device toggle",
+      "url": "https://github.com/andrewngg/dsh-superagent-battlestar/commit/18bb9d3db5cb",
+      "confidence": 0.35,
+      "reason": "Default master moved to 18bb9d3db5cb at 2026-11-06T02:04:19Z. The commit adds a disable/enable device action in the hub UI. Still a device hub, not Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "pingdotgg/t3code reviewer menu",
+      "url": "https://github.com/pingdotgg/t3code/commit/c52df24d285a",
+      "confidence": 0.5,
+      "reason": "Default main moved to c52df24d285a at 2026-11-06T01:54:01Z. The commit searches the reviewer menu past the first page and keeps GitLab requested reviewers. hextor-ndc/superagent did not move (main still 0dc3b4279c03, pushed 2026-11-04T19:48:24Z). The listed sentence was not rewritten."
+    },
+    {
+      "title": "vHao11/dsh-superagent non-default push",
+      "url": "https://github.com/vHao11/dsh-superagent",
+      "confidence": 0.45,
+      "reason": "pushed_at 2026-11-06T01:48:39Z. Default windows-adapt is still d189f20abbf0 at 2026-11-05T13:20:18Z. The push was other branches. The listed sentence was not rewritten."
+    },
+    {
+      "title": "in-window sandboxes and demos",
+      "url": "https://github.com/lssmy/superagent-demo",
+      "confidence": 0.2,
+      "reason": "lssmy/superagent-demo was created 2026-11-06T01:51:01Z and says it is a demo playground. dshsuperagent-oss/superagent-sandbox pushed 2026-11-06T02:26:17Z and is a sandbox. diaojialong/superagent-sandbox pushed 2026-11-06T02:05:56Z and says it is a trial workspace. Not listed."
+    },
+    {
+      "title": "still-404 listed repos",
+      "url": "https://github.com/mycguo/tebra-superagent",
+      "confidence": 0.7,
+      "reason": "Public GitHub still returned not-found for mycguo/tebra-superagent, kohakushigure/llm-patent-batch-generator, yinhaox/bastion-3d, yinhaox/lanternfall, tyler-jewell/dsh-plugins, and d4vid-le/SignalRoom at 2026-11-06T02:35Z. The listed sentences were not rewritten and the rows were not removed."
     }
   ],
   "rejected_this_run": [
     {
       "title": "in-window noise",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.272. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12358. arXiv has no new dsh-superagent hit in this window. HN has no new story. dfy, the jipaige screenshot, BattleStar, Zcode2api, codefufuai, and t3code were not listed. tyler-jewell/dsh-plugins, mycguo/tebra-superagent, kohakushigure/llm-patent-batch-generator, yinhaox/bastion-3d, yinhaox/lanternfall, and d4vid-le/SignalRoom still return 404; rows were not removed. Cap remains 5; this run added 0 and updated 4."
+      "reason": "Prototype tip remains 8c32a9d (pushed_at 2026-11-03T09:29:14Z; updated_at during the run is metadata). npm latest, next, and alpha unchanged: 0.2.2-rc.1 / 0.2.2-rc.1 / 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0. dsh-session-superagent npm is 0.9.272. dsh-agent-lines remains 0.3.5. dsh-superagent-sources remains 0.1.0. dsh-superagent-dingtalk remains 0.1.1. Newest harness discussion is #12365. No arXiv or HN item in this window. Sandboxes, the cg-dsh mirror, moonoops (sources still include GitHub and Feishu), organism v1.11.0, BattleStar, t3code, and the vHao11 non-default push were not listed. Cap remains 5; this run added 0 and updated 2."
     }
   ],
   "held_on_other_branches": [
@@ -1424,5 +1468,5 @@
     "pingdotgg/t3code main is 2917f2846558 (2026-11-06T00:29:50Z). In-window commits are product UI. hextor-ndc/superagent did not move. Do not rewrite the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.272 (2026-11-05T17:37:36.354Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 4. Direct commit to main, no PR. Window 2026-11-06T00:33:55Z to 2026-11-06T01:36:21Z. Based on origin/main a395e4d. wuzhiping duties.md gate landed on default main. Mashang binds reply_text and adds a local business runtime window. vicfei asks each ticket once. agent-ops Slack step sweeps instead of a channel list."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; latest tag moved 2026-11-05T13:21:52.829Z). It does not satisfy prototype engines.dsh ^0.2.1-alpha.2, which still accepts 0.2.1-rc.5. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent is 1.2.0 (2026-11-05T14:37:18.931Z). dsh-session-superagent npm is 0.9.272 (2026-11-05T17:37:36.354Z). dsh-superagent-sources npm is still 0.1.0. dsh-agent-lines remains 0.3.5. dsh-superagent-dingtalk is 0.1.1. Prototype main tip is still 8c32a9d (pushed_at 2026-11-03T09:29:14Z). Cap remains 5; this run added 0 and updated 2. Direct commit to main, no PR. Window 2026-11-06T01:36:21Z to 2026-11-06T02:39:07Z. Based on origin/main cad62fd. wuzhiping Gitea is charter-only (47 ahead, eccd363b79c1). waixv tip b54f49604633 adds the repro A/B harness; #90 is UE clangd/lldb and does not change admission."
 }
