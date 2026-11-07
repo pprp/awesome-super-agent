@@ -1,38 +1,92 @@
 {
-  "last_run_at": "2026-11-07T04:36:36Z",
+  "last_run_at": "2026-11-07T05:40:00Z",
   "timezone": "UTC",
-  "baseline_commit": "472edb7",
+  "baseline_commit": "7765b02",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-07T03:38:00Z",
-    "to": "2026-11-07T04:36:36Z"
+    "from": "2026-11-07T04:36:36Z",
+    "to": "2026-11-07T05:40:00Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "Harness discussion #12524 Windows Desktop field report",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12524",
+      "note": "Created 2026-11-07T05:22:33Z, zero comments. /Users stateDir, GIT_CONFIG_NOSYSTEM, Feishu wrapper, self-mention. Fixes are not on 8c32a9d."
+    }
+  ],
   "updated": [
     {
-      "title": "wuzhiping/superagent",
-      "url": "https://github.com/wuzhiping/superagent",
-      "tip": "883bf3dc1312",
-      "note": "60 ahead of 6337fc8. New project starts with a PM post and a Worker post, both removable. Save checks project and unique post ids. 02:34Z only kept the post id focused."
+      "title": "JHOpenDev/dsh-superagent-inbox",
+      "url": "https://github.com/JHOpenDev/dsh-superagent-inbox",
+      "tip": "25e078c5e9b7",
+      "note": "0.2.0 at 04:38Z. Tool packages moved from peerDependencies to dependencies. Inbox behavior unchanged."
     },
     {
-      "title": "Javey-Li/dsh-superagent-prototype",
-      "url": "https://github.com/Javey-Li/dsh-superagent-prototype",
-      "tip": "eb82bb18828c",
-      "note": "32 ahead of 8c32a9d. PR #25 merged. Unconfigured Schedule no longer throws while resolving sources. gh-config is linked when the default path is absent. Commands reread the environment."
+      "title": "wangqiongkaka/dsh-superagent",
+      "url": "https://github.com/wangqiongkaka/dsh-superagent",
+      "tip": "7d671f4dac5e",
+      "note": "22 ahead. Shared memory default off. Feishu 2200 falls back to a plain text reply. Mobile CSS does not change admission."
     },
     {
-      "title": "vicfei/dsh-super-agent",
-      "url": "https://github.com/vicfei/dsh-super-agent",
-      "tip": "68b0d11348ab",
-      "note": "A stopped ticket is not resumed. Natural end still resumes. package.json and npm stay 1.2.1."
+      "title": "Meaple-SFKY/Super-Agent-Dsh-Plugin",
+      "url": "https://github.com/Meaple-SFKY/Super-Agent-Dsh-Plugin",
+      "tip": "9d4912557d08",
+      "note": "private 0.4.0. Native API 1.1.0 setup bridge and ticket search. gate.ts unchanged."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12519-#12529 except #12524",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12529",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-07T05:07:20Z through 05:29:22Z. #12519 is a composer draft while a send is in flight. #12520 is missing. #12521 is a PTC length crash. #12522, #12523, #12526, #12527, and #12529 repeat a session write-path title; #12529 body is Test body. #12525 is dsh-video-vision. #12528 is an OpenClaw Launch skill. None describe the prototype bundle. #12524 is listed. Newest discussion checked is #12529."
+    },
+    {
+      "title": "wish2333/dsh-superagent-wish",
+      "url": "https://github.com/wish2333/dsh-superagent-wish",
+      "confidence": 0.74,
+      "reason": "Created 2026-11-07T05:05:40Z, tip 92692639756c. A private 0.1.0 desktop preset named 总控. index.js injects a system prompt and docs/impl says it does not use the dsh-superagent service. Tickets are YAML files under ~/AI/workspace/tickets. The prompt points at spec files that are not in the published bundle. Not listed."
+    },
+    {
+      "title": "heventure methodology-router",
+      "url": "https://github.com/heventure/dsh-superagent-home/commit/962cab973aba",
+      "confidence": 0.4,
+      "reason": "Tip 962cab973aba at 2026-11-07T04:52:41Z merges PR #7, a general method-choice skill plus eval traces. It does not implement Trigger, Mandate, or Ticket. The home repository stays unlisted as a bundle."
+    },
+    {
+      "title": "imthegoodboy/SuperAgent",
+      "url": "https://github.com/imthegoodboy/SuperAgent/commit/5b6ebb022b45",
+      "confidence": 0.45,
+      "reason": "Tip 5b6ebb022b45 at 2026-11-07T05:29:42Z adds a local router for Claude Code, Codex, OpenCode, and Cursor. Source modes are mentions, all, and off, not the prototype table. README still says the full text lands with the desktop app. Not listed."
+    },
+    {
+      "title": "NelsonLongxiang next/0.8 PR #392",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/796cccc4852b",
+      "confidence": 0.7,
+      "reason": "next/0.8 tip 796cccc4852b at 2026-11-07T05:29:25Z merges PR #392, a shadow verify-probe. Default master is still bf9334d3bbfc at 04:26:03Z. Non-default branch. Not listed."
+    },
+    {
+      "title": "t3code service install fix",
+      "url": "https://github.com/pingdotgg/t3code/commit/33f85846be8b",
+      "confidence": 0.7,
+      "reason": "t3code default tip 33f85846be8b at 2026-11-07T05:15:07Z. hextor-ndc/superagent was not pushed. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Cowboy recovery notes and ETO delegate docs",
+      "url": "https://github.com/dravengarden/cowboy/commit/335d7a1dd5c5",
+      "confidence": 0.3,
+      "reason": "Cowboy tip 335d7a1dd5c5 at 2026-11-07T05:23:34Z records owned-open recovery. reoroy tip df8e38ed9466 at 05:25:10Z documents role sub-agents. Neither is the prototype bundle. Not listed."
+    },
+    {
+      "title": "playgrounds, practice, and empty repos in the window",
+      "url": "https://github.com/ashione/superagent-playground/commit/a3e0a6b8f5a9",
+      "confidence": 0.2,
+      "reason": "ashione tip a3e0a6b8f5a9 at 2026-11-07T04:49:11Z is still the RocksDB kernel. VBK default tip is still 45c3a20602a1. kuikuikuiup/superagent-practice2 tip 0c7f0457e74a is a practice kanban. zyy83693515/my-agent-xiaoxi, lujing0819/superagent_test, and webiangsir-superagent/Superagent-demo are empty or title-only. Not listed."
+    },
     {
       "title": "Harness discussions #12509-#12518",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12518",
@@ -2442,10 +2496,12 @@
   ],
   "rejected_this_run": [
     "Official prototype is still 8c32a9d. npm latest and next are still 0.2.2-rc.1. alpha is still 0.2.2-alpha.3.",
-    "dsh-session-superagent is still 0.10.4. dsh-superagent-inbox is still 0.1.1. @vicfei/dsh-super-agent is still 1.2.1. @samanhappy/dsh-superagent is still 0.1.0. @nemotte/pi-superagent is still 0.1.0-alpha.1.",
-    "No arXiv response in this run. The newest HN story for dsh-superagent is still 2026-11-02.",
-    "Harness discussions #12509-#12518 do not describe the prototype bundle.",
-    "Empty demos, the practice README, the red-black-tree test repo, the RocksDB kernel, the trial playground, the OpenViking glossary, the ETO provider, and the Cowboy IDE were not listed."
+    "dsh-session-superagent is still 0.10.4. @vicfei/dsh-super-agent is still 1.2.1. @samanhappy/dsh-superagent is still 0.1.0. @nemotte/pi-superagent is still 0.1.0-alpha.1. Unscoped dsh-superagent-inbox is 0.2.0.",
+    "wish2333/dsh-superagent-wish is a personal prompt preset and stays pending.",
+    "heventure methodology-router does not implement the prototype and stays unlisted.",
+    "imthegoodboy/SuperAgent does not use the prototype admission table.",
+    "NelsonLongxiang next/0.8 is not the default branch.",
+    "Sandbox, playground, demo, trial, and empty repositories were not listed."
   ],
   "held_on_other_branches": [
     "hhse/dsh-superagent-setup (PR #15 closed unmerged at 2026-11-02T13:16:10Z). Do not copy.",
@@ -2546,5 +2602,5 @@
     "heventure/dsh-superagent-home tip is still 7292fb2d478e. Do not list the home repository as a bundle."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.2.0 (registry time.modified 2026-11-07T04:38:55.934Z)."
 }
