@@ -1,57 +1,75 @@
 {
-  "last_run_at": "2026-11-07T19:40:00Z",
+  "last_run_at": "2026-11-07T20:36:40Z",
   "timezone": "UTC",
-  "baseline_commit": "3008d3f",
+  "baseline_commit": "f502c58",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-07T18:31:59Z",
-    "to": "2026-11-07T19:40:00Z"
+    "from": "2026-11-07T19:40:00Z",
+    "to": "2026-11-07T20:36:40Z"
   },
   "added": [
     {
-      "title": "maclavijo/superagent-toolkit",
-      "url": "https://github.com/maclavijo/superagent-toolkit",
-      "tip": "63a15597285c",
-      "note": "Created 2026-11-07T19:30:22Z. Only commit 63a15597285c at 19:30:21Z. stdio MCP ask/follow/tickets/status plus guard, queue, and an SSH sidebar. Assumes a local inbox and loopback panel, not the official GitHub Source. No license. Not on npm."
-    },
-    {
-      "title": "whutlichao/superagent-plugin",
-      "url": "https://github.com/whutlichao/superagent-plugin",
-      "tip": "7db5e70cf418",
-      "note": "Tip 7db5e70cf418 at 2026-11-07T18:37:26Z adds src. Design header still says awaiting to-tickets. Equivalence with 8c32a9d was not checked. Orca >=1.4.250, not DSH. MIT copyright line still says DeepSeek Harness Team."
-    },
-    {
-      "title": "ArtemKoval/lab dsh-superagent analysis",
-      "url": "https://github.com/ArtemKoval/lab/blob/main/reports/2026-11-07-issue-103-dsh-superagent-analysis.md",
-      "tip": "eb2b55e7d3bf",
-      "note": "Commit eb2b55e7d3bf at 2026-11-07T19:12:15Z adds one report against prototype 8c32a9d. Analysis only. Six port proposals are for that lab."
+      "title": "vivy-dsh/dsh-vivy-tone",
+      "url": "https://github.com/vivy-dsh/dsh-vivy-tone",
+      "tip": "954ca0c5e439",
+      "note": "Created 2026-11-07T19:51:57Z. Only commit 954ca0c5e439 at 19:33:46Z, pushed 19:52:02Z. Loopback PUT /orchestrator/api/prompts. Batch 1 only. Policy Chinese keeps the explicit-request exception. runtime/orchestrator adds a style list that is not in prompts/orchestrator.md at 8c32a9d. private 0.1.0. package.json says MIT. No LICENSE file. Not on npm."
     }
   ],
   "updated": [
     {
-      "title": "xiaoTN/dsh-superagent-connector",
-      "url": "https://github.com/xiaoTN/dsh-superagent-connector",
-      "tip": "c90067f2c14e",
-      "note": "main moved from ee5786075e01 to c90067f2c14e at 2026-11-07T18:29:53Z, pushed_at 18:32:39Z. Package 0.4.2. Native relay, durable outbox, interrupt only when execution.version is 1. Guard hash unchanged. Not re-added."
+      "title": "louifinn/dsh-superagent-further",
+      "url": "https://github.com/louifinn/dsh-superagent-further",
+      "tip": "d60c288fabf5",
+      "note": "51 ahead of 8c32a9d, 0 behind. GitHub card lists every watched repository. Lead session lead-<projectId> preset dsh-superagent-lead, still danger-full-access via ensure. orchestration defaults root. lead starts a spawn worker under the project Lead. Report summary can bind a PR in the ticket repository."
     },
     {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "tip": "9a41730d1a45",
-      "note": "57f5bb7312bb at 18:36:33Z is 1.3.1 read-only local/workbench. Tip 9a41730d1a45 at 19:02:41Z is the badge. engines.dsh stays ^0.2.1-rc.4. Release v1.3.1 at 18:42:16Z. Not on npm. 1.2.2 sync still not reread."
+      "title": "zhaoli2003/superagent-max",
+      "url": "https://github.com/zhaoli2003/superagent-max",
+      "tip": "af0cdda388f3",
+      "note": "a00b2d08feaf adapts standalone settings through upstream settingsPolicy. eventFilters defaults to []. src/policy.ts only moves an import. src/core is not in the diff. Tip af0cdda388f3 is CI and deployment notes. Package stays private superagent-max 0.1.0."
     },
     {
-      "title": "Missher12/Missher-DSH-Dashboard",
-      "url": "https://github.com/Missher12/Missher-DSH-Dashboard",
-      "tip": "c9f447dd0c2d",
-      "note": "9579f0ec57e3 at 18:37:34Z is 0.2.6 recorded tokens. Tip c9f447dd0c2d at 18:58:53Z is 0.2.7 list height. Ticket classification unchanged. Not on npm."
+      "title": "ArtemKoval/lab dsh-superagent analysis",
+      "url": "https://github.com/ArtemKoval/lab/blob/main/reports/2026-11-07-issue-103-dsh-superagent-analysis.md",
+      "tip": "65322037e8e3",
+      "note": "P1 proposal add-loop-lock-check and ADR 0013 for the lab process-issues loop. Not an upstream patch."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussion #12589",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12589",
+      "confidence": 0.84,
+      "reason": "Created 2026-11-07T19:34:25Z, after #12587 and inside the previous window, which stopped at #12587. #12588 does not exist. schemastery .volatile() makes validated values {}. Zero comments. The body does not describe Trigger, Mandate, or Ticket. Newest discussion checked is #12589."
+    },
+    {
+      "title": "maclavijo/superagent-toolkit is 404",
+      "url": "https://github.com/maclavijo/superagent-toolkit",
+      "confidence": 0.9,
+      "reason": "Listed from commit 63a15597285c at 19:30Z. At 20:33Z both the GitHub API and an unauthenticated HEAD returned 404. The row was not removed."
+    },
+    {
+      "title": "vivy-dsh siblings are not the prototype bundle",
+      "url": "https://github.com/vivy-dsh/dsh-vivy-studio",
+      "confidence": 0.7,
+      "reason": "Created around 2026-11-07T19:51Z with dsh-vivy-tone. The studio, skin manager, Live2D stage, mempalace, and SurfCore adapter are a persona shell. They were not listed. The tone plugin was listed separately."
+    },
+    {
+      "title": "tips that did not change a listed sentence after 19:40Z",
+      "url": "https://github.com/pingdotgg/t3code",
+      "confidence": 0.75,
+      "reason": "t3code pushed_at 2026-11-07T20:16:13Z and the default tip is still 25bf84ab07f5. hextor main is still 0dc3b4279c03. IHUI default tip c20e4a5797ff at 18:35:52Z is a SAG2 lexical search, before this window. imthegoodboy default tip is still 8f13067e56df at 15:54:00Z. SkillfulAgents tip d40bb339b638 is an agent-home redesign. Listed sentences were not rewritten."
+    },
+    {
+      "title": "general DSH plugins and non-bundle pushes after 19:40Z",
+      "url": "https://github.com/AJN-Tech/dsh-whatsapp",
+      "confidence": 0.35,
+      "reason": "AJN-Tech/dsh-whatsapp, wojiao42/dsh-approval-audit, wojiao42/dsh-plugin-market, BErrybearl/dsh-subagent-plus, klaus-2/dsh-redline tip at 20:23:55Z, cdsacdsa/superAgent tip 9c38d19c3f8e, ashione/superagent-playground, and jamestesting0/helio-superagent 57af4abad7f7 do not describe the prototype accept table. Not listed."
+    },
     {
       "title": "Harness discussion #12587",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12587",
@@ -3079,9 +3097,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "sandboxes, empty titles, and non-bundle pushes",
-      "url": "https://github.com/ycycc998/superagent-sandbox",
-      "reason": "The new sandbox, the empty Superagente repo, the agent-team sidebar, the Azure design note, and dsh-redline were not listed. IHUI, t3code, LofiSu, and 22-ai-00 did not change a listed super-agent sentence. No new dsh-superagent arXiv hit inside the hour."
+      "title": "playgrounds, skins, and general harness plugins",
+      "url": "https://github.com/ashione/superagent-playground",
+      "reason": "Playgrounds, the Dori privacy note, vivy persona skins, and general DSH plugins pushed after 19:40Z were not listed. No new dsh-superagent arXiv hit inside the hour. Discussion #12589 is schemastery, not the prototype."
     }
   ],
   "held_on_other_branches": [
@@ -3199,5 +3217,5 @@
     "AnEntrypoint/superagent tip a362f8e5d339 renames a skill. Do not list it as a DSH port."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @missher/dsh-dashboard, @missher/dsh-superagent, dsh-wecom-bridge, dsh-superagent-channels, dsh-superagent-connector, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-07T19:40:00Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T19:30:44Z is not a commit."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @missher/dsh-dashboard, @missher/dsh-superagent, dsh-wecom-bridge, dsh-superagent-channels, dsh-superagent-connector, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-07T20:36:40Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T20:21:59Z is not a commit."
 }
