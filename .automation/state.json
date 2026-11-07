@@ -1,32 +1,62 @@
 {
-  "last_run_at": "2026-11-07T21:42:00Z",
+  "last_run_at": "2026-11-07T22:33:27Z",
   "timezone": "UTC",
-  "baseline_commit": "0176b59",
+  "baseline_commit": "e9c958e",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-07T20:36:40Z",
-    "to": "2026-11-07T21:42:00Z"
+    "from": "2026-11-07T21:42:00Z",
+    "to": "2026-11-07T22:33:27Z"
   },
   "added": [],
   "updated": [
     {
       "title": "louifinn/dsh-superagent-further",
       "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "244e0c851170",
-      "note": "58 ahead of 8c32a9d. Tip 244e0c851170 at 2026-11-07T21:26:37Z. Lead retry wakes the existing child, a merged PR can bind and close in the same step, delivery goes through the Lead, and projectWorkers defaults to 2. Package stays private 0.2.0. Not re-added."
+      "tip": "c910d34d5c90",
+      "note": "66 ahead of 8c32a9d. Tip c910d34d5c90 at 2026-11-07T22:19:58Z. Overview Lead rows, read-only lead_status, delivered assignment records, Feishu environment uses the project repository, and the orchestration default stays root until P4. Package stays private 0.2.0. Not re-added."
     },
     {
       "title": "ArtemKoval/lab dsh-superagent analysis",
       "url": "https://github.com/ArtemKoval/lab/blob/main/reports/2026-11-07-issue-103-dsh-superagent-analysis.md",
-      "tip": "9c6d452633e6",
-      "note": "56a6b15745fe at 20:55:41Z lands the loop lock in this lab's process_issues. 623c5dfcb484 archives the openspec. 9c6d452633e6 at 21:27:38Z only proposes P2 status and a Singapore cron. Prototype code unchanged. Not re-added."
+      "tip": "69dfced0b35b",
+      "note": "10efb0cdd267 at 21:51:03Z lands P2 status in this lab process_issues. cd641281107c archives it. d2ea52e02938 ignores the harness cron state file. 69dfced0b35b at 22:16:04Z only proposes P3 admission. Prototype code unchanged. Not re-added."
     }
   ],
   "pending": [
+    {
+      "title": "carbon-coop UAT does not change the panel sentence",
+      "url": "https://github.com/leolegends/carbon-superagent/blob/main/docs/skills/carbon-coop.md",
+      "confidence": 0.74,
+      "reason": "Tip 36d4e5e80b4d at 2026-11-07T22:20:57Z. The status table records a VPS UAT: remote worker, branch returned, 4/4 tests. The intro still says the real-server run is pending. The skill still says it does not use the Carbon panel, pool, or CLI. Package stays 0.2.0. The 10 changed files are the skill and the landing page. The listed sentence was not rewritten."
+    },
+    {
+      "title": "awesome-dsh-plugin catalog is not the prototype",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "confidence": 0.45,
+      "reason": "Tip 38e2906c5a88 at 2026-11-07T21:57:44Z regenerates plugin rows for opencode routing, deepseek status, talk pages, elysia memory, and console sentinel. The listed sentence does not name a commit. It was not rewritten."
+    },
+    {
+      "title": "IHUI PR 182 is not the super-agent package",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/pull/182",
+      "confidence": 0.55,
+      "reason": "Opened 2026-11-07T22:10:54Z on cross-end-auto-42418936727 and still open. Ten files, none under super-agent. Default tip is still 89a5938f0c1e. The listed sentence was not rewritten."
+    },
+    {
+      "title": "codefufuai card refresh",
+      "url": "https://github.com/codefufuai/codefufuai",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-07T21:49:54Z. Commit 80c8c7313288 only refreshes README cards and contribution SVGs. It is a deployment workspace, not a new Source. Not listed."
+    },
+    {
+      "title": "Harness discussion still #12589",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12589",
+      "confidence": 0.4,
+      "reason": "Newest discussion is still #12589, created 2026-11-07T19:34:25Z. #12590 through #12596 are 404. #12589 is schemastery .volatile() and does not describe the prototype. No arXiv hit in the window. Prototype pushed_at is still 2026-11-03T09:29:14Z; updated_at 2026-11-07T22:30:53Z is not a commit."
+    },
     {
       "title": "RubenPanero quality fork outside the behavior window",
       "url": "https://github.com/RubenPanero/dsh-superagent-prototype",
@@ -3121,8 +3151,8 @@
   "rejected_this_run": [
     {
       "title": "sandboxes and general harness plugins",
-      "url": "https://github.com/niall289/superagent-test",
-      "reason": "Sandboxes and general DSH plugins pushed after 20:36Z were not listed. No new dsh-superagent arXiv hit inside the hour. Discussion #12589 is unchanged and is not the prototype."
+      "url": "https://github.com/ashione/superagent-playground",
+      "reason": "Sandboxes and general DSH plugins pushed after 21:42Z were not listed, including ashione/superagent-playground, BErrybearl/dsh-subagent-plus, jmflorent/dsh-swarm-jev, and YanzuoLu/dsh-wait-agent-input. No new dsh-superagent arXiv hit inside the hour. Discussion #12589 is unchanged and is not the prototype."
     }
   ],
   "held_on_other_branches": [
@@ -3240,5 +3270,5 @@
     "AnEntrypoint/superagent tip a362f8e5d339 renames a skill. Do not list it as a DSH port."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @missher/dsh-dashboard, @missher/dsh-superagent, dsh-wecom-bridge, dsh-superagent-channels, dsh-superagent-connector, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-07T21:42:00Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T21:31:05Z is not a commit."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @missher/dsh-dashboard, @missher/dsh-superagent, dsh-wecom-bridge, dsh-superagent-channels, dsh-superagent-connector, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-07T22:33:27Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T22:30:53Z is not a commit."
 }
