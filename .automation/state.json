@@ -1,32 +1,68 @@
 {
-  "last_run_at": "2026-11-07T16:32:55Z",
+  "last_run_at": "2026-11-07T17:38:26Z",
   "timezone": "UTC",
-  "baseline_commit": "f307d22",
+  "baseline_commit": "43f47f4",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-07T15:35:23Z",
-    "to": "2026-11-07T16:32:55Z"
+    "from": "2026-11-07T16:32:55Z",
+    "to": "2026-11-07T17:38:26Z"
   },
   "added": [
     {
-      "title": "baojingyu/dsh-superagent-channels",
-      "url": "https://github.com/baojingyu/dsh-superagent-channels",
-      "tip": "26abb3bed78c",
-      "note": "Created 2026-11-07T16:00:40Z. 39 ahead of 8c32a9d and 0 behind, 94 files in the compare. Tip 26abb3bed78c at 16:02:45Z. GitHub watch stays on. Feishu, Weixin, GitLab, Yunxiao Projex, DingTalk, and WeCom default disabled. Many instances per kind. WeCom is an encrypted callback with idempotency none. package.json remains private dsh-superagent 0.1.0. engines.dsh stays ^0.2.1-alpha.2. Not on npm. MIT. Author test counts were not rerun. No Actions runs."
-    },
-    {
-      "title": "FrankHeee/dsh-wecom-bridge",
-      "url": "https://github.com/FrankHeee/dsh-wecom-bridge",
-      "tip": "fa87063624f5",
-      "note": "Created 2026-11-07T16:12:14Z. Tip fa87063624f5 at 16:12:59Z. Long-connection WeCom Source registers on orchestrator. Group triggers are not marked mention. Title-refiner apply is not a tsdown entry. engines.dsh ^0.2.1-alpha.2 and cordis 4.0.5-alpha.1 do not match 0.2.2-rc.1. private 0.1.0. Not on npm. MIT. No Actions. Not run here."
+      "title": "Missher12/Missher-DSH-Dashboard",
+      "url": "https://github.com/Missher12/Missher-DSH-Dashboard",
+      "tip": "3361c48dc97a",
+      "note": "Created 2026-11-07T17:25:25Z. Only commit 3361c48dc97a at 17:31:50Z publishes private @missher/dsh-dashboard 0.2.4. Not on npm. No engines.dsh. Dev deps and README pin 0.2.1-rc.4. Reads loopback /orchestrator/api/tickets for open and ended. Superagent rows are tickets or the worker/router presets. MIT, copyright Missher."
     }
   ],
   "updated": [],
   "pending": [
+    {
+      "title": "Harness discussion #12581",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12581",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-07T16:38:08Z, after #12580. Memory exhaustion from high-frequency dsh-subprocess git scans on dsh 0.2.2-rc.1. Zero comments. The body does not describe Trigger, Mandate, or Ticket. Newest discussion checked is #12581."
+    },
+    {
+      "title": "wish2333 Secretary session fix",
+      "url": "https://github.com/wish2333/dsh-superagent-wish/commit/faab0a681ac5",
+      "confidence": 0.72,
+      "reason": "Tip faab0a681ac5 at 2026-11-07T17:16:03Z, plus 2dc580a46c5d at 17:12:44Z. Both only change index.js, secretary.js, and secretary tests so a desktop Partner preset actually creates a Secretary session. Partner, Secretary, and Worker remain desktop presets. Not listed."
+    },
+    {
+      "title": "Missher test-only refresh",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent/commit/48beb763fc4a",
+      "confidence": 0.85,
+      "reason": "Tip 48beb763fc4a at 2026-11-07T16:41:45Z edits tests/registry.spec.ts and tests/sources.spec.ts only. The listed sentence still ends at 1.0.0. Not rewritten."
+    },
+    {
+      "title": "learn-super-agent snapshot skip",
+      "url": "https://github.com/aicoder2048/learn-super-agent/commit/a76722342159",
+      "confidence": 0.84,
+      "reason": "Tip a76722342159 at 2026-11-07T16:55:12Z only changes the courseware launcher and source checker. A zip checkout is unchecked instead of showing a false source-changed banner. Lesson pages are not in the commit. The listed sentence was not rewritten."
+    },
+    {
+      "title": "xiaoTN task-board design branch",
+      "url": "https://github.com/xiaoTN/dsh-superagent-connector/commit/77081f7944a6",
+      "confidence": 0.7,
+      "reason": "pushed_at 2026-11-07T17:21:13Z. Default main is still ee5786075e01. Branch agent/task-board-design-5ff74a0c3a6b tip 77081f7944a6 only refreshes docs/task-board-design.md. Non-default branches stay off the list."
+    },
+    {
+      "title": "runawayhorse001/dsh_super_agents",
+      "url": "https://github.com/runawayhorse001/dsh_super_agents",
+      "confidence": 0.4,
+      "reason": "Created 2026-11-07T17:10:15Z. Tip e904a159e1e5 at 17:31:11Z is a 69-byte README calling it an experimental DSH Super Agents repo. No license and no code. Not listed."
+    },
+    {
+      "title": "cdsacdsa/superAgent design note",
+      "url": "https://github.com/cdsacdsa/superAgent",
+      "confidence": 0.35,
+      "reason": "Created 2026-11-07T17:12:00Z. Default branch claude/wonderful-volta-89556v tip 46eda614191d at 17:27:35Z is a design plan. It does not describe the prototype bundle. Not listed."
+    },
     {
       "title": "Harness discussions #12578-#12580",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12580",
@@ -2934,9 +2970,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "sandboxes and non-bundle pushes",
-      "url": "https://github.com/medalxuexi-ai/dsh-demo",
-      "reason": "Demo, playground, and backup repositories were not listed. wish2333 still does not implement the prototype accept table. Harness #12578-#12580 do not describe Trigger, Mandate, or Ticket. learn-super-agent and billLiao commits do not change the listed sentences. Hourly window only."
+      "title": "side pushes and non-bundle repos",
+      "url": "https://github.com/ashione/superagent-playground",
+      "reason": "Playgrounds, dori, 8sync, Orneyfish, t3code's mobile empty state, and general DSH plugins were not listed. hextor main is still 0dc3b4279c03. IHUI, LofiSu, lanshi17, NelsonLongxiang, imthegoodboy, and MosBot pushed_at moved without a new default-branch commit. No arXiv hit. Hourly window only."
     }
   ],
   "held_on_other_branches": [
@@ -3054,5 +3090,5 @@
     "AnEntrypoint/superagent tip a362f8e5d339 renames a skill. Do not list it as a DSH port."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. gh-gitlab and dsh-ticket-timeline are not on npm. Rechecked 2026-11-07T15:35:23Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T15:29:16Z is not a commit. Rechecked 2026-11-07T16:31Z: latest and next still 0.2.2-rc.1, alpha still 0.2.2-alpha.3, registry modified still 2026-11-05T13:21:52.829Z. dsh-wecom-bridge, dsh-superagent-channels, and unscoped dsh-superagent are not on npm."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @missher/dsh-dashboard, dsh-wecom-bridge, dsh-superagent-channels, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-07T17:38:26Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T17:31:53Z is not a commit."
 }
