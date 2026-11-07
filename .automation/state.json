@@ -1,26 +1,62 @@
 {
-  "last_run_at": "2026-11-07T17:38:26Z",
+  "last_run_at": "2026-11-07T18:31:59Z",
   "timezone": "UTC",
-  "baseline_commit": "43f47f4",
+  "baseline_commit": "84fa6e7",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-07T16:32:55Z",
-    "to": "2026-11-07T17:38:26Z"
+    "from": "2026-11-07T17:38:26Z",
+    "to": "2026-11-07T18:31:59Z"
   },
-  "added": [
+  "added": [],
+  "updated": [
     {
-      "title": "Missher12/Missher-DSH-Dashboard",
-      "url": "https://github.com/Missher12/Missher-DSH-Dashboard",
-      "tip": "3361c48dc97a",
-      "note": "Created 2026-11-07T17:25:25Z. Only commit 3361c48dc97a at 17:31:50Z publishes private @missher/dsh-dashboard 0.2.4. Not on npm. No engines.dsh. Dev deps and README pin 0.2.1-rc.4. Reads loopback /orchestrator/api/tickets for open and ended. Superagent rows are tickets or the worker/router presets. MIT, copyright Missher."
+      "title": "baojingyu/dsh-superagent-channels",
+      "url": "https://github.com/baojingyu/dsh-superagent-channels",
+      "tip": "c516fa6ee1d9",
+      "note": "42 ahead of 8c32a9d, 0 behind, 105 files. 38bc4e06a1eb at 17:42:37Z vendors sidecar/wxauto-bridge. 49ceacc423cd at 18:13:27Z adds timeoutSeconds default 30. Tip c516fa6ee1d9 at 18:16:41Z warms /rooms. No Actions. Not re-added."
     }
   ],
-  "updated": [],
   "pending": [
+    {
+      "title": "Harness discussions #12582-#12586",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12586",
+      "confidence": 0.82,
+      "reason": "Created 2026-11-07T17:42:32Z through 18:16:54Z, after #12581. #12582 is CUA ELECTRON_RUN_AS_NODE. #12583 is klaus-2/dsh-redline, a harness-browser review plugin. #12584 is an assistant/message context leak. #12585 and #12586 are the desktop dsh-auth cookie 431. Bodies do not describe Trigger, Mandate, or Ticket. Newest discussion checked is #12586. #12586 has one comment."
+    },
+    {
+      "title": "wish2333 file-source dispatch",
+      "url": "https://github.com/wish2333/dsh-superagent-wish/commit/209fc1e6f869",
+      "confidence": 0.74,
+      "reason": "Tip 209fc1e6f869 at 2026-11-07T17:55:36Z. 20a36d29b715 at 17:35:44Z starts the file source from apply() because the sources preset is never selected, resolves the live Partner agent before dispatch, refreshes Secretary rules on policy save, and creates the unit directory on every delivery. README still describes Partner, Secretary, and Worker presets and working units. policy.js uses its own mandate word and has no Trigger, Ticket, or off/observe/auto table. Not listed."
+    },
+    {
+      "title": "cdsacdsa Azure design note",
+      "url": "https://github.com/cdsacdsa/superAgent/commit/5e04115eca8c",
+      "confidence": 0.35,
+      "reason": "Default branch claude/wonderful-volta-89556v tip 5e04115eca8c at 2026-11-07T17:54:23Z adds Bicep and deployment docs. It still does not describe the prototype bundle. Not listed."
+    },
+    {
+      "title": "playgrounds and non-bundle pushes after 17:38Z",
+      "url": "https://github.com/wuxinxin303/superagent-lab",
+      "confidence": 0.3,
+      "reason": "wuxinxin303/superagent-lab was created 2026-11-07T18:02:20Z and calls itself a playground. Dylan997S/dylan-toys is three practice pages. ashione/superagent-playground, dsh-bot-2001/dsh-superagent-prototype, and niall289/superagent-test remain sandboxes. klaus-2/dsh-redline tip 2399a15c76f0 is the browser plugin in #12583. 8-Sync-Dev/8sync tip 8b2c0861d648 is release 0.140.1. 22-ai-00/dsh-enhanced default tip is still 3e16cc87f01e from 2026-10-27. Not listed."
+    },
+    {
+      "title": "tips that did not move after 17:38Z",
+      "url": "https://github.com/pingdotgg/t3code",
+      "confidence": 0.7,
+      "reason": "t3code pushed_at 2026-11-07T18:27:21Z and the default tip is still 25bf84ab07f5. hextor-ndc/superagent main is still 0dc3b4279c03. IHUI tip is still 895027a9d644. LofiSu tip is still e705e872796e. NelsonLongxiang master is still ed343c0b9ebf. Prototype pushed_at is still 2026-11-03T09:29:14Z; updated_at 2026-11-07T18:25:40Z is not a commit. Listed sentences were not rewritten."
+    },
+    {
+      "title": "dpsm anatomy outside the hourly window",
+      "url": "https://dpsm.github.io/agent-harness-anatomy/dsh-superagent/",
+      "confidence": 0.6,
+      "reason": "dpsm/agent-harness-anatomy pushed_at is 2026-11-06T01:13:57Z. The page is not in the list. Hourly window only, so it was not added. No arXiv hit."
+    },
     {
       "title": "Harness discussion #12581",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12581",
@@ -2971,8 +3007,8 @@
   "rejected_this_run": [
     {
       "title": "side pushes and non-bundle repos",
-      "url": "https://github.com/ashione/superagent-playground",
-      "reason": "Playgrounds, dori, 8sync, Orneyfish, t3code's mobile empty state, and general DSH plugins were not listed. hextor main is still 0dc3b4279c03. IHUI, LofiSu, lanshi17, NelsonLongxiang, imthegoodboy, and MosBot pushed_at moved without a new default-branch commit. No arXiv hit. Hourly window only."
+      "url": "https://github.com/wuxinxin303/superagent-lab",
+      "reason": "Playgrounds, sandboxes, dsh-redline, 8sync 0.140.1, and the Azure design note were not listed. t3code, hextor, IHUI, LofiSu, and NelsonLongxiang did not move their default tips. No arXiv hit. Hourly window only."
     }
   ],
   "held_on_other_branches": [
@@ -3090,5 +3126,5 @@
     "AnEntrypoint/superagent tip a362f8e5d339 renames a skill. Do not list it as a DSH port."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @missher/dsh-dashboard, dsh-wecom-bridge, dsh-superagent-channels, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-07T17:38:26Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T17:31:53Z is not a commit."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @missher/dsh-dashboard, dsh-wecom-bridge, dsh-superagent-channels, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-07T18:31:59Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T18:25:40Z is not a commit."
 }
