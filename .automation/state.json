@@ -1,44 +1,62 @@
 {
-  "last_run_at": "2026-11-07T06:33:07Z",
+  "last_run_at": "2026-11-07T07:39:41Z",
   "timezone": "UTC",
-  "baseline_commit": "0c5363c",
+  "baseline_commit": "973253a",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-07T05:40:00Z",
-    "to": "2026-11-07T06:33:07Z"
+    "from": "2026-11-07T06:33:07Z",
+    "to": "2026-11-07T07:39:41Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "deepsleepzzz0211/dsh-superagent-windows",
+      "url": "https://github.com/deepsleepzzz0211/dsh-superagent-windows",
+      "note": "Created 2026-11-07T06:44:59Z. Tip 5d0c271d00a6 at 07:30:39Z. win32 worker-gitconfig adds sslBackend=schannel and schannelCheckRevoke=false. wrappers/lark-bot/larkbot.c. private dsh-superagent 0.2.0. engines.dsh still ^0.2.1-alpha.2. Same author as discussion #12524. Not on upstream 8c32a9d."
+    }
+  ],
   "updated": [
     {
       "title": "vicfei/dsh-super-agent",
       "url": "https://github.com/vicfei/dsh-super-agent",
-      "tip": "035b2104eecf",
-      "note": "Routine catch-up is 24 slots of that routine's cadence. Daily still covers about 7 days. Hourly replays at most a day. Every-minute replays at most 24 minutes. package.json and npm stay 1.2.1."
-    },
-    {
-      "title": "crazykeybd/nuclear-dev-kit",
-      "url": "https://github.com/crazykeybd/nuclear-dev-kit",
-      "tip": "1ee659865ac5",
-      "note": "PR #13. The main Session is the chief agent and does no stage. Seven stage agents. One ticket works one stage. A failed gate returns nuclearctl errors and records nothing."
-    },
-    {
-      "title": "Meaple-SFKY/Super-Agent-Dsh-Plugin",
-      "url": "https://github.com/Meaple-SFKY/Super-Agent-Dsh-Plugin",
-      "tip": "d165d6b7b731",
-      "note": "private 0.4.1. Config edits leave the inherited HMR transaction. A live save rotates the native endpoint and restarts the plugin. gate.ts unchanged. Still 638 tests. Not on npm."
+      "tip": "17fd38b9bf82",
+      "note": "#100 ops thread replies to a lone ? or ？ with a status card. #101 dsh stats is a read over gate, ticket, approval, and routine counts. #102 renders durations as s/m/h. package.json and npm stay 1.2.1."
     },
     {
       "title": "zhaoli2003/superagent-max",
       "url": "https://github.com/zhaoli2003/superagent-max",
-      "tip": "054ea5bacafb",
-      "note": "ae82ab5cfc4e restores attach. A new root message stays a new Thread. The host checks the explicit request, config version, same user and chat, then engine.attach. src/core unchanged. Package stays private 0.1.0."
+      "tip": "4ad871ce5d24",
+      "note": "a8e6638f33d3 gives each Feishu input its own card. 7ebe94bd82b1 keeps per-message timings across resumed turns. Tip is docs only. src/core unchanged. Package stays private 0.1.0."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12536-#12538",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12538",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-07T06:35:13Z through 07:36:19Z. #12536 is collapsible composer model-picker sections. #12537 is fallbackOwner.waitForExit scanning /proc every 15ms without systemd. #12538 is the turn rail after rewind: dsh-rewind-plugin hides transcript rows, and the rail has no supported removal. The body does not describe Trigger, Mandate, or Ticket. Newest discussion checked is #12538."
+    },
+    {
+      "title": "YeStarOne installer fix and side branches",
+      "url": "https://github.com/YeStarOne/deepseek-superagent-feiyu-os/commit/876aad3e1ed6",
+      "confidence": 0.55,
+      "reason": "Default main tip 876aad3e1ed6 at 2026-11-07T06:35:26Z fixes install/03-dsh.sh: explicit NODE/DSH/NPM overrides, a fatal when node or npm resolves under /mnt or to a Windows script, and a version probe that can SKIP. pushed_at 07:33:00Z is the non-default branches docs/positioning-sharpen-1107, feat/hello-bundle-1107, and feat/install-scripts-1107. Observe sentence still drops the explicit-request exception. Not listed."
+    },
+    {
+      "title": "playgrounds, practice, sandbox, and a demo README in the window",
+      "url": "https://github.com/ashione/superagent-playground/commit/05d6631a3cc9",
+      "confidence": 0.2,
+      "reason": "ashione tip 05d6631a3cc9 at 2026-11-07T07:29:52Z merges PR #68 and is still the RocksDB kernel. leechary337688-sudo/dsh-superagent-lab tip 8ca5deb85e5e at 06:52:53Z merges a README patch. lz1984sh/dsh-superagent-sandbox tip e7dfba00b661 at 06:22:37Z removes a demo request workflow; pushed_at 07:17:18Z. Wu-Liuqi/superagenttest was created 06:11:34Z and its README is only a demo title. Not listed."
+    },
+    {
+      "title": "same-day writeups before 06:33Z",
+      "url": "https://cyberq.tw/2026/11/07/deepseek-dsh-superagent-prototype-test/",
+      "confidence": 0.7,
+      "reason": "Outside this hourly window, so not added. CyberQ at 2026-11-07T03:19:55Z is a measured run of 8c32a9d on Harness 0.2.1-rc.3: allowed mentions opened PRs, observe only logged, and a source comment made the worker paste a canary into the PR description. ZimaSpace workflow note is 2026-11-07T00:00:03Z. DEV hands-on is 2026-11-06. No arXiv hit for the prototype in the window. Newest HN story for dsh-superagent is still 2026-11-02T21:03:58Z."
+    },
     {
       "title": "Harness discussions #12531-#12535",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12535",
@@ -2539,8 +2557,9 @@
   "rejected_this_run": [
     "Official prototype is still 8c32a9d. npm latest and next are still 0.2.2-rc.1. alpha is still 0.2.2-alpha.3.",
     "dsh-session-superagent is still 0.10.4. @vicfei/dsh-super-agent is still 1.2.1. @samanhappy/dsh-superagent is still 0.1.0. @nemotte/pi-superagent is still 0.1.0-alpha.1. Unscoped dsh-superagent-inbox is still 0.2.0.",
-    "No new rows. Feiyu OS stays pending because its observe sentence drops the explicit-request exception and the dsh adapter is private.",
-    "Sandbox, playground, practice, empty, and non-default-branch repositories were not listed."
+    "Harness discussions #12536-#12538 do not describe the prototype bundle. Newest discussion checked is #12538.",
+    "Feiyu OS stays pending. Sandbox, playground, practice, demo, and non-default-branch repositories were not listed.",
+    "Same-day blogs published before 06:33Z were not added on this hourly run."
   ],
   "held_on_other_branches": [
     "hhse/dsh-superagent-setup (PR #15 closed unmerged at 2026-11-02T13:16:10Z). Do not copy.",
