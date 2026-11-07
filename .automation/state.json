@@ -1,37 +1,80 @@
 {
-  "last_run_at": "2026-11-07T10:40:00Z",
+  "last_run_at": "2026-11-07T11:34:29Z",
   "timezone": "UTC",
-  "baseline_commit": "55c356d",
+  "baseline_commit": "56c8b42",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-07T09:45:00Z",
-    "to": "2026-11-07T10:40:00Z"
+    "from": "2026-11-07T10:40:00Z",
+    "to": "2026-11-07T11:34:29Z"
   },
-  "added": [
+  "added": [],
+  "updated": [
+    {
+      "title": "JHOpenDev/dsh-superagent-inbox",
+      "url": "https://github.com/JHOpenDev/dsh-superagent-inbox",
+      "tip": "88d30364db7c",
+      "note": "npm unscoped dsh-superagent-inbox 0.3.0 at 2026-11-07T11:32:57.062Z. 2f7ce363b6b8 fixes the stateDir YAML colon. 88d30364db7c pins @deepseek-ai packages to 0.2.2-rc.1 and pages session events. engines.dsh is ^0.2.1-rc.3. role-models.ts was not in that commit."
+    },
     {
       "title": "IHUI-INF-AI/IHUI-AI",
       "url": "https://github.com/IHUI-INF-AI/IHUI-AI",
-      "note": "Clean-room control plane in packages/shared/src/super-agent. Default acceptMode record. Inferred stays recorded until auto plus a non-empty rule id. Lease commit 61ac4819a298 at 09:50:21Z. Tip 06a974db27ab at 10:15:21Z is README counts only. 44443b7661a4 is plan blame. Not on DSH. Apache-2.0."
-    },
-    {
-      "title": "Harness discussion #12549",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12549",
-      "note": "Created 2026-11-07T09:43:47Z, after the previous scan stopped at #12547 and before last_run_at 09:45:00Z. Zero comments. Measured mention drop on 8c32a9d. Not the Issue-body comparison in #11970. The suggested floor change is not on 8c32a9d."
-    }
-  ],
-  "updated": [
-    {
-      "title": "louifinn/dsh-superagent-further",
-      "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "d77e4401836f",
-      "note": "32 ahead of 8c32a9d. Four docs/CI commits after 528ce05508af. Tip starts a real macOS host in smoke.yml. Package stays private 0.2.0. Tag v0.2.0 is still eb6fae7847e0."
+      "tip": "9241a26d3b19",
+      "note": "Persist commit b9b9181d6071 at 11:09Z. Snapshot version super-agent-snapshot-v1. Mismatch rejects the whole book. Tip 9241a26d3b19 at 11:13Z is PROJECT_PLAN.md. Default acceptMode stays record. Not on DSH."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12551-#12557",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12557",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-07T10:36:18Z through 11:26:03Z. #12551 and #12552 are 10:36Z, after the previous scan stopped at #12550 and before last_run_at 10:40:00Z. #12551 is a frozen Windows tray window. #12552 is caller-delivery lost on coldResume in dsh-subagent, not the prototype bundle. #12553 is GNU whoami shadowing whoami /user. #12554 is the NSIS Install now path. #12555 is profile HMR keeping a stale Fiber inject. #12556 asks to render prompt bubbles as markdown. #12557 is @ysyyhhh/dsh-pet aborting the desktop host. Zero comments. Bodies do not describe Trigger, Mandate, or Ticket. Newest discussion checked is #12557."
+    },
+    {
+      "title": "yinguobing/dsh-personal-agent",
+      "url": "https://github.com/yinguobing/dsh-personal-agent",
+      "confidence": 0.72,
+      "reason": "Created 2026-11-07T08:40:29Z. Default main tip 44f82b1722ef at 09:03:32Z, 31 ahead of 8c32a9d and 0 behind. Before this window, and the 09:45Z and 10:40Z scans did not record it. package.json is private dsh-personal-agent 0.2.0, author still DeepSeek Harness Team, engines.dsh still ^0.2.1-alpha.2, MIT. README says one person, panel or WeChat, observe-by-default, and the installer writes worker permissions that never wait for an approval. Admission against the explicit-request exception was not read this hour. Not listed."
+    },
+    {
+      "title": "imthegoodboy install 0.1.1",
+      "url": "https://github.com/imthegoodboy/SuperAgent/commit/8d8adc2fb59a",
+      "confidence": 0.55,
+      "reason": "Default main tip 8d8adc2fb59a at 2026-11-07T11:04:02Z makes superagent install part of the install command and marks 0.1.1. It still targets Claude Code, Codex, OpenCode, and Cursor. It does not describe the prototype Trigger, Mandate, or Ticket table. Not listed."
+    },
+    {
+      "title": "t3code published themes, hextor did not move",
+      "url": "https://github.com/pingdotgg/t3code/commit/67fdc5382389",
+      "confidence": 0.7,
+      "reason": "t3code default tip 67fdc5382389 at 2026-11-07T11:19:13Z is published themes for this machine's service. hextor-ndc/superagent was not pushed; its tip is still 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "MosBot-AI main did not move",
+      "url": "https://github.com/MosBot-AI/hermes-superagent",
+      "confidence": 0.65,
+      "reason": "pushed_at 2026-11-07T11:05:05Z. Default main is still 287bcd537f86 at 2026-11-06T12:59:16Z. Do not list the side branch."
+    },
+    {
+      "title": "NelsonLongxiang privacy scrub on master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/ed343c0b9ebf",
+      "confidence": 0.55,
+      "reason": "Default master tip ed343c0b9ebf at 2026-11-07T10:54:30Z merges review/privacy-scrub. It is not the prototype bundle. Not listed."
+    },
+    {
+      "title": "dori wake wording",
+      "url": "https://github.com/sisyphuslabs/dori-superagent/commit/e15c01d20785",
+      "confidence": 0.4,
+      "reason": "Default main tip e15c01d20785 at 2026-11-07T11:19:38Z generalises wake wording. It is herdr plus omo, not this prototype. Not listed."
+    },
+    {
+      "title": "8sync colour-code strip",
+      "url": "https://github.com/8-Sync-Dev/8sync/commit/40a902807dee",
+      "confidence": 0.3,
+      "reason": "Default tip 40a902807dee at 2026-11-07T11:29:10Z strips colour codes from the saved 8sync up tail and releases v0.135.3. Not a DSH port. Not listed."
+    },
     {
       "title": "Harness discussion #12550",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12550",
@@ -2693,14 +2736,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "tests, sandboxes, and an empty butler repo",
-      "url": "https://github.com/kerstinqian/dsh-superagent-test",
-      "reason": "kerstinqian/dsh-superagent-test, lujing0819/superagent_test, jingjingli0919/superagent-Lenovo, and ashione/superagent-playground were pushed in the window. sjc88661/dsh-butler is an empty 409. HongJinjin9/agent-workspace only added a workspace README. Not listed."
-    },
-    {
-      "title": "general DSH plugins",
-      "url": "https://github.com/MorenLendan/dsh-moren-unlimited",
-      "reason": "New or updated plugin repos in the window, including dsh-injection, dsh-moren-unlimited, dsh-refusal-guard, dsh-compaction-lcm, and dsh-butler, do not implement the prototype Trigger, Mandate, or Ticket table. Not listed."
+      "title": "playgrounds and a test README line",
+      "url": "https://github.com/zjf771/agent-playground",
+      "reason": "zjf771/agent-playground pushed 2026-11-07T11:17:40Z and describes a test playground. ashione/superagent-playground pushed 11:18:38Z and is still a placeholder. lujing0819/superagent_test tip 66e131c7de55 at 11:23:15Z adds a demo line under the README title. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -2802,8 +2840,15 @@
     "heventure/dsh-superagent-home tip is still 7292fb2d478e. Do not list the home repository as a bundle.",
     "pingdotgg/t3code tip 0f4a13071090 at 2026-11-07T07:54:56Z is Codex speed-limit copy and sidebar state. hextor-ndc/superagent was not pushed (main still 0dc3b4279c03). Do not rewrite the listed sentence.",
     "imthegoodboy/SuperAgent pushed_at 2026-11-07T08:27:23Z. Default main is still 5b6ebb022b45. Do not list docs/readme-architecture, feat/desktop-ui, feat/skill, or fix/review-followups.",
-    "pingdotgg/t3code pushed_at 2026-11-07T10:27:40Z and the default tip is still 83a3674ffd84. hextor-ndc/superagent was not pushed (main still 0dc3b4279c03). Do not rewrite the listed sentence."
+    "pingdotgg/t3code pushed_at 2026-11-07T10:27:40Z and the default tip is still 83a3674ffd84. hextor-ndc/superagent was not pushed (main still 0dc3b4279c03). Do not rewrite the listed sentence.",
+    "MosBot-AI/hermes-superagent pushed_at 2026-11-07T11:05:05Z. Default main is still 287bcd537f86. Do not list the side branch.",
+    "pingdotgg/t3code tip 67fdc5382389 at 2026-11-07T11:19:13Z is published themes. hextor-ndc/superagent was not pushed (main still 0dc3b4279c03). Do not rewrite the listed sentence.",
+    "imthegoodboy/SuperAgent tip 8d8adc2fb59a at 2026-11-07T11:04:02Z is an install command for external CLIs. Do not list it as a DSH port.",
+    "NelsonLongxiang/dsh-open-a2a-net master tip ed343c0b9ebf merges privacy-scrub. Do not list it as the prototype.",
+    "8-Sync-Dev/8sync tip 40a902807dee at 2026-11-07T11:29:10Z is not a DSH port. Do not list it.",
+    "sisyphuslabs/dori-superagent tip e15c01d20785 at 2026-11-07T11:19:38Z is not this prototype. Do not list it.",
+    "yinguobing/dsh-personal-agent tip 44f82b1722ef at 2026-11-07T09:03:32Z is before this window. Admission was not read. Do not list it until that read."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.2.0 (registry time.modified 2026-11-07T04:38:55.934Z). dsh-session-superagent remains 0.10.4. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. Rechecked 2026-11-07T10:40:00Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T10:29:01Z is not a commit."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.0 (registry time.modified 2026-11-07T11:32:57.062Z). dsh-session-superagent remains 0.10.4. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. Rechecked 2026-11-07T11:34:29Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T11:25:27Z is not a commit."
 }
