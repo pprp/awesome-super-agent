@@ -1,26 +1,85 @@
 {
-  "last_run_at": "2026-11-07T01:40:00Z",
+  "last_run_at": "2026-11-07T02:35:00Z",
   "timezone": "UTC",
-  "baseline_commit": "5bf8fee",
+  "baseline_commit": "bcb8d50",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-07T00:33:13Z",
-    "to": "2026-11-07T01:40:00Z"
+    "from": "2026-11-07T01:40:00Z",
+    "to": "2026-11-07T02:35:00Z"
   },
-  "added": [
-    {
-      "title": "fliggy-travel-ai/paseo-github-subscriptions",
-      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype/blob/main/paseo-github-subscriptions/README.md",
-      "section": "衍生",
-      "reason": "Fork of 6337fc8, 3 ahead. Paseo plugin only; src/ unchanged. Tip 21ab72886370 at 2026-11-07T00:51:36Z. Shadow mode default. Vendors github-read and event formatting. Does not copy Ticket, Eval, Executor, Web, or the command runner."
-    }
-  ],
+  "added": [],
   "updated": [],
   "pending": [
+    {
+      "title": "Harness discussions #12500-#12504",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12504",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-07T01:34:32Z through 02:15:57Z. #12500 at 01:34Z was missed by the 01:40 stamp; the body says the overflow was observed, which is not the admission mode. #12501 is Russian locale. #12502 is a desktop welcome authentication crash. #12503 asks for session chrome outside the Conversation panel. #12504 is dsh-scratch-workspace 0.1.3, a general per-session folder plugin. Bodies do not describe the prototype bundle. Newest discussion checked is #12504."
+    },
+    {
+      "title": "NelsonLongxiang/dsh-open-a2a-net G2 snapshot",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/387",
+      "confidence": 0.72,
+      "reason": "PR #387 merged at 2026-11-07T02:12:58Z into next/0.8, not master. It snapshots Trigger and Source types from prototype 8c32a9d and says it does not add a Source plugin. Default master is still 52fa508a4237 at 2026-11-06T17:54:43Z. Non-default branch. Not listed."
+    },
+    {
+      "title": "Javey-Li PR #25 schedule bootstrap",
+      "url": "https://github.com/Javey-Li/dsh-superagent-prototype/pull/25",
+      "confidence": 0.7,
+      "reason": "Opened 2026-11-07T02:17:19Z, still open, not merged. Head codex/w8-schedule-bootstrap is 3550347675dc. Default main is still 60bccffbee2a. The listed sentence was not rewritten."
+    },
+    {
+      "title": "lanshi17/dsh-booth PR #12",
+      "url": "https://github.com/lanshi17/dsh-booth/pull/12",
+      "confidence": 0.66,
+      "reason": "Opened 2026-11-07T02:24:55Z, still open, not merged. It restarts the outbox read when a longer file replaces it. Default master is still 30279cb995e5. The listed sentence was not rewritten."
+    },
+    {
+      "title": "reoroy/evolutionary-teal-organization eto provider",
+      "url": "https://github.com/reoroy/evolutionary-teal-organization/commit/ec4e42df3602",
+      "confidence": 0.3,
+      "reason": "Tip ec4e42df3602 at 2026-11-07T02:28:24Z adds a virtual provider in packages/dsh-eto. The commit search hit the Roy-superagent co-author name. Not the prototype bundle. Not listed."
+    },
+    {
+      "title": "HongJinjin9/agent-workspace media draft",
+      "url": "https://github.com/HongJinjin9/agent-workspace/commit/a7cc17ed0bb5",
+      "confidence": 0.3,
+      "reason": "Tip a7cc17ed0bb5 at 2026-11-07T01:57:36Z merges a media draft. The description still says this is the workspace where the agent is given issues. Not the prototype bundle. Not listed."
+    },
+    {
+      "title": "SkillfulAgents/SuperAgent shared approval",
+      "url": "https://github.com/SkillfulAgents/SuperAgent/commit/54b266c326a0",
+      "confidence": 0.25,
+      "reason": "Default tip 54b266c326a0 at 2026-11-07T02:11:26Z merges shared approval actions. The repository is not the prototype bundle. Not listed."
+    },
+    {
+      "title": "8-Sync-Dev/8sync v0.133.0",
+      "url": "https://github.com/8-Sync-Dev/8sync/commit/d4804a3d250e",
+      "confidence": 0.2,
+      "reason": "Tip d4804a3d250e at 2026-11-07T02:29:20Z is a phone release. The repository runs Claude Code, not the DSH prototype. Not listed."
+    },
+    {
+      "title": "empty and title-only repos in the window",
+      "url": "https://github.com/pipixia-9527/dsh-superagent-test",
+      "confidence": 0.15,
+      "reason": "pipixia-9527/dsh-superagent-test was created 2026-11-07T02:27:34Z and has no commits. wbs8153585-stu/superagent-test tip b877a5e53867 is a 17-byte title README. Not listed."
+    },
+    {
+      "title": "vanzue/intelligent-terminal smoke issues",
+      "url": "https://github.com/vanzue/intelligent-terminal/issues/20",
+      "confidence": 0.2,
+      "reason": "Issues #19 and #20 were created 2026-11-07T01:32:03Z and 02:29:12Z. The repository is a Windows Terminal fork. Default main is still 06cb0284ea25 from 2026-07-31. Not the prototype bundle. Not listed."
+    },
+    {
+      "title": "heventure skill issue and yosemiteraft demo issue",
+      "url": "https://github.com/heventure/dsh-superagent-home/issues/6",
+      "confidence": 0.25,
+      "reason": "heventure issue #6 at 2026-11-07T02:19:48Z asks for a methodology-router skill. The home repository tip is still 7292fb2d478e. yosemiteraft/superagent is an unmodified fork of 8c32a9d; its demo issue is from 00:30Z, before this window. Not listed."
+    },
     {
       "title": "Harness discussion #12499",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12499",
@@ -2267,12 +2326,11 @@
     }
   ],
   "rejected_this_run": [
-    "abjosecarrasco-hash/plantilla-superagente is a Telegram business template heartbeat.",
-    "Mz1823-Mex/SuperAgent updates betting odds.",
-    "deepanshuliv/self-evolving-super-agent is a paid-trial support agent.",
-    "zhutao-qiqi/super-agent is an empty repository.",
     "Official prototype is still 8c32a9d. npm latest and next are still 0.2.2-rc.1. alpha is still 0.2.2-alpha.3.",
-    "No arXiv hit for dsh-superagent. HN stories in the lookback are older than this window."
+    "dsh-session-superagent is still 0.10.4. dsh-superagent-inbox is still 0.1.1. @vicfei/dsh-super-agent is still 1.2.1. @samanhappy/dsh-superagent is still 0.1.0. @nemotte/pi-superagent is still 0.1.0-alpha.1.",
+    "No arXiv hit for dsh-superagent. HN stories in the lookback are older than this window.",
+    "Harness discussions #12500-#12504 do not describe the prototype bundle.",
+    "Empty and title-only test repositories were not listed. Target workspaces and non-DSH products were not listed."
   ],
   "held_on_other_branches": [
     "hhse/dsh-superagent-setup (PR #15 closed unmerged at 2026-11-02T13:16:10Z). Do not copy.",
@@ -2352,7 +2410,12 @@
     "jonsutton86/dsh-superagent-prototype main is 8c32a9d. feat/full-superagent-architecture 27382f57b77e at 2026-11-06T21:57:04Z was not listed.",
     "kenny8zeng/dsh-superagent-prototype main is 8c32a9d. agent/add-chinese-readme-619ee872b92d and agent/add-readme-line-8a0f3819e78d were not listed.",
     "pingdotgg/t3code pushed_at 2026-11-06T22:24:04Z and the default tip is still b90e554e0a94 at 2026-11-06T21:09:15Z. hextor-ndc/superagent was not pushed. Do not rewrite the listed sentence.",
-    "pingdotgg/t3code pushed_at 2026-11-07T00:13:05Z and the default tip is still d5fc29fe5cb6 at 2026-11-06T23:36:04Z. hextor-ndc/superagent was not pushed. Do not rewrite the listed sentence."
+    "pingdotgg/t3code pushed_at 2026-11-07T00:13:05Z and the default tip is still d5fc29fe5cb6 at 2026-11-06T23:36:04Z. hextor-ndc/superagent was not pushed. Do not rewrite the listed sentence.",
+    "Javey-Li/dsh-superagent-prototype main is still 60bccffbee2a (2026-11-06T23:48:04Z). Open PR #25 at 2026-11-07T02:17:19Z is codex/w8-schedule-bootstrap (3550347675dc). Do not list the branch.",
+    "lanshi17/dsh-booth master is still 30279cb995e5 (2026-11-06T04:16:50Z). Open PR #12 at 2026-11-07T02:24:55Z is agent/self-iteration-fix-f046f55c6fff. Do not list the branch.",
+    "NelsonLongxiang/dsh-open-a2a-net master is still 52fa508a4237 (2026-11-06T17:54:43Z). PR #387 merged to next/0.8 at 2026-11-07T02:12:58Z. Do not list the branch.",
+    "pingdotgg/t3code pushed_at 2026-11-07T02:23:02Z and the default tip is still 240446e2d962. hextor-ndc/superagent was not pushed (main still 0dc3b4279c03). Do not rewrite the listed sentence.",
+    "VBK-AI-Agent-Gateway/superagent-playground pushed_at 2026-11-07T02:02:53Z is a PullRequestEvent. main is still 42904bc8a37b. Do not list it."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
   "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2."
