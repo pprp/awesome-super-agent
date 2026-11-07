@@ -1,40 +1,92 @@
 {
-  "last_run_at": "2026-11-07T03:38:00Z",
+  "last_run_at": "2026-11-07T04:36:36Z",
   "timezone": "UTC",
-  "baseline_commit": "7709b3c",
+  "baseline_commit": "472edb7",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-07T02:35:00Z",
-    "to": "2026-11-07T03:38:00Z"
+    "from": "2026-11-07T03:38:00Z",
+    "to": "2026-11-07T04:36:36Z"
   },
-  "added": [
-    {
-      "title": "kkwalking/dsh-superagent-prototype",
-      "url": "https://github.com/kkwalking/dsh-superagent-prototype",
-      "section": "衍生",
-      "tip": "5995a367eed6",
-      "note": "3 ahead of 8c32a9d. Optional GitHub, Telegram default off, panel chat default on, workspaces, blocked notice. README lead still upstream."
-    }
-  ],
+  "added": [],
   "updated": [
     {
-      "title": "lezra/dsh-superagent-plus",
-      "url": "https://github.com/lezra/dsh-superagent-plus",
-      "tip": "a2d8f6defcf1",
-      "note": "package.json 0.4.12. DingTalk chains follow the Feishu ticket model from 867c0608e7c6. Changelog stops at 0.4.7. Profile rename and run timeline. Tag still v0.4.3."
+      "title": "wuzhiping/superagent",
+      "url": "https://github.com/wuzhiping/superagent",
+      "tip": "883bf3dc1312",
+      "note": "60 ahead of 6337fc8. New project starts with a PM post and a Worker post, both removable. Save checks project and unique post ids. 02:34Z only kept the post id focused."
     },
     {
-      "title": "Meaple-SFKY/Super-Agent-Dsh-Plugin",
-      "url": "https://github.com/Meaple-SFKY/Super-Agent-Dsh-Plugin",
-      "tip": "8cba86ef0e3e",
-      "note": "private 0.3.1. Wizard chooses Telegram and/or MMAgent. gate.ts unchanged."
+      "title": "Javey-Li/dsh-superagent-prototype",
+      "url": "https://github.com/Javey-Li/dsh-superagent-prototype",
+      "tip": "eb82bb18828c",
+      "note": "32 ahead of 8c32a9d. PR #25 merged. Unconfigured Schedule no longer throws while resolving sources. gh-config is linked when the default path is absent. Commands reread the environment."
+    },
+    {
+      "title": "vicfei/dsh-super-agent",
+      "url": "https://github.com/vicfei/dsh-super-agent",
+      "tip": "68b0d11348ab",
+      "note": "A stopped ticket is not resumed. Natural end still resumes. package.json and npm stay 1.2.1."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12509-#12518",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12518",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-07T03:47:09Z through 04:33:33Z. #12509 is BizyAir image models. #12510 is HMR duplicate directoryPicker. #12511 is sidebar frame drops. #12512 is command tool descriptions. #12513 is an enterprise pilot question. #12514 is Create Provider next is not a function. #12515 asks for settlement notice disposition of host jobs and subagents. #12516 is dsh-subagent-codex peer dependencies. #12517 is the open-design profile hanging. #12518 is extensionless image attachments in the sidebar preview. Bodies do not describe the prototype bundle. Newest discussion checked is #12518."
+    },
+    {
+      "title": "NelsonLongxiang master release note",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/bf9334d3bbfc",
+      "confidence": 0.7,
+      "reason": "Master tip bf9334d3bbfc at 2026-11-07T04:26:03Z merges PR #388. The only file is docs/release.md, saying 0.7.0 is on npm and post-deploy checks are in progress. The Trigger snapshot from #387 is still not this diff. Not listed."
+    },
+    {
+      "title": "ashione CoreHR hierarchy",
+      "url": "https://github.com/ashione/superagent-playground/commit/a9bab54b7a20",
+      "confidence": 0.25,
+      "reason": "Tip a9bab54b7a20 at 2026-11-07T04:31:52Z merges bounded native hierarchy scans. The README is still a RocksDB table and graph kernel. Description still says dsh-superagent placeholder repo. Not listed."
+    },
+    {
+      "title": "VBK evidence matrix",
+      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground/commit/45c3a20602a1",
+      "confidence": 0.2,
+      "reason": "Tip 45c3a20602a1 at 2026-11-07T04:25:53Z merges an evidence-matrix pack. Description still says this is a trial repo. Not listed."
+    },
+    {
+      "title": "empty demos, practice, and the test tree",
+      "url": "https://github.com/notpdpton/demo-dsh-superagent",
+      "confidence": 0.15,
+      "reason": "notpdpton/demo-dsh-superagent was created 2026-11-07T03:53:09Z and its README is only the title. webliangsir/Superagent-sandbox was created 04:28:08Z and has size 0. bbinwang/DSH-DeepAgent was created 03:40:40Z as a test repo; the initial commit adds no files. kuikuikuiup/superagent-practice2 tip 03aa4919c94d adds a trial-guide section and says it is a practice repo. xiaol-luo/test-dsh-superagent tip 43e5e1773b66 adds a C++ red-black tree. Not listed."
+    },
+    {
+      "title": "reoroy delegate tools",
+      "url": "https://github.com/reoroy/evolutionary-teal-organization/commit/629887f087bb",
+      "confidence": 0.3,
+      "reason": "Tip 629887f087bb at 2026-11-07T03:46:15Z forwards tools from the ETO delegate. Not the prototype bundle. Not listed."
+    },
+    {
+      "title": "cowboy review chrome",
+      "url": "https://github.com/dravengarden/cowboy/commit/bcf346ef7e48",
+      "confidence": 0.35,
+      "reason": "Tip bcf346ef7e48 at 2026-11-07T04:25:09Z adjusts review navigation. The repo is a remote agent IDE. The commits do not describe Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "openviking glossary",
+      "url": "https://github.com/openviking-superagent/openviking-superagent-glossary",
+      "confidence": 0.2,
+      "reason": "Created 2026-11-07T03:39:36Z. Tip 3db9bb74de9a is a community glossary for OpenViking abbreviations. It does not describe the DSH prototype. Not listed."
+    },
+    {
+      "title": "tips that did not move after 03:38",
+      "url": "https://github.com/pingdotgg/t3code/commit/4cb6945dc60e",
+      "confidence": 0.7,
+      "reason": "t3code pushed_at 2026-11-07T04:26:01Z and the default tip is still 4cb6945dc60e. hextor-ndc/superagent was not pushed. MosBot-AI/hermes-superagent pushed_at 03:59:48Z and main is still 287bcd537f86. SkillfulAgents/SuperAgent pushed_at 03:45:04Z and main is still 5ae1bf4091ca. heventure/dsh-superagent-home pushed_at 03:54:39Z and main is still 7292fb2d478e. hx2060/superagent pushed_at 04:00:29Z and main is still 45ae1deaa61b from 02:09Z. lanshi17/dsh-booth pushed_at 04:04:24Z and master is still 30279cb995e5. Listed sentences were not rewritten."
+    },
     {
       "title": "Harness discussions #12505-#12508",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12508",
@@ -2391,9 +2443,9 @@
   "rejected_this_run": [
     "Official prototype is still 8c32a9d. npm latest and next are still 0.2.2-rc.1. alpha is still 0.2.2-alpha.3.",
     "dsh-session-superagent is still 0.10.4. dsh-superagent-inbox is still 0.1.1. @vicfei/dsh-super-agent is still 1.2.1. @samanhappy/dsh-superagent is still 0.1.0. @nemotte/pi-superagent is still 0.1.0-alpha.1.",
-    "No arXiv hit for dsh-superagent. The HN story in the lookback is from 2026-11-02.",
-    "Harness discussions #12505-#12508 do not describe the prototype bundle.",
-    "Unmodified forks, empty repos, the test workspace, the RocksDB kernel, and the Cowboy usage note were not listed."
+    "No arXiv response in this run. The newest HN story for dsh-superagent is still 2026-11-02.",
+    "Harness discussions #12509-#12518 do not describe the prototype bundle.",
+    "Empty demos, the practice README, the red-black-tree test repo, the RocksDB kernel, the trial playground, the OpenViking glossary, the ETO provider, and the Cowboy IDE were not listed."
   ],
   "held_on_other_branches": [
     "hhse/dsh-superagent-setup (PR #15 closed unmerged at 2026-11-02T13:16:10Z). Do not copy.",
@@ -2484,7 +2536,14 @@
     "Javey-Li/dsh-superagent-prototype main is still 60bccffbee2a. Open PR #25 was not merged. Do not list the branch.",
     "lanshi17/dsh-booth master is still 30279cb995e5. Open PR #12 was not merged. Do not list the branch.",
     "NelsonLongxiang/dsh-open-a2a-net master is still 52fa508a4237. Do not list next/0.8.",
-    "8-Sync-Dev/8sync default tip is still d4804a3d250e at 2026-11-07T02:29:20Z. Do not list it as a DSH port."
+    "8-Sync-Dev/8sync default tip is still d4804a3d250e at 2026-11-07T02:29:20Z. Do not list it as a DSH port.",
+    "Javey-Li PR #25 merged to default main as eb82bb18828c at 2026-11-07T04:11:23Z. The unconfigured Schedule resolve and the gh-config link are in the listed sentence. Do not list the branch separately.",
+    "lanshi17/dsh-booth master is still 30279cb995e5. Open PR #12 was not merged. Do not list the branch.",
+    "NelsonLongxiang/dsh-open-a2a-net master tip bf9334d3bbfc only changes docs/release.md. Do not list next/0.8.",
+    "pingdotgg/t3code pushed_at 2026-11-07T04:26:01Z and the default tip is still 4cb6945dc60e. hextor-ndc/superagent was not pushed. Do not rewrite the listed sentence.",
+    "MosBot-AI/hermes-superagent pushed_at 2026-11-07T03:59:48Z. Default main is still 287bcd537f86. Do not list the side branch.",
+    "SkillfulAgents/SuperAgent tip is still 5ae1bf4091ca. Do not list it as a DSH port.",
+    "heventure/dsh-superagent-home tip is still 7292fb2d478e. Do not list the home repository as a bundle."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
   "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2."
