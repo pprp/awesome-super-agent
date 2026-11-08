@@ -1,51 +1,92 @@
 {
-  "last_run_at": "2026-11-08T10:35:46Z",
+  "last_run_at": "2026-11-08T11:32:57Z",
   "timezone": "UTC",
-  "baseline_commit": "24d4c01",
+  "baseline_commit": "3d7c83a",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-08T09:37:05Z",
-    "to": "2026-11-08T10:35:46Z"
+    "from": "2026-11-08T10:35:46Z",
+    "to": "2026-11-08T11:32:57Z"
   },
-  "added": [
-    {
-      "title": "MatthewYe/dsh-livis",
-      "url": "https://github.com/MatthewYe/dsh-livis",
-      "tip": "791216981fe1",
-      "note": "Livis SourceKind. One inbound voice is one Trigger, human true, addressed direct. allowedActor filters before receive. One final per job. Fallback at 60s while pending. Tests claimed 7+20. Real-device evidence not in the repo. Not rerun."
-    }
-  ],
+  "added": [],
   "updated": [
     {
       "title": "baojingyu/dsh-superagent-channels",
       "url": "https://github.com/baojingyu/dsh-superagent-channels",
-      "tip": "ce9a242aedd6",
-      "note": "55 ahead of 8c32a9d. Weixin seq seeds from the clock. A stored cursor ahead of head is cleared and that poll returns 0. Author records 1443 passed, 36 skipped, live contract 14 passed. Not rerun."
+      "tip": "ef6534e53842",
+      "note": "57 ahead of 8c32a9d. /send accepts one file. 20 MiB decoded, basename filtered. Live 2x2 PNG arrived as an image. OutboundMessage is still text only. ADR-008 records the gap. Docs commit 99007de4fcb7. Same 1443 passed, 36 skipped. Not rerun."
     },
     {
-      "title": "yinguobing/dsh-personal-agent",
-      "url": "https://github.com/yinguobing/dsh-personal-agent",
-      "tip": "c8f693e52aa5",
-      "note": "40 ahead of 8c32a9d. Package 0.6.0. Home is one stream. A card opens a short result view. The master Session dock reads DSH conversation. Admission files were not in these three commits. Not rerun."
+      "title": "wuzhiping/superagent",
+      "url": "https://github.com/wuzhiping/superagent",
+      "tip": "a400e471d3dc",
+      "note": "81 ahead of 6337fc8. Cleanup names why a Session row was skipped: running, no location, path mismatch, or remove failed. Author records 3 newest tickets still loaded and 63 cleaned. 21 tests. f7164f6c7e65 only synced INDEX html/pdf. Not rerun."
     },
     {
-      "title": "niechao136/dsh-foreman-node",
-      "url": "https://github.com/niechao136/dsh-foreman-node",
-      "tip": "9aa2517cd150",
-      "note": "0.2.3. An unknown jobPreset no longer fails ensure. It logs and continues on workspace-write. Hub tip is still dc36a208bd7d at 0.3.7. Not rerun."
+      "title": "Missher12/Missher-DSH-Superagent",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
+      "tip": "42c02db99d92",
+      "note": "1.3.3. Main-session allow list keeps only shell tools the host already registered, including pwsh. The no-wait guard covers pwsh Start-Sleep. No v1.3.3 tag. Not on npm. Not rerun."
     },
     {
-      "title": "whutlichao/superagent-plugin",
-      "url": "https://github.com/whutlichao/superagent-plugin",
-      "tip": "e54e5ce54727",
-      "note": "githubCommitEmail is on default main. Same read path as other executor settings. Incomplete identity removes the previous git identity. Equivalence with docs/000-007 still not checked. Not rerun."
+      "title": "MYCF711/dsh-session-superagent",
+      "url": "https://github.com/MYCF711/dsh-session-superagent",
+      "tip": "a78c5014b461",
+      "note": "0.10.8. Gate package 0.1.1 can really disable a rule. A pre-send CLI failure does not call the model. sync-profile fingerprints the gate package. Gitee ack body stays the bare array. Author records 873/873 and preflight 40 pass, 2 skip. Not rerun."
+    },
+    {
+      "title": "ninesky-hz/dsh-main-agent",
+      "url": "https://github.com/ninesky-hz/dsh-main-agent",
+      "tip": "6b5a14620581",
+      "note": "0.22.1 docs only. A tagged git pin is reinstalled on the next start, so a file overwrite does not stick. Author example: health says 0.22.0 while checks still use 0.21.0 BOM logic. Not rerun."
+    },
+    {
+      "title": "ShuiQiongChuYunQiShi/dsh-superagent-prototype",
+      "url": "https://github.com/ShuiQiongChuYunQiShi/dsh-superagent-prototype",
+      "tip": "3c6ca412e2f2",
+      "note": "8 ahead of 8c32a9d. fd9d6154820f at 10:16Z only appended model/selection. The tip re-registers request interception because that event does not re-route an existing orchestrator session. Not rerun."
+    },
+    {
+      "title": "mengzhongjie/dsh-superagent-local",
+      "url": "https://github.com/mengzhongjie/dsh-superagent-local",
+      "tip": "fe5929a5b138",
+      "note": "Package 0.2.2. Plugin sessions hide through a static stylesheet so the workspace expand animation no longer starts too high. Not rerun."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12649 through #12651",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12651",
+      "confidence": 0.55,
+      "reason": "#12649 at 2026-11-08T10:54:49Z is a desktop cookie 431. #12650 at 10:58:11Z is a missing Ultra reasoning option. #12651 at 10:58:24Z is a repeated desktop crash. Zero comments. None of the bodies mentions dsh-superagent, Trigger, Mandate, or Ticket. #12652 does not exist. Not listed."
+    },
+    {
+      "title": "dori still runs on herdr",
+      "url": "https://github.com/sisyphuslabs/dori-superagent/commit/c483b16f1385",
+      "confidence": 0.5,
+      "reason": "c483b16f1385 at 2026-11-08T11:11:56Z folds review notes. 7ac0ed761dfb at 10:58:23Z runs scripts on the configured session runtime. 501676610eef at 10:43:32Z migrates sessions between runtimes. Still not Trigger, Mandate, or Ticket for this prototype. Not listed."
+    },
+    {
+      "title": "ityyq777/dsh-progress-tick is a main-agent nudge",
+      "url": "https://github.com/ityyq777/dsh-progress-tick/commit/bbe3bb80f661",
+      "confidence": 0.48,
+      "reason": "bbe3bb80f661 at 2026-11-08T11:05:03Z is 0.6.3 manualAffectsTimer. 379ecec09b53 at 11:02:00Z is 0.6.2. The plugin appends a progress notice to a DSH main agent. It does not build Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "BotHarness/DeepSeekBot is not this prototype",
+      "url": "https://github.com/BotHarness/DeepSeekBot/commit/960b2d3690cd",
+      "confidence": 0.4,
+      "reason": "960b2d3690cd at 2026-11-08T11:24:58Z keeps an Android sign-in redirect. It is a personal-bot team on DeepSeek Harness, not the superagent ticket model. Not listed."
+    },
+    {
+      "title": "tips that did not move the listed sentence after 10:35Z",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/35f0be9b2510",
+      "confidence": 0.72,
+      "reason": "Nelson master is still 35f0be9b2510; pushed_at 2026-11-08T11:20:38Z is not a newer commit. yinguobing pushed_at 10:35:38Z is before the window and the tip did not move. whutlichao is still the 09:50Z tip. dsh-foreman hub is still dc36a208bd7d. dsh-foreman-node is still 0.2.3. louifinn, open-superagent, MatthewYe, and ReSerendipity default tips did not move. t3code default tip is still 8e6a7323050e at 09:30:14Z; pushed_at 11:28:13Z is not a newer commit, so hextor was not rewritten. Prototype pushed_at is still 2026-11-03T09:29:14Z. npm @deepseek-ai/dsh latest and next are still 0.2.2-rc.1. No arXiv hit for dsh-superagent. Listed sentences for these were not rewritten."
+    },
     {
       "title": "Harness discussions #12646 through #12648",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12648",
@@ -3655,9 +3696,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "calculator trial after 09:37Z",
-      "url": "https://github.com/bbinwang/DSH-DeepAgent/commit/2f0ba9229cbc",
-      "reason": "bbinwang/DSH-DeepAgent 2f0ba9229cbc at 2026-11-08T09:49:26Z adds a calculator and 15 tests in a repo described as a dsh-superagent evaluation test repo. It does not implement Trigger, Mandate, or Ticket. Not listed."
+      "title": "sandboxes and playgrounds after 10:35Z",
+      "url": "https://github.com/haowenhao2025/superagent-sandbox",
+      "reason": "haowenhao2025/superagent-sandbox created 2026-11-08T10:59:41Z is a sandbox. maochengzi1/dsh-superagent-playground pushed_at 11:08:17Z is a playground. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -3778,8 +3819,10 @@
     "IHUI-INF-AI/IHUI-AI tip d4e16218061d at 2026-11-07T23:12:53Z is ticket docs and README numbers. Do not rewrite the listed sentence.",
     "RedKnight13/loom pushed_at 2026-11-08T01:17:46Z. Default main is still e4d396aac343 at 2026-11-07T23:35:20Z. Do not list the side branch.",
     "RedKnight13/loom default main is 45219841a711 at 2026-11-08T02:06:16Z (setup documentation). It is not this prototype. Do not list it.",
-    "LofiSu, dsh-booth, fliggy, and IHUI pushed_at moved after 2026-11-08T03:42:30Z. Their default-branch tips did not. Do not list side branches."
+    "LofiSu, dsh-booth, fliggy, and IHUI pushed_at moved after 2026-11-08T03:42:30Z. Their default-branch tips did not. Do not list side branches.",
+    "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-08T11:20:38Z. Default master is still 35f0be9b2510. Do not list next/0.8.",
+    "pingdotgg/t3code pushed_at 2026-11-08T11:28:13Z. Default tip is still 8e6a7323050e at 09:30:14Z. hextor-ndc/superagent was not pushed. Do not rewrite the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. dsh-foreman remains 0.3.7 (2026-11-08T08:55:31.032Z). dsh-foreman-node is 0.2.3 (2026-11-08T09:57:26.797Z). @vicfei/dsh-super-agent remains 1.3.0. dsh-superagent-inbox remains 0.3.2. dsh-session-superagent remains 0.10.7 (2026-11-08T09:10:26.210Z). The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. No newer harness release than dsh-v0.2.2-rc.1. Prototype main is still 8c32a9d."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. dsh-foreman remains 0.3.7 (2026-11-08T08:55:31.032Z). dsh-foreman-node remains 0.2.3 (2026-11-08T09:57:26.797Z). @vicfei/dsh-super-agent remains 1.3.0. dsh-superagent-inbox remains 0.3.2. dsh-session-superagent is 0.10.8 (2026-11-08T10:46:37.605Z). The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. No newer harness release than dsh-v0.2.2-rc.1. Prototype main is still 8c32a9d."
 }
