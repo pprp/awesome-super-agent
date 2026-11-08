@@ -1,38 +1,74 @@
 {
-  "last_run_at": "2026-11-08T18:34:27Z",
+  "last_run_at": "2026-11-08T19:36:57Z",
   "timezone": "UTC",
-  "baseline_commit": "dc4166e",
+  "baseline_commit": "08bd234",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-08T17:36:53Z",
-    "to": "2026-11-08T18:34:27Z"
+    "from": "2026-11-08T18:34:27Z",
+    "to": "2026-11-08T19:36:57Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "louifinn/dsh-superagent-further",
-      "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "c1f4e864598a",
-      "note": "99 ahead of 8c32a9d. Memory page browse filters by keyword and project, pages 20, pinned first. Tip only waits in the Windows Feishu consumer tests. Not rerun."
+      "title": "Javey-Li/dsh-superagent-prototype",
+      "url": "https://github.com/Javey-Li/dsh-superagent-prototype",
+      "tip": "926a1c1433af",
+      "note": "36 ahead of 8c32a9d. PR #26 69f381ebc0d5 lists mid-work human requirements before signals and drops ordinary signals first. PR #27 is a skipped live T3 restart test. schema_version stays 1. Not rerun."
     },
     {
-      "title": "liyabgf/dsh-myagent",
-      "url": "https://github.com/liyabgf/dsh-myagent",
-      "tip": "f2f721286da5",
-      "note": "Sidebar link opens /myagent/. package.json went 0.10.4 then back to private 0.1.0. Gate unchanged. npm myagent 4.0.2 is a different package. Not rerun."
-    },
-    {
-      "title": "hcarsa-hub/dsh-superagent-lite",
-      "url": "https://github.com/hcarsa-hub/dsh-superagent-lite",
-      "tip": "80f9095695eb",
-      "note": "README only. queueDir must match stateDir character for character, plus HANDOFF_QUEUE. Package version not in this commit. Not rerun."
+      "title": "AirKyzzZ/hermes-superagent",
+      "url": "https://github.com/AirKyzzZ/hermes-superagent",
+      "tip": "546a3c8ee858",
+      "note": "0fd934db9f95 keeps the machine timezone when setup has no brief channel. A brief hour without a channel is still refused. The tip only shortens the README header. Not rerun."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12685 and #12686",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12686",
+      "confidence": 0.55,
+      "reason": "#12685 at 2026-11-08T18:38:10Z is a compatibility report for FMR5487/dsh-review-hub. #12686 at 19:08:24Z is the bundled diagnose-windows-sandbox-acl skill disagreeing with its own ROLLBACK flag. Neither body names dsh-superagent, Mandate, or this prototype Ticket. #12687 does not exist. Not listed."
+    },
+    {
+      "title": "liyabgf docs for bridges and scout tasks",
+      "url": "https://github.com/liyabgf/dsh-myagent/commit/34ef935ea7b7",
+      "confidence": 0.7,
+      "reason": "Tips bbf0fb5eacdd at 2026-11-08T18:55:05Z and 34ef935ea7b7 at 19:19:17Z only add docs/v2/27-open-interfaces-and-panel-next.md. WeCom, QQ, and DingTalk bridges plus scout tasks S-1..S-5 are written as requirements. package.json stays private 0.1.0. The gate was not changed. The listed sentence was not rewritten."
+    },
+    {
+      "title": "default tips that did not move after 18:34Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
+      "confidence": 0.74,
+      "reason": "Prototype pushed_at is still 2026-11-03T09:29:14Z. npm @deepseek-ai/dsh latest and next are still 0.2.2-rc.1. dsh-foreman is still 0.3.8. dsh-foreman-node is still 0.3.0. Nelson master is still 35f0be9b2510; pushed_at 19:22:40Z is not a newer commit. LofiSu default tip is still e705e872796e; pushed_at 19:29:29Z is not a newer commit. GukHunter/dsh-superagent-test pushed_at 19:32:50Z and the only commit is still 12b3d546c0ee. Listed sentences for these were not rewritten."
+    },
+    {
+      "title": "Shijiuwei pages republish",
+      "url": "https://github.com/Shijiuwei/dsh-superagent-prototype-dist",
+      "confidence": 0.46,
+      "reason": "Pushed 2026-11-08T19:02:48Z. Tips c35dd3e2ef80, 48fb483c65b6, and 61fb4f02fe7b refresh a specs page, an HTML page, and a Pages timestamp. package.json is still the upstream private dsh-superagent 0.1.0 description. The README calls the Pages site official docs. Mirror plus SEO. Not listed."
+    },
+    {
+      "title": "FMR5487/dsh-review-hub",
+      "url": "https://github.com/FMR5487/dsh-review-hub",
+      "confidence": 0.48,
+      "reason": "Discussion #12685 points here. The repo tip be6635059684 at 2026-11-08T18:33:51Z is before this window and only corrects a line count. It is a general DSH approval decider for approval/request, not this prototype's Ticket. Not listed."
+    },
+    {
+      "title": "herdr superagent plugins",
+      "url": "https://github.com/ribeirorod/herdr-superagent",
+      "confidence": 0.4,
+      "reason": "ribeirorod/herdr-superagent pushed 2026-11-08T18:57:18Z and is a herdr plugin for Claude Code, Codex, and Pi. sisyphuslabs/dori-superagent tip 0691374ad73b at 18:57:13Z still reads an omo screen. Neither runs on DSH. Not listed."
+    },
+    {
+      "title": "unmodified prototype forks",
+      "url": "https://github.com/Mortavius-Octovarius/dsh-superagent-prototype",
+      "confidence": 0.35,
+      "reason": "Mortavius-Octovarius/dsh-superagent-prototype was created 2026-11-08T19:18:35Z and nellylemmy/dsh-superagent-prototype at 18:41:45Z. Both default tips are still upstream 8c32a9d. Not listed."
+    },
     {
       "title": "Harness discussions #12681 through #12684",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12684",
@@ -3906,19 +3942,34 @@
   ],
   "rejected_this_run": [
     {
+      "title": "Shijiuwei/dsh-superagent-prototype-dist",
+      "url": "https://github.com/Shijiuwei/dsh-superagent-prototype-dist",
+      "reason": "SEO republish of the upstream prototype plus a Pages timestamp. Not listed."
+    },
+    {
       "title": "GukHunter/dsh-superagent-test",
       "url": "https://github.com/GukHunter/dsh-superagent-test",
-      "reason": "Created 2026-11-08T18:14:49Z. Initial commit 12b3d546c0ee. A test repository. Not listed."
+      "reason": "Still the 18:14Z initial commit. A test repository. Not listed."
     },
     {
-      "title": "superagent4dong/superagent4dong",
-      "url": "https://github.com/superagent4dong/superagent4dong",
-      "reason": "Pushed 2026-11-08T18:07:49Z. README is a Hello World sandbox for the prototype. Not listed."
+      "title": "Mortavius-Octovarius/dsh-superagent-prototype",
+      "url": "https://github.com/Mortavius-Octovarius/dsh-superagent-prototype",
+      "reason": "Fork created 2026-11-08T19:18:35Z. main is still 8c32a9d. Not listed."
     },
     {
-      "title": "liudong-work/superAgent",
-      "url": "https://github.com/liudong-work/superAgent",
-      "reason": "Pushed 2026-11-08T17:35:10Z, just before the previous stamp. README is a title. Not this prototype. Not listed."
+      "title": "nellylemmy/dsh-superagent-prototype",
+      "url": "https://github.com/nellylemmy/dsh-superagent-prototype",
+      "reason": "Fork created 2026-11-08T18:41:45Z. main is still 8c32a9d. Not listed."
+    },
+    {
+      "title": "ribeirorod/herdr-superagent",
+      "url": "https://github.com/ribeirorod/herdr-superagent",
+      "reason": "herdr plugin. Not a DSH bundle. Not listed."
+    },
+    {
+      "title": "sisyphuslabs/dori-superagent",
+      "url": "https://github.com/sisyphuslabs/dori-superagent/commit/0691374ad73b",
+      "reason": "herdr + omo screen read. Not this prototype. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -4049,8 +4100,11 @@
     "injet-zhou/dsh-superagent-prototype pushed_at 2026-11-08T13:38:00Z. Default tip is still d895f319c834. Do not rewrite the listed sentence.",
     "pingdotgg/t3code pushed_at 2026-11-08T14:29:55Z. Default tip ade473018d32 was committed 2026-11-08T13:22:49Z, before this window. hextor-ndc/superagent was not pushed. Do not rewrite the listed sentence.",
     "fliggy-travel-ai/dsh-superagent-prototype pushed_at 2026-11-08T14:02:45Z. Default tip is still 021ed85315a1. Do not list side branches.",
-    "vHao11 PRs #2 through #6 are on default windows-adapt as 898f00a00816. Do not list those branches separately."
+    "vHao11 PRs #2 through #6 are on default windows-adapt as 898f00a00816. Do not list those branches separately.",
+    "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-08T19:22:40Z. Default master is still 35f0be9b2510. Do not list next/0.8.",
+    "LofiSu/deepseek-super-agent pushed_at 2026-11-08T19:29:29Z. Default tip is still e705e872796e. Do not rewrite the listed sentence.",
+    "GukHunter/dsh-superagent-test pushed_at 2026-11-08T19:32:50Z. The only commit is still 12b3d546c0ee. Do not list it."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. dsh-foreman remains 0.3.8 (2026-11-08T16:48:06.974Z). dsh-foreman-node remains 0.3.0 (2026-11-08T16:30:50.154Z). @vicfei/dsh-super-agent remains 1.3.0. dsh-superagent-inbox remains 0.3.2. dsh-session-superagent remains 0.10.11 (2026-11-08T16:20:58.451Z). @mycf711/dsh-gate remains 0.1.4 (2026-11-08T16:19:32.972Z). @reserendipity/dsh-superagent remains 0.1.3 (2026-11-08T14:25:19.453Z) and stays pending until WINDOWS-DELTA is compared with doc 006. Unscoped npm myagent 4.0.2 is mcpews/MyAgent, not liyabgf/dsh-myagent. dsh-plugin-superagent-lite is still 404. No newer harness release than dsh-v0.2.2-rc.1. Prototype main is still 8c32a9d. No arXiv hit for dsh-superagent in this window."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. dsh-foreman remains 0.3.8 (2026-11-08T16:48:06.974Z). dsh-foreman-node remains 0.3.0 (2026-11-08T16:30:50.154Z). @vicfei/dsh-super-agent remains 1.3.0. dsh-superagent-inbox remains 0.3.2. dsh-session-superagent remains 0.10.11 (2026-11-08T16:20:58.281Z). @mycf711/dsh-gate remains 0.1.4 (2026-11-08T16:19:32.824Z). @reserendipity/dsh-superagent remains 0.1.3 (2026-11-08T14:25:19.453Z) and stays pending until WINDOWS-DELTA is compared with doc 006. Unscoped npm myagent 4.0.2 is mcpews/MyAgent, not liyabgf/dsh-myagent. dsh-plugin-superagent-lite is still 404. @missher/dsh-superagent is still missing. No newer harness release than dsh-v0.2.2-rc.1. Prototype main is still 8c32a9d. arXiv export returned 429. No paper was added."
 }
