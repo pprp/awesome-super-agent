@@ -1,35 +1,29 @@
 {
-  "last_run_at": "2026-11-08T02:36:20Z",
+  "last_run_at": "2026-11-08T03:42:30Z",
   "timezone": "UTC",
-  "baseline_commit": "cec4f38",
+  "baseline_commit": "1b10aca",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-08T01:33:22Z",
-    "to": "2026-11-08T02:36:20Z"
+    "from": "2026-11-08T02:36:20Z",
+    "to": "2026-11-08T03:42:30Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "louifinn/dsh-superagent-further",
-      "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "1e92d5affc07",
-      "note": "81 ahead of 8c32a9d. 1e92d5affc07 at 2026-11-08T02:17:25Z does the six P4b steps. SetupError projectUnset when no project is registered. Accepts with no project become ignore. The route tool no longer passes an empty project list. DshExecutor has no root prompt path. model-surface.spec.ts is describe.skip. docs/010 calls P4 done and records 1301 passed, 12 skipped, 1313. Not rerun."
+      "title": "xiaoTN/dsh-superagent-connector",
+      "url": "https://github.com/xiaoTN/dsh-superagent-connector",
+      "tip": "c195918ec346",
+      "note": "0.4.3 at 2026-11-08T03:38:57Z. d8204d29ef3b at 03:26:16Z quotes the answered human message on acknowledgement and reply. A ticket-level result quotes the message that started the ticket. An unresolvable id stays unquoted. The quote button opens an aside labeled 消息上下文; send prefixes the quoted text and uses the existing queue click. 8bc556ed53d3 at 03:37:34Z is the full-height split. Release note says npm run check 121 passed, 20 skipped, and no upstream patch. Not rerun. Still not on npm."
     },
     {
-      "title": "baojingyu/dsh-superagent-channels",
-      "url": "https://github.com/baojingyu/dsh-superagent-channels",
-      "tip": "18d0824ac2ae",
-      "note": "44 ahead of 8c32a9d, 0 behind, 106 files. dc02cabb763d at 02:00:32Z maps WeChat direct chats (empty room) back to the person id and allows replies by wxid. 18d0824ac2ae at 02:16:21Z names pwsh on win32 so the main Session restrict does not ask for bash. Author recorded 1432 passed, 36 skipped of 1468. Not rerun."
-    },
-    {
-      "title": "niechao136/dsh-foreman",
-      "url": "https://github.com/niechao136/dsh-foreman",
-      "tip": "2eb2356b6a2d",
-      "note": "npm 0.3.2 at 2026-11-08T01:57:16Z (8c5c1b1d51e6) appends a reporting section. dsh-foreman-node 0.2.1 at 01:55:26Z (9037bacbe76c, 01:34:42Z) closes a turn with no report as ready. npm 0.3.3 at 02:25:07Z (2eb2356b6a2d, 02:23:35Z) names the registered device at the start of the assignment. README test count still 1332. Not rerun."
+      "title": "TianzeLuo/dsh-super-agent",
+      "url": "https://github.com/TianzeLuo/dsh-super-agent",
+      "tip": "bbc49876f1f4",
+      "note": "Docs tip at 2026-11-08T03:23:01Z. ab71af77180f at 03:21:57Z makes steer interrupt by default (next-step) and copies dispatch/steer files into the plugin data dir. 50acd48bba86 keeps lost and interrupted out of active. 3b31bf76792b waits lostGraceMs (default 10000) and does not mark starting tasks lost for a missing session. 592149119de7 drops the success location banner. Package stays 0.9.0. Not rerun."
     }
   ],
   "pending": [
@@ -3320,13 +3314,49 @@
       "url": "https://blog.jorgeturbica.dev/en/repo-of-the-day-dsh-superagent-deepseek-s-agent-that-turns-mentions-into-prs",
       "confidence": 0.45,
       "reason": "Page says 6 Nov 2026 and no hour. Install pins @deepseek-ai/dsh@0.2.1-rc.3. Outside a confirmed window, and the command is behind the listed npm tag. Not listed."
+    },
+    {
+      "title": "Harness discussions #12602 through #12606",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12606",
+      "confidence": 0.4,
+      "reason": "Created 2026-11-08T02:55:02Z through 03:19:14Z. #12602 is dsh-codex-compat request headers. #12603 is Windows explorer PATH. #12604 is dsh-memory-bank for generic DSH assistants. #12605 is desktop HTML preview calling host RPC. #12606 is stale dsh-auth cookies and HTTP 431. None describe Trigger, Mandate, or Ticket. #12601 is 02:33:11Z, before this window, and is a silent Windows launch. Newest discussion checked is #12606. #12607 does not exist."
+    },
+    {
+      "title": "andrewngg/dsh-superagent-battlestar goals scheduler",
+      "url": "https://github.com/andrewngg/dsh-superagent-battlestar",
+      "confidence": 0.4,
+      "reason": "Tip b85ad2dcfe80 at 2026-11-08T03:15:40Z adds a goals scheduler, task records, timeout keepalive, and self-restart. README still describes queued, assigned, running, and completed on its own hub. The README does not contain Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "fliggy non-default branches",
+      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype",
+      "confidence": 0.55,
+      "reason": "pushed_at 2026-11-08T03:30:20Z. Default main is still 21ab72886370 from 2026-11-07T00:51:36Z. 1704-guard-integration is b1fb806a0191 at 02:54:05Z. 1707-cloud-session-cloud is f2a4df448128 at 03:28:34Z. 1707-cloud-session-plugin is a996a72ff3dd at 03:28:47Z. Non-default branches stay off the list. The listed Paseo sentence was not rewritten."
+    },
+    {
+      "title": "whutlichao GitHub source branch",
+      "url": "https://github.com/whutlichao/superagent-plugin",
+      "confidence": 0.62,
+      "reason": "pushed_at 2026-11-08T02:41:38Z. Default main is still 7db5e70cf418 from 2026-11-07T18:37:26Z. Branch fix-github-repository-config tip 6209a596d864 at 02:41:29Z lets a runtime-saved source drive facts, PR binding, and settings reads. Non-default branches stay off the list. The listed sentence was not rewritten."
+    },
+    {
+      "title": "IHUI findings ledger does not change the super-agent package",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/00fa9e977f64",
+      "confidence": 0.55,
+      "reason": "Tip 00fa9e977f64 at 2026-11-08T02:43:28Z. The three files are PROJECT_PLAN.md, a findings ledger index, and plan-fields.jsonl. packages/shared/src/super-agent was not in the diff. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code render script does not move the listed sentence",
+      "url": "https://github.com/pingdotgg/t3code",
+      "confidence": 0.7,
+      "reason": "Default tip a1af1841ede2 at 2026-11-08T03:15:02Z only changes scripts/render-metrics.ts. pushed_at 2026-11-08T03:38:03Z is pull-request activity, not a newer default-branch commit. The listed sentence was not rewritten."
     }
   ],
   "rejected_this_run": [
     {
-      "title": "empty test repos and playgrounds",
-      "url": "https://github.com/1215-121/superagent-test",
-      "reason": "1215-121/superagent-test, youmingdeshuchong83/superagent-playground, daveaiagent-jpg/superagent-sandbox, and eastseven/d7sa-demo are empty. ashione/superagent-playground remains a playground. Not listed."
+      "title": "playgrounds, demos, and smoke repos",
+      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
+      "reason": "VBK-AI-Agent-Gateway/superagent-playground, t3642/dsh-demo, and yxjkje/superagent-smoke-20261108 were pushed inside the window and are a trial repo, a demo, and a temporary smoke test. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -3449,5 +3479,5 @@
     "RedKnight13/loom default main is 45219841a711 at 2026-11-08T02:06:16Z (setup documentation). It is not this prototype. Do not list it."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. Unscoped dsh-foreman is 0.3.3 (registry time 2026-11-08T02:25:07.842Z; 0.3.2 was 2026-11-08T01:57:16.944Z). Unscoped dsh-foreman-node is 0.2.1 (registry time 2026-11-08T01:55:26.032Z). @missher/dsh-dashboard, @missher/dsh-superagent, dsh-wecom-bridge, dsh-superagent-channels, dsh-superagent-connector, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-08T02:36:20Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-08T02:30:17Z is not a commit."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. Unscoped dsh-foreman is 0.3.3 (registry time 2026-11-08T02:25:07.842Z; 0.3.2 was 2026-11-08T01:57:16.944Z). Unscoped dsh-foreman-node is 0.2.1 (registry time 2026-11-08T01:55:26.032Z). @missher/dsh-dashboard, @missher/dsh-superagent, dsh-wecom-bridge, dsh-superagent-channels, dsh-superagent-connector, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-08T03:42:30Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-08T03:39:39Z is not a commit."
 }
