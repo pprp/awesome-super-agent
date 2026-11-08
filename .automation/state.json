@@ -1,32 +1,87 @@
 {
-  "last_run_at": "2026-11-07T23:34:37Z",
+  "last_run_at": "2026-11-08T00:35:13Z",
   "timezone": "UTC",
-  "baseline_commit": "6712bfe",
+  "baseline_commit": "bc43954",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-07T22:33:27Z",
-    "to": "2026-11-07T23:34:37Z"
+    "from": "2026-11-07T23:34:37Z",
+    "to": "2026-11-08T00:35:13Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "jincheng3870682453-hash/shepherd",
+      "url": "https://github.com/jincheng3870682453-hash/shepherd",
+      "tip": "dea5940ec95c",
+      "note": "Published 2026-11-08T00:22:35Z. Orchestration layer for the essay gaps: external watchdog, credit bait, speculation, optimistic execution. Mock-LLM benchmark. private 0.1.0, Node >=24. Author fork of the prototype is still 8c32a9d."
+    }
+  ],
   "updated": [
     {
       "title": "louifinn/dsh-superagent-further",
       "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "c2553e1a1b0c",
-      "note": "69 ahead of 8c32a9d. Tip c2553e1a1b0c at 2026-11-07T23:28:42Z. 01084617a530 removes executor.orchestration; registered projects always run under Lead; unowned accepts are ignored or refused. bd4fa9547307 is docs only. c2553e1a1b0c records the Request bundle in docs/010; SCHEMA_VERSION stays 13. Package stays private 0.2.0."
+      "tip": "64b65d16c6cc",
+      "note": "77 ahead of 8c32a9d. Requests are records: schema 14, split delivery, one result notice, overview and digest. Schema 15 ends Requests whose Tickets already ended. Roadmap tip 64b65d16c6cc at 2026-11-08T00:32:51Z. Package stays private 0.2.0."
     },
     {
-      "title": "ArtemKoval/lab dsh-superagent analysis",
+      "title": "ArtemKoval lab dsh analysis",
       "url": "https://github.com/ArtemKoval/lab/blob/main/reports/2026-11-07-issue-103-dsh-superagent-analysis.md",
-      "tip": "a4e00c4f8486",
-      "note": "9921ec4c9896 lands P3 admission in this lab process_issues. 439252366e20 archives it. f2d4031ec5c9 lands the P4 write-ahead ledger. a4e00c4f8486 at 23:26:36Z archives it. Prototype code unchanged."
+      "tip": "e547b117e0f3",
+      "note": "P5 communication rules landed at b184ff366193 and archived at 8f6d1942d431. P6 setup interview landed in the project-setup skill at e547b117e0f3, 2026-11-08T00:04:52Z. Prototype code unchanged."
+    },
+    {
+      "title": "AirKyzzZ/hermes-superagent",
+      "url": "https://github.com/AirKyzzZ/hermes-superagent",
+      "tip": "e08bc83aaad8",
+      "note": "Todoist, Gmail, and WhatsApp sweeps, plus briefs --compare. polling.py does not import parity. Tip e08bc83aaad8 at 2026-11-08T00:13:39Z."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussion #12592",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12592",
+      "confidence": 0.4,
+      "reason": "Created 2026-11-08T00:01:27Z. Windows workspace-write leaves a persistent ACL on the workspace root. Zero comments. The body does not describe Trigger, Mandate, or Ticket. Newest discussion checked is #12592. #12590 does not exist."
+    },
+    {
+      "title": "wish2333 schedule absence still is not the prototype",
+      "url": "https://github.com/wish2333/dsh-superagent-wish",
+      "confidence": 0.72,
+      "reason": "Tip f8c24f6bcf7f at 2026-11-07T23:58:12Z. A host without the schedule service still starts the judge loop, and the file source still runs. README was aligned to that. Partner, Secretary, and Worker remain desktop presets. policy.js still has no Trigger, Ticket, or off/observe/auto table. Not listed."
+    },
+    {
+      "title": "wuzhiping DEF.md does not change the code",
+      "url": "https://github.com/wuzhiping/superagent/commit/f4f13f525a1a",
+      "confidence": 0.68,
+      "reason": "f4f13f525a1a at 2026-11-07T23:46:00Z adds DEF.md, a walkthrough from Trigger to Ticket, and four screenshots. No src change. The listed sentence was not rewritten."
+    },
+    {
+      "title": "RubenPanero formatting ignore",
+      "url": "https://github.com/RubenPanero/dsh-superagent-prototype",
+      "confidence": 0.7,
+      "reason": "Tip 04a784f9134a at 2026-11-07T23:41:22Z disables agent auto-formatting. README lead was still upstream at the previous check. Not listed."
+    },
+    {
+      "title": "chesley-veko/dsh-projects is an HTML prototype",
+      "url": "https://github.com/chesley-veko/dsh-projects",
+      "confidence": 0.5,
+      "reason": "Created 2026-11-07T22:03:54Z, pushed 2026-11-08T00:14:41Z. README says the interactive prototype is a single HTML file and implementation has not started. It is a DSH Projects sketch, not the prototype ticket model. Not listed."
+    },
+    {
+      "title": "RedKnight13/loom is not this prototype",
+      "url": "https://github.com/RedKnight13/loom",
+      "confidence": 0.4,
+      "reason": "Pushed 2026-11-07T23:35:20Z. Version 0.6.0 is bash and rules for tickets, a watchdog, and a no-push worker. The README binds it to ARGOS and does not use DSH or the prototype admission table. Not listed."
+    },
+    {
+      "title": "tips that did not move the listed sentence after 23:34Z",
+      "url": "https://github.com/pingdotgg/t3code",
+      "confidence": 0.7,
+      "reason": "t3code pushed_at 2026-11-08T00:24:18Z and the default tip is still a9e709f15f82 from 2026-11-07T22:20:13Z. Prototype pushed_at is still 2026-11-03T09:29:14Z; updated_at 2026-11-08T00:33:12Z is not a commit. dori tip a234c2f746b4 at 23:57:18Z only keeps a private stdout tail when a review prints no VERDICT line. awesome-dsh-plugin tip e24ee790b9dd at 00:22:27Z regenerates plugin rows. IHUI tip 833071424e14 at 00:19:13Z is guardian and tickets, not the super-agent package. Listed sentences were not rewritten."
+    },
     {
       "title": "Harness discussion #12591",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12591",
@@ -3192,9 +3247,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "playgrounds and the demo video repo",
-      "url": "https://github.com/MervinPraison/superagent-demo",
-      "reason": "MervinPraison/superagent-demo (pushed 2026-11-07T22:41:09Z) is a tiny Python project with one failing test for a video. ashione/superagent-playground tip 551de2307068 at 23:21:20Z stays a placeholder. niranx01bot/dsh-agent-playground was created 2026-11-07T23:30:39Z as a playground. No new dsh-superagent arXiv hit inside the hour. Discussion #12591 is not the prototype."
+      "title": "disposable lab and the placeholder playground",
+      "url": "https://github.com/chicotomerveille-bot/dsh-superagent-lab",
+      "reason": "chicotomerveille-bot/dsh-superagent-lab was created 2026-11-07T23:32:03Z and tip c4e954754d33 at 23:53:29Z only bootstraps a disposable lab. ashione/superagent-playground pushed_at 2026-11-08T00:12:43Z remains a placeholder. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -3315,5 +3370,5 @@
     "IHUI-INF-AI/IHUI-AI tip d4e16218061d at 2026-11-07T23:12:53Z is ticket docs and README numbers. Do not rewrite the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @missher/dsh-dashboard, @missher/dsh-superagent, dsh-wecom-bridge, dsh-superagent-channels, dsh-superagent-connector, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-07T23:34:37Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-07T23:29:18Z is not a commit."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z; registry time.modified 2026-11-05T13:21:52.829Z). alpha remains 0.2.2-alpha.3. The prerelease still does not satisfy prototype engines.dsh ^0.2.1-alpha.2. Unscoped dsh-superagent-inbox is 0.3.2 (registry time.modified 2026-11-07T14:03:52.525Z). dsh-session-superagent remains 0.10.6. @vicfei/dsh-super-agent remains 1.3.0 (registry time 2026-11-07T08:53:19.583Z). @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @missher/dsh-dashboard, @missher/dsh-superagent, dsh-wecom-bridge, dsh-superagent-channels, dsh-superagent-connector, and unscoped dsh-superagent are not on npm. Rechecked 2026-11-08T00:35:13Z. Prototype main is still 8c32a9d; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-08T00:33:12Z is not a commit."
 }
