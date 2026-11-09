@@ -1,38 +1,98 @@
 {
-  "last_run_at": "2026-11-08T23:37:00Z",
+  "last_run_at": "2026-11-09T00:36:45Z",
   "timezone": "UTC",
-  "baseline_commit": "32e5869",
+  "baseline_commit": "2bddf39",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-08T22:36:27Z",
-    "to": "2026-11-08T23:37:00Z"
+    "from": "2026-11-08T23:37:00Z",
+    "to": "2026-11-09T00:36:45Z"
   },
   "added": [],
   "updated": [
     {
       "title": "439436269-ctrl/dsh-superagent",
       "url": "https://github.com/439436269-ctrl/dsh-superagent",
-      "tip": "538631feeda6",
-      "note": "102 ahead of 8c32a9d. Package renamed to dsh-superagent-crew 0.1.0, private removed, not on npm. Non-default Trigger ids gain #instance and meta.instance. scope uses that instance. enabled changes either way restart. DingTalk mentionsBot reads isInAtList. Not rerun."
+      "tip": "d32d421f3c9e",
+      "note": "110 ahead of 8c32a9d. Package is @vfvrpq/dsh-superagent 0.2.0 on npm at 2026-11-09T00:21:36Z. orchestrator_repo_add and clone-beside-worktree. Not rerun."
     },
     {
       "title": "liyabgf/dsh-myagent",
       "url": "https://github.com/liyabgf/dsh-myagent",
-      "tip": "bffa6c081a2e",
-      "note": "0.11.1. autoRetry default on, autoRetryMax 0 means uncapped. Dead error turns relaunch. Cap parks a decision. myagent_raise_decision does not stop the turn. Not rerun."
+      "tip": "f9232177580c",
+      "note": "0.11.3. Schedule deliverTo and one Work per schedule name. Panel states the delivery address. Not rerun."
+    },
+    {
+      "title": "baojingyu/dsh-superagent-channels",
+      "url": "https://github.com/baojingyu/dsh-superagent-channels",
+      "tip": "bb4084f0829d",
+      "note": "WeChat watch set includes Policy people. Re-attach catch-up reads the last 20. Not rerun."
     },
     {
       "title": "sallaumen/dsh-supergent-superboard",
       "url": "https://github.com/sallaumen/dsh-supergent-superboard",
-      "tip": "35b445873202",
-      "note": "db34d6995e4a treats an unreachable manager as already stopped during remove, and unreachable? uses inspect. Tip only quotes script words for lint. Not rerun."
+      "tip": "57477b057421",
+      "note": "Owner-only live checkout. One ticket-overlay writer. Architecture map. Archive and sqlite read unchanged. Not rerun."
+    },
+    {
+      "title": "Nemotte/pi-superagent",
+      "url": "https://github.com/Nemotte/pi-superagent",
+      "tip": "2b070e396dd5",
+      "note": "Paused dispatch can switch one ticket onto the original checkout. npm stays 0.1.0-alpha.1. Not rerun."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussion #12694",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12694",
+      "confidence": 0.4,
+      "reason": "Created 2026-11-08T23:44:05Z. session.attachment stops resolving after a queued message leaves the inbox. The body does not name dsh-superagent, Mandate, or this prototype Ticket. Not listed."
+    },
+    {
+      "title": "Harness discussion #12695",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12695",
+      "confidence": 0.45,
+      "reason": "Created 2026-11-09T00:00:28Z. Global MCP token cost and a cwd/sandbox split. The body does not name this prototype. #12696 does not exist. Not listed."
+    },
+    {
+      "title": "I2y0 nene-on-upstream sceneDirectory",
+      "url": "https://github.com/I2y0/dsh-superagent",
+      "confidence": 0.72,
+      "reason": "Pushed 2026-11-09T00:25:46Z. Default tip is still f02c46c7f19a. nene-on-upstream is e53be4c2ef1a and says the scene is derived from the signal path at execution time. Non-default branch. Install still pins dsh@0.2.1-rc.3. Not listed."
+    },
+    {
+      "title": "IHUI guard 47 does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/91d705cc7024",
+      "confidence": 0.7,
+      "reason": "Tip 91d705cc7024 at 2026-11-08T23:55:46Z. Compare from f8d0cd42c9c5 changes no super-agent path. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code commits do not move hextor",
+      "url": "https://github.com/pingdotgg/t3code/commit/d5290e9167cc",
+      "confidence": 0.7,
+      "reason": "Tip d5290e9167cc at 2026-11-09T00:28:54Z. Compare from e6d42567ba92 is gh sockets, mobile cache, iOS compression, macOS worktree cache, and the mic button. Not rewritten."
+    },
+    {
+      "title": "awesome-dsh-plugin has no new superagent path",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/668c3fa6e759",
+      "confidence": 0.55,
+      "reason": "Tip 668c3fa6e759 at 2026-11-09T00:13:14Z adds general plugins. No superagent path. The listed sentence was not rewritten."
+    },
+    {
+      "title": "billLiao topic sync",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/78e45f1b8066",
+      "confidence": 0.4,
+      "reason": "Tip 78e45f1b8066 at 2026-11-09T00:06:23Z fixes a theme misclassification and syncs the topic scrape. The listed sentence was not rewritten."
+    },
+    {
+      "title": "YansongG default tip did not move",
+      "url": "https://github.com/YansongG-HKU/dsh-superagent-windows",
+      "confidence": 0.74,
+      "reason": "windows-port tip is still 02eab2afff5f. pushed_at 2026-11-09T00:04:20Z is not a newer commit. The listed sentence was not rewritten."
+    },
     {
       "title": "Harness discussion #12693 host memory",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12693",
@@ -118,12 +178,6 @@
       "reason": "Prototype pushed_at is still 2026-11-03T09:29:14Z. npm latest and next are still 0.2.2-rc.1. dsh-foreman is still 0.3.8. dsh-foreman-node is still 0.3.0. Javey main is still 4cfb7a275a3e. LofiSu default tip is still e705e872796e. Nelson master is still 35f0be9b2510; pushed_at 21:53:57Z is not a newer commit. IHUI default tip is still 73a6352a830b; pushed_at 22:23:51Z is not a newer commit. AirKyzzZ tip is still e5131453bacf. fliggy main is still f66e4c1b5cea; pushed_at 22:32:37Z is not a newer commit. I2y0 default tip is still f02c46c7f19a. Listed sentences for these were not rewritten."
     },
     {
-      "title": "I2y0 nene-on-upstream is not the default branch",
-      "url": "https://github.com/I2y0/dsh-superagent",
-      "confidence": 0.72,
-      "reason": "Pushed 2026-11-08T20:50:03Z. Default tip is still f02c46c7f19a. nene-on-upstream 2af822c0497e says auto-route could not derive a scene from the path. README install still pins @deepseek-ai/dsh@0.2.1-rc.3 and the one-click target is still the 404 hxh230802 repo. Not listed."
-    },
-    {
       "title": "Harness discussion #12688",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12688",
       "confidence": 0.55,
@@ -176,12 +230,6 @@
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
       "confidence": 0.74,
       "reason": "Prototype pushed_at is still 2026-11-03T09:29:14Z. npm latest and next are still 0.2.2-rc.1. dsh-foreman is still 0.3.8. dsh-foreman-node is still 0.3.0. LofiSu default tip is still e705e872796e; pushed_at 21:24:51Z is not a newer commit. Nelson master is still 35f0be9b2510; pushed_at 20:50:25Z is not a newer commit. IHUI default tip is still 73a6352a830b; pushed_at 21:25:26Z is not a newer commit. AirKyzzZ tip is still e5131453bacf. Listed sentences for these were not rewritten."
-    },
-    {
-      "title": "I2y0/dsh-superagent republish of hxh230802",
-      "url": "https://github.com/I2y0/dsh-superagent",
-      "confidence": 0.72,
-      "reason": "Created 2026-11-08T19:43:22Z. Tip f02c46c7f19a rebuilds lib. 12decf8e4661 adds MSP, experience, auto-route, and a resident worker, and commits .git.bak-shallow. README still installs @deepseek-ai/dsh@0.2.1-rc.3 and the one-click target github:hxh230802/dsh-superagent-prototype is still the 404 from the earlier pending row. Not listed until the install matches doc 006."
     },
     {
       "title": "Harness discussion #12687",
@@ -4146,29 +4194,14 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Mz1823-Mex/SuperAgent",
-      "url": "https://github.com/Mz1823-Mex/SuperAgent",
-      "reason": "Pushed 2026-11-08T22:51:02Z. README is only a title. Not a DSH bundle. Not listed."
+      "title": "VBK-AI-Agent-Gateway/superagent-playground",
+      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
+      "reason": "Pushed 2026-11-09T00:28:19Z. Description says it is a dsh-superagent trial repository. A playground. Not listed."
     },
     {
-      "title": "MrSystemC/AURION-Super-Agent",
-      "url": "https://github.com/MrSystemC/AURION-Super-Agent",
-      "reason": "Created 2026-11-08T22:19:33Z, before this window. Python localhost agent. Does not name this prototype. Not listed."
-    },
-    {
-      "title": "SkillfulAgents/SuperAgent",
-      "url": "https://github.com/SkillfulAgents/SuperAgent",
-      "reason": "pushed_at 2026-11-08T23:31:31Z. Default tip eac3c646dffd is still the 17:12Z 0.6.7-rc.1 commit. Not this prototype. Not listed."
-    },
-    {
-      "title": "Hocine123321/iMC-Superagent",
-      "url": "https://github.com/Hocine123321/iMC-Superagent",
-      "reason": "Pushed 2026-11-08T23:31:17Z. Minecraft client research. Not DSH. Not listed."
-    },
-    {
-      "title": "abjosecarrasco-hash/plantilla-superagente",
-      "url": "https://github.com/abjosecarrasco-hash/plantilla-superagente",
-      "reason": "Pushed 2026-11-08T22:45:44Z. Telegram business template. Not DSH. Not listed."
+      "title": "HongJinjin9/agent-workspace",
+      "url": "https://github.com/HongJinjin9/agent-workspace",
+      "reason": "Pushed 2026-11-08T23:58:13Z. Ticket workspace for issues and review PRs. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -4310,5 +4343,5 @@
     "IHUI-INF-AI/IHUI-AI tip 73a6352a830b at 2026-11-08T20:18:01Z does not touch packages/shared/src/super-agent. Do not rewrite the listed sentence."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. dsh-foreman remains 0.3.8. dsh-foreman-node remains 0.3.0. dsh-session-superagent remains 0.10.11. dsh-superagent-inbox remains 0.3.2. @mycf711/dsh-gate remains 0.1.4. @vicfei/dsh-super-agent remains 1.3.0. @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @reserendipity/dsh-superagent remains 0.1.3. Unscoped myagent remains 4.0.2 (mcpews/MyAgent). dsh-superagent-crew is not on npm. Prototype pushed_at remains 2026-11-03T09:29:14Z; updated_at 2026-11-08T23:23:49Z is not a commit. Tip remains 8c32a9dc5d72c033816c6a8110b37f40cf94fba4."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (version published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. dsh-foreman remains 0.3.8. dsh-foreman-node remains 0.3.0. dsh-session-superagent remains 0.10.11. dsh-superagent-inbox remains 0.3.2. @mycf711/dsh-gate remains 0.1.4. @vicfei/dsh-super-agent remains 1.3.0. @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent remains 0.1.0-alpha.1. @reserendipity/dsh-superagent remains 0.1.3. Unscoped myagent remains 4.0.2 (mcpews/MyAgent). dsh-superagent-crew is not on npm. @vfvrpq/dsh-superagent is 0.2.0 (2026-11-09T00:21:36.103Z), repository 439436269-ctrl/dsh-superagent. Prototype pushed_at remains 2026-11-03T09:29:14Z. Tip remains 8c32a9dc5d72c033816c6a8110b37f40cf94fba4. Newest harness discussion is #12695. #12696 does not exist. arXiv export returned 0 hits. No paper was added."
 }
