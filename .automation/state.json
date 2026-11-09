@@ -1,15 +1,15 @@
 {
-  "last_run_at": "2026-11-09T22:36:25Z",
+  "last_run_at": "2026-11-09T22:38:48Z",
   "timezone": "UTC",
-  "baseline_commit": "c71ec44",
+  "baseline_commit": "115d836",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-09T20:37:06Z",
-    "to": "2026-11-09T22:36:25Z"
+    "from": "2026-11-09T21:33:11Z",
+    "to": "2026-11-09T22:38:48Z"
   },
   "added": [],
   "updated": [
@@ -17,13 +17,13 @@
       "title": "louifinn/dsh-superagent-further",
       "url": "https://github.com/louifinn/dsh-superagent-further",
       "tip": "615bdc61c5ce",
-      "note": "156 ahead of 8c32a9d. Trigger ids for other repositories are scoped. Schema 22 adds a change or answer deliverable. A Lead can raise one work request from an automation delivery."
+      "note": "156 ahead of 8c32a9d. Schema 22 records change or answer. A change ready report without a pull request is refused. A Lead can raise one work request from an automation delivery."
     },
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "9e8251c8f685",
-      "note": "#472 through #478 regroup settings into four sections, list project access in place, drop dsh_repositories, and group activity. The board layout change does not alter dispatch."
+      "tip": "48e55ceded8d",
+      "note": "#472 through #478 regroup settings into four sections, list project access in place, drop dsh_repositories, and group activity. #469 at 22:35Z grants the bot write access before creating a project and retries a failed provision without following a link into the agent checkout."
     }
   ],
   "pending": [
@@ -31,7 +31,7 @@
       "title": "Default tips that did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.9,
-      "reason": "Prototype tip remains 8c32a9dc5d72. pushed_at remains 2026-11-03T09:29:14Z; updated_at 2026-11-09T22:30:00Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. Nelson master remains cb845cc5aa37. baojingyu tip remains 801d7626efef. ForkbombEu tip remains d86d845c3fc2. larksuite/cli tip remains 1bfdcc2c1a0e. vicfei remains 1.4.0 at 416702ead4ae. No new repository whose name contains dsh-superagent was created after 2026-11-09T20:37:06Z. The listed sentences were not rewritten."
+      "reason": "Prototype tip remains 8c32a9dc5d72. pushed_at remains 2026-11-03T09:29:14Z; updated_at 2026-11-09T22:30:00Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. Nelson master remains cb845cc5aa37, committed 2026-11-09T17:49:18Z. baojingyu tip remains 801d7626efef. ForkbombEu had no commits after 2026-11-09T20:37:06Z. larksuite/cli pushed_at remains 2026-11-09T17:47:28Z. vicfei remains 1.4.0. No dsh-superagent repository was created after 20:37:06Z. The listed sentences for these were not rewritten."
     },
     {
       "title": "liyabgf audit ledger does not move 0.14.1",
@@ -43,13 +43,13 @@
       "title": "LofiSu pushed_at moved without a new main commit",
       "url": "https://github.com/LofiSu/deepseek-super-agent/commit/e705e872796e",
       "confidence": 0.9,
-      "reason": "pushed_at is 2026-11-09T22:24:02Z. main remains e705e872796e, committed 2026-11-06T04:58:44Z. There are no newer commits on the default branch. The listed sentence was not rewritten."
+      "reason": "pushed_at is 2026-11-09T22:24:02Z. main remains e705e872796e, committed 2026-11-06T04:58:44Z. The listed sentence was not rewritten."
     },
     {
       "title": "t3code and IHUI do not move the listed sentences",
       "url": "https://github.com/pingdotgg/t3code/commit/ff7aa5ace311",
       "confidence": 0.9,
-      "reason": "t3code ff7aa5ace311 at 2026-11-09T21:41:08Z, ad9e87111fd9 at 20:52:59Z, and 8ab427c6077f at 20:48:27Z edit mobile PDF preview, web uploads, and settings copy. None touch a hextor or superagent path. hextor-ndc tip remains 0dc3b4279c03. IHUI commits through f16d6dc3dbd2 at 22:15:10Z do not touch packages/shared/src/super-agent; that path's newest commit is still deac054b08b1 at 2026-11-08T16:35:02Z. The listed sentences were not rewritten."
+      "reason": "t3code ff7aa5ace311 at 2026-11-09T21:41:08Z, ad9e87111fd9 at 20:52:59Z, and 8ab427c6077f at 20:48:27Z edit mobile PDF preview, web uploads, and settings copy. None touch a hextor or superagent path. IHUI commits through f16d6dc3dbd2 at 22:15:10Z do not touch packages/shared/src/super-agent; that path's newest commit is still deac054b08b1 at 2026-11-08T16:35:02Z. The listed sentences were not rewritten."
     },
     {
       "title": "ArtemKoval/lab continues the rea analysis",
@@ -79,7 +79,7 @@
       "title": "No in-window paper or HN story",
       "url": "https://arxiv.org/search/?query=superagent+deepseek&searchtype=all&source=header",
       "confidence": 0.85,
-      "reason": "arXiv query all:superagent AND all:deepseek returned 0 results at 2026-11-09T22:34:57Z. HN stories matching dsh-superagent and deepseek super-agent are older than this window; the newest returned story is 2026-11-06. Not listed."
+      "reason": "arXiv query all:superagent AND all:deepseek returned 0 results at 2026-11-09T22:34:57Z. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-06. Not listed."
     },
     {
       "title": "Default tips that did not move",
@@ -4988,6 +4988,48 @@
       "url": "https://github.com/pingdotgg/t3code/commit/1d5404ad5d1e",
       "confidence": 0.74,
       "reason": "t3code tip 1d5404ad5d1e at 2026-11-09T04:36:05Z is a mobile timestamp. Earlier commits in the hour are Pi model tiers, mobile primitives, and release CI. No superagent, hextor, or vendor/dsh path. IHUI tip 16d0abcf2c9e is readme counts and ai-service model sync. packages/shared/src/super-agent has no commit since 03:46Z. The listed sentences were not rewritten."
+    },
+    {
+      "title": "Default tips that did not move",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip remains 8c32a9dc5d72. pushed_at remains 2026-11-03T09:29:14Z; updated_at 2026-11-09T21:30:01Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @vicfei/dsh-super-agent remains 1.4.0. Nelson master remains cb845cc5aa37. LofiSu main remains e705e872796e. ForkbombEu tip remains d86d845c3fc2. baojingyu tip remains 801d7626efef. larksuite/cli tip remains 1bfdcc2c1a0e. arXiv export returned 0 hits. No in-window HN story. Newest harness discussion is #12787. #12788 does not exist."
+    },
+    {
+      "title": "Harness discussions #12786 and #12787",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12787",
+      "confidence": 0.45,
+      "reason": "#12786 at 2026-11-09T20:35:16Z was 1m50s before the previous close and was missed; it follows #11338 on a 700K-context silent finish and names dsh-context, not this prototype Ticket. #12787 at 2026-11-09T21:15:08Z is sandbox-denied writes on preset ptc with dsh 0.2.1-rc.5. Neither was listed."
+    },
+    {
+      "title": "myagent closing ledger is docs only",
+      "url": "https://github.com/liyabgf/dsh-myagent/commit/93c0830ec476",
+      "confidence": 0.9,
+      "reason": "93c0830ec476 at 2026-11-09T20:42:58Z only adds docs/v2/00-audit-and-plan.md sections 4.154 through 4.157. They restate 0.13.5, 0.14.0 and 0.14.1, including that the three bridges were not run on a real tenant and that vm still refuses. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code and IHUI do not move the listed sentences",
+      "url": "https://github.com/pingdotgg/t3code/commit/ad9e87111fd9",
+      "confidence": 0.9,
+      "reason": "t3code ad9e87111fd9 at 2026-11-09T20:52:59Z, pushed 21:28:23Z, only edits the web composer and does not touch a hextor or superagent path. IHUI b8e16577a693 at 21:19:49Z merges origin/main and does not touch packages/shared/src/super-agent. The listed sentences were not rewritten."
+    },
+    {
+      "title": "ArtemKoval/lab continues the rea analysis",
+      "url": "https://github.com/ArtemKoval/lab/commit/2f23fe6d3bdf",
+      "confidence": 0.7,
+      "reason": "2026-11-09T21:16:11Z archives add-dead-export-scan as rea analysis P6, #195, tip 2f23fe6d3bdf. The message does not name dsh-superagent-prototype. Not listed."
+    },
+    {
+      "title": "andrewngg battlestar Android notification stays unlisted",
+      "url": "https://github.com/andrewngg/dsh-superagent-battlestar/commit/426ceb33bc84",
+      "confidence": 0.4,
+      "reason": "Tip 426ceb33bc84 at 2026-11-09T21:16:27Z changes the Android persistent notification to specialUse so a foreground service does not time out before Android 15. README still describes its own hub queue. It does not contain Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "iMC, MosBot and SkillfulAgents stay out",
+      "url": "https://github.com/Hocine123321/iMC-Superagent/commit/5d789f33ff0f",
+      "confidence": 0.3,
+      "reason": "iMC-Superagent 5d789f33ff0f at 2026-11-09T21:27:27Z is a touch-editor overhaul of a Minecraft client. MosBot 9b65525947ad at 21:09:56Z is a SQLite diagnostic test. SkillfulAgents 484307f065dd at 20:48:30Z merges a Sentry maintenance PR. None name this prototype. Not listed."
     }
   ],
   "rejected_this_run": [
