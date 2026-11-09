@@ -1,50 +1,68 @@
 {
-  "last_run_at": "2026-11-09T19:34:21Z",
+  "last_run_at": "2026-11-09T20:37:06Z",
   "timezone": "UTC",
-  "baseline_commit": "47e83bb",
+  "baseline_commit": "8dffa52",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-09T18:35:00Z",
-    "to": "2026-11-09T19:34:21Z"
+    "from": "2026-11-09T19:34:21Z",
+    "to": "2026-11-09T20:37:06Z"
   },
   "added": [],
   "updated": [
     {
       "title": "liyabgf/dsh-myagent",
       "url": "https://github.com/liyabgf/dsh-myagent",
-      "tip": "3f3b031efc7e",
-      "note": "0.13.1 adds the WeCom callback bridge. 0.13.2 and 0.13.3 move workspace bytes behind ExecutionSandbox. prepare stays on the host. vm still refuses."
-    },
-    {
-      "title": "baojingyu/dsh-superagent-channels",
-      "url": "https://github.com/baojingyu/dsh-superagent-channels",
-      "tip": "801d7626efef",
-      "note": "1.0.2 starts the WeChat bridge from a scheduled task. 1.0.3 can spawn an absolute launcher, and .cmd goes through cmd.exe /c."
+      "tip": "5c9995558cc3",
+      "note": "0.13.4 narrows packaged examples. 0.13.5 moves prepare into the sandbox; vm still refuses. 0.14.0 adds the QQ WebSocket bridge, not run on a real bot. 0.14.1 stops hidden-tab polling and opens POST /decisions."
     },
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "cabba11b3199",
-      "note": "#457 skips ended pulls, #456 edits project access, #455 keeps split-issue context."
-    },
-    {
-      "title": "vicfei/dsh-super-agent",
-      "url": "https://github.com/vicfei/dsh-super-agent",
-      "tip": "b8e8f758445f",
-      "note": "PR titles prefer the worker summary. Approval render-once is per assignment. The tip only adds COOKBOOK. npm stays 1.3.0."
+      "tip": "07fe3f5b0748",
+      "note": "#459 at 19:34:09Z was 12s before the previous close. #460 through #468 store the split graph, attach files on a branch, and call the agent after dependencies."
     },
     {
       "title": "louifinn/dsh-superagent-further",
       "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "c5795f58cf04",
-      "note": "151 ahead. Schema 21 project requests through M16 were in the previous window and missing from the prior sentence. M17 adds the session Source. M18 is docs."
+      "tip": "54aab23d1893",
+      "note": "152 ahead. A stream ETag is saved only when the read skipped nothing, and is trusted for ten minutes. eval.mode was not changed in this commit."
+    },
+    {
+      "title": "vicfei/dsh-super-agent",
+      "url": "https://github.com/vicfei/dsh-super-agent",
+      "tip": "416702ead4ae",
+      "note": "1.4.0 published 2026-11-09T19:33:38Z, 43s before the previous close. The previous sentence still said npm 1.3.0. The release commit only bumps package.json."
     }
   ],
   "pending": [
+    {
+      "title": "Default tips that did not move",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip remains 8c32a9dc5d72. pushed_at remains 2026-11-03T09:29:14Z; updated_at 2026-11-09T20:32:52Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. Newest harness discussion is still #12785 at 2026-11-09T18:57:23Z. Nelson master remains cb845cc5aa37. baojingyu tip remains 801d7626efef. ForkbombEu tip remains d86d845c3fc2. larksuite/cli tip remains 1bfdcc2c1a0e. No in-window arXiv paper names this prototype. No in-window HN story. Repository search sorted by update showed no new dsh-superagent repo first pushed inside the window. The listed sentences were not rewritten."
+    },
+    {
+      "title": "LofiSu pushed_at moved without a new main commit",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/e705e872796e",
+      "confidence": 0.85,
+      "reason": "pushed_at is 2026-11-09T20:26:51Z. main remains e705e872796e, committed 2026-11-06T04:58:44Z. The newest branch commits on the first page are from 2026-11-07 or earlier. There are no tags and no releases. The listed sentence was not rewritten."
+    },
+    {
+      "title": "ArtemKoval/lab continues the rea analysis",
+      "url": "https://github.com/ArtemKoval/lab/commit/70c143b3c3f0",
+      "confidence": 0.7,
+      "reason": "2026-11-09T19:43:39Z through 20:05:57Z adds rea-analysis proposals #178 through #183, tip 70c143b3c3f0. The messages do not name dsh-superagent-prototype. Not listed."
+    },
+    {
+      "title": "t3code and IHUI do not move the listed sentences",
+      "url": "https://github.com/pingdotgg/t3code/commit/bf469bb19669",
+      "confidence": 0.9,
+      "reason": "t3code bf469bb19669 at 2026-11-09T20:17:25Z, pushed 20:28:07Z, only updates the Claude Agent SDK to 0.3.321 and does not touch a hextor or superagent path. hextor-ndc UPSTREAM still names 6337fc8. IHUI 21e7e8b35e34 at 20:03:06Z renumbers a journal index and does not touch packages/shared/src/super-agent. The listed sentences were not rewritten."
+    },
     {
       "title": "Harness discussions #12783 through #12785",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12785",
@@ -4932,8 +4950,8 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Sandbox and non-prototype plugins",
-      "reason": "BaoshiSun/agent-lab is a sandbox. superagents-lab/mailly-dsh is a Mailly inbox inside Harness, not this Ticket model. ribeirorod/herdr-superagent is a herdr plugin. cccakeee/awesome-dsh-plugins only refreshed its topic catalog. Not listed."
+      "title": "Movement that is not this prototype's listed sentence",
+      "reason": "ArtemKoval/lab #178 through #183 is a rea analysis. t3code bf469bb19669 bumps the Claude Agent SDK. IHUI 21e7e8b35e34 renumbers a journal index. LofiSu pushed_at moved; main did not. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -5077,5 +5095,5 @@
     "2026-11-09T14:40Z: lanshi17 master remains 34e7aaac4934; pushed_at 14:07Z is agent branches. Nelson master remains fcd0c15b86d1. fliggy main remains f66e4c1b5cea. Do not list those side branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-09T19:26:00Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.3; latest remains 0.7.0. @vicfei/dsh-super-agent remains 1.3.0."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-09T20:32:52Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.3; latest remains 0.7.0. @vicfei/dsh-super-agent latest is 1.4.0 (published 2026-11-09T19:33:38.451Z)."
 }
