@@ -1,32 +1,74 @@
 {
-  "last_run_at": "2026-11-09T22:38:48Z",
+  "last_run_at": "2026-11-09T23:39:23Z",
   "timezone": "UTC",
-  "baseline_commit": "115d836",
+  "baseline_commit": "b24d969",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-09T21:33:11Z",
-    "to": "2026-11-09T22:38:48Z"
+    "from": "2026-11-09T22:38:48Z",
+    "to": "2026-11-09T23:39:23Z"
   },
   "added": [],
   "updated": [
     {
       "title": "louifinn/dsh-superagent-further",
       "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "615bdc61c5ce",
-      "note": "156 ahead of 8c32a9d. Schema 22 records change or answer. A change ready report without a pull request is refused. A Lead can raise one work request from an automation delivery."
+      "tip": "c85fe685216c",
+      "note": "158 ahead of 8c32a9d. b24d969 already listed schema 22 and lead_request_create through 615bdc61c5ce. 08dcf459c416 lets the main Session raise one installation Request from an installation automation. c85fe685216c lets a project Lead escalate work outside its project."
     },
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "48e55ceded8d",
-      "note": "#472 through #478 regroup settings into four sections, list project access in place, drop dsh_repositories, and group activity. #469 at 22:35Z grants the bot write access before creating a project and retries a failed provision without following a link into the agent checkout."
+      "tip": "1dd20b7e67a3",
+      "note": "b24d969 already listed settings through #469. #479 counts only this run's errors. #480 syncs theme aria-pressed after mount. #481 is docs. Tip #482 announces the error list."
+    },
+    {
+      "title": "439436269-ctrl/dsh-superagent",
+      "url": "https://github.com/439436269-ctrl/dsh-superagent",
+      "tip": "508c7c9ca47f",
+      "note": "115 ahead. Docs only: two Feishu instances on one app cannot each own a group, because Feishu delivers an event to one consumer."
+    },
+    {
+      "title": "wuzhiping/superagent",
+      "url": "https://github.com/wuzhiping/superagent",
+      "tip": "9658dc0b6b95",
+      "note": "88 ahead of 6337fc8. HANDOFF only: four sources passed Test connection and Save. Source behavior unchanged."
+    },
+    {
+      "title": "niechao136/dsh-foreman-node",
+      "url": "https://github.com/niechao136/dsh-foreman-node",
+      "tip": "142be48f3e9b",
+      "note": "0.5.0 at 2278ec4ba231 picks jobPreset from the host catalog. npm 2026-11-09T23:19:11Z has no gitHead. Tip only changes the release upload. Hub 0.3.9 still depends on 0.4.0."
     }
   ],
   "pending": [
+    {
+      "title": "Default tips that did not move after b24d969",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip remains 8c32a9dc5d72. pushed_at remains 2026-11-03T09:29:14Z; updated_at 2026-11-09T23:25:47Z is not a commit. npm @deepseek-ai/dsh latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. Newest harness discussion is #12789 at 2026-11-09T22:18:59Z. #12788 and #12789 do not name this prototype. Nelson master remains cb845cc5aa37. baojingyu tip remains 801d7626efef. ForkbombEu tip remains d86d845c3fc2. hextor-ndc tip remains 0dc3b4279c03. No in-window arXiv paper. No in-window HN story. No new dsh-superagent repo was first pushed after 22:38:48Z."
+    },
+    {
+      "title": "LofiSu pushed_at moved without a new main commit",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/e705e872796e",
+      "confidence": 0.85,
+      "reason": "pushed_at is 2026-11-09T22:24:02Z, before this window's close, and was already pending. main remains e705e872796e, committed 2026-11-06T04:58:44Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code and IHUI do not move the listed sentences",
+      "url": "https://github.com/pingdotgg/t3code/commit/ee59ab22a819",
+      "confidence": 0.9,
+      "reason": "t3code ee59ab22a819 at 2026-11-09T23:22:27Z only edits the iOS composer and search bars and does not touch a hextor path. IHUI 3d2472bad434 at 23:26:46Z is a main merge; commits since 21:33:11Z do not touch packages/shared/src/super-agent. The listed sentences were not rewritten."
+    },
+    {
+      "title": "Harness discussions #12788 and #12789",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12789",
+      "confidence": 0.4,
+      "reason": "#12788 at 2026-11-09T22:14:24Z measures plugin publish, install, and discovery delays. #12789 asks the plugin page to separate catalog version from the installable version. Neither names this prototype Ticket. Not listed. #12788 was before 22:38:48Z and was not on b24d969's discussion stamp, which stopped at #12787."
+    },
     {
       "title": "Default tips that did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -5034,8 +5076,8 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Movement that is not this prototype's listed sentence",
-      "reason": "ArtemKoval/lab #184 through #195 is a rea analysis. t3code ff7aa5ace311, ad9e87111fd9, and 8ab427c6077f do not touch hextor. IHUI f16d6dc3dbd2 does not touch packages/shared/src/super-agent. codefufuai dcb387ad8597 refreshes cards. battlestar 426ceb33bc84 is an Android notification. liyabgf 93c0830ec476 is an audit ledger. LofiSu main is still e705e872796e. Harness discussions #12786 through #12789 do not name this prototype Ticket."
+      "title": "Movement that is not a new listing",
+      "reason": "Empty ticket repos and playgrounds were not pushed again after 22:38:48Z. Discussions #12788 and #12789 are general Harness notes. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -5179,5 +5221,5 @@
     "2026-11-09T14:40Z: lanshi17 master remains 34e7aaac4934; pushed_at 14:07Z is agent branches. Nelson master remains fcd0c15b86d1. fliggy main remains f66e4c1b5cea. Do not list those side branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-09T22:30:00Z. @nelsonlongxiang/dsh-open-a2a-net latest remains 0.7.0. @vicfei/dsh-super-agent latest remains 1.4.0 (published 2026-11-09T19:33:38.451Z)."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-09T23:25:47Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.3; latest remains 0.7.0. @vicfei/dsh-super-agent latest remains 1.4.0 (published 2026-11-09T19:33:38.451Z). dsh-foreman-node latest is 0.5.0 (published 2026-11-09T23:19:11.127Z); registry gitHead is empty. dsh-foreman remains 0.3.9 and still depends on dsh-foreman-node 0.4.0."
 }
