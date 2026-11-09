@@ -1,38 +1,68 @@
 {
-  "last_run_at": "2026-11-09T18:35:00Z",
+  "last_run_at": "2026-11-09T19:34:21Z",
   "timezone": "UTC",
-  "baseline_commit": "516cc45",
+  "baseline_commit": "47e83bb",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-09T17:38:56Z",
-    "to": "2026-11-09T18:35:00Z"
+    "from": "2026-11-09T18:35:00Z",
+    "to": "2026-11-09T19:34:21Z"
   },
   "added": [],
   "updated": [
     {
       "title": "liyabgf/dsh-myagent",
       "url": "https://github.com/liyabgf/dsh-myagent",
-      "tip": "8f1cc32ae287",
-      "note": "0.12.5 adds the channel-table heartbeat column. 0.13.0 adds a DingTalk Stream bridge; the Feishu bridge now touches the same heartbeat. The bridge has not run on a real tenant."
-    },
-    {
-      "title": "NelsonLongxiang/dsh-open-a2a-net",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
-      "tip": "cb845cc5aa37",
-      "note": "0.8.1-preview.3 is on master. Observer is its own preset, several teams share one DSH, and the right bar sends requests and decision cards."
+      "tip": "3f3b031efc7e",
+      "note": "0.13.1 adds the WeCom callback bridge. 0.13.2 and 0.13.3 move workspace bytes behind ExecutionSandbox. prepare stays on the host. vm still refuses."
     },
     {
       "title": "baojingyu/dsh-superagent-channels",
       "url": "https://github.com/baojingyu/dsh-superagent-channels",
-      "tip": "c305a1af08da",
-      "note": "1.0.1 records the already listed WeChat path as verified. No runtime code changed."
+      "tip": "801d7626efef",
+      "note": "1.0.2 starts the WeChat bridge from a scheduled task. 1.0.3 can spawn an absolute launcher, and .cmd goes through cmd.exe /c."
+    },
+    {
+      "title": "sallaumen/dsh-superagent-superboard",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
+      "tip": "cabba11b3199",
+      "note": "#457 skips ended pulls, #456 edits project access, #455 keeps split-issue context."
+    },
+    {
+      "title": "vicfei/dsh-super-agent",
+      "url": "https://github.com/vicfei/dsh-super-agent",
+      "tip": "b8e8f758445f",
+      "note": "PR titles prefer the worker summary. Approval render-once is per assignment. The tip only adds COOKBOOK. npm stays 1.3.0."
+    },
+    {
+      "title": "louifinn/dsh-superagent-further",
+      "url": "https://github.com/louifinn/dsh-superagent-further",
+      "tip": "c5795f58cf04",
+      "note": "151 ahead. Schema 21 project requests through M16 were in the previous window and missing from the prior sentence. M17 adds the session Source. M18 is docs."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12783 through #12785",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12785",
+      "confidence": 0.45,
+      "reason": "#12783 at 2026-11-09T18:50:49Z is Windows workspace-write 0xC0000142. #12784 is subagent bash without a sandbox backend. #12785 is the Eigma learning workbench. None name this prototype Ticket. Not listed."
+    },
+    {
+      "title": "Default tips that did not move",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip remains 8c32a9dc5d72. pushed_at remains 2026-11-03T09:29:14Z; updated_at 2026-11-09T19:26:00Z is not a commit. npm latest and next remain 0.2.2-rc.1. Nelson master remains cb845cc5aa37. LofiSu tip remains e705e872796e. ForkbombEu tip remains d86d845c3fc2. t3code 077fd62222a9 only edits the client cache and does not move hextor 0dc3b4279c03. IHUI 24cd5e3db950 only edits PROJECT_PLAN.md. The listed sentences were not rewritten."
+    },
+    {
+      "title": "herdr and Mailly stay unlisted",
+      "url": "https://github.com/ribeirorod/herdr-superagent",
+      "confidence": 0.55,
+      "reason": "herdr-superagent 9f443e2c0aaa at 2026-11-09T19:04:36Z is phase 2 of a herdr plugin, not this DSH Ticket model. mailly-dsh 820bc64f3983 is a Harness inbox page. Neither was listed."
+    },
     {
       "title": "Harness discussion #12782 is withdrawn",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12782",
@@ -4902,8 +4932,8 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Empty ticket workspaces",
-      "reason": "siraj231/dsh-superagent-repo and Guillecasaus/dsh-test-app are initial commits for the prototype to open work against. Not listed."
+      "title": "Sandbox and non-prototype plugins",
+      "reason": "BaoshiSun/agent-lab is a sandbox. superagents-lab/mailly-dsh is a Mailly inbox inside Harness, not this Ticket model. ribeirorod/herdr-superagent is a herdr plugin. cccakeee/awesome-dsh-plugins only refreshed its topic catalog. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -5047,5 +5077,5 @@
     "2026-11-09T14:40Z: lanshi17 master remains 34e7aaac4934; pushed_at 14:07Z is agent branches. Nelson master remains fcd0c15b86d1. fliggy main remains f66e4c1b5cea. Do not list those side branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-09T18:26:52Z. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.3 (2026-11-09T17:53:55.814Z); latest remains 0.7.0."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-09T19:26:00Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.3; latest remains 0.7.0. @vicfei/dsh-super-agent remains 1.3.0."
 }
