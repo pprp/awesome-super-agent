@@ -1,57 +1,105 @@
 {
-  "last_run_at": "2026-11-09T15:34:24Z",
+  "last_run_at": "2026-11-09T16:35:58Z",
   "timezone": "UTC",
-  "baseline_commit": "7793501",
+  "baseline_commit": "ccf7bc6",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-09T14:40:00Z",
-    "to": "2026-11-09T15:34:24Z"
+    "from": "2026-11-09T15:34:24Z",
+    "to": "2026-11-09T16:35:58Z"
   },
   "added": [
     {
-      "title": "martinxiao2025/dsh-superagent",
-      "url": "https://github.com/martinxiao2025/dsh-superagent",
-      "tip": "6d29ab53a99e",
-      "note": "Imported bundle, not a GitHub fork. fb54430cf8f1 accepts drive-letter paths and PATHEXT. 6d29ab53a99e skips a lark-cli banner. README lead is still upstream. engines.dsh stays ^0.2.1-alpha.2."
+      "title": "imx123/super-personal-assistant",
+      "url": "https://github.com/imx123/super-personal-assistant",
+      "tip": "3f9f1b37cbc4",
+      "note": "Independent baseline of 8c32a9d, not a GitHub fork. main-session Source admits only the configured operator. GPL-3.0-or-later keeps upstream MIT in LICENSE-MIT. Not installed."
     }
   ],
   "updated": [
     {
-      "title": "louifinn/dsh-superagent-further",
-      "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "30cb3db4bb43",
-      "note": "135 ahead. Sixteen categories include triage. orchestrator_send_file sends one workspace-relative file. docs/011 still says optional run is unimplemented."
+      "title": "martinxiao2025/dsh-superagent",
+      "url": "https://github.com/martinxiao2025/dsh-superagent",
+      "tip": "6a61fc2df3c1",
+      "note": "GitLab Source shares forge scope and Policy rows with GitHub. Polls via glab. Deployment still names a GitHub repository."
     },
     {
       "title": "fzss2012/dsh-superagent-local",
       "url": "https://github.com/fzss2012/dsh-superagent-local",
-      "tip": "8abb068080f5",
-      "note": "Feishu replies resume after the last confirmed part. Apply requires an explicit Feishu command and keeps the project separate from the ticket workspace."
+      "tip": "0d967f13ff99",
+      "note": "A Feishu part already attempted retries only inside 55 minutes, then deliveryUnconfirmed."
+    },
+    {
+      "title": "439436269-ctrl/dsh-superagent",
+      "url": "https://github.com/439436269-ctrl/dsh-superagent",
+      "tip": "b29eaf8f2881",
+      "note": "114 ahead. Thread ids owner/name#n parse through pullRef. npm 0.2.2 gitHead 20f412aba547."
+    },
+    {
+      "title": "liyabgf/dsh-myagent",
+      "url": "https://github.com/liyabgf/dsh-myagent",
+      "tip": "58bf0f1d5b5a",
+      "note": "0.12.1 at 15:33Z was missed: bridge heartbeat and myagent_recall. 0.12.2 imports join."
+    },
+    {
+      "title": "baojingyu/dsh-superagent-channels",
+      "url": "https://github.com/baojingyu/dsh-superagent-channels",
+      "tip": "f01fbee2ff78",
+      "note": "Panel specifiers match the package name. WeChat display names and via markings can be saved. via is not authorization."
     },
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "cc686916a485",
-      "note": "#450 removes the extra microphone and localizes the English inspector. #451 keeps the inbox reachable and marks one reply seen."
-    },
-    {
-      "title": "vivy-dsh/dsh-vivy-tone",
-      "url": "https://github.com/vivy-dsh/dsh-vivy-tone",
-      "tip": "c48b3e8f64f2",
-      "note": "Startup retries a 404 on the prompt route until timeoutMs. Writes are not retried."
+      "tip": "7de48ea405f4",
+      "note": "#452 retries safe GitHub calls and stops tokenless servers from reporting GitHub down."
     },
     {
       "title": "ArtemKoval/lab",
       "url": "https://github.com/ArtemKoval/lab",
-      "tip": "72a5816dbf24",
-      "note": "#171 proposes read-only spec mining. It does not change the prototype."
+      "tip": "3047f21a5439",
+      "note": "#172 adds spec_mining in the lab. #173 archives it. The prototype is unchanged."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions #12770 through #12775",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12775",
+      "confidence": 0.45,
+      "reason": "#12770 at 2026-11-09T15:46:23Z is theme contrast. #12771 is nested HMR on plugin enable. #12772 is dsh-session-grep 1.0.1, not dsh-session-superagent. #12773 is an archived Session reopened by dsh web. #12774 is composer ghost text. #12775 is Russian tool-title transliteration. None name this prototype Ticket. Not listed."
+    },
+    {
+      "title": "prgrmrwy/ohmysa stays unlisted this hour",
+      "url": "https://github.com/prgrmrwy/ohmysa",
+      "confidence": 0.62,
+      "reason": "Created 2026-11-05T15:06:46Z. This hour fd01d5fe6b25 adds a personal auto-routing deployment and 305f9acfd375 retries prepare fetch five times, then tells prgrmrwy. It pins dsh 0.2.2-rc.1 and the official prototype. No LICENSE. Hourly window only. Not listed."
+    },
+    {
+      "title": "xbzbing tip is a style reload",
+      "url": "https://github.com/xbzbing/dsh-github-message",
+      "confidence": 0.5,
+      "reason": "Tip cac89ab865a1 at 2026-11-09T15:37:20Z reloads injected styles. It still emits my-superagent/v1 signals and is not this prototype Source. Not listed."
+    },
+    {
+      "title": "Empty forks and a handoff test",
+      "url": "https://github.com/ygycliu/dsh-superagent-prototype",
+      "confidence": 0.9,
+      "reason": "ygycliu/dsh-superagent-prototype was created 2026-11-09T16:17:02Z with no unique commit in the window. alen-bot001 and dataopsnick are the same. vv4k3r/dsh-superagent-prototype was created 15:57Z. nielsensilje87-sketch/superagent-handoff-test is an initial commit at 16:21Z. dsh-agent-ui/demo-agent is a playground. Not listed."
+    },
+    {
+      "title": "lichenzhao OpenCode TUI stays unlisted",
+      "url": "https://github.com/lichenzhao060507/opencode-superagent",
+      "confidence": 0.55,
+      "reason": "Tip f04dd761b044 at 2026-11-09T16:00:05Z guards the OpenCode TUI setup. It is not this DSH Ticket model. Not listed."
+    },
+    {
+      "title": "Default tips that did not move",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip remains 8c32a9dc5d72. pushed_at remains 2026-11-03T09:29:14Z; updated_at 2026-11-09T16:24:59Z is not a commit. npm latest and next remain 0.2.2-rc.1. Nelson master remains fcd0c15b86d1; pushed_at 15:53:47Z is not a new commit. fliggy main remains f66e4c1b5cea; pushed_at 16:16:38Z is not a new commit. LofiSu tip remains e705e872796e. t3code remains b8c2cfad6b33 and does not move hextor. IHUI faebdc440c51 does not touch packages/shared/src/super-agent. ForkbombEu tip d86d845c3fc2 is dated 2026-11-06 and was already listed. billLiao c452545da25c is a topic-list sync. The listed sentences were not rewritten."
+    },
     {
       "title": "Hocine123321/iMC-Superagent is a Minecraft client",
       "url": "https://github.com/Hocine123321/iMC-Superagent",
@@ -4831,8 +4879,8 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Echo bot, empty practice repo, and playgrounds",
-      "reason": "dusky376/superagent is a rule-mode Feishu echo bot. toco-aj/factory-lab is empty. ds4syk, vv4k3r, and mux9056-bot are sandboxes or tests. Not listed."
+      "title": "Empty forks, a handoff test, and a playground",
+      "reason": "ygycliu, alen-bot001, dataopsnick, and vv4k3r forks have no unique prototype commit in the window. nielsensilje87-sketch/superagent-handoff-test is an initial commit. dsh-agent-ui/demo-agent is a playground. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -4976,5 +5024,5 @@
     "2026-11-09T14:40Z: lanshi17 master remains 34e7aaac4934; pushed_at 14:07Z is agent branches. Nelson master remains fcd0c15b86d1. fliggy main remains f66e4c1b5cea. Do not list those side branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-09T15:26:48Z is not a commit. dsh-foreman remains 0.3.9. dsh-foreman-node remains 0.4.0. dsh-agent-lines npm latest is 0.6.5 and the registry has no gitHead. dsh-superagent-desktop npm is 0.1.3, gitHead e2cee418f9549f1e006e4d2900c5a3f222946362. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.2; latest remains 0.7.0. dsh-session-superagent remains 0.10.12. @mycf711/dsh-gate remains 0.1.5. @vicfei/dsh-super-agent remains 1.3.0. @nemotte/pi-superagent latest remains 0.1.0-alpha.1; alpha remains 0.1.0-alpha.6. @reserendipity/dsh-superagent remains 0.2.0 and stays unlisted until WINDOWS-DELTA is compared with doc 006. @vfvrpq/dsh-superagent remains 0.2.0. @samanhappy/dsh-superagent remains 0.1.0. Unscoped npm myagent is an unrelated 2019 package. arXiv export returned 0 hits. HN had no in-window story."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-09T16:24:59Z is not a commit. dsh-foreman remains 0.3.9. dsh-foreman-node remains 0.4.0. dsh-agent-lines npm latest is 0.6.5 and the registry has no gitHead. dsh-superagent-desktop npm is 0.1.3, gitHead e2cee418f9549f1e006e4d2900c5a3f222946362. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.2; latest remains 0.7.0. dsh-session-superagent remains 0.10.12. @mycf711/dsh-gate remains 0.1.5. @vicfei/dsh-super-agent remains 1.3.0. @nemotte/pi-superagent latest remains 0.1.0-alpha.1; alpha remains 0.1.0-alpha.6. @reserendipity/dsh-superagent remains 0.2.0 and stays unlisted until WINDOWS-DELTA is compared with doc 006. @vfvrpq/dsh-superagent is 0.2.2 at 2026-11-09T15:44:53.141Z, gitHead 20f412aba547afd39fd6ac94ff5939e1ef7ff83e. @samanhappy/dsh-superagent remains 0.1.0. Unscoped npm myagent is an unrelated 2019 package. arXiv export timed out. HN had no in-window story."
 }
