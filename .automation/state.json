@@ -1,44 +1,86 @@
 {
-  "last_run_at": "2026-11-09T20:37:06Z",
+  "last_run_at": "2026-11-09T22:36:25Z",
   "timezone": "UTC",
-  "baseline_commit": "8dffa52",
+  "baseline_commit": "c71ec44",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-09T19:34:21Z",
-    "to": "2026-11-09T20:37:06Z"
+    "from": "2026-11-09T20:37:06Z",
+    "to": "2026-11-09T22:36:25Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "liyabgf/dsh-myagent",
-      "url": "https://github.com/liyabgf/dsh-myagent",
-      "tip": "5c9995558cc3",
-      "note": "0.13.4 narrows packaged examples. 0.13.5 moves prepare into the sandbox; vm still refuses. 0.14.0 adds the QQ WebSocket bridge, not run on a real bot. 0.14.1 stops hidden-tab polling and opens POST /decisions."
+      "title": "louifinn/dsh-superagent-further",
+      "url": "https://github.com/louifinn/dsh-superagent-further",
+      "tip": "615bdc61c5ce",
+      "note": "156 ahead of 8c32a9d. Trigger ids for other repositories are scoped. Schema 22 adds a change or answer deliverable. A Lead can raise one work request from an automation delivery."
     },
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "07fe3f5b0748",
-      "note": "#459 at 19:34:09Z was 12s before the previous close. #460 through #468 store the split graph, attach files on a branch, and call the agent after dependencies."
-    },
-    {
-      "title": "louifinn/dsh-superagent-further",
-      "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "54aab23d1893",
-      "note": "152 ahead. A stream ETag is saved only when the read skipped nothing, and is trusted for ten minutes. eval.mode was not changed in this commit."
-    },
-    {
-      "title": "vicfei/dsh-super-agent",
-      "url": "https://github.com/vicfei/dsh-super-agent",
-      "tip": "416702ead4ae",
-      "note": "1.4.0 published 2026-11-09T19:33:38Z, 43s before the previous close. The previous sentence still said npm 1.3.0. The release commit only bumps package.json."
+      "tip": "9e8251c8f685",
+      "note": "#472 through #478 regroup settings into four sections, list project access in place, drop dsh_repositories, and group activity. The board layout change does not alter dispatch."
     }
   ],
   "pending": [
+    {
+      "title": "Default tips that did not move",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip remains 8c32a9dc5d72. pushed_at remains 2026-11-03T09:29:14Z; updated_at 2026-11-09T22:30:00Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. Nelson master remains cb845cc5aa37. baojingyu tip remains 801d7626efef. ForkbombEu tip remains d86d845c3fc2. larksuite/cli tip remains 1bfdcc2c1a0e. vicfei remains 1.4.0 at 416702ead4ae. No new repository whose name contains dsh-superagent was created after 2026-11-09T20:37:06Z. The listed sentences were not rewritten."
+    },
+    {
+      "title": "liyabgf audit ledger does not move 0.14.1",
+      "url": "https://github.com/liyabgf/dsh-myagent/commit/93c0830ec476",
+      "confidence": 0.9,
+      "reason": "93c0830ec476 at 2026-11-09T20:42:58Z only edits docs/v2/00-audit-and-plan.md, a closing ledger for sections 4.147 through 4.157. The QQ bridge, hidden-tab polling, and POST /decisions are unchanged. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu pushed_at moved without a new main commit",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/e705e872796e",
+      "confidence": 0.9,
+      "reason": "pushed_at is 2026-11-09T22:24:02Z. main remains e705e872796e, committed 2026-11-06T04:58:44Z. There are no newer commits on the default branch. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code and IHUI do not move the listed sentences",
+      "url": "https://github.com/pingdotgg/t3code/commit/ff7aa5ace311",
+      "confidence": 0.9,
+      "reason": "t3code ff7aa5ace311 at 2026-11-09T21:41:08Z, ad9e87111fd9 at 20:52:59Z, and 8ab427c6077f at 20:48:27Z edit mobile PDF preview, web uploads, and settings copy. None touch a hextor or superagent path. hextor-ndc tip remains 0dc3b4279c03. IHUI commits through f16d6dc3dbd2 at 22:15:10Z do not touch packages/shared/src/super-agent; that path's newest commit is still deac054b08b1 at 2026-11-08T16:35:02Z. The listed sentences were not rewritten."
+    },
+    {
+      "title": "ArtemKoval/lab continues the rea analysis",
+      "url": "https://github.com/ArtemKoval/lab/commit/2f23fe6d3bdf",
+      "confidence": 0.7,
+      "reason": "2026-11-09T20:39:51Z through 21:16:11Z adds rea-analysis proposals #184 through #195, tip 2f23fe6d3bdf. The messages do not name dsh-superagent-prototype. Not listed."
+    },
+    {
+      "title": "codefufuai card refresh",
+      "url": "https://github.com/codefufuai/codefufuai/commit/dcb387ad8597",
+      "confidence": 0.6,
+      "reason": "dcb387ad8597 at 2026-11-09T21:58:34Z only refreshes cards. It is a deployment workspace, not a new Source. Not listed."
+    },
+    {
+      "title": "andrewngg/dsh-superagent-battlestar Android notification",
+      "url": "https://github.com/andrewngg/dsh-superagent-battlestar/commit/426ceb33bc84",
+      "confidence": 0.55,
+      "reason": "426ceb33bc84 at 2026-11-09T21:16:27Z changes the Android foreground service to specialUse. The repository remains a multi-device butler, not Trigger, Mandate, or Ticket. Not listed."
+    },
+    {
+      "title": "Harness discussions #12786 through #12789",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12789",
+      "confidence": 0.45,
+      "reason": "#12786 updated 2026-11-09T20:53:28Z is a 700K-context empty reply. #12787 at 21:15:08Z is sandbox escalation on a ptc preset. #12788 at 22:14:24Z measures plugin publish delay. #12789 at 22:18:59Z asks the catalog card to split directory version from the installed version. None name this prototype Ticket. Not listed."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://arxiv.org/search/?query=superagent+deepseek&searchtype=all&source=header",
+      "confidence": 0.85,
+      "reason": "arXiv query all:superagent AND all:deepseek returned 0 results at 2026-11-09T22:34:57Z. HN stories matching dsh-superagent and deepseek super-agent are older than this window; the newest returned story is 2026-11-06. Not listed."
+    },
     {
       "title": "Default tips that did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -4951,7 +4993,7 @@
   "rejected_this_run": [
     {
       "title": "Movement that is not this prototype's listed sentence",
-      "reason": "ArtemKoval/lab #178 through #183 is a rea analysis. t3code bf469bb19669 bumps the Claude Agent SDK. IHUI 21e7e8b35e34 renumbers a journal index. LofiSu pushed_at moved; main did not. Not listed."
+      "reason": "ArtemKoval/lab #184 through #195 is a rea analysis. t3code ff7aa5ace311, ad9e87111fd9, and 8ab427c6077f do not touch hextor. IHUI f16d6dc3dbd2 does not touch packages/shared/src/super-agent. codefufuai dcb387ad8597 refreshes cards. battlestar 426ceb33bc84 is an Android notification. liyabgf 93c0830ec476 is an audit ledger. LofiSu main is still e705e872796e. Harness discussions #12786 through #12789 do not name this prototype Ticket."
     }
   ],
   "held_on_other_branches": [
@@ -5095,5 +5137,5 @@
     "2026-11-09T14:40Z: lanshi17 master remains 34e7aaac4934; pushed_at 14:07Z is agent branches. Nelson master remains fcd0c15b86d1. fliggy main remains f66e4c1b5cea. Do not list those side branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-09T20:32:52Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.3; latest remains 0.7.0. @vicfei/dsh-super-agent latest is 1.4.0 (published 2026-11-09T19:33:38.451Z)."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-09T22:30:00Z. @nelsonlongxiang/dsh-open-a2a-net latest remains 0.7.0. @vicfei/dsh-super-agent latest remains 1.4.0 (published 2026-11-09T19:33:38.451Z)."
 }
