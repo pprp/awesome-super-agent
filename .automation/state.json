@@ -1,63 +1,110 @@
 {
-  "last_run_at": "2026-11-09T10:39:25Z",
+  "last_run_at": "2026-11-09T11:34:58Z",
   "timezone": "UTC",
-  "baseline_commit": "c931f31",
+  "baseline_commit": "501e334",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-09T09:37:42Z",
-    "to": "2026-11-09T10:39:25Z"
+    "from": "2026-11-09T10:39:25Z",
+    "to": "2026-11-09T11:34:58Z"
   },
-  "added": [
-    {
-      "title": "Shuai-S/dsh-superagent-dws",
-      "url": "https://github.com/Shuai-S/dsh-superagent-dws",
-      "tip": "f30fbfd902df",
-      "note": "Personal-identity DingTalk Source. One consume process per account. Quote reply needs openDingTalkId, which toTrigger does not set. Not installed."
-    }
-  ],
+  "added": [],
   "updated": [
     {
-      "title": "ninesky-hz/dsh-main-agent",
-      "url": "https://github.com/ninesky-hz/dsh-main-agent",
-      "tip": "d5474dc9234b",
-      "note": "0.22.11. Module-level 20s reconcile and 10s cold-start recover."
+      "title": "baojingyu/dsh-superagent-channels",
+      "url": "https://github.com/baojingyu/dsh-superagent-channels",
+      "tip": "541d0ad5f607",
+      "note": "Yunxiao items are never addressed. The admission table decides."
+    },
+    {
+      "title": "touch-agent/dsh-superagent",
+      "url": "https://github.com/touch-agent/dsh-superagent",
+      "tip": "89f203444eef",
+      "note": "PR #40. Child bash/pwsh tool guard. The rest of the merge was not reread."
     },
     {
       "title": "fsy0718/dsh-superagent-prototype",
       "url": "https://github.com/fsy0718/dsh-superagent-prototype",
-      "tip": "4160fafe9b0e",
-      "note": "Skill capability gate before the worker. Read-only MCP. Audit omits arguments."
-    },
-    {
-      "title": "fzss2012/dsh-superagent-local",
-      "url": "https://github.com/fzss2012/dsh-superagent-local",
-      "tip": "feb90ede3d79",
-      "note": "ProjectSchema path accepts a drive letter. lib/ rebuilt."
-    },
-    {
-      "title": "injet-zhou/dsh-superagent-prototype",
-      "url": "https://github.com/injet-zhou/dsh-superagent-prototype",
-      "tip": "4de9387f09d6",
-      "note": "repositories is volatile. A repository save restarts the plugin."
+      "tip": "19ef1d94aa4c",
+      "note": "25 ahead. OPERATIONS.md row for a one-sided secret restart."
     },
     {
       "title": "louifinn/dsh-superagent-further",
       "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "4163db6b9197",
-      "note": "Schema 18 settings proposals. Panel applies them. 120 ahead."
+      "tip": "5e2c9c8c236c",
+      "note": "126 ahead. Schema 19 automations. M10 was not reread."
     },
     {
-      "title": "vicfei/dsh-super-agent",
-      "url": "https://github.com/vicfei/dsh-super-agent",
-      "tip": "32eb44dc6fca",
-      "note": "Two-tier memory on git. package.json and npm stay 1.3.0. Default off."
+      "title": "NelsonLongxiang/dsh-open-a2a-net",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
+      "tip": "fcd0c15b86d1",
+      "note": "npm preview is 0.8.1-preview.2. superagent defaults true. latest stays 0.7.0."
+    },
+    {
+      "title": "liyabgf/dsh-myagent",
+      "url": "https://github.com/liyabgf/dsh-myagent",
+      "tip": "af88742732e6",
+      "note": "0.11.8. inputs/ 512MB total and full ticket id directories."
+    },
+    {
+      "title": "sallaumen/dsh-supergent-superboard",
+      "url": "https://github.com/sallaumen/dsh-supergent-superboard",
+      "tip": "9387bfffc338",
+      "note": "#425 joins orchestrator.sqlite. #420 #422 #423 #426 were not reread."
+    },
+    {
+      "title": "Lencen/dsh-agent-lines",
+      "url": "https://github.com/Lencen/dsh-agent-lines",
+      "tip": "d9e41ebbcb8b",
+      "note": "0.6.2 line_communications is read-only. 0.6.0 and 0.6.1 were not reread."
+    },
+    {
+      "title": "niechao136/dsh-foreman",
+      "url": "https://github.com/niechao136/dsh-foreman",
+      "tip": "11453a798a1f",
+      "note": "0.3.9 pins node 0.4.0. Route accept can name a device. Expose publishes the page with ssh -R."
     }
   ],
   "pending": [
+    {
+      "title": "Tips that did not move",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip remains 8c32a9dc5d72. injet-zhou remains 4de9387f09d6. fliggy remains f66e4c1b5cea. I2y0 main remains 0f694a477568. ninesky remains d5474dc9234b. vicfei remains 32eb44dc6fca. fzss2012 remains feb90ede3d79. dws remains f30fbfd902df. The listed sentences were not rewritten."
+    },
+    {
+      "title": "Harness discussions #12746 through #12754",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12754",
+      "confidence": 0.4,
+      "reason": "Created 2026-11-09T10:40:47Z through 11:25:22Z. Titles are a session-query clone, a dragstart click, Russian localization, a pre-compaction hook, an upstream-down banner, a wiped dsh directory, next-prompt prediction, Bun boot, and an ACP MCP startup failure. None name this prototype Ticket. Not listed."
+    },
+    {
+      "title": "AirKyzzZ tip is docs",
+      "url": "https://github.com/AirKyzzZ/hermes-superagent/commit/3879ca8a96dd",
+      "confidence": 0.6,
+      "reason": "Tip 3879ca8a96dd at 2026-11-09T11:25:59Z only edits the README pitch. 316e03a5a1b8 notes a real Anki collection. The doctor warning at 319ff88d79fc was not reread. The listed gate sentence was not rewritten."
+    },
+    {
+      "title": "lanshi17 #43 claims no behavior change",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/073a4aac7ed1",
+      "confidence": 0.6,
+      "reason": "Tip 073a4aac7ed1 at 2026-11-09T11:08:36Z says it restores Tail::at_end, ends_mid_record, and dropped tests so master compiles, and claims no behavior change. The diff was not reread. The earlier console fixes were not reread. The listed sentence was not rewritten."
+    },
+    {
+      "title": "JokersDH remains unread",
+      "url": "https://github.com/JokersDH/dsh-superagent-prototype/commit/04871fbd0a88",
+      "confidence": 0.5,
+      "reason": "Tip 04871fbd0a88 at 2026-11-09T11:17:00Z says it adds trusted workspace environment guards and read-only local diagnostics. The fork delta was not read line by line. Not listed."
+    },
+    {
+      "title": "npm packages that did not move the list",
+      "url": "https://www.npmjs.com/package/@deepseek-ai/dsh",
+      "confidence": 0.9,
+      "reason": "@deepseek-ai/dsh latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. @nemotte/pi-superagent alpha remains 0.1.0-alpha.6. @reserendipity/dsh-superagent 0.1.5 stays unlisted. arXiv export returned 0 hits. No in-window HN story."
+    },
     {
       "title": "lanshi17/dsh-booth moved 31 commits and was not reread",
       "url": "https://github.com/lanshi17/dsh-booth/commit/3d3a8b035f3a",
@@ -4657,12 +4704,12 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Playgrounds and sandboxes",
-      "reason": "keatonstarke/dsh-superagent-playground, meishashu666/superagent-playground, Herry-zc/superagent-playground. Not listed."
+      "title": "Empty and practice repositories",
+      "reason": "start-from-ling/dsh-superagent is empty. keatonstarke, lhmagent, Real-Joey, Herry-zc, chehua11agent, luobowo are playgrounds, demos, or a README test line. Not listed."
     },
     {
-      "title": "babymouth/dshworker",
-      "reason": "Ticket workspace for the agent. Not listed."
+      "title": "Personal or non-DSH agents",
+      "reason": "plankton12138 paths are a personal WSL install. lichenzhao060507/opencode-superagent does not name DSH. MosBot, dori, robinAKL, and Hocine123321 stay out."
     }
   ],
   "held_on_other_branches": [
@@ -4805,5 +4852,5 @@
     "2026-11-09T07:34Z: fliggy main still f66e4c1b5cea; vHao11 windows-adapt still 898f00a00816; gekailin main still f794b29e21ca; Nemotte main still 0f0387155aa1; touch-agent tip 4138c1abbd43 is docs after 2c3a947b10d2."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at this hour is not a commit. dsh-foreman remains 0.3.8. dsh-foreman-node npm latest is 0.4.0 at gitHead 95b287b4e707, which GitHub 422s; the public package.json is still 0.3.0. dsh-session-superagent remains 0.10.12. dsh-superagent-inbox remains 0.3.2. @mycf711/dsh-gate remains 0.1.5. @vicfei/dsh-super-agent remains 1.3.0. @samanhappy/dsh-superagent remains 0.1.0. @nemotte/pi-superagent latest remains 0.1.0-alpha.1; alpha remains 0.1.0-alpha.6. @reserendipity/dsh-superagent remains 0.1.5 and stays unlisted. dsh-superagent-desktop remains 0.1.0. dsh-agent-lines remains 0.5.0. dsh-superagent-dws is not on npm. Unscoped dsh-superagent-prototype remains 0.1.3 and is not a deepseek-ai package. PyPI pi-superagent returned 404. Newest harness discussion is #12745. arXiv export returned 0 hits. HN had no in-window story."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. dsh-foreman is 0.3.9 at 2026-11-09T11:12:17Z, gitHead 11453a798a1f, pinning dsh-foreman-node 0.4.0. dsh-foreman-node 0.4.0 gitHead 95b287b4e707 is now on the public master. dsh-agent-lines npm latest is 0.6.2 at 2026-11-09T11:21:02Z and the registry has no gitHead. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.2 at 2026-11-09T10:40:58Z; latest remains 0.7.0; no gitHead. dsh-session-superagent remains 0.10.12. @mycf711/dsh-gate remains 0.1.5. @vicfei/dsh-super-agent remains 1.3.0. @nemotte/pi-superagent latest remains 0.1.0-alpha.1; alpha remains 0.1.0-alpha.6. @reserendipity/dsh-superagent remains 0.1.5 and stays unlisted. Unscoped npm myagent is an unrelated 2019 package; liyabgf 0.11.8 is not that publish."
 }
