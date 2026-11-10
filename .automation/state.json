@@ -1,44 +1,104 @@
 {
-  "last_run_at": "2026-11-10T07:38:14Z",
+  "last_run_at": "2026-11-10T08:33:37Z",
   "timezone": "UTC",
-  "baseline_commit": "79ebfe9",
+  "baseline_commit": "5f102a1",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-10T06:40:05Z",
-    "to": "2026-11-10T07:38:14Z"
+    "from": "2026-11-10T07:38:14Z",
+    "to": "2026-11-10T08:33:37Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "touch-agent/dsh-superagent",
-      "url": "https://github.com/touch-agent/dsh-superagent",
-      "tip": "1b91fd8b280b",
-      "note": "#44 golden path is tests only. #46 caches space facts for 15s and drops the absolute directory from E1. Ahead of 6337fc8 is 278. Not re-run."
-    },
-    {
       "title": "fsy0718/dsh-superagent-prototype",
       "url": "https://github.com/fsy0718/dsh-superagent-prototype",
-      "tip": "093ec691e208",
-      "note": "#30 reopen is on main. #32 is prompt and docs only. Ahead of 6337fc8 is 35. Not re-run."
+      "tip": "0d2875ea0046",
+      "note": "#33 writes correlated traces. #35 keeps a ready report when an automatic wait ends a turn. Ahead of 6337fc8 is 39. Not re-run."
     },
     {
-      "title": "immars/dsh-superagent-prototype",
-      "url": "https://github.com/immars/dsh-superagent-prototype",
-      "tip": "7c5dbdc8602e",
-      "note": "Ticket marker plus worktree commit check. Branch names are not read. Ahead of 8c32a9d is 20. Not re-run."
+      "title": "Yukikaze-Ai/dsh-ladder-superagents",
+      "url": "https://github.com/Yukikaze-Ai/dsh-ladder-superagents",
+      "tip": "010ad069e7de",
+      "note": "Usage defaults to this session, with a whole-profile switch. package.json stays 0.2.0. Not installed."
     },
     {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "tip": "6192931c6bf8",
-      "note": "1.6.0 local teams. Delivery files must exist. npm 404. Not re-run."
+      "title": "louifinn/dsh-superagent-further",
+      "url": "https://github.com/louifinn/dsh-superagent-further",
+      "tip": "89bb8f07740e",
+      "note": "Pack check and generated tool reference. Node 22 session read drops await using. Ahead of 8c32a9d is 169. Not re-run."
+    },
+    {
+      "title": "fliggy-travel-ai/dsh-superagent-prototype",
+      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype",
+      "tip": "63deef625c24",
+      "note": "#34 is the todo and stalled scan. Files stay in the Paseo plugin tree. Prototype src/ unchanged. Not re-read line by line."
+    },
+    {
+      "title": "lanshi17/dsh-booth",
+      "url": "https://github.com/lanshi17/dsh-booth",
+      "tip": "55851ab34dc8",
+      "note": "#109 applies the console admission row. #121 resolves DSH_HOME like dsh. #125 retries a busy gh. #126 names omp, claude, or codex and drops the forge tree. Not re-run."
+    },
+    {
+      "title": "imx123/super-personal-assistant",
+      "url": "https://github.com/imx123/super-personal-assistant",
+      "tip": "007c27bc36b1",
+      "note": "Project archive keeps records and stops running assignments. Whole-project unarchive skips workerRestored notes. Earlier P2 commits were not reread. Not installed."
     }
   ],
   "pending": [
+    {
+      "title": "Default tips that did not move after 5f102a1",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip remains 8c32a9dc5d72. pushed_at remains 2026-11-03T09:29:14Z. npm @deepseek-ai/dsh latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. touch-agent tip remains 1b91fd8b280b. immars tip remains 7c5dbdc8602e. Nelson master remains 0e2ac9540f83. Hivebot tip remains 75a87749180e. ForkbombEu tip remains d86d845c3fc2. larksuite/cli tip remains 1bfdcc2c1a0e. Discussions #12825 through #12827 do not name this prototype. No in-window arXiv paper. No in-window HN story."
+    },
+    {
+      "title": "Foreman npm publishes are not on the public git tips",
+      "url": "https://www.npmjs.com/package/dsh-foreman",
+      "confidence": 0.9,
+      "reason": "npm dsh-foreman 0.4.0 at 2026-11-10T08:11:20Z, gitHead 49c5a6fe9fbf, is not on the public repo and depends on dsh-foreman-node 0.6.0. npm dsh-foreman-node 0.6.1 at 2026-11-10T08:26:46Z, gitHead 36be9750a183, is not on the public repo. Public tips stay 11453a798a1f and 142be48f3e9b. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code failed-update diagnostics do not move the hextor sentence",
+      "url": "https://github.com/pingdotgg/t3code/commit/633438d54f17",
+      "confidence": 0.9,
+      "reason": "633438d54f17 at 2026-11-10T08:19:15Z only changes server update diagnostics. It does not touch a hextor path. The listed sentence was not rewritten."
+    },
+    {
+      "title": "IHUI README recount does not name the super-agent package",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/65d93b3390af",
+      "confidence": 0.9,
+      "reason": "65d93b3390af at 2026-11-10T08:25:23Z only refreshes README counts. The diff has no path containing super. The listed sentence was not rewritten."
+    },
+    {
+      "title": "awesome-dsh-plugin catalog rows stay a curated list",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/9b681065cf4e",
+      "confidence": 0.85,
+      "reason": "9b681065cf4e at 2026-11-10T08:29:52Z adds plugin rows. billLiao tip is db5e8016c375. The listed sentences are still the curated list and the topic scrape. They were not rewritten."
+    },
+    {
+      "title": "js-superagent-skill is not this prototype",
+      "url": "https://github.com/imjszhang/js-superagent-skill",
+      "confidence": 0.55,
+      "reason": "c26db7dd92af at 2026-11-10T07:52:11Z is a Codex and Claude Code skill for js-superagent 0.14.0-alpha.1. It does not implement the prototype Ticket model. Not listed."
+    },
+    {
+      "title": "cg-dsh stays a private mirror",
+      "url": "https://github.com/cg-dsh/dsh-superagent-prototype",
+      "confidence": 0.4,
+      "reason": "pushed_at 2026-11-10T08:12:44Z. The description still says it is a private mirror of the prototype. Not listed."
+    },
+    {
+      "title": "Playgrounds and test repos stay out",
+      "url": "https://github.com/SuperRabbit-lab/agent-playground",
+      "confidence": 0.35,
+      "reason": "SuperRabbit-lab/agent-playground, houmaodou/dsh-superagent-test, 15167315655/superagent-test, and JeffGong131203/superagent-playground were pushed in this window. Not listed."
+    },
     {
       "title": "Default tips that did not move after 79ebfe9",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -5436,20 +5496,24 @@
   ],
   "rejected_this_run": [
     {
-      "title": "EdelZ/dsh-superagent-lab",
-      "reason": "Initial commit at 2026-11-10T06:54:30Z. Repository size 0. README.md is 20 bytes. Not listed."
+      "title": "SuperRabbit-lab/agent-playground",
+      "url": "https://github.com/SuperRabbit-lab/agent-playground",
+      "reason": "Scratch repository for executor trials."
+    },
+    {
+      "title": "houmaodou/dsh-superagent-test",
+      "url": "https://github.com/houmaodou/dsh-superagent-test",
+      "reason": "Test repository."
     },
     {
       "title": "15167315655/superagent-test",
-      "reason": "Initial commit at 2026-11-10T06:54:41Z. Description says it is a dsh-superagent test repository. Not listed."
+      "url": "https://github.com/15167315655/superagent-test",
+      "reason": "Test repository."
     },
     {
-      "title": "Nilous0dog/superagent-playground",
-      "reason": "Playground. Tip 0f670ebe4a56. Not listed."
-    },
-    {
-      "title": "scottpan19/superagent-playground",
-      "reason": "Init playground at 2026-11-10T06:44:11Z. Not listed."
+      "title": "JeffGong131203/superagent-playground",
+      "url": "https://github.com/JeffGong131203/superagent-playground",
+      "reason": "Playground."
     }
   ],
   "held_on_other_branches": [
@@ -5596,5 +5660,5 @@
     "2026-11-09T14:40Z: lanshi17 master remains 34e7aaac4934; pushed_at 14:07Z is agent branches. Nelson master remains fcd0c15b86d1. fliggy main remains f66e4c1b5cea. Do not list those side branches."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.5 (published 2026-11-10T05:48:23.080Z); registry gitHead is empty; latest remains 0.7.0. @vicfei/dsh-super-agent latest is 1.5.0 (published 2026-11-10T03:27:05.698Z, gitHead c1839614b0c7). dsh-agent-lines latest is 0.10.0 (published 2026-11-10T05:49:25.713Z); registry gitHead is empty; repo tip is 7015b7a0e6f1. dsh-ladder-superagents latest is 0.2.0 (published 2026-11-10T06:03:10.387Z, gitHead 592993329ad0). @reserendipity/dsh-superagent latest is 0.2.6 (published 2026-11-10T05:09:52.450Z, gitHead 26536bf2ca55) and stays unlisted. dsh-patrol is not on npm. dsh-foreman remains 0.3.9. dsh-foreman-node remains 0.5.0. @kulebbb/dsh-superagent is not on npm. @missher/dsh-superagent is not on npm. Discussions #12822 through #12824 do not name this prototype. No in-window arXiv paper. No in-window HN story."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.5 (published 2026-11-10T05:48:23.080Z); registry gitHead is empty; latest remains 0.7.0. @vicfei/dsh-super-agent latest is 1.5.0 (published 2026-11-10T03:27:05.698Z, gitHead c1839614b0c7). dsh-agent-lines latest is 0.10.0 (published 2026-11-10T05:49:25.713Z); registry gitHead is empty; repo tip is 7015b7a0e6f1. dsh-ladder-superagents latest is 0.2.0 (published 2026-11-10T06:03:10.387Z, gitHead 592993329ad0). @reserendipity/dsh-superagent latest is 0.2.6 (published 2026-11-10T05:09:52.450Z, gitHead 26536bf2ca55) and stays unlisted. dsh-patrol is not on npm. dsh-foreman remains 0.3.9. dsh-foreman-node remains 0.5.0. @kulebbb/dsh-superagent is not on npm. @missher/dsh-superagent is not on npm. Discussions #12822 through #12824 do not name this prototype. No in-window arXiv paper. No in-window HN story. dsh-foreman 0.4.0 and dsh-foreman-node 0.6.1 published this window, but their gitHeads are not on the public repositories."
 }
