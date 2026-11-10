@@ -1,44 +1,116 @@
 {
-  "last_run_at": "2026-11-10T12:33:56Z",
+  "last_run_at": "2026-11-10T13:33:15Z",
   "timezone": "UTC",
-  "baseline_commit": "d5546c2",
+  "baseline_commit": "6f2c7ac",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-10T11:35:33Z",
-    "to": "2026-11-10T12:33:56Z"
+    "from": "2026-11-10T12:33:56Z",
+    "to": "2026-11-10T13:33:15Z"
   },
   "added": [],
   "updated": [
     {
       "title": "touch-agent/dsh-superagent",
       "url": "https://github.com/touch-agent/dsh-superagent",
-      "tip": "3230e14f6a8a",
-      "note": "#50 read-only context group. #49 is the host-matrix install check. Ahead of 6337fc8 is 305."
+      "tip": "567ac438f7dc",
+      "note": "#51 AgentProfile phase 1 defaults off. Ahead of 6337fc8 is 310."
+    },
+    {
+      "title": "martinxiao2025/dsh-superagent",
+      "url": "https://github.com/martinxiao2025/dsh-superagent",
+      "tip": "a6476da69a96",
+      "note": "Pipeline remote, batch import, xlsx writeback, project directories. Serial execution was reverted."
     },
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "27b1d7d966a8",
-      "note": "#489 through #509 from commit subjects. Stage of a running task and who holds a called one."
-    },
-    {
-      "title": "fliggy-travel-ai/dsh-superagent-prototype",
-      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype",
-      "tip": "49fbf6824ff3",
-      "note": "#38 cloud-session loss only after a contact signal. Prototype src/ unchanged."
+      "tip": "9e31055da40d",
+      "note": "#510 through #517 from PR bodies. Panel link does not render the launch token."
     },
     {
       "title": "Missher12/Missher-DSH-Superagent",
       "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "tip": "2dfd976dcf09",
-      "note": "1.8.0 workspace unregister and four read-only Project Ops tools. npm 404."
+      "tip": "c0d2444c14e3",
+      "note": "1.8.1 context inspector. Release v1.8.1 at 13:16Z. npm 404."
+    },
+    {
+      "title": "niechao136/dsh-foreman",
+      "url": "https://github.com/niechao136/dsh-foreman",
+      "tip": "f4b9255a22af",
+      "note": "0.4.2 CLI card. npm gitHead matches. Device tip remains 36be9750a183."
+    },
+    {
+      "title": "liyabgf/dsh-myagent",
+      "url": "https://github.com/liyabgf/dsh-myagent",
+      "tip": "d55ea79b3a53",
+      "note": "0.14.5 clears duplicate pending replies and extracts the QQ bridge protocol."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #12846 through #12851 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12851",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-10T12:34:17Z through 2026-11-10T13:13:12Z. #12847 introduces dsh-snap, a community snapshot plugin, and does not name this prototype. No in-window arXiv paper (export returned 429). No in-window HN story. Prototype tip remains 8c32a9dc5d72. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3."
+    },
+    {
+      "title": "Nelson #576 stays on next/0.8",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/bbc98f0dc55c",
+      "confidence": 0.9,
+      "reason": "bbc98f0dc55c at 2026-11-10T13:19:11Z merges #576 onto next/0.8. Master remains d614b0cf5109. npm preview remains 0.8.1-preview.6 and latest remains 0.7.0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "louifinn memory captures stay off main",
+      "url": "https://github.com/louifinn/dsh-superagent-further/commit/37235c59a681",
+      "confidence": 0.9,
+      "reason": "37235c59a681 at 2026-11-10T12:41:21Z is on agent/memory-experimental-off-cd6d3c0cc310. Default main remains 92253eaec823. The listed sentence was not rewritten."
+    },
+    {
+      "title": "IHUI switch fixes do not touch the super-agent package",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/7c1f0ac03805",
+      "confidence": 0.9,
+      "reason": "7c1f0ac03805 at 2026-11-10T13:06:19Z. The compare from 25f30648b9da has 12 files and no super-agent path. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code fixes do not move the hextor sentence",
+      "url": "https://github.com/pingdotgg/t3code/commit/0a9abddaee00",
+      "confidence": 0.9,
+      "reason": "0a9abddaee00 at 2026-11-10T13:07:03Z. The compare from f12bb6229c00 has 11 files and no hextor or superagent path. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "larksuite v1.0.100 tag does not change the tested sentence",
+      "url": "https://github.com/larksuite/cli/releases/tag/v1.0.100",
+      "confidence": 0.85,
+      "reason": "Default tip remains ac22a60a23d6, committed 2026-11-10T11:59:37Z. pushed_at 2026-11-10T12:35:16Z is the v1.0.100 tag. The listed sentence still records the prototype docs' 1.0.90 test. It was not rewritten."
+    },
+    {
+      "title": "Jayakumar09 architecture registry stays unlisted",
+      "url": "https://github.com/Jayakumar09/dsh-superagent-prototype/commit/7ca23b0a4f38",
+      "confidence": 0.5,
+      "reason": "7ca23b0a4f38 at 2026-11-10T12:02:16Z on superagent-dev only generates the module registry in docs/007-architecture.md. Not listed."
+    },
+    {
+      "title": "js-superagent-skill startup knowledge stays unlisted",
+      "url": "https://github.com/imjszhang/js-superagent-skill/commit/5d95abc45014",
+      "confidence": 0.55,
+      "reason": "5d95abc45014 at 2026-11-10T12:39:43Z loads coordinator knowledge for the existing Codex and Claude Code skill. It still does not implement this prototype. Not listed."
+    },
+    {
+      "title": "WEP-56/Rally-agent is a Pi desktop app",
+      "url": "https://github.com/WEP-56/Rally-agent",
+      "confidence": 0.45,
+      "reason": "Created 2026-11-10T12:27:56Z. README describes a Windows desktop agent on Pi, with its own router and task agents. It does not name this prototype. Not listed."
+    },
+    {
+      "title": "fsy0718, booth, Lencen, ninesky, Yukikaze, patrol, immars, and ForkbombEu did not move",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "After 12:33:56Z their default tips stayed at b855c23d7f72, 7e5ffa0dd2e0, 7015b7a0e6f1, 15eaf843c253, 010ad069e7de, fe5f0a9cbbdf, 2b0ef5219484, and c17c6f75b424. foreman-node remains 36be9750a183. fliggy remains 49fbf6824ff3. ReSerendipity remains 6f429c3765b0."
+    },
     {
       "title": "louifinn self-evolution design stays off main",
       "url": "https://github.com/louifinn/dsh-superagent-further/commit/fd95659f6bcc",
@@ -5688,19 +5760,39 @@
   ],
   "rejected_this_run": [
     {
-      "title": "SuperRabbit-lab/agent-playground",
-      "url": "https://github.com/SuperRabbit-lab/agent-playground",
-      "reason": "Scratch repository for Executor trials. Pushed at 2026-11-10T12:18:55Z."
+      "title": "HongJinjin9/agent-workspace",
+      "url": "https://github.com/HongJinjin9/agent-workspace",
+      "reason": "Work repository for assigning tasks. Pushed at 2026-11-10T13:26:56Z. Not listed."
     },
     {
-      "title": "sichuandiyasuo/agent-test",
-      "url": "https://github.com/sichuandiyasuo/agent-test",
-      "reason": "Test repository. Pushed at 2026-11-10T12:03:34Z."
+      "title": "SS-LAU/dsh-superagent-playground",
+      "url": "https://github.com/SS-LAU/dsh-superagent-playground",
+      "reason": "Playground repo watched by dsh-superagent. Pushed at 2026-11-10T13:10:44Z."
     },
     {
-      "title": "JerryWang024/DSH-superagent",
-      "url": "https://github.com/JerryWang024/DSH-superagent",
-      "reason": "Created 2026-11-10T11:38:13Z. The contents API returned 409. Not listed."
+      "title": "wsnd6666wsnd/superagent-demo",
+      "url": "https://github.com/wsnd6666wsnd/superagent-demo",
+      "reason": "Smoke-test repository. Pushed at 2026-11-10T13:05:24Z."
+    },
+    {
+      "title": "ok0/superagent-claude-playground-readonly",
+      "url": "https://github.com/ok0/superagent-claude-playground-readonly",
+      "reason": "Public test target. Created 2026-11-10T13:24:20Z."
+    },
+    {
+      "title": "blockcoder2025/superAgentTasks",
+      "url": "https://github.com/blockcoder2025/superAgentTasks",
+      "reason": "Ticket workspace for one local profile. Pushed at 2026-11-10T12:36:52Z."
+    },
+    {
+      "title": "Albamafather/superagent",
+      "url": "https://github.com/Albamafather/superagent",
+      "reason": "A pomodoro page. The name does not make it this prototype. Pushed at 2026-11-10T13:18:01Z."
+    },
+    {
+      "title": "sun13-AI/superagent-qiutian",
+      "url": "https://github.com/sun13-AI/superagent-qiutian",
+      "reason": "Empty first repository. Created 2026-11-10T12:38:35Z."
     }
   ],
   "held_on_other_branches": [
@@ -5847,8 +5939,10 @@
     "2026-11-09T14:40Z: lanshi17 master remains 34e7aaac4934; pushed_at 14:07Z is agent branches. Nelson master remains fcd0c15b86d1. fliggy main remains f66e4c1b5cea. Do not list those side branches.",
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 at 54baa212d919 (2026-11-10T09:14:49Z, #562). Master sentence stays on 0e2ac9540f83.",
     "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-10T10:23:42Z. Default master remains 0e2ac9540f83. Do not list next/0.8.",
-    "louifinn/dsh-superagent-further agent/design-self-evolution-6853886e027e is fd95659f6bcc (2026-11-10T12:09:16Z). Default main remains 92253eaec823. Do not list the branch."
+    "louifinn/dsh-superagent-further agent/design-self-evolution-6853886e027e is fd95659f6bcc (2026-11-10T12:09:16Z). Default main remains 92253eaec823. Do not list the branch.",
+    "louifinn/dsh-superagent-further agent/memory-experimental-off-cd6d3c0cc310 is 37235c59a681 (2026-11-10T12:41:21Z). Default main remains 92253eaec823. Do not list the branch.",
+    "NelsonLongxiang/dsh-open-a2a-net next/0.8 is bbc98f0dc55c (2026-11-10T13:19:11Z, #576). Default master remains d614b0cf5109. Do not list next/0.8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.6 (2026-11-10T11:15:07.160Z); latest remains 0.7.0. @missher/dsh-superagent is still absent from npm. larksuite/cli default tip is ac22a60a23d6 (v1.0.100); the listed sentence still cites the 1.0.90 test."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.6; latest remains 0.7.0. next/0.8 is bbc98f0dc55c and is not the listed sentence. dsh-foreman 0.4.2 published 2026-11-10T13:12:37.133Z, gitHead f4b9255a22af. @missher/dsh-superagent is still absent from npm. Unscoped myagent remains 4.0.2 and is not liyabgf/dsh-myagent. larksuite/cli default tip remains ac22a60a23d6 (v1.0.100); the listed sentence still cites the 1.0.90 test."
 }
