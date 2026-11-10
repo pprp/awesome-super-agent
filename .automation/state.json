@@ -1,38 +1,50 @@
 {
-  "last_run_at": "2026-11-10T22:36:31Z",
+  "last_run_at": "2026-11-10T23:34:17Z",
   "timezone": "UTC",
-  "baseline_commit": "a7a022a",
+  "baseline_commit": "ad7ef5e",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-10T21:34:30Z",
-    "to": "2026-11-10T22:36:31Z"
+    "from": "2026-11-10T22:36:31Z",
+    "to": "2026-11-10T23:34:17Z"
   },
   "added": [],
   "updated": [
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "e9a9e7e6197e",
-      "note": "#549 ended-task executor cost. #550 ElevenLabs timeout is not retried. #551 speech-cache minute. #552 poller reads back to the pre-boot sync. #553 AI env cap is a number and each provider keeps its own key. #554 OpenAI priced by the requested model. #555 ticker does not overlap reconciles. #556 overview uses the sync index. #557 one ticket per issue number. #558 dev sockets refuse other origins. #559 foreign Host is 403. #560 issue body updates without stamping updated_at. #561 a failed issues read is a sync error. #562 a reopened issue queues its done task. #563 only ready tasks reconcile to done. #564 overlay writes only when changed. #565 a broadcast burst reloads once. #566 orchestrator is asked off the tab. #567 async test wait. #568 issue and pull pages since the last sync. #569 cross-site pages cannot spend the token on attachments."
+      "tip": "a54904013ca7",
+      "note": "#570 open ticket by repository. #571 one shared git fetch. #572 owner is a label. #573 DeepSeek published prices by hour. #574 yes is only a yes to the last turn. #575 model confirm runs nothing. #576 a failed undo can be said again. #577 a named project is the project. #578 an ended task gives its request key back. #580 every gate, negated failures excluded. #581 retry, load and ceiling use the repository agent. #582 a requested runner must watch the repository. #583 a failed send's files stay in their repository. #584 scripts read the last run. #585 a second update joins the one running. #586 request/context supplies a missing model. #587 a failed task action is 502. #589 worker ceiling stops at 16. #590 claude-opus-5 is 5.00/25.00. #591 the newest usage bar prints its UTC date."
     },
     {
       "title": "yangpeng366/dsh-patrol",
       "url": "https://github.com/yangpeng366/dsh-patrol",
-      "tip": "7f95170e2173",
-      "note": "Policy v4 refuses a row whose interval is missing, not finite, or <= 0 with schedule-stopped, before approval. itemIsDue still admits 0 every 60 minutes so the refusal stays in the log. The fingerprint includes intervalMin. acceptMode stays observe. package.json stays 0.1.0. npm still has no dsh-patrol."
-    },
-    {
-      "title": "Yiminnn/agent-ops",
-      "url": "https://github.com/Yiminnn/agent-ops",
-      "tip": "c27c186b428c",
-      "note": "#12 DRIFT STALLED for a quiet open non-draft PR of a committed goal, DRIFT GOALPOST once per rendered field change, and a daily WAITING ON OPERATOR digest. No new guard, deny, or hook."
+      "tip": "d02b152b21a0",
+      "note": "Policy v4 adds repo-exists after the allowlist and action-type after the repo layer. Admission is only repo-code, repo-test or repo-doc from 下一步. Non-repo kinds refuse. acceptMode stays observe. package.json stays 0.1.0. npm still has no dsh-patrol."
     }
   ],
   "pending": [
+    {
+      "title": "Discussion #12901 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12901",
+      "confidence": 0.9,
+      "reason": "#12901 at 2026-11-10T23:31:32Z reports parallel tool calls reused at one stream index in openai-completions. The body does not say superagent, super-agent, ticket, mandate, or prototype. #12902 does not exist. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "t3code commits do not move the hextor sentence",
+      "url": "https://github.com/pingdotgg/t3code/commit/43915a4064b3",
+      "confidence": 0.9,
+      "reason": "43915a4064b3 at 2026-11-10T23:28:07Z. The compare from 3cb99ced5b79 is three commits (voice environment, delegated-child notify, question-panel header) and no hextor or superagent path. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "awesome-dsh-plugin bili-share stays a catalog",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/385275e35e06",
+      "confidence": 0.85,
+      "reason": "86588cdadc30 at 2026-11-10T23:21:32Z adds Vito-Li-tech/dsh-plugin-bili-share. 385275e35e06 regenerates the catalog READMEs. The listed sentence was not rewritten."
+    },
     {
       "title": "Discussions #12885 through #12900 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12900",
@@ -6120,14 +6132,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "SkillfulAgents/SuperAgent",
-      "url": "https://github.com/SkillfulAgents/SuperAgent",
-      "reason": "Pushed 2026-11-10T22:05:28Z. Default tip 722392ad94f6 merges a Slack tag pull request. Not a DSH port. Not listed."
-    },
-    {
-      "title": "Unrelated superagent names",
-      "url": "https://github.com/RudyCity/superagent",
-      "reason": "RudyCity/superagent, Hocine123321/iMC-Superagent, pungme/superagent-desktop, and Mz1823-Mex/SuperAgent moved in the window and do not contain this prototype. Not listed."
+      "title": "Commit search hit is not this prototype",
+      "url": "https://github.com/caldwelljoseph88/cal/commit/f03e76cc8a9d",
+      "reason": "The committer-date search for dsh-superagent returned one unrelated commit. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -6286,5 +6293,5 @@
     "LofiSu/deepseek-super-agent pushed_at 2026-11-10T21:42:12Z. Default main remains e705e872796e. Do not list the side branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-10T22:29:02Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.7 (published 2026-11-10T17:06:55.980Z, no gitHead); latest remains 0.7.0. dsh-foreman remains 0.4.2. dsh-foreman-node remains 0.6.1. @missher/dsh-superagent is still absent from npm. Unscoped myagent remains 4.0.2 and is not liyabgf/dsh-myagent. dsh-agent-lines latest is 0.11.1 (2026-11-10T14:52:41.892Z). dsh-ladder-superagents remains 0.2.0. dsh-patrol is not on npm; package.json on 7f95170e2173 is still 0.1.0. @vicfei/dsh-super-agent remains 1.5.0. Nelson's default branch did not move this hour."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-10T23:14:41Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.7. dsh-agent-lines remains 0.11.1. @vicfei/dsh-super-agent remains 1.5.0. dsh-foreman remains 0.4.2. dsh-ladder-superagents remains 0.2.0. npm still has no dsh-patrol."
 }
