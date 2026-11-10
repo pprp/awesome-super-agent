@@ -1,86 +1,134 @@
 {
-  "last_run_at": "2026-11-10T09:37:55Z",
+  "last_run_at": "2026-11-10T10:34:43Z",
   "timezone": "UTC",
-  "baseline_commit": "175699c",
+  "baseline_commit": "e142056",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-10T08:33:37Z",
-    "to": "2026-11-10T09:37:55Z"
+    "from": "2026-11-10T09:37:55Z",
+    "to": "2026-11-10T10:34:43Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "niechao136/dsh-foreman",
-      "url": "https://github.com/niechao136/dsh-foreman",
-      "tip": "fb4a86e9d829",
-      "note": "0.4.1 maps a repository to a project. An unpinned retry may change machine. Node 0.6.1 queues report and ack. npm 0.4.1 gitHead is 49c5a6fe9fbf. Not re-run."
-    },
-    {
-      "title": "yangpeng366/dsh-patrol",
-      "url": "https://github.com/yangpeng366/dsh-patrol",
-      "tip": "fe5f0a9cbbdf",
-      "note": "inject is sessionController and skills. The packaged skill is registered by the plugin. Not re-run."
-    },
-    {
-      "title": "fliggy-travel-ai/dsh-superagent-prototype",
-      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype",
-      "tip": "f817395c2ade",
-      "note": "#35 lists native session questions and does not answer them. Prototype src/ unchanged. Not re-run."
-    },
-    {
-      "title": "immars/dsh-superagent-prototype",
-      "url": "https://github.com/immars/dsh-superagent-prototype",
-      "tip": "2b0ef5219484",
-      "note": "A new ticket reuses a free workspace for the same source and repository. Ahead of 8c32a9d is 22. Not re-run."
-    },
-    {
       "title": "louifinn/dsh-superagent-further",
       "url": "https://github.com/louifinn/dsh-superagent-further",
-      "tip": "9d1f74169110",
-      "note": "lead_review records a verdict. A blocked review keeps a merged change ticket open. Ahead of 8c32a9d is 170. Not re-run."
+      "tip": "428d11640f52",
+      "note": "0.4.0 cuts the changelog at the already listed lead_review. No src change. Ahead of 8c32a9d is 174."
     },
     {
       "title": "fsy0718/dsh-superagent-prototype",
       "url": "https://github.com/fsy0718/dsh-superagent-prototype",
-      "tip": "c7dca930fdbd",
-      "note": "Reliability design docs only. Ahead of 6337fc8 is 42. src/ unchanged. Not re-run."
+      "tip": "7b33102b2b20",
+      "note": "#38 retention. Open tickets, unfinished assignments, queued threads, and pending deliveries stay. Ahead of 6337fc8 is 45."
     },
     {
-      "title": "imx123/super-personal-assistant",
-      "url": "https://github.com/imx123/super-personal-assistant",
-      "tip": "23798186774a",
-      "note": "Soft pause lets work finish. Hard pause stops child assignments. Not installed."
+      "title": "ninesky-hz/dsh-main-agent",
+      "url": "https://github.com/ninesky-hz/dsh-main-agent",
+      "tip": "15eaf843c253",
+      "note": "0.22.12 Chinese continuation needs an action and a mission word. 0.22.13 dedupes goal-stopped with stoppedPhase."
     },
     {
-      "title": "lanshi17/dsh-booth",
-      "url": "https://github.com/lanshi17/dsh-booth",
-      "tip": "468e4554f0f6",
-      "note": "#127 names cursor-agent. #129 decides with typesafe/jev. #132 opens the provider screen. Not re-run."
+      "title": "touch-agent/dsh-superagent",
+      "url": "https://github.com/touch-agent/dsh-superagent",
+      "tip": "121623289340",
+      "note": "#45 read-only Goal. #48 is Space tests only. Ahead of 6337fc8 is 283."
     },
     {
-      "title": "ForkbombEu/superagent",
-      "url": "https://github.com/ForkbombEu/superagent",
-      "tip": "c17c6f75b424",
-      "note": "UAT is off unless SUPERAGENT_UAT_ENABLED and the uat compose profile are set. Not re-run."
-    },
-    {
-      "title": "IHUI-INF-AI/IHUI-AI",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI",
-      "tip": "69d1cd936af1",
-      "note": "The web duty panel is a read-only projection of @ihui/shared/super-agent. Not re-run."
+      "title": "fzss2012/dsh-superagent-local",
+      "url": "https://github.com/fzss2012/dsh-superagent-local",
+      "tip": "d39815c5e53a",
+      "note": "Main-session restrict names pwsh on Windows and bash elsewhere. lib/ was rebuilt."
     },
     {
       "title": "martinxiao2025/dsh-superagent",
       "url": "https://github.com/martinxiao2025/dsh-superagent",
-      "tip": "aa5a310b3b27",
-      "note": "Admin routes stay mounted when startup fails. health is 200 with phase. Other routes are 503 startupPending. The main-session allow list drops missing shell names. Not re-run."
+      "tip": "f88e3cdad4dc",
+      "note": "inherited filters parent-scope tools. Record health names stay out of runtime errors. Invalid config runs disabled. envKey and envPrefix are gone."
+    },
+    {
+      "title": "lanshi17/dsh-booth",
+      "url": "https://github.com/lanshi17/dsh-booth",
+      "tip": "7e5ffa0dd2e0",
+      "note": "468e4554f0f6 is not on master. #132 is 86c1d2c9c279. #135 prints four duty routes. #136 lists presets until configured."
+    },
+    {
+      "title": "Missher12/Missher-DSH-Superagent",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
+      "tip": "686721b09d5b",
+      "note": "1.7.0 delivers a native user message once and waits for a worker slot. 1.7.1 only resizes the team pane. npm 404."
     }
   ],
   "pending": [
+    {
+      "title": "Default tips that did not move after e142056",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip remains 8c32a9dc5d72. pushed_at remains 2026-11-03T09:29:14Z. npm @deepseek-ai/dsh latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. Discussions #12836 and #12837 do not change a listed sentence. No in-window arXiv paper. No in-window HN story. foreman remains fb4a86e9d829. foreman-node remains 36be9750a183. dsh-patrol remains fe5f0a9cbbdf. imx123 remains 23798186774a. ForkbombEu remains c17c6f75b424. immars remains 2b0ef5219484. SupA remains 010ad069e7de."
+    },
+    {
+      "title": "IHUI commits do not touch the super-agent package",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/aef27ba3d9a6",
+      "confidence": 0.9,
+      "reason": "aef27ba3d9a6 at 2026-11-10T10:01:11Z. The compare from 69d1cd936af1 has no super-agent path. The listed sentence was not rewritten."
+    },
+    {
+      "title": "hermes release notes do not move the listed sentence",
+      "url": "https://github.com/AirKyzzZ/hermes-superagent/commit/83544d7c0ef5",
+      "confidence": 0.9,
+      "reason": "83544d7c0ef5 at 2026-11-10T10:12:39Z only dates CHANGELOG.md and docs/release-notes-v0.1.0.md. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code fixes do not move the hextor sentence",
+      "url": "https://github.com/pingdotgg/t3code/commit/bcee0f5d2872",
+      "confidence": 0.9,
+      "reason": "bcee0f5d2872 at 2026-11-10T10:08:34Z. The compare from 7171fdd7716b has no hextor or superagent path. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson master did not move",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/0e2ac9540f83",
+      "confidence": 0.9,
+      "reason": "Master remains 0e2ac9540f83, committed 2026-11-10T05:44:11Z. pushed_at is 2026-11-10T10:23:42Z. next/0.8 was not reread. The master sentence was not rewritten."
+    },
+    {
+      "title": "fliggy tip did not move",
+      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype/commit/f817395c2ade",
+      "confidence": 0.9,
+      "reason": "pushed_at is 2026-11-10T10:14:58Z. Default tip remains f817395c2ade, committed 2026-11-10T08:39:32Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "larksuite and vHao11 tips did not move",
+      "url": "https://github.com/larksuite/cli/commit/1bfdcc2c1a0e",
+      "confidence": 0.9,
+      "reason": "larksuite/cli tip remains 1bfdcc2c1a0e. vHao11 windows-adapt remains 898f00a00816. The listed sentences were not rewritten."
+    },
+    {
+      "title": "Hivebot tip moved to an SSH remote chain",
+      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/e21b6312d236",
+      "confidence": 0.55,
+      "reason": "e21b6312d236 at 2026-11-10T10:19:10Z. README describes a dsh plugin desktop (create_bot/send_to_bot, Electron), not this prototype's Ticket engine. Not listed."
+    },
+    {
+      "title": "ReSerendipity is another Windows package of the same contract",
+      "url": "https://github.com/ReSerendipity/dsh-superagent",
+      "confidence": 0.5,
+      "reason": "2e57ac028ec7 at 2026-11-10T10:17:11Z. README installs @reserendipity/dsh-superagent and describes GitHub, a local inbox, and Feishu tickets. Not a different contract from the listed Windows ports. Not listed."
+    },
+    {
+      "title": "Discussion #12837 pitches dsh-quest",
+      "url": "https://github.com/yunlong-wang11111/dsh-quest",
+      "confidence": 0.4,
+      "reason": "Discussion #12837 at 2026-11-10T10:05:39Z compares quest to the prototype Router/Worker. The repo was last pushed 2026-11-07T07:30:29Z and is an MCP task lane. Not listed."
+    },
+    {
+      "title": "Discussion #12836 is harness model selection",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12836",
+      "confidence": 0.85,
+      "reason": "Created 2026-11-10T09:46:37Z. It asks for a provider wildcard in subagent-model-selection-settings. It does not name this prototype. Not listed."
+    },
     {
       "title": "Default tips that did not move after 175699c",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -5568,29 +5616,19 @@
   ],
   "rejected_this_run": [
     {
-      "title": "VBK-AI-Agent-Gateway/superagent-playground",
-      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
-      "reason": "Scratch repository for dispatch trials."
-    },
-    {
       "title": "medalxuexi-ai/dsh-demo",
       "url": "https://github.com/medalxuexi-ai/dsh-demo",
-      "reason": "Sandbox repository for a super-agent setup."
+      "reason": "Sandbox repository for a super-agent setup. Pushed again at 2026-11-10T10:29:40Z."
     },
     {
-      "title": "ZTGolem/ai-eval-platform-evidence",
-      "url": "https://github.com/ZTGolem/ai-eval-platform-evidence",
-      "reason": "Generated smoke evidence, not a super-agent implementation."
+      "title": "VBK-AI-Agent-Gateway/superagent-playground",
+      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
+      "reason": "Scratch repository for dispatch trials. Pushed again at 2026-11-10T10:12:55Z."
     },
     {
       "title": "cg-dsh/dsh-superagent-prototype",
       "url": "https://github.com/cg-dsh/dsh-superagent-prototype",
-      "reason": "Private mirror of the prototype."
-    },
-    {
-      "title": "Jayakumar09/dsh-superagent-prototype",
-      "url": "https://github.com/Jayakumar09/dsh-superagent-prototype/commit/c414eafcbbee",
-      "reason": "CI script resolution on superagent-dev through c414eafcbbee. Not a distinct contract."
+      "reason": "Private mirror. pushed_at 2026-11-10T10:24:37Z. Default tip fd69df599fa7 was committed 2026-11-10T08:12:41Z, before this window."
     }
   ],
   "held_on_other_branches": [
@@ -5735,8 +5773,9 @@
     "IHUI-INF-AI/IHUI-AI tip 73a6352a830b at 2026-11-08T20:18:01Z does not touch packages/shared/src/super-agent. Do not rewrite the listed sentence.",
     "2026-11-09T07:34Z: fliggy main still f66e4c1b5cea; vHao11 windows-adapt still 898f00a00816; gekailin main still f794b29e21ca; Nemotte main still 0f0387155aa1; touch-agent tip 4138c1abbd43 is docs after 2c3a947b10d2.",
     "2026-11-09T14:40Z: lanshi17 master remains 34e7aaac4934; pushed_at 14:07Z is agent branches. Nelson master remains fcd0c15b86d1. fliggy main remains f66e4c1b5cea. Do not list those side branches.",
-    "NelsonLongxiang/dsh-open-a2a-net next/0.8 at 54baa212d919 (2026-11-10T09:14:49Z, #562). Master sentence stays on 0e2ac9540f83."
+    "NelsonLongxiang/dsh-open-a2a-net next/0.8 at 54baa212d919 (2026-11-10T09:14:49Z, #562). Master sentence stays on 0e2ac9540f83.",
+    "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-10T10:23:42Z. Default master remains 0e2ac9540f83. Do not list next/0.8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. dsh-foreman 0.4.1 published 2026-11-10T08:34:04.830Z from gitHead 49c5a6fe9fbf; public tip is fb4a86e9d829 and depends on dsh-foreman-node 0.6.1. dsh-foreman-node 0.6.1 gitHead 36be9750a183 is the public tip."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. dsh-foreman 0.4.1 published 2026-11-10T08:34:04.830Z from gitHead 49c5a6fe9fbf; public tip is fb4a86e9d829. dsh-foreman-node 0.6.1 gitHead 36be9750a183 is the public tip. @missher/dsh-superagent is still absent from npm."
 }
