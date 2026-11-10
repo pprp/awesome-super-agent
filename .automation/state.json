@@ -1,44 +1,99 @@
 {
-  "last_run_at": "2026-11-10T15:33:42Z",
+  "last_run_at": "2026-11-10T16:36:03Z",
   "timezone": "UTC",
-  "baseline_commit": "89e82d5",
+  "baseline_commit": "96dfa7b",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-10T14:41:46Z",
-    "to": "2026-11-10T15:33:42Z"
+    "from": "2026-11-10T15:33:42Z",
+    "to": "2026-11-10T16:36:03Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "zvv1999/dsh-superagent",
+      "url": "https://github.com/zvv1999/dsh-superagent",
+      "tip": "b3b82e446150",
+      "note": "Personal checkout of 8c32a9d. GitLab accepts only a leading /superagent. Default observe still records would_accept. Listed addressed sender stays explicit. DingTalk and WeChat were not read line by line."
+    }
+  ],
   "updated": [
     {
-      "title": "Lencen/dsh-agent-lines",
-      "url": "https://github.com/Lencen/dsh-agent-lines",
-      "tip": "a68e71699c6e",
-      "note": "0.11.1 docs over 0.11.0. npm latest 0.11.1 at 14:52Z. user_version stays 14. totalTokens is uncached input plus output plus cache read and write. Per-call bootstrap:false does not skip."
+      "title": "Missher12/Missher-DSH-Superagent",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
+      "tip": "2e16969ad4f9",
+      "note": "1.8.4 release v1.8.4 at 15:43Z, not a draft. Density compact/standard/comfortable. compact is the default and is not stored. npm 404."
     },
     {
-      "title": "yangpeng366/dsh-patrol",
-      "url": "https://github.com/yangpeng366/dsh-patrol",
-      "tip": "249253fa8e3a",
-      "note": "JSONL decision log 256fa5ec8dc7 and autonomousRepos allowlist. npm 404. observe default unchanged."
+      "title": "439436269-ctrl/dsh-superagent",
+      "url": "https://github.com/439436269-ctrl/dsh-superagent",
+      "tip": "e7c8921d193c",
+      "note": "138 ahead of 8c32a9d. Dispatch may omit the repository. Gate admits it as explicit and does not consult a source allow-list. Worktree is the default repo worktrees directory. Prompt still says <root>/local/<name>. Watching another repo is not an account change. Ticket filter all. Thread ids without the github: prefix parse."
+    },
+    {
+      "title": "liyabgf/dsh-myagent",
+      "url": "https://github.com/liyabgf/dsh-myagent",
+      "tip": "89145a151e36",
+      "note": "0.14.8. A reply to the bot's own Telegram message counts as addressed. Skip tally logs at info every 5 minutes. Waiting tickets have a continue button. Worker prompt tightens blocked versus dropped. Gate unchanged. Unscoped npm myagent remains 4.0.2."
     },
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "8e2994ba6749",
-      "note": "#521 rail at the window edge. #522 two panes from 2500px. The ultrawide rail hold is on main."
+      "tip": "88456fe02cbf",
+      "note": "#523 through #528. Messages bar, settings alignment, dialog tokens, one segmented control, viewer-locale numbers, 44px targets, Merged on one line."
     },
     {
-      "title": "fliggy-travel-ai/dsh-superagent-prototype",
-      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype",
-      "tip": "bf54333c2ab9",
-      "note": "#41 tool-call counts as working. No target waits for the original account. Prototype src/ unchanged."
+      "title": "yangpeng366/dsh-patrol",
+      "url": "https://github.com/yangpeng366/dsh-patrol",
+      "tip": "d924cadd9a59",
+      "note": "Test-only schema parity. Skips unless patrol-scaffold is checked out beside it. Behavior unchanged. npm 404."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions still end at #12858",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12858",
+      "confidence": 0.9,
+      "reason": "No discussion created after 2026-11-10T15:33:42Z. Prototype tip remains 8c32a9dc5d72. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv super-agent plus deepseek search still returns the unrelated distillation paper 2607.27849."
+    },
+    {
+      "title": "xyt071024 docs refresh still drops the exception",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn",
+      "confidence": 0.7,
+      "reason": "Pushed 2026-11-10T15:57:48Z. The fifteen commits in view refresh release, install, and credit pages. docs/zh/01-overview.md was not among them. The explicit-request exception was not restored in this pass. Not listed."
+    },
+    {
+      "title": "IHUI commits do not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/86eb892f1c1f",
+      "confidence": 0.9,
+      "reason": "35 commits after 45e114f364a4. The compare has relay, Doubao, and login files and no super-agent path. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code fixes do not move the hextor sentence",
+      "url": "https://github.com/pingdotgg/t3code/commit/e5b0718a8a29",
+      "confidence": 0.9,
+      "reason": "e5b0718a8a29 at 2026-11-10T16:31:31Z. The compare from 20c3dd368978 has no hextor or superagent path. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "billLiao catalog sync stays a catalog",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/59a0d77afb5e",
+      "confidence": 0.85,
+      "reason": "59a0d77afb5e at 2026-11-10T16:02:04Z regenerates the topic catalog. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu, yinguobing, and AirKyzzZ default tips did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/e705e872796e",
+      "confidence": 0.9,
+      "reason": "LofiSu main remains e705e872796e. yinguobing main remains e61da5ee885b. AirKyzzZ main remains 83544d7c0ef5, already recorded as docs-only. Their pushed_at values are other branches. Listed sentences were not rewritten."
+    },
+    {
+      "title": "Sandbox and demo repositories stay out",
+      "url": "https://github.com/SuperRabbit-lab/agent-playground",
+      "confidence": 0.9,
+      "reason": "SuperRabbit-lab/agent-playground pushed 2026-11-10T16:29:30Z and describes itself as a scratch executor trial. medalxuexi-ai/dsh-demo pushed 2026-11-10T16:18:11Z. VBK-AI-Agent-Gateway/superagent-playground pushed 2026-11-10T16:05:58Z. Not listed."
+    },
     {
       "title": "Discussions #12856 through #12858 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12858",
@@ -5862,24 +5917,19 @@
   ],
   "rejected_this_run": [
     {
-      "title": "seabiscuit29/superagent-control-tower",
-      "url": "https://github.com/seabiscuit29/superagent-control-tower",
-      "reason": "Essay simulator. No model call. Not listed."
+      "title": "SuperRabbit-lab/agent-playground",
+      "url": "https://github.com/SuperRabbit-lab/agent-playground",
+      "reason": "Scratch repository for executor trials. Not listed."
     },
     {
-      "title": "zhanghao1231/agent-sandbox",
-      "url": "https://github.com/zhanghao1231/agent-sandbox",
-      "reason": "Trial playground. Not listed."
+      "title": "medalxuexi-ai/dsh-demo",
+      "url": "https://github.com/medalxuexi-ai/dsh-demo",
+      "reason": "Demo playground. Not listed."
     },
     {
-      "title": "zio0001/agent-lab",
-      "url": "https://github.com/zio0001/agent-lab",
-      "reason": "Sandbox. Not listed."
-    },
-    {
-      "title": "gaoguosheng/deepseek-super-agent",
-      "url": "https://github.com/gaoguosheng/deepseek-super-agent",
-      "reason": "Title-only README. Not listed."
+      "title": "VBK-AI-Agent-Gateway/superagent-playground",
+      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
+      "reason": "Dispatch trial repository. Not listed."
     }
   ],
   "held_on_other_branches": [
