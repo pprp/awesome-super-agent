@@ -1,26 +1,49 @@
 {
-  "last_run_at": "2026-11-11T20:45:30Z",
+  "last_run_at": "2026-11-11T21:31:30Z",
   "timezone": "UTC",
-  "baseline_commit": "4de92cb",
+  "baseline_commit": "72bd1cd",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-11T19:33:45Z",
-    "to": "2026-11-11T20:45:30Z"
+    "from": "2026-11-11T20:45:30Z",
+    "to": "2026-11-11T21:31:30Z"
   },
   "added": [],
-  "updated": [
-    {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "tip": "df160a1ab84a",
-      "note": "1.9.3. Shared project sidebar, optional workspace title, embedded session pinned to chat. v1.9.3 published 2026-11-11T20:00:34Z. Still private and not on npm."
-    }
-  ],
+  "updated": [],
   "pending": [
+    {
+      "title": "Discussion #13001 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13001",
+      "confidence": 0.9,
+      "reason": "#13001 at 2026-11-11T20:50:40Z is jjjjjjjjnnjnn/ai-terminal-pet, a Windows status strip for Harness sessions. The body does not contain superagent, super-agent, Mandate, Ticket, or dsh-superagent. The repo tip cb65697b1d18 at 21:11:15Z only records that discussion. #12927 was edited at 20:50:25Z and is still dsh-session-doctor; its body does not name this prototype. #12190 updated at 20:55:50Z is a Windows updater thread; the only comment is 18:49Z and the body does not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T21:27:20Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No npm 0.2.2-rc.2. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/21a9aa1d7968",
+      "confidence": 0.9,
+      "reason": "Tip 21a9aa1d7968 at 2026-11-11T21:24:36Z is a web selection backtick fix. Fourteen commits since 20:45:30Z are web, mobile, and server product fixes. None of the messages name superagent or hextor. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "sallaumen #636 is not main",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/pull/636",
+      "confidence": 0.9,
+      "reason": "Open #636 at 2026-11-11T20:53:17Z (55f2304364ce, chore/dialyzer-in-gates) only touches Makefile, PIPELINES.md, mix.exs, scripts/ci-local.sh, and a pipeline contract test. It is not merged. Main stays 1cc1eba31fd4. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Zero-Trust-Trader tip no longer names this prototype",
+      "url": "https://github.com/youcisla/Zero-Trust-Trader/commit/5901e7eb321d",
+      "confidence": 0.7,
+      "reason": "d9e65d0f48c6 at 2026-11-11T21:10:43Z adds an advisory layer over a trading desk. 5901e7eb321d at 21:23:34Z is a market treemap. The README at that tip does not contain superagent, Mandate, or Ticket. Trading pipeline, not a Ticket runtime. Not listed."
+    },
+    {
+      "title": "Sandbox and IHUI pushes are not default-branch commits",
+      "url": "https://github.com/dshsuperagent-oss/superagent-sandbox/commit/0c25068127fa",
+      "confidence": 0.9,
+      "reason": "superagent-sandbox pushed_at 2026-11-11T21:00:32Z. Default tip remains 0c25068127fa at 19:31:57Z. Sandbox stays out. IHUI-INF-AI/IHUI-AI pushed_at 21:09:41Z is a pull-request review. Default tip remains 785ec6f2fe8b. Missher-DSH-Superagent remains df160a1ab84a. Missher-DSH-Dashboard remains fe05f69e3415. awesome-dsh-plugin remains 1ff709f72741. Nelson master remains 4530a6fe85ae. LofiSu main remains e705e872796e."
+    },
     {
       "title": "Discussions #12999 and #13000 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13000",
@@ -6987,8 +7010,9 @@
     "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-11T10:57:47Z. Default master stays e58a54e6076e.",
     "pingdotgg/t3code tip fcddd737e292 at 2026-11-11T11:28:44Z does not move hextor-ndc/superagent. Main remains 0dc3b4279c03.",
     "IceFireIcer/DS-SuperAgent dev 017f343d03 (2026-11-11T15:11:16Z push) is not main. Main stays 1d6112864d9f.",
-    "pingdotgg/t3code pushed_at 2026-11-11T15:20:54Z. Default main stays d2c25950b4d9 at 2026-11-11T13:46:30Z. hextor-ndc/superagent main stays 0dc3b4279c03."
+    "pingdotgg/t3code pushed_at 2026-11-11T15:20:54Z. Default main stays d2c25950b4d9 at 2026-11-11T13:46:30Z. hextor-ndc/superagent main stays 0dc3b4279c03.",
+    "sallaumen/dsh-superagent-superboard #636 55f2304364ce (2026-11-11T20:53:17Z, chore/dialyzer-in-gates) is not main. Main stays 1cc1eba31fd4."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. No 0.2.2-rc.2 on the npm version list. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z, before this window, and its notes do not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T20:41:11Z is not a commit. dsh-foreman npm remains 0.5.7. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.14 (2026-11-11T19:19:36.789Z, no gitHead) and latest remains 0.7.0. dsh-agent-lines remains 0.11.5. dsh-ladder-superagents remains 0.2.1. dsh-offhours remains 0.2.1. @missher/dsh-superagent is still absent from npm. Missher git tip is df160a1ab84a, package 1.9.3."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. No 0.2.2-rc.2 on the npm version list. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z, before this window, and its notes do not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T21:27:20Z is not a commit. dsh-foreman npm remains 0.5.7. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.14 (2026-11-11T19:19:36.789Z, no gitHead) and latest remains 0.7.0. dsh-agent-lines remains 0.11.5. dsh-ladder-superagents remains 0.2.1. dsh-offhours remains 0.2.1. @missher/dsh-superagent is still absent from npm. Missher git tip is df160a1ab84a, package 1.9.3."
 }
