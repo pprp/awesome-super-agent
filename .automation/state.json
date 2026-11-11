@@ -1,32 +1,56 @@
 {
-  "last_run_at": "2026-11-11T17:36:30Z",
+  "last_run_at": "2026-11-11T18:41:21Z",
   "timezone": "UTC",
-  "baseline_commit": "106c31e",
+  "baseline_commit": "a45891a",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-11T16:43:54Z",
-    "to": "2026-11-11T17:36:30Z"
+    "from": "2026-11-11T17:36:30Z",
+    "to": "2026-11-11T18:41:21Z"
   },
   "added": [],
   "updated": [
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "c1541dd2263d",
-      "note": "#633 voice fallback speaks the browser payload and reloads the plan line. #630 remains the setup docs commit."
-    },
-    {
-      "title": "szmdshagent/dsh-superagent-plugins",
-      "url": "https://github.com/szmdshagent/dsh-superagent-plugins",
-      "tip": "a36679dcdff1",
-      "note": "guard.ts read. worker- bash only. --max-turns required. --workers 1..4. lane main, lead, or ccwN within workers. empty --task refused. nested team refused. Cost breaker not opened. Governance package.json is private, has no license, and has no engines.dsh."
+      "tip": "1cc1eba31fd4",
+      "note": "#635 keeps the only fix on the next-step row. #634 reads setup when Settings opens. Codex login matches a line start."
     }
   ],
   "pending": [
+    {
+      "title": "Discussion #12997 and the #12786 comment do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12997",
+      "confidence": 0.9,
+      "reason": "#12997 at 2026-11-11T18:07:18Z is brickhu/dsh-plugins icon-studio, a project icon library on DSH 0.2.2-rc.1. The #12786 comment at 17:50:19Z is an empty-response adapter note. Neither body contains superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T18:15:38Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z, before this window, and its notes do not name this prototype. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "Haumea still is not this prototype",
+      "url": "https://github.com/egoisutolabs/haumea/commit/6efdaad13a5e",
+      "confidence": 0.86,
+      "reason": "Tip 6efdaad13a5e at 2026-11-11T18:36:09Z adds helpers, Lessons, a guided init, a service command, and rule-granted tools. docs/002 still says off starts only explicit requests, and observe turns a positive inferred assessment into ignore with wouldAccept. An inferred Mandate's auto tier becomes confirm, except a tool named by an enabled rule the Mandate rests on still runs as auto. Effect runtime, not DSH. Not listed."
+    },
+    {
+      "title": "mindtheory retry still is not this prototype",
+      "url": "https://github.com/mindtheory/dsh-super-agents/commit/5ddc50174684",
+      "confidence": 0.84,
+      "reason": "5ddc50174684 at 2026-11-11T18:03:34Z retries a transient run, default retryMaxAttempts 2 and retryBaseDelayMs 2000, capped at 60s. 4824f8e8bee6 at 18:04:01Z records a frontier-watch baseline that names dsh 0.2.2-rc.2. README still describes LobeHub-style personas on DSH plugin primitives. The tree still does not name Trigger, Mandate, Ticket, or observe. Not listed."
+    },
+    {
+      "title": "Agent-Mix names the prototype as a workflow style",
+      "url": "https://github.com/WPH666-py/Agent-Mix",
+      "confidence": 0.62,
+      "reason": "Created 2026-11-11T17:43:36Z. Tip 439ce8664fc3 at 17:50:25Z is 0.1.0, twelve selectable DSH modes. The Harness SuperAgent row cites deepseek-ai/dsh-superagent-prototype as a reference and says the engine is a native Harness loop. README does not mention Ticket, Mandate, Trigger, or observe. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move the sentences",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/068caab732b7",
+      "confidence": 0.9,
+      "reason": "MYCF711 merge 068caab732b7 at 2026-11-11T17:44:49Z is still 0.10.12. engines.dsh is now >=0.2.2-rc.1 <0.3.0-0 and no longer includes >=0.2.1-rc.5 <0.2.2-0. The wake text was not changed. IHUI 7cd781452b77 at 18:37:01Z does not touch packages/shared/src/super-agent; 53bd6e482bc4 only adds a provenance watermark on the webhook files. t3code 7e565c510d6d at 17:35:03Z, pushed_at 18:34:05Z, has no superagent or hextor path. hextor main remains 0dc3b4279c03. awesome-dsh-plugin d571df4dbf00 adds dsh-until-done, dsh-job-board, and dsh-ensp, not this prototype. SkillfulAgents tip 103814242597 at 17:18:18Z is 0.6.9 and is not this prototype. Listed sentences were not rewritten."
+    },
     {
       "title": "Discussions #12993 through #12996 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12996",
@@ -6744,9 +6768,19 @@
   ],
   "rejected_this_run": [
     {
-      "title": "alltowin1054829/superagent-lab",
-      "url": "https://github.com/alltowin1054829/superagent-lab",
-      "reason": "Created 2026-11-11T17:05:25Z. Description says dsh-superagent smoke test. Not listed."
+      "title": "yeahdongcn-mk2/playground",
+      "url": "https://github.com/yeahdongcn-mk2/playground",
+      "reason": "Pushed 2026-11-11T18:26:17Z. ee7ef7dfc3c6 is a screenshot script. Playground. Not listed."
+    },
+    {
+      "title": "nwverse/persona",
+      "url": "https://github.com/nwverse/persona",
+      "reason": "Pushed 2026-11-11T18:38:04Z. The README banner says Persona: your SuperAgent. It does not name dsh-superagent. Not listed."
+    },
+    {
+      "title": "saverio-moretti-dev/superagent-method",
+      "url": "https://github.com/saverio-moretti-dev/superagent-method",
+      "reason": "Pushed 2026-11-11T18:27:04Z. Claude Code plugin. 314bade18d5b is a site-review step. Not this prototype. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -6921,5 +6955,5 @@
     "pingdotgg/t3code pushed_at 2026-11-11T15:20:54Z. Default main stays d2c25950b4d9 at 2026-11-11T13:46:30Z. hextor-ndc/superagent main stays 0dc3b4279c03."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. No 0.2.2-rc.2 on the version list. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. dsh-foreman npm remains 0.5.7. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.13 and latest remains 0.7.0. dsh-agent-lines remains 0.11.5. dsh-ladder-superagents remains 0.2.1."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. No 0.2.2-rc.2 on the npm version list. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z, before this window, and its notes do not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. dsh-foreman npm remains 0.5.7. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.13 and latest remains 0.7.0. dsh-agent-lines remains 0.11.5. dsh-ladder-superagents remains 0.2.1. dsh-offhours remains 0.2.1."
 }
