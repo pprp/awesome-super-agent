@@ -1,39 +1,80 @@
 {
-  "last_run_at": "2026-11-11T01:38:00Z",
+  "last_run_at": "2026-11-11T02:34:30Z",
   "timezone": "UTC",
-  "baseline_commit": "1188637",
+  "baseline_commit": "0056369",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-11T00:31:48Z",
-    "to": "2026-11-11T01:38:00Z"
+    "from": "2026-11-11T01:38:00Z",
+    "to": "2026-11-11T02:34:30Z"
   },
-  "added": [
-    {
-      "title": "shr0829/dsh-superagent-windows",
-      "url": "https://github.com/shr0829/dsh-superagent-windows",
-      "tip": "dd02a49d8d43",
-      "note": "Windows service layer over locked 8c32a9dc5d72. Mutex, CIM process scan, CTRL_C_EVENT, scheduled logon plus hourly watchdog. Not installed."
-    }
-  ],
+  "added": [],
   "updated": [
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "fe817911b434",
-      "note": "#598 offline card title is No new task starts until it is back. Kind label in pt_BR stays Agente fora do ar. Pushed 01:06Z after the previous stamp."
+      "tip": "3156d8e4d62e",
+      "note": "#599 two lanes from content width 960 (1264 px window). #600 long queue uses auto 1fr so Needs you stays 40 px under Now. Three lanes still start at 1300 and reset rows to auto."
     },
     {
-      "title": "touch-agent/dsh-superagent",
-      "url": "https://github.com/touch-agent/dsh-superagent",
-      "tip": "73709a43e52c",
-      "note": "#53 E0-E3 default surfaces. e0 rows hide undelivered and the Session button. Events auto-open defaults off. 321 ahead of 6337fc8."
+      "title": "Yukikaze-Ai/dsh-ladder-superagents",
+      "url": "https://github.com/Yukikaze-Ai/dsh-ladder-superagents",
+      "tip": "1981c0c373b5",
+      "note": "supa_spawn continue reuses a worker id and skips maxChildren and the T1 check. A live child with another parent is rejected. attributeReuse counts the follow-up on the tier that started the worker. package.json and npm latest stay 0.2.0."
+    },
+    {
+      "title": "shr0829/dsh-superagent-windows",
+      "url": "https://github.com/shr0829/dsh-superagent-windows",
+      "tip": "7d96e35c1110",
+      "note": "powershell.exe 5.1 is the documented interpreter. build.ps1 judges pnpm by exit code. setup-gh.ps1 and doctor scopes landed. The panel spawns gh with the host PATH from DSH start; doctor row gh 在宿主 PATH reports an empty Get-Command as unavailable."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #12906 through #12909 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12909",
+      "confidence": 0.9,
+      "reason": "#12906 at 2026-11-11T01:44:38Z is a kimi-coding developer-role 400. #12907 at 01:59:44Z is an Agent Teams template. #12908 at 02:05:09Z is a sidebar More fold. #12909 at 02:11:12Z is a model gateway. None of the bodies say superagent, super-agent, mandate, or prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T02:29:57Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned no new paper."
+    },
+    {
+      "title": "Missher homepage downloads do not move 1.8.7",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent/commit/dd604ca7c13b",
+      "confidence": 0.9,
+      "reason": "dd604ca7c13b at 2026-11-11T02:09:54Z edits three lines of .github/README.md. The listed 1.8.7 sentence was not rewritten. npm still has no @missher/dsh-superagent."
+    },
+    {
+      "title": "IHUI doubao check-in does not touch the listed control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/b4cca8b95bb0",
+      "confidence": 0.9,
+      "reason": "b4cca8b95bb05667162b690069045d9c41868b2d at 2026-11-11T02:24:24Z. The compare from 69d1cd936af1 is 174 commits and no packages/shared/src/super-agent file. The listed sentence was not rewritten."
+    },
+    {
+      "title": "awesome-dsh-plugin merge notes stay a catalog",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/6367c756a871",
+      "confidence": 0.85,
+      "reason": "6367c756a871 at 2026-11-11T01:45:17Z refines unrelated plugin rows through #14116. The listed sentence was not rewritten."
+    },
+    {
+      "title": "xyt071024 temp-tool removal still drops the exception",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn",
+      "confidence": 0.75,
+      "reason": "Pushed 2026-11-11T02:26:50Z. The in-window commits delete temp layout scripts. docs/zh/01-overview.md still says default observe only records would accept when the model says the work should be done. The explicit-request exception was not restored. Not listed."
+    },
+    {
+      "title": "fsy0718 repository returns 404",
+      "url": "https://github.com/fsy0718/dsh-superagent-prototype",
+      "confidence": 0.8,
+      "reason": "The GitHub API returned 404 for fsy0718/dsh-superagent-prototype during this window. The listed sentence was not removed."
+    },
+    {
+      "title": "Default tips did not move",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "touch-agent remains 73709a43e52c. yangpeng366 remains 069744b4b81a. wuzhiping remains 45f885706218. 439436269-ctrl remains b58e9f2d56f5. hextor remains 0dc3b4279c03. louifinn remains 3cd2a476c1fa. vicfei remains 57a165ffb330; npm @vicfei/dsh-super-agent remains 1.5.0. fliggy remains a281d8324070. wangqiongkaka remains 33ac5e54e216. Lencen remains a68e71699c6e. Nelson master remains 035130d44a50; preview remains 0.8.1-preview.7 and latest remains 0.7.0. zvv1999 remains 6d1fefb6d975. martinxiao remains f618cfaa3f5a. LofiSu remains e705e872796e. t3code main remains b883156e269d; pushed_at 2026-11-11T02:14:37Z is not a new commit. dsh-ladder-superagents npm latest remains 0.2.0."
+    },
     {
       "title": "Discussions #12903 through #12905 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12905",
@@ -6217,9 +6258,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Playgrounds and empty test repos stay out",
-      "url": "https://github.com/vishmahesh/superagent-test",
-      "reason": "vishmahesh/superagent-test is a heading. woaiji3196088/DSH-superagent-test is an initial test commit. VBK-AI-Agent-Gateway/superagent-playground and dshsuperagent-oss/superagent-sandbox were already out."
+      "title": "Trial and playground repositories stay out",
+      "url": "https://github.com/zeromultiplied/dsh-superagent-trial",
+      "reason": "zeromultiplied/dsh-superagent-trial pushed 2026-11-11T02:25:12Z and describes itself as a trial repository. Bigbang-sys/superagent-playground was created 2026-11-11T01:50:55Z. VBK-AI-Agent-Gateway/superagent-playground and dshsuperagent-oss/superagent-sandbox were already out."
     }
   ],
   "held_on_other_branches": [
@@ -6378,5 +6419,5 @@
     "LofiSu/deepseek-super-agent pushed_at 2026-11-10T21:42:12Z. Default main remains e705e872796e. Do not list the side branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T01:33:11Z is not a commit."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T02:29:57Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.7 and latest remains 0.7.0. @vicfei/dsh-super-agent remains 1.5.0. dsh-ladder-superagents remains 0.2.0. npm still has no dsh-patrol and no @missher/dsh-superagent."
 }
