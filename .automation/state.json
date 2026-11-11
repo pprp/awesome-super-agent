@@ -1,19 +1,50 @@
 {
-  "last_run_at": "2026-11-11T21:31:30Z",
+  "last_run_at": "2026-11-11T22:33:42Z",
   "timezone": "UTC",
-  "baseline_commit": "72bd1cd",
+  "baseline_commit": "8a44865",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-11T20:45:30Z",
-    "to": "2026-11-11T21:31:30Z"
+    "from": "2026-11-11T21:31:30Z",
+    "to": "2026-11-11T22:33:42Z"
   },
   "added": [],
-  "updated": [],
+  "updated": [
+    {
+      "title": "sallaumen/dsh-superagent-superboard",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
+      "tip": "9017d6d50f03",
+      "note": "#637 at 2026-11-11T21:47:10Z adds Settings → Costs. Windows are 7, 30, or 90 UTC days, default 30, in the URL. Currencies are not summed. A missing price is ? or ≥, never 0. The last 50 board AI calls move out of Execution. Execution keeps caps and models; Voice keeps its controls; both link to Costs. Numbers load when the section opens or the page or window changes."
+    }
+  ],
   "pending": [
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/b20bbc595d59",
+      "confidence": 0.9,
+      "reason": "Sixteen commits on main since 2026-11-11T21:31:30Z, tip b20bbc595d59 at 22:31:23Z. None of the messages name superagent or hextor. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "codefufuai only refreshes profile cards",
+      "url": "https://github.com/codefufuai/codefufuai/commit/d68a19b7ee9e",
+      "confidence": 0.9,
+      "reason": "Tip d68a19b7ee9e at 2026-11-11T22:22:09Z is chore: refresh cards. The README is a whoami card for a deployment of Acfufu/dsh-superagent-prototype. Not listed."
+    },
+    {
+      "title": "IHUI activity is pull-request review",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-11T21:33:39Z. Default main has no commit since 21:31:30Z. The events at 21:33:49Z are pull-request reviews. The listed sentence was not rewritten."
+    },
+    {
+      "title": "No harness discussion moved in this window",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13001",
+      "confidence": 0.9,
+      "reason": "The newest discussion update is #12190 at 2026-11-11T20:55:50Z, before 21:31:30Z. #13001 remains the newest created discussion and does not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T21:57:18Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No npm 0.2.2-rc.2. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits. sallaumen #636 stays open and is not main."
+    },
     {
       "title": "Discussion #13001 does not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13001",
@@ -7014,5 +7045,5 @@
     "sallaumen/dsh-superagent-superboard #636 55f2304364ce (2026-11-11T20:53:17Z, chore/dialyzer-in-gates) is not main. Main stays 1cc1eba31fd4."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. No 0.2.2-rc.2 on the npm version list. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z, before this window, and its notes do not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T21:27:20Z is not a commit. dsh-foreman npm remains 0.5.7. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.14 (2026-11-11T19:19:36.789Z, no gitHead) and latest remains 0.7.0. dsh-agent-lines remains 0.11.5. dsh-ladder-superagents remains 0.2.1. dsh-offhours remains 0.2.1. @missher/dsh-superagent is still absent from npm. Missher git tip is df160a1ab84a, package 1.9.3."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. No 0.2.2-rc.2 on the npm version list. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z, before this window, and its notes do not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T21:57:18Z is not a commit. dsh-foreman npm remains 0.5.7. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.14 (2026-11-11T19:19:36.789Z, no gitHead) and latest remains 0.7.0. dsh-agent-lines remains 0.11.5. dsh-ladder-superagents remains 0.2.1. dsh-offhours remains 0.2.1. @missher/dsh-superagent is still absent from npm. Missher git tip is df160a1ab84a, package 1.9.3."
 }
