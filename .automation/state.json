@@ -1,19 +1,80 @@
 {
-  "last_run_at": "2026-11-11T07:32:29Z",
+  "last_run_at": "2026-11-11T08:35:34Z",
   "timezone": "UTC",
-  "baseline_commit": "800ace3",
+  "baseline_commit": "3627cae",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-11T06:38:00Z",
-    "to": "2026-11-11T07:32:29Z"
+    "from": "2026-11-11T07:32:29Z",
+    "to": "2026-11-11T08:35:34Z"
   },
   "added": [],
-  "updated": [],
+  "updated": [
+    {
+      "title": "lanshi17/dsh-booth",
+      "url": "https://github.com/lanshi17/dsh-booth",
+      "tip": "d729af227b1b",
+      "note": "0.3.0. superagent submodule leaves upstream 8c32a9d for lanshi17/dsh-superagent-prototype e83cfd8d45c9. workerCapacity clamps maxWorkers to 1..16 then to availableParallelism()-1 (at least 1). cordis.patch.yml pins subagents to commandcode / deepseek/deepseek-v4.1-flash. install.sh is Linux and Darwin only and defaults dsh to 0.2.1-rc.3. Existing profile entries are kept and missing webserver, dsh-superagent, and dsh-booth-local entries are appended."
+    }
+  ],
   "pending": [
+    {
+      "title": "Discussions #12939 through #12941 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12941",
+      "confidence": 0.9,
+      "reason": "#12938 at 2026-11-11T07:29:51Z is stale dsh-auth cookies on dsh web, three minutes before this window, and was not in the 07:32Z note. #12939 at 07:52:41Z is a Windows tool-runtime cold start. #12940 at 08:03:34Z is sessions dropping out of the sidebar. #12941 at 08:26:11Z is MOKI Library, a file-preview plugin. None of the bodies contain superagent, super-agent, or Mandate. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T08:34:05Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "Bicara IT teardown is a future-dated recap",
+      "url": "https://bicarait.com/posts/cool-products-2026-11-11-dsh-superagent-prototype-architecture-production",
+      "confidence": 0.42,
+      "reason": "The page is reachable and datePublished is 2026-11-11T10:00:00Z, after this scan. The body restates the public README and calls GitHub delivery webhooks. It does not add a checked fact past the official docs. Not listed. TechApple https://techapple.com/archives/65787 is datePublished 2026-11-11T03:30:00Z, before this window, and is the same release recap."
+    },
+    {
+      "title": "shr0829 memory pull requests are not on main",
+      "url": "https://github.com/shr0829/dsh-superagent-windows/pull/9",
+      "confidence": 0.88,
+      "reason": "Default tip remains 05a16a4d5740 at 2026-11-11T05:26:22Z. Open #7 f9014fcd9cf9 (07:42:30Z), #8 a4391ce70cd9 (08:05:38Z), and #9 aaddfc03209b (08:21:49Z) are unmerged. The listed sentence was not rewritten."
+    },
+    {
+      "title": "xyt071024 still only replaces release archives",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/ac6c1c369f10",
+      "confidence": 0.86,
+      "reason": "Six commits from 516193385b05 at 2026-11-11T07:59:40Z through ac6c1c369f10 at 08:02:08Z replace release archives. install.md was not in the diffs. The explicit-request exception is still absent. Stays pending."
+    },
+    {
+      "title": "IceFireIcer dev is still not the default branch",
+      "url": "https://github.com/IceFireIcer/DS-SuperAgent/commit/221c74354441",
+      "confidence": 0.86,
+      "reason": "221c74354441 at 2026-11-11T08:18:46Z is refs/heads/dev and compares collaboration modes. Default main remains 1d6112864d9f from 2026-11-09T16:14:56Z. The main README is DS Bot, a Harness bot plugin, not this prototype. Not listed."
+    },
+    {
+      "title": "vHao11 windows-adapt tip did not move",
+      "url": "https://github.com/vHao11/dsh-superagent/commit/4ab02852786f",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-11T08:12:34Z. Default windows-adapt remains 898f00a00816 from 2026-11-08T14:00:44Z. fix/windows-pure-js-codegen-20261111 is 4ab02852786f at 07:27:21Z, before this window, and is not the default branch. The listed sentence was not rewritten."
+    },
+    {
+      "title": "IHUI, t3code, xtccc, and the plugin catalog do not move listed sentences",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/61d9137f750e",
+      "confidence": 0.9,
+      "reason": "IHUI compare 7a8a30ae0457...61d9137f750e is 10 commits and 8 files. No path contains super-agent. t3code tip 6e21f8146149 at 2026-11-11T08:29:41Z does not touch hextor-ndc/superagent, which remains 0dc3b4279c03. xtccc/opencode-superagent 2d1747d7edbd at 07:40:17Z adds a release skill with zero mentions of DeepSeek, DSH, Harness, or Mandate. awesome-dsh-plugin aa37dc1a68fe at 07:32:08Z is 21 seconds before this window; 13 files, none named superagent. Listed sentences were not rewritten."
+    },
+    {
+      "title": "MosBot, dia, playgrounds, and test repos stay out",
+      "url": "https://github.com/MosBot-AI/hermes-superagent/commit/a90c92bb7411",
+      "confidence": 0.84,
+      "reason": "MosBot a90c92bb7411 at 2026-11-11T08:31:49Z still accepts retained memory sources for Hermes. minonl/dia d32ccb947524 at 08:31:44Z is a service-add fix. qaq200207/sa-lab pushed_at 08:25:16Z remains an end-to-end test repo. haosizheng/dshsuperagentstestrepo was created at 07:42:07Z for testing. zhoujin0305/superagent-playground and VBK-AI-Agent-Gateway/superagent-playground are trial repos. Orneyfish/super-agents and EverMind-AI/Raven do not implement this prototype. Not listed."
+    },
+    {
+      "title": "fsy0718 repository returns 404",
+      "url": "https://github.com/fsy0718/dsh-superagent-prototype",
+      "confidence": 0.8,
+      "reason": "The GitHub API returned 404 for fsy0718/dsh-superagent-prototype during this window. The listed sentence was not removed."
+    },
     {
       "title": "Discussions #12933 through #12937 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12937",
@@ -6509,22 +6570,30 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Albamafather/superagent",
-      "url": "https://github.com/Albamafather/superagent/commit/a9eac308ad41",
-      "reason": "Test repo. a9eac308ad41 at 2026-11-11T06:53:05Z drops an unused import. Not listed."
+      "title": "haosizheng/dshsuperagentstestrepo",
+      "url": "https://github.com/haosizheng/dshsuperagentstestrepo",
+      "reason": "Created 2026-11-11T07:42:07Z. Description is for testing dsh-superagent. Not listed."
     },
     {
-      "title": "Dodaios/Dodaios",
-      "url": "https://github.com/Dodaios/Dodaios/commit/34e877502698",
-      "reason": "Desktop superagent, formerly Personal Jarvis. 34e877502698 at 2026-11-11T06:52:03Z is a camera deck. Not this prototype."
+      "title": "zhoujin0305/superagent-playground",
+      "url": "https://github.com/zhoujin0305/superagent-playground",
+      "reason": "Created 2026-11-11T06:37:48Z and pushed 08:03:36Z. Description is a trial field. Not listed."
     },
     {
-      "title": "MosBot-AI/hermes-superagent",
-      "url": "https://github.com/MosBot-AI/hermes-superagent/commit/8e617bdd88a1",
-      "reason": "Hermes plugin memory test at 2026-11-11T07:05:29Z. Not this prototype."
+      "title": "VBK-AI-Agent-Gateway/superagent-playground",
+      "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
+      "reason": "Pushed 2026-11-11T08:07:49Z. Description is a trial repository. Not listed."
+    },
+    {
+      "title": "qaq200207/sa-lab",
+      "url": "https://github.com/qaq200207/sa-lab",
+      "reason": "Pushed 2026-11-11T08:25:16Z. Description remains an end-to-end test repo. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "shr0829/dsh-superagent-windows PRs #7 f9014fcd9cf9, #8 a4391ce70cd9, and #9 aaddfc03209b are open. Main stays 05a16a4d5740.",
+    "IceFireIcer/DS-SuperAgent dev 221c74354441 (2026-11-11T08:18:46Z) is not main. Main stays 1d6112864d9f.",
+    "vHao11/dsh-superagent fix/windows-pure-js-codegen-20261111 is 4ab02852786f. windows-adapt stays 898f00a00816.",
     "sallaumen ultrawide rail is on main: #521 0bcae9da8110 and #522 8e2994ba6749 (2026-11-10T15:26:15Z). Do not keep the 15f6da2b7b16 hold.",
     "sallaumen/dsh-superagent-superboard fix/board-ultrawide-rail-at-edge at 15f6da2b7b16 (2026-11-10T14:30:25Z). Main sentence stays on 5c7d51cff852.",
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 at 75bf4c915f2b (2026-11-10T04:13:01Z, #556). Master sentence stays on b1d6dfbbeac1.",
@@ -6680,5 +6749,5 @@
     "LofiSu/deepseek-super-agent pushed_at 2026-11-10T21:42:12Z. Default main remains e705e872796e. Do not list the side branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T07:29:39Z is not a commit."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T08:34:05Z is not a commit. dsh-agent-lines npm stays 0.11.4. dsh-ladder-superagents stays 0.2.1. @nelsonlongxiang/dsh-open-a2a-net preview stays 0.8.1-preview.10."
 }
