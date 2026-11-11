@@ -1,32 +1,93 @@
 {
-  "last_run_at": "2026-11-11T00:31:48Z",
+  "last_run_at": "2026-11-11T01:38:00Z",
   "timezone": "UTC",
-  "baseline_commit": "f93d247",
+  "baseline_commit": "1188637",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-10T23:34:17Z",
-    "to": "2026-11-11T00:31:48Z"
+    "from": "2026-11-11T00:31:48Z",
+    "to": "2026-11-11T01:38:00Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "shr0829/dsh-superagent-windows",
+      "url": "https://github.com/shr0829/dsh-superagent-windows",
+      "tip": "dd02a49d8d43",
+      "note": "Windows service layer over locked 8c32a9dc5d72. Mutex, CIM process scan, CTRL_C_EVENT, scheduled logon plus hourly watchdog. Not installed."
+    }
+  ],
   "updated": [
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "0230fe623145",
-      "note": "#592 tile writes the project ceiling row. #588 Codex subagent credits its own tokens. #593 two models pay each price. #594 bell lists a long run on one timer. #595 merged rows show the task cost. #596 Now counts work, not the wait. #597 cached prompt tokens use cache_read."
+      "tip": "fe817911b434",
+      "note": "#598 offline card title is No new task starts until it is back. Kind label in pt_BR stays Agente fora do ar. Pushed 01:06Z after the previous stamp."
     },
     {
-      "title": "yangpeng366/dsh-patrol",
-      "url": "https://github.com/yangpeng366/dsh-patrol",
-      "tip": "069744b4b81a",
-      "note": "77b5f96f5364 reads the 动作类型 column before the word list. e1017dad9db2 publishes rev 4419 counts, source-column 78. 069744b4b81a records stopped rows as stopped instead of refusing them hourly. acceptMode stays observe. package.json stays 0.1.0. npm still has no dsh-patrol."
+      "title": "touch-agent/dsh-superagent",
+      "url": "https://github.com/touch-agent/dsh-superagent",
+      "tip": "73709a43e52c",
+      "note": "#53 E0-E3 default surfaces. e0 rows hide undelivered and the Session button. Events auto-open defaults off. 321 ahead of 6337fc8."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #12903 through #12905 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12905",
+      "confidence": 0.9,
+      "reason": "#12903 at 2026-11-11T00:54:54Z is a Windows window material request. #12904 at 01:12:38Z is dsh-task-dispatch, an HTTP relay into a DSH main session with a JSON task ledger; it does not say superagent, Trigger, Mandate, or this prototype. #12905 at 01:30:01Z is an iOS safe-area clip. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T01:33:11Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "fsy0718 plans do not change the listed push probe",
+      "url": "https://github.com/fsy0718/dsh-superagent-prototype/commit/5f849b3e73f0",
+      "confidence": 0.9,
+      "reason": "e965984d1a84 and 5f849b3e73f0 only add docs/integration/PRODUCTION-MIGRATION.md and FORK-TO-PRIVATE.md. No src/ change. The listed sentence was not rewritten."
+    },
+    {
+      "title": "wuzhiping FLOW docs do not change source behavior",
+      "url": "https://github.com/wuzhiping/superagent/commit/45f885706218",
+      "confidence": 0.9,
+      "reason": "Four docs(flow) commits from b0c21121c788 to 45f885706218 add FLOW.md, FLOW.html, FLOW.pdf and a build script. The listed source sentence was not rewritten."
+    },
+    {
+      "title": "Second Feishu app note stays documentation",
+      "url": "https://github.com/439436269-ctrl/dsh-superagent/commit/b58e9f2d56f5",
+      "confidence": 0.88,
+      "reason": "b58e9f2d56f5 only edits docs/014-progress.md with an evidence chain for a second Feishu app that receives nothing. The listed failure sentence was not rewritten."
+    },
+    {
+      "title": "t3code scenario fix does not move the hextor sentence",
+      "url": "https://github.com/pingdotgg/t3code/commit/b883156e269d",
+      "confidence": 0.9,
+      "reason": "b883156e269d at 2026-11-11T01:17:38Z only changes scenario startup so localhost works when it resolves to IPv6 first. No hextor or superagent path. hextor-ndc/superagent main remains 0dc3b4279c03."
+    },
+    {
+      "title": "IHUI push fixes do not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/d9f528d9236b",
+      "confidence": 0.9,
+      "reason": "Compare from the listed tip 69d1cd936af1 to d9f528d9236b is 152 commits and 300 files. None of the paths contain super-agent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "awesome-dsh-plugin voice and teleagent stay a catalog",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/2ee32f76d563",
+      "confidence": 0.85,
+      "reason": "2ee32f76d563 at 2026-11-11T00:35:42Z refines catalog entries for dsh-connect-teleagent, dsh-breeze-speak and dsh-profile-stats. The listed sentence was not rewritten."
+    },
+    {
+      "title": "vishmahesh/superagent-test is a title",
+      "url": "https://github.com/vishmahesh/superagent-test",
+      "confidence": 0.8,
+      "reason": "Created 2026-11-11T00:58:14Z. The only file is a 17-byte README heading. Not listed."
+    },
+    {
+      "title": "woaiji3196088/DSH-superagent-test is a test repo",
+      "url": "https://github.com/woaiji3196088/DSH-superagent-test",
+      "confidence": 0.75,
+      "reason": "Pushed 2026-11-11T01:07:50Z. The description says it is for testing SuperAgent. The in-window commit is Initial commit. Not listed."
+    },
     {
       "title": "Discussion #12902 does not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12902",
@@ -6156,9 +6217,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "superagent-sandbox commits are a mobile game",
-      "url": "https://github.com/dshsuperagent-oss/superagent-sandbox",
-      "reason": "Pushed at 2026-11-11T00:25:47Z. The in-window commits are torre-de-ferro touch controls and a PWA, not the prototype. Sandbox repositories stay out."
+      "title": "Playgrounds and empty test repos stay out",
+      "url": "https://github.com/vishmahesh/superagent-test",
+      "reason": "vishmahesh/superagent-test is a heading. woaiji3196088/DSH-superagent-test is an initial test commit. VBK-AI-Agent-Gateway/superagent-playground and dshsuperagent-oss/superagent-sandbox were already out."
     }
   ],
   "held_on_other_branches": [
@@ -6317,5 +6378,5 @@
     "LofiSu/deepseek-super-agent pushed_at 2026-11-10T21:42:12Z. Default main remains e705e872796e. Do not list the side branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T00:27:19Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.7. dsh-agent-lines remains 0.11.1. @vicfei/dsh-super-agent remains 1.5.0. dsh-foreman remains 0.4.2. dsh-ladder-superagents remains 0.2.0. npm still has no dsh-patrol."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-11T01:33:11Z is not a commit."
 }
