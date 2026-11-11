@@ -1,56 +1,80 @@
 {
-  "last_run_at": "2026-11-11T14:40:19Z",
+  "last_run_at": "2026-11-11T15:32:59Z",
   "timezone": "UTC",
-  "baseline_commit": "2a2307a",
+  "baseline_commit": "782acc9",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-11T13:40:00Z",
-    "to": "2026-11-11T14:40:19Z"
+    "from": "2026-11-11T14:40:19Z",
+    "to": "2026-11-11T15:32:59Z"
   },
   "added": [],
   "updated": [
     {
+      "title": "NelsonLongxiang/dsh-open-a2a-net",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
+      "tip": "2ce6f06e1d16",
+      "note": "#609 records the npm preview publish. preview is 0.8.1-preview.13 at 2026-11-11T14:40:17Z. latest stays 0.7.0. Runtime is still 145aa2dd93d1."
+    },
+    {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "tip": "e6bc1a453c08",
-      "note": "#609 own agent restart. #610 peak window under the bar. #611 one door and private context. #613 ElevenLabs plan and computer voice. #617 Signals.read_for the repository agent."
+      "tip": "99bfea3d4cb6",
+      "note": "Commit subjects #614-#625. #622 no DeepSeek without a watcher. #618 launch failure blocks. #621 write guard. #624 intake retired. #625 one readiness contract. Diffs not reread."
     },
     {
       "title": "touch-agent/dsh-superagent",
       "url": "https://github.com/touch-agent/dsh-superagent",
-      "tip": "2231ef68c031",
-      "note": "#63 task hierarchy and notice layer, flags restore the old surfaces. #65 humanIdentity off by default. 387 ahead of 6337fc8."
-    },
-    {
-      "title": "NelsonLongxiang/dsh-open-a2a-net",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
-      "tip": "145aa2dd93d1",
-      "note": "Git 0.8.1-preview.13. npm preview stays 0.8.1-preview.12. release.md still says unpublished. #605 progress receipts. #606 roster."
-    },
-    {
-      "title": "onurkagan/superagent",
-      "url": "https://github.com/onurkagan/superagent",
-      "tip": "3abb0a1895ec",
-      "note": "Inbox repository sets SUPERAGENT_GITHUB_REPOSITORY. init picks claude-code without an Anthropic key. say --repo is required when several repos are watched. Explicit-request gate unchanged."
+      "tip": "79b6749a2a5a",
+      "note": "#66 tracking ledger only. #67 bundle ceiling after #63 and #65. 391 ahead of 6337fc8. humanIdentity still off."
     },
     {
       "title": "martinxiao2025/dsh-superagent",
       "url": "https://github.com/martinxiao2025/dsh-superagent",
-      "tip": "446af6e5afab",
-      "note": "Menu rename to 任务来源. List-first Git and Feishu credential pages. Verification dialog clears the previous result."
+      "tip": "12457d6446ff",
+      "note": "1d695ffa269f folds code repos and task sources into the project. Message source leaves the main menu. Tip only ignores .mimosa."
     },
     {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "tip": "0ddffe24e542",
-      "note": "1.8.9 narrow collaboration cards. 1.8.10 Escape closes the select and leaves the host dialog. Not on npm."
+      "title": "Yukikaze-Ai/dsh-ladder-superagents",
+      "url": "https://github.com/Yukikaze-Ai/dsh-ladder-superagents",
+      "tip": "ea33ea7896d4",
+      "note": "README only. A full-authority CLI tier disables that CLI's own guard. Package stays 0.2.1."
+    },
+    {
+      "title": "yangpeng366/dsh-patrol",
+      "url": "https://github.com/yangpeng366/dsh-patrol",
+      "tip": "67c442bc44c2",
+      "note": "Nine action spellings in action-vocabulary.ts. Cell states valid, normalized, missing, invalid. acceptMode stays observe. npm still absent."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #12985 through #12987 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12987",
+      "confidence": 0.9,
+      "reason": "#12985 at 2026-11-11T14:45:49Z is an inspector loopback endpoint. #12986 at 14:53:32Z is an unofficial Harness walkthrough and does not mention superagent. #12987 at 15:19:55Z is a credential-key and BOM startup failure. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at this hour is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "xyt071024 still replaces archives and source files",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/c68a49433cce",
+      "confidence": 0.86,
+      "reason": "Commits through c68a49433cce at 2026-11-11T14:56:53Z replace release zips and source files. The explicit-request exception was not rechecked. Stays pending."
+    },
+    {
+      "title": "imjszhang/js-superagent adapter is still unread",
+      "url": "https://github.com/imjszhang/js-superagent",
+      "confidence": 0.55,
+      "reason": "Tip 1e90110a20d9 at 2026-11-11T14:58:19Z isolates stale material context. README still names DSH as a registry executor. The DSH adapter was not read. js-superagent-skill 70b7762d9bae is the same freshness fix. Not listed."
+    },
+    {
+      "title": "gerdr-panel-superagent is not backfilled on an hourly run",
+      "url": "https://github.com/gerdr-dev/gerdr-panel-superagent",
+      "confidence": 0.7,
+      "reason": "Created 2026-11-03. In-window tip 7a76410132cd adds a deny list beside the allow list. README cites the prototype as a principle and dispatches Claude Code or Codex workers. The new commits were not read as a new Ticket implementation. Hourly run does not backfill. Not listed."
+    },
     {
       "title": "Discussions #12977 through #12984 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12984",
@@ -6704,12 +6728,17 @@
     {
       "title": "ZTGolem/ai-eval-platform-evidence",
       "url": "https://github.com/ZTGolem/ai-eval-platform-evidence",
-      "reason": "Pushed 2026-11-11T14:40:00Z. Description says smoke evidence generated by dsh-superagent. Not listed."
+      "reason": "Pushed 2026-11-11T15:27:38Z. Description says smoke evidence generated by dsh-superagent. Not listed."
     },
     {
-      "title": "dshsuperagent-oss/superagent-sandbox",
-      "url": "https://github.com/dshsuperagent-oss/superagent-sandbox",
-      "reason": "Pushed 2026-11-11T14:39:54Z. Description says repo sandbox. Not listed."
+      "title": "Russ00028/superagent-updates",
+      "url": "https://github.com/Russ00028/superagent-updates",
+      "reason": "v2.0.0 notes at 2026-11-11T15:17:18Z name SQLite, bank_loader, and device_manager. Not this prototype. Not listed."
+    },
+    {
+      "title": "MosBot-AI/hermes-superagent",
+      "url": "https://github.com/MosBot-AI/hermes-superagent/commit/6617f174e7a1",
+      "reason": "6617f174e7a1 is a retained-source expiry test. It stays a Hermes plugin. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -6877,8 +6906,10 @@
     "vHao11/dsh-superagent pushed_at 2026-11-11T09:12:06Z. windows-adapt stays 898f00a00816.",
     "fliggy-travel-ai/dsh-superagent-prototype pushed_at 2026-11-11T11:24:15Z. Default main stays a281d8324070.",
     "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-11T10:57:47Z. Default master stays e58a54e6076e.",
-    "pingdotgg/t3code tip fcddd737e292 at 2026-11-11T11:28:44Z does not move hextor-ndc/superagent. Main remains 0dc3b4279c03."
+    "pingdotgg/t3code tip fcddd737e292 at 2026-11-11T11:28:44Z does not move hextor-ndc/superagent. Main remains 0dc3b4279c03.",
+    "IceFireIcer/DS-SuperAgent dev 017f343d03 (2026-11-11T15:11:16Z push) is not main. Main stays 1d6112864d9f.",
+    "pingdotgg/t3code pushed_at 2026-11-11T15:20:54Z. Default main stays d2c25950b4d9 at 2026-11-11T13:46:30Z. hextor-ndc/superagent main stays 0dc3b4279c03."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. dsh-foreman npm remains 0.5.7 at gitHead a31b14382fe5. @nelsonlongxiang/dsh-open-a2a-net git is 0.8.1-preview.13 at 145aa2dd93d1; npm preview remains 0.8.1-preview.12 and latest remains 0.7.0. dsh-agent-lines remains 0.11.5. dsh-ladder-superagents remains 0.2.1."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. dsh-foreman npm remains 0.5.7 at gitHead a31b14382fe5. @nelsonlongxiang/dsh-open-a2a-net git tip is 2ce6f06e1d16; npm preview is 0.8.1-preview.13 (2026-11-11T14:40:17Z) and latest remains 0.7.0. dsh-agent-lines remains 0.11.5. dsh-ladder-superagents remains 0.2.1."
 }
