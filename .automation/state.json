@@ -1,26 +1,80 @@
 {
-  "last_run_at": "2026-11-12T10:34:12Z",
+  "last_run_at": "2026-11-12T11:34:40Z",
   "timezone": "UTC",
-  "baseline_commit": "de92d1d",
+  "baseline_commit": "120ea0d",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-12T09:39:44Z",
-    "to": "2026-11-12T10:34:12Z"
+    "from": "2026-11-12T10:34:12Z",
+    "to": "2026-11-12T11:34:40Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "yangpeng366/dsh-patrol",
-      "url": "https://github.com/yangpeng366/dsh-patrol",
-      "tip": "57bfe88af391",
-      "note": "f24acc60ab6e records the stopped set as snapshot, added, removed, and a 12-hour heartbeat. 57bfe88af391 checks heartbeatMatches and orphanRemovals. acceptMode stays observe. package stays 0.1.0. npm package is still absent."
+      "title": "Missher12/Missher-DSH-Superagent",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
+      "tip": "815d0a10a242",
+      "note": "dc9fde81227a is 1.9.13: settings collapse to general, MCP, and prompts; Feishu App ID and App Secret open an in-process official SDK long connection, secrets stay in DSH credentials. 815d0a10a242 is 1.9.14: the connect page lists registered sources; dispatch rules split into source permission, automatic rules, and assessment. engines stay ^0.2.1-rc.4 || 0.2.2-rc.1. private. npm still 404. Releases v1.9.13 and v1.9.14 are not drafts."
+    },
+    {
+      "title": "sallaumen/dsh-superagent-superboard",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
+      "tip": "c53953c949c6",
+      "note": "#636 8b67ac4de5fa runs Dialyzer inside mix precommit and mix gate. #643 c53953c949c6 moves Costs bars and meters only when the loaded key changes. A broadcast and reduced motion stay still."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13096 through #13101 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13101",
+      "confidence": 0.9,
+      "reason": "Created or updated after 2026-11-12T10:34:12Z through #13101. #13096 is an agent-presets mount failure. #13097 is a VMware console plugin. #13098 is the desktop updater. #13099 asks for last-activity ordering. #13100 is a bare dsh-session URI parse failure. #13101 is a paste that drops text beside an image. Bodies scanned for superagent, super-agent, Mandate, Ticket, and dsh-superagent had no hits. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T11:30:43Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.2. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "Nelson #656 and #657 are not master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/656",
+      "confidence": 0.9,
+      "reason": "next/0.8 tip 1a8f035aaf30 at 2026-11-12T10:51:37Z merges #656. 2cab3f677b06 names a router whose turn failed. #657 7f047dcce214 keeps a waiting decision card visible. Master stays 7c2bc2f91bf8. npm preview stays 0.8.1-preview.17. latest stays 0.7.0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/9771c5fd2df6",
+      "confidence": 0.9,
+      "reason": "Commits on main since 2026-11-12T10:34:12Z, tip 9771c5fd2df6 at 2026-11-12T11:31:35Z. Subjects are server, web, and client fixes. None name superagent or hextor. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "IHUI commits do not touch the super-agent path",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/313bcd526f95",
+      "confidence": 0.9,
+      "reason": "Main tip 313bcd526f95 at 2026-11-12T11:29:55Z. The latest commit on packages/shared/src/super-agent is still deac054b08b1 at 2026-11-08T16:35:02Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "gerdr deliver is not this prototype",
+      "url": "https://github.com/gerdr-dev/gerdr-panel-superagent/commit/86e8fb341401",
+      "confidence": 0.72,
+      "reason": "Tip 86e8fb341401 at 2026-11-12T11:28:06Z marks a panel item delivered in one click. Not Trigger, Mandate, or Ticket on DSH. Hourly run does not backfill. Not listed."
+    },
+    {
+      "title": "Mikkey v0.1.0 still has no official adapter",
+      "url": "https://github.com/Mikkey-f/deepseek-superagent-bench",
+      "confidence": 0.74,
+      "reason": "Tip 6c163daed10d at 2026-11-12T10:38:35Z publishes v0.1.0. Adapters remain fixture, negative-fixture, lofisu, and opensuperagent. STATUS still leaves the official prototype adapter unchecked. Hourly run does not list it yet."
+    },
+    {
+      "title": "larksuite screenshot fix is not the install pin",
+      "url": "https://github.com/larksuite/cli/commit/05e9c6ef7429",
+      "confidence": 0.86,
+      "reason": "05e9c6ef7429 at 2026-11-12T11:19:07Z hides meeting screenshot discovery. The listed sentence still pins the 1.0.90 check in the deployment doc. It was not rewritten."
+    },
+    {
+      "title": "No new dsh-superagent repository to list in this window",
+      "url": "https://github.com/search?q=dsh-superagent&type=repositories",
+      "confidence": 0.86,
+      "reason": "VBK-AI-Agent-Gateway/superagent-playground pushed at 2026-11-12T11:20:30Z and stays a playground. Foreman, foreman-node, dashboard, injet, touch-agent, Yukikaze, patrol, martinxiao, wuzhiping, fliggy, louifinn, 439436269-ctrl, vicfei, MYCF711, LofiSu, waixv, billLiao, and the plugin index did not move their default tips. ReSerendipity's push at 10:31:11Z is before this window."
+    },
     {
       "title": "Discussions #13089 through #13095 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13095",
@@ -7398,19 +7452,14 @@
   ],
   "rejected_this_run": [
     {
-      "title": "LiuQhahah/superagent-e2e is a playground",
-      "url": "https://github.com/LiuQhahah/superagent-e2e",
-      "confidence": 0.93,
-      "reason": "Created 2026-11-12T09:54:04Z. Description says dsh-superagent e2e playground. Not listed."
-    },
-    {
-      "title": "VBK playground moved",
+      "title": "VBK playground moved again",
       "url": "https://github.com/VBK-AI-Agent-Gateway/superagent-playground",
       "confidence": 0.93,
-      "reason": "Pushed 2026-11-12T10:25:33Z. It remains a playground for dispatch tests. Not listed."
+      "reason": "Pushed 2026-11-12T11:20:30Z. It remains a playground for dispatch tests. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "NelsonLongxiang/dsh-open-a2a-net next/0.8 1a8f035aaf30 (2026-11-12T10:51:37Z) merges #656 2cab3f677b06 (router turn health) and #657 7f047dcce214 (waiting decision card stays visible). Master stays 7c2bc2f91bf8.",
     "#640 c448702f9932 is on master as of 7c2bc2f91bf8 via #642 94740945f5c7 (2026-11-12T05:36:00Z). The earlier next/0.8 hold is over.",
     "NelsonLongxiang/dsh-open-a2a-net #640 72fc36dafa9b (2026-11-12T05:00:47Z, next/0.8 refreshes peer cards after a restart) is not master. Master is a333f1bda338, which includes #638.",
     "NelsonLongxiang/dsh-open-a2a-net #638 90e225085602 (2026-11-12T04:18:29Z, next/0.8 binds the team CLI audience to the host origin) is not master. Master stays 97fb935d817f.",
@@ -7594,5 +7643,5 @@
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.2 (published 2026-11-12T02:16:12.076Z). alpha remains 0.2.2-alpha.3. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z and its notes do not name this prototype. Prototype engines ^0.2.1-alpha.2 accept 0.2.1-rc.5 and do not accept 0.2.2-rc.1 or 0.2.2-rc.2. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T10:29:19Z is not a commit. dsh-foreman npm latest is 0.7.0 (2026-11-12T09:29:20.279Z, gitHead 072c9fea33e7); git tip is 97160b5e2982 (gitignore and dropped test logs only; product matches 5220a8492488). dsh-foreman-node npm latest is 0.7.0 (2026-11-12T09:20:07.805Z, gitHead bb2174383993); git tip is 67d377e43de2. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.17 (2026-11-12T05:44:57.380Z, no gitHead) and latest remains 0.7.0. dsh-patrol is still absent from npm."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.2 (published 2026-11-12T02:16:12.076Z). alpha remains 0.2.2-alpha.3. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z and its notes do not name this prototype. Prototype engines ^0.2.1-alpha.2 accept 0.2.1-rc.5 and do not accept 0.2.2-rc.1 or 0.2.2-rc.2. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T11:30:43Z is not a commit. dsh-foreman npm latest is 0.7.0 (2026-11-12T09:29:20.279Z, gitHead 072c9fea33e7); git tip is 97160b5e2982 (gitignore and dropped test logs only; product matches 5220a8492488). dsh-foreman-node npm latest is 0.7.0 (2026-11-12T09:20:07.805Z, gitHead bb2174383993); git tip is 67d377e43de2. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.17 (2026-11-12T05:44:57.380Z, no gitHead) and latest remains 0.7.0. dsh-patrol is still absent from npm."
 }
