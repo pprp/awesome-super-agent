@@ -1,44 +1,80 @@
 {
-  "last_run_at": "2026-11-12T03:36:00Z",
+  "last_run_at": "2026-11-12T04:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "cb59cba",
+  "baseline_commit": "2b282fc",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-12T02:33:00Z",
-    "to": "2026-11-12T03:36:00Z"
+    "from": "2026-11-12T03:36:00Z",
+    "to": "2026-11-12T04:36:00Z"
   },
   "added": [],
   "updated": [
     {
       "title": "niechao136/dsh-foreman",
       "url": "https://github.com/niechao136/dsh-foreman",
-      "tip": "57474689cd91",
-      "note": "0.5.8 60e863767b60 keeps resolved credentials after agentVariables blanks GH_TOKEN and restarts setup on a credential-only save. npm 0.5.8 at 2026-11-12T02:58:30.961Z has gitHead a31b14382fe5. 0.5.9 57474689cd91 reads commandEnvironment when the command runs. npm 0.5.9 at 2026-11-12T03:18:48.008Z has gitHead 60e863767b60; the tarball already uses the function form. Node pin stays 0.6.1. dsh-foreman-node bb2174383993 is README only."
+      "tip": "c1cc5030e15c",
+      "note": "0.6.0 gives Policy its own settings group ahead of eval. Project editor stores one row per repository. npm 0.6.0 at 2026-11-12T04:08:41.356Z has gitHead 57474689cd91; published lib/client.js already lists policy in SETTINGS_GROUPS. Node pin stays 0.6.1. dsh-foreman-node tip stays bb2174383993."
     },
     {
-      "title": "NelsonLongxiang/dsh-open-a2a-net",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
-      "tip": "97fb935d817f",
-      "note": "master 97fb935d817f is 0.8.1-preview.15. Runtime is 20f6fa6f7e22 (#636), which merges next/0.8. #634 adds by.seatId. #635 renews a lapsed CLI deposit once and keeps the route refusal. npm preview 0.8.1-preview.15 at 2026-11-12T03:16:51.535Z has no gitHead. latest stays 0.7.0. GitHub release v0.8.1-preview.15 published 2026-11-12T03:10:23Z at 20f6fa6f7e22. #637 only records the publication."
+      "title": "fliggy-travel-ai/dsh-superagent-prototype",
+      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype",
+      "tip": "d9513a0834b2",
+      "note": "#47 c886167f76a9 speaks workspaceName, else question.title, 80 characters. Files stay under paseo-github-subscriptions. 222 ahead of 6337fc8, behind 0."
     },
     {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "tip": "c3dd129c8702",
-      "note": "1.9.7 persists bash/pwsh evidence in KV session-command and checks it against a finished call, including job/settled exit codes. engines stay ^0.2.1-rc.4 || 0.2.2-rc.1. Still private. npm 404. Release v1.9.7 is not a draft."
-    },
-    {
-      "title": "Missher12/Missher-DSH-Dashboard",
-      "url": "https://github.com/Missher12/Missher-DSH-Dashboard",
-      "tip": "1d23642a9073",
-      "note": "0.3.2 ad5343510b5c sums recorded tokens by weekday and hour. 0.3.3 1d23642a9073 uses the usage-statistics layout: 53-week cells and today's hours. fold.ts only adds humanDays. Still private. npm 404. Releases v0.3.2 and v0.3.3 are not drafts. README still says 0.2.1-rc.4."
+      "title": "martinxiao2025/dsh-superagent",
+      "url": "https://github.com/martinxiao2025/dsh-superagent",
+      "tip": "0c23ec17c051",
+      "note": "clean requires --yes, backs up under ~/dsh-superagent-backup/clean-<stamp>/ unless --no-backup, and restores the patch if the desktop lock is not released within lockWait (default 240s). pnpm dev uses .dsh-dev-state. Docs on the tip are 009, 010, and 011. Package stays private 0.2.0."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13027 through #13036 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13036",
+      "confidence": 0.9,
+      "reason": "#13027 at 2026-11-12T03:37:18Z is an unofficial Linux desktop build of 0.2.2-rc.2. #13028 at 03:40:37Z is a pre-step listener freeze. #13029 at 03:40:46Z is Gemini reasoning replay. #13030 at 03:50:50Z is background session search. #13031 at 03:53:26Z is a desktop boot failure. #13032 at 03:59:38Z is CJK session query. #13033 at 04:15:12Z is a subagent catalog filter. #13034 at 04:16:58Z is a CSV proofreading desk. #13035 at 04:24:41Z is auto review prose. #13036 at 04:25:31Z is a truncated tool-call UI. None of those bodies contain superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T04:28:08Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.2. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/8c15be97ddb5",
+      "confidence": 0.9,
+      "reason": "Commits on main since 2026-11-12T03:36:00Z, tip 8c15be97ddb5 at 2026-11-12T04:27:52Z. None of the messages name superagent or hextor. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson #638 is not master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/90e225085602",
+      "confidence": 0.9,
+      "reason": "next/0.8 tip 90e225085602 at 2026-11-12T04:18:29Z merges #638. 567b31c6aeff binds the team identity CLI audience to the host's published origin via A2A_CLAIM_AUDIENCE. A bound miss is no longer retried as a lapsed deposit. Master stays 97fb935d817f. The listed sentence was not rewritten. npm preview remains 0.8.1-preview.15 and latest remains 0.7.0."
+    },
+    {
+      "title": "Yukikaze design note does not change the listed sentence",
+      "url": "https://github.com/Yukikaze-Ai/dsh-ladder-superagents/commit/b7958d3d7a26",
+      "confidence": 0.86,
+      "reason": "Tip b7958d3d7a26 at 2026-11-12T04:11:26Z adds docs/DESIGN.md and four README lines pointing at it. Package stays 0.2.1. The reuse and full-permission sentences were not rewritten."
+    },
+    {
+      "title": "gerdr task-panel commit is not this prototype",
+      "url": "https://github.com/gerdr-dev/gerdr-panel-superagent/commit/f59368d7bb56",
+      "confidence": 0.72,
+      "reason": "Tip f59368d7bb56 at 2026-11-12T03:45:17Z follows the session from the task panel. Not Trigger, Mandate, or Ticket on DSH. Hourly run does not backfill. Not listed."
+    },
+    {
+      "title": "IHUI commits do not touch the super-agent path",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/69fc875151e6",
+      "confidence": 0.9,
+      "reason": "Main tip 69fc875151e6 at 2026-11-12T04:27:49Z is a relay ticket fix. Commits since 2026-11-12T03:36:00Z do not touch packages/shared/src/super-agent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "No new dsh-superagent repository in this window",
+      "url": "https://github.com/search?q=dsh-superagent&type=repositories",
+      "confidence": 0.86,
+      "reason": "Repository search for dsh-superagent created on 2026-11-12 returned 0. Pushes at or after 2026-11-12T03:36:00Z on that search were Yukikaze-Ai/dsh-ladder-superagents and martinxiao2025/dsh-superagent. Missher dashboard and Missher superagent pushed before the window. HappyEverydayhaha/dsh-agent-test stays a work repository. larksuite/cli pushed_at remains 2026-11-12T02:58:07Z. touch-agent, louifinn, dsh-patrol, and sallaumen/dsh-superagent-superboard did not move their default tips."
+    },
     {
       "title": "Discussions #13023 through #13026 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13026",
@@ -7068,6 +7104,7 @@
   ],
   "rejected_this_run": [],
   "held_on_other_branches": [
+    "NelsonLongxiang/dsh-open-a2a-net #638 90e225085602 (2026-11-12T04:18:29Z, next/0.8 binds the team CLI audience to the host origin) is not master. Master stays 97fb935d817f.",
     "NelsonLongxiang/dsh-open-a2a-net #633 d392161a9a68 (2026-11-12T02:28:12Z, next/0.8 reads the 等/换人 answer from the picked option) is not master. Master stays 4530a6fe85ae.",
     "NelsonLongxiang/dsh-open-a2a-net #632 47a6e885f404 (2026-11-12T00:42:17Z, next/0.8 router seat id and plain market seat names) is not master. Master stays 4530a6fe85ae.",
     "NelsonLongxiang/dsh-open-a2a-net #631 c62853deb3c6 (2026-11-12T00:13:13Z, next/0.8 nexus plan tab label) is not master. Master stays 4530a6fe85ae.",
