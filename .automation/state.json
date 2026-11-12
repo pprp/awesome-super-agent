@@ -1,32 +1,68 @@
 {
-  "last_run_at": "2026-11-12T00:33:42Z",
+  "last_run_at": "2026-11-12T01:35:29Z",
   "timezone": "UTC",
-  "baseline_commit": "af5cc84",
+  "baseline_commit": "1946f04",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-11T23:37:52Z",
-    "to": "2026-11-12T00:33:42Z"
+    "from": "2026-11-12T00:33:42Z",
+    "to": "2026-11-12T01:35:29Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "yangpeng366/dsh-patrol",
-      "url": "https://github.com/yangpeng366/dsh-patrol",
-      "tip": "8996d2fa032d",
-      "note": "852c7c2c9f88 adds patrol decide, a shape parser for prompts/decide-next-action.md. It does not judge the action or match the nine kinds. rows/row/report are unchanged. GitHub release v0.1.0 (00:19Z) tags 90fadc595291, 11 commits behind main, and its notes omit decide. Tip 8996d2fa032d is AGENTS.md only. acceptMode stays observe. package stays 0.1.0. npm still absent."
+      "title": "touch-agent/dsh-superagent",
+      "url": "https://github.com/touch-agent/dsh-superagent",
+      "tip": "fac1e9e4b01d",
+      "note": "#68 at 2026-11-12T01:06:41Z shows the shared-account human identity switch in source settings. It requires observeComments and observePulls. A missing one is a button that turns that switch on in the current draft. Marked comments are still read. Review decisions apply only to pull requests the Source already reads. Turning it off still revokes those Mandates at the next check. 394 ahead of 6337fc8. humanIdentity stays off."
     },
     {
       "title": "martinxiao2025/dsh-superagent",
       "url": "https://github.com/martinxiao2025/dsh-superagent",
-      "tip": "07c564fb7194",
-      "note": "f66d8b8400da lists remote branches with ls-remote and checks out the selected branch. 36d4cc6678e9 picks a Feishu chat from the bot's joined chats, at most 200, or an oc_ id. 6bde9a788595 validates ticket key fields on read and redacts CLI errors. Package is private 0.2.0. Tip 07c564fb7194 only adds the delete-project queue test. GitHub and GitLab still do not receive issues."
+      "tip": "101f226c8474",
+      "note": "Docs only. 015 section 0.2 and 017 section 9 record a review status and point at verification/2026-11-11-wizard for WIZARD_LIVE_OK and DELETE_LIVE_OK. That record was not opened. Package stays private 0.2.0."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13005 through #13011 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13011",
+      "confidence": 0.9,
+      "reason": "#13005 was created 2026-11-12T00:31:52Z, just before the previous stamp. Its 01:33:48Z comment is a dsh-cua-bundle rc.1/rc.2 mix and does not name this prototype. #13006 at 01:07:04Z is /compact using the last routed model. #13007 at 01:10:02Z is the in-app updater. #13008 at 01:16:13Z is merging sessions. #13009 at 01:24:33Z asks to speed up session references. #13010 at 01:28:17Z is a Codex-lane instruction copy over 1MiB. #13011 at 01:32:04Z is a Windows pwsh ENOENT. #12977's 01:15:42Z update is an Intel Mac build request. #12109's 00:56:12Z update is an auto-preset bill. None of the bodies contain superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T01:32:49Z is not a commit. npm latest and next remain 0.2.2-rc.1. alpha remains 0.2.2-alpha.3. No npm 0.2.2-rc.2. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/7d71f852a8ed",
+      "confidence": 0.9,
+      "reason": "Commits on main since 2026-11-12T00:33:42Z, tip 7d71f852a8ed at 2026-11-12T01:28:49Z. None of the messages name superagent or hextor. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson #632 is not master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/47a6e885f404",
+      "confidence": 0.9,
+      "reason": "next/0.8 tip 47a6e885f404 at 2026-11-12T00:42:17Z merges #632. 7b435cd8cfcf gives the router a seat id and plain seat names on the market. Master stays 4530a6fe85ae. The listed sentence was not rewritten. npm preview remains 0.8.1-preview.14 and latest remains 0.7.0."
+    },
+    {
+      "title": "gerdr secretary commit is not this prototype",
+      "url": "https://github.com/gerdr-dev/gerdr-panel-superagent/commit/5bf8c1fdcae2",
+      "confidence": 0.72,
+      "reason": "Tip 5bf8c1fdcae2 at 2026-11-12T01:13:38Z lists real model versions and asks before sending work to a guessed repository. README still dispatches Claude Code or Codex. Not Trigger, Mandate, or Ticket on DSH. Hourly run does not backfill. Not listed."
+    },
+    {
+      "title": "Sandbox push is not a new default-branch commit",
+      "url": "https://github.com/dshsuperagent-oss/superagent-sandbox/commit/0c25068127fa",
+      "confidence": 0.9,
+      "reason": "superagent-sandbox pushed_at 2026-11-12T00:39:31Z. Default tip remains 0c25068127fa at 2026-11-11T19:31:57Z. Sandbox stays out. HongJinjin9/agent-workspace pushed_at 2026-11-12T00:41:27Z. Default tip 11517582d2ab is 2026-11-12T00:17:22Z, before this window, and remains a work repository. IHUI main 3fedbceda8d4 has no commit on packages/shared/src/super-agent since the window. awesome-dsh-plugin main did not move. sallaumen remains 80c08032f27c. louifinn remains 895e0ff7cf66. dsh-patrol remains 8996d2fa032d."
+    },
+    {
+      "title": "No new dsh-superagent repository in this window",
+      "url": "https://github.com/search?q=dsh-superagent&type=repositories",
+      "confidence": 0.86,
+      "reason": "Repository search sorted by update, limited to pushes at or after 2026-11-12T00:33:42Z, returned the already listed martinxiao2025/dsh-superagent and touch-agent/dsh-superagent, plus HongJinjin9/agent-workspace and dshsuperagent-oss/superagent-sandbox. No repository created in the window. Byte-Space-Maker/ceshi, SkillfulAgents/SuperAgent, SEASTone-0v0/Agent-work, and bytedance/deer-flow are not this prototype."
+    },
     {
       "title": "t3code moved and hextor did not",
       "url": "https://github.com/pingdotgg/t3code/commit/1c65ad032ebc",
@@ -6948,6 +6984,7 @@
   ],
   "rejected_this_run": [],
   "held_on_other_branches": [
+    "NelsonLongxiang/dsh-open-a2a-net #632 47a6e885f404 (2026-11-12T00:42:17Z, next/0.8 router seat id and plain market seat names) is not master. Master stays 4530a6fe85ae.",
     "NelsonLongxiang/dsh-open-a2a-net #631 c62853deb3c6 (2026-11-12T00:13:13Z, next/0.8 nexus plan tab label) is not master. Master stays 4530a6fe85ae.",
     "sallaumen/dsh-superagent-superboard #636 55f2304364ce (2026-11-11T20:53:17Z, chore/dialyzer-in-gates) is still not main. Main is 80c08032f27c.",
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 at 7842222b47c9 (2026-11-11T19:54:27Z, #628 named-dispatch-boot) is not master. Master stays 4530a6fe85ae.",
@@ -7125,5 +7162,5 @@
     "sallaumen/dsh-superagent-superboard #636 55f2304364ce (2026-11-11T20:53:17Z, chore/dialyzer-in-gates) is not main. Main stays 1cc1eba31fd4."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. No 0.2.2-rc.2 on the npm version list. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z, before this window, and its notes do not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T00:02:21Z is not a commit. dsh-patrol is still absent from npm. GitHub release v0.1.0 was published 2026-11-12T00:19:41Z and tags 90fadc595291, 11 commits behind main 8996d2fa032d. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.14 and latest remains 0.7.0."
+  "npm_note": "latest and next remain 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). alpha remains 0.2.2-alpha.3. No 0.2.2-rc.2 on the npm version list. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z, before this window, and its notes do not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T01:32:49Z is not a commit. dsh-patrol is still absent from npm. GitHub release v0.1.0 was published 2026-11-12T00:19:41Z and tags 90fadc595291, 11 commits behind main 8996d2fa032d. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.14 and latest remains 0.7.0."
 }
