@@ -1,32 +1,80 @@
 {
-  "last_run_at": "2026-11-12T02:33:00Z",
+  "last_run_at": "2026-11-12T03:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "ef2ee13",
+  "baseline_commit": "cb59cba",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-12T01:35:29Z",
-    "to": "2026-11-12T02:33:00Z"
+    "from": "2026-11-12T02:33:00Z",
+    "to": "2026-11-12T03:36:00Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "@deepseek-ai/dsh next tag",
-      "url": "https://www.npmjs.com/package/@deepseek-ai/dsh",
-      "tip": "0.2.2-rc.2",
-      "note": "next moved to 0.2.2-rc.2 at 2026-11-12T02:16:12.076Z. latest stays 0.2.2-rc.1. alpha stays 0.2.2-alpha.3. Prototype engines ^0.2.1-alpha.2 does not accept 0.2.2-rc.2. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z and its notes do not name this prototype."
+      "title": "niechao136/dsh-foreman",
+      "url": "https://github.com/niechao136/dsh-foreman",
+      "tip": "57474689cd91",
+      "note": "0.5.8 60e863767b60 keeps resolved credentials after agentVariables blanks GH_TOKEN and restarts setup on a credential-only save. npm 0.5.8 at 2026-11-12T02:58:30.961Z has gitHead a31b14382fe5. 0.5.9 57474689cd91 reads commandEnvironment when the command runs. npm 0.5.9 at 2026-11-12T03:18:48.008Z has gitHead 60e863767b60; the tarball already uses the function form. Node pin stays 0.6.1. dsh-foreman-node bb2174383993 is README only."
+    },
+    {
+      "title": "NelsonLongxiang/dsh-open-a2a-net",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
+      "tip": "97fb935d817f",
+      "note": "master 97fb935d817f is 0.8.1-preview.15. Runtime is 20f6fa6f7e22 (#636), which merges next/0.8. #634 adds by.seatId. #635 renews a lapsed CLI deposit once and keeps the route refusal. npm preview 0.8.1-preview.15 at 2026-11-12T03:16:51.535Z has no gitHead. latest stays 0.7.0. GitHub release v0.8.1-preview.15 published 2026-11-12T03:10:23Z at 20f6fa6f7e22. #637 only records the publication."
     },
     {
       "title": "Missher12/Missher-DSH-Superagent",
       "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "tip": "f7dcce5d3da9",
-      "note": "1.9.4 0e9e3df4a637 lets a new task pick a named DSH permission preset. Blank reads the host default at dispatch. custom, an empty preset, or a name missing from the catalog is refused. Chat dispatch that also sends permissionPreset is refused. The team stores that preset for the coordinator and later members. 1.9.6 f7dcce5d3da9 shares the task form controls. Changing only reasoning uses executor.model before the host catalog default. Settings follow-DSH uses the host default. engines stay ^0.2.1-rc.4 || 0.2.2-rc.1 and do not accept 0.2.2-rc.2. Still private. npm 404. Releases v1.9.4 and v1.9.6 are not drafts."
+      "tip": "c3dd129c8702",
+      "note": "1.9.7 persists bash/pwsh evidence in KV session-command and checks it against a finished call, including job/settled exit codes. engines stay ^0.2.1-rc.4 || 0.2.2-rc.1. Still private. npm 404. Release v1.9.7 is not a draft."
+    },
+    {
+      "title": "Missher12/Missher-DSH-Dashboard",
+      "url": "https://github.com/Missher12/Missher-DSH-Dashboard",
+      "tip": "1d23642a9073",
+      "note": "0.3.2 ad5343510b5c sums recorded tokens by weekday and hour. 0.3.3 1d23642a9073 uses the usage-statistics layout: 53-week cells and today's hours. fold.ts only adds humanDays. Still private. npm 404. Releases v0.3.2 and v0.3.3 are not drafts. README still says 0.2.1-rc.4."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13023 through #13026 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13026",
+      "confidence": 0.9,
+      "reason": "#13023 at 2026-11-12T03:07:08Z is a CJK quote relay RFC. #13024 at 03:07:35Z is an undici abort crash. #13025 at 03:20:18Z is a Windows in-app updater. #13026 at 03:25:45Z is ELECTRON_RUN_AS_NODE leaking into VS Code. #13012 was updated at 03:29:46Z and #12995 at 03:31:15Z; #4303 was updated at 03:17:19Z. None of the bodies contain superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T03:27:38Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.2. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/7462f234e890",
+      "confidence": 0.9,
+      "reason": "Two commits on main since 2026-11-12T02:33:00Z, tip 7462f234e890 at 2026-11-12T03:01:42Z. Neither message names superagent or hextor. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "gerdr secretary commits are not this prototype",
+      "url": "https://github.com/gerdr-dev/gerdr-panel-superagent/commit/131150d555cf",
+      "confidence": 0.72,
+      "reason": "Tip 131150d555cf at 2026-11-12T03:30:26Z folds board messages in the secretary and worker chats. Not Trigger, Mandate, or Ticket on DSH. Hourly run does not backfill. Not listed."
+    },
+    {
+      "title": "IHUI ledger commit does not touch the super-agent path",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/0236646ed241",
+      "confidence": 0.9,
+      "reason": "Main tip 0236646ed241 at 2026-11-12T02:40:19Z refreshes a ledger. The two files are not under packages/shared/src/super-agent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "HappyEverydayhaha/dsh-agent-test is a work repository",
+      "url": "https://github.com/HappyEverydayhaha/dsh-agent-test/commit/7d11d39209da",
+      "confidence": 0.9,
+      "reason": "Pushed at 2026-11-12T03:14:29Z. Tip 7d11d39209da merges a poems-folder README and an AI-finance research branch. Created 2026-11-10. It is a test workspace, not a new prototype. Not listed."
+    },
+    {
+      "title": "No new dsh-superagent repository in this window",
+      "url": "https://github.com/search?q=dsh-superagent&type=repositories",
+      "confidence": 0.86,
+      "reason": "Repository search for dsh-superagent pushed after 2026-11-12T02:33:00Z returned Missher12/Missher-DSH-Dashboard, HappyEverydayhaha/dsh-agent-test, and Missher12/Missher-DSH-Superagent. Search for repositories created after 2026-11-12T02:00:00Z returned 0. larksuite/cli pushed_at 2026-11-12T02:58:07Z; default tip remains ac22a60a23d6 at 2026-11-10T11:59:37Z. awesome-dsh-plugin, MYCF711, GZX2211, TianzeLuo, and PGZXB updated_at moved without a new default commit."
+    },
     {
       "title": "Discussions #13012 through #13017 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13017",
@@ -7199,5 +7247,5 @@
     "sallaumen/dsh-superagent-superboard #636 55f2304364ce (2026-11-11T20:53:17Z, chore/dialyzer-in-gates) is not main. Main stays 1cc1eba31fd4."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next is 0.2.2-rc.2 (published 2026-11-12T02:16:12.076Z). alpha remains 0.2.2-alpha.3. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z and its notes do not name this prototype. Prototype engines ^0.2.1-alpha.2 accept 0.2.1-rc.5 and do not accept 0.2.2-rc.1 or 0.2.2-rc.2. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T02:25:56Z is not a commit. dsh-patrol is still absent from npm. GitHub release v0.1.0 was published 2026-11-12T00:19:41Z and tags 90fadc595291, 11 commits behind main 8996d2fa032d. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.14 and latest remains 0.7.0."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.2 (published 2026-11-12T02:16:12.076Z). alpha remains 0.2.2-alpha.3. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z and its notes do not name this prototype. Prototype engines ^0.2.1-alpha.2 accept 0.2.1-rc.5 and do not accept 0.2.2-rc.1 or 0.2.2-rc.2. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T03:27:38Z is not a commit. dsh-foreman npm latest is 0.5.9 (2026-11-12T03:18:48.008Z, gitHead 60e863767b60); git tip is 57474689cd91. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.15 (2026-11-12T03:16:51.535Z, no gitHead) and latest remains 0.7.0. dsh-patrol is still absent from npm."
 }
