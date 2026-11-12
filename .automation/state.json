@@ -1,44 +1,86 @@
 {
-  "last_run_at": "2026-11-12T05:34:30Z",
+  "last_run_at": "2026-11-12T06:40:41Z",
   "timezone": "UTC",
-  "baseline_commit": "b440b7d",
+  "baseline_commit": "bc1a9cb",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-12T04:36:00Z",
-    "to": "2026-11-12T05:34:30Z"
+    "from": "2026-11-12T05:34:30Z",
+    "to": "2026-11-12T06:40:41Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "niechao136/dsh-foreman",
-      "url": "https://github.com/niechao136/dsh-foreman",
-      "tip": "072c9fea33e7",
-      "note": "0.6.1 falls back to a plain Feishu reply when a threaded reply to a message with no thread_id gets retryable 2200. Same idempotency key. Other 2200s still retry. npm 0.6.1 at 2026-11-12T05:27:25.219Z has gitHead c1cc5030e15c; published feishu bundle already contains the fallback. Node pin stays 0.6.1. dsh-foreman-node tip stays bb2174383993."
-    },
-    {
       "title": "NelsonLongxiang/dsh-open-a2a-net",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
-      "tip": "a333f1bda338",
-      "note": "master a333f1bda338 is 0.8.1-preview.16. Runtime is 9c4c6e0fd493 (#639), which merges #638 567b31c6aeff. A2A_CLAIM_AUDIENCE binds the team CLI to the host card origin. A bound miss is not retried as a lapsed deposit. #641 only records the publication. npm preview 0.8.1-preview.16 at 2026-11-12T04:57:35.099Z has no gitHead. latest stays 0.7.0. GitHub release v0.8.1-preview.16 published 2026-11-12T04:52:33Z at 9c4c6e0fd493. 7 ahead of 97fb935d817f."
+      "tip": "7c2bc2f91bf8",
+      "note": "0.8.1-preview.17. #642 94740945f5c7 merges #640 c448702f9932 onto master. Roster tick is 10s and warm() refreshes peer cards through cachedCardFetch; cardCacheTtlMs defaults to 60000. A refresh error is logged and the look continues. #643 7c2bc2f91bf8 only records publication. Tag v0.8.1-preview.17 points at 94740945f5c7. npm preview 0.8.1-preview.17 at 2026-11-12T05:44:57.380Z has no gitHead. latest stays 0.7.0. 14 ahead of 97fb935d817f."
     },
     {
       "title": "Missher12/Missher-DSH-Superagent",
       "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "tip": "a7bf799c4101",
-      "note": "1.9.9 tests an MCP connection before use, shows source runtime state, and on a GitHub ready report without pr_number looks up one open PR at agent/<execution name>. Feishu reply_to fills a missing parent_id. No v1.9.8 tag. engines stay ^0.2.1-rc.4 || 0.2.2-rc.1. Still private. npm 404. Release v1.9.9 is not a draft."
+      "tip": "70a1972797fd",
+      "note": "1.9.10. Density picker is gone and local pages stay comfortable. GitHub and Feishu can replace or remove a connection. A human reply withdraws the pending confirmation. 继续复核 continues final review on the same coordinator session. The worker preset drops native subagent tools. A ready report with a failed check is rejected. A busy Feishu event bus is feishuEventBusBusy. Release v1.9.10 at 2026-11-12T06:26:17Z is not a draft. engines stay ^0.2.1-rc.4 || 0.2.2-rc.1. npm package is still absent."
     },
     {
-      "title": "wuzhiping/superagent",
-      "url": "https://github.com/wuzhiping/superagent",
-      "tip": "370af58cab13",
-      "note": "a19380fd3595 redelivers a main-session relay the model never read and reevaluates requests an outage dropped, once, after the model service answers. 0f3c02e78aa2 shows the main session green, yellow, or red. 93bb150e0813 gives that row its own line. 370af58cab13 only ignores temporary UI checks. 97 ahead of 6337fc8, behind 0."
+      "title": "martinxiao2025/dsh-superagent",
+      "url": "https://github.com/martinxiao2025/dsh-superagent",
+      "tip": "ae80c5d74d0f",
+      "note": "Project form infers repo kind from the credential or the remote host. Excel keeps one file field and ensureTaskFile writes a standard template, then commits it on the work copy. Message sources sit under Feishu credentials, tab ingress. normalizePrivateKey keeps the trailing newline. Windows vault files get icacls. Package stays private 0.2.0. engines stay ^0.2.1-alpha.2."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13045 through #13050 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13050",
+      "confidence": 0.9,
+      "reason": "#13045 at 2026-11-12T05:33:45Z is session observability hooks. #13046 at 05:37:04Z is dsh-sidenote. #13047 at 05:44:15Z is a cold session disappearing from the sidebar. #13048 at 06:10:43Z is an unofficial Dot steward. #13049 at 06:34:33Z is a dsh-computer-use startup crash. #13050 at 06:38:45Z is a VS2022 permission error. None of those bodies contain superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T06:40:16Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.2. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/4bf5d53d93ee",
+      "confidence": 0.9,
+      "reason": "Commits on main since 2026-11-12T05:34:30Z, tip 4bf5d53d93ee at 2026-11-12T06:35:26Z. Messages are Forgejo HTTP login, credit refresh, migration preflight, Codex MCP notice, and Claude resume. None name superagent or hextor. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "gerdr commits are not this prototype",
+      "url": "https://github.com/gerdr-dev/gerdr-panel-superagent/commit/4851a5f233d0",
+      "confidence": 0.72,
+      "reason": "Tip 4851a5f233d0 at 2026-11-12T06:34:51Z shares an agent conversation the user was asked for. Earlier commits in the window edit this repo's own task board. Not Trigger, Mandate, or Ticket on DSH. Hourly run does not backfill. Not listed."
+    },
+    {
+      "title": "IHUI commits do not touch the super-agent path",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/eca7dd782285",
+      "confidence": 0.9,
+      "reason": "Main moved after 2026-11-12T05:34:30Z. The latest commit on packages/shared/src/super-agent is still deac054b08b1 at 2026-11-08T16:35:02Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Celliusx3/cell-harness#102 is an open design issue",
+      "url": "https://github.com/Celliusx3/cell-harness/issues/102",
+      "confidence": 0.74,
+      "reason": "Opened 2026-11-12T06:26:56Z. It asks cell-harness bots to route like the prototype and cites docs 001, 002, 003, 004, and 007. No implementation landed in this window. Hourly run does not add an open issue as a list row."
+    },
+    {
+      "title": "xyt071024/dsh-superagent-cn source commits are empty",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/98b94f022fa0",
+      "confidence": 0.86,
+      "reason": "Tip 98b94f022fa0 at 2026-11-12T06:15:34Z. Sampled source commits have 0 additions and 0 deletions. The non-empty docs commits retarget install downloads to GitHub release assets. Not a new list row."
+    },
+    {
+      "title": "ReSerendipity commits do not change the product",
+      "url": "https://github.com/ReSerendipity/dsh-superagent/commit/84958f58b837",
+      "confidence": 0.86,
+      "reason": "Tip 84958f58b837 at 2026-11-12T05:53:58Z is a pre-push hook. The other two commits are a ledger note and a README caption. Package stays @reserendipity/dsh-superagent 0.2.7. Not a new list row."
+    },
+    {
+      "title": "No new dsh-superagent repository in this window",
+      "url": "https://github.com/search?q=dsh-superagent&type=repositories",
+      "confidence": 0.86,
+      "reason": "Repository search for 2026-11-12 excluded IceFireIcer/dsh-superagent (LICENSE only), VBK-AI-Agent-Gateway/superagent-playground, and HongJinjin9/agent-workspace. tanxinz/dsh-superagent tip eaab7119b3e5 is 2026-11-12T04:50:21Z, before the window, and the tree is design docs. touch-agent pushed_at 2026-11-12T06:10:41Z; default tip remains 08a33add63d8. foreman tip remains 072c9fea33e7. foreman-node tip remains bb2174383993. wuzhiping remains 370af58cab13. fliggy remains d9513a0834b2. louifinn remains 895e0ff7cf66. sallaumen remains 80c08032f27c. patrol remains 8996d2fa032d. Yukikaze remains b7958d3d7a26. Javey-Li remains 4cfb7a275a3e. jwangkun default tip remains 93df6634ea5e. Dashboard remains 1d23642a9073."
+    },
     {
       "title": "Discussions #13037 through #13044 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13044",
@@ -7164,6 +7206,7 @@
   ],
   "rejected_this_run": [],
   "held_on_other_branches": [
+    "#640 c448702f9932 is on master as of 7c2bc2f91bf8 via #642 94740945f5c7 (2026-11-12T05:36:00Z). The earlier next/0.8 hold is over.",
     "NelsonLongxiang/dsh-open-a2a-net #640 72fc36dafa9b (2026-11-12T05:00:47Z, next/0.8 refreshes peer cards after a restart) is not master. Master is a333f1bda338, which includes #638.",
     "NelsonLongxiang/dsh-open-a2a-net #638 90e225085602 (2026-11-12T04:18:29Z, next/0.8 binds the team CLI audience to the host origin) is not master. Master stays 97fb935d817f.",
     "NelsonLongxiang/dsh-open-a2a-net #633 d392161a9a68 (2026-11-12T02:28:12Z, next/0.8 reads the 等/换人 answer from the picked option) is not master. Master stays 4530a6fe85ae.",
@@ -7345,5 +7388,5 @@
     "sallaumen/dsh-superagent-superboard #636 55f2304364ce (2026-11-11T20:53:17Z, chore/dialyzer-in-gates) is not main. Main stays 1cc1eba31fd4."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.2 (published 2026-11-12T02:16:12.076Z). alpha remains 0.2.2-alpha.3. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z and its notes do not name this prototype. Prototype engines ^0.2.1-alpha.2 accept 0.2.1-rc.5 and do not accept 0.2.2-rc.1 or 0.2.2-rc.2. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T05:27:34Z is not a commit. dsh-foreman npm latest is 0.6.1 (2026-11-12T05:27:25.219Z, gitHead c1cc5030e15c); git tip is 072c9fea33e7. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.16 (2026-11-12T04:57:35.099Z, no gitHead) and latest remains 0.7.0. dsh-patrol is still absent from npm."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.2 (published 2026-11-12T02:16:12.076Z). alpha remains 0.2.2-alpha.3. GitHub release dsh-v0.2.2-rc.2 was published 2026-11-11T11:33:06Z and its notes do not name this prototype. Prototype engines ^0.2.1-alpha.2 accept 0.2.1-rc.5 and do not accept 0.2.2-rc.1 or 0.2.2-rc.2. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-12T06:40:16Z is not a commit. dsh-foreman npm latest is 0.6.1 (2026-11-12T05:27:25.219Z, gitHead c1cc5030e15c); git tip is 072c9fea33e7. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.17 (2026-11-12T05:44:57.380Z, no gitHead) and latest remains 0.7.0. dsh-patrol is still absent from npm."
 }
