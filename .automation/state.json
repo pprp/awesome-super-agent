@@ -1,26 +1,38 @@
 {
-  "last_run_at": "2026-11-13T19:35:17Z",
+  "last_run_at": "2026-11-13T20:31:02Z",
   "timezone": "UTC",
-  "baseline_commit": "0991101",
+  "baseline_commit": "af49e0a",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T18:36:30Z",
-    "to": "2026-11-13T19:35:17Z"
+    "from": "2026-11-13T19:35:17Z",
+    "to": "2026-11-13T20:31:02Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Superboard shows the merge guard on each project and clears a block its own merged pull closed",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/f084d100fe9a",
+      "title": "Superboard applies stack quality defaults and explains each task check",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/e7fb697fd3b2",
       "confidence": 0.94,
-      "reason": "#685 323cbb11e1b5 at 2026-11-13T18:56:35Z puts projects and registration before agent maintenance. Each project row shows the verified merge guard and agent state, and unrelated broadcasts do not ask every agent again. Project policy is bookmarkable; local task checks sit under Project policy. The duplicate-issue sync path is now Settings → Projects → Agent maintenance → Sync agent runtimes. #687 f084d100fe9a at 19:08:49Z runs every minute. A blocked, unstopped, unarchived issue whose ticket report is still blocked, has no ended_at, and has a PR in own_threads is checked at most 12 per repository per round. The board marks that task done only when GitHub's latest close names that merged PR in the same repository and mergedAt is not before the ticket start. Mentions, manual closes, and older PRs do not count. A round more than 120 seconds late does not check. It does not write Harness or the agent SQLite. Done or closed tasks no longer show the failure block. A stop, archive, or state change while GitHub answers wins."
+      "reason": "#688 e7fb697fd3b2 at 2026-11-13T20:15:11Z moves local task checks to Quality rules. A project with no saved preferences uses the detected root stack's recommended modes and writes no repository files or Actions. Every task, On related changes, and Off are the three choices. Related changes compare tracked diffs and unignored new files, including deletions and both sides of renames, against the merge base; guarded merge uses the PR baseRefOid. An unreadable diff still runs conditional checks as unknown_diff. disabled and unrelated are skipped and do not pass. No applicable checks is not a passing local gate. A changed selection or plan during merge is policy_changed. Maintenance inventories are read only when that page opens and are not deleted by search or paging."
+    },
+    {
+      "title": "Linear source adds a served issue's parent and sub-issues once",
+      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/91785db06f7c",
+      "confidence": 0.94,
+      "reason": "fde748b8442d at 2026-11-13T20:19:23Z and tip 91785db06f7c at 20:23:53Z. A served, mapped session reads IssueContext once after the acknowledgement. The parent line is one line, title cut at 80 characters. Up to 8 of at most 30 children are listed, open first; completed is done and canceled is canceled. meta.parent is the parent id and meta.children is the page count. The parent description follows as fenced data, cut at 1500 characters. A stored session is not read again. Prompt triggers, unlisted teams, and unmapped sessions are unchanged. A failed read still accepts the session and the health line says parent and sub-issues unreadable. Abort during the read fails the round. Package stays 0.1.0."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13236 through #13238 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13238",
+      "confidence": 0.9,
+      "reason": "Created after 2026-11-13T19:35:17Z. #13236 is experimental bundles resolving npm latest, #13237 is a Windows desktop boot reset, #13238 is an account block. Bodies scanned for superagent, super-agent, Mandate, Ticket, and dsh-superagent: no hits. #13222's comment at 19:42:26Z is a backup plugin. #12332's comment at 19:58:20Z, #11639's comment at 19:57:32Z, #11580's comment at 19:57:30Z, and #4722's comment at 19:57:28Z do not name this prototype. #4386's comment at 19:41:19Z is dsh-thread 1.12.1 and does not name it. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T20:15:04Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries. t3code, IHUI super-agent path, lkshrk/dsh-superagent, ForkbombEu, Laixiaomin, Nelson, awesome-dsh-plugin, hextor, LofiSu, foreman, JokersDH main, 22-ai-00 main, gxcsoccer/router, and HUHAN have no commits since 19:35:17Z."
+    },
     {
       "title": "Discussion #13235 does not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13235",
@@ -8855,5 +8867,5 @@
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T18:35:02Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T20:15:04Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
 }
