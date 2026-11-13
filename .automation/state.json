@@ -1,44 +1,68 @@
 {
-  "last_run_at": "2026-11-13T22:32:47Z",
+  "last_run_at": "2026-11-13T23:36:12Z",
   "timezone": "UTC",
-  "baseline_commit": "6529b2e",
+  "baseline_commit": "4068597",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T21:34:08Z",
-    "to": "2026-11-13T22:32:47Z"
+    "from": "2026-11-13T22:32:47Z",
+    "to": "2026-11-13T23:36:12Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Fork admits Linear tools for a remote split epic and logs the mask to stderr",
-      "url": "https://github.com/lkshrk/dsh-superagent/commit/f712f2c681e6",
+      "title": "Linear source works a delegated epic's sub-issues as a chain",
+      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/5da57339a633",
       "confidence": 0.95,
-      "reason": "7a36ff2741a9 at 2026-11-13T20:41:17Z, bc7dd147b948 at 20:48:22Z, 28264ad94390 at 21:30:22Z, and tip f712f2c681e6 at 21:57:40Z. remoteWorkers stays default off. When it is on, a Linear trigger with meta.mode split lets the worker and its subagents use get_issue, list_issues, list_comments, list_issue_labels, list_issue_statuses, and save_issue, named mcp__linear__<tool> or mcp__linear__<server>-<tool>. save_issue with id is refused; parentId must match the epic identifier or issue id, case-insensitive. Other sessions still get no Linear tool. The mask rebuilds on tools/change from names already registered. A throwing restrict() keeps the previous mask and does not start a nested rebuild. LiteLLM mounts linear at /mcp/linear_app as mcp__linear__linear_app-<tool>. A live worker with no Linear tool after 60s warns; subagents do not start that timer. The tip writes the build line, the 60s warning, and a failed rebuild to the plugin logger and to stderr, and the failure names the Session. dsh-yawn does not export the plugin logger to the container log. Package stays private 0.1.0. engines.dsh stays ^0.2.1-alpha.2 || ^0.2.2-0. Ahead of 8c32a9d by 34."
+      "reason": "d3acb596da00 at 2026-11-13T22:52:42Z, b27526404edf at 23:03:56Z, 85123516d857 at 23:07:01Z, and tip 5da57339a633 at 23:12:28Z. A delegated Issue with sub-issues starts a chain instead of a ticket. Mentions only get a status thought. chainParallel is 1 to 8, default 2, across all epics. Ready children are those whose blocks relations are completed or canceled, ordered by subIssueSortOrder then identifier. Trigger id is linear:chain:<run>:<sub-issue>. The epic is read at most every 30 seconds, and at once when a child's ticket ended. Stops: a child ticket ended while the Issue is open, no ticket within 30 minutes, a stall, removed delegation, more than 30 sub-issues or 20 relations, admission filtered, or a stop prompt. A new run keeps busy children. Only a child assigned to someone other than the app waits. An unreadable delegated context is held for at most 10 minutes, then one error, and is not split. Linear reuses the session, so a later non-stop prompt on a delegated Issue with open sub-issues and no running chain starts the run. An epic label with no sub-issues still splits. Package stays 0.1.0."
     },
     {
-      "title": "Superboard keeps a confirmed reopen ahead of an older merge and waits for a stack",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/ff45c6822c71",
+      "title": "Superboard prepares a follow-up on its delivery branch and reuses the PR",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/dd1a5793dc71",
       "confidence": 0.95,
-      "reason": "#690 0e60b0840365 at 2026-11-13T20:52:26Z and tip #689 ff45c6822c71 at 21:02:13Z. An open issue whose ticket ended merged, and whose ticket names a repository, returns to queued only when GitHub's latest native ReopenedEvent is not before that merge. The time is stored as github_reopened_at. Full sync and the ticket poll ignore older ends, and a stored reopen is not read again. Later assignments and closes still count. Comments and body edits are not a reopen. Number-only legacy tickets do not match. A GitHub read failure logs a warning and the sync continues. Quality rules hide project commands until a detected stack matches a group or a person picks one. The empty option says Technology not yet detected. A matching detection still selects that group."
-    },
-    {
-      "title": "Linear source plans a served epic with no sub-issues as split",
-      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/42231da94508",
-      "confidence": 0.95,
-      "reason": "557168acb454 at 2026-11-13T20:37:55Z and tip 42231da94508 at 20:41:31Z. A served session whose issue label is exactly epic, ignoring case, and whose context has no sub-issues, gets a first line Mode: split (plan this epic into sub-issues; no code), meta.mode split, and meta.epic set to the issue id. Existing children, any other label, prompts, and undelegations stay unsplit. A failed context read still splits. DSH_SUPERAGENT_LINEAR_MODE is split only for that ticket. The tip applies this only to a served, mapped session; an unlisted team is not read and is not split. Package stays 0.1.0."
-    },
-    {
-      "title": "Router lab releases a refused eval and is no longer a verbatim core copy",
-      "url": "https://github.com/gxcsoccer/router/commit/1cdb626687fb",
-      "confidence": 0.93,
-      "reason": "1cdb626687fb at 2026-11-13T21:20:00Z, parent 5746323a82a1. src/core is edited, so the 17:50 UTC copy sentence now names that earlier commit. Engine.attach records ignore{notAttachable} and releaseRouting in a second transaction after a UserError rolls back. orchestrator_route calls host.release on a refused item. acceptBatch stays whole-batch unless set to primary. batchSplitter is unset unless splitBatches is passed; its overlap threshold is 0.15. The card keeps eight recent tickets and recalls up to four older ones by title keyword. The hashed n-gram cascade stays off. Author-reported figures were not re-run."
+      "reason": "#691 dd1a5793dc71 at 2026-11-13T23:04:54Z. A GitHub issue that is not a PR, with an execution and executor.prepare containing agent/$DSH_SUPERAGENT_NAME, prepares the branch before the worker prompt. A first run, or a follow-up that still has an open owned GitHub thread, keeps the ticket branch. After every owned GitHub thread is closed, the next assignment starts from the remote default branch on agent/run-<assignment>/<ticket>. Pending edits refuse that switch. The same assignment keeps its stored branch. gh pr create must match that head and repository, returns the existing PR including after it closes, and refuses --web and --dry-run. The merge guard blocks gh pr create when repository options precede create. First install and idle sync both apply assignment-branch.patch and copy scripts/superboard-branch.py. Sync still accepts only 8c32a9dc5d72."
     }
   ],
   "pending": [
+    {
+      "title": "Discussion #6989's new comment and #13241's follow-up do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/6989",
+      "confidence": 0.9,
+      "reason": "#6989 was updated at 2026-11-13T22:55:06Z. The new comment at 22:34:27Z is a field note about late human approvals and does not name superagent, super-agent, Mandate, Ticket, or dsh-superagent. #13241's comment at 22:33:05Z is a Termux link() follow-up for dsh-session-persistence-jsonl. No discussion newer than #13243. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T23:29:07Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries. lkshrk/dsh-superagent stays f712f2c681e6."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/ab9e6a2792c5",
+      "confidence": 0.9,
+      "reason": "Default main tip ab9e6a2792c5 at 2026-11-13T23:18:57Z. The compare from 70b052904b10 has 7 commits and 24 files, and none match superagent or hextor. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-13T23:27:49Z is feat/controlled-evolution-strategy at 24c63f540eb7. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "awesome-dsh-plugin refresh does not add a superagent row",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/155f3cee4ac4",
+      "confidence": 0.9,
+      "reason": "155f3cee4ac4 at 2026-11-13T23:20:10Z only rewrites remedy, triage, and ai-terminal-pet descriptions. The diff does not contain superagent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "chuyu0629/dsh-relief still does not name this prototype",
+      "url": "https://github.com/chuyu0629/dsh-relief/commit/9deafcc03ebd",
+      "confidence": 0.9,
+      "reason": "Tip 9deafcc03ebd at 2026-11-13T22:36:07Z is a dashboard UI change. The README is a local Windows repair for DeepSeek Harness desktop boot failures. It does not name superagent, super-agent, Mandate, Ticket, or dsh-superagent. Not listed."
+    },
+    {
+      "title": "Three superagent-named repositories are not this prototype",
+      "url": "https://github.com/zhangxiaoben/superagent-sites",
+      "confidence": 0.86,
+      "reason": "zhangxiaoben/superagent-sites was created at 2026-11-13T23:19:58Z and only publishes static sites. SkillfulAgents/SuperAgent pushed at 23:31:17Z is a desktop agent app from gamutagents.com. saverio-moretti-dev/superagent-method pushed at 23:08:29Z is a Claude Code plugin. None name dsh-superagent. Not listed."
+    },
     {
       "title": "Discussion #13243 and four new comments do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13243",
@@ -8928,5 +8952,5 @@
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T21:39:52Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T23:29:07Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
 }
