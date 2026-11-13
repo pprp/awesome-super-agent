@@ -1,39 +1,44 @@
 {
-  "last_run_at": "2026-11-13T18:36:30Z",
+  "last_run_at": "2026-11-13T19:35:17Z",
   "timezone": "UTC",
-  "baseline_commit": "0edff64",
+  "baseline_commit": "0991101",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T17:31:38Z",
-    "to": "2026-11-13T18:36:30Z"
+    "from": "2026-11-13T18:36:30Z",
+    "to": "2026-11-13T19:35:17Z"
   },
-  "added": [
-    {
-      "title": "gxcsoccer extracts the prototype router and measures personal-chat ownership",
-      "url": "https://github.com/gxcsoccer/router",
-      "confidence": 0.86,
-      "reason": "5746323a82a1 at 2026-11-13T17:50:50Z. README says src/core is copied from prototype 8c32a9d; lab, routing port, and eval are added. Private package dsh-superagent-router 0.1.0, MIT, Node >=22.18, zero runtime dependencies. docs/findings.md records oracle 2/16 under thread ownership on personal-chat and safe 16/16 with leaked 0 for flash and v4-pro after ownership is routed. The Aime corpus is not in the repo. Not rerun."
-    }
-  ],
+  "added": [],
   "updated": [
     {
-      "title": "Superboard syncs the duplicate-issue notice and stores per-project task checks",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/0cd1c4e92505",
+      "title": "Superboard shows the merge guard on each project and clears a block its own merged pull closed",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/f084d100fe9a",
       "confidence": 0.94,
-      "reason": "#684 8e7a3e347684 at 2026-11-13T17:31:15Z, just before this window, is on main and changes the previous sentence: an existing install can sync the notice from Settings → Projects → Sync agent runtimes, preserving tracked local fixes and switching the linked profile only when idle. #686 0cd1c4e92505 at 17:34:56Z stores a fixed catalog selection in ~/.config/superboard/task-stages/owner/repo.json. A managed worker runs it before gh pr create and again on the guarded merge head. With no repository or machine policy, a nonempty selection is a local policy with squash and independent review; an empty selection still refuses delivery."
-    },
-    {
-      "title": "lkshrk retries a worker turn after a lost sandbox",
-      "url": "https://github.com/lkshrk/dsh-superagent/commit/b751737ee601",
-      "confidence": 0.94,
-      "reason": "b751737ee601 at 2026-11-13T17:42:29Z. transient() is true for an FsError whose message contains sandbox is unavailable, and for Sandbox or SandboxClaim did not become. The same message without FsError is not transient. TRANSIENT_TRIES is 3 and the delays are 15s, 30s, and 60s. The fourth such error fails the assignment. Ahead of 8c32a9d by 30."
+      "reason": "#685 323cbb11e1b5 at 2026-11-13T18:56:35Z puts projects and registration before agent maintenance. Each project row shows the verified merge guard and agent state, and unrelated broadcasts do not ask every agent again. Project policy is bookmarkable; local task checks sit under Project policy. The duplicate-issue sync path is now Settings → Projects → Agent maintenance → Sync agent runtimes. #687 f084d100fe9a at 19:08:49Z runs every minute. A blocked, unstopped, unarchived issue whose ticket report is still blocked, has no ended_at, and has a PR in own_threads is checked at most 12 per repository per round. The board marks that task done only when GitHub's latest close names that merged PR in the same repository and mergedAt is not before the ticket start. Mentions, manual closes, and older PRs do not count. A round more than 120 seconds late does not check. It does not write Harness or the agent SQLite. Done or closed tasks no longer show the failure block. A stop, archive, or state change while GitHub answers wins."
     }
   ],
   "pending": [
+    {
+      "title": "Discussion #13235 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13235",
+      "confidence": 0.9,
+      "reason": "Created at 2026-11-13T19:04:32Z. It is a mobile ghost session. The body does not name superagent, super-agent, Mandate, Ticket, or dsh-superagent. Comments on #12455 at 18:48:28Z, #12514 at 18:47:50Z, and #13193 at 18:45:00Z do not name it. #4635 and #4375 were updated in the window; their bodies do not name it. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T19:31:23Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/9efd960925f0",
+      "confidence": 0.9,
+      "reason": "9efd960925f0 at 2026-11-13T19:21:49Z is a mobile Settings link. The compare from daed91f26464 has no path matching superagent or hextor. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-13T19:31:16Z. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. Commits on main since 2026-11-13T18:36:30Z: none. The listed sentence was not rewritten."
+    },
     {
       "title": "Discussions #13233 and #13234 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13234",
