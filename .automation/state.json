@@ -1,18 +1,24 @@
 {
-  "last_run_at": "2026-11-13T21:34:08Z",
+  "last_run_at": "2026-11-13T22:32:47Z",
   "timezone": "UTC",
-  "baseline_commit": "66f1b54",
+  "baseline_commit": "6529b2e",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T20:31:02Z",
-    "to": "2026-11-13T21:34:08Z"
+    "from": "2026-11-13T21:34:08Z",
+    "to": "2026-11-13T22:32:47Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "Fork admits Linear tools for a remote split epic and logs the mask to stderr",
+      "url": "https://github.com/lkshrk/dsh-superagent/commit/f712f2c681e6",
+      "confidence": 0.95,
+      "reason": "7a36ff2741a9 at 2026-11-13T20:41:17Z, bc7dd147b948 at 20:48:22Z, 28264ad94390 at 21:30:22Z, and tip f712f2c681e6 at 21:57:40Z. remoteWorkers stays default off. When it is on, a Linear trigger with meta.mode split lets the worker and its subagents use get_issue, list_issues, list_comments, list_issue_labels, list_issue_statuses, and save_issue, named mcp__linear__<tool> or mcp__linear__<server>-<tool>. save_issue with id is refused; parentId must match the epic identifier or issue id, case-insensitive. Other sessions still get no Linear tool. The mask rebuilds on tools/change from names already registered. A throwing restrict() keeps the previous mask and does not start a nested rebuild. LiteLLM mounts linear at /mcp/linear_app as mcp__linear__linear_app-<tool>. A live worker with no Linear tool after 60s warns; subagents do not start that timer. The tip writes the build line, the 60s warning, and a failed rebuild to the plugin logger and to stderr, and the failure names the Session. dsh-yawn does not export the plugin logger to the container log. Package stays private 0.1.0. engines.dsh stays ^0.2.1-alpha.2 || ^0.2.2-0. Ahead of 8c32a9d by 34."
+    },
     {
       "title": "Superboard keeps a confirmed reopen ahead of an older merge and waits for a stack",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/ff45c6822c71",
@@ -33,6 +39,42 @@
     }
   ],
   "pending": [
+    {
+      "title": "Discussion #13243 and four new comments do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13243",
+      "confidence": 0.9,
+      "reason": "#13243 was created at 2026-11-13T21:34:05Z and updated at 21:35:52Z. It is a Windows desktop crash repair tool at chuyu0629/dsh-relief. The body does not name superagent, super-agent, Mandate, Ticket, or dsh-superagent. #9064 comment at 21:59:24Z is a CJK session-query provider. #8474 at 21:40:00Z, #11874 at 21:39:59Z, and #2392 at 21:39:57Z are desktop boot replies and do not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T21:39:52Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries. IHUI packages/shared/src/super-agent has no commit since 2026-11-13T20:31:02Z. awesome-dsh-plugin tip a01364552d30 at 20:30:05Z is before this window and renames dsh-progress."
+    },
+    {
+      "title": "chuyu0629/dsh-relief does not name this prototype",
+      "url": "https://github.com/chuyu0629/dsh-relief",
+      "confidence": 0.9,
+      "reason": "Created at 2026-11-13T21:26:46Z. pushed_at 2026-11-13T21:39:27Z. It is a local Windows PowerShell repair for DeepSeek Harness desktop boot failures. The discussion body does not name superagent, super-agent, Mandate, Ticket, or dsh-superagent. Not listed."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/70b052904b10",
+      "confidence": 0.9,
+      "reason": "Default main tip 70b052904b10 at 2026-11-13T22:29:21Z. The compare from b35819caca83 has 45 files and none match superagent or hextor. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-13T22:27:48Z is feat/controlled-evolution-strategy at c4662f8d4dcd. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "ArtemKoval archived a bench plan and did not change the listed sentence",
+      "url": "https://github.com/ArtemKoval/lab/commit/cd22ef0a846b",
+      "confidence": 0.9,
+      "reason": "cd22ef0a846b at 2026-11-13T22:18:49Z archives add-bench-adoption-plan. The proposal compares this lab with ed-donner/bench and ships none of the candidates. It does not name dsh-superagent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "christmas-aurora is a test scene",
+      "url": "https://github.com/xbox002000/christmas-aurora/commit/5cb718c4f70c",
+      "confidence": 0.86,
+      "reason": "Created 2026-11-13T14:43:47Z. Tip 5cb718c4f70c at 21:35:38Z merges a Three.js scene. The description calls it a superagent test project. Not listed."
+    },
     {
       "title": "Discussions #13239 through #13242 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13242",
@@ -8670,6 +8712,7 @@
   ],
   "rejected_this_run": [],
   "held_on_other_branches": [
+    "LofiSu/deepseek-super-agent pushed_at 2026-11-13T22:27:48Z. Default main remains 1c73d86a0aad. feat/controlled-evolution-strategy is c4662f8d4dcd. Do not list the side branch.",
     "JokersDH/dsh-superagent-prototype main stays f29c9e62fb82. Do not list side branches.",
     "22-ai-00/dsh-enhanced dev is 398f99532d13 at 2026-11-13T16:02:25Z. Main stays 64e9215e10d8. Do not list the branch.",
     "NelsonLongxiang/dsh-open-a2a-net review/pi-platform-cli stays 330acced4e58 at 2026-11-13T13:44:40Z. Master stays ce0aa498a57c. Do not list the branch.",
@@ -8885,5 +8928,5 @@
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T21:15:28Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T21:39:52Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
 }
