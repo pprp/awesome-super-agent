@@ -1,45 +1,57 @@
 {
-  "last_run_at": "2026-11-13T17:31:38Z",
+  "last_run_at": "2026-11-13T18:36:30Z",
   "timezone": "UTC",
-  "baseline_commit": "315149d",
+  "baseline_commit": "0edff64",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T16:37:00Z",
-    "to": "2026-11-13T17:31:38Z"
+    "from": "2026-11-13T17:31:38Z",
+    "to": "2026-11-13T18:36:30Z"
   },
   "added": [
     {
-      "title": "mystic7c sidebar panel for Octo intake and GitLab delivery",
-      "url": "https://github.com/mystic7c/dsh-superagent-panel",
-      "confidence": 0.88,
-      "reason": "Open-source 0.5.0 merge e6ccb95f25f0 at 2026-11-13T16:36:28Z, just before this window. Tip 12dfc50b1baa at 16:39:22Z is 0.5.1 and only replaces a real GitLab hostname in a test with gitlab.example.com. Private package @mystic7c/dsh-superagent-panel, MIT, Node >=22, peer @deepseek-ai/dsh-tools. cordis.patch.yml inserts superagent-panel and says it does not replace a shipped sidebar row. index.js states ~/.dsh/superagent and same-origin /superagent/api. The live engine is Octo intake, rules, tickets, DSH/Codex/Claude workers, and GitLab MR/CI/UAT. npm 404. Author reports 555 tests passed. Not rerun."
+      "title": "gxcsoccer extracts the prototype router and measures personal-chat ownership",
+      "url": "https://github.com/gxcsoccer/router",
+      "confidence": 0.86,
+      "reason": "5746323a82a1 at 2026-11-13T17:50:50Z. README says src/core is copied from prototype 8c32a9d; lab, routing port, and eval are added. Private package dsh-superagent-router 0.1.0, MIT, Node >=22.18, zero runtime dependencies. docs/findings.md records oracle 2/16 under thread ownership on personal-chat and safe 16/16 with leaked 0 for flash and v4-pro after ownership is routed. The Aime corpus is not in the repo. Not rerun."
     }
   ],
   "updated": [
     {
-      "title": "Superboard posts one duplicate-issue notice and can use a machine merge policy",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/cec26e57839d",
-      "confidence": 0.93,
-      "reason": "#680 390c17879f3c at 16:45:10Z adds a headless WebKit stage after backend, frontend, and library when the diff touches the interface. #681 5d70bd1f33c4 at 16:56:41Z shows one project detail section at a time. #682 6e9e32b61897 at 17:06:48Z keeps a repository .github/superboard-merge.json authoritative and otherwise reads ~/.config/superboard/quality/OWNER/REPO.json. The board policy is make -j1 check release with an empty github array. #683 cec26e57839d at 17:09:18Z pins a new prototype checkout to 8c32a9dc5d72 and applies duplicate-issue-notice.patch. An explicit same-deliverable human GitHub issue is ignored with one notice and no second worker."
+      "title": "Superboard syncs the duplicate-issue notice and stores per-project task checks",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/0cd1c4e92505",
+      "confidence": 0.94,
+      "reason": "#684 8e7a3e347684 at 2026-11-13T17:31:15Z, just before this window, is on main and changes the previous sentence: an existing install can sync the notice from Settings → Projects → Sync agent runtimes, preserving tracked local fixes and switching the linked profile only when idle. #686 0cd1c4e92505 at 17:34:56Z stores a fixed catalog selection in ~/.config/superboard/task-stages/owner/repo.json. A managed worker runs it before gh pr create and again on the guarded merge head. With no repository or machine policy, a nonempty selection is a local policy with squash and independent review; an empty selection still refuses delivery."
     },
     {
-      "title": "lkshrk archives the worker Session after the origin issue closes",
-      "url": "https://github.com/lkshrk/dsh-superagent/commit/05ca9e45ace1",
-      "confidence": 0.93,
-      "reason": "899c056a89f8 at 17:11:18Z records issueClosed and archives the worker Session with stopActivity once the ticket has ended. Launches and deliveries restore it. The GitHub Source reads that issue at most every five minutes while the thread is polled. 05ca9e45ace1 at 17:18:17Z forgets the close when the ticket resumes and retries a failed archive with the launch backoff. Ahead of 8c32a9d by 29."
-    },
-    {
-      "title": "Linear Source reports a completed or canceled Issue so the worker Session can be archived",
-      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/16e2d8a02a95",
-      "confidence": 0.92,
-      "reason": "b4682237d5ac at 17:13:44Z reads state type for Linear-origin tickets that are open or ended within 14 days, until the Issue is known closed. completed or canceled is reported through tickets.issueClosed only when the host has that method. 16e2d8a02a95 at 17:18:28Z deletes a stale comment. Package stays 0.1.0."
+      "title": "lkshrk retries a worker turn after a lost sandbox",
+      "url": "https://github.com/lkshrk/dsh-superagent/commit/b751737ee601",
+      "confidence": 0.94,
+      "reason": "b751737ee601 at 2026-11-13T17:42:29Z. transient() is true for an FsError whose message contains sandbox is unavailable, and for Sandbox or SandboxClaim did not become. The same message without FsError is not transient. TRANSIENT_TRIES is 3 and the delays are 15s, 30s, and 60s. The fourth such error fails the assignment. Ahead of 8c32a9d by 30."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13233 and #13234 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13234",
+      "confidence": 0.9,
+      "reason": "#13233 was created at 2026-11-13T18:06:12Z and is a sound plugin. #13234 was created at 2026-11-13T18:18:28Z and is titled dsh-reader. Neither title names superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T18:35:02Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/daed91f26464",
+      "confidence": 0.9,
+      "reason": "daed91f26464 at 2026-11-13T18:25:18Z is fix(shared): batch SQLite worker result transfers. The subject does not name superagent or hextor. The listed sentence was not rewritten."
+    },
+    {
+      "title": "xyt071024 docs tip moved and stays pending",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/c7b63be19dc8",
+      "confidence": 0.84,
+      "reason": "Tip c7b63be19dc8 at 2026-11-13T18:15:19Z is docs: install-sh.txt. The in-window commits are docs. The explicit-request exception was not rechecked. Not listed."
+    },
     {
       "title": "Discussions #13227 through #13232 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13232",
@@ -8621,13 +8633,7 @@
       "reason": "iMC-Superagent 5d789f33ff0f at 2026-11-09T21:27:27Z is a touch-editor overhaul of a Minecraft client. MosBot 9b65525947ad at 21:09:56Z is a SQLite diagnostic test. SkillfulAgents 484307f065dd at 20:48:30Z merges a Sentry maintenance PR. None name this prototype. Not listed."
     }
   ],
-  "rejected_this_run": [
-    {
-      "title": "An empty monitor repo and a course practice inbox",
-      "url": "https://github.com/dingmac/dsh-superagent-monitor",
-      "reason": "dingmac/dsh-superagent-monitor was created at 2026-11-13T17:11:13Z and has no commits. calvinwang19888-hub/superagent-practice was created at 16:49:26Z as a class inbox with three planted bugs. Neither is listed."
-    }
-  ],
+  "rejected_this_run": [],
   "held_on_other_branches": [
     "JokersDH/dsh-superagent-prototype main stays f29c9e62fb82. Do not list side branches.",
     "22-ai-00/dsh-enhanced dev is 398f99532d13 at 2026-11-13T16:02:25Z. Main stays 64e9215e10d8. Do not list the branch.",
@@ -8844,5 +8850,5 @@
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T17:22:56Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T18:35:02Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
 }
