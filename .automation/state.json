@@ -1,63 +1,92 @@
 {
-  "last_run_at": "2026-11-13T07:35:29Z",
+  "last_run_at": "2026-11-13T08:34:39Z",
   "timezone": "UTC",
-  "baseline_commit": "175250f",
+  "baseline_commit": "d7cd9da",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T06:32:32Z",
-    "to": "2026-11-13T07:35:29Z"
+    "from": "2026-11-13T07:35:29Z",
+    "to": "2026-11-13T08:34:39Z"
   },
-  "added": [
-    {
-      "title": "DandanLLab/dsh-superagent-prototype",
-      "url": "https://github.com/DandanLLab/dsh-superagent-prototype",
-      "confidence": 0.88,
-      "reason": "Created 2026-11-13T07:09:02Z. Tip 2e9a046b8fc2 at 07:12:37Z. Parent is official 6337fc8. One commit accepts Windows drive and UNC stateDir paths, uses path.isAbsolute for the executor directory, and forces LF via .gitattributes. Package stays private dsh-superagent 0.1.0, engines.dsh ^0.2.1-alpha.2. README is still the upstream English text. Not marked as a GitHub fork."
-    }
-  ],
+  "added": [],
   "updated": [
     {
-      "title": "moshenspirit warns that profile creation replaces an existing profile",
-      "url": "https://github.com/moshenspirit/dsh-superagent-windows-setup/commit/4c8063b9fe26",
-      "confidence": 0.9,
-      "reason": "Tip 4c8063b9fe26 at 2026-11-13T06:51:19Z. dc4119c1cddc at 06:48:00Z documents that --from-default-profile rebuilds ~/.dsh/profiles/superagent and deletes cordis.patch.yml. --max-workers default moves from 2 to 3, matching ExecutorConfigSchema. The 0.2.1-rc.3 pin is unchanged."
+      "title": "npm next is 0.2.2-rc.3",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3",
+      "confidence": 0.96,
+      "reason": "Registry next moved at 2026-11-13T08:05:45.455Z. latest stays 0.2.2-rc.1. alpha stays 0.2.2-alpha.3. Packument has no gitHead. Release notes are a chat-import plugin and a Windows desktop update fix. They do not name this prototype. ^0.2.1-alpha.2 does not accept 0.2.2-rc.3."
     },
     {
-      "title": "MYCF711 #50 adds PR attribution to preflight",
-      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/44c671cc9fc1",
-      "confidence": 0.91,
-      "reason": "Main tip 44c671cc9fc1 at 2026-11-13T06:48:41Z merges #50. Package stays 0.10.12. Preflight is 43 checks. Attribution runs on pull_request CI only; local and main push SKIP. npm latest stays 0.10.12."
-    },
-    {
-      "title": "dsh-foreman 0.7.1 and 0.7.2",
-      "url": "https://github.com/niechao136/dsh-foreman/commit/a9aa6ed01ddc",
+      "title": "lkshrk serves additional GitHub repositories",
+      "url": "https://github.com/lkshrk/dsh-superagent/commit/4622f98c8fa0",
       "confidence": 0.93,
-      "reason": "0.7.1 is 3fac82266eb0 at 2026-11-13T06:12:50Z, npm 06:18:00Z. 0.7.2 is a9aa6ed01ddc at 07:04:40Z, npm 07:07:38Z, gitHead matches. Feishu consumer stops with SIGTERM only. Node dependency stays 0.7.0."
+      "reason": "Tip 4622f98c8fa0 at 2026-11-13T08:26:27Z. Ahead of 8c32a9d by 17, behind 0. Primary repository stays unqualified. Additional repositories use lowercase owner/name#12. Unverified extras stay out of the verified set and are rechecked. repositoryWorkspaces defaults false and needs remoteWorkers plus dsh-yawn. Package stays private 0.1.0."
     },
     {
-      "title": "Laixiaomin guard is half read-only",
-      "url": "https://github.com/Laixiaomin001/dshm-local-superagent/commit/ed3dfd3c5e68",
+      "title": "MYCF711 #51 scrolls the delete confirmation",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/9e64ef2ff6bc",
+      "confidence": 0.92,
+      "reason": "Main tip 9e64ef2ff6bc at 2026-11-13T07:42:45Z merges #51. Package stays 0.10.12. .dt-modal is overflow-y auto and header, description, and footer do not shrink. npm latest stays 0.10.12."
+    },
+    {
+      "title": "Laixiaomin adds voice.py and Node 24",
+      "url": "https://github.com/Laixiaomin001/dshm-local-superagent/commit/bae2874520a7",
       "confidence": 0.9,
-      "reason": "Tip ed3dfd3c5e68 at 2026-11-13T06:59:03Z. plugins/guard/index.js allows top-level write and edit only under 运行/ and /tmp after realpath. move, remove, and publish stay blocked. bash is a single python3 bin script. The file does not read main-guard.off."
+      "reason": "Tip bae2874520a7 at 2026-11-13T07:15:43Z, pushed after the previous scan. Delegate sets agentPreset standard. Guard allowlist is unchanged. voice.py SSHes to 127.0.0.1:3122 using VOICE_SSH_HOST. README says Node 24+."
     },
     {
-      "title": "injet application list shows whether it can receive requests",
-      "url": "https://github.com/injet-zhou/dsh-superagent-prototype/commit/b3a66b8e9c09",
-      "confidence": 0.9,
-      "reason": "Main tip b3a66b8e9c09 at 2026-11-13T07:22:05Z. applicationMark covers disabled, source error, no chats, no allowed senders, missing health, and paused. Ahead of 6337fc8 by 81, behind 0."
-    },
-    {
-      "title": "lkshrk Linear source stops when delegation is removed",
-      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/202c1f8f0413",
-      "confidence": 0.93,
-      "reason": "Tip 202c1f8f0413 at 2026-11-13T06:41:12Z. Delegate query at most every 30 seconds. A removed delegation emits a stop Trigger that still starts with Stop requested in Linear. Package stays 0.1.0. The fork tip 0d4f47fa8bb5 only moves a comment and is ahead of 8c32a9d by 13."
+      "title": "martinxiao splits field and health modules",
+      "url": "https://github.com/martinxiao2025/dsh-superagent/commit/31ee693520f5",
+      "confidence": 0.86,
+      "reason": "Tip 31ee693520f5 at 2026-11-13T08:23:17Z. Package stays private 0.2.0 and engines.dsh stays ^0.2.1-alpha.2. fields.ts and infra/health.ts were read. The rest of the split was not reread line by line."
     }
   ],
   "pending": [
+    {
+      "title": "Discussion #13185 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13185",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-13T07:36:00Z. It is a theme studio. Body scanned for superagent, super-agent, Mandate, Ticket, and dsh-superagent: no hits. Prototype tip remains 8c32a9dc5d72. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "Nelson #680 landed on next/0.8 only",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/680",
+      "confidence": 0.9,
+      "reason": "Master tip remains 2c8c3ad0d38a. #680 merged to next/0.8 at 2026-11-13T07:56:54Z. The listed master sentence was not rewritten."
+    },
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/6790f85f53a0",
+      "confidence": 0.9,
+      "reason": "Tip 6790f85f53a0 at 2026-11-13T08:29:49Z. Subjects since 2026-11-13T07:35:29Z do not name superagent or hextor. hextor-ndc/superagent main remains pushed_at 2026-11-04T19:48:24Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "IHUI commit does not touch the super-agent path",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/c7d3c3d7b61f",
+      "confidence": 0.9,
+      "reason": "Main tip c7d3c3d7b61f at 2026-11-13T07:21:59Z, repo pushed_at 2026-11-13T07:58:06Z. The one file does not sit under packages/shared/src/super-agent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
+      "confidence": 0.86,
+      "reason": "pushed_at 2026-11-13T08:30:23Z. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "xyt071024 docs commits are not a new row",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/b19134fa796c",
+      "confidence": 0.84,
+      "reason": "Tip b19134fa796c at 2026-11-13T08:15:56Z. The in-window commits are README and install docs. Not added."
+    },
+    {
+      "title": "Foreman, injet, touch-agent, mail, oxmumu, and the Linear source did not move in this window",
+      "url": "https://github.com/niechao136/dsh-foreman/commit/a9aa6ed01ddc",
+      "confidence": 0.88,
+      "reason": "dsh-foreman pushed_at remains 2026-11-13T07:05:04Z and npm stays 0.7.2. dsh-foreman-node pushed_at remains 2026-11-12T09:23:33Z and npm stays 0.7.0. injet pushed_at remains 2026-11-13T07:22:46Z. touch-agent pushed_at remains 2026-11-13T06:38:27Z. shinji mail pushed_at remains 2026-11-13T07:32:24Z. oxmumu3 pushed_at remains 2026-11-13T06:10:46Z. linear pushed_at remains 2026-11-13T06:41:13Z. DandanLLab, moshenspirit, superboard, patrol, AIR review, and vivy have no push after 2026-11-13T07:35:29Z. wuzhiping pushed_at remains 2026-11-13T07:24:15Z. fsy0718/dsh-superagent-prototype still returns 404. None of those listed sentences were rewritten."
+    },
     {
       "title": "Discussions #13180 through #13184 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13184",
@@ -8245,16 +8274,9 @@
   ],
   "rejected_this_run": [
     {
-      "title": "taytayAndrew/superAgent is empty",
-      "url": "https://github.com/taytayAndrew/superAgent",
-      "confidence": 0.4,
-      "reason": "Created 2026-11-13T07:08:11Z. size 0, no description, no language, no license. Not a DSH super-agent repository."
-    },
-    {
-      "title": "hwdshgit/superagent-playground",
-      "url": "https://github.com/hwdshgit/superagent-playground",
-      "confidence": 0.3,
-      "reason": "Created 2026-11-13T06:43:00Z. Name is playground. Sandbox, playground, demo, and empty repositories stay off the list."
+      "title": "xyt071024/dsh-superagent-cn",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn",
+      "reason": "In-window commits are documentation only. Not a new row."
     }
   ],
   "held_on_other_branches": [
@@ -8461,5 +8483,5 @@
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.2 (published 2026-11-12T02:16:12.076Z). alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T07:32:36Z is not a commit. dsh-foreman npm latest is 0.7.2 (2026-11-13T07:07:38.307Z, gitHead a9aa6ed01ddc712b2a1e2ad8d72b8c3fc5513300). 0.7.1 was published 2026-11-13T06:18:00.307Z (gitHead 3fac82266eb0356c0282f47f2697ef9c8e50cde5). dsh-foreman-node npm latest remains 0.7.0 (2026-11-12T09:20:07.805Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.20 (2026-11-13T04:38:17.548Z) and latest remains 0.7.0. dsh-session-superagent npm latest remains 0.10.12 (2026-11-09T02:33:48.031Z). dsh-superagent-mail npm latest remains 0.1.0. @oxmumu3/dsh-superagent and dsh-patrol are still absent from npm."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next is 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no gitHead. alpha remains 0.2.2-alpha.3. Release dsh-v0.2.2-rc.3 published 2026-11-13T07:56:55Z; tag commit 38a6a5c965aa at 05:26:07Z; master merge 39163dd30f70 at 07:37:50Z. Notes do not name this prototype. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T08:26:24Z is not a commit."
 }
