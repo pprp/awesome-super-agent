@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-13T05:33:00Z",
+  "last_run_at": "2026-11-13T06:32:32Z",
   "timezone": "UTC",
   "baseline_commit": "175250f",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
@@ -8,32 +8,80 @@
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T04:33:30Z",
-    "to": "2026-11-13T05:33:00Z"
+    "from": "2026-11-13T05:33:00Z",
+    "to": "2026-11-13T06:32:32Z"
   },
   "added": [
     {
-      "title": "shinji00222/dsh-superagent-mail",
-      "url": "https://github.com/shinji00222/dsh-superagent-mail",
-      "confidence": 0.91,
-      "reason": "Created 2026-11-13T05:03:20Z. Tip 9e2314150b48 at 05:10:31Z. Kinds gmail and icloud. No reply. private 0.4.0. Distinct from Shuai-S and from npm dsh-superagent-mail 0.1.0."
+      "title": "oxmumu3/dsh-superagent",
+      "url": "https://github.com/oxmumu3/dsh-superagent",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-13T05:40:59Z. Tip 60f38fe01684 at 06:10:44Z. Preview 0.2.0-preview.1 published 2026-11-13T06:05:09Z. engines.dsh is exactly 0.2.2-rc.2. npm 404. Default capture explicit. Router default observe. Not the research prototype."
+    },
+    {
+      "title": "moshenspirit/dsh-superagent-windows-setup",
+      "url": "https://github.com/moshenspirit/dsh-superagent-windows-setup",
+      "confidence": 0.84,
+      "reason": "Created 2026-11-13T05:50:26Z. Tip 6c505b8d717e at 06:12:15Z. Skill plus three scripts. Pins @deepseek-ai/dsh@0.2.1-rc.3, the same pin as docs/006. Rewrites apt to mirrors.aliyun.com and npm to registry.npmmirror.com. Not re-run."
     }
   ],
   "updated": [
     {
-      "title": "Nelson preview.20 is on the npm preview tag",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/2c8c3ad0d38a",
-      "confidence": 0.95,
-      "reason": "Tag v0.8.1-preview.20 points at 20ae1165c92e. GitHub prerelease 2026-11-13T04:30:59Z. npm preview 0.8.1-preview.20 at 2026-11-13T04:38:17.548Z, no gitHead, shasum matches docs/release.md. latest stays 0.7.0. #675 2c8c3ad0d38a records the publication. Ahead of ed64dc575d44 by 50."
+      "title": "dsh-superagent-mail 0.5.0 adds loopback account setup",
+      "url": "https://github.com/shinji00222/dsh-superagent-mail/commit/5fabac508896",
+      "confidence": 0.93,
+      "reason": "Tip 5fabac508896 at 2026-11-13T05:33:05Z. private 0.5.0. Multiple Gmail and iCloud accounts under DSH-Superagent-Mail. Gmail PKCE on 127.0.0.1 with gmail.readonly. Account API only when webServer host is 127.0.0.1 and the request header x-superagent-mail is 1. Old credentialsPath still polled. No reply. engines.dsh stays ^0.2.1-alpha.2. npm package of the same name stays 0.1.0."
     },
     {
-      "title": "dsh-superagent-wechat-source 0.1.0 is on npm",
-      "url": "https://github.com/luckyxiang6688/dsh-superagent-wechat-source/commit/486f817438f6",
+      "title": "touch-agent #77 and #76 are on main",
+      "url": "https://github.com/touch-agent/dsh-superagent/commit/dcc7da75c590",
       "confidence": 0.92,
-      "reason": "Tip 486f817438f6 at 2026-11-13T04:48:54Z changes only README.md. npm 0.1.0 at 2026-11-13T05:05:00.843Z, gitHead is that commit. Behavior stays 5b085f033809."
+      "reason": "#77 a42c4d7c9e82 at 2026-11-13T06:02:24Z gates the domain suite at 2s and does not change runtime code. #76 dcc7da75c590 at 2026-11-13T06:30:04Z only backfills tracking docs. Ahead of 6337fc8 by 429. #71 stays open."
+    },
+    {
+      "title": "lkshrk verifies a configured GitHub login",
+      "url": "https://github.com/lkshrk/dsh-superagent/commit/d04799ed8099",
+      "confidence": 0.91,
+      "reason": "Main tip d04799ed8099 at 2026-11-13T04:32:42Z, missed by the 05:33Z window that started at 04:33:30Z. Only a [bot] login skips gh api user. Any other configured login must match the signed-in account or setup reports agentLoginMismatch. Ahead of 8c32a9dc5d72 by 12."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13170 through #13179 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13179",
+      "confidence": 0.9,
+      "reason": "Created after 2026-11-13T05:33:00Z. #13170 is a parallel-session workspace attribution bug, #13171 per-agent MCP, #13172 Agent.whenIdle, #13173 a stale runtime context, #13174 a .dsh directory wipe, #13175 long-task status, #13176 preset font, #13177 a Gemini thinking level, #13178 LinkMind Studio, #13179 bing.com web_fetch. Scanned bodies for superagent, super-agent, Mandate, Ticket, and dsh-superagent: no hits. The new comment on #10884 at 2026-11-13T06:21:58Z and the new comment on #12732 at 2026-11-13T06:09:30Z also have no hits. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T06:26:28Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.2. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/7179113617a5",
+      "confidence": 0.9,
+      "reason": "Tip 7179113617a5 at 2026-11-13T06:24:20Z. Subjects since 2026-11-13T05:33:00Z are mobile, server, web, terminal, and CI fixes. None name superagent or hextor. hextor-ndc/superagent main remains pushed_at 2026-11-04T19:48:24Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "IHUI commits do not touch the super-agent path",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/fb34f051aea1",
+      "confidence": 0.9,
+      "reason": "Main tip fb34f051aea1 at 2026-11-13T06:05:55Z refreshes generated README counts. The path packages/shared/src/super-agent has no commit since 2026-11-13T05:33:00Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson #678 and #679 landed on next/0.8 only",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/678",
+      "confidence": 0.9,
+      "reason": "Master tip remains 2c8c3ad0d38a. #678 merged to next/0.8 at 2026-11-13T05:36:07Z and #679 at 2026-11-13T05:44:17Z. npm preview remains 0.8.1-preview.20 at 2026-11-13T04:38:17.548Z. latest stays 0.7.0. The listed master sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu, tanxinz, and MYCF711 did not move main",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
+      "confidence": 0.86,
+      "reason": "LofiSu pushed_at is 2026-11-13T06:28:33Z. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. The newest public PushEvent in the latest 30 is still the 2026-11-12 main push and the 2026-11-11 mesh branch. tanxinz pushed_at remains 2026-11-13T04:59:29Z and main remains eaab7119b3e5. MYCF711 main remains 1f42f0d6647b. #41 and #48 stay open. npm dsh-session-superagent remains 0.10.12. None of the listed sentences were rewritten."
+    },
+    {
+      "title": "No other new dsh-superagent repository to list in this window",
+      "url": "https://github.com/search?q=dsh-superagent&type=repositories",
+      "confidence": 0.86,
+      "reason": "Name search created after 2026-11-13T05:33:00Z returns oxmumu3/dsh-superagent and moshenspirit/dsh-superagent-windows-setup, both listed. shinji00222 moved to 5fabac508896 and is an update. injet main remains 2253c3803375. superboard, patrol, AIR review, the Linear source, vivy, and awesome-dsh-plugin have no default-branch commit in this window. fsy0718/dsh-superagent-prototype still returns 404. touch-agent #71 remains open. Do not list it."
+    },
     {
       "title": "Discussions #13166 through #13169 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13169",
@@ -8147,14 +8195,7 @@
       "reason": "iMC-Superagent 5d789f33ff0f at 2026-11-09T21:27:27Z is a touch-editor overhaul of a Minecraft client. MosBot 9b65525947ad at 21:09:56Z is a SQLite diagnostic test. SkillfulAgents 484307f065dd at 20:48:30Z merges a Sentry maintenance PR. None name this prototype. Not listed."
     }
   ],
-  "rejected_this_run": [
-    {
-      "title": "zhuj0101-bit/superagent-playground",
-      "url": "https://github.com/zhuj0101-bit/superagent-playground",
-      "confidence": 0.4,
-      "reason": "Sandbox repository. Created 2026-11-13T03:51:24Z and pushed 2026-11-13T05:16:07Z. Size 0. Not listed."
-    }
-  ],
+  "rejected_this_run": [],
   "held_on_other_branches": [
     "tanxinz/dsh-superagent main stays eaab7119b3e5. Open #12 at 2026-11-13T03:58:46Z targets feat/m0-profile-dependency-lifecycle-20261113, not main.",
     "MYCF711/dsh-session-superagent main stays 1f42f0d6647b. Open #49, #41, and #48 are not main.",
