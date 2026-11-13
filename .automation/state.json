@@ -1,50 +1,75 @@
 {
-  "last_run_at": "2026-11-13T10:35:20Z",
+  "last_run_at": "2026-11-13T11:33:10Z",
   "timezone": "UTC",
-  "baseline_commit": "3c69f61",
+  "baseline_commit": "4a006c7",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T09:33:10Z",
-    "to": "2026-11-13T10:35:20Z"
+    "from": "2026-11-13T10:35:20Z",
+    "to": "2026-11-13T11:33:10Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "wychmod/dsh-mini-superagent",
+      "url": "https://github.com/wychmod/dsh-mini-superagent",
+      "confidence": 0.9,
+      "reason": "Tip ba75dc1f7f3e at 2026-11-13T11:07:34Z. Dispatch plugin, not the prototype Ticket model. DEFAULTS.maxWorkers is 6. FILE_VERSION is 4. Package 0.9.1, MIT, engines.dsh >=0.2.1-rc.2. npm dsh-mini-superagent@0.9.1 at 2026-11-13T10:55:02.939Z, gitHead 9729ecec8ef2, no common ancestor with the main tip. Tip README still says the registry publish has not happened."
+    }
+  ],
   "updated": [
     {
-      "title": "dsh-foreman 0.9.0 reports a missing project and continues",
-      "url": "https://github.com/niechao136/dsh-foreman/commit/48d53066eefb",
+      "title": "Nelson preview.22 is on master and npm preview",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/bd442179d878",
+      "confidence": 0.95,
+      "reason": "Merge #684 at 2026-11-13T11:08:56Z. package.json is 0.8.1-preview.22. npm preview at 2026-11-13T11:30:44.631Z has no gitHead. latest stays 0.7.0. docs/release.md on that commit still calls preview.22 unpublished. #682 746f40eb55ac keeps the rail tab, counts every team's waiting tickets, and stores unsent drafts in localStorage. Ahead of ed64dc575d44 by 71."
+    },
+    {
+      "title": "Forkbomb resumes PR-number UAT waits",
+      "url": "https://github.com/ForkbombEu/superagent/commit/b78d56433180",
+      "confidence": 0.93,
+      "reason": "51b57e485fd1 at 2026-11-13T10:28:14Z treats for as a non-writer and names tester/attempt-1/trace.ndjson. Tip b78d56433180 at 2026-11-13T11:01:59Z resolves a waiting-on-the-UAT-retry-for-PR report through the open PR's current head. SUPERAGENT_UAT_ENABLED stays false."
+    },
+    {
+      "title": "MYCF711 imports POSIX chmodSync",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/905aac184743",
       "confidence": 0.94,
-      "reason": "0.8.2 cc7ed6e05919 at 2026-11-13T09:32:43Z, npm 09:35:27.046Z. 0.9.0 48d53066eefb at 10:01:31Z, npm 10:06:51.817Z gitHead that commit. import.ts only checks tickets that have not ended, and missingDirectories are non-fatal. Executor work dirs under stateDir/work are omitted. Affected tickets are marked blocked. engines.dsh stays ^0.2.1-alpha.2. dsh-foreman-node stays 0.7.0."
-    },
-    {
-      "title": "Nelson preview.21 is on master",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/e373ba4695e5",
-      "confidence": 0.93,
-      "reason": "Master tip e373ba4695e5 at 2026-11-13T10:14:24Z. package.json is 0.8.1-preview.21. npm preview tag at 10:13:12.325Z has no gitHead. latest stays 0.7.0. Ahead of ed64dc575d44 by 66. #677, #678, #679, and #680 are on master. receipts.ts defines UNAVAILABLE_RECEIPT_GRACE_MS as 30 minutes. policy.ts grants owner-once when the sender card was taken."
-    },
-    {
-      "title": "martinxiao shares a direct-connect client",
-      "url": "https://github.com/martinxiao2025/dsh-superagent/commit/564f2e7fc6bb",
-      "confidence": 0.9,
-      "reason": "Tip 564f2e7fc6bb at 2026-11-13T09:47:08Z. verification/direct-connect.ts was read. Package stays private 0.2.0 and engines.dsh stays ^0.2.1-alpha.2. result.json was not opened."
-    },
-    {
-      "title": "Paseo queues subscription events during a question",
-      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype/commit/2f02914ac25f",
-      "confidence": 0.93,
-      "reason": "Merge #48 at 2026-11-13T09:41:29Z. delivery.ts holds a pending delivery when pendingPermissions matches questionRequest, and does not change its status. Ahead of 6337fc8 by 225, behind 0. Files stay under paseo-github-subscriptions/."
-    },
-    {
-      "title": "Forkbomb recovers a lost UAT wake-up",
-      "url": "https://github.com/ForkbombEu/superagent/commit/95fb1408a106",
-      "confidence": 0.91,
-      "reason": "Tip 95fb1408a106 at 2026-11-13T10:11:16Z. scripts/superagent-uat-recovery polls every 60 seconds and retries at most 3 times per SHA. README says the resumed worker does not reset the UAT counter. SUPERAGENT_UAT_ENABLED stays default false."
+      "reason": "Merge #52 at 2026-11-13T10:45:45Z. Behavior is 1a08b9f43d63. hardenSecretsFile imports chmodSync from node:fs. Package stays 0.10.12."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13200 through #13202 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13202",
+      "confidence": 0.9,
+      "reason": "Created after 2026-11-13T10:35:20Z. #13200 is a pi-ai catalog bump and names subagent-oar, not this prototype. #13201 is a Windows installer MoveFileExW failure. #13202 asks when v4 pro ships. Bodies scanned for superagent, super-agent, Mandate, Ticket, and dsh-superagent: no hits. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T11:30:31Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/4aec277f79b2",
+      "confidence": 0.9,
+      "reason": "Tip 4aec277f79b2 at 2026-11-13T11:21:14Z. Subjects since 2026-11-13T10:35:20Z are server queue, handoff analytics, and a forgotten link. None name superagent or hextor. hextor-ndc/superagent main remains pushed_at 2026-11-04T19:48:24Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "IHUI commit does not touch the super-agent path",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/deb93d3afdf8",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-13T11:11:29Z. Tip deb93d3afdf8 at 2026-11-13T11:08:04Z is an admin reason-count assertion. packages/shared/src/super-agent has no commit since 2026-11-13T10:35:20Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-13T11:27:22Z. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Foreman, touch-agent, lkshrk, oxmumu, superboard, patrol, and the mail source did not move in this window",
+      "url": "https://github.com/niechao136/dsh-foreman/commit/48d53066eefb",
+      "confidence": 0.86,
+      "reason": "dsh-foreman pushed_at remains 2026-11-13T10:02:55Z and npm stays 0.9.0. dsh-foreman-node pushed_at remains 2026-11-12T09:23:33Z and npm stays 0.7.0. touch-agent, lkshrk, lkshrk linear, oxmumu3, superboard, patrol, mail, injet, wuzhiping, tanxinz main, Laixiaomin, liyabgf, fliggy, martinxiao, DandanLLab, vivy, and AIR have no commit after 2026-11-13T10:35:20Z. awesome-dsh-plugin pushed_at remains 2026-11-12T23:43:02Z. billLiao pushed_at remains 2026-11-13T08:09:59Z. fsy0718/dsh-superagent-prototype still returns 404. None of those listed sentences were rewritten."
+    },
     {
       "title": "Discussions #13194 through #13199 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13199",
@@ -8352,12 +8377,14 @@
   ],
   "rejected_this_run": [
     {
-      "title": "pcerypeng/superagent-demo",
-      "url": "https://github.com/pcerypeng/superagent-demo",
-      "reason": "Created 2026-11-13T09:48:00Z. Description says dsh-superagent prototype demo. Not listed."
+      "title": "Labs and a bootstrap repository",
+      "url": "https://github.com/lihugo109-glitch/dsh-superagent-lab",
+      "reason": "lihugo109-glitch/dsh-superagent-lab tip 8137f78e4361 at 2026-11-13T10:38:00Z adds a Hermes Everything and mail port. The description says experimental, disposable. Not listed. xiao-xiao-hang/superagent-lab is an initial commit at 2026-11-13T10:36:43Z. shishouhai8023/test-superagent is a bootstrap commit 62472f77d210 at 2026-11-13T09:55:09Z. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "LofiSu/deepseek-super-agent pushed_at 2026-11-13T11:27:22Z. Default main remains 1c73d86a0aad. Do not list the side branch.",
+    "wychmod/dsh-mini-superagent npm gitHead 9729ecec8ef2 has no common ancestor with main tip ba75dc1f7f3e. Do not treat the published tarball as that tip.",
     "LofiSu/deepseek-super-agent pushed_at 2026-11-13T07:21:57Z. Default main remains 1c73d86a0aad. Do not list the side branch.",
     "touch-agent/dsh-superagent pushed_at 2026-11-13T06:38:27Z. Default main remains dcc7da75c590. #71 is not on main.",
     "IHUI-INF-AI/IHUI-AI pushed_at 2026-11-13T07:04:58Z. Default main remains fb34f051aea1. The super-agent path did not change.",
@@ -8561,5 +8588,5 @@
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no gitHead and was not republished in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T10:29:42Z is not a commit."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no gitHead and was not republished in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T11:30:31Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.22 (published 2026-11-13T11:30:44.631Z, no gitHead); latest stays 0.7.0. dsh-foreman latest stays 0.9.0. dsh-mini-superagent 0.9.1 was published 2026-11-13T10:55:02.939Z with gitHead 9729ecec8ef2."
 }
