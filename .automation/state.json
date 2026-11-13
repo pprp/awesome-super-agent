@@ -1,63 +1,99 @@
 {
-  "last_run_at": "2026-11-13T12:32:00Z",
+  "last_run_at": "2026-11-13T13:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "8175994",
+  "baseline_commit": "6541e0b",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T11:33:10Z",
-    "to": "2026-11-13T12:32:00Z"
+    "from": "2026-11-13T12:32:00Z",
+    "to": "2026-11-13T13:36:00Z"
   },
   "added": [
     {
-      "title": "jiefengdelutai/dsh-superagent-im",
-      "url": "https://github.com/jiefengdelutai/dsh-superagent-im",
-      "confidence": 0.86,
-      "reason": "Created 2026-11-13T11:30:57Z. Tip 4d1d8c572e3a at 2026-11-13T11:33:35Z. Root commit, not a GitHub fork, compare to 8c32a9d returns 404. private 0.1.0, MIT, engines.dsh ^0.2.1-alpha.2. npm 404. qq-official and qq-onebot default disabled. OneBot binds 127.0.0.1:6700 /onebot/v11."
-    },
-    {
-      "title": "wychmod/dsh-mini-superagent",
-      "url": "https://github.com/wychmod/dsh-mini-superagent",
+      "title": "luckyxiang6688/dsh-superagent-trace",
+      "url": "https://github.com/luckyxiang6688/dsh-superagent-trace",
       "confidence": 0.9,
-      "reason": "Tip ba75dc1f7f3e at 2026-11-13T11:07:34Z. Dispatch plugin, not the prototype Ticket model. DEFAULTS.maxWorkers is 6. FILE_VERSION is 4. Package 0.9.1, MIT, engines.dsh >=0.2.1-rc.2. npm dsh-mini-superagent@0.9.1 at 2026-11-13T10:55:02.939Z, gitHead 9729ecec8ef2, no common ancestor with the main tip. Tip README still says the registry publish has not happened."
+      "reason": "Created 2026-11-09T05:58:40Z. Behavior c0e31a94b461 at 2026-11-13T13:02:40Z. Tip fb2b0711f5f3 at 2026-11-13T13:28:48Z only changes the pack file list. DatabaseSync opens orchestrator.sqlite with readOnly true. Package 0.1.0, MIT, engines.dsh >=0.2.1-rc.0 <0.3.0. npm 404. cordis.patch.yml inserts the id and writes no config."
     }
   ],
   "updated": [
     {
-      "title": "Nelson preview.23 is on master and npm preview",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/ce0aa498a57c",
-      "confidence": 0.95,
-      "reason": "Merge #689 at 2026-11-13T12:02:18Z. #687 3f5ab6197e31 at 11:50:45Z sets package.json to 0.8.1-preview.23. Tag v0.8.1-preview.23 points at 3f5ab6197e31. npm preview at 2026-11-13T12:00:54.843Z has no gitHead. latest stays 0.7.0. docs/release.md on ce0aa498 records preview.23 as published and rewrites preview.22 as published. #685 122ba3bec05e admits a deposited CLI identity with capabilities.piSeat onto the team canvas. The Pi CLI ticket commands are not in this release. Ahead of ed64dc575d44 by 82."
-    },
-    {
-      "title": "MYCF711 advances only listed watermarks",
-      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/7d3d788a962b",
-      "confidence": 0.94,
-      "reason": "Merge #48 at 2026-11-13T11:51:10Z. Package stays 0.10.12. planWakeSettlement advances seen and lastReported only for listed items. An incomplete listing does not move the cursor. An empty fresh batch returns before send and does not clear the cursor."
-    },
-    {
-      "title": "Nelson preview.22 is on master and npm preview",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/bd442179d878",
-      "confidence": 0.95,
-      "reason": "Merge #684 at 2026-11-13T11:08:56Z. package.json is 0.8.1-preview.22. npm preview at 2026-11-13T11:30:44.631Z has no gitHead. latest stays 0.7.0. docs/release.md on that commit still calls preview.22 unpublished. #682 746f40eb55ac keeps the rail tab, counts every team's waiting tickets, and stores unsent drafts in localStorage. Ahead of ed64dc575d44 by 71."
-    },
-    {
-      "title": "Forkbomb resumes PR-number UAT waits",
-      "url": "https://github.com/ForkbombEu/superagent/commit/b78d56433180",
+      "title": "Superboard installs a first agent and defaults to GitHub tracking",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/fb61966d325a",
       "confidence": 0.93,
-      "reason": "51b57e485fd1 at 2026-11-13T10:28:14Z treats for as a non-writer and names tester/attempt-1/trace.ndjson. Tip b78d56433180 at 2026-11-13T11:01:59Z resolves a waiting-on-the-UAT-retry-for-PR report through the open PR's current head. SUPERAGENT_UAT_ENABLED stays false."
+      "reason": "Merge #658 0dee5cee5941 at 2026-11-13T13:05:20Z installs the first agent when no profile loads dsh-superagent. Profile names start with superagent-. Clone is depth 1 of the official prototype and is skipped when home() already has scripts/dsh-superagent. Merge #662 fb61966d325a at 2026-11-13T13:21:36Z defaults the projects path to github. #661 is documentation only."
     },
     {
-      "title": "MYCF711 imports POSIX chmodSync",
-      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/905aac184743",
+      "title": "MYCF711 shows the last sent wake item",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/84783e495d86",
       "confidence": 0.94,
-      "reason": "Merge #52 at 2026-11-13T10:45:45Z. Behavior is 1a08b9f43d63. hardenSecretsFile imports chmodSync from node:fs. Package stays 0.10.12."
+      "reason": "Merge #41 at 2026-11-13T12:35:58Z. Package stays 0.10.12. lastWakeItem is listed[0] only when advanceWatermark is true. Titles are truncated to 60 code points. A failed wake keeps the previous item and the dock says the previous success had no time."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13209 through #13214 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13214",
+      "confidence": 0.9,
+      "reason": "Created after 2026-11-13T12:32:00Z. #13209 and #13210 are dsh-relay, #13211 an empty streamed tool call, #13212 a skill-catalog symlink, #13213 Windows workspace-write temp files, #13214 a desktop MoveFileExW rollback. Bodies scanned for superagent, super-agent, Mandate, Ticket, and dsh-superagent: no hits. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T13:28:43Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "Nelson Pi seat lock is not on master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/d600c571",
+      "confidence": 0.9,
+      "reason": "review/pi-platform-cli pushed at 2026-11-13T12:53:04Z. Tip d600c571 is an exclusive seat lock and ticket-scoped replay facts. review/seat-token-exchange was created at 12:41:57Z and pushed again at 13:31:10Z. Master stays ce0aa498a57c. npm preview stays 0.8.1-preview.23. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code desktop setting and a server read do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/c7a3f02e3851",
+      "confidence": 0.9,
+      "reason": "c7a3f02e3851 at 2026-11-13T13:32:16Z is a desktop settings fallback. 2d8a843e6be9 at 12:32:55Z is a server worktree read. Neither subject names superagent or hextor. hextor-ndc/superagent main remains pushed_at 2026-11-04T19:48:24Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "IHUI commit does not touch the super-agent path",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/79afad392239",
+      "confidence": 0.9,
+      "reason": "Tip 79afad392239 at 2026-11-13T13:06:06Z is a miniapp CSS and lander fix. packages/shared/src/super-agent has no commit since 2026-11-13T12:32:00Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-13T13:28:25Z. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "jiefeng README and screenshots do not change the listed contract",
+      "url": "https://github.com/jiefengdelutai/dsh-superagent-im/commit/d54798949758",
+      "confidence": 0.86,
+      "reason": "d54798949758 at 2026-11-13T12:33:30Z changes README.md and docs/images only. Package, ports, and default-disabled sources were not re-read as a new contract. The listed sentence stays on 4d1d8c572e3a."
+    },
+    {
+      "title": "Xenra-SuperAgent this hour is CI and a credential-helper assertion",
+      "url": "https://github.com/RUO-MO/Xenra-SuperAgent/commit/3da44730d934",
+      "confidence": 0.72,
+      "reason": "Merge #1 at 2026-11-13T12:50:09Z touches .github/workflows/check.yml and tests/environment.spec.ts. The rename and the product commits are on main before 2026-11-13T12:32:00Z, including ancestor 8c32a9dc5d72. Not backfilled on this hourly run."
+    },
+    {
+      "title": "js-superagent default tip did not move in this window",
+      "url": "https://github.com/imjszhang/js-superagent/commit/b855bdabbfa4",
+      "confidence": 0.7,
+      "reason": "pushed_at 2026-11-13T13:29:35Z. Default tip b855bdabbfa4 at 2026-11-13T12:16:04Z is before the window and is a trusted-publishing note. The DSH adapter was not read. Not listed."
+    },
+    {
+      "title": "MosBot hermes commit is not this prototype",
+      "url": "https://github.com/MosBot-AI/hermes-superagent/commit/9d77afb17747",
+      "confidence": 0.86,
+      "reason": "9d77afb17747 at 2026-11-13T13:17:24Z retains waiter custody through a planned restart. It is a Hermes plugin. Not listed as this prototype."
+    },
+    {
+      "title": "Superboard #661 is documentation",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/0c8e0980aa62",
+      "confidence": 0.84,
+      "reason": "Merge #661 at 2026-11-13T12:56:35Z is README screenshots and operating-guide links. The listed behavior change is #658 and #662."
+    },
     {
       "title": "LofiSu main did not move",
       "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
@@ -8419,12 +8455,17 @@
   ],
   "rejected_this_run": [
     {
-      "title": "A hello script and a playground work directory",
-      "url": "https://github.com/shishouhai8023/test-superagent",
-      "reason": "shishouhai8023/test-superagent tip 9bc489cf4746 at 2026-11-13T11:53:37Z adds a Chinese usage section and scripts/hello.sh. The tree is still a bootstrap. Not listed. superstar717/dsh-superagent-playground efbfa4748f4d at 2026-11-13T11:57:24Z adds work/ graph-QA notes. The repository is a watch playground. Not listed."
+      "title": "Labs, a playground, and an empty test repository",
+      "url": "https://github.com/lihugo109-glitch/dsh-superagent-lab",
+      "reason": "lihugo109-glitch/dsh-superagent-lab 357d3f689827 at 2026-11-13T13:11:41Z is a Feishu prefix design note on a disposable lab. Not listed. xiao-xiao-hang/superagent-lab aa40fce29127 at 12:51:35Z seeds a typo. Not listed. superstar717/dsh-superagent-playground pushed_at 12:35:16Z stays a watch playground. Jr01chase/superagent-test created 13:02:57Z is empty."
     }
   ],
   "held_on_other_branches": [
+    "NelsonLongxiang/dsh-open-a2a-net review/pi-platform-cli is d600c571 at 2026-11-13T12:53:04Z. Master stays ce0aa498a57c. Do not list the branch.",
+    "NelsonLongxiang/dsh-open-a2a-net review/seat-token-exchange was created at 2026-11-13T12:41:57Z. Do not list the branch.",
+    "LofiSu/deepseek-super-agent pushed_at 2026-11-13T13:28:25Z. Default main remains 1c73d86a0aad. Do not list the side branch.",
+    "RUO-MO/Xenra-SuperAgent merge 3da44730d934 at 2026-11-13T12:50:09Z is CI. Product commits before 12:32Z were not backfilled.",
+    "imjszhang/js-superagent pushed_at 2026-11-13T13:29:35Z. Default tip remains b855bdabbfa4 at 2026-11-13T12:16:04Z. Do not list the side branch.",
     "LofiSu/deepseek-super-agent pushed_at 2026-11-13T12:26:22Z. Default main remains 1c73d86a0aad. Do not list the side branch.",
     "LofiSu/deepseek-super-agent pushed_at 2026-11-13T11:27:22Z. Default main remains 1c73d86a0aad. Do not list the side branch.",
     "wychmod/dsh-mini-superagent npm gitHead 9729ecec8ef2 has no common ancestor with main tip ba75dc1f7f3e. Do not treat the published tarball as that tip.",
@@ -8631,5 +8672,5 @@
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no gitHead and was not republished in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T12:21:52Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.23 (published 2026-11-13T12:00:54.843Z, no gitHead); tag v0.8.1-preview.23 points at 3f5ab6197e31; latest stays 0.7.0. dsh-foreman latest stays 0.9.0. dsh-mini-superagent 0.9.1 was published 2026-11-13T10:55:02.939Z with gitHead 9729ecec8ef2. dsh-superagent-im is not on npm."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no gitHead and was not republished in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T13:28:43Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.23 (published 2026-11-13T12:00:54.843Z, no gitHead); tag v0.8.1-preview.23 points at 3f5ab6197e31; latest stays 0.7.0. dsh-foreman latest stays 0.9.0. dsh-mini-superagent 0.9.1 was published 2026-11-13T10:55:02.939Z with gitHead 9729ecec8ef2. dsh-superagent-im is not on npm. dsh-superagent-trace is not on npm."
 }
