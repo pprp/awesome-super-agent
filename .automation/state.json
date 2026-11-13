@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-13T01:34:31Z",
+  "last_run_at": "2026-11-13T02:34:40Z",
   "timezone": "UTC",
   "baseline_commit": "175250f",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
@@ -8,12 +8,61 @@
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T00:39:20Z",
-    "to": "2026-11-13T01:34:31Z"
+    "from": "2026-11-13T01:34:31Z",
+    "to": "2026-11-13T02:34:40Z"
   },
   "added": [],
-  "updated": [],
+  "updated": [
+    {
+      "title": "Nelson 0.8.1-preview.19 is on master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/679de3a8b70d",
+      "confidence": 0.93,
+      "reason": "Master tip 679de3a8b70d at 2026-11-13T02:26:05Z merges #668. package.json is 0.8.1-preview.19. Tag v0.8.1-preview.19 points at that commit. npm preview published 2026-11-13T02:32:14.747Z with no gitHead; latest stays 0.7.0. docs/release.md on this commit still titles the section as unpublished. The listed sentence now names the builder preset, the staffing executor, and that #656 and #657 are on master."
+    },
+    {
+      "title": "touch-agent #73 and #75 are on main",
+      "url": "https://github.com/touch-agent/dsh-superagent/commit/afdf423db13e",
+      "confidence": 0.92,
+      "reason": "Main tip afdf423db13e at 2026-11-13T02:21:37Z merges #75 onto #73. The value gate only adopts improvement and does not write profiles. Profile writes default to enabled false. The schema has 49 route properties. Ahead of 6337fc8 by 419. #71 and #74 were not in this range."
+    }
+  ],
   "pending": [
+    {
+      "title": "Discussions #13147 through #13154 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13154",
+      "confidence": 0.9,
+      "reason": "Created after 2026-11-13T01:34:31Z. #13147 is a study panel, #13148 lost sessions after 0.2.2-rc.2, #13149 project MCP, #13150 upgrades, #13151 dsh-enhance, #13152 an open-in-app button, #13153 a pre-step crash, #13154 trigger-source headings. Scanned bodies for superagent, super-agent, Mandate, Ticket, and dsh-superagent: no hits. New comments on #12231, #12856, #5995, #2741, and #10162 also have no hits. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T02:26:51Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.2. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 hits."
+    },
+    {
+      "title": "t3code moved and hextor did not",
+      "url": "https://github.com/pingdotgg/t3code/commit/5ccc65be0a2b",
+      "confidence": 0.9,
+      "reason": "Commits on main since 2026-11-13T01:34:31Z, tip 5ccc65be0a2b at 2026-11-13T02:24:18Z. Subjects are sidebar tests, command scans, image-generation docs, Resume, SSH, branch names, commit messages, worktrees, and index.lock. None name superagent or hextor. hextor-ndc/superagent main remains 0dc3b4279c03. The listed sentence was not rewritten."
+    },
+    {
+      "title": "IHUI commits do not touch the super-agent path",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/2b4d1f062268",
+      "confidence": 0.9,
+      "reason": "Main tip 2b4d1f062268 at 2026-11-13T01:49:40Z. Commits since 01:34:31Z close plan batch 30 and API fixes F-235, F-237, F-239, F-240, and F-243. The latest commit on packages/shared/src/super-agent is still deac054b08b1 at 2026-11-08T16:35:02Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
+      "confidence": 0.86,
+      "reason": "pushed_at 2026-11-13T02:25:09Z. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. Commit search after 01:00Z returned nothing. A pull-request review at 02:29:53Z is not a main commit. The listed sentence was not rewritten."
+    },
+    {
+      "title": "injet main did not move",
+      "url": "https://github.com/injet-zhou/dsh-superagent-prototype/commit/2689ca6e63f2",
+      "confidence": 0.86,
+      "reason": "pushed_at 2026-11-13T02:30:19Z. Default main remains 2689ca6e63f2. Commits since 01:34:31Z on main are empty, and commit search after 01:00Z returned nothing. Not a new sentence."
+    },
+    {
+      "title": "No new dsh-superagent repository to list in this window",
+      "url": "https://github.com/search?q=dsh-superagent&type=repositories",
+      "confidence": 0.86,
+      "reason": "openviking-superagent/dsh-html-visual-editor was created 2026-11-13T02:32:56Z with size 0. newme2021/dsh-superagent remains empty. Do not list either. Superboard, awesome-dsh-plugin, patrol, vivy, foreman, tanxinz, both lkshrk repos, and xyt071024 did not push a default-branch commit after 01:34:31Z. awesome-dsh-plugin updated_at 02:31:28Z is not a commit."
+    },
     {
       "title": "Discussions #13144, #13145, and #13146 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13146",
