@@ -1,37 +1,80 @@
 {
-  "last_run_at": "2026-11-14T22:33:36Z",
+  "last_run_at": "2026-11-14T23:33:24Z",
   "timezone": "UTC",
-  "baseline_commit": "90e67fa",
+  "baseline_commit": "a27aacf",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-14T21:45:44Z",
-    "to": "2026-11-14T22:33:36Z"
+    "from": "2026-11-14T22:33:36Z",
+    "to": "2026-11-14T23:33:24Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "lkshrk Signal Source 0.1.0",
+      "url": "https://github.com/lkshrk/dsh-superagent-signal",
+      "confidence": 0.94,
+      "reason": "Main tip a5ee3813e32c at 2026-11-14T23:14:19Z merges #1. Package dsh-superagent-signal 0.1.0 has no private field. MIT LICENSE copyright lkshrk. engines.node ^22.19.0 || >=24.0.0. engines.dsh ^0.2.1-alpha.2 || ^0.2.2-0. cordis.patch.yml inserts the plugin disabled. apply registers kind signal and runs intake plus notices. Missing hub URL, absolute token file, or group id pauses. Missing admits, health, tickets.changed, or tickets.attachThread reports error and returns, naming dsh-superagent 0.3.0. Allowed ids go through admits with human true, UUID before number. New threads are group:timestamp. A quote of a remembered message rejoins that thread and attachThread runs when a ticket is mapped. Edits of unknown messages are ignored. Triggers are human and direct. Tag v0.1.0 is a commit object. GitHub release v0.1.0 at 2026-11-14T23:17:13Z attaches dsh-superagent-signal-0.1.0.tgz and names ghcr.io/lkshrk/dsh-superagent-signal:0.1.0@sha256:fadb084ceb145fe52168592a3cea7c0c5484bf935a28f17e263af7636c9f0c2a. npm returned 404. This run did not execute the tests."
+    }
+  ],
   "updated": [
     {
-      "title": "lkshrk fork releases private 0.3.0 with source ticket reads",
-      "url": "https://github.com/lkshrk/dsh-superagent/commit/f9de8b3ddd4b",
+      "title": "superboard neutralizes the agent mention, returns to maintenance, and groups distinct task ids",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/a028bcb8466e",
       "confidence": 0.95,
-      "reason": "Main tip f9de8b3ddd4b at 2026-11-14T22:00:27Z. package.json is private 0.3.0. engines are unchanged. Six commits after adb486ff9b6d. changed(after, limit) lists tickets after a cursor in (updatedAt, id) order with ticketStage; limit is clamped to 1-500. A missing generated updated column is added on open. health() freezes every board entry and its values. attachThread subscribes a ticket for input only, without follows or a channel change. A human-stopped ticket refuses another attach with ticketStopped. A later message on an already attached stopped ticket goes to Eval. Tag v0.3.0 is a commit object. GitHub release v0.3.0 at 2026-11-14T22:02:35Z attaches dsh-superagent-0.3.0.tgz and names ghcr.io/lkshrk/dsh-superagent:0.3.0@sha256:e54a77508e98ad948df75693df7b436491a54919df6afdb31f0f1acbe694d192. Ahead of 8c32a9d by 57, behind 0. npm dsh-superagent returned 404. This run did not execute the tests."
-    },
-    {
-      "title": "superboard names a preserved profile edit",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/ed7c52138275",
-      "confidence": 0.94,
-      "reason": "Main tip ed7c52138275 at 2026-11-14T21:59:48Z merges #734. A current package whose binding changed returns profile_changed and does not select or restart. ProfileChanged before restart also returns profile_changed and does not restore, recover, or restart. The settings line is The profile changed during sync. The edit was preserved. An older changed receipt still says Skipped: agent state changed. This run did not execute the tests."
+      "reason": "Main tip a028bcb8466e at 2026-11-14T23:01:59Z. #735 08450b5aae6f runs Executors.without_mention inside IssueBody.parent and strips only the bot login's @. #736 b61562d8f7ca redirects synchronize to /?panel=settings&section=projects&path=maintenance and opens #project-runtime-maintenance. #737 Objective.group_task_ids keeps first-seen distinct ids and rejects fewer than two. create_objective inserts only after that check. No prototype pin in the diff. This run did not execute the tests."
     }
   ],
   "pending": [
     {
-      "title": "lkshrk Signal source is an empty apply and was not listed",
+      "title": "LofiSu evolution branch moved and is not main",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/7398718c65f8",
+      "confidence": 0.95,
+      "reason": "Default main remains 23f795e58634 at 2026-11-14T13:21:09Z. feat/controlled-evolution-strategy is 7398718c65f8 at 2026-11-14T23:26:05Z, two commits ahead of e170050dfbe6. 54206042f638 at 22:35:21Z records stableJsonDigest of the in-memory search report on experiment.searchRunReceipts and freezeCandidate refuses a missing or mismatched digest. The tip binds the on-disk frozen receipt to experiment.frozenRunReceipt by stableJsonDigest, loads that sealed candidate, and refuses unless status is evaluated, reward is success, validation accuracy is at least 1, and finaltest total and accuracy are at least 1. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/c62c7649f74a",
+      "confidence": 0.9,
+      "reason": "Default main tip c62c7649f74a at 2026-11-14T23:29:16Z. The compare from cbdf35f2f0bc is 22 commits and 106 files. No filename matches superagent or hextor. hextor-ndc/superagent main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main stayed and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/f6f47e0910c2",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-14T22:43:29Z is not a main commit. Default main remains f6f47e0910c2 at 2026-11-14T21:54:40Z. Commits since 2026-11-14T22:33:36Z on packages/shared/src/super-agent: 0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "awesome-dsh-plugin landed catalog data and was not rewritten",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/466fdb910008",
+      "confidence": 0.9,
+      "reason": "Main tip 466fdb910008 at 2026-11-14T23:27:25Z. The compare from 9fb2ced14cb0 is 8 commits and 23 files. The only filenames matching superagent are data/plugins/luckyxiang6688__dsh-superagent-trace.yml and data/plugins/luckyxiang6688__dsh-superagent-wechat-source.yml. Both repositories are already listed. The listed sentence was not rewritten."
+    },
+    {
+      "title": "superstar717 playground main did not move in this window",
+      "url": "https://github.com/superstar717/dsh-superagent-playground",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-14T22:41:29Z is pull request and issue comment activity. Default main remains aa8e05c72376 at 2026-11-14T21:32:52Z. The description still says it is a watch test repo. Not listed."
+    },
+    {
+      "title": "Harness and prototype metadata moved without a commit",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13349",
+      "confidence": 0.92,
+      "reason": "No discussion newer than #13349. The newest UPDATED_AT in the first page is #11218 at 2026-11-14T21:54:38Z, before this window. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-14T22:41:14Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-14T23:26:35Z is not a commit."
+    },
+    {
+      "title": "touch-agent main and open PR heads stayed",
+      "url": "https://github.com/touch-agent/dsh-superagent/pull/88",
+      "confidence": 0.9,
+      "reason": "No commits on default main since 2026-11-14T22:00:00Z. #88 updated_at remains 2026-11-14T22:00:46Z and head remains b9caf36c408a. #87 head remains f3cde9cb0ff8. The listed sentence was not rewritten."
+    },
+    {
+      "title": "lkshrk Signal source scaffold was listed after 0.1.0",
       "url": "https://github.com/lkshrk/dsh-superagent-signal",
       "confidence": 0.9,
-      "reason": "Created 2026-11-14T22:00:57Z. Main tip 75b5e9036284 at 2026-11-14T22:03:44Z scaffolds the repository. src/index.ts only exports the name, injects orchestrator, and apply() is empty. cordis.patch.yml inserts dsh-superagent-signal with disabled true. README says it requires dsh-superagent >= 0.3.0 and that documentation follows the first release. package dsh-superagent-signal 0.1.0 has no private field. Not listed."
+      "reason": "The 22:03Z scaffold 75b5e9036284 had an empty apply(). Main tip a5ee3813e32c at 2026-11-14T23:14:19Z is listed. Do not add the URL again."
     },
     {
       "title": "timhatipoglu recap was not listed",
@@ -9725,17 +9768,15 @@
     }
   ],
   "rejected_this_run": [
-    "lkshrk/dsh-superagent-signal was not listed. src/index.ts apply() is empty and the README says documentation follows the first release.",
-    "timhatipoglu/repo-dsh-superagent is a Turkish recap with a video and was not listed.",
-    "codefufuai/codefufuai cb830f7f6c53 only refreshes cards and was not listed.",
-    "superstar717/dsh-superagent-playground stayed a watch test repo. Default main aa8e05c72376 is before this window.",
-    "Harness discussion #11218's 21:54Z comment does not name this prototype and was not listed.",
-    "touch-agent #88 head stayed b9caf36c408a. Main stayed b6a41d78a46a. LofiSu main stayed 23f795e58634 and feat/controlled-evolution-strategy stayed e170050dfbe6.",
-    "IHUI f6f47e0910c2 does not touch packages/shared/src/super-agent.",
-    "t3code cbdf35f2f0bc does not name superagent or hextor. hextor main stayed 0dc3b4279c03.",
-    "No HN story and no arXiv dsh-superagent paper in this window."
+    "superstar717/dsh-superagent-playground main stayed aa8e05c72376 and was not listed.",
+    "timhatipoglu/repo-dsh-superagent had no push in this window and stays unlisted.",
+    "awesome-dsh-plugin 466fdb910008 only refreshed data for luckyxiang6688 trace and wechat-source, which are already listed.",
+    "Discussions in this window do not name this prototype. No discussion is newer than #13349.",
+    "t3code c62c7649f74a does not name superagent or hextor.",
+    "IHUI main stayed f6f47e0910c2 and packages/shared/src/super-agent had no commit in this window."
   ],
   "held_on_other_branches": [
+    "LofiSu/deepseek-super-agent main stayed 23f795e58634. feat/controlled-evolution-strategy is 7398718c65f8 at 2026-11-14T23:26:05Z, two commits ahead of e170050dfbe6. touch-agent main had no commit in this window; #88 head stayed b9caf36c408a.",
     "touch-agent/dsh-superagent main stayed b6a41d78a46a. #87 head stayed f3cde9cb0ff8. #88 updated_at 2026-11-14T22:00:46Z and head stayed b9caf36c408a at 2026-11-14T21:30:25Z. LofiSu/deepseek-super-agent main stayed 23f795e58634. feat/controlled-evolution-strategy stayed e170050dfbe6 at 2026-11-14T21:32:06Z.",
     "NelsonLongxiang/dsh-open-a2a-net #706 merged to master as e28eba14fa4c at 2026-11-14T18:32:47Z and includes #703. The earlier open hold for #706 and the next/0.8 hold for #703 are over. #704 stays open on next/0.8, head 44dea7dfb40d. #705 stays open on next/0.8, head db13f459338d. No git tag v0.8.1-preview.26.",
     "touch-agent/dsh-superagent #88 head is d7fa120c1aee at 2026-11-14T19:04:12Z and is open against main. #87 head remains 04c9c753eb25. Default main remains b6a41d78a46a. Do not list the branches.",
@@ -9989,5 +10030,5 @@
     "LofiSu/deepseek-super-agent main stays 23f795e58634. feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. Unscoped dsh-superagent returned 404. dsh-superagent-linear returned 404. GitHub release v0.3.0 for lkshrk/dsh-superagent at 2026-11-14T22:02:35Z attaches dsh-superagent-0.3.0.tgz and names ghcr.io/lkshrk/dsh-superagent:0.3.0@sha256:e54a77508e98ad948df75693df7b436491a54919df6afdb31f0f1acbe694d192. The tag object type is commit. It did not publish to npm. Unscoped dsh-superagent returned 404. lkshrk/dsh-superagent-linear had no push in this window and its GitHub release stays v0.2.1. dsh-superagent-multi-channel latest remains 2.4.0 (published 2026-11-14T11:55:25.998Z). npm @mystic7c/dsh-superagent-panel returned 404. dsh-superagent-workbench remains 0.1.1 (published 2026-11-14T07:14:23.785Z). @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.26 (published 2026-11-14T18:52:25.051Z, 378 files, shasum 3670596fa8be6391118204966214e77ac4266b06, no gitHead). No git tag v0.8.1-preview.26 and no GitHub release. latest stays 0.7.0. @xiangyixie/dsh-superagent latest remains 0.9.3 (published 2026-11-14T13:31:15.506Z). npm @missher/dsh-superagent returned 404. dsh-superagent-trace latest remains 0.1.1. dsh-superagent-wechat-source latest remains 0.1.0. dsh-mini-superagent latest remains 0.9.1. dsh-ladder-superagents latest remains 0.2.1. dsh-foreman latest remains 0.9.0. npm @oxmumu3/dsh-superagent returned 404. @vfvrpq/dsh-superagent latest remains 0.2.3 (published 2026-11-11T16:35:08.230Z)."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. Unscoped dsh-superagent-signal returned 404. @nelsonlongxiang/dsh-open-a2a-net was not republished in this window; master stayed e28eba14fa4c."
 }
