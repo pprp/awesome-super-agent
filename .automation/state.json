@@ -1,56 +1,73 @@
 {
-  "last_run_at": "2026-11-14T19:33:32Z",
+  "last_run_at": "2026-11-14T20:33:28Z",
   "timezone": "UTC",
-  "baseline_commit": "c27baad",
+  "baseline_commit": "9afb30b",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-14T18:35:00Z",
-    "to": "2026-11-14T19:33:32Z"
+    "from": "2026-11-14T19:33:32Z",
+    "to": "2026-11-14T20:33:28Z"
   },
   "added": [],
-  "updated": [
-    {
-      "title": "Nelson master publishes preview.26 scope hints",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/e28eba14fa4c",
-      "confidence": 0.95,
-      "reason": "Master tip e28eba14fa4c at 2026-11-14T18:32:47Z merges #706. Ahead of 626e96caa6a9 by 5. #703 a680279c24e4 is included. package.json is 0.8.1-preview.26. docs/release.md still says the section is a candidate awaiting publish. No git tag v0.8.1-preview.26 and no GitHub release. npm preview is 0.8.1-preview.26 at 2026-11-14T18:52:25.051Z, 378 files, shasum 3670596fa8be6391118204966214e77ac4266b06, no gitHead. latest stays 0.7.0. a2a_teams lists a peer session shared on that peer's own canvas with [shared via]. scopeHints is read-only, capped at 64. The board chip is 协作提示(N). Routing admission is unchanged. #704 and #705 stay on next/0.8. This run did not execute the tests."
-    },
-    {
-      "title": "Missher 1.10.9 waits for source events",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent/commit/9aba8309ad1f",
-      "confidence": 0.94,
-      "reason": "Main tip 9aba8309ad1f at 2026-11-14T18:38:40Z is private 1.10.9. Release v1.10.9 at 2026-11-14T18:39:20Z is not a draft and attaches missher-dsh-superagent-1.10.9.tgz. engines.dsh stays ^0.2.1-rc.4 || 0.2.2-rc.1. orchestrator_report adds waiting and wait_for. eventWaits resume the same member on a later non-human trigger and do not grant permissions. The first CI snapshot of a followed PR is received. Current DSH interrupts running resident descendants. npm @missher/dsh-superagent returned 404. This run did not execute the tests."
-    },
-    {
-      "title": "booth 0.3.6 waits for an existing runtime",
-      "url": "https://github.com/lanshi17/dsh-booth/commit/9b04220511de",
-      "confidence": 0.94,
-      "reason": "Master tip 9b04220511de at 2026-11-14T18:45:43Z sets Cargo 0.3.6. start waits up to READY_TIMEOUT of 90 seconds for a management API that is already running. A bare booth always calls service::start. The submodule pointer is not in the diff. This run did not execute the tests."
-    },
-    {
-      "title": "session wakes defer while descendants run",
-      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/abdf53e2ea7d",
-      "confidence": 0.93,
-      "reason": "Main tip abdf53e2ea7d at 2026-11-14T19:25:43Z merges #57. Package stays 0.11.0. engines.dsh stays >=0.2.2-rc.1 <0.3.0-0. A live descendant blocks a wake even when agent status is idle. An unavailable sessionQuery probe keeps the old idle check. Busy defer does not advance the watermark or write a wake error. Flush is single-flight. README says 1119 tests. This run did not execute the tests."
-    },
-    {
-      "title": "lkshrk fork releases private 0.2.1 on GitHub and GHCR",
-      "url": "https://github.com/lkshrk/dsh-superagent/releases/tag/v0.2.1",
-      "confidence": 0.95,
-      "reason": "Main tip adb486ff9b6d at 2026-11-14T18:34:42Z. Annotated tag v0.2.1 points at that commit. package.json version is 0.2.1 and stays private. engines are unchanged. Two commits after 709303f4dc5b do not touch src/. GitHub release v0.2.1 at 2026-11-14T18:43:20Z is not a draft and attaches dsh-superagent-0.2.1.tgz. The notes name ghcr.io/lkshrk/dsh-superagent:0.2.1@sha256:9cd4e0146bcc56db161731149329c2dbde49d515b4e69384ee6dc8b2b93b46a8. The workflow does not npm publish. Unscoped dsh-superagent returned 404. Ahead of 8c32a9d by 51, behind 0. This run did not execute the tests."
-    },
-    {
-      "title": "Linear source releases 0.2.1 on GitHub and GHCR",
-      "url": "https://github.com/lkshrk/dsh-superagent-linear/releases/tag/v0.2.1",
-      "confidence": 0.95,
-      "reason": "Main tip fd80a0791dc3 at 2026-11-14T18:34:43Z. Annotated tag v0.2.1 points at that commit. package.json version is 0.2.1 and has no private field. engines are unchanged. Two commits after e799ad1baaae do not touch src/. GitHub release v0.2.1 at 2026-11-14T18:42:35Z is not a draft and attaches dsh-superagent-linear-0.2.1.tgz. The notes name ghcr.io/lkshrk/dsh-superagent-linear:0.2.1@sha256:ba94692e22566f533fa92dfc815370447e9209b7e0b8bf27df9c69e61dc1df61. npm dsh-superagent-linear returned 404. This run did not execute the tests."
-    }
-  ],
+  "updated": [],
   "pending": [
+    {
+      "title": "Discussions #13345 and #13346 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13346",
+      "confidence": 0.9,
+      "reason": "#13345 at 2026-11-14T19:33:54Z is dsh web failing on 0.1.0-rc.8 and 0.1.2-alpha.2 because HMR is missing. #13346 at 2026-11-14T19:43:50Z is an unpinned sidebar entry on Desktop 0.2.2-rc.3. #13321 updated at 2026-11-14T19:41:16Z is the bookshelf plugin v1.1.3. No title or body matches superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T20:21:04Z is not a commit. Harness tip remains 39163dd30f70; pushed_at 2026-11-13T07:56:25Z; updated_at 2026-11-14T20:29:10Z is not a commit."
+    },
+    {
+      "title": "touch-agent #87 shows a project owner and is not main",
+      "url": "https://github.com/touch-agent/dsh-superagent/pull/87",
+      "confidence": 0.9,
+      "reason": "Default main remains b6a41d78a46a. #87 is open against main, head 3f05d42e32f3 at 2026-11-14T20:00:50Z, updated 2026-11-14T20:00:54Z. That commit shows the project owner in project task detail. #88 head remains d7fa120c1aee, updated 2026-11-14T20:01:26Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu evolution lock stays off main",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/9a45ec10efbf",
+      "confidence": 0.9,
+      "reason": "Default main remains 23f795e58634. feat/controlled-evolution-strategy is 9a45ec10efbf at 2026-11-14T20:24:46Z. It acquires search-run.lock before creating an experiment and refuses to overwrite. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/a20c4dba9e8c",
+      "confidence": 0.9,
+      "reason": "Default main tip a20c4dba9e8c at 2026-11-14T20:29:26Z. The compare from 0cf9423d8b12 is 15 commits and 45 files. No filename matches superagent or hextor. hextor-ndc/superagent main had no commits in this window. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/d4b4efd1bc94",
+      "confidence": 0.9,
+      "reason": "Default main tip d4b4efd1bc94 at 2026-11-14T20:12:25Z. Commits since 2026-11-14T18:35:00Z on packages/shared/src/super-agent: 0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "MosBot main moved and is not this prototype",
+      "url": "https://github.com/MosBot-AI/hermes-superagent/commit/e52b450ea3b9",
+      "confidence": 0.9,
+      "reason": "Default main tip e52b450ea3b9 at 2026-11-14T19:56:37Z fences enrollment pause and resume. It remains a Hermes plugin. Not listed as this prototype."
+    },
+    {
+      "title": "Plugin catalog commits do not add a prototype row",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/9fb2ced14cb0",
+      "confidence": 0.88,
+      "reason": "58 commits from d5f2a1ec31c3 at 2026-11-14T20:15:56Z through 9fb2ced14cb0 at 2026-11-14T20:21:17Z. The only message matching super-agent is 8780f9b8d2ab, a catalog blurb for shilaoban666/dsh-imperial-court. That repository's pushed_at is 2026-11-14T18:28:58Z, before this window, and its description is a separate multi-tool court. billLiao/awesome-dsh-plugin had no commits in this window. The listed sentence was not rewritten."
+    },
+    {
+      "title": "New superagent-named repos in this window are not this prototype",
+      "url": "https://github.com/hjh939325136-alt/superagent-dispatch",
+      "confidence": 0.86,
+      "reason": "hjh939325136-alt/superagent-dispatch was created 2026-11-14T20:14:12Z. Its README is a Python standard-library coordinator and does not name DSH, Harness, Mandate, or Ticket. beidou6972yh/dsh-bw-router was created 2026-11-14T20:07:19Z, size 0, and describes in-session model switching. NEO-Digital-AT/contao-superagent-bundle 9086fc89f78c at 2026-11-14T20:22:20Z is a Contao website chat. superstar717/dsh-superagent-playground pushed_at is 2026-11-14T20:11:03Z; default main remains 9e8c7ed3262a at 2026-11-14T03:16:21Z and the description still says it is a watch test repo. Not listed."
+    },
+    {
+      "title": "Nelson master and the checked derivative tips did not move",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/e28eba14fa4c",
+      "confidence": 0.9,
+      "reason": "Master remains e28eba14fa4c. next/0.8 had no commits in this window. #704 and #705 remain open on next/0.8. npm preview remains 0.8.1-preview.26 at 2026-11-14T18:52:25.051Z. latest remains 0.7.0. Missher, booth, MYCF711, both lkshrk repos, superboard, LittleChenLiya, TianzeLuo, 439436269, injet-zhou, oxmumu3, Yukikaze, baojingyu, Aily manager, louifinn, foreman, fliggy, ninesky, myagent, vicfei, ForkbombEu, gxcsoccer/router, Laixiaomin, YansongG, shinji mail, Missher dashboard, hustnn, zvv1999, hextor, patrol, workbench, AirKyzzZ, and mystic7c panel had no default-branch commits in this window. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3. @missher/dsh-superagent and unscoped dsh-superagent returned 404."
+    },
     {
       "title": "Discussion #13344 does not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13344",
@@ -9605,14 +9622,14 @@
     }
   ],
   "rejected_this_run": [
-    "Harness discussion #13344 does not name this prototype and was not listed.",
-    "Harness discussion #5684 does not name this prototype.",
-    "touch-agent #88 d7fa120c1aee is open against main. Main stayed b6a41d78a46a.",
-    "t3code 0cf9423d8b12 does not name superagent or hextor.",
-    "IHUI 6f4765cd2104 does not touch packages/shared/src/super-agent.",
-    "MosBot-AI/hermes-superagent eba57dd63411 is not this prototype.",
-    "Seventeen new DSH plugins created in this window were not listed.",
-    "Nelson #704 and #705 stayed on next/0.8."
+    "Harness discussions #13345 and #13346 do not name this prototype and were not listed.",
+    "Discussion #13321's v1.1.3 update is the bookshelf plugin and was not listed.",
+    "hjh939325136-alt/superagent-dispatch does not name this prototype and was not listed.",
+    "beidou6972yh/dsh-bw-router is an empty model-router plugin and was not listed.",
+    "NEO-Digital-AT/contao-superagent-bundle is a Contao chat extension and was not listed.",
+    "superstar717/dsh-superagent-playground remains a watch test repo and was not listed.",
+    "shilaoban666/dsh-imperial-court was not pushed in this window and was not listed.",
+    "MosBot-AI/hermes-superagent remains a Hermes plugin and was not listed."
   ],
   "held_on_other_branches": [
     "NelsonLongxiang/dsh-open-a2a-net #706 merged to master as e28eba14fa4c at 2026-11-14T18:32:47Z and includes #703. The earlier open hold for #706 and the next/0.8 hold for #703 are over. #704 stays open on next/0.8, head 44dea7dfb40d. #705 stays open on next/0.8, head db13f459338d. No git tag v0.8.1-preview.26.",
