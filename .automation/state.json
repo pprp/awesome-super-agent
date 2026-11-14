@@ -1,38 +1,62 @@
 {
-  "last_run_at": "2026-11-14T02:35:28Z",
+  "last_run_at": "2026-11-14T03:36:28Z",
   "timezone": "UTC",
-  "baseline_commit": "19f0a8f",
+  "baseline_commit": "e56bc7b",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-14T01:34:41Z",
-    "to": "2026-11-14T02:35:28Z"
+    "from": "2026-11-14T02:35:28Z",
+    "to": "2026-11-14T03:36:28Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Ladder 0.3.1 runs CLI tiers on macOS",
-      "url": "https://github.com/Yukikaze-Ai/dsh-ladder-superagents/commit/3f512dc43427",
+      "title": "Operator lines reach stderr and Linear names are exact",
+      "url": "https://github.com/lkshrk/dsh-superagent/commit/b0d7a60b3ed4",
       "confidence": 0.95,
-      "reason": "3f512dc43427 at 2026-11-14T01:15:48Z was pushed by 02:27:30Z, after the previous stamp. Package 0.3.1. CLI discovery, launch and stop go through one platform layer. macOS is verified with fixture CLIs (commit message: 48 pass, 3 skipped). Codex itself stays verified on Windows only. Linux uses the POSIX path untested. llm tiers unchanged. engines.dsh stays >=0.2.2-0. os stays unrestricted. npm latest stays 0.2.1."
+      "reason": "b0d7a60b3ed4 at 2026-11-14T03:27:51Z. report writes the plugin logger and stderr. Remaining warn and error calls, and the ready line, use it. Linear tools match a bare name or linear_app- only. A blank or NUL upload filename is refused. Package stays private 0.1.0. Ahead of 8c32a9d by 36, behind 0."
     },
     {
-      "title": "Linear workers can upload PNG, JPEG and WebP",
-      "url": "https://github.com/lkshrk/dsh-superagent/commit/73bf27187e34",
-      "confidence": 0.95,
-      "reason": "73bf27187e34 at 2026-11-14T01:50:34Z. remoteWorkers Linear ticket workers and their subagents get prepare_file_upload, bare or LiteLLM linear_app- prefixed. Split workers keep the six Linear tools plus upload. A non-split Linear worker gets only the upload among Linear tools. GitHub workers, their subagents and the main Session do not. Guard allows image/png, image/jpeg and image/webp, a whole-byte size from 1 to 10 MiB, and a 1 to 200 character filename without slash or backslash. Package stays private 0.1.0. Ahead of 8c32a9d by 35, behind 0."
-    },
-    {
-      "title": "Booth routes WeChat and Feishu into one portal conversation",
-      "url": "https://github.com/lanshi17/dsh-booth/commit/2ee1b9646d31",
-      "confidence": 0.93,
-      "reason": "Default master tip 2ee1b9646d31 at 2026-11-14T02:12:38Z, 9 ahead of listed 7bba79795707. ab71e8bea5c0 persists portal conversations and worker tasks. 066f962a74d7 adds booth wechat login (iLink link, mode 0600, saved session skips a later QR). 50e5efa5f293 adds booth feishu login. e5120110f065 routes Feishu into the portal. Submodule pin is 2febfad95e95, 7 ahead of 8c32a9d and 0 behind: a Feishu direct chat keys one conversation by feishu: plus chatId. Cargo stays 0.3.0."
+      "title": "An unreadable Linear epic retries from start",
+      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/68e5e9104c6e",
+      "confidence": 0.94,
+      "reason": "cbdf160f968d at 2026-11-14T03:23:19Z asks for start in the session instead of a new delegation. A start prompt whose sub-issue read fails is held for up to 10 minutes, then errors and the prompt cursor moves on. A later successful read releases the hold. A prompt reuses IssueContext and does not call EpicCheck again. Tip 68e5e9104c6e at 03:32:14Z is a test that the released hold is not taken again. Package stays 0.1.0."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13252 through #13256 and ten new comments do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13256",
+      "confidence": 0.9,
+      "reason": "#13252 was created at 2026-11-14T02:45:26Z and is an auth-cookie header overflow. #13253 was created at 02:52:36Z and is a missing dsh-error dependency. #13254 was created at 02:55:31Z and is copy about agent-team collaboration. #13255 was created at 03:08:31Z and is a wedged v4 persistence batch. #13256 was created at 03:27:04Z and asks for a UI plugin convention. New comments at 03:04–03:06Z on #13204, #10264, #10262, #10260, #10296, #10261, #11261, #11490, #11495, and #8769 were scanned with the bodies. No title, body, or new comment contains superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T03:11:16Z is not a commit. Harness tip remains 39163dd30f70; pushed_at 2026-11-13T07:56:25Z; updated_at 2026-11-14T03:32:36Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/e5835c993a6a",
+      "confidence": 0.9,
+      "reason": "Default main tip e5835c993a6a at 2026-11-14T03:21:55Z. The compare from 83ee1f5d4862 has 3 commits and 21 files, and none match superagent or hextor. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/d8459f39965d",
+      "confidence": 0.9,
+      "reason": "Default main tip d8459f39965d at 2026-11-14T03:31:20Z. The two commits from c9d0c23d5eea through this tip are billing and points files. None touch packages/shared/src/super-agent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "oo1108yyy/dsh-superagent-lab is a lab",
+      "url": "https://github.com/oo1108yyy/dsh-superagent-lab",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-14T02:42:08Z. Pushed 2026-11-14T03:21:13Z. README is only the title. Open issues are a check-in page exercise. Not listed."
+    },
+    {
+      "title": "bronlebron11-eng/superagent-test is a test repository",
+      "url": "https://github.com/bronlebron11-eng/superagent-test",
+      "confidence": 0.92,
+      "reason": "Created 2026-11-14T02:39:40Z. Pushed 2026-11-14T02:39:42Z. Description says Test repo for dsh-superagent. Size 0, no license. Not listed."
+    },
     {
       "title": "Discussions #13250 and #13251 and five new comments do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13251",
@@ -8837,10 +8861,11 @@
     }
   ],
   "rejected_this_run": [
-    "Derv1ol/dsh_superagent is an empty repository and was not listed.",
-    "touch-agent pull request #83 is not merged to main and was not listed."
+    "oo1108yyy/dsh-superagent-lab is a lab and was not listed.",
+    "bronlebron11-eng/superagent-test is an empty test repository and was not listed."
   ],
   "held_on_other_branches": [
+    "LofiSu/deepseek-super-agent pushed_at 2026-11-14T03:28:23Z. Default main remains 1c73d86a0aad. feat/controlled-evolution-strategy is d05fdfbd733d. Do not list the side branch.",
     "LofiSu/deepseek-super-agent pushed_at 2026-11-13T22:27:48Z. Default main remains 1c73d86a0aad. feat/controlled-evolution-strategy is c4662f8d4dcd. Do not list the side branch.",
     "JokersDH/dsh-superagent-prototype main stays f29c9e62fb82. Do not list side branches.",
     "22-ai-00/dsh-enhanced dev is 398f99532d13 at 2026-11-13T16:02:25Z. Main stays 64e9215e10d8. Do not list the branch.",
@@ -9059,5 +9084,5 @@
     "LofiSu/deepseek-super-agent main stays 1c73d86a0aad. feat/controlled-evolution-strategy is 817d6764d4e1 at 2026-11-14T01:17:22Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T02:27:11Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. dsh-ladder-superagents latest remains 0.2.1 (published 2026-11-11T03:33:15.526Z); the repo tip is 0.3.1 and is not on npm. npm has no @mystic7c/dsh-superagent-panel."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T03:11:16Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. dsh-ladder-superagents latest remains 0.2.1 (published 2026-11-11T03:33:15.526Z); the repo tip is 0.3.1 and is not on npm. npm has no @mystic7c/dsh-superagent-panel."
 }
