@@ -1,32 +1,62 @@
 {
-  "last_run_at": "2026-11-14T00:39:25Z",
+  "last_run_at": "2026-11-14T01:34:41Z",
   "timezone": "UTC",
-  "baseline_commit": "e767f8c",
+  "baseline_commit": "8af515a",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T23:36:12Z",
-    "to": "2026-11-14T00:39:25Z"
+    "from": "2026-11-14T00:39:25Z",
+    "to": "2026-11-14T01:34:41Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Superboard shows merge requirements first and hides task-stage commands",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/3d8fe5d0ac4d",
+      "title": "Ladder 0.3.0 requires DSH 0.2.2, can stop a worker, and installs off Windows",
+      "url": "https://github.com/Yukikaze-Ai/dsh-ladder-superagents/commit/0d344014b20b",
       "confidence": 0.95,
-      "reason": "#692 3d8fe5d0ac4d at 2026-11-13T23:41:10Z. Quality & merge shows merge requirements first and Task stages after them. The summary names detected technologies, how many stages run on every task, and how many run on related changes. Detected technology with no active stages says No active stages. Nothing detected says Technology not yet detected. Commands stay closed until Edit stages, or Choose technology when nothing is detected and there are no active stages. Closing the editor drops unsaved edits. A successful save closes it. Hiding the section clears editing and chosen_stack. The found/total count appears only while the project search box is non-empty. The check rules themselves are unchanged."
+      "reason": "045d228f0686 at 2026-11-14T00:39:24Z sets package 0.3.0 and engines.dsh >=0.2.2-0; os stays win32. 3c7ae1adc917 at 00:59:43Z adds supa_stop, a sessionOf shim, direct children via listDescendants, and a live running count on the SupA pill. Tip 0d344014b20b at 01:03:06Z removes os win32. npm latest remains 0.2.1."
     },
     {
-      "title": "Ladder stops injecting full reports and passes a team task id only when teams are on",
-      "url": "https://github.com/Yukikaze-Ai/dsh-ladder-superagents/commit/32ec965df94e",
-      "confidence": 0.94,
-      "reason": "d81b29dbf630 at 2026-11-13T23:55:49Z stops injecting the full child report and removes the sendMessage fallback. Reports stay queued. scheduleInboxWake still calls safeFollowup with a short Inbox line when the parent status is not running. f8157fd7c4c0 at 23:58:11Z spreads the startActivation request; the commit says the new DSH flattens the activation spec. A failure throws startActivation failed with the message and two stack lines. 087e9b4dd04a at 2026-11-14T00:18:19Z adds optional supa_spawn string task. The charter says multi-worker work creates tasks with team_task_create, passes task, and reads team_task_list; the inbox carries results. The worker prompt says team_task_get, team_task_update action claim, do the work, team_task_update action complete, then supa_report. Tip 32ec965df94e at 00:18:44Z writes that section only when agentTeams.isEnabled(agent) is true. Passing task while teams are off writes nothing. This commit does not implement the team_task tools. Package stays dsh-ladder-superagents 0.2.1. npm latest stays 0.2.1, modified 2026-11-11T03:33:15.700Z."
+      "title": "Ticket page opens the executor Session",
+      "url": "https://github.com/touch-agent/dsh-superagent/pull/82",
+      "confidence": 0.95,
+      "reason": "#82 merged at 2026-11-14T00:55:29Z as 4388fa440065. The ticket header opens sessionId (worker-<ticketId>) instead of the source Trigger's main session. A ticket with no started Assignment keeps the button disabled. 451 commits ahead of 6337fc8 and 0 behind."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13247 through #13249 and three comments do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13249",
+      "confidence": 0.9,
+      "reason": "#13247 was created at 2026-11-14T00:32:08Z and is a Windows junction workspace mismatch. #13248 was created at 00:51:39Z and its comment at 01:06:07Z is a macOS x64 download link. #13249 was created at 01:04:23Z and asks to pin workspaces. #4270's comment at 01:15:46Z is about reloading a plugin in creative mode. #8541's comment at 01:01:36Z is about subagent allowed-route sampling. #13189's updated_at 00:57:22Z is not a new comment. No title, body, or new comment contains superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T01:15:02Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/67699df3d12e",
+      "confidence": 0.9,
+      "reason": "Default main tip 67699df3d12e at 2026-11-14T01:28:49Z. The compare from f5ae8088c354 has 14 commits and 144 files, and none match superagent or hextor. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-14T01:19:59Z is feat/controlled-evolution-strategy at 817d6764d4e1 (2026-11-14T01:17:22Z). Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson master did not move",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/ce0aa498a57c",
+      "confidence": 0.9,
+      "reason": "master remains ce0aa498a57c at 2026-11-13T12:02:18Z. next/0.8 is dddec60e4d36, merging #688 at 2026-11-14T01:06:21Z (Pi seats answer with ticket ops). fix/decision-original-request-auth is 515bbedeab89 at 01:22:49Z. review/seat-token-exchange is ef40a05bd258 at 01:12:34Z. None of these is master. npm preview remains 0.8.1-preview.23 and latest remains 0.7.0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "pinren/superagent-lab is a sandbox",
+      "url": "https://github.com/pinren/superagent-lab",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-13T21:46:33Z. Pushed 2026-11-14T01:00:56Z. The description calls it a dsh-superagent practice range and an empty repo. Tip 03ec8c12a521 merges a hello line into the README. Not listed."
+    },
     {
       "title": "Discussions #13244 through #13246 and two comments do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13246",
@@ -8770,7 +8800,10 @@
       "reason": "iMC-Superagent 5d789f33ff0f at 2026-11-09T21:27:27Z is a touch-editor overhaul of a Minecraft client. MosBot 9b65525947ad at 21:09:56Z is a SQLite diagnostic test. SkillfulAgents 484307f065dd at 20:48:30Z merges a Sentry maintenance PR. None name this prototype. Not listed."
     }
   ],
-  "rejected_this_run": [],
+  "rejected_this_run": [
+    "pinren/superagent-lab is a sandbox and was not listed.",
+    "A commit search hit in caldwelljoseph88/cal is marketing SEO and was not listed."
+  ],
   "held_on_other_branches": [
     "LofiSu/deepseek-super-agent pushed_at 2026-11-13T22:27:48Z. Default main remains 1c73d86a0aad. feat/controlled-evolution-strategy is c4662f8d4dcd. Do not list the side branch.",
     "JokersDH/dsh-superagent-prototype main stays f29c9e62fb82. Do not list side branches.",
@@ -8985,8 +9018,10 @@
     "IceFireIcer/DS-SuperAgent dev 017f343d03 (2026-11-11T15:11:16Z push) is not main. Main stays 1d6112864d9f.",
     "pingdotgg/t3code pushed_at 2026-11-11T15:20:54Z. Default main stays d2c25950b4d9 at 2026-11-11T13:46:30Z. hextor-ndc/superagent main stays 0dc3b4279c03.",
     "sallaumen/dsh-superagent-superboard #636 55f2304364ce (2026-11-11T20:53:17Z, chore/dialyzer-in-gates) is not main. Main stays 1cc1eba31fd4.",
-    "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8."
+    "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8.",
+    "NelsonLongxiang/dsh-open-a2a-net master stays ce0aa498a57c. next/0.8 is dddec60e4d36 (#688, 2026-11-14T01:06:21Z). fix/decision-original-request-auth is 515bbedeab89 at 2026-11-14T01:22:49Z. review/seat-token-exchange is ef40a05bd258 at 2026-11-14T01:12:34Z. Do not list non-default branches.",
+    "LofiSu/deepseek-super-agent main stays 1c73d86a0aad. feat/controlled-evolution-strategy is 817d6764d4e1 at 2026-11-14T01:17:22Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T00:22:18Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T01:15:02Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. dsh-ladder-superagents latest remains 0.2.1 (published 2026-11-11T03:33:15.526Z); the repo tip is 0.3.0 and is not on npm. npm has no @mystic7c/dsh-superagent-panel."
 }
