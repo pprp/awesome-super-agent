@@ -1,38 +1,86 @@
 {
-  "last_run_at": "2026-11-14T15:37:52Z",
+  "last_run_at": "2026-11-14T16:35:05Z",
   "timezone": "UTC",
-  "baseline_commit": "15bb10e",
+  "baseline_commit": "bfce740",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-14T14:36:40Z",
-    "to": "2026-11-14T15:37:52Z"
+    "from": "2026-11-14T15:37:52Z",
+    "to": "2026-11-14T16:35:05Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "TianzeLuo 0.13.0 adds scoped collaborator handoffs",
-      "url": "https://github.com/TianzeLuo/dsh-super-agent/commit/b7607c738a62",
+      "title": "YansongG 0.3.4 aligns peers with DSH 0.2.2-rc.3",
+      "url": "https://github.com/YansongG-HKU/dsh-superagent-windows/commit/94a988559c0e",
+      "confidence": 0.94,
+      "reason": "windows-port tip 94a988559c0e at 2026-11-14T16:23:20Z. Annotated tag v0.3.4-windows.1 points at that commit. Diff is only CHANGELOG.md and package.json. private version moves from 0.3.3 to 0.3.4. engines.dsh moves from >=0.2.2-rc.1 to >=0.2.2-rc.3. @deepseek-ai/dsh-* peers move from ^0.2.2-rc.1 to ^0.2.2-rc.3. @deepseek-ai/cordis stays ~4.1.0. @deepseek-ai/schemastery stays 3.19.0. engines.node stays ^22.19.0 || >=24.0.0. src/ and tools/ are not in the diff. The changelog says Windows port behaviour is unchanged. Ahead of 8c32a9d by 20, behind 0. This run did not execute the tests."
+    },
+    {
+      "title": "TianzeLuo 0.13.1 adds collaboration setup help",
+      "url": "https://github.com/TianzeLuo/dsh-super-agent/commit/5459522dd4cc",
       "confidence": 0.93,
-      "reason": "Master tip b7607c738a62 at 2026-11-14T15:03:04Z. package.json moves from 0.12.2 to private 0.13.0. engines.node stays >=22.5 and engines.dsh stays >=0.2.1. Collaboration is off until a human enables it. expected_revision must match. A handoff changes assigneeTopicId only after active Workers and child requests finish. Groups are 2 to 6 members, at most 32 groups and 64 active requests. A human post with no recipients goes to the group coordinator. An agent may name one recipient. Eight automatic hops per root request. This run did not execute the plugin."
+      "reason": "Master tip 5459522dd4cc at 2026-11-14T16:04:37Z. package.json moves from private 0.13.0 to private 0.13.1. engines.node stays >=22.5. engines.dsh stays >=0.2.1. The diff is lib/client.js, test/collaboration-client.test.mjs, docs, and screenshots. No server handoff file changed. Roles and permissions are two steps: enable collaboration first, role optional; the primary select stays disabled until one collaborator is enabled and says a primary can be left unset. The initiating chat does not need collaboration enabled. The header button 如何使用分身协作 opens help; Escape closes it and returns focus to that button. This run did not execute the plugin."
     },
     {
-      "title": "hustnn console defaults to English",
-      "url": "https://github.com/hustnn/dsh-superagent-ui/commit/9a345bc71d37",
+      "title": "touch-agent #86 is an unimplemented project-view design",
+      "url": "https://github.com/touch-agent/dsh-superagent/pull/86",
       "confidence": 0.92,
-      "reason": "Main tip 9a345bc71d37 at 2026-11-14T14:54:37Z merges #2. 57dd8880e4c2 is the English commit. console.lang is English unless localStorage is exactly zh, and setLang reloads. The BFF reads x-console-lang and defaults to en. The submodule pin was not part of this diff. package.json was not in the diff."
-    },
-    {
-      "title": "YansongG PATH test follows the platform",
-      "url": "https://github.com/YansongG-HKU/dsh-superagent-windows/commit/bf3cc5531e7f",
-      "confidence": 0.9,
-      "reason": "windows-port tip bf3cc5531e7f at 2026-11-14T14:56:39Z changes only tests/worker-shells.spec.ts and CHANGELOG.md. The assertion splits PATH on ';' on Windows and ':' elsewhere. package.json at that tip is private 0.3.3, engines.node ^22.19.0 || >=24.0.0, engines.dsh >=0.2.2-rc.1. Ahead of 8c32a9d by 19, behind 0. 156840480e46 (2026-11-12, v0.3.3 cluster model route) was not read line by line."
+      "reason": "Main tip b6a41d78a46a at 2026-11-14T16:29:37Z merges #86. docs/029-project-task-view.zh.md says the status is a design proposal and not implemented: no product code, no real data writes, no API changes. The proposal treats project, task, and subtask as Ticket kinds, binds an owner worker, keeps tasks as the root authorization unit, and does not cancel tasks on archive. docs/prototypes/task-projects.html is a clickable prototype. The changeset says implementation is later, phased, behind a rollback flag. No src/ file is in the diff. package stays private 0.1.0. engines.dsh stays ^0.2.1-rc.5. Ahead of 6337fc8 by 486, behind 0. This run did not execute the fork."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13332 through #13336 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13336",
+      "confidence": 0.9,
+      "reason": "#13332 at 2026-11-14T15:43:01Z is idle MCP tool schemas. #13333 at 15:48:37Z is a Desktop 0.2.2-rc.3 boot crash. #13334 at 15:48:38Z is a session-history OOM workaround. #13335 at 16:17:17Z is harness-dev-context inside app.asar. #13336 at 16:28:37Z is an empty user message after Continue. No title or body matches superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z. Harness tip remains 39163dd30f70; pushed_at 2026-11-13T07:56:25Z."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/77b38f9b09a9",
+      "confidence": 0.9,
+      "reason": "Default main tip 77b38f9b09a9 at 2026-11-14T16:30:18Z. The compare from 0487654fc8f2 is 21 commits and 64 files. None match superagent or hextor. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/c364f12f7358",
+      "confidence": 0.9,
+      "reason": "Default main tip c364f12f7358 at 2026-11-14T16:14:11Z. Commits since 2026-11-14T15:37:52Z on packages/shared/src/super-agent: 0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu evolution branch moved and is not main",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/4e41e93f5255",
+      "confidence": 0.9,
+      "reason": "feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Default main remains 23f795e58634. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson #704 was commented on and stays on next/0.8",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/704",
+      "confidence": 0.9,
+      "reason": "Master tip remains 626e96caa6a9. pushed_at 2026-11-14T16:13:09Z is an issue comment on #704, not a master commit. #704 head is 44dea7dfb40d, updated 2026-11-14T16:13:14Z, base next/0.8. #703 head remains 8862bed5c5b1, updated 2026-11-14T15:22:45Z, before this window. npm preview remains 0.8.1-preview.25. latest remains 0.7.0. The master sentence was not rewritten."
+    },
+    {
+      "title": "billLiao reclassified an unrelated remote plugin",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/43dab661ffb2",
+      "confidence": 0.88,
+      "reason": "Main tip 43dab661ffb2 at 2026-11-14T16:04:35Z moves flymysql/dsh-remote from UI enhancements to development-runtime. That plugin is SSH remote workspaces, not this prototype. The listed sentence was not rewritten."
+    },
+    {
+      "title": "tanxinz main did not move",
+      "url": "https://github.com/tanxinz/dsh-superagent/commit/cf3119c80cf1",
+      "confidence": 0.86,
+      "reason": "pushed_at 2026-11-14T16:27:43Z is a pull request event. Default main remains cf3119c80cf1 at 2026-11-14T04:42:23Z. No default-branch commit since 2026-11-14T15:37:52Z. Not listed."
+    },
+    {
+      "title": "hez2z-superagent is a profile README",
+      "url": "https://github.com/hez2z-superagent/hez2z-superagent",
+      "confidence": 0.84,
+      "reason": "Created 2026-11-14T15:53:29Z. The README describes an automated account that says it runs on dsh-superagent-prototype and works on agent-fit-trace. It is not a new bundle, tool, or document beyond the profile. Not listed."
+    },
     {
       "title": "Discussions #13320 through #13331 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13331",
@@ -9425,15 +9473,14 @@
     }
   ],
   "rejected_this_run": [
-    "Harness discussions #13320 through #13331 do not name this prototype and were not listed.",
-    "LofiSu feat/controlled-evolution-strategy a113873a676d is not on main.",
-    "Nelson #703 and #704 stay on next/0.8 and were not listed as master.",
-    "t3code 0487654fc8f2 does not name this prototype.",
-    "IHUI 49e701739ef6 does not touch super-agent.",
-    "wang-junjian 67bd84655871 does not change the listed post.",
-    "toxicme1/superagent is an empty README and was not listed.",
-    "YansongG 156840480e46 was not read line by line.",
-    "oxmumu3 main stayed cb2dce96834c.",
+    "Harness discussions #13332 through #13336 do not name this prototype and were not listed.",
+    "LofiSu feat/controlled-evolution-strategy 4e41e93f5255 is not on main.",
+    "Nelson #703 and #704 stay on next/0.8. The 16:13Z activity is a comment on #704, not a master commit.",
+    "t3code 77b38f9b09a9 does not name this prototype.",
+    "IHUI c364f12f7358 does not touch super-agent.",
+    "billLiao 43dab661ffb2 reclassified flymysql/dsh-remote and was not rewritten into the super-agent list.",
+    "tanxinz main stayed cf3119c80cf1. The 16:27Z event is a pull request, and the repo is not listed.",
+    "hez2z-superagent/hez2z-superagent is a profile README and was not listed.",
     "Official prototype tip remains 8c32a9dc5d72 and Harness tip remains 39163dd30f70.",
     "The arXiv search for dsh-superagent returned 0 entries. No new HN story was created in this window."
   ],
@@ -9680,8 +9727,9 @@
     "sallaumen/dsh-superagent-superboard #636 55f2304364ce (2026-11-11T20:53:17Z, chore/dialyzer-in-gates) is not main. Main stays 1cc1eba31fd4.",
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8.",
     "NelsonLongxiang/dsh-open-a2a-net master stays ce0aa498a57c. next/0.8 is dddec60e4d36 (#688, 2026-11-14T01:06:21Z). fix/decision-original-request-auth is 515bbedeab89 at 2026-11-14T01:22:49Z. review/seat-token-exchange is ef40a05bd258 at 2026-11-14T01:12:34Z. Do not list non-default branches.",
-    "LofiSu/deepseek-super-agent main stays 1c73d86a0aad. feat/controlled-evolution-strategy is 817d6764d4e1 at 2026-11-14T01:17:22Z. Do not list the branch."
+    "LofiSu/deepseek-super-agent main stays 1c73d86a0aad. feat/controlled-evolution-strategy is 817d6764d4e1 at 2026-11-14T01:17:22Z. Do not list the branch.",
+    "LofiSu/deepseek-super-agent main stays 23f795e58634. feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Unscoped dsh-superagent returned 404. dsh-superagent-multi-channel latest remains 2.4.0 (published 2026-11-14T11:55:25.998Z). npm @mystic7c/dsh-superagent-panel returned 404. dsh-superagent-workbench remains 0.1.1 (published 2026-11-14T07:14:23.785Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.25 (published 2026-11-14T12:58:55.681Z). latest stays 0.7.0. @xiangyixie/dsh-superagent latest remains 0.9.3 (published 2026-11-14T13:31:15.506Z). npm @missher/dsh-superagent returned 404. dsh-superagent-trace latest remains 0.1.1. dsh-superagent-wechat-source latest remains 0.1.0. dsh-mini-superagent latest remains 0.9.1. dsh-ladder-superagents latest remains 0.2.1. dsh-foreman latest remains 0.9.0. npm @oxmumu3/dsh-superagent was not rechecked."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Unscoped dsh-superagent was not rechecked this hour. dsh-superagent-multi-channel latest remains 2.4.0 (published 2026-11-14T11:55:25.998Z). npm @mystic7c/dsh-superagent-panel returned 404. dsh-superagent-workbench remains 0.1.1 (published 2026-11-14T07:14:23.785Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.25 (published 2026-11-14T12:58:55.681Z). latest stays 0.7.0. @xiangyixie/dsh-superagent latest remains 0.9.3 (published 2026-11-14T13:31:15.506Z). npm @missher/dsh-superagent returned 404. dsh-superagent-trace latest remains 0.1.1. dsh-superagent-wechat-source latest remains 0.1.0. dsh-mini-superagent latest remains 0.9.1. dsh-ladder-superagents latest remains 0.2.1. dsh-foreman latest remains 0.9.0. npm @oxmumu3/dsh-superagent returned 404."
 }
