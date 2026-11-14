@@ -1,38 +1,122 @@
 {
-  "last_run_at": "2026-11-14T07:33:11Z",
+  "last_run_at": "2026-11-14T08:37:09Z",
   "timezone": "UTC",
-  "baseline_commit": "193b6a5",
+  "baseline_commit": "3cb0843",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-14T06:34:30Z",
-    "to": "2026-11-14T07:33:11Z"
+    "from": "2026-11-14T07:33:11Z",
+    "to": "2026-11-14T08:37:09Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "NelsonLongxiang preview tag is 0.8.1-preview.24",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/e759897e425f",
+      "title": "touch-agent side-page back and split control",
+      "url": "https://github.com/touch-agent/dsh-superagent/commit/93a7f95cf324",
+      "confidence": 0.94,
+      "reason": "PR #85 merged at 2026-11-14T08:27:18Z as 93a7f95cf324. Behavior is 9f51f3d548f1 at 07:07:48Z. Side shell no longer draws a second Back. CSS hides [data-dockkit-split-button] inside a pane that has .dt-side-page. Package stays private 0.1.0, engines.dsh ^0.2.1-rc.5. Ahead of 6337fc8 by 473."
+    },
+    {
+      "title": "Linear workers get the issue page URL",
+      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/29fe95351b18",
       "confidence": 0.95,
-      "reason": "Master tip e759897e425f at 2026-11-14T06:45:29Z merges #696. The only file is docs/release.md. Tag v0.8.1-preview.24 points at 0b3b9222d88b. npm preview is 0.8.1-preview.24 at 2026-11-14T06:44:26.211Z, no gitHead, shasum f89f50fce4ac476435f5380f92ecaa589dcdbd14. latest stays 0.7.0. package.json stays 0.8.1-preview.24. Ahead of ce0aa498a57c by 26."
+      "reason": "Tip 29fe95351b18 at 2026-11-14T07:49:15Z. DSH_SUPERAGENT_LINEAR_ISSUE_URL reads meta.issueUrl, then trigger.url. Session url stays the agent session. Stop and undelegation copy issueUrl when present. Package stays 0.1.0."
     },
     {
-      "title": "touch-agent right sidebar pages",
-      "url": "https://github.com/touch-agent/dsh-superagent/commit/46e10894ec46",
+      "title": "LittleChenLiya resume and loopback control plane",
+      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/5cd6e2e5a3b2",
       "confidence": 0.93,
-      "reason": "Main tip 46e10894ec46 at 2026-11-14T06:39:32Z merges #84. With ux.appShell.v1, header tasks, notices, files and settings call sidebarRight.openTab and keep the main conversation. No right sidebar falls back to the panel. The files tab registers only when ux.filesPage.v1 is on. Each side page is its own embedded App, polls every 10 seconds, and shows Back only when its stack is non-empty. Package and engines.dsh unchanged. Ahead of 6337fc8 by 469."
+      "reason": "6ef016fa7e7f at 08:06:49Z marks subagent-unavailable as host-gone and settles interrupted. A local dead pid outranks a fresh heartbeat. 5cd6e2e5a3b2 at 08:29:32Z adds opt-in controlPort on 127.0.0.1 with a 0600 bearer file. Package stays 0.9.0. npm dsh-superagent still 404."
     },
     {
-      "title": "person-clouds npm 0.1.1",
-      "url": "https://github.com/person-clouds/superagent-workbench/commit/e15843dd6309",
+      "title": "booth 0.3.2 waits for runtime health",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/df0f21bff193",
       "confidence": 0.92,
-      "reason": "Main tip e15843dd6309 at 2026-11-14T07:14:48Z only updates publish notes. npm dsh-superagent-workbench@0.1.1 at 2026-11-14T07:14:23.785Z. gitHead aaf1cbde709986bcdefc02cf48e2e906e9e41cd4 is not a commit in the repository. Behavior stays on 4f9540a8ae32. No license file."
+      "reason": "Tip df0f21bff193 at 2026-11-14T08:03:26Z. Cargo 0.3.2. booth up waits for health.runtime.state ready or a setup problem. install links dsh-booth-local before dsh-superagent. Multiline history uses @booth-json. Submodule pointer not in the diff."
+    },
+    {
+      "title": "mystic7c panel v1.0.1 on a rewritten main",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/releases/tag/v1.0.1",
+      "confidence": 0.91,
+      "reason": "PR #76 merged at 2026-11-14T08:01:14Z as 1f0a5a7c7443. Tag v1.0.1 points at that commit. No common ancestor with 12dfc50b1baa. Package 1.0.1 is not private. npm @mystic7c/dsh-superagent-panel returned 404. cordis.patch.yml still inserts superagent-panel."
+    },
+    {
+      "title": "Eight listed public pages return 404",
+      "url": "https://github.com/fsy0718/dsh-superagent-prototype",
+      "confidence": 0.9,
+      "reason": "At 2026-11-14T08:37:09Z, GitHub returned 404 for fsy0718/dsh-superagent-prototype, tyler-jewell/dsh-plugins, mycguo/tebra-superagent, Meaple-SFKY/Super-Agent-Plugin, d4vid-le/SignalRoom, vHao11/dsh-superagent, zhaoli2003/superagent-max, and maclavijo/superagent-toolkit. The bullets were not removed."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13280 through #13286 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13286",
+      "confidence": 0.9,
+      "reason": "#13280 was created at 2026-11-14T07:31:20Z and is a Desktop 0.2.2-rc.3 welcome-page ECONNRESET. #13281 at 07:39:31Z asks the desktop to remember window size. #13282 at 07:55:25Z is remoteAccess.whenAccess. #13283 at 08:06:37Z, #13284 at 08:08:50Z, and #13285 at 08:12:10Z are the same cold-start kind read. #13286 at 08:19:35Z asks for idempotent inbox accept. No title or body contains superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T08:32:02Z is not a commit. Harness tip remains 39163dd30f70; pushed_at 2026-11-13T07:56:25Z; updated_at 2026-11-14T08:32:13Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/8b30961465bd",
+      "confidence": 0.9,
+      "reason": "Default main tip 8b30961465bd at 2026-11-14T08:30:31Z. The compare from 033bb5a82ebd has 34 commits and 149 files, and none match superagent or hextor. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/476127d306ce",
+      "confidence": 0.9,
+      "reason": "Default main tip 476127d306ce at 2026-11-14T08:26:08Z. The compare from a1436341157f has 8 commits and 36 files, and none match super-agent or superagent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/9d78726b9b54",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-14T08:27:27Z. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. feat/controlled-evolution-strategy is 9d78726b9b54 at 2026-11-14T08:26:18Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson master did not move",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/e759897e425f",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-14T08:08:46Z. master tip remains e759897e425f at 2026-11-14T06:45:29Z. npm preview remains 0.8.1-preview.24. The listed sentence was not rewritten."
+    },
+    {
+      "title": "billLiao sync does not change the listed sentence",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/12b0b323c69c",
+      "confidence": 0.86,
+      "reason": "Default main tip 12b0b323c69c at 2026-11-14T08:01:38Z is Sync 2026-11-14T16:01. The listed sentence does not count entries, so it was not rewritten."
+    },
+    {
+      "title": "baojingyu release note does not change the listed sentence",
+      "url": "https://github.com/baojingyu/dsh-superagent-multi-channel/commit/15565ac36412",
+      "confidence": 0.88,
+      "reason": "Tip 15565ac36412 at 2026-11-14T08:11:57Z only edits docs/distribution/README.md. It says main and tag v2.4.0 are pushed and npm publish is blocked by ENEEDAUTH. npm dsh-superagent-multi-channel was not republished. The listed sentence already says the package is not on npm, so it was not rewritten."
+    },
+    {
+      "title": "1293317734/dsh-playground is a test repository",
+      "url": "https://github.com/1293317734/dsh-playground",
+      "confidence": 0.84,
+      "reason": "Created 2026-11-14T08:12:35Z. Description says it is a dsh-superagent test repository. Not listed."
+    },
+    {
+      "title": "winjin820-spec/superagent-playground stayed a playground",
+      "url": "https://github.com/winjin820-spec/superagent-playground/commit/767a3a0d2d17",
+      "confidence": 0.86,
+      "reason": "Main tip 767a3a0d2d17 at 2026-11-14T08:18:45Z appends a README line. The repository name is a playground. Not listed."
+    },
+    {
+      "title": "wangtangning/SuperAgent bundle edit was not read line by line",
+      "url": "https://github.com/wangtangning/SuperAgent/commit/7b9c31a2caed",
+      "confidence": 0.6,
+      "reason": "Main tip 7b9c31a2caed at 2026-11-14T08:29:53Z says it copies a project bundle into DSH_HOME/bundles before linking. The install path was not read, so it was not listed."
+    },
+    {
+      "title": "risogorrindo634-commits/SuperAgent note was not read through",
+      "url": "https://github.com/risogorrindo634-commits/SuperAgent/commit/c8fbb21cc53c",
+      "confidence": 0.58,
+      "reason": "Main tip c8fbb21cc53c at 2026-11-14T08:14:14Z says it adds a SuperAgent architecture design. The note was not read through, so it was not listed."
+    },
     {
       "title": "Discussions #13274 through #13279 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13279",
@@ -9059,13 +9143,16 @@
     }
   ],
   "rejected_this_run": [
-    "wangtangning/SuperAgent was not listed until the Windows bundle edits are read.",
-    "risogorrindo634-commits/SuperAgent was not listed until the research note is read through.",
-    "HongJinjin9/agent-workspace remains a ticket workspace and was not listed.",
-    "Harness discussions #13274 through #13279 do not name this prototype and were not listed.",
-    "mgx1995/superagent is empty and winjin820-spec/superagent-playground was not listed."
+    "Harness discussions #13280 through #13286 do not name this prototype and were not listed.",
+    "1293317734/dsh-playground is a test repository and was not listed.",
+    "winjin820-spec/superagent-playground was not listed.",
+    "wangtangning/SuperAgent was not listed until the bundle install is read.",
+    "risogorrindo634-commits/SuperAgent was not listed until the architecture note is read through.",
+    "baojingyu/dsh-superagent-multi-channel docs-only release note was not rewritten."
   ],
   "held_on_other_branches": [
+    "LofiSu/deepseek-super-agent pushed_at 2026-11-14T08:27:27Z. Default main remains 1c73d86a0aad. feat/controlled-evolution-strategy is 9d78726b9b54. Do not list the side branch.",
+    "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-14T08:08:46Z. master remains e759897e425f.",
     "LofiSu/deepseek-super-agent pushed_at 2026-11-14T06:30:25Z. Default main remains 1c73d86a0aad. Do not list the side branch.",
     "tanxinz/dsh-superagent pushed_at 2026-11-14T06:02:13Z. Default main remains cf3119c80cf1. Do not list the side branch.",
     "NelsonLongxiang/dsh-open-a2a-net master moved to 0b3b9222d88b via #695. It is no longer held off master.",
@@ -9298,5 +9385,5 @@
     "LofiSu/deepseek-super-agent main stays 1c73d86a0aad. feat/controlled-evolution-strategy is 817d6764d4e1 at 2026-11-14T01:17:22Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. npm dsh-superagent returned 404. dsh-superagent-workbench@0.1.1 published 2026-11-14T07:14:23.785Z; gitHead aaf1cbde709986bcdefc02cf48e2e906e9e41cd4 is not in the GitHub repo. @nelsonlongxiang/dsh-open-a2a-net preview is 0.8.1-preview.24 (published 2026-11-14T06:44:26.211Z, no gitHead); latest remains 0.7.0."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. npm dsh-superagent returned 404. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.24 (published 2026-11-14T06:44:26.211Z); latest remains 0.7.0. dsh-superagent-workbench remains 0.1.1. @mystic7c/dsh-superagent-panel returned 404. dsh-chief returned 404."
 }
