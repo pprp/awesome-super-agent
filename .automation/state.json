@@ -1,44 +1,86 @@
 {
-  "last_run_at": "2026-11-14T10:35:38Z",
+  "last_run_at": "2026-11-14T11:33:11Z",
   "timezone": "UTC",
-  "baseline_commit": "4e0bbcc",
+  "baseline_commit": "b589146",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-14T09:31:46Z",
-    "to": "2026-11-14T10:35:38Z"
+    "from": "2026-11-14T10:35:38Z",
+    "to": "2026-11-14T11:33:11Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "booth 0.3.5 launches the OMP portal",
-      "url": "https://github.com/lanshi17/dsh-booth/commit/b497db4aac02",
-      "confidence": 0.93,
-      "reason": "Tip b497db4aac02 at 2026-11-14T09:39:26Z. Cargo.toml version is 0.3.5. A bare booth still starts the runtime when api.state() fails, then runs omp --extension. The default extension is omp-portal/extension.ts; BOOTH_OMP_EXTENSION overrides it. Non-slash input is appended to booth-inbox.jsonl with sender operator. The thread is read from booth-conversation. Replies resume from booth-outbox.jsonl every 500 ms. The app module remains with allow(dead_code); bare booth no longer calls app::run. booth up remains. The compare does not touch the submodule pointer."
+      "title": "LittleChenLiya 0.9.1 publishes under the author scope",
+      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/369630da6efb",
+      "confidence": 0.95,
+      "reason": "Tip 369630da6efb at 2026-11-14T11:27:02Z is 0.9.1, metadata only. 4a9d49c2fa88 renames the package to @xiangyixie/dsh-superagent. Plugin id stays superagent. Five tools, the state directory, and both bin names stay. cordis.patch.yml name is the scoped package. dependencies is {}. engines stay node >=24.9.0 and dsh >=0.2.2-rc.1 <0.3.0-0. npm latest 0.9.1 at 2026-11-14T11:28:27.796Z, gitHead 369630da6efbae3c9cd4b067ebd893e1f3e09bf4. Unscoped dsh-superagent is still 404."
     },
     {
-      "title": "LittleChenLiya adds a watch panel and HTML report",
-      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/c2ec9dac5cce",
+      "title": "Aily 0.3.13 lists folder projects without a GitHub repository",
+      "url": "https://github.com/Aily-DSH/dsh-superagent-manager/commit/c88bd2656c85",
+      "confidence": 0.93,
+      "reason": "Tip c88bd2656c85 at 2026-11-14T11:26:02Z is private 0.3.13. engines.dsh stays >=0.2.1-rc.2. npm dsh-superagent-manager is 404. A repo value that is not owner/name is read back as empty. A local folder uses origin only when it is github.com owner/name. Without that, the GitHub source is not written and executor.prepare is empty. A running repositoryUnset instance with no repo is labeled 运行中 · 无来源. The client picker lists those projects with the option disabled."
+    },
+    {
+      "title": "MYCF711 watch_ack stays on the calling session",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/8636314b3a67",
       "confidence": 0.94,
-      "reason": "Tip c2ec9dac5cce at 2026-11-14T10:10:50Z. Package stays 0.9.0. npm dsh-superagent returned 404. bin/watch.js and bin/report.js are operator commands, dependencies stay empty. Default interval is 1000 ms and is floored at 200 ms. A TTY uses the alternate screen unless --once. Zero elapsed renders as 0ms. A report with no runs, or an unwritable --out, exits 1. HTML is inline CSS and SVG with no script. Phases are derived from startedAt and finishedAt. The release checklist says npm pack --dry-run is 15 files and 72.9 kB."
+      "reason": "Tip 8636314b3a67 at 2026-11-14T10:54:07Z merges #56. Package stays dsh-session-superagent 0.11.0. engines stay node >=22.19.0 and dsh >=0.2.2-rc.1 <0.3.0-0. watch_ack requires currentInitiator(). Labels and watermarks write only that session's issue watcher. A missing live watcher after the remote write returns failure and says the remote label may already be written."
     },
     {
-      "title": "TianzeLuo 0.12.0 renames topics to agent chats",
-      "url": "https://github.com/TianzeLuo/dsh-super-agent/commit/c0529af9b802",
-      "confidence": 0.92,
-      "reason": "Tip c0529af9b802 at 2026-11-14T10:20:51Z. package.json is private 0.12.0, changed from 0.11.1. engines were not in the diff. The client labels topics as 对话分身 and the three sharing labels as 仅自己可见, 分享协作摘要, and 允许查阅聊天. lib/topics.js was not in the diff; create still defaults to summary, and the stored values stay private, summary, and history. docs/ui-design.md records a 0.2.2-rc.3 UI check and a Windows run of 428 passed and 7 skipped. This run did not re-run those tests."
+      "title": "Superboard stops managed publication on an account or PR mismatch",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/ff839cef433e",
+      "confidence": 0.94,
+      "reason": "Tip ff839cef433e at 2026-11-14T10:43:23Z merges #696. New checkouts apply managed-publication.patch after assignment-branch.patch. The diff does not change the pinned revision. gh pr create goes through superboard-branch.py with the launcher login. The receipt is blocked before the network call and stays blocked on a wrong account, a foreign PR, multiple PRs, or an unconfirmed create. A missing receipt does not stop tools; any other read error does. Worker tools other than orchestrator_report, orchestrator_read, job_output, and job_list are refused while that receipt is blocked."
     },
     {
-      "title": "Missher 1.10.7 adds hierarchical teams and source follow-ups",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent/commit/d21cd56567a7",
-      "confidence": 0.93,
-      "reason": "Tip d21cd56567a7 at 2026-11-14T09:54:04Z records the 1.10.7 note. The behavior is 328473e7cdf1. package.json is private 1.10.7. Release v1.10.7 was published at 2026-11-14T09:50:33Z, not a draft, and points at 328473e7cdf1. Members are 2 to 12. parentId must be an existing manager, cycles are rejected, and maxRounds defaults to 3 with a range of 1 to 8. A revise round marks targets, changed members, and their dependents pendingRound. A human source follow-up is forwarded to the coordinator and says it does not add directory or tool permission. A missing source kind during reload waits. A directory, preset, or mandate mismatch stops the team. npm @missher/dsh-superagent returned 404. engines.dsh was not in the diff."
+      "title": "Laixiaomin main restores the three helper files and adds a diagram",
+      "url": "https://github.com/Laixiaomin001/dshm-local-superagent/commit/6f53a527326b",
+      "confidence": 0.9,
+      "reason": "Tip 6f53a527326b at 2026-11-14T11:13:54Z only adds README mermaid. Parent 160e850e17a2 at 2026-11-14T04:16:04Z adds docs/porting.md, install.sh, and tools/sync-repo.sh. b0a9fdb5a767 is not on this main. tools/guard.py is absent. plugins/guard still reads $CORE_HOME/policy.json."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13294 through #13297 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13297",
+      "confidence": 0.9,
+      "reason": "#13294 was created at 2026-11-14T10:38:14Z and is a VTE PS0 busy-detection patch. #13295 at 11:00:16Z is worktree node_modules links. #13296 at 11:11:51Z asks to drag deliverable cards out as files on Desktop 0.2.2-rc.3. #13297 at 11:18:31Z is a Windows tray icon on 0.2.2-rc.3. No title or body contains superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T11:28:13Z is not a commit. Harness tip remains 39163dd30f70; pushed_at 2026-11-13T07:56:25Z; updated_at 2026-11-14T11:26:09Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/ae49f4d2a796",
+      "confidence": 0.9,
+      "reason": "Default main tip ae49f4d2a796 at 2026-11-14T11:30:39Z. The compare from 6be1bd64722f had no path matching superagent or hextor. The tip commit itself changes 3 files and none match. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/2698dbfe20ef",
+      "confidence": 0.9,
+      "reason": "Default main tip 2698dbfe20ef at 2026-11-14T10:58:09Z. The compare from b3f13e25c4e1 is 3 commits and 5 files, and none match super-agent or superagent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson #691 landed on next/0.8",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/691",
+      "confidence": 0.9,
+      "reason": "Master tip remains e470262e6f97 at 2026-11-14T10:01:27Z. #691 merged to next/0.8 at 2026-11-14T11:29:52Z. The master sentence was not rewritten."
+    },
+    {
+      "title": "mystic7c #78 merged to develop",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/pull/78",
+      "confidence": 0.9,
+      "reason": "Main tip remains 1f0a5a7c7443 at 2026-11-14T08:01:14Z. #78 merged to develop at 2026-11-14T10:58:55Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "aowind/dsh-super-agent was not read line by line",
+      "url": "https://github.com/aowind/dsh-super-agent/commit/e1bdb8cd27af",
+      "confidence": 0.62,
+      "reason": "Tip e1bdb8cd27af at 2026-11-14T11:26:45Z only adds CI, issue forms, and contributor docs. The feature commit d85510604297 is 2026-11-14T03:27:43Z. package.json is dsh-super-agent 0.2.0, MIT, not private, engines.node >=22.19.0, and there is no engines.dsh. The bundle sources were not read line by line, so it was not listed."
+    },
     {
       "title": "Discussion #13293 does not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13293",
@@ -9227,15 +9269,16 @@
     }
   ],
   "rejected_this_run": [
-    "Harness discussion #13293 does not name this prototype and was not listed.",
-    "superstar717/dsh-superagent-playground is a watch test repo and was not listed.",
-    "kongjl-debug/superagent-lab stayed a two-kilobyte lab and was not listed.",
-    "t3code 6be1bd64722f and IHUI b3f13e25c4e1 do not touch the listed super-agent paths.",
-    "Nelson e470262e6f97 is a docs sweep and does not change the listed sentence.",
-    "LofiSu main stayed 1c73d86a0aad; feat/controlled-evolution-strategy is 54d08bbaba8a.",
-    "wangtangning/SuperAgent tip a57968193c56 was not read line by line."
+    "Harness discussions #13294 through #13297 do not name this prototype and were not listed.",
+    "aowind/dsh-super-agent was not read line by line and was not listed.",
+    "t3code ae49f4d2a796 does not name this prototype.",
+    "IHUI 2698dbfe20ef does not touch super-agent.",
+    "Nelson #691 is on next/0.8, not master.",
+    "mystic7c #78 is on develop, not main."
   ],
   "held_on_other_branches": [
+    "NelsonLongxiang/dsh-open-a2a-net #691 merged to next/0.8 at 2026-11-14T11:29:52Z. master remains e470262e6f97. Do not rewrite the listed sentence from next/0.8.",
+    "mystic7c/dsh-superagent-panel #78 merged to develop at 2026-11-14T10:58:55Z. main remains 1f0a5a7c7443. Do not rewrite the listed sentence from develop.",
     "LofiSu/deepseek-super-agent pushed_at 2026-11-14T10:27:28Z. main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. feat/controlled-evolution-strategy is 54d08bbaba8a at 2026-11-14T10:24:11Z. Do not rewrite the listed sentence from the side branch.",
     "NelsonLongxiang/dsh-open-a2a-net review/superagent-intake now returns 422. master is e470262e6f97 at 2026-11-14T10:01:27Z and the compare is docs only.",
     "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-14T09:18:03Z. master remains e759897e425f. review/superagent-intake is ed1e1ac52898 at 2026-11-14T09:16:34Z. Do not list the side branch.",
@@ -9473,5 +9516,5 @@
     "LofiSu/deepseek-super-agent main stays 1c73d86a0aad. feat/controlled-evolution-strategy is 817d6764d4e1 at 2026-11-14T01:17:22Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. npm dsh-superagent returned 404. npm dsh-superagent-multi-channel returned 404. npm @mystic7c/dsh-superagent-panel returned 404. npm @missher/dsh-superagent returned 404. dsh-superagent-workbench remains 0.1.1 (published 2026-11-14T07:14:23.785Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.24 (published 2026-11-14T06:44:26.211Z, no gitHead). latest stays 0.7.0."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. npm dsh-superagent returned 404. npm dsh-superagent-multi-channel returned 404. npm @mystic7c/dsh-superagent-panel returned 404. npm @missher/dsh-superagent returned 404. dsh-superagent-workbench remains 0.1.1 (published 2026-11-14T07:14:23.785Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.24 (published 2026-11-14T06:44:26.211Z, no gitHead). latest stays 0.7.0. @xiangyixie/dsh-superagent latest is 0.9.1 (published 2026-11-14T11:28:27.796Z, gitHead 369630da6efbae3c9cd4b067ebd893e1f3e09bf4). Unscoped dsh-superagent returned 404. dsh-superagent-manager returned 404."
 }
