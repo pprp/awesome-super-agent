@@ -1,32 +1,68 @@
 {
-  "last_run_at": "2026-11-13T23:36:12Z",
+  "last_run_at": "2026-11-14T00:39:25Z",
   "timezone": "UTC",
-  "baseline_commit": "4068597",
+  "baseline_commit": "e767f8c",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-13T22:32:47Z",
-    "to": "2026-11-13T23:36:12Z"
+    "from": "2026-11-13T23:36:12Z",
+    "to": "2026-11-14T00:39:25Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Linear source works a delegated epic's sub-issues as a chain",
-      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/5da57339a633",
+      "title": "Superboard shows merge requirements first and hides task-stage commands",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/3d8fe5d0ac4d",
       "confidence": 0.95,
-      "reason": "d3acb596da00 at 2026-11-13T22:52:42Z, b27526404edf at 23:03:56Z, 85123516d857 at 23:07:01Z, and tip 5da57339a633 at 23:12:28Z. A delegated Issue with sub-issues starts a chain instead of a ticket. Mentions only get a status thought. chainParallel is 1 to 8, default 2, across all epics. Ready children are those whose blocks relations are completed or canceled, ordered by subIssueSortOrder then identifier. Trigger id is linear:chain:<run>:<sub-issue>. The epic is read at most every 30 seconds, and at once when a child's ticket ended. Stops: a child ticket ended while the Issue is open, no ticket within 30 minutes, a stall, removed delegation, more than 30 sub-issues or 20 relations, admission filtered, or a stop prompt. A new run keeps busy children. Only a child assigned to someone other than the app waits. An unreadable delegated context is held for at most 10 minutes, then one error, and is not split. Linear reuses the session, so a later non-stop prompt on a delegated Issue with open sub-issues and no running chain starts the run. An epic label with no sub-issues still splits. Package stays 0.1.0."
+      "reason": "#692 3d8fe5d0ac4d at 2026-11-13T23:41:10Z. Quality & merge shows merge requirements first and Task stages after them. The summary names detected technologies, how many stages run on every task, and how many run on related changes. Detected technology with no active stages says No active stages. Nothing detected says Technology not yet detected. Commands stay closed until Edit stages, or Choose technology when nothing is detected and there are no active stages. Closing the editor drops unsaved edits. A successful save closes it. Hiding the section clears editing and chosen_stack. The found/total count appears only while the project search box is non-empty. The check rules themselves are unchanged."
     },
     {
-      "title": "Superboard prepares a follow-up on its delivery branch and reuses the PR",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/dd1a5793dc71",
-      "confidence": 0.95,
-      "reason": "#691 dd1a5793dc71 at 2026-11-13T23:04:54Z. A GitHub issue that is not a PR, with an execution and executor.prepare containing agent/$DSH_SUPERAGENT_NAME, prepares the branch before the worker prompt. A first run, or a follow-up that still has an open owned GitHub thread, keeps the ticket branch. After every owned GitHub thread is closed, the next assignment starts from the remote default branch on agent/run-<assignment>/<ticket>. Pending edits refuse that switch. The same assignment keeps its stored branch. gh pr create must match that head and repository, returns the existing PR including after it closes, and refuses --web and --dry-run. The merge guard blocks gh pr create when repository options precede create. First install and idle sync both apply assignment-branch.patch and copy scripts/superboard-branch.py. Sync still accepts only 8c32a9dc5d72."
+      "title": "Ladder stops injecting full reports and passes a team task id only when teams are on",
+      "url": "https://github.com/Yukikaze-Ai/dsh-ladder-superagents/commit/32ec965df94e",
+      "confidence": 0.94,
+      "reason": "d81b29dbf630 at 2026-11-13T23:55:49Z stops injecting the full child report and removes the sendMessage fallback. Reports stay queued. scheduleInboxWake still calls safeFollowup with a short Inbox line when the parent status is not running. f8157fd7c4c0 at 23:58:11Z spreads the startActivation request; the commit says the new DSH flattens the activation spec. A failure throws startActivation failed with the message and two stack lines. 087e9b4dd04a at 2026-11-14T00:18:19Z adds optional supa_spawn string task. The charter says multi-worker work creates tasks with team_task_create, passes task, and reads team_task_list; the inbox carries results. The worker prompt says team_task_get, team_task_update action claim, do the work, team_task_update action complete, then supa_report. Tip 32ec965df94e at 00:18:44Z writes that section only when agentTeams.isEnabled(agent) is true. Passing task while teams are off writes nothing. This commit does not implement the team_task tools. Package stays dsh-ladder-superagents 0.2.1. npm latest stays 0.2.1, modified 2026-11-11T03:33:15.700Z."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13244 through #13246 and two comments do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13246",
+      "confidence": 0.9,
+      "reason": "#13244 was created at 2026-11-13T23:43:18Z and updated at 23:43:54Z. #13245 was created at 2026-11-14T00:05:31Z. #13246 was created at 2026-11-14T00:26:25Z. #13239's comment at 00:15:59Z and #13240's comment at 00:21:54Z were scanned with the bodies. No title, body, or new comment contains superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T00:22:18Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/f5ae8088c354",
+      "confidence": 0.9,
+      "reason": "Default main tip f5ae8088c354 at 2026-11-14T00:34:45Z. The compare from ab9e6a2792c5 has 15 commits and 73 files, and none match superagent or hextor. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/1c73d86a0aad",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-14T00:25:27Z is feat/controlled-evolution-strategy at a94051964914 (2026-11-14T00:22:23Z), a finaltest digest comparison. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "billLiao plugin sync names plugins already on this list",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/c0aa67da3183",
+      "confidence": 0.9,
+      "reason": "c0aa67da3183 at 2026-11-14T00:01:32Z is Sync 2026-11-14T08:01. The diff mentions MYCF711/dsh-session-superagent, comeonzhj/SuperAgent-General, and mystic7c/dsh-superagent-panel, which are already listed. The billLiao sentence was not rewritten. awesome-dsh-plugin/awesome-dsh-plugin did not move in this window."
+    },
+    {
+      "title": "Nelson browser-owner fix is not on master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/64f65febdba6",
+      "confidence": 0.9,
+      "reason": "fix/decision-original-request-auth is 64f65febdba627301d11d8545b9f77b41be99c75 at 2026-11-14T00:35:43Z, subject fix(superagent): authenticate browser owner on original request. Master stays ce0aa498a57c at 2026-11-13T12:02:18Z. next/0.8 stays 122ba3bec05e. The listed sentence was not rewritten."
+    },
+    {
+      "title": "paxxie2/dsh-superagent-prototype main is still the upstream tree",
+      "url": "https://github.com/paxxie2/dsh-superagent-prototype",
+      "confidence": 0.86,
+      "reason": "Created at 2026-11-13T23:55:23Z. pushed_at 2026-11-14T00:19:32Z. Default main is still 8c32a9dc5d72. Not listed."
+    },
     {
       "title": "Discussion #6989's new comment and #13241's follow-up do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/6989",
@@ -8952,5 +8988,5 @@
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-13T23:29:07Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T00:22:18Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. npm has no @mystic7c/dsh-superagent-panel."
 }
