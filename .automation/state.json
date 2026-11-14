@@ -1,38 +1,92 @@
 {
-  "last_run_at": "2026-11-14T14:36:40Z",
+  "last_run_at": "2026-11-14T15:37:52Z",
   "timezone": "UTC",
-  "baseline_commit": "3e9d375",
+  "baseline_commit": "15bb10e",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-14T13:38:30Z",
-    "to": "2026-11-14T14:36:40Z"
+    "from": "2026-11-14T14:36:40Z",
+    "to": "2026-11-14T15:37:52Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Superboard claims a text match once and keeps split receipts",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/f6deb063148b",
-      "confidence": 0.95,
-      "reason": "Tip f6deb063148b at 2026-11-14T14:14:14Z merges #722. Exact request_key wins first. Text recovery adopts one unclaimed queued issue with the same title and body and writes that key. A second key opens another issue. A live draft reservation with a lower id, a key, and no number blocks text recovery of a later mirror. #721 transfers reservation fields onto the synced row and does not reopen the issue. #720 retries only members without a receipt. #719 and #718 are docs."
-    },
-    {
-      "title": "439436269 adds an independent review worker",
-      "url": "https://github.com/439436269-ctrl/dsh-superagent/commit/10ae5c3308cd",
-      "confidence": 0.94,
-      "reason": "Main tip 10ae5c3308cd at 2026-11-14T13:40:27Z merges #1. Ahead of 8c32a9d by 149, behind 0. orchestrator_review starts reviewer-<ticket id> on preset dsh-superagent-reviewer. Plugin tools are only orchestrator_read. Preset file tools set write and edit false and keep search, shell, jobs, skills, and compaction. reviewerModel falls back to the worker model. Diff cap 24000, text cap 4000, inline review 6000, limit 10 minutes. Worker budget 40500 to 41000. engines.dsh stays ^0.2.1-alpha.2."
-    },
-    {
-      "title": "oxmumu3 preview.8 restores the scroll port",
-      "url": "https://github.com/oxmumu3/dsh-superagent/commit/cb2dce96834c",
+      "title": "TianzeLuo 0.13.0 adds scoped collaborator handoffs",
+      "url": "https://github.com/TianzeLuo/dsh-super-agent/commit/b7607c738a62",
       "confidence": 0.93,
-      "reason": "Tip cb2dce96834c at 2026-11-14T14:36:23Z is 0.2.0-preview.8. No GitHub Release for that tag. 1890aa0be337 is 0.2.0-preview.7. Release v0.2.0-preview.7 published 2026-11-14T14:25:36Z, prerelease, not a draft, asset oxmumu3-dsh-superagent-0.2.0-preview.7.tgz. engines.dsh is 0.2.2-rc.2 || 0.2.2-rc.3. npm @oxmumu3/dsh-superagent still 404. Evidence actions require ifVersion. RC3 sidebar.session.action uses workspace.picker and falls back when the factory is absent. .sa2-scroll is the scroll port; .sa2-pop and .sa2-scrim stay outside it."
+      "reason": "Master tip b7607c738a62 at 2026-11-14T15:03:04Z. package.json moves from 0.12.2 to private 0.13.0. engines.node stays >=22.5 and engines.dsh stays >=0.2.1. Collaboration is off until a human enables it. expected_revision must match. A handoff changes assigneeTopicId only after active Workers and child requests finish. Groups are 2 to 6 members, at most 32 groups and 64 active requests. A human post with no recipients goes to the group coordinator. An agent may name one recipient. Eight automatic hops per root request. This run did not execute the plugin."
+    },
+    {
+      "title": "hustnn console defaults to English",
+      "url": "https://github.com/hustnn/dsh-superagent-ui/commit/9a345bc71d37",
+      "confidence": 0.92,
+      "reason": "Main tip 9a345bc71d37 at 2026-11-14T14:54:37Z merges #2. 57dd8880e4c2 is the English commit. console.lang is English unless localStorage is exactly zh, and setLang reloads. The BFF reads x-console-lang and defaults to en. The submodule pin was not part of this diff. package.json was not in the diff."
+    },
+    {
+      "title": "YansongG PATH test follows the platform",
+      "url": "https://github.com/YansongG-HKU/dsh-superagent-windows/commit/bf3cc5531e7f",
+      "confidence": 0.9,
+      "reason": "windows-port tip bf3cc5531e7f at 2026-11-14T14:56:39Z changes only tests/worker-shells.spec.ts and CHANGELOG.md. The assertion splits PATH on ';' on Windows and ':' elsewhere. package.json at that tip is private 0.3.3, engines.node ^22.19.0 || >=24.0.0, engines.dsh >=0.2.2-rc.1. Ahead of 8c32a9d by 19, behind 0. 156840480e46 (2026-11-12, v0.3.3 cluster model route) was not read line by line."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13320 through #13331 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13331",
+      "confidence": 0.9,
+      "reason": "#13320 at 2026-11-14T14:33:04Z is dump-config migrations, before this window. #13321 at 14:43:26Z is a project shelf. #13322 at 14:46:11Z and #13323 at 14:48:17Z are medical plugins. #13324 at 14:50:20Z is a desktop session log bug. #13325 at 14:59:19Z is notifySettlement. #13326 at 15:12:41Z is unread sessions. #13327 at 15:16:23Z asks for a hot plugin restart. #13328 at 15:18:12Z is session log upload. #13329 at 15:21:42Z is a Windows boot crash. #13330 at 15:26:56Z is an Intel macOS nightly. #13331 at 15:28:09Z is generic agent memory. No title or body matches superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T15:29:34Z is not a commit. Harness tip remains 39163dd30f70; pushed_at 2026-11-13T07:56:25Z; updated_at 2026-11-14T15:29:48Z is not a commit."
+    },
+    {
+      "title": "LofiSu evolution branch rejects blank case ids and is not main",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/a113873a676d",
+      "confidence": 0.9,
+      "reason": "feat/controlled-evolution-strategy is a113873a676d at 2026-11-14T15:24:56Z. Default main remains 23f795e58634. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson #703 and #704 are open on next/0.8",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/704",
+      "confidence": 0.9,
+      "reason": "Master tip remains 626e96caa6a9. #703 review/scope-shared-canvas is open against next/0.8, head 8862bed5c5b1, updated 2026-11-14T15:22:45Z. #704 docs/superagent-storefront-art is open against next/0.8, head d373f1829752, updated 2026-11-14T15:33:29Z. npm preview remains 0.8.1-preview.25. latest remains 0.7.0. The master sentence was not rewritten."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/0487654fc8f2",
+      "confidence": 0.9,
+      "reason": "Default main tip 0487654fc8f2 at 2026-11-14T15:27:14Z. The compare from 3908c4eab3ac is 32 commits and 112 files. None match superagent or hextor. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/49e701739ef6",
+      "confidence": 0.9,
+      "reason": "Default main tip 49e701739ef6 at 2026-11-14T15:25:51Z. Commits since 2026-11-14T14:36:40Z on packages/shared/src/super-agent: 0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "wang-junjian added unrelated posts",
+      "url": "https://github.com/wang-junjian/wang-junjian.github.io/commit/67bd84655871",
+      "confidence": 0.9,
+      "reason": "Main tip 67bd84655871 at 2026-11-14T15:31:34Z adds two posts that are not the listed dsh-superagent source note. The listed sentence was not rewritten."
+    },
+    {
+      "title": "toxicme1/superagent is an empty README",
+      "url": "https://github.com/toxicme1/superagent",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-14T15:10:35Z. Size 0. README is the heading superagent. Not listed."
+    },
+    {
+      "title": "YansongG 0.3.3 cluster model route was not read line by line",
+      "url": "https://github.com/YansongG-HKU/dsh-superagent-windows/commit/156840480e46",
+      "confidence": 0.62,
+      "reason": "156840480e46 at 2026-11-12T05:43:41Z sets 0.3.3. The tip package.json was read. tools/cluster.mjs was not read line by line, so the model-route behavior was not described."
+    },
+    {
+      "title": "oxmumu3 main did not move in this window",
+      "url": "https://github.com/oxmumu3/dsh-superagent/commit/cb2dce96834c",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-14T14:37:31Z. Default main remains cb2dce96834c at 2026-11-14T14:36:23Z. No default-branch commit since 2026-11-14T14:36:40Z. The listed sentence was not rewritten."
+    },
     {
       "title": "Discussions #13310 through #13319 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13319",
@@ -9371,17 +9425,22 @@
     }
   ],
   "rejected_this_run": [
-    "Harness discussions #13310 through #13319 do not name this prototype and were not listed.",
-    "Seymour-l/superagent-local-manager was not read line by line and was not listed.",
-    "sycflash/dsh-jipaige-board v1.8.1 stayed a visual widget and was not listed.",
-    "t3code 3908c4eab3ac does not name this prototype.",
-    "IHUI 5a1a94d12e4f does not touch super-agent.",
+    "Harness discussions #13320 through #13331 do not name this prototype and were not listed.",
+    "LofiSu feat/controlled-evolution-strategy a113873a676d is not on main.",
+    "Nelson #703 and #704 stay on next/0.8 and were not listed as master.",
+    "t3code 0487654fc8f2 does not name this prototype.",
+    "IHUI 49e701739ef6 does not touch super-agent.",
+    "wang-junjian 67bd84655871 does not change the listed post.",
+    "toxicme1/superagent is an empty README and was not listed.",
+    "YansongG 156840480e46 was not read line by line.",
+    "oxmumu3 main stayed cb2dce96834c.",
     "Official prototype tip remains 8c32a9dc5d72 and Harness tip remains 39163dd30f70.",
     "The arXiv search for dsh-superagent returned 0 entries. No new HN story was created in this window."
   ],
   "held_on_other_branches": [
+    "NelsonLongxiang/dsh-open-a2a-net #703 and #704 are open on next/0.8. Master tip remains 626e96caa6a9. #703 head is 8862bed5c5b1. #704 head is d373f1829752.",
     "LittleChenLiya/dsh-superagent fix/list-waits-for-final-write is 5e359d7b8f06 at 2026-11-14T14:19:37Z. It waits for the final write before a terminal status. It is 1 commit ahead of main and only changes lib/orchestrator.js. Main tip is 4b67a27bb153. diag/list-stale is f1006d41dcec at 2026-11-14T14:16:57Z.",
-    "LofiSu/deepseek-super-agent feat/controlled-evolution-strategy is 24e896364fa5 at 2026-11-14T14:26:16Z. It skips exhausted policy-memory arms after no proposal. Default main remains 23f795e58634.",
+    "LofiSu/deepseek-super-agent feat/controlled-evolution-strategy is a113873a676d at 2026-11-14T15:24:56Z. It rejects empty and whitespace-only case ids. Default main remains 23f795e58634.",
     "LittleChenLiya/dsh-superagent fix/status-waits-for-final-write is 9d852c40a5cd at 2026-11-14T11:41:57Z. It waits for the final write before a terminal status. Main tip is de1376d738c6. Tag v0.9.2 is c6380ca5f286. The branch was not in the 0.9.2 publish. Do not list it.",
     "LofiSu/deepseek-super-agent pushed_at 2026-11-14T12:30:32Z. main remains 1c73d86a0aad. feat/controlled-evolution-strategy is 2b8b97994be4 at 2026-11-14T12:26:49Z. Do not rewrite the listed sentence from the side branch.",
     "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-14T11:44:25Z. master remains e470262e6f97. next/0.8 remains 53463095d2f4 at 2026-11-14T11:29:51Z (#691). Do not rewrite the listed sentence.",
@@ -9624,5 +9683,5 @@
     "LofiSu/deepseek-super-agent main stays 1c73d86a0aad. feat/controlled-evolution-strategy is 817d6764d4e1 at 2026-11-14T01:17:22Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. npm @oxmumu3/dsh-superagent returned 404. npm @mystic7c/dsh-superagent-panel was not rechecked. npm @missher/dsh-superagent was not rechecked."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Unscoped dsh-superagent returned 404. dsh-superagent-multi-channel latest remains 2.4.0 (published 2026-11-14T11:55:25.998Z). npm @mystic7c/dsh-superagent-panel returned 404. dsh-superagent-workbench remains 0.1.1 (published 2026-11-14T07:14:23.785Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.25 (published 2026-11-14T12:58:55.681Z). latest stays 0.7.0. @xiangyixie/dsh-superagent latest remains 0.9.3 (published 2026-11-14T13:31:15.506Z). npm @missher/dsh-superagent returned 404. dsh-superagent-trace latest remains 0.1.1. dsh-superagent-wechat-source latest remains 0.1.0. dsh-mini-superagent latest remains 0.9.1. dsh-ladder-superagents latest remains 0.2.1. dsh-foreman latest remains 0.9.0. npm @oxmumu3/dsh-superagent was not rechecked."
 }
