@@ -1,38 +1,98 @@
 {
-  "last_run_at": "2026-11-14T09:31:46Z",
+  "last_run_at": "2026-11-14T10:35:38Z",
   "timezone": "UTC",
-  "baseline_commit": "d085618",
+  "baseline_commit": "4e0bbcc",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-14T08:37:09Z",
-    "to": "2026-11-14T09:31:46Z"
+    "from": "2026-11-14T09:31:46Z",
+    "to": "2026-11-14T10:35:38Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "booth 0.3.4 launches the portal when the runtime is down",
-      "url": "https://github.com/lanshi17/dsh-booth/commit/745a30225763",
+      "title": "booth 0.3.5 launches the OMP portal",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/b497db4aac02",
       "confidence": 0.93,
-      "reason": "Tip 745a30225763 at 2026-11-14T08:50:55Z. Cargo.toml version is 0.3.4. A bare booth starts the local runtime when api.state() fails, then opens the console. booth up remains. Portal mode leaves show_worker_details false, so ticket stages and ignore decisions stay out of the transcript. A ready runtime drops queue, open-ticket, and version text from the top bar. The compare does not touch the submodule pointer."
+      "reason": "Tip b497db4aac02 at 2026-11-14T09:39:26Z. Cargo.toml version is 0.3.5. A bare booth still starts the runtime when api.state() fails, then runs omp --extension. The default extension is omp-portal/extension.ts; BOOTH_OMP_EXTENSION overrides it. Non-slash input is appended to booth-inbox.jsonl with sender operator. The thread is read from booth-conversation. Replies resume from booth-outbox.jsonl every 500 ms. The app module remains with allow(dead_code); bare booth no longer calls app::run. booth up remains. The compare does not touch the submodule pointer."
     },
     {
-      "title": "LittleChenLiya narrows caps and guards worker tools",
-      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/dd94087bf16f",
+      "title": "LittleChenLiya adds a watch panel and HTML report",
+      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/c2ec9dac5cce",
       "confidence": 0.94,
-      "reason": "Tip dd94087bf16f at 2026-11-14T09:04:38Z. Package stays 0.9.0. publishConfig.access is public and the registry is npmjs, but npm dsh-superagent returned 404. Tool overrides can only lower max_subtasks, max_parallel, and deadline_minutes. A child id recorded by this process cannot start, resume, or cancel. controlPort stays off unless it is an integer or a digit string from 0 to 65535. GET /health does no state sweep. Discovery unlink checks instanceId. engines.node stays >=24.9.0 and engines.dsh stays >=0.2.2-rc.1 <0.3.0-0."
+      "reason": "Tip c2ec9dac5cce at 2026-11-14T10:10:50Z. Package stays 0.9.0. npm dsh-superagent returned 404. bin/watch.js and bin/report.js are operator commands, dependencies stay empty. Default interval is 1000 ms and is floored at 200 ms. A TTY uses the alternate screen unless --once. Zero elapsed renders as 0ms. A report with no runs, or an unwritable --out, exits 1. HTML is inline CSS and SVG with no script. Phases are derived from startedAt and finishedAt. The release checklist says npm pack --dry-run is 15 files and 72.9 kB."
     },
     {
-      "title": "TianzeLuo 0.11.1 adds revisioned topic memory",
-      "url": "https://github.com/TianzeLuo/dsh-super-agent/commit/436da8641555",
+      "title": "TianzeLuo 0.12.0 renames topics to agent chats",
+      "url": "https://github.com/TianzeLuo/dsh-super-agent/commit/c0529af9b802",
       "confidence": 0.92,
-      "reason": "Tip 436da8641555 at 2026-11-14T09:13:37Z. package.json is private 0.11.1, changed from 0.10.0 in this window. engines.node stays >=22.5 and engines.dsh is >=0.2.1. superagent_memory save, archive, and restore of an existing entry require expected_revision. Active memories cap at 128 per scope, text at 1200 characters, history at 5. A topic key overrides the same instance key. Reads default to active revisions, 12 entries, and return next_after instead of clipping a fact. Durable prompt context defaults to 12000 characters and does not clip bodies. Topic state now includes memory and contextPlan."
+      "reason": "Tip c0529af9b802 at 2026-11-14T10:20:51Z. package.json is private 0.12.0, changed from 0.11.1. engines were not in the diff. The client labels topics as 对话分身 and the three sharing labels as 仅自己可见, 分享协作摘要, and 允许查阅聊天. lib/topics.js was not in the diff; create still defaults to summary, and the stored values stay private, summary, and history. docs/ui-design.md records a 0.2.2-rc.3 UI check and a Windows run of 428 passed and 7 skipped. This run did not re-run those tests."
+    },
+    {
+      "title": "Missher 1.10.7 adds hierarchical teams and source follow-ups",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent/commit/d21cd56567a7",
+      "confidence": 0.93,
+      "reason": "Tip d21cd56567a7 at 2026-11-14T09:54:04Z records the 1.10.7 note. The behavior is 328473e7cdf1. package.json is private 1.10.7. Release v1.10.7 was published at 2026-11-14T09:50:33Z, not a draft, and points at 328473e7cdf1. Members are 2 to 12. parentId must be an existing manager, cycles are rejected, and maxRounds defaults to 3 with a range of 1 to 8. A revise round marks targets, changed members, and their dependents pendingRound. A human source follow-up is forwarded to the coordinator and says it does not add directory or tool permission. A missing source kind during reload waits. A directory, preset, or mandate mismatch stops the team. npm @missher/dsh-superagent returned 404. engines.dsh was not in the diff."
     }
   ],
   "pending": [
+    {
+      "title": "Discussion #13293 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13293",
+      "confidence": 0.9,
+      "reason": "#13293 was created at 2026-11-14T09:53:30Z. It is the host setting subagent-model-selection-settings, which applies only to new sessions. The title and the opening do not contain superagent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T10:23:18Z is not a commit. Harness tip remains 39163dd30f70; pushed_at 2026-11-13T07:56:25Z; updated_at 2026-11-14T10:30:47Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned 0 entries."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/6be1bd64722f",
+      "confidence": 0.9,
+      "reason": "Default main tip 6be1bd64722f at 2026-11-14T10:31:09Z. The compare from 4574c6013d52 has 23 commits and 70 files, and none match superagent or hextor. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/b3f13e25c4e1",
+      "confidence": 0.9,
+      "reason": "Default main tip b3f13e25c4e1 at 2026-11-14T10:11:42Z. The compare from 8b94983bcc1e has 4 commits and 21 files, and none match super-agent or superagent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson master moved and the listed sentence stayed",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/e470262e6f97",
+      "confidence": 0.9,
+      "reason": "Master tip e470262e6f97 at 2026-11-14T10:01:27Z merges docs/full-doc-sweep. The compare from e759897e425f is two commits and docs plus src/skill/SKILL.md. It does not change package.json or the preview.24 file-grant and seat-token sentences. npm preview remains 0.8.1-preview.24 and latest remains 0.7.0. review/superagent-intake now returns 422. The listed sentence was not rewritten."
+    },
+    {
+      "title": "LofiSu main did not move",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/54d08bbaba8a",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-14T10:27:28Z. Default main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. feat/controlled-evolution-strategy is 54d08bbaba8a at 2026-11-14T10:24:11Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "superstar717/dsh-superagent-playground stayed a watch test repo",
+      "url": "https://github.com/superstar717/dsh-superagent-playground",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-14T10:31:03Z. Description says it is a dsh-superagent watch test repo. Default main tip remains 9e8c7ed3262a at 2026-11-14T03:16:21Z. Not listed."
+    },
+    {
+      "title": "kongjl-debug/superagent-lab stayed a lab",
+      "url": "https://github.com/kongjl-debug/superagent-lab",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-14T10:30:29Z. Size is 2. The in-window commits only edit the README usage section. Not listed."
+    },
+    {
+      "title": "wangtangning/SuperAgent host UI was not read line by line",
+      "url": "https://github.com/wangtangning/SuperAgent/commit/a57968193c56",
+      "confidence": 0.62,
+      "reason": "Main tip a57968193c56 at 2026-11-14T10:26:48Z. The in-window commits are host UI for assignment dialogs, server credentials, and a session timeline. The bundle sources were not read line by line, so it was not listed."
+    },
+    {
+      "title": "Listed public pages still return 404",
+      "url": "https://github.com/fsy0718/dsh-superagent-prototype",
+      "confidence": 0.9,
+      "reason": "At this run GitHub returned an error for fsy0718/dsh-superagent-prototype, tyler-jewell/dsh-plugins, mycguo/tebra-superagent, Meaple-SFKY/Super-Agent-Plugin, d4vid-le/SignalRoom, vHao11/dsh-superagent, zhaoli2003/superagent-max, and maclavijo/superagent-toolkit. The bullets were not removed."
+    },
     {
       "title": "Discussions #13287 through #13292 do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13292",
@@ -9167,14 +9227,17 @@
     }
   ],
   "rejected_this_run": [
-    "Harness discussions #13287 through #13292 do not name this prototype and were not listed.",
-    "sunture10-maker/superagent-playground was created at 2026-11-14T09:03:21Z, size 0, described as a scratch repo, and was not listed.",
-    "kongjl-debug/superagent-lab was created at 2026-11-14T08:51:07Z, size 0, and was not listed.",
-    "t3code 4574c6013d52 and IHUI 8b94983bcc1e do not touch the listed super-agent paths.",
-    "Nelson review/superagent-intake ed1e1ac52898 is not master.",
-    "baojingyu 6c323af017dd is docs only and npm dsh-superagent-multi-channel stayed 404."
+    "Harness discussion #13293 does not name this prototype and was not listed.",
+    "superstar717/dsh-superagent-playground is a watch test repo and was not listed.",
+    "kongjl-debug/superagent-lab stayed a two-kilobyte lab and was not listed.",
+    "t3code 6be1bd64722f and IHUI b3f13e25c4e1 do not touch the listed super-agent paths.",
+    "Nelson e470262e6f97 is a docs sweep and does not change the listed sentence.",
+    "LofiSu main stayed 1c73d86a0aad; feat/controlled-evolution-strategy is 54d08bbaba8a.",
+    "wangtangning/SuperAgent tip a57968193c56 was not read line by line."
   ],
   "held_on_other_branches": [
+    "LofiSu/deepseek-super-agent pushed_at 2026-11-14T10:27:28Z. main remains 1c73d86a0aad at 2026-11-12T05:42:01Z. feat/controlled-evolution-strategy is 54d08bbaba8a at 2026-11-14T10:24:11Z. Do not rewrite the listed sentence from the side branch.",
+    "NelsonLongxiang/dsh-open-a2a-net review/superagent-intake now returns 422. master is e470262e6f97 at 2026-11-14T10:01:27Z and the compare is docs only.",
     "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-14T09:18:03Z. master remains e759897e425f. review/superagent-intake is ed1e1ac52898 at 2026-11-14T09:16:34Z. Do not list the side branch.",
     "LofiSu/deepseek-super-agent pushed_at 2026-11-14T08:27:27Z. Default main remains 1c73d86a0aad. feat/controlled-evolution-strategy is 9d78726b9b54. Do not list the side branch.",
     "NelsonLongxiang/dsh-open-a2a-net pushed_at 2026-11-14T08:08:46Z. master remains e759897e425f.",
@@ -9410,5 +9473,5 @@
     "LofiSu/deepseek-super-agent main stays 1c73d86a0aad. feat/controlled-evolution-strategy is 817d6764d4e1 at 2026-11-14T01:17:22Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. npm dsh-superagent returned 404. npm dsh-superagent-multi-channel returned 404. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.24 (published 2026-11-14T06:44:26.211Z, no gitHead). latest stays 0.7.0."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. npm dsh-superagent returned 404. npm dsh-superagent-multi-channel returned 404. npm @mystic7c/dsh-superagent-panel returned 404. npm @missher/dsh-superagent returned 404. dsh-superagent-workbench remains 0.1.1 (published 2026-11-14T07:14:23.785Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.24 (published 2026-11-14T06:44:26.211Z, no gitHead). latest stays 0.7.0."
 }
