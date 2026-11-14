@@ -1,32 +1,62 @@
 {
-  "last_run_at": "2026-11-14T03:36:28Z",
+  "last_run_at": "2026-11-14T04:33:30Z",
   "timezone": "UTC",
-  "baseline_commit": "e56bc7b",
+  "baseline_commit": "213f68b",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-14T02:35:28Z",
-    "to": "2026-11-14T03:36:28Z"
+    "from": "2026-11-14T03:36:28Z",
+    "to": "2026-11-14T04:33:30Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Operator lines reach stderr and Linear names are exact",
-      "url": "https://github.com/lkshrk/dsh-superagent/commit/b0d7a60b3ed4",
-      "confidence": 0.95,
-      "reason": "b0d7a60b3ed4 at 2026-11-14T03:27:51Z. report writes the plugin logger and stderr. Remaining warn and error calls, and the ready line, use it. Linear tools match a bare name or linear_app- only. A blank or NUL upload filename is refused. Package stays private 0.1.0. Ahead of 8c32a9d by 36, behind 0."
-    },
-    {
-      "title": "An unreadable Linear epic retries from start",
-      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/68e5e9104c6e",
+      "title": "Laixiaomin deletes the guard script",
+      "url": "https://github.com/Laixiaomin001/dshm-local-superagent/commit/b0a9fdb5a767",
       "confidence": 0.94,
-      "reason": "cbdf160f968d at 2026-11-14T03:23:19Z asks for start in the session instead of a new delegation. A start prompt whose sub-issue read fails is held for up to 10 minutes, then errors and the prompt cursor moves on. A later successful read releases the hold. A prompt reuses IssueContext and does not call EpicCheck again. Tip 68e5e9104c6e at 03:32:14Z is a test that the released hold is not taken again. Package stays 0.1.0."
+      "reason": "b0a9fdb5a767 at 2026-11-14T04:16:23Z, parent aeaf49b9f5e4. The diff only deletes tools/guard.py, 149 lines. The message says it restores the porting list, install script, and backfill script; those paths are not in the diff. plugins/guard/index.js still reads CORE_HOME/policy.json. tools/ no longer contains guard.py."
     }
   ],
   "pending": [
+    {
+      "title": "Discussions #13257 through #13262 and two comments do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13262",
+      "confidence": 0.9,
+      "reason": "#13257 was created at 2026-11-14T03:41:48Z and is a workflow agent() model allow-list. #13258 at 03:46:21Z and #13259 at 03:46:50Z are voice-input. #13260 at 03:47:57Z is an LMA plugin note for dsh 0.2.2-rc.3. #13261 at 04:28:44Z is an empty Windows process.env. #13262 at 04:31:26Z asks for a tray restart. #7260's comment at 03:57:51Z and #5696's comment at 03:57:49Z are desktop session hydration on 0.2.2-rc.3. #12477 updated_at 04:08:15Z is a Mac landlock warning. No title, body, or new comment contains superagent, super-agent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T04:22:38Z is not a commit. Harness tip remains 39163dd30f70; pushed_at 2026-11-13T07:56:25Z; updated_at 2026-11-14T04:27:27Z is not a commit. npm latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. No in-window HN story. The arXiv search for dsh-superagent returned HTTP 429."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/6bc105f04e86",
+      "confidence": 0.9,
+      "reason": "Default main tip 6bc105f04e86 at 2026-11-14T04:28:32Z. The compare from e5835c993a6a has 8 commits and 23 files, and none match superagent or hextor. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/678e5a3d993c",
+      "confidence": 0.9,
+      "reason": "Default main tip 678e5a3d993c at 2026-11-14T04:12:47Z. The two commits from d8459f39965d are billing files. None touch packages/shared/src/super-agent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "tanxinz main moved and is docs only",
+      "url": "https://github.com/tanxinz/dsh-superagent/commit/0cc6491a1b06",
+      "confidence": 0.9,
+      "reason": "Default main tip 0cc6491a1b06 at 2026-11-14T03:51:16Z. One commit ahead of eaab7119b3e5. The only file is docs/SuperAgent_Harness_Design_Final.md. Not listed."
+    },
+    {
+      "title": "mystic7c/dsh-superagent-panel returned 404",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel",
+      "confidence": 0.86,
+      "reason": "GET /repos/mystic7c/dsh-superagent-panel returned 404 on this run. The listed sentence was not removed."
+    },
+    {
+      "title": "superstar717/dsh-superagent-playground was not listed",
+      "url": "https://github.com/superstar717/dsh-superagent-playground",
+      "confidence": 0.92,
+      "reason": "pushed_at 2026-11-14T04:10:50Z. Default main tip 9e8c7ed3262a is 2026-11-14T03:16:21Z, before this window. Description calls it a duty test repo. Not listed."
+    },
     {
       "title": "Discussions #13252 through #13256 and ten new comments do not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13256",
@@ -8861,10 +8891,18 @@
     }
   ],
   "rejected_this_run": [
-    "oo1108yyy/dsh-superagent-lab is a lab and was not listed.",
-    "bronlebron11-eng/superagent-test is an empty test repository and was not listed."
+    "helinzhl/dsh-superagent-prototype, LJRhook/dsh-superagent-prototype, YeTongY/dsh-superagent-prototype, and SubpoenaMyCommits/dsh-superagent-prototype are unmodified forks of 8c32a9dc5d72 and were not listed.",
+    "migubird/dsh-superagent-Windows windows-adaptation c39a808f1214 is not main and was not listed.",
+    "superstar717/dsh-superagent-playground was not listed."
   ],
   "held_on_other_branches": [
+    "LofiSu/deepseek-super-agent pushed_at 2026-11-14T04:28:29Z. Default main remains 1c73d86a0aad. feat/controlled-evolution-strategy is f56daab4e838. Do not list the side branch.",
+    "touch-agent/dsh-superagent PR #83 is open. Head bbbe36e171dd at 2026-11-14T04:18:13Z is docs for a notification drawer. main remains 4388fa440065. Do not list the PR.",
+    "injet-zhou/dsh-superagent-prototype pushed_at 2026-11-14T03:59:17Z. Default main remains b3a66b8e9c09. feat/independent-pr-review is 5b3a2f7a7da0. Do not list the branch.",
+    "22-ai-00/dsh-enhanced pushed_at 2026-11-14T04:09:45Z. Default main remains 64e9215e10d8. dev is 4ae6d8d4a43b. Do not list the branch.",
+    "JokersDH/dsh-superagent-prototype main is 11002b888b91 at 2026-11-14T03:11:59Z, before this window. codex/g4-trial-experience is fad070fb1d0a at 04:15:41Z. Do not list the repo or the side branches.",
+    "migubird/dsh-superagent-Windows main remains 8c32a9dc5d72. windows-adaptation is c39a808f1214 at 2026-11-14T04:29:43Z. Do not list the branch.",
+    "tanxinz/dsh-superagent main is 0cc6491a1b06 at 2026-11-14T03:51:16Z. Docs only. Do not list it from this commit.",
     "LofiSu/deepseek-super-agent pushed_at 2026-11-14T03:28:23Z. Default main remains 1c73d86a0aad. feat/controlled-evolution-strategy is d05fdfbd733d. Do not list the side branch.",
     "LofiSu/deepseek-super-agent pushed_at 2026-11-13T22:27:48Z. Default main remains 1c73d86a0aad. feat/controlled-evolution-strategy is c4662f8d4dcd. Do not list the side branch.",
     "JokersDH/dsh-superagent-prototype main stays f29c9e62fb82. Do not list side branches.",
@@ -9084,5 +9122,5 @@
     "LofiSu/deepseek-super-agent main stays 1c73d86a0aad. feat/controlled-evolution-strategy is 817d6764d4e1 at 2026-11-14T01:17:22Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T03:11:16Z is not a commit. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. dsh-ladder-superagents latest remains 0.2.1 (published 2026-11-11T03:33:15.526Z); the repo tip is 0.3.1 and is not on npm. npm has no @mystic7c/dsh-superagent-panel."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z); the packument has no new publish in this window. alpha remains 0.2.2-alpha.3. Prototype tip remains 8c32a9dc5d72; pushed_at 2026-11-03T09:29:14Z; updated_at 2026-11-14T04:22:38Z is not a commit. Harness tip remains 39163dd30f70; pushed_at 2026-11-13T07:56:25Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.23; latest remains 0.7.0. dsh-foreman latest remains 0.9.0. dsh-mini-superagent latest remains 0.9.1. dsh-session-superagent latest remains 0.10.12. dsh-superagent-trace latest remains 0.1.1. dsh-ladder-superagents latest remains 0.2.1 (published 2026-11-11T03:33:15.526Z); the repo tip is 0.3.1 and is not on npm. npm has no @mystic7c/dsh-superagent-panel. GitHub repo mystic7c/dsh-superagent-panel returned 404."
 }
