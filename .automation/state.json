@@ -1,27 +1,51 @@
 {
-  "last_run_at": "2026-11-15T18:34:36Z",
+  "last_run_at": "2026-11-15T19:35:55Z",
   "timezone": "UTC",
-  "baseline_commit": "2754f67",
+  "baseline_commit": "85d77ec",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T17:38:22Z",
-    "to": "2026-11-15T18:34:36Z"
+    "from": "2026-11-15T18:34:36Z",
+    "to": "2026-11-15T19:35:55Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "LittleChenLiya/dsh-superagent",
-      "url": "https://github.com/LittleChenLiya/dsh-superagent",
-      "from": "ddab2bf5e789",
-      "to": "e0a400f1c4f6",
-      "version": "0.14.4"
+      "title": "lkshrk/dsh-superagent-signal",
+      "url": "https://github.com/lkshrk/dsh-superagent-signal",
+      "from": "3434a88a8267",
+      "to": "d7df09aa7ed3",
+      "version": "0.2.1"
     }
   ],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/26b63a44f9ea",
+      "confidence": 0.9,
+      "reason": "Default main tip 26b63a44f9ea at 2026-11-15T18:51:52Z. The compare from 295a0a7332aa is 3 commits and 8 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03; pushed_at remains 2026-11-04T19:48:24Z. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "ArtemKoval lab spec fix does not change the listed analysis",
+      "url": "https://github.com/ArtemKoval/lab/commit/4bf18d0f6041",
+      "confidence": 0.85,
+      "reason": "main tip 4bf18d0f6041 at 2026-11-15T18:39:09Z. Compare from bbaf471462e7 (2026-11-15T18:33:48Z, before this window) is #230 da04fae3f4ea and #231. The new test says scan examines the lock before authors config and skips that assertion on darwin. The process-issues requirement prose was shortened. The listed sentence already says the lock is examined before gh. It was not rewritten."
+    },
+    {
+      "title": "IHUI main did not move; pushed_at is pull request reviews",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/c6d5e274a01e",
+      "confidence": 0.9,
+      "reason": "Default main tip remains c6d5e274a01e at 2026-11-15T18:22:26Z. pushed_at 2026-11-15T19:03:41Z matches PullRequestReviewEvent entries at 19:03:50Z, not a new commit. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussion 13442 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13442",
+      "confidence": 0.9,
+      "reason": "#13442 at 2026-11-15T18:56:43Z is the offline public-patent-board plugin. The title and body contain neither dsh-superagent nor Mandate. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T19:21:50Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T19:32:49Z is not a commit."
+    },
     {
       "title": "wychmod client cards were not read line by line",
       "url": "https://github.com/wychmod/dsh-mini-superagent/commit/389e38e628c1",
@@ -10548,7 +10572,7 @@
     }
   ],
   "rejected_this_run": [
-    "Updated LittleChenLiya to e0a400f1c4f6 (0.14.4). Did not rewrite wychmod, t3code, IHUI, szmdshagent, or awesome-dsh-plugin."
+    "Updated Signal to d7df09aa7ed3 (0.2.1). Did not rewrite t3code, ArtemKoval/lab, or IHUI. Discussion #13442 does not name this prototype."
   ],
   "held_on_other_branches": [
     "LittleChenLiya/dsh-superagent main is e0a400f1c4f6 at 2026-11-15T18:09:35Z. npm @xiangyixie/dsh-superagent latest is 0.14.4, gitHead ade03c15ab12a0da4129c2fc91436f84d55fa76c, published 2026-11-15T18:06:46.599Z.",
@@ -10879,5 +10903,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest is 0.14.4 (published 2026-11-15T18:06:46.599Z, gitHead ade03c15ab12a0da4129c2fc91436f84d55fa76c, shasum 38eaaef6062d242713ea66367c0b14db665443f5, fileCount 59). @missher/dsh-superagent remains 404. Unscoped dsh-superagent remains 404. dsh-foreman latest remains 0.9.0."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.14.4 (published 2026-11-15T18:06:46.599Z, gitHead ade03c15ab12a0da4129c2fc91436f84d55fa76c, shasum 38eaaef6062d242713ea66367c0b14db665443f5, fileCount 59). @missher/dsh-superagent remains 404. Unscoped dsh-superagent remains 404. dsh-superagent-signal remains 404. dsh-foreman latest remains 0.9.0. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.26 (published 2026-11-14T18:52:25.051Z); latest remains 0.7.0."
 }
