@@ -1,48 +1,97 @@
 {
-  "last_run_at": "2026-11-15T10:36:16Z",
+  "last_run_at": "2026-11-15T11:35:12Z",
   "timezone": "UTC",
-  "baseline_commit": "7b8fbea",
+  "baseline_commit": "9f3e94c",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T09:36:13Z",
-    "to": "2026-11-15T10:36:16Z"
+    "from": "2026-11-15T10:36:16Z",
+    "to": "2026-11-15T11:35:12Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "MythosMa/dsh-superagent-deploy",
+      "url": "https://github.com/MythosMa/dsh-superagent-deploy",
+      "to": "0186acba24dd",
+      "version": "dsh@0.2.1-rc.3"
+    }
+  ],
   "updated": [
     {
-      "title": "lkshrk/dsh-superagent",
-      "url": "https://github.com/lkshrk/dsh-superagent",
-      "from": "f9de8b3ddd4b",
-      "to": "e132a72ecdea",
-      "version": "0.3.1"
-    },
-    {
-      "title": "lkshrk/dsh-superagent-linear",
-      "url": "https://github.com/lkshrk/dsh-superagent-linear",
-      "from": "b44b240a09ad",
-      "to": "8ef891456471",
-      "version": "0.2.3"
-    },
-    {
-      "title": "lanshi17/dsh-booth",
-      "url": "https://github.com/lanshi17/dsh-booth",
-      "from": "37fa185b636d",
-      "to": "80a74860ef25",
-      "version": "0.3.9"
+      "title": "sallaumen/dsh-superagent-superboard",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
+      "from": "820deae43ca5",
+      "to": "0b41452aa5b4",
+      "version": "#739"
     },
     {
       "title": "HUHAN-HIT/dsh-superagent",
       "url": "https://github.com/HUHAN-HIT/dsh-superagent",
-      "from": "74fd4c4c64d7",
-      "to": "05355ee26bc2",
+      "from": "05355ee26bc2",
+      "to": "5692fb6c8c5f",
       "version": "0.1.0"
+    },
+    {
+      "title": "LofiSu/deepseek-super-agent",
+      "url": "https://github.com/LofiSu/deepseek-super-agent",
+      "from": "23f795e58634",
+      "to": "9cfa64a1d92c",
+      "version": "#163"
+    },
+    {
+      "title": "LittleChenLiya/dsh-superagent",
+      "url": "https://github.com/LittleChenLiya/dsh-superagent",
+      "from": "1d55224ddc53",
+      "to": "4cfa8e812519",
+      "version": "0.14.2"
     }
   ],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/a16796b956ae",
+      "confidence": 0.9,
+      "reason": "Default main tip a16796b956ae at 2026-11-15T11:18:24Z. The compare from d8c7855a884c is 6 commits and 19 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/d22653b4f56d",
+      "confidence": 0.9,
+      "reason": "Default main tip d22653b4f56d at 2026-11-15T10:52:33Z. The compare from ec794ca83a55 is 2 commits and 153 files. No filename matches super-agent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13406",
+      "confidence": 0.9,
+      "reason": "Discussions #13406, #13405, and #13404 were created in this window. Updates to #13300, #5264, #1027, and #13368 in this window were read. None of those bodies contain superagent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T11:18:50Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T11:22:08Z is not a commit."
+    },
+    {
+      "title": "Nelson reconciliation branch is not master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/5aff71498c1c",
+      "confidence": 0.92,
+      "reason": "Master remains e28eba14fa4c at 2026-11-14T18:32:47Z. fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z and is not master. next/0.8 remains 16edb76e6eab at 2026-11-15T00:52:04Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Ian-zy1/dsh-project-bots docs moved and the tree was not read line by line",
+      "url": "https://github.com/Ian-zy1/dsh-project-bots/commit/cbcdb2219a50",
+      "confidence": 0.6,
+      "reason": "Main tip cbcdb2219a50 at 2026-11-15T11:08:42Z. In-window commits cbcdb2219a50, 0cac2f5d1b27, and 982e799e2829 are docs. components/owner-relay, components/superagent, and components/workboard were not read line by line. Not listed."
+    },
+    {
+      "title": "diarra-tech/test-superagent is an empty repository",
+      "url": "https://github.com/diarra-tech/test-superagent",
+      "confidence": 0.4,
+      "reason": "Created 2026-11-15T11:23:58Z. The repository is empty. Empty repositories stay out. Not listed."
+    },
+    {
+      "title": "LofiSu side-branch push is not a newer main commit",
+      "url": "https://github.com/LofiSu/deepseek-super-agent/commit/9cfa64a1d92c",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-15T10:38:11Z. Default main tip 9cfa64a1d92c was committed 2026-11-15T08:02:48Z, before this window, and is the #163 health sentence now listed. No main commit since 2026-11-15T10:36:16Z. Side branches were not listed."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/d8c7855a884c",
@@ -10185,7 +10234,7 @@
     }
   ],
   "rejected_this_run": [
-    "No new repository in this window was listed. Ian-zy1/dsh-project-bots, CACppuccino theme commits, and smallnest 0.4.0 were not read line by line. nocoo/pi-superagent is CI only. tangram-agent is closed-source and does not name this prototype. swhite-cn/SuperAgent is empty. Dodaios and N.E.K.O are unrelated."
+    "Listed MythosMa/dsh-superagent-deploy. Did not list diarra-tech/test-superagent (empty), Ian-zy1/dsh-project-bots (docs only; tree not read line by line), or Nelson's non-default reconciliation branch."
   ],
   "held_on_other_branches": [
     "lanshi17/dsh-booth master is 37fa185b636d, Cargo 0.3.8. Tag v0.3.8 points at that commit. Tag v0.3.7 points at 21bc7493ee81 and has no GitHub release. Submodule remains 2febfad95e95. Do not repeat the prebuilt-install sentence.",
@@ -10464,8 +10513,9 @@
     "NelsonLongxiang/dsh-open-a2a-net next/0.8 af13c1743e6b at 2026-11-12T09:01:02Z merges #652 and includes #653. Master stays 7c2bc2f91bf8.",
     "NelsonLongxiang/dsh-open-a2a-net master stays ce0aa498a57c. next/0.8 is dddec60e4d36 (#688, 2026-11-14T01:06:21Z). fix/decision-original-request-auth is 515bbedeab89 at 2026-11-14T01:22:49Z. review/seat-token-exchange is ef40a05bd258 at 2026-11-14T01:12:34Z. Do not list non-default branches.",
     "LofiSu/deepseek-super-agent main stays 1c73d86a0aad. feat/controlled-evolution-strategy is 817d6764d4e1 at 2026-11-14T01:17:22Z. Do not list the branch.",
-    "LofiSu/deepseek-super-agent main stays 23f795e58634. feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Do not list the branch."
+    "LofiSu/deepseek-super-agent main stays 23f795e58634. feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Do not list the branch.",
+    "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.12.1 (published 2026-11-15T04:08:57.835Z). @vfvrpq/dsh-superagent latest remains 0.3.0 (published 2026-11-15T03:02:14.357Z). dsh-mini-superagent latest remains 0.9.1. @missher/dsh-superagent, dsh-superagent-signal, dsh-superagent, and dsh-superagent-linear remain 404. dsh-superagent-workbench latest remains 0.1.1. dsh-ladder-superagents latest remains 0.2.1. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.26 and latest remains 0.7.0. No publish of those packages in this window."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest is 0.14.2 (published 2026-11-15T11:08:11.326Z, gitHead 4cfa8e8125197d59e82dbb5a55d6ed1688893f50, 51 files, shasum 9b855f3c6af69dca1472a5eee645b79f99de7825). 0.14.0 published 2026-11-15T10:40:24.053Z (gitHead 9fa669195968e3a0957328cdee6a2ce41a497df3). 0.14.1 published 2026-11-15T10:57:15.195Z (gitHead b4eb28771053b58b61217ce43a4aff1d1987b34d). 0.13.0 was not published. @vfvrpq/dsh-superagent latest remains 0.3.0 (published 2026-11-15T03:02:14.357Z). dsh-mini-superagent latest remains 0.9.1 (published 2026-11-13T10:55:02.939Z). @missher/dsh-superagent, dsh-superagent-signal, dsh-superagent, and dsh-superagent-linear remain 404. dsh-superagent-workbench latest remains 0.1.1 (published 2026-11-14T07:14:23.785Z). dsh-ladder-superagents latest remains 0.2.1 (published 2026-11-11T03:33:15.526Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.26 (published 2026-11-14T18:52:25.051Z) and latest remains 0.7.0."
 }
