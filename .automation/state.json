@@ -1,32 +1,56 @@
 {
-  "last_run_at": "2026-11-15T04:36:44Z",
+  "last_run_at": "2026-11-15T05:37:53Z",
   "timezone": "UTC",
-  "baseline_commit": "4905837",
+  "baseline_commit": "6b6eebc",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T03:45:00Z",
-    "to": "2026-11-15T04:36:44Z"
+    "from": "2026-11-15T04:36:44Z",
+    "to": "2026-11-15T05:37:53Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "LittleChenLiya 0.12.1 is on main and on npm latest",
-      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/1d55224ddc53",
-      "confidence": 0.95,
-      "reason": "Main tip 1d55224ddc53 at 2026-11-15T04:06:29Z is package 0.12.1. d7abf90503c4 is now on main. No tag v0.10.0. npm 0.11.0 at 03:37:05.752Z gitHead 7b7a2f9428c5 matches lightweight tag v0.11.0, 25 files, shasum dc0742634586bcf9bbc49982a16f928b02617ef8, and adds superagent_template, superagent_answer, superagent_followup. npm latest 0.12.1 at 04:08:57.835Z, 35 files, shasum f93fddcc515a6e7b3febe0fdd5b9305e2d2bc69f, gitHead 1d55224ddc536b749b5c8e7d937845c4638e9e95. Annotated tag v0.12.1 c63d3025b14b peels to that commit at 04:09:56Z. npm 0.12.0 gitHead is 26083bd359f6; annotated tag v0.12.0 d3afd729a6d2 peels to f10857c36f67 at 03:57:25Z. engines and empty dependencies unchanged. New bins doctor, archive, sync, workbench. 0.12.0 registers superagent_audit and superagent_inject. guard.js refuses credential stores and .git/config and .git/hooks. inject.js uses subagents.sendMessage. 0.12.1 changelog is the LF fix. Not installed."
+      "title": "Signal 0.2.0 batches start and end notices",
+      "url": "https://github.com/lkshrk/dsh-superagent-signal/commit/3434a88a8267fc921898e92e484ca5557f93252f",
+      "confidence": 0.96,
+      "reason": "Main tip 3434a88a8267 at 2026-11-15T04:46:36Z merges #6. package.json is 0.2.0 with no private field. engines.dsh is unchanged. Starts and ends share one batch; questions, blocks and failures stay immediate. The start message waits one batchSettleSeconds (default 120) or five of those after the first pending start. The final summary lists only unreported ends after the same quiet period. A partial summary uses seen, not ended.at, and batchMaxHours (default 4). A resumed ticket drops its end. An open ticket the host no longer has leaves the batch; an ended one stays. The old Signal merged/closed PR skip no longer drops the summary line. Batch thread is signal:<internal group id>:batch. Tag v0.2.0 is a commit object at this tip; its tree matches 8d3a89d9188b, not the version-only e685157afa39. Release at 04:47:55Z attaches dsh-superagent-signal-0.2.0.tgz and names ghcr.io/lkshrk/dsh-superagent-signal:0.2.0@sha256:83e3192391583388e24c003995e472e07f4fd47aaef06fc91be39bbdfab25310. npm 404. The listed sentence was extended. Tests were not run."
     },
     {
-      "title": "touch-agent project layer landed in #87 and #88",
-      "url": "https://github.com/touch-agent/dsh-superagent/commit/ad1702e64d6c",
+      "title": "wychmod board filters and dispatch cards are on main",
+      "url": "https://github.com/wychmod/dsh-mini-superagent/commit/08921ef6bdd4",
       "confidence": 0.94,
-      "reason": "#87 ec4f76867b4f merged at 2026-11-15T03:49:53Z. ux.projects.v1 shows project cards and falls back to the flat list when off or when the host sends no projects. #88 ad1702e64d6c merged at 04:14:32Z, head 8676cba0ad36. Ticket kind is project or task, absent means task. admitProjectTask and assignProjectTask are the coordination-session seams. Archive writes archivedAt only. A stale projectTicketId reads as unassigned and projectBroken. http.ts has projects/:id, archive, and restore. Package stays private 0.1.0. engines.dsh stays ^0.2.1-rc.5. Ahead of 6337fc8 by 504. Tests were not run."
+      "reason": "Main tip 08921ef6bdd4 at 2026-11-15T05:10:34Z is 7 commits ahead of ba75dc1f7f3e and 0 behind. Version, FILE_VERSION 4, maxWorkers 6, engines.dsh and empty dependencies are unchanged. Annotated tag v0.9.1 peels to 1d7b8a736b6b, which is on main and 6 behind the tip. npm 0.9.1 gitHead 9729ecec8ef2 still has no common ancestor with the tip. GET /board accepts exact group and task filters before the 200-row slice; counts stay global. client-ready stores whitelisted batch/report card states on dispatch.clientReady.cards. The client adds a toolview card, a shared group poll, and a turnTail summary. The handoff prompt now gives positive and negative examples and still does not score. index.html is a Pages homepage and is not in npm files. The listed sentence was extended. selfCheck was not reread. Tests were not run."
     }
   ],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/e2afd2546eb3",
+      "confidence": 0.9,
+      "reason": "Default main tip e2afd2546eb3 at 2026-11-15T05:32:25Z. The compare from 0fa8e5afe7cf is 95 commits and 270 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03 at 2026-11-04T19:48:24Z. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/381f541d2ff9",
+      "confidence": 0.9,
+      "reason": "Default main tip 381f541d2ff9 at 2026-11-15T05:27:44Z. Commits since 2026-11-15T04:36:44Z on packages/shared/src/super-agent: 0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "touch-agent conversation branch is not main",
+      "url": "https://github.com/touch-agent/dsh-superagent/commit/546cf6a73a74",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-15T05:22:19Z is agent/conversation-f464fd98dd14 546cf6a73a74 at 2026-11-15T05:22:09Z. It only crops host-sidebar evidence images under docs/029. Default main remains ad1702e64d6c at 2026-11-15T04:14:32Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13365",
+      "confidence": 0.9,
+      "reason": "Discussions #13365, #13364 and #13363 were created in this window. None of those bodies contain superagent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T05:27:16Z is not a commit. Harness tip remains 39163dd30f70 on master; updated_at 2026-11-15T05:32:07Z is not a commit."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/0fa8e5afe7cf",
@@ -9923,9 +9947,12 @@
     }
   ],
   "rejected_this_run": [
-    "No new repository in this window met the list bar. jia012/dsh-superagent-demo and luck1dog/niuma-attempt were already rejected and did not move after 2026-11-15T03:45:00Z."
+    "No new repository in this window met the list bar. Superagentzy/superagent-trial, lookfree/superagent-sandbox and Djdemand/superagent-sandbox are trial or sandbox repos. madhavangn-work/agentic-ai-workflow is a generic Python multi-agent scaffold and does not name DSH. jia012/dsh-superagent-demo and luck1dog/niuma-attempt were already rejected; the demo push at 2026-11-15T04:36:41Z is before this window."
   ],
   "held_on_other_branches": [
+    "lkshrk/dsh-superagent-signal main is 3434a88a8267. Tag v0.2.0 points at that commit. Do not repeat the batched-notice sentence.",
+    "wychmod/dsh-mini-superagent main is 08921ef6bdd4. Tag v0.9.1 peels to 1d7b8a736b6b. Do not repeat the board-card sentence.",
+    "touch-agent/dsh-superagent main stays ad1702e64d6c. agent/conversation-f464fd98dd14 546cf6a73a74 is docs crops. Do not list the branch.",
     "lkshrk/dsh-superagent-signal main stays c112b37b3a95. feat/quiet-notices e685157afa39 at 2026-11-15T04:28:28Z only edits package.json for 0.2.0. Do not list the branch.",
     "NelsonLongxiang/dsh-open-a2a-net master stays e28eba14fa4c. fix/receipt-delivery-recovery 4f60ee08869c at 2026-11-15T04:02:45Z is not master. Do not list the branch.",
     "439436269-ctrl/dsh-superagent #6 merged to main as 088031968cce at 2026-11-15T02:47:47Z. The side branch is no longer the only copy.",
@@ -10188,5 +10215,5 @@
     "LofiSu/deepseek-super-agent main stays 23f795e58634. feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest is 0.12.1 (published 2026-11-15T04:08:57.835Z), gitHead 1d55224ddc536b749b5c8e7d937845c4638e9e95, 35 files, shasum f93fddcc515a6e7b3febe0fdd5b9305e2d2bc69f. 0.12.0 was published 2026-11-15T03:55:31.964Z with gitHead 26083bd359f6. 0.11.0 was published 2026-11-15T03:37:05.752Z with gitHead 7b7a2f9428c5. @nelsonlongxiang/dsh-open-a2a-net was not republished; preview remains 0.8.1-preview.26 and latest remains 0.7.0. @vfvrpq/dsh-superagent latest remains 0.3.0 (modified 2026-11-15T03:02:14.521Z). Unscoped dsh-superagent and @missher/dsh-superagent returned 404. arXiv all:dsh-superagent returned HTTP 429. HN has no story newer than 2026-11-11T16:50:41Z."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.12.1 (published 2026-11-15T04:08:57.835Z). @vfvrpq/dsh-superagent latest remains 0.3.0. dsh-mini-superagent latest remains 0.9.1 (gitHead 9729ecec8ef24949b05d43420ebc1b0102088483). @missher/dsh-superagent and dsh-superagent-signal are still 404."
 }
