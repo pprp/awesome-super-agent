@@ -1,26 +1,74 @@
 {
-  "last_run_at": "2026-11-15T06:29:51Z",
+  "last_run_at": "2026-11-15T07:29:48Z",
   "timezone": "UTC",
-  "baseline_commit": "6e13184",
+  "baseline_commit": "a5ce5b8",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T05:37:53Z",
-    "to": "2026-11-15T06:29:51Z"
+    "from": "2026-11-15T06:29:51Z",
+    "to": "2026-11-15T07:29:48Z"
   },
-  "added": [],
-  "updated": [
+  "added": [
     {
-      "title": "Yukikaze blocking commands point at a background job",
-      "url": "https://github.com/Yukikaze-Ai/dsh-ladder-superagents/commit/6b3e237a7cef5833f47eb85a625f979e09a7617d",
-      "confidence": 0.95,
-      "reason": "Main tip 6b3e237a7cef at 2026-11-15T06:09:06Z is 5 commits ahead of 3f512dc43427 and 0 behind, and only index.js and client.js change. Version stays 0.3.1. engines.dsh stays >=0.2.2-0. npm latest stays 0.2.1 (2026-11-11T03:33:15.526Z). handOffMode defaults to job. A command that would block the turn spawns a worker only when the mode is child; otherwise the tool result tells the model to rerun it with run_in_background and collect it with job_output. The charter says the tool follows the task. A wait or build uses a background job; output that needs judgement goes to supa_spawn with the output or the job spill path. The pill polls /supa/state every 60 seconds after success. A request without cwd reuses the state payload for 10 seconds. A session toggle writes the enabled-session file and returns action, id, and enabled; the client updates supaSessions locally. The listed sentence was extended. Tests were not run."
+      "title": "CACppuccino suite shows worker counts in both headers",
+      "url": "https://github.com/CACppuccino/DSH-Super-Agent/commit/29154022a72bffde91ecf1785245047777c2fcb7",
+      "confidence": 0.9,
+      "reason": "Main tip 29154022a72b at 2026-11-15T06:56:07Z. @local/dsh-suite, @local/dsh-super-agent, and dsh-remote stay 0.1.0. engines.dsh stays >=0.2.1. The suite patch inserts dsh-super-agent and dsh-remote on 0.0.0.0:3443 /remote-api. WorkerSummary renders the total alone when running is 0, and total · running otherwise, in the conversation title and the right-rail header. A selected worker uses the parent conversation's stats. The parent commit 058bc78e86fa was not reread line by line. The listed sentence was added. Tests were not run."
     }
   ],
+  "updated": [],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/0720280c45d4",
+      "confidence": 0.9,
+      "reason": "Default main tip 0720280c45d4 at 2026-11-15T07:31:24Z. The compare from 238678951ac4 is 21 commits and 58 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI cross-end-auto does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/79b339d8f1f6",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-15T06:56:42Z is cross-end-auto 79b339d8f1f6 at 2026-11-15T06:56:38Z. Default main remains 478415eaa84d. Commits since 2026-11-15T06:03:12Z on packages/shared/src/super-agent: 0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson backpressure branch is not master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/578e741e68b4",
+      "confidence": 0.92,
+      "reason": "Master remains e28eba14fa4c at 2026-11-14T18:32:47Z. fix/reconciliation-reminder-backpressure is 578e741e68b4 at 2026-11-15T07:31:34Z and only changes tests. fix/receipt-delivery-recovery is da7552c81ad7 at 2026-11-15T06:37:59Z and is not master. next/0.8 remains 16edb76e6eab. The listed sentence was not rewritten."
+    },
+    {
+      "title": "martinxiao backlog rows do not move the listed sentence",
+      "url": "https://github.com/martinxiao2025/dsh-superagent/commit/c38014fd0382",
+      "confidence": 0.9,
+      "reason": "Main tip c38014fd0382 at 2026-11-15T07:16:34Z is 2 commits ahead of 5b8df64df1e1 and only changes tasks/backlog.csv. Task 5 is marked done and its description is quoted. Package and described behavior were not in these commits. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13386",
+      "confidence": 0.9,
+      "reason": "Discussions #13386, #13385, #13384, #13383, #13382, #13381, #13380, #13379, #13378, #13377, and #13376 were created in this window. None of those bodies contain superagent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T07:29:08Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T07:29:31Z is not a commit."
+    },
+    {
+      "title": "aloth awesome-ai-agents is a general agents list",
+      "url": "https://github.com/aloth/awesome-ai-agents/commit/cfe4bd8481cf",
+      "confidence": 0.55,
+      "reason": "Main tip cfe4bd8481cf at 2026-11-15T07:03:04Z adds one line pointing at the official prototype, plus ZCode and Mika. It is a general AI-agents catalog, not a DSH super-agent source. Not listed."
+    },
+    {
+      "title": "hualuoye2/superagent-sandbox is a sandbox",
+      "url": "https://github.com/hualuoye2/superagent-sandbox/commit/23ecbb997a55",
+      "confidence": 0.4,
+      "reason": "Created 2026-11-15T06:23:03Z. Main tip 23ecbb997a55 at 2026-11-15T06:54:07Z. README is a welcome line. Sandbox repositories stay out. Not listed."
+    },
+    {
+      "title": "superstar717 playground main did not move",
+      "url": "https://github.com/superstar717/dsh-superagent-playground/commit/8c9c472e60e6",
+      "confidence": 0.4,
+      "reason": "pushed_at 2026-11-15T07:01:45Z. Default main remains 8c9c472e60e6. Pull request events in this window are not on main. Playground repositories stay out. Not listed."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/238678951ac4",
@@ -9971,10 +10019,15 @@
     }
   ],
   "rejected_this_run": [
-    "No new repository in this window met the list bar. Superagentzy/superagent-trial pushed agent/add-notes-md-6b8c67693bb3 at 2026-11-15T05:54:16Z (d9cda561759c), which adds a one-line NOTES.md. main stays the 04:37Z initial commit. It remains a trial repository and the branch is not main."
+    "No second new repository in this window met the list bar. hualuoye2/superagent-sandbox remains a sandbox. superstar717/dsh-superagent-playground main did not move. aloth/awesome-ai-agents is a general agents catalog."
   ],
   "held_on_other_branches": [
-    "Yukikaze-Ai/dsh-ladder-superagents main is 6b3e237a7cef. Version stays 0.3.1. Do not repeat the background-job handoff sentence.",
+    "CACppuccino/DSH-Super-Agent main is 29154022a72b. Versions stay 0.1.0. Do not repeat the WorkerSummary sentence.",
+    "pingdotgg/t3code main is 0720280c45d4. 21 commits and 58 files from 238678951ac4 have no superagent or hextor filename. hextor main stays 0dc3b4279c03. Do not rewrite the hextor sentence.",
+    "IHUI-INF-AI/IHUI-AI main stays 478415eaa84d. cross-end-auto 79b339d8f1f6 does not touch packages/shared/src/super-agent. Do not rewrite.",
+    "NelsonLongxiang/dsh-open-a2a-net master stays e28eba14fa4c. fix/reconciliation-reminder-backpressure 578e741e68b4 and fix/receipt-delivery-recovery da7552c81ad7 are not master. Do not list those branches.",
+    "martinxiao2025/dsh-superagent main is c38014fd0382. The two commits only edit tasks/backlog.csv. Do not rewrite the listed sentence.",
+    "Yukikaze-Ai/dsh-ladder-superagents main stays 6b3e237a7cef. Do not repeat the background-job handoff sentence.",
     "lkshrk/dsh-superagent-signal main stays 3434a88a8267. renovate/lock-file-maintenance 3f087b6c2e33 at 2026-11-15T06:04:39Z only edits pnpm-lock.yaml. Do not list the branch.",
     "lkshrk/dsh-superagent-linear main stays b44b240a09ad. renovate/lock-file-maintenance e610816a381d at 2026-11-15T06:04:02Z only edits pnpm-lock.yaml. Do not list the branch.",
     "lkshrk/dsh-superagent-signal main is 3434a88a8267. Tag v0.2.0 points at that commit. Do not repeat the batched-notice sentence.",
@@ -10242,5 +10295,5 @@
     "LofiSu/deepseek-super-agent main stays 23f795e58634. feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.12.1 (published 2026-11-15T04:08:57.835Z). @vfvrpq/dsh-superagent latest remains 0.3.0. dsh-mini-superagent latest remains 0.9.1 (gitHead 9729ecec8ef24949b05d43420ebc1b0102088483). @missher/dsh-superagent and dsh-superagent-signal are still 404. dsh-ladder-superagents latest remains 0.2.1 (published 2026-11-11T03:33:15.526Z). No publish of that package in this window."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.12.1 (published 2026-11-15T04:08:57.835Z). @vfvrpq/dsh-superagent latest remains 0.3.0. dsh-mini-superagent latest remains 0.9.1 (gitHead 9729ecec8ef24949b05d43420ebc1b0102088483). @missher/dsh-superagent and dsh-superagent-signal were not rechecked this window. dsh-ladder-superagents latest remains 0.2.1 (published 2026-11-11T03:33:15.526Z). No publish of that package in this window."
 }
