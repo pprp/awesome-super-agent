@@ -1,27 +1,108 @@
 {
-  "last_run_at": "2026-11-15T09:36:13Z",
+  "last_run_at": "2026-11-15T10:36:16Z",
   "timezone": "UTC",
-  "baseline_commit": "be07f92",
+  "baseline_commit": "7b8fbea",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T08:30:49Z",
-    "to": "2026-11-15T09:36:13Z"
+    "from": "2026-11-15T09:36:13Z",
+    "to": "2026-11-15T10:36:16Z"
   },
   "added": [],
   "updated": [
     {
+      "title": "lkshrk/dsh-superagent",
+      "url": "https://github.com/lkshrk/dsh-superagent",
+      "from": "f9de8b3ddd4b",
+      "to": "e132a72ecdea",
+      "version": "0.3.1"
+    },
+    {
+      "title": "lkshrk/dsh-superagent-linear",
+      "url": "https://github.com/lkshrk/dsh-superagent-linear",
+      "from": "b44b240a09ad",
+      "to": "8ef891456471",
+      "version": "0.2.3"
+    },
+    {
       "title": "lanshi17/dsh-booth",
       "url": "https://github.com/lanshi17/dsh-booth",
-      "from": "9b04220511de",
-      "to": "37fa185b636d",
-      "version": "0.3.8"
+      "from": "37fa185b636d",
+      "to": "80a74860ef25",
+      "version": "0.3.9"
+    },
+    {
+      "title": "HUHAN-HIT/dsh-superagent",
+      "url": "https://github.com/HUHAN-HIT/dsh-superagent",
+      "from": "74fd4c4c64d7",
+      "to": "05355ee26bc2",
+      "version": "0.1.0"
     }
   ],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/d8c7855a884c",
+      "confidence": 0.9,
+      "reason": "Default main tip d8c7855a884c at 2026-11-15T10:30:52Z. The compare from 2b83dd0969f4 is 8 commits and 48 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/ec794ca83a55",
+      "confidence": 0.9,
+      "reason": "Default main tip ec794ca83a55 at 2026-11-15T10:29:28Z. The compare from a1b8b8567d88 is 6 commits and 8 files. Commits since 2026-11-15T09:36:13Z on packages/shared/src/super-agent: 0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13403",
+      "confidence": 0.9,
+      "reason": "Discussions #13403, #13402, #13401, #13400, and #13399 were created in this window. None of those bodies contain superagent, Mandate, Ticket, or dsh-superagent. #13394 updated_at 2026-11-15T09:37:09Z has an empty comment list and its body does not name it. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T10:30:57Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T10:31:13Z is not a commit."
+    },
+    {
+      "title": "CACppuccino theme commits were not read line by line",
+      "url": "https://github.com/CACppuccino/DSH-Super-Agent/commit/340c4f675e30",
+      "confidence": 0.6,
+      "reason": "Main tip 340c4f675e30 at 2026-11-15T10:29:02Z is 5 commits ahead of 29154022a72b. orchestrator.js is +682 and pending.js is +139. Those files were not read line by line, so the listed WorkerSummary sentence was not rewritten."
+    },
+    {
+      "title": "Ian-zy1/dsh-project-bots vendors a tree that was not read line by line",
+      "url": "https://github.com/Ian-zy1/dsh-project-bots/commit/8149e2a2a8f9",
+      "confidence": 0.55,
+      "reason": "Created 2026-11-15T06:43:09Z. 8149e2a2a8f9 at 2026-11-15T10:05:48Z vendors components/superagent plus owner-relay. d636115869d8 at 2026-11-15T10:24:44Z is homepage docs. Root license is null. The vendored tree was not read line by line, so it was not listed."
+    },
+    {
+      "title": "smallnest/superagent 0.4.0 was not read line by line",
+      "url": "https://github.com/smallnest/superagent/commit/969e797391fe",
+      "confidence": 0.55,
+      "reason": "Master tip 969e797391fe at 2026-11-15T10:23:21Z adds a PR checkout and review loop and bumps to 0.4.0. The new files were not read line by line, so it was not listed."
+    },
+    {
+      "title": "nocoo/pi-superagent commit is CI only",
+      "url": "https://github.com/nocoo/pi-superagent/commit/dfe8d552fcb0",
+      "confidence": 0.7,
+      "reason": "Main tip dfe8d552fcb0 at 2026-11-15T10:01:24Z only changes .github/workflows/quality-slots.yml, pinning Node 26.12.1 and anchoring the uses regex. Not listed."
+    },
+    {
+      "title": "3477856804/tangram-agent is a closed personal runtime",
+      "url": "https://github.com/3477856804/tangram-agent/commit/65d0894e3a08",
+      "confidence": 0.85,
+      "reason": "Main tip 65d0894e3a08 at 2026-11-15T09:47:40Z. The commit message names DeepSeek Super Agent. The README is a proprietary Flutter and Dart runtime and does not name dsh-superagent. Not listed."
+    },
+    {
+      "title": "swhite-cn/SuperAgent is an empty repository",
+      "url": "https://github.com/swhite-cn/SuperAgent",
+      "confidence": 0.4,
+      "reason": "Pushed at 2026-11-15T09:37:40Z. The commits API returns 409 because the Git repository is empty. Empty repositories stay out. Not listed."
+    },
+    {
+      "title": "Dodaios and N.E.K.O are not this prototype",
+      "url": "https://github.com/Dodaios/Dodaios/commit/eeb8e948c489",
+      "confidence": 0.9,
+      "reason": "Dodaios/Dodaios and Project-N-E-K-O/N.E.K.O moved in this window. Their descriptions are a desktop agent host and a companion-agent community. Neither names dsh-superagent. Not listed."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/2b83dd0969f4",
@@ -10104,7 +10185,7 @@
     }
   ],
   "rejected_this_run": [
-    "No new repository in this window met the list bar. hwdshgit/superagent-playground is a one-line playground. NEO-Digital-AT/contao-superagent-bundle is a Contao chat assistant. imjszhang/js-superagent and smallnest/superagent were not read line by line. New DSH plugins in this window do not name this prototype."
+    "No new repository in this window was listed. Ian-zy1/dsh-project-bots, CACppuccino theme commits, and smallnest 0.4.0 were not read line by line. nocoo/pi-superagent is CI only. tangram-agent is closed-source and does not name this prototype. swhite-cn/SuperAgent is empty. Dodaios and N.E.K.O are unrelated."
   ],
   "held_on_other_branches": [
     "lanshi17/dsh-booth master is 37fa185b636d, Cargo 0.3.8. Tag v0.3.8 points at that commit. Tag v0.3.7 points at 21bc7493ee81 and has no GitHub release. Submodule remains 2febfad95e95. Do not repeat the prebuilt-install sentence.",
@@ -10386,5 +10467,5 @@
     "LofiSu/deepseek-super-agent main stays 23f795e58634. feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.12.1 (published 2026-11-15T04:08:57.835Z). @vfvrpq/dsh-superagent latest remains 0.3.0 (published 2026-11-15T03:02:14.357Z). dsh-mini-superagent latest remains 0.9.1 (gitHead 9729ecec8ef24949b05d43420ebc1b0102088483). @missher/dsh-superagent and dsh-superagent-signal remain 404. dsh-superagent-workbench latest remains 0.1.1 (published 2026-11-14T07:14:23.785Z). dsh-ladder-superagents latest remains 0.2.1 (published 2026-11-11T03:33:15.526Z). No publish of those packages in this window."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.12.1 (published 2026-11-15T04:08:57.835Z). @vfvrpq/dsh-superagent latest remains 0.3.0 (published 2026-11-15T03:02:14.357Z). dsh-mini-superagent latest remains 0.9.1. @missher/dsh-superagent, dsh-superagent-signal, dsh-superagent, and dsh-superagent-linear remain 404. dsh-superagent-workbench latest remains 0.1.1. dsh-ladder-superagents latest remains 0.2.1. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.26 and latest remains 0.7.0. No publish of those packages in this window."
 }
