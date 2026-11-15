@@ -1,19 +1,69 @@
 {
-  "last_run_at": "2026-11-15T08:30:49Z",
+  "last_run_at": "2026-11-15T09:36:13Z",
   "timezone": "UTC",
-  "baseline_commit": "d9a7ebf",
+  "baseline_commit": "be07f92",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T07:29:48Z",
-    "to": "2026-11-15T08:30:49Z"
+    "from": "2026-11-15T08:30:49Z",
+    "to": "2026-11-15T09:36:13Z"
   },
   "added": [],
-  "updated": [],
+  "updated": [
+    {
+      "title": "lanshi17/dsh-booth",
+      "url": "https://github.com/lanshi17/dsh-booth",
+      "from": "9b04220511de",
+      "to": "37fa185b636d",
+      "version": "0.3.8"
+    }
+  ],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/2b83dd0969f4",
+      "confidence": 0.9,
+      "reason": "Default main tip 2b83dd0969f4 at 2026-11-15T09:26:26Z. The compare from 32c069eed1d2 is 10 commits and 43 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/a1b8b8567d88",
+      "confidence": 0.9,
+      "reason": "Default main tip a1b8b8567d88 at 2026-11-15T09:19:08Z. The compare from 32dba2528a1d is 14 commits and 27 files. Commits since 2026-11-15T08:30:49Z on packages/shared/src/super-agent: 0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13398",
+      "confidence": 0.9,
+      "reason": "Discussions #13398, #13397, #13396, #13395, #13394, and #13393 were created in this window. None of those bodies contain superagent, Mandate, Ticket, or dsh-superagent. Comments on #12908 at 2026-11-15T09:22:54Z and #3157 at 2026-11-15T09:00:34Z do not name it. #13245 updated_at 2026-11-15T09:26:26Z is not a body that names it. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T09:20:48Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T09:28:56Z is not a commit."
+    },
+    {
+      "title": "imjszhang/js-superagent was not read line by line",
+      "url": "https://github.com/imjszhang/js-superagent/commit/086f14b2527c",
+      "confidence": 0.6,
+      "reason": "Main tip 086f14b2527c at 2026-11-15T09:07:20Z is 0.15.0-alpha.11. README says the core and tests were extracted from prototype 6337fc8. The three commits in this window were not read line by line, so it was not listed."
+    },
+    {
+      "title": "smallnest/superagent version bump was not read line by line",
+      "url": "https://github.com/smallnest/superagent/commit/94bbcc756b1e",
+      "confidence": 0.55,
+      "reason": "Master tip 94bbcc756b1e at 2026-11-15T09:20:59Z only changes package.json to superagent-skill 0.3.0. The comparison doc was not read line by line, so it was not listed."
+    },
+    {
+      "title": "hwdshgit/superagent-playground is a playground",
+      "url": "https://github.com/hwdshgit/superagent-playground/commit/d738010010e5",
+      "confidence": 0.4,
+      "reason": "Main tip d738010010e5 at 2026-11-15T08:39:13Z. README is one line calling it a dsh-superagent trial repository. Repository size is 1. Playground repositories stay out. Not listed."
+    },
+    {
+      "title": "contao-superagent-bundle is not this prototype",
+      "url": "https://github.com/NEO-Digital-AT/contao-superagent-bundle/commit/2927d7daf7c7",
+      "confidence": 0.9,
+      "reason": "Main tip 2927d7daf7c7 at 2026-11-15T08:47:53Z says Release 1.0.0. README is a Contao 5 website chat assistant. The body does not name dsh-superagent, DeepSeek, or Harness. Not listed."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/32c069eed1d2",
@@ -10054,9 +10104,12 @@
     }
   ],
   "rejected_this_run": [
-    "No new repository in this window met the list bar. trueporWu/superagent-test is an empty test repository. aloth/awesome-ai-agents remains a general catalog. gluztm/dsh-chief v1.1.0 was force-pushed before this window and was not read line by line."
+    "No new repository in this window met the list bar. hwdshgit/superagent-playground is a one-line playground. NEO-Digital-AT/contao-superagent-bundle is a Contao chat assistant. imjszhang/js-superagent and smallnest/superagent were not read line by line. New DSH plugins in this window do not name this prototype."
   ],
   "held_on_other_branches": [
+    "lanshi17/dsh-booth master is 37fa185b636d, Cargo 0.3.8. Tag v0.3.8 points at that commit. Tag v0.3.7 points at 21bc7493ee81 and has no GitHub release. Submodule remains 2febfad95e95. Do not repeat the prebuilt-install sentence.",
+    "pingdotgg/t3code main is 2b83dd0969f4. No superagent or hextor filename since 32c069eed1d2. hextor main is 0dc3b4279c03.",
+    "IHUI-INF-AI/IHUI-AI main is a1b8b8567d88. No super-agent filename since 32dba2528a1d.",
     "NelsonLongxiang/dsh-open-a2a-net master is e28eba14fa4c. fix/reconciliation-reminder-backpressure is 4781a9ef36da and only changes tests.",
     "pingdotgg/t3code main is 32c069eed1d2. No superagent or hextor filename since 0720280c45d4. hextor main is 0dc3b4279c03.",
     "IHUI-INF-AI/IHUI-AI main is 32dba2528a1d. No super-agent filename since 478415eaa84d.",
