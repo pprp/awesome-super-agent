@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-15T04:45:00Z",
+  "last_run_at": "2026-11-15T04:36:44Z",
   "timezone": "UTC",
   "baseline_commit": "4905837",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
@@ -9,7 +9,7 @@
   "max_new_items": 5,
   "window": {
     "from": "2026-11-15T03:45:00Z",
-    "to": "2026-11-15T04:45:00Z"
+    "to": "2026-11-15T04:36:44Z"
   },
   "added": [],
   "updated": [
