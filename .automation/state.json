@@ -1,26 +1,56 @@
 {
-  "last_run_at": "2026-11-15T00:32:18Z",
+  "last_run_at": "2026-11-15T01:33:23Z",
   "timezone": "UTC",
-  "baseline_commit": "b39293b",
+  "baseline_commit": "cdf2837",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-14T23:33:24Z",
-    "to": "2026-11-15T00:32:18Z"
+    "from": "2026-11-15T00:32:18Z",
+    "to": "2026-11-15T01:33:23Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "superboard counts objective progress in Objective.progress",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/820deae43ca5",
+      "title": "Signal 0.1.1 strips a repeated Linear identifier from notice titles",
+      "url": "https://github.com/lkshrk/dsh-superagent-signal/commit/c112b37b3a95",
+      "confidence": 0.96,
+      "reason": "Main tip c112b37b3a95 at 2026-11-15T01:09:32Z merges #5 and sets package.json to 0.1.1. #4 3821e0139814 at 01:06:50Z quotes a title without the Linear identifier when origin starts with \"Linear \" and the title starts with that identifier plus \": \". A longer prefix such as XXX-4290 is left intact. Tag v0.1.1 is a commit object pointing at c112b37b3a95. Release v0.1.1 at 01:12:00Z attaches dsh-superagent-signal-0.1.1.tgz and names ghcr.io/lkshrk/dsh-superagent-signal:0.1.1@sha256:23e31a50a5c0e75b38366079f0c330ef1c17d7906c8f908780a738b9424c8ec0. npm 404. The listed sentence was extended. Tests were not run."
+    },
+    {
+      "title": "439436269 host receipts and scalar repository rows",
+      "url": "https://github.com/439436269-ctrl/dsh-superagent/commit/d42cebf7b239",
       "confidence": 0.95,
-      "reason": "Main tip 820deae43ca5 at 2026-11-14T23:40:50Z merges #738. Objective.progress counts tasks: total is the length, merged counts state \"done\", and done? requires a non-empty list whose tasks are all done. An empty list is total 0, merged 0, done? false. Board rows Map.merge that result and drop the inline fields. The counting rule is unchanged. Tests cover an empty objective, one done and one queued, and two done tasks. No prototype pin in the diff. This run did not execute the tests."
+      "reason": "Main tip d42cebf7b239 at 2026-11-15T01:15:13Z merges #7. #5 4a8f39c80f67 at 00:42:02Z lets a rows field set scalar true and GitHub repositories uses it. Replies is its own settings block, receipt and completion default true. A human channel gets an ack on accept or route, and a ready or dropped report queues one completion reply that a later result reuses. Ahead of 8c32a9d by 152, behind 0. engines.dsh remains ^0.2.1-alpha.2. The listed sentence was extended. Tests were not run."
     }
   ],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/5b818b3e6969",
+      "confidence": 0.9,
+      "reason": "Default main tip 5b818b3e6969 at 2026-11-15T01:28:55Z. The compare from ca29ff1d72a7 is 17 commits and 64 files. No filename or patch matches superagent or hextor. hextor-ndc/superagent main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "Nelson next/0.8 moved and master did not",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/707",
+      "confidence": 0.92,
+      "reason": "Master remains e28eba14fa4c at 2026-11-14T18:32:47Z. #707 is open against next/0.8, head def0342b8e45 at 2026-11-15T01:08:35Z, and the commit says the full root run is still red and it is not merge-ready. #704 merged to next/0.8 at 2026-11-15T00:52:05Z and only changes vitest.config.ts. npm preview remains 0.8.1-preview.26. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13352",
+      "confidence": 0.9,
+      "reason": "Discussions #13352 and #13351 were created in this window. #10615, #13315, and #4984 were updated. None of those bodies contain superagent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T01:08:32Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T01:27:45Z is not a commit."
+    },
+    {
+      "title": "Listed repos outside Signal and 439436269 did not move main",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
+      "confidence": 0.88,
+      "reason": "240 listed GitHub repositories were checked. After 2026-11-15T00:32:18Z, main pushes that change a listed super-agent sentence were lkshrk/dsh-superagent-signal and 439436269-ctrl/dsh-superagent. superboard, LofiSu, touch-agent, IHUI, lkshrk/dsh-superagent, and lkshrk/dsh-superagent-linear had no push in this window. awesome-dsh-plugin pushed_at 2026-11-15T00:03:54Z is before this window. larksuite/cli and AirKyzzZ updated_at moved without a push."
+    },
     {
       "title": "LofiSu evolution branch moved and is not main",
       "url": "https://github.com/LofiSu/deepseek-super-agent/commit/e2cdd3f41c18",
@@ -9821,16 +9851,12 @@
     }
   ],
   "rejected_this_run": [
-    "lkshrk signal renovate/lock-file-maintenance 25df82a83005 only changes pnpm-lock.yaml and is not main.",
-    "lkshrk linear renovate/lock-file-maintenance 5f49f0d74e70 only changes pnpm-lock.yaml and is not main.",
-    "tanxinz main stayed cf3119c80cf1. The docs branch 012018cf2e10 is not main and stays unlisted.",
-    "awesome-dsh-plugin 1cdd13cfeaae has no filename matching superagent.",
-    "billLiao 63b188c4f89e adds no superagent line.",
-    "Discussions #13350 and the #7212 comment at 23:50Z do not name this prototype.",
-    "t3code ca29ff1d72a7 does not name superagent or hextor.",
-    "IHUI fa299a395086 does not touch packages/shared/src/super-agent."
+    "caldwelljoseph88/cal f03e76cc8a9d is proxy marketing that mentions superagent in passing. Not listed.",
+    "Nelson #707 stays off the list until it lands on master. #704 on next/0.8 only changes vitest.config.ts.",
+    "Sandbox, playground, and demo repositories from the created:>=2026-11-14 search were not listed."
   ],
   "held_on_other_branches": [
+    "NelsonLongxiang/dsh-open-a2a-net master stayed e28eba14fa4c. #707 is open on next/0.8 at def0342b8e45 and says it is not merge-ready. #704 merged to next/0.8 at 411849018528 and only changes vitest.config.ts.",
     "LofiSu/deepseek-super-agent main stayed 23f795e58634. feat/controlled-evolution-strategy is e2cdd3f41c18 at 2026-11-15T00:25:11Z, one commit ahead of 7398718c65f8. runFinalTestOnce checks dataset, artifact, strategy, and evaluator digests before claimFinalTest. touch-agent main had no commit in this window; #88 head stayed b9caf36c408a.",
     "LofiSu/deepseek-super-agent main stayed 23f795e58634. feat/controlled-evolution-strategy is 7398718c65f8 at 2026-11-14T23:26:05Z, two commits ahead of e170050dfbe6. touch-agent main had no commit in this window; #88 head stayed b9caf36c408a.",
     "touch-agent/dsh-superagent main stayed b6a41d78a46a. #87 head stayed f3cde9cb0ff8. #88 updated_at 2026-11-14T22:00:46Z and head stayed b9caf36c408a at 2026-11-14T21:30:25Z. LofiSu/deepseek-super-agent main stayed 23f795e58634. feat/controlled-evolution-strategy stayed e170050dfbe6 at 2026-11-14T21:32:06Z.",
@@ -10086,5 +10112,5 @@
     "LofiSu/deepseek-super-agent main stays 23f795e58634. feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. Unscoped dsh-superagent-signal returned 404. @nelsonlongxiang/dsh-open-a2a-net was not republished in this window; master stayed e28eba14fa4c."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. Unscoped dsh-superagent-signal returned 404. @nelsonlongxiang/dsh-open-a2a-net was not republished in this window; preview remains 0.8.1-preview.26 (published 2026-11-14T18:52:25.051Z) and latest remains 0.7.0."
 }
