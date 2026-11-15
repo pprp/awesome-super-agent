@@ -1,34 +1,101 @@
 {
-  "last_run_at": "2026-11-15T12:35:25Z",
+  "last_run_at": "2026-11-15T13:48:59Z",
   "timezone": "UTC",
-  "baseline_commit": "b034859",
+  "baseline_commit": "76aa689",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T11:35:12Z",
-    "to": "2026-11-15T12:35:25Z"
+    "from": "2026-11-15T12:35:25Z",
+    "to": "2026-11-15T13:48:59Z"
   },
   "added": [],
   "updated": [
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "from": "0b41452aa5b4",
-      "to": "b9d6ce57aec7",
-      "version": "#740"
+      "from": "b9d6ce57aec7",
+      "to": "604da22c9d35",
+      "version": "#741"
     },
     {
-      "title": "HUHAN-HIT/dsh-superagent",
-      "url": "https://github.com/HUHAN-HIT/dsh-superagent",
-      "from": "5692fb6c8c5f",
-      "to": "92956c680eb9",
-      "version": "0.1.0"
+      "title": "439436269-ctrl/dsh-superagent",
+      "url": "https://github.com/439436269-ctrl/dsh-superagent",
+      "from": "5f67541cc180",
+      "to": "79d30d0b91a2",
+      "version": "#9"
+    },
+    {
+      "title": "fzss2012/dsh-superagent-local",
+      "url": "https://github.com/fzss2012/dsh-superagent-local",
+      "from": "d39815c5e53a",
+      "to": "9bdbd575910b",
+      "version": "036b941833f4 then 9bdbd575910b"
     }
   ],
   "pending": [
+    {
+      "title": "woxiangjieyan/dsh-superagent-playground is a practice stub",
+      "url": "https://github.com/woxiangjieyan/dsh-superagent-playground",
+      "confidence": 0.35,
+      "reason": "Created 2026-11-15T13:24:39Z. The only commit is bb9395dc2409 at 2026-11-15T13:24:40Z. README is the title plus a line calling it a practice repository. Size is 0. Playground and practice repositories stay out. Not listed."
+    },
+    {
+      "title": "cinvymoe permalink fork was not read line by line",
+      "url": "https://github.com/cinvymoe/dsh-superagent-prototype/commit/37a584fc752b",
+      "confidence": 0.6,
+      "reason": "main tip 37a584fc752b at 2026-11-15T13:20:49Z merges #73. The compare against upstream 8c32a9dc5d72 is 290 commits and 300 files. That tree was not read line by line. Not listed."
+    },
+    {
+      "title": "seabiscuit local-dispatch proposal is docs only",
+      "url": "https://github.com/seabiscuit-agent/dsh-superagent-prototype/commit/2b16cf012d6a",
+      "confidence": 0.6,
+      "reason": "main tip 2b16cf012d6a at 2026-11-15T12:56:05Z adds docs/notes and openspec/changes/local-dispatch-source. No src file changes. design.md, spec.md, and tasks.md were not read line by line. Not listed."
+    },
+    {
+      "title": "jecyxyf adds the prototype as a reference submodule",
+      "url": "https://github.com/jecyxyf/xyf-easycode/commit/8a450dc75e0a",
+      "confidence": 0.85,
+      "reason": "8a450dc75e0a at 2026-11-15T13:05:44Z only adds .gitmodules and references/dsh-superagent-prototype. A reference submodule is not an implementation. Not listed."
+    },
+    {
+      "title": "k98crypto roundtable Feishu file does not name this prototype",
+      "url": "https://github.com/k98crypto/roundtable-v2/commit/7f6a6b5c4b93",
+      "confidence": 0.55,
+      "reason": "7f6a6b5c4b93 at 2026-11-15T13:09:59Z adds superagent/feishu-bot.mjs. The header says group messages become a Ticket for an existing dsh Worker. The opened header and package.json do not contain dsh-superagent. The rest of the 340-line file was not read line by line. Not listed."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/d21d8d8b5df7",
+      "confidence": 0.9,
+      "reason": "Default main tip d21d8d8b5df7 at 2026-11-15T13:30:00Z. The compare from 2becf31b6406 is 9 commits and 38 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main did not move",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/130ba2ea83a7",
+      "confidence": 0.9,
+      "reason": "Default main tip remains 130ba2ea83a7 at 2026-11-15T11:36:03Z. No commit since 2026-11-15T12:35:25Z. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson master did not move",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/e28eba14fa4c",
+      "confidence": 0.92,
+      "reason": "Master remains e28eba14fa4c at 2026-11-14T18:32:47Z. Non-default branches were not listed. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13421",
+      "confidence": 0.9,
+      "reason": "Discussions #13413 through #13422 were created in or just after this window. #13421 is a Harness subagent reuse request and its body does not contain superagent, Mandate, Ticket, or dsh-superagent. #13420 and #13422 do not either. #13418 updated_at 2026-11-15T13:37:36Z has no comments and does not name it. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T13:27:03Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T13:28:39Z is not a commit."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://export.arxiv.org/api/query?search_query=all:dsh-superagent&start=0&max_results=5",
+      "confidence": 0.85,
+      "reason": "arXiv query all:dsh-superagent returned 0 results. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-11. Not listed."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/2becf31b6406",
@@ -10261,9 +10328,10 @@
     }
   ],
   "rejected_this_run": [
-    "Updated superboard to b9d6ce57aec7 (#740) and HUHAN to 92956c680eb9. Did not list andrewngg/dsh-superagent-battlestar or sandalwoods/dsh-superagent-demo. Did not rewrite t3code, IHUI, Nelson, or 439436269."
+    "Updated superboard to 604da22c9d35 (#741), 439436269 to 79d30d0b91a2 (#9), and fzss2012 to 9bdbd575910b (skill dirs in 036b941833f4, then an LF rebuild of lib/client.js). Did not list woxiangjieyan/dsh-superagent-playground, cinvymoe, seabiscuit-agent, jecyxyf/xyf-easycode, or k98crypto/roundtable-v2. Did not rewrite t3code, IHUI, Nelson, or hextor."
   ],
   "held_on_other_branches": [
+    "sandbaseai/dsh-superagent main remains 9a801c732d4c at 2026-11-15T10:40:52Z. fix/kit-copy-names 610520016693 was pushed at 2026-11-15T13:21:35Z and is not main.",
     "pingdotgg/t3code main is 2becf31b6406. No superagent or hextor filename since a16796b956ae (7 commits, 29 files). hextor main is 0dc3b4279c03.",
     "IHUI-INF-AI/IHUI-AI main is 130ba2ea83a7. No super-agent filename since d22653b4f56d (5 commits, 300 files).",
     "NelsonLongxiang/dsh-open-a2a-net master remains e28eba14fa4c. #710 head 0aee2b359c86 is not master. next/0.8 remains 16edb76e6eab.",
