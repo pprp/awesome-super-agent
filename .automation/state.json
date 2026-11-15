@@ -1,34 +1,89 @@
 {
-  "last_run_at": "2026-11-15T14:33:19Z",
+  "last_run_at": "2026-11-15T15:35:21Z",
   "timezone": "UTC",
-  "baseline_commit": "57f8f55",
+  "baseline_commit": "0dd95e5",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T13:48:59Z",
-    "to": "2026-11-15T14:33:19Z"
+    "from": "2026-11-15T14:33:19Z",
+    "to": "2026-11-15T15:35:21Z"
   },
   "added": [],
   "updated": [
     {
       "title": "lkshrk/dsh-superagent",
       "url": "https://github.com/lkshrk/dsh-superagent",
-      "from": "e132a72ecdea",
-      "to": "a49db4868001",
-      "version": "0.3.2"
+      "from": "a49db4868001",
+      "to": "8239c5c441bf",
+      "version": "0.3.3"
     },
     {
       "title": "Missher12/Missher-DSH-Superagent",
       "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "from": "d9d332767f69",
-      "to": "ca78943e5c17",
-      "version": "1.10.11"
+      "from": "ca78943e5c17",
+      "to": "9b321d866461",
+      "version": "1.10.12"
+    },
+    {
+      "title": "sallaumen/dsh-superagent-superboard",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
+      "from": "604da22c9d35",
+      "to": "0067b195cb58",
+      "version": null
     }
   ],
   "pending": [
+    {
+      "title": "martinxiao smoke log does not change the listed code sentence",
+      "url": "https://github.com/martinxiao2025/dsh-superagent/commit/abc6bfaca56a",
+      "confidence": 0.9,
+      "reason": "Tip abc6bfaca56a at 2026-11-15T14:36:30Z. The diff is .gitignore backup-state/, one M6 row in docs/012, and verification/2026-11-15-m0m5-smoke/README.md. The note says 10 desktop SCHEMA 15 deploy checks passed and ticket-level checks still need credentials. The README contains a local home path. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/14f295e01109",
+      "confidence": 0.9,
+      "reason": "Default main tip 14f295e01109 at 2026-11-15T15:21:21Z. The compare from 45dbb4436c07 is 6 commits and 21 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/3b353f87aed1",
+      "confidence": 0.9,
+      "reason": "Default main tip 3b353f87aed1 at 2026-11-15T14:57:41Z. The compare from 38fc5989697a is 1 commit and 16 files. No filename matches super-agent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "tanxinz main stayed; the new commit is docs on another branch",
+      "url": "https://github.com/tanxinz/dsh-superagent/commit/98fb5bb96dd4",
+      "confidence": 0.9,
+      "reason": "main remains a56eb40a096e at 2026-11-15T14:18:36Z. feat/task-m002-v2-8984428 is 98fb5bb96dd4 at 2026-11-15T14:42:33Z and the subject is docs(M002). Not main. Not listed."
+    },
+    {
+      "title": "Nelson master and next/0.8 did not move in this window",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/e28eba14fa4c",
+      "confidence": 0.9,
+      "reason": "master remains e28eba14fa4c at 2026-11-14T18:32:47Z. next/0.8 remains f859168f4737 at 2026-11-15T13:10:51Z, before this window. pushedAt 2026-11-15T15:24:21Z is not a new default-branch commit. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13432",
+      "confidence": 0.9,
+      "reason": "#13432 at 2026-11-15T14:58:54Z is generic dsh-subagent job teardown and does not name this prototype. #13431 at 14:31:16Z is the dsh-braingames plugin. #11620 comment at 15:32:17Z is the desktop pi-ai stream-idle watchdog. #1579 comment at 14:50:38Z is MCP Lens schema freshness. None of those bodies contain dsh-superagent or Mandate. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T15:31:16Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T15:33:03Z is not a commit."
+    },
+    {
+      "title": "Practice and demo repositories stay out",
+      "url": "https://github.com/jly108696-pixel/superagent-playground",
+      "confidence": 0.9,
+      "reason": "jly108696-pixel/superagent-playground was pushed at 2026-11-15T15:00:52Z and describes itself as a practice repository. ExXTong/thesis-administrative-enforcement tip b7745b6231a8 at 2026-11-15T15:08:51Z describes itself as a demo repo. Not listed. sandbaseai main stayed d49961b5367e."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://export.arxiv.org/api/query?search_query=all:dsh-superagent&start=0&max_results=5",
+      "confidence": 0.85,
+      "reason": "arXiv query all:dsh-superagent returned 0 results. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-11. Not listed."
+    },
     {
       "title": "sandbaseai main moved; src was not read line by line",
       "url": "https://github.com/sandbaseai/dsh-superagent/commit/d49961b5367e",
@@ -10363,9 +10418,18 @@
     }
   ],
   "rejected_this_run": [
-    "Updated lkshrk to a49db4868001 (0.3.2) and Missher to ca78943e5c17 (1.10.11). Did not list sandbaseai/dsh-superagent because src/ was not read line by line. Did not rewrite t3code, IHUI, tanxinz, or Linear."
+    "Updated lkshrk to 8239c5c441bf (0.3.3), Missher to 9b321d866461 (1.10.12), and superboard to 0067b195cb58 (#742 and #743). Did not rewrite martinxiao, t3code, IHUI, tanxinz, or Nelson."
   ],
   "held_on_other_branches": [
+    "lkshrk/dsh-superagent main is 8239c5c441bf at 2026-11-15T14:52:58Z. private 0.3.3. Ahead of 8c32a9d by 67. Release v0.3.3 at 14:55Z.",
+    "Missher12/Missher-DSH-Superagent main is 9b321d866461 at 2026-11-15T15:30:01Z. private 1.10.12. Annotated tag v1.10.12 is 95eabc1fea5d.",
+    "sallaumen/dsh-superagent-superboard main is 0067b195cb58 at 2026-11-15T15:17:31Z. #742 is ab43e8e4b5f2. #743 shares done and closed.",
+    "martinxiao2025/dsh-superagent main is abc6bfaca56a at 2026-11-15T14:36:30Z. Verification README only. Listed sentence not rewritten.",
+    "pingdotgg/t3code main is 14f295e01109. No superagent or hextor filename since 45dbb4436c07 (6 commits, 21 files). hextor main is 0dc3b4279c03.",
+    "IHUI-INF-AI/IHUI-AI main is 3b353f87aed1. No super-agent filename since 38fc5989697a (1 commit, 16 files).",
+    "tanxinz/dsh-superagent main is a56eb40a096e. feat/task-m002-v2-8984428 is 98fb5bb96dd4, docs only, not main.",
+    "NelsonLongxiang/dsh-open-a2a-net master is e28eba14fa4c. next/0.8 is f859168f4737 at 2026-11-15T13:10:51Z.",
+    "sandbaseai/dsh-superagent main stayed d49961b5367e at 2026-11-15T14:24:58Z.",
     "sandbaseai/dsh-superagent main is d49961b5367e at 2026-11-15T14:24:58Z. #8 and #9 are oncall-example files only. src/ was not read line by line. Not listed.",
     "pingdotgg/t3code main is 45dbb4436c07. No superagent or hextor filename since d21d8d8b5df7 (4 commits, 25 files). hextor main is 0dc3b4279c03.",
     "IHUI-INF-AI/IHUI-AI main is 38fc5989697a. No super-agent filename since 130ba2ea83a7 (3 commits, 30 files).",
