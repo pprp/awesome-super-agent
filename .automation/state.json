@@ -1,32 +1,56 @@
 {
-  "last_run_at": "2026-11-15T05:37:53Z",
+  "last_run_at": "2026-11-15T06:29:51Z",
   "timezone": "UTC",
-  "baseline_commit": "6b6eebc",
+  "baseline_commit": "6e13184",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T04:36:44Z",
-    "to": "2026-11-15T05:37:53Z"
+    "from": "2026-11-15T05:37:53Z",
+    "to": "2026-11-15T06:29:51Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Signal 0.2.0 batches start and end notices",
-      "url": "https://github.com/lkshrk/dsh-superagent-signal/commit/3434a88a8267fc921898e92e484ca5557f93252f",
-      "confidence": 0.96,
-      "reason": "Main tip 3434a88a8267 at 2026-11-15T04:46:36Z merges #6. package.json is 0.2.0 with no private field. engines.dsh is unchanged. Starts and ends share one batch; questions, blocks and failures stay immediate. The start message waits one batchSettleSeconds (default 120) or five of those after the first pending start. The final summary lists only unreported ends after the same quiet period. A partial summary uses seen, not ended.at, and batchMaxHours (default 4). A resumed ticket drops its end. An open ticket the host no longer has leaves the batch; an ended one stays. The old Signal merged/closed PR skip no longer drops the summary line. Batch thread is signal:<internal group id>:batch. Tag v0.2.0 is a commit object at this tip; its tree matches 8d3a89d9188b, not the version-only e685157afa39. Release at 04:47:55Z attaches dsh-superagent-signal-0.2.0.tgz and names ghcr.io/lkshrk/dsh-superagent-signal:0.2.0@sha256:83e3192391583388e24c003995e472e07f4fd47aaef06fc91be39bbdfab25310. npm 404. The listed sentence was extended. Tests were not run."
-    },
-    {
-      "title": "wychmod board filters and dispatch cards are on main",
-      "url": "https://github.com/wychmod/dsh-mini-superagent/commit/08921ef6bdd4",
-      "confidence": 0.94,
-      "reason": "Main tip 08921ef6bdd4 at 2026-11-15T05:10:34Z is 7 commits ahead of ba75dc1f7f3e and 0 behind. Version, FILE_VERSION 4, maxWorkers 6, engines.dsh and empty dependencies are unchanged. Annotated tag v0.9.1 peels to 1d7b8a736b6b, which is on main and 6 behind the tip. npm 0.9.1 gitHead 9729ecec8ef2 still has no common ancestor with the tip. GET /board accepts exact group and task filters before the 200-row slice; counts stay global. client-ready stores whitelisted batch/report card states on dispatch.clientReady.cards. The client adds a toolview card, a shared group poll, and a turnTail summary. The handoff prompt now gives positive and negative examples and still does not score. index.html is a Pages homepage and is not in npm files. The listed sentence was extended. selfCheck was not reread. Tests were not run."
+      "title": "Yukikaze blocking commands point at a background job",
+      "url": "https://github.com/Yukikaze-Ai/dsh-ladder-superagents/commit/6b3e237a7cef5833f47eb85a625f979e09a7617d",
+      "confidence": 0.95,
+      "reason": "Main tip 6b3e237a7cef at 2026-11-15T06:09:06Z is 5 commits ahead of 3f512dc43427 and 0 behind, and only index.js and client.js change. Version stays 0.3.1. engines.dsh stays >=0.2.2-0. npm latest stays 0.2.1 (2026-11-11T03:33:15.526Z). handOffMode defaults to job. A command that would block the turn spawns a worker only when the mode is child; otherwise the tool result tells the model to rerun it with run_in_background and collect it with job_output. The charter says the tool follows the task. A wait or build uses a background job; output that needs judgement goes to supa_spawn with the output or the job spill path. The pill polls /supa/state every 60 seconds after success. A request without cwd reuses the state payload for 10 seconds. A session toggle writes the enabled-session file and returns action, id, and enabled; the client updates supaSessions locally. The listed sentence was extended. Tests were not run."
     }
   ],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/238678951ac4",
+      "confidence": 0.9,
+      "reason": "Default main tip 238678951ac4 at 2026-11-15T06:30:32Z. The compare from e2afd2546eb3 is 25 commits and 64 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/478415eaa84d",
+      "confidence": 0.9,
+      "reason": "Default main tip 478415eaa84d at 2026-11-15T06:03:12Z. The compare from 381f541d2ff9 is 19 commits and 204 files. Commits since 2026-11-15T05:37:53Z on packages/shared/src/super-agent: 0. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Signal renovate lockfile is not main",
+      "url": "https://github.com/lkshrk/dsh-superagent-signal/commit/3f087b6c2e33",
+      "confidence": 0.92,
+      "reason": "pushed_at 2026-11-15T06:04:45Z is renovate/lock-file-maintenance 3f087b6c2e33 at 2026-11-15T06:04:39Z, parent 3434a88a8267, and it only changes pnpm-lock.yaml. Default main remains 3434a88a8267. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Linear renovate lockfile is not main",
+      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/e610816a381d",
+      "confidence": 0.92,
+      "reason": "pushed_at 2026-11-15T06:04:08Z is renovate/lock-file-maintenance e610816a381d at 2026-11-15T06:04:02Z, parent b44b240a09ad, and it only changes pnpm-lock.yaml. Default main remains b44b240a09ad. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13375",
+      "confidence": 0.9,
+      "reason": "Discussions #13375, #13374, #13373, #13372, #13371, #13368, #13367, and #13366 were created in this window. #13364 and #13361 were updated. #13369 and #13370 are not discussions. None of those bodies or comments contain superagent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T06:29:16Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T06:31:18Z is not a commit."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/e2afd2546eb3",
@@ -9947,9 +9971,12 @@
     }
   ],
   "rejected_this_run": [
-    "No new repository in this window met the list bar. Superagentzy/superagent-trial, lookfree/superagent-sandbox and Djdemand/superagent-sandbox are trial or sandbox repos. madhavangn-work/agentic-ai-workflow is a generic Python multi-agent scaffold and does not name DSH. jia012/dsh-superagent-demo and luck1dog/niuma-attempt were already rejected; the demo push at 2026-11-15T04:36:41Z is before this window."
+    "No new repository in this window met the list bar. Superagentzy/superagent-trial pushed agent/add-notes-md-6b8c67693bb3 at 2026-11-15T05:54:16Z (d9cda561759c), which adds a one-line NOTES.md. main stays the 04:37Z initial commit. It remains a trial repository and the branch is not main."
   ],
   "held_on_other_branches": [
+    "Yukikaze-Ai/dsh-ladder-superagents main is 6b3e237a7cef. Version stays 0.3.1. Do not repeat the background-job handoff sentence.",
+    "lkshrk/dsh-superagent-signal main stays 3434a88a8267. renovate/lock-file-maintenance 3f087b6c2e33 at 2026-11-15T06:04:39Z only edits pnpm-lock.yaml. Do not list the branch.",
+    "lkshrk/dsh-superagent-linear main stays b44b240a09ad. renovate/lock-file-maintenance e610816a381d at 2026-11-15T06:04:02Z only edits pnpm-lock.yaml. Do not list the branch.",
     "lkshrk/dsh-superagent-signal main is 3434a88a8267. Tag v0.2.0 points at that commit. Do not repeat the batched-notice sentence.",
     "wychmod/dsh-mini-superagent main is 08921ef6bdd4. Tag v0.9.1 peels to 1d7b8a736b6b. Do not repeat the board-card sentence.",
     "touch-agent/dsh-superagent main stays ad1702e64d6c. agent/conversation-f464fd98dd14 546cf6a73a74 is docs crops. Do not list the branch.",
@@ -10215,5 +10242,5 @@
     "LofiSu/deepseek-super-agent main stays 23f795e58634. feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.12.1 (published 2026-11-15T04:08:57.835Z). @vfvrpq/dsh-superagent latest remains 0.3.0. dsh-mini-superagent latest remains 0.9.1 (gitHead 9729ecec8ef24949b05d43420ebc1b0102088483). @missher/dsh-superagent and dsh-superagent-signal are still 404."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.12.1 (published 2026-11-15T04:08:57.835Z). @vfvrpq/dsh-superagent latest remains 0.3.0. dsh-mini-superagent latest remains 0.9.1 (gitHead 9729ecec8ef24949b05d43420ebc1b0102088483). @missher/dsh-superagent and dsh-superagent-signal are still 404. dsh-ladder-superagents latest remains 0.2.1 (published 2026-11-11T03:33:15.526Z). No publish of that package in this window."
 }
