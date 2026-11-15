@@ -1,41 +1,75 @@
 {
-  "last_run_at": "2026-11-15T15:35:21Z",
+  "last_run_at": "2026-11-15T16:37:31Z",
   "timezone": "UTC",
-  "baseline_commit": "0dd95e5",
+  "baseline_commit": "9ea501b",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T14:33:19Z",
-    "to": "2026-11-15T15:35:21Z"
+    "from": "2026-11-15T15:35:21Z",
+    "to": "2026-11-15T16:37:31Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "lkshrk/dsh-superagent",
-      "url": "https://github.com/lkshrk/dsh-superagent",
-      "from": "a49db4868001",
-      "to": "8239c5c441bf",
-      "version": "0.3.3"
-    },
-    {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "from": "ca78943e5c17",
-      "to": "9b321d866461",
-      "version": "1.10.12"
-    },
-    {
-      "title": "sallaumen/dsh-superagent-superboard",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "from": "604da22c9d35",
-      "to": "0067b195cb58",
-      "version": null
+      "title": "LittleChenLiya/dsh-superagent",
+      "url": "https://github.com/LittleChenLiya/dsh-superagent",
+      "from": "4cfa8e812519",
+      "to": "3626c38b8092",
+      "version": "0.14.3"
     }
   ],
   "pending": [
+    {
+      "title": "martinxiao N0 through N3 were not read line by line",
+      "url": "https://github.com/martinxiao2025/dsh-superagent/commit/b9b988b86d44",
+      "confidence": 0.7,
+      "reason": "main tip b9b988b86d44 at 2026-11-15T16:06:56Z. Compare from abc6bfaca56a is 4 commits and 78 files. N1 is admission skill, thread window cache, transcript cache, and budget_hard. N2 is a writeback and credential refactor. N3 is docs. Those files were not read line by line. The listed sentence was not rewritten."
+    },
+    {
+      "title": "sandbaseai on-call digest changes src and stays unlisted",
+      "url": "https://github.com/sandbaseai/dsh-superagent/commit/941e91d24a98",
+      "confidence": 0.7,
+      "reason": "main tip 941e91d24a98 at 2026-11-15T16:26:40Z. Compare from d49961b5367e is 4 commits and 20 files: examples/feishu-cls-oncall, scripts/oncall-digest, src/kv.ts, src/sources/feishu.ts, feishu-loops.ts, and new feishu-repeat.ts. src/ was not read line by line. Not listed."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/12c495af4982",
+      "confidence": 0.9,
+      "reason": "Default main tip 12c495af4982 at 2026-11-15T16:26:15Z. The compare from 14f295e01109 is 7 commits and 21 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03; pushed_at remains 2026-11-04T19:48:24Z. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "tanxinz seatbelt fix is not main",
+      "url": "https://github.com/tanxinz/dsh-superagent/commit/a2ae93b681d7",
+      "confidence": 0.9,
+      "reason": "main remains a56eb40a096e at 2026-11-15T14:18:36Z. feat/task-m002-v2-8984428 is a2ae93b681d7 at 2026-11-15T15:45:52Z. The message records an accepted macOS stat residual and a prepared-stream regression. executionReady stays false. Not main. Not listed."
+    },
+    {
+      "title": "Nelson master and next/0.8 did not move in this window",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/e28eba14fa4c",
+      "confidence": 0.9,
+      "reason": "master remains e28eba14fa4c. next/0.8 remains f859168f4737 at 2026-11-15T13:10:51Z. pushedAt 2026-11-15T16:00:53Z is not a new default-branch commit. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13437",
+      "confidence": 0.9,
+      "reason": "#13433 through #13437 were created after 2026-11-15T15:35:21Z. #13433 is dsh-tui versus dsh-ops. #13434 is a custom model channel. #13435 is dsh-input-suggestions. #13436 is ELECTRON_RUN_AS_NODE on Open In. #13437 is the Windows workspace-write sandbox and Word. #13234 was updated at 16:04:27Z and is the dsh-reader plugin. None of those bodies contain dsh-superagent or Mandate. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T16:30:59Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T16:31:56Z is not a commit."
+    },
+    {
+      "title": "Plugin index and Windows package stay out of this sentence",
+      "url": "https://github.com/szmdshagent/dsh-superagent-plugins/commit/56558d2506b0",
+      "confidence": 0.7,
+      "reason": "szmdshagent tip 56558d2506b0 at 2026-11-15T16:15:31Z publishes dsh-cc-worker 0.1.2 and pane 0.2.1. Those files were not read line by line. The listed sentence was not rewritten. ReSerendipity tip 3333bb91ced7 merges #40 as release 0.2.9 and stays unlisted. superstar717/dsh-superagent-playground pushed_at 2026-11-15T15:41:40Z still describes itself as a watch test repo. Not listed."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://export.arxiv.org/api/query?search_query=all:dsh-superagent&start=0&max_results=5",
+      "confidence": 0.85,
+      "reason": "arXiv query all:dsh-superagent returned 0 results. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-11. Not listed."
+    },
     {
       "title": "martinxiao smoke log does not change the listed code sentence",
       "url": "https://github.com/martinxiao2025/dsh-superagent/commit/abc6bfaca56a",
@@ -10418,9 +10452,19 @@
     }
   ],
   "rejected_this_run": [
-    "Updated lkshrk to 8239c5c441bf (0.3.3), Missher to 9b321d866461 (1.10.12), and superboard to 0067b195cb58 (#742 and #743). Did not rewrite martinxiao, t3code, IHUI, tanxinz, or Nelson."
+    "Updated LittleChenLiya to 3626c38b8092 (0.14.3). Did not rewrite martinxiao, sandbaseai, t3code, tanxinz, Nelson, szmdshagent, or ReSerendipity."
   ],
   "held_on_other_branches": [
+    "LittleChenLiya/dsh-superagent main is 3626c38b8092 at 2026-11-15T16:25:23Z. npm @xiangyixie/dsh-superagent latest is 0.14.3, gitHead ddab2bf5e789fb545f7f2598f87272e867532f5f, published 2026-11-15T16:24:31.061Z.",
+    "martinxiao2025/dsh-superagent main is b9b988b86d44 at 2026-11-15T16:06:56Z. 4 commits and 78 files from abc6bfaca56a were not read line by line.",
+    "sandbaseai/dsh-superagent main is 941e91d24a98 at 2026-11-15T16:26:40Z. #10 and #11 change src and the oncall example. Not listed.",
+    "pingdotgg/t3code main is 12c495af4982. No superagent or hextor filename since 14f295e01109 (7 commits, 21 files). hextor main is 0dc3b4279c03.",
+    "tanxinz/dsh-superagent main is a56eb40a096e. feat/task-m002-v2-8984428 is a2ae93b681d7, not main.",
+    "NelsonLongxiang/dsh-open-a2a-net master is e28eba14fa4c. next/0.8 is f859168f4737 at 2026-11-15T13:10:51Z.",
+    "szmdshagent/dsh-superagent-plugins main is 56558d2506b0 at 2026-11-15T16:15:31Z. cc-worker 0.1.2 was not read line by line.",
+    "ReSerendipity/dsh-superagent main is 3333bb91ced7 at 2026-11-15T16:21:24Z. Release 0.2.9 stays unlisted.",
+    "IHUI-INF-AI/IHUI-AI pushed_at remains 2026-11-15T15:13:31Z, before this window. Listed tip stays 3b353f87aed1.",
+    "lkshrk/dsh-superagent pushed_at remains 2026-11-15T14:53:24Z. Missher pushed_at remains 2026-11-15T15:30:04Z. superboard pushed_at remains 2026-11-15T15:32:31Z.",
     "lkshrk/dsh-superagent main is 8239c5c441bf at 2026-11-15T14:52:58Z. private 0.3.3. Ahead of 8c32a9d by 67. Release v0.3.3 at 14:55Z.",
     "Missher12/Missher-DSH-Superagent main is 9b321d866461 at 2026-11-15T15:30:01Z. private 1.10.12. Annotated tag v1.10.12 is 95eabc1fea5d.",
     "sallaumen/dsh-superagent-superboard main is 0067b195cb58 at 2026-11-15T15:17:31Z. #742 is ab43e8e4b5f2. #743 shares done and closed.",
@@ -10720,5 +10764,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.14.2 (published 2026-11-15T11:08:11.326Z). @missher/dsh-superagent remains 404. Unscoped dsh-superagent remains 404."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest is 0.14.3 (published 2026-11-15T16:24:31.061Z, gitHead ddab2bf5e789fb545f7f2598f87272e867532f5f, shasum 5463701974e7d2fc77a46189b021955642a57b48, 57 files). @missher/dsh-superagent remains 404. Unscoped dsh-superagent remains 404. dsh-foreman latest remains 0.9.0."
 }
