@@ -1,41 +1,76 @@
 {
-  "last_run_at": "2026-11-15T13:48:59Z",
+  "last_run_at": "2026-11-15T14:33:19Z",
   "timezone": "UTC",
-  "baseline_commit": "76aa689",
+  "baseline_commit": "57f8f55",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T12:35:25Z",
-    "to": "2026-11-15T13:48:59Z"
+    "from": "2026-11-15T13:48:59Z",
+    "to": "2026-11-15T14:33:19Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "sallaumen/dsh-superagent-superboard",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "from": "b9d6ce57aec7",
-      "to": "604da22c9d35",
-      "version": "#741"
+      "title": "lkshrk/dsh-superagent",
+      "url": "https://github.com/lkshrk/dsh-superagent",
+      "from": "e132a72ecdea",
+      "to": "a49db4868001",
+      "version": "0.3.2"
     },
     {
-      "title": "439436269-ctrl/dsh-superagent",
-      "url": "https://github.com/439436269-ctrl/dsh-superagent",
-      "from": "5f67541cc180",
-      "to": "79d30d0b91a2",
-      "version": "#9"
-    },
-    {
-      "title": "fzss2012/dsh-superagent-local",
-      "url": "https://github.com/fzss2012/dsh-superagent-local",
-      "from": "d39815c5e53a",
-      "to": "9bdbd575910b",
-      "version": "036b941833f4 then 9bdbd575910b"
+      "title": "Missher12/Missher-DSH-Superagent",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
+      "from": "d9d332767f69",
+      "to": "ca78943e5c17",
+      "version": "1.10.11"
     }
   ],
   "pending": [
+    {
+      "title": "sandbaseai main moved; src was not read line by line",
+      "url": "https://github.com/sandbaseai/dsh-superagent/commit/d49961b5367e",
+      "confidence": 0.9,
+      "reason": "main tip d49961b5367e at 2026-11-15T14:24:58Z. #8 0f7cd9a8e2fd includes 610520016693. #9 includes c8318026d093. Ahead of 8c32a9d by 19, behind 0, 62 files including 23 under src/. src/ was not read line by line. The diff from 9a801c732d4c is 4 commits and 5 files, all the feishu-cls-oncall example. prom range allows 7 days and raises the step to keep about 1100 points (7 days is 550s or more); an 8-day window is refused. series, labels and label-values stay at 6 hours. communication.md says to copy names exactly. The skill says most alarms settle within about 40 dsh-oncall calls and to stop after about 15 empty queries. That budget is prompt text, not a counter in scripts/dsh-oncall. Not listed."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/45dbb4436c07",
+      "confidence": 0.9,
+      "reason": "Default main tip 45dbb4436c07 at 2026-11-15T14:21:46Z. The compare from d21d8d8b5df7 is 4 commits and 25 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/38fc5989697a",
+      "confidence": 0.9,
+      "reason": "Default main tip 38fc5989697a at 2026-11-15T13:50:12Z. The compare from 130ba2ea83a7 is 3 commits and 30 files. No filename matches super-agent. The listed sentence was not rewritten."
+    },
+    {
+      "title": "tanxinz main is documentation only",
+      "url": "https://github.com/tanxinz/dsh-superagent/commit/a56eb40a096e",
+      "confidence": 0.9,
+      "reason": "main tip a56eb40a096e at 2026-11-15T14:18:36Z. #27 only changes README.md, docs/DEVELOPMENT_STATUS.md, docs/README.md, and docs/SuperAgent_Harness_Development_Checklist_V1.0_20261112.md. Not listed."
+    },
+    {
+      "title": "Linear renovate lockfile is not main",
+      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/7de266c735b5",
+      "confidence": 0.9,
+      "reason": "main remains 8ef891456471. renovate/lock-file-maintenance 7de266c735b5 at 2026-11-15T13:56:44Z only changes pnpm-lock.yaml. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13430",
+      "confidence": 0.9,
+      "reason": "Discussions #13423 through #13430 were created in this window. #13427 contains the English words ticket description and does not name this prototype. #13426 is generic parallel dsh sessions. Updates to #13428, #13425, #13368, #13056, and #13081 were read. None of those bodies contain superagent, Mandate, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T14:13:02Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T14:28:59Z is not a commit."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://export.arxiv.org/api/query?search_query=all:dsh-superagent&start=0&max_results=5",
+      "confidence": 0.85,
+      "reason": "arXiv query all:dsh-superagent returned 0 results. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-11. Not listed."
+    },
     {
       "title": "woxiangjieyan/dsh-superagent-playground is a practice stub",
       "url": "https://github.com/woxiangjieyan/dsh-superagent-playground",
@@ -10328,9 +10363,14 @@
     }
   ],
   "rejected_this_run": [
-    "Updated superboard to 604da22c9d35 (#741), 439436269 to 79d30d0b91a2 (#9), and fzss2012 to 9bdbd575910b (skill dirs in 036b941833f4, then an LF rebuild of lib/client.js). Did not list woxiangjieyan/dsh-superagent-playground, cinvymoe, seabiscuit-agent, jecyxyf/xyf-easycode, or k98crypto/roundtable-v2. Did not rewrite t3code, IHUI, Nelson, or hextor."
+    "Updated lkshrk to a49db4868001 (0.3.2) and Missher to ca78943e5c17 (1.10.11). Did not list sandbaseai/dsh-superagent because src/ was not read line by line. Did not rewrite t3code, IHUI, tanxinz, or Linear."
   ],
   "held_on_other_branches": [
+    "sandbaseai/dsh-superagent main is d49961b5367e at 2026-11-15T14:24:58Z. #8 and #9 are oncall-example files only. src/ was not read line by line. Not listed.",
+    "pingdotgg/t3code main is 45dbb4436c07. No superagent or hextor filename since d21d8d8b5df7 (4 commits, 25 files). hextor main is 0dc3b4279c03.",
+    "IHUI-INF-AI/IHUI-AI main is 38fc5989697a. No super-agent filename since 130ba2ea83a7 (3 commits, 30 files).",
+    "lkshrk/dsh-superagent-linear main remains 8ef891456471. renovate/lock-file-maintenance 7de266c735b5 is not main.",
+    "tanxinz/dsh-superagent main is a56eb40a096e. Documentation only. Not listed.",
     "sandbaseai/dsh-superagent main remains 9a801c732d4c at 2026-11-15T10:40:52Z. fix/kit-copy-names 610520016693 was pushed at 2026-11-15T13:21:35Z and is not main.",
     "pingdotgg/t3code main is 2becf31b6406. No superagent or hextor filename since a16796b956ae (7 commits, 29 files). hextor main is 0dc3b4279c03.",
     "IHUI-INF-AI/IHUI-AI main is 130ba2ea83a7. No super-agent filename since d22653b4f56d (5 commits, 300 files).",
@@ -10616,5 +10656,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.14.2 (published 2026-11-15T11:08:11.326Z)."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.14.2 (published 2026-11-15T11:08:11.326Z). @missher/dsh-superagent remains 404. Unscoped dsh-superagent remains 404."
 }
