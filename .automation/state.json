@@ -1,38 +1,62 @@
 {
-  "last_run_at": "2026-11-15T03:45:00Z",
+  "last_run_at": "2026-11-15T04:45:00Z",
   "timezone": "UTC",
-  "baseline_commit": "f68d415",
+  "baseline_commit": "4905837",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T02:33:00Z",
-    "to": "2026-11-15T03:45:00Z"
+    "from": "2026-11-15T03:45:00Z",
+    "to": "2026-11-15T04:45:00Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Missher 1.10.10 recovers a shortened check command",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent/commit/d9d332767f69c022f3f413b6115f86fe2bb3624f",
-      "confidence": 0.96,
-      "reason": "Main tip d9d332767f69 at 2026-11-15T03:26:27Z sets package.json to private 1.10.10. commandEvidence throws when the trimmed command misses and completed done/error proofs with command length <= 6000 exist in the since window, listing at most the last three. orchestrator_report includes wait_for only when host.teams is set. Workflow instructions add the waiting paragraph only when the source ticket exists. Annotated tag v1.10.10 is d6bb05c71d05 and peels to d9d332767f69. Release v1.10.10 at 03:27:03Z attaches missher-dsh-superagent-1.10.10.tgz. engines unchanged. npm @missher/dsh-superagent 404. The listed sentence was extended. Tests were not run."
-    },
-    {
-      "title": "439436269 0.3.0 records a worker profile on the ticket",
-      "url": "https://github.com/439436269-ctrl/dsh-superagent/commit/5f67541cc18093d7e435106799ff229aa14e1603",
+      "title": "LittleChenLiya 0.12.1 is on main and on npm latest",
+      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/1d55224ddc53",
       "confidence": 0.95,
-      "reason": "Main tip 5f67541cc180 at 2026-11-15T02:59:48Z merges #8 and only changes package.json from 0.2.3 to 0.3.0. There is no private field. #6 088031968cce at 02:47:47Z is on main. workerSelection uses the first matched rule that names worker; matched rules with no worker skip Trigger match; no matched rule uses workers.match in id order. An unregistered name falls back to the bundled worker. execution records the id and workless. workspace false or profile.workless uses answers/. The preset is the profile preset, or dsh-superagent-worker when the registration is gone. workToolNames unions the bundled work tools with profile.tools and keeps names the parent scope has. Registration refuses the forbidden tool prefix. Instructions follow the Mandate under a Worker profile heading. Ahead of 8c32a9d by 154, behind 0. engines.dsh remains ^0.2.1-alpha.2. npm @vfvrpq/dsh-superagent latest 0.3.0 at 2026-11-15T03:02:14.357Z has no gitHead, shasum da7e559754fb04114f2b27b9f09b6e6d85a6202c, 59 files. The listed sentence was extended. Tests were not run."
+      "reason": "Main tip 1d55224ddc53 at 2026-11-15T04:06:29Z is package 0.12.1. d7abf90503c4 is now on main. No tag v0.10.0. npm 0.11.0 at 03:37:05.752Z gitHead 7b7a2f9428c5 matches lightweight tag v0.11.0, 25 files, shasum dc0742634586bcf9bbc49982a16f928b02617ef8, and adds superagent_template, superagent_answer, superagent_followup. npm latest 0.12.1 at 04:08:57.835Z, 35 files, shasum f93fddcc515a6e7b3febe0fdd5b9305e2d2bc69f, gitHead 1d55224ddc536b749b5c8e7d937845c4638e9e95. Annotated tag v0.12.1 c63d3025b14b peels to that commit at 04:09:56Z. npm 0.12.0 gitHead is 26083bd359f6; annotated tag v0.12.0 d3afd729a6d2 peels to f10857c36f67 at 03:57:25Z. engines and empty dependencies unchanged. New bins doctor, archive, sync, workbench. 0.12.0 registers superagent_audit and superagent_inject. guard.js refuses credential stores and .git/config and .git/hooks. inject.js uses subagents.sendMessage. 0.12.1 changelog is the LF fix. Not installed."
     },
     {
-      "title": "npm @xiangyixie/dsh-superagent 0.10.0 is not on the git tip",
-      "url": "https://www.npmjs.com/package/@xiangyixie/dsh-superagent/v/0.10.0",
-      "confidence": 0.93,
-      "reason": "npm latest 0.10.0 at 2026-11-15T03:05:51.252Z, 18 files, shasum 69ba35c7649c2b57a2e718ff1911a068e6fb0e4b. gitHead d7abf90503c456d38c6868d83df41b9407a15abf is not a commit in LittleChenLiya/dsh-superagent. Default main remains 4b67a27bb153. No tag v0.10.0. The tarball engines are unchanged, dependencies are empty, and the tools are the previous five plus superagent_memory. memory.js writes <stateDir>/memory/<scope>.jsonl. start returns an existing run with deduped true unless allowDuplicate. The listed sentence was extended. The package was not installed."
+      "title": "touch-agent project layer landed in #87 and #88",
+      "url": "https://github.com/touch-agent/dsh-superagent/commit/ad1702e64d6c",
+      "confidence": 0.94,
+      "reason": "#87 ec4f76867b4f merged at 2026-11-15T03:49:53Z. ux.projects.v1 shows project cards and falls back to the flat list when off or when the host sends no projects. #88 ad1702e64d6c merged at 04:14:32Z, head 8676cba0ad36. Ticket kind is project or task, absent means task. admitProjectTask and assignProjectTask are the coordination-session seams. Archive writes archivedAt only. A stale projectTicketId reads as unassigned and projectBroken. http.ts has projects/:id, archive, and restore. Package stays private 0.1.0. engines.dsh stays ^0.2.1-rc.5. Ahead of 6337fc8 by 504. Tests were not run."
     }
   ],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/0fa8e5afe7cf",
+      "confidence": 0.9,
+      "reason": "Default main tip 0fa8e5afe7cf at 2026-11-15T04:31:42Z. The compare from 9504f65989dc is 20 commits and 51 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "martinxiao backlog rows do not move the listed sentence",
+      "url": "https://github.com/martinxiao2025/dsh-superagent/commit/5b8df64df1e1",
+      "confidence": 0.9,
+      "reason": "Main tip 5b8df64df1e1 at 2026-11-15T04:31:43Z only adds four lines to tasks/backlog.csv. Package, engines, and the described behavior were not in this commit. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussion #13362 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13362",
+      "confidence": 0.9,
+      "reason": "Discussion #13362 at 2026-11-15T03:52:14Z is about fork sub-session seeding stopping at the last turn/end. The body does not contain superagent, Mandate, Ticket, or dsh-superagent. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T04:15:31Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T04:31:23Z is not a commit."
+    },
+    {
+      "title": "Signal 0.2.0 release commit is not main",
+      "url": "https://github.com/lkshrk/dsh-superagent-signal/commit/e685157afa39",
+      "confidence": 0.92,
+      "reason": "pushed_at 2026-11-15T04:28:34Z is feat/quiet-notices e685157afa39 at 2026-11-15T04:28:28Z, which only changes package.json and says release 0.2.0. Default main remains c112b37b3a95. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Nelson receipt-delivery branch is not master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/4f60ee08869c",
+      "confidence": 0.9,
+      "reason": "Master remains e28eba14fa4c at 2026-11-14T18:32:47Z. fix/receipt-delivery-recovery is 4f60ee08869c at 2026-11-15T04:02:45Z and says it reserves caller debt capacity before remote admission. next/0.8 remains 16edb76e6eab. npm preview remains 0.8.1-preview.26. The listed sentence was not rewritten."
+    },
     {
       "title": "t3code and IHUI do not move the listed sentences",
       "url": "https://github.com/pingdotgg/t3code/commit/9504f65989dc",
@@ -9899,13 +9923,11 @@
     }
   ],
   "rejected_this_run": [
-    "jia012/dsh-superagent-demo is a demo repository. The only commit 0b41cd14e694 at 2026-11-15T02:31:08Z is math helpers. Not listed.",
-    "luck1dog/niuma-attempt remains a practice repository. pushed_at 2026-11-15T02:41:03Z. Not listed.",
-    "snmxlcc/superagent-repo is a ticket workspace, not a super-agent package. Not listed.",
-    "Discussions #13361, #13360, #13359, and the #13334 update do not name this prototype.",
-    "Sandbox, playground, and demo repositories were not listed."
+    "No new repository in this window met the list bar. jia012/dsh-superagent-demo and luck1dog/niuma-attempt were already rejected and did not move after 2026-11-15T03:45:00Z."
   ],
   "held_on_other_branches": [
+    "lkshrk/dsh-superagent-signal main stays c112b37b3a95. feat/quiet-notices e685157afa39 at 2026-11-15T04:28:28Z only edits package.json for 0.2.0. Do not list the branch.",
+    "NelsonLongxiang/dsh-open-a2a-net master stays e28eba14fa4c. fix/receipt-delivery-recovery 4f60ee08869c at 2026-11-15T04:02:45Z is not master. Do not list the branch.",
     "439436269-ctrl/dsh-superagent #6 merged to main as 088031968cce at 2026-11-15T02:47:47Z. The side branch is no longer the only copy.",
     "439436269-ctrl/dsh-superagent main stays d42cebf7b239. #6 agent/chaosheng-worker-plugin-f074eb70c502 is open. Pushed 2026-11-15T01:51:08Z. Do not list the branch.",
     "NelsonLongxiang/dsh-open-a2a-net master stays e28eba14fa4c. fix/receipt-delivery-recovery is cef46a536939 at 2026-11-15T01:38:16Z. next/0.8 stays 16edb76e6eab. Do not list non-default branches.",
@@ -10166,5 +10188,5 @@
     "LofiSu/deepseek-super-agent main stays 23f795e58634. feat/controlled-evolution-strategy is 4e41e93f5255 at 2026-11-14T16:28:17Z. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. Unscoped dsh-superagent, dsh-superagent-signal, dsh-superagent-linear, and @missher/dsh-superagent returned 404. @nelsonlongxiang/dsh-open-a2a-net was not republished; preview remains 0.8.1-preview.26 and latest remains 0.7.0. @xiangyixie/dsh-superagent latest is 0.10.0 at 2026-11-15T03:05:51.252Z; gitHead d7abf90503c4 is not in the git repository. @vfvrpq/dsh-superagent latest is 0.3.0 at 2026-11-15T03:02:14.357Z with no gitHead."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest is 0.12.1 (published 2026-11-15T04:08:57.835Z), gitHead 1d55224ddc536b749b5c8e7d937845c4638e9e95, 35 files, shasum f93fddcc515a6e7b3febe0fdd5b9305e2d2bc69f. 0.12.0 was published 2026-11-15T03:55:31.964Z with gitHead 26083bd359f6. 0.11.0 was published 2026-11-15T03:37:05.752Z with gitHead 7b7a2f9428c5. @nelsonlongxiang/dsh-open-a2a-net was not republished; preview remains 0.8.1-preview.26 and latest remains 0.7.0. @vfvrpq/dsh-superagent latest remains 0.3.0 (modified 2026-11-15T03:02:14.521Z). Unscoped dsh-superagent and @missher/dsh-superagent returned 404. arXiv all:dsh-superagent returned HTTP 429. HN has no story newer than 2026-11-11T16:50:41Z."
 }
