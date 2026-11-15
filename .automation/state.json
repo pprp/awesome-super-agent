@@ -1,27 +1,62 @@
 {
-  "last_run_at": "2026-11-15T21:32:02Z",
+  "last_run_at": "2026-11-15T22:30:40Z",
   "timezone": "UTC",
-  "baseline_commit": "877b1c7",
+  "baseline_commit": "8e8036f",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T20:34:26Z",
-    "to": "2026-11-15T21:32:02Z"
+    "from": "2026-11-15T21:32:02Z",
+    "to": "2026-11-15T22:30:40Z"
   },
-  "added": [],
-  "updated": [
+  "added": [
     {
-      "title": "sallaumen/dsh-superagent-superboard",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "from": "f9ff296dee8e",
-      "to": "7c6567870a72",
-      "pulls": "#758-#762"
+      "title": "Colton-z/AstraBox",
+      "url": "https://github.com/Colton-z/AstraBox",
+      "to": "2695754a1d5e",
+      "version": "pin 8c32a9dc5d72"
     }
   ],
+  "updated": [],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/f5d86e31e82f",
+      "confidence": 0.9,
+      "reason": "Default main tip f5d86e31e82f at 2026-11-15T22:27:44Z, pushed_at 2026-11-15T22:27:45Z. The compare from b732621b5194 is 2 commits and 8 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03; pushed_at remains 2026-11-04T19:48:24Z. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussion 13442 was withdrawn and does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13442",
+      "confidence": 0.9,
+      "reason": "#13442 updated at 2026-11-15T22:05:31Z. The title is （已撤回）. The body says the original post was withdrawn and no longer represents the author. There are no comments. The title and body contain neither dsh-superagent nor Mandate. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T22:15:25Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T22:12:36Z is not a commit."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://export.arxiv.org/api/query?search_query=all:dsh-superagent&start=0&max_results=5",
+      "confidence": 0.85,
+      "reason": "arXiv query all:dsh-superagent returned 0 results. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-11. Not listed."
+    },
+    {
+      "title": "AstraBox patch body was not read line by line",
+      "url": "https://github.com/Colton-z/AstraBox/blob/2695754a1d5e/containers/sandbox-dsh-superagent/upstream-changes.patch",
+      "confidence": 0.86,
+      "reason": "Listed from the Dockerfile and the 2695754a1d5e diff. upstream-changes.patch is 151948 bytes and was not read line by line. The listed sentence does not describe the patch body. Do not repeat that sentence unless the pin or the three edited files change."
+    },
+    {
+      "title": "Commit search hit outside this prototype",
+      "url": "https://github.com/caldwelljoseph88/cal/commit/f03e76cc8a9d",
+      "confidence": 0.8,
+      "reason": "Commit search for dsh-superagent after 2026-11-15T21:32:02Z also returned caldwelljoseph88/cal f03e76cc8a9d with committer date 2026-11-28. The message does not describe this prototype. Not listed."
+    },
+    {
+      "title": "Playground main did not move in this window",
+      "url": "https://github.com/superstar717/dsh-superagent-playground/pull/41",
+      "confidence": 0.9,
+      "reason": "main remains 8c9c472e60e6 at 2026-11-15T06:20:06Z. pushed_at remains 2026-11-15T21:10:23Z, before this window. Open PR #41 head remains 7d80771af32c, updated 2026-11-15T21:11:21Z. Not main. Not listed."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/b732621b5194",
@@ -10626,9 +10661,12 @@
     }
   ],
   "rejected_this_run": [
-    "Updated superboard to 7c6567870a72 (#758-#762). Queue wording, the 7-day offset window, local pass/fail dots, and the 3/8 merge limits stayed. Did not rewrite t3code. Playground PR #41 is not main. Discussions #13444 and #12990 do not name this prototype."
+    "Added Colton-z/AstraBox at 2695754a1d5e. The image pins 8c32a9dc5d72 and that commit only removes the offered-upstream claim. The patch body was not read line by line. Did not rewrite t3code. Discussion #13442 was withdrawn and does not name this prototype. No new discussion after #13444."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code main is f5d86e31e82f. 2 commits and 8 files from b732621b5194. No superagent or hextor filename. hextor main is 0dc3b4279c03.",
+    "superstar717/dsh-superagent-playground main remains 8c9c472e60e6. PR #41 head remains 7d80771af32c and is not main.",
+    "sallaumen/dsh-superagent-superboard main remains 7c6567870a72 at 2026-11-15T20:58:12Z. No commit in this window.",
     "superstar717/dsh-superagent-playground main remains 8c9c472e60e6. PR #41 head is 7d80771af32c and is not main.",
     "pingdotgg/t3code main is b732621b5194. No superagent or hextor filename since 51cdf232652d. hextor main is 0dc3b4279c03.",
     "awesome-dsh-plugin/awesome-dsh-plugin main remains eae12c77d0f7. updated_at 2026-11-15T20:36:25Z is not a commit.",

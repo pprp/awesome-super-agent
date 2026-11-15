@@ -88,6 +88,7 @@
 - [`examples/profile.cordis.patch.yml`](https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/examples/profile.cordis.patch.yml) - 🛠️ 单独的 `superagent` profile 示例，面板示例在 `127.0.0.1:3082`。不要装进日常 web profile；已有 profile 时不要重跑 `dsh superagent --from-default-profile`.
 - [larksuite/cli](https://github.com/larksuite/cli) - 🛠️ 飞书可选，文档用 1.0.90 测过。[飞书 CLI 文档](https://open.feishu.cn/document/mcp_open_tools/feishu-cli-let-ai-actually-do-your-work-in-feishu).
 - [MythosMa/dsh-superagent-deploy](https://github.com/MythosMa/dsh-superagent-deploy) - 🛠️ 独立的 Docker 部署层，仓库里没有原型源码。2026-11-15 10:39 UTC 创建，11:17 UTC 的尖端 `0186acba24dd`。构建时克隆 `SUPERAGENT_REPO`，默认 `https://github.com/deepseek-ai/dsh-superagent-prototype.git`，`SUPERAGENT_REF` 默认 `main`。镜像里安装 `pnpm@11.7.0` 和 `@deepseek-ai/dsh@0.2.1-rc.3`。状态和密钥在宿主机目录，默认 `~/dsh-superagent-data`。MySQL、Go、Flutter 默认不装。README 把 Windows 写成 Docker Desktop 的 WSL2 后端。MIT。这次没有构建镜像.
+- [Colton-z/AstraBox](https://github.com/Colton-z/AstraBox) - 🛠️ 非官方的自托管镜像，不是 DeepSeek 的仓库，Apache-2.0。`containers/sandbox-dsh-superagent/Dockerfile` 把官方原型钉在 `8c32a9dc5d72`，克隆后打上 `upstream-changes.patch`，再用镜像里的 pnpm `--frozen-lockfile` 安装并构建。GitHub CLI 钉在 `2.103.3`。构建末尾跑 `astrabox-dsh-superagent-boot-check --source github`。2026-11-15 21:50 UTC 的尖端 `2695754a1d5e` 只从变更说明、Dockerfile 注释和 `docs/assistants.md` 删掉「补丁已提交给上游」，没有改钉住的提交。这次没有构建镜像.
 
 ## 解读
 
