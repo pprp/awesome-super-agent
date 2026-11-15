@@ -1,27 +1,51 @@
 {
-  "last_run_at": "2026-11-15T19:35:55Z",
+  "last_run_at": "2026-11-15T20:34:26Z",
   "timezone": "UTC",
-  "baseline_commit": "85d77ec",
+  "baseline_commit": "758d9ee",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T18:34:36Z",
-    "to": "2026-11-15T19:35:55Z"
+    "from": "2026-11-15T19:35:55Z",
+    "to": "2026-11-15T20:34:26Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "lkshrk/dsh-superagent-signal",
-      "url": "https://github.com/lkshrk/dsh-superagent-signal",
-      "from": "3434a88a8267",
-      "to": "d7df09aa7ed3",
-      "version": "0.2.1"
+      "title": "sallaumen/dsh-superagent-superboard",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
+      "from": "88e7fce64247",
+      "to": "f9ff296dee8e",
+      "pulls": "#748-#757"
     }
   ],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/51cdf232652d",
+      "confidence": 0.9,
+      "reason": "Default main tip 51cdf232652db8cdcea806f9a9e27d7460868579 at 2026-11-15T19:48:32Z, pushed_at 2026-11-15T20:30:21Z. The compare from 26b63a44f9ea is 1 commit and 7 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03; pushed_at remains 2026-11-04T19:48:24Z. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "Curated list added the already listed LittleChenLiya plugin",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/eae12c77d0f7",
+      "confidence": 0.86,
+      "reason": "main tip eae12c77d0f72a2962ec946787304bb2db7c900d at 2026-11-15T20:25:28Z. Compare from 2f61d32f641f is 74 commits. The only superagent filename is data/plugins/LittleChenLiya__dsh-superagent.yml, a workflow row for the already listed repo. The catalog sentence says its HTTP routes have no DSH access check. That claim was not copied: this run did not re-read those routes. The awesome-dsh-plugin sentence does not enumerate members and was not rewritten. LittleChenLiya main remains e0a400f1c4f6."
+    },
+    {
+      "title": "Signal renovate branch moved; main did not",
+      "url": "https://github.com/lkshrk/dsh-superagent-signal/commit/d7df09aa7ed3",
+      "confidence": 0.9,
+      "reason": "main remains d7df09aa7ed3. pushed_at 2026-11-15T19:46:58Z is a force-push of renovate/lock-file-maintenance to 2403a6bf22ba at 19:46:54Z. Not main. The 0.2.1 sentence was not repeated. npm dsh-superagent-signal remains 404."
+    },
+    {
+      "title": "Harness discussion 13443 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13443",
+      "confidence": 0.9,
+      "reason": "#13443 at 2026-11-15T20:26:38Z is the Intel Mac desktop download. The title and body contain neither dsh-superagent nor Mandate. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T20:04:12Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T20:28:12Z is not a commit."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/26b63a44f9ea",
@@ -10572,7 +10596,7 @@
     }
   ],
   "rejected_this_run": [
-    "Updated Signal to d7df09aa7ed3 (0.2.1). Did not rewrite t3code, ArtemKoval/lab, or IHUI. Discussion #13442 does not name this prototype."
+    "Updated superboard to f9ff296dee8e (#748-#757). Did not rewrite t3code or the curated plugin list. Signal main did not move. Discussion #13443 does not name this prototype."
   ],
   "held_on_other_branches": [
     "LittleChenLiya/dsh-superagent main is e0a400f1c4f6 at 2026-11-15T18:09:35Z. npm @xiangyixie/dsh-superagent latest is 0.14.4, gitHead ade03c15ab12a0da4129c2fc91436f84d55fa76c, published 2026-11-15T18:06:46.599Z.",
