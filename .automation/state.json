@@ -1,26 +1,92 @@
 {
-  "last_run_at": "2026-11-15T22:30:40Z",
+  "last_run_at": "2026-11-15T23:35:20Z",
   "timezone": "UTC",
-  "baseline_commit": "8e8036f",
+  "baseline_commit": "be61c9a",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T21:32:02Z",
-    "to": "2026-11-15T22:30:40Z"
+    "from": "2026-11-15T22:30:40Z",
+    "to": "2026-11-15T23:35:20Z"
   },
   "added": [
     {
-      "title": "Colton-z/AstraBox",
-      "url": "https://github.com/Colton-z/AstraBox",
-      "to": "2695754a1d5e",
-      "version": "pin 8c32a9dc5d72"
+      "title": "fs7744/dsh-ghost",
+      "url": "https://github.com/fs7744/dsh-ghost",
+      "to": "928143934a2d",
+      "version": "private 0.0.0"
     }
   ],
   "updated": [],
   "pending": [
+    {
+      "title": "Harness discussion 13445 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13445",
+      "confidence": 0.9,
+      "reason": "#13445 updated at 2026-11-15T23:28:28Z is the macOS image-attachment TCC report by Aldochismx. There are no comments. The title and body contain neither dsh-superagent nor Mandate nor superagent nor ticket. Prototype tip remains 8c32a9dc5d72. Harness tip remains 39163dd30f70. Repo updated_at values in this window are not commits."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/06150a08ec7b",
+      "confidence": 0.9,
+      "reason": "Default main tip 06150a08ec7be71f6741de519cc20cfb8034cf3d at 2026-11-15T23:25:16Z. The compare from f5d86e31e82f is 4 commits and 10 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03; pushed_at remains 2026-11-04T19:48:24Z. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "Curated list moved and did not touch a superagent row",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/af6a61860c80",
+      "confidence": 0.9,
+      "reason": "main tip af6a61860c808bf3b38bbbb929992374088337a0 at 2026-11-15T23:22:14Z. Compare from eae12c77d0f7 is 10 commits and 10 files. No filename matches superagent. The tip message discloses route access on dsh-commander and dsh-bw-router. The catalog sentence does not enumerate members and was not rewritten."
+    },
+    {
+      "title": "Zovaris skills only credit the prototype",
+      "url": "https://github.com/Zovaris/skills",
+      "confidence": 0.88,
+      "reason": "Created 2026-11-15T22:33:16Z. Tip a9f3d31d7321 at 2026-11-15T23:30:09Z. README credits dsh-superagent-prototype next to firstmate, mattpocock/skills, and superpowers. Adapters in skills/foreman/references/harness.md are Claude Code desktop, Claude Code CLI, and any harness via agent.sh. Not a DSH port. Not listed."
+    },
+    {
+      "title": "Scratch playground was not listed",
+      "url": "https://github.com/kostadindraganov/dsh-superagent-playground",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-15T22:37:40Z. Only commit 8a20888fcfe0 at 2026-11-15T22:45:32Z adds a README that calls the repo a scratch repository and says requests are @kokimooto comments. Playgrounds stay out."
+    },
+    {
+      "title": "LoongPass marketplace merge does not edit the superagent guide",
+      "url": "https://github.com/SailingLoong/LoongPass/commit/4ca40b0d6cfc",
+      "confidence": 0.86,
+      "reason": "Tip 4ca40b0d6cfc at 2026-11-15T23:22:11Z merges the Magpie marketplace pull request. Compare from dab6dbc4a14e adds docs/verification/2026-11-16-stable-1.0.1.md and test/magpie_fixture.dart. docs/dsh-multi-agent.md is not in that compare. That guide points a superagent profile at LoongPass and Magpie and says enabling Agent Teams does not deploy the prototype. It is a model-access guide. Not listed."
+    },
+    {
+      "title": "Moongate onboarding does not name this prototype",
+      "url": "https://github.com/suiyideali/dsh-moongate/commit/298fdba20077",
+      "confidence": 0.86,
+      "reason": "Tip 298fdba20077 at 2026-11-15T23:05:28Z is onboarding, project trust, and collapsible settings. The README mention is a review request for @mochazZZ (superagent), not this prototype. Not listed."
+    },
+    {
+      "title": "Persona commits in this window do not name this prototype",
+      "url": "https://github.com/nwverse/persona/commit/b461a9ad0889",
+      "confidence": 0.8,
+      "reason": "Tip b461a9ad0889 at 2026-11-15T23:30:22Z and the four commits before it are model discovery, desktop cleanup, reasoning effort, a Codex provider, and an iOS prefetch. The subjects do not name this prototype. Not listed."
+    },
+    {
+      "title": "Profile pages and an old identical fork were not listed",
+      "url": "https://github.com/LDZ6/dsh-superagent-prototype",
+      "confidence": 0.88,
+      "reason": "LDZ6/LDZ6 and TsekaLuk/TsekaLuk are profile pages. LDZ6/dsh-superagent-prototype is a fork of the official repo whose main is still 6337fc823ce2, committed 2026-10-31T12:05:39Z, pushed_at 2026-10-31T12:05:51Z. It is not ahead of the listed tree. Not listed."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://export.arxiv.org/api/query?search_query=all:dsh-superagent&start=0&max_results=5",
+      "confidence": 0.85,
+      "reason": "arXiv query all:dsh-superagent returned 0 results. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-11. Not listed."
+    },
+    {
+      "title": "Commit search hit outside this prototype",
+      "url": "https://github.com/caldwelljoseph88/cal/commit/f03e76cc8a9d",
+      "confidence": 0.8,
+      "reason": "Commit search for dsh-superagent after 2026-11-15T22:30:40Z still returned only caldwelljoseph88/cal f03e76cc8a9d. The message does not describe this prototype. Not listed."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/f5d86e31e82f",
@@ -10661,9 +10727,11 @@
     }
   ],
   "rejected_this_run": [
-    "Added Colton-z/AstraBox at 2695754a1d5e. The image pins 8c32a9dc5d72 and that commit only removes the offered-upstream claim. The patch body was not read line by line. Did not rewrite t3code. Discussion #13442 was withdrawn and does not name this prototype. No new discussion after #13444."
+    "Added fs7744/dsh-ghost at 928143934a2d. The core files at that tip were read for Engine, intake.receive, and the reason table. The gate that emits those reasons was not read. The 23:12 UTC commit does not touch packages/superagent/src/core. Did not rewrite t3code or the plugin catalog. Discussion #13445 does not name this prototype. No npm publish."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code main is 06150a08ec7b. 4 commits and 10 files from f5d86e31e82f. No superagent or hextor filename. hextor main is 0dc3b4279c03.",
+    "awesome-dsh-plugin/awesome-dsh-plugin main is af6a61860c80. 10 commits and 10 files from eae12c77d0f7. No superagent filename.",
     "pingdotgg/t3code main is f5d86e31e82f. 2 commits and 8 files from b732621b5194. No superagent or hextor filename. hextor main is 0dc3b4279c03.",
     "superstar717/dsh-superagent-playground main remains 8c9c472e60e6. PR #41 head remains 7d80771af32c and is not main.",
     "sallaumen/dsh-superagent-superboard main remains 7c6567870a72 at 2026-11-15T20:58:12Z. No commit in this window.",
