@@ -1,27 +1,57 @@
 {
-  "last_run_at": "2026-11-15T20:34:26Z",
+  "last_run_at": "2026-11-15T21:32:02Z",
   "timezone": "UTC",
-  "baseline_commit": "758d9ee",
+  "baseline_commit": "877b1c7",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T19:35:55Z",
-    "to": "2026-11-15T20:34:26Z"
+    "from": "2026-11-15T20:34:26Z",
+    "to": "2026-11-15T21:32:02Z"
   },
   "added": [],
   "updated": [
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "from": "88e7fce64247",
-      "to": "f9ff296dee8e",
-      "pulls": "#748-#757"
+      "from": "f9ff296dee8e",
+      "to": "7c6567870a72",
+      "pulls": "#758-#762"
     }
   ],
   "pending": [
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/b732621b5194",
+      "confidence": 0.9,
+      "reason": "Default main tip b732621b5194 at 2026-11-15T21:08:56Z, pushed_at 2026-11-15T21:27:07Z. The compare from 51cdf232652d is 4 commits and 16 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03; pushed_at remains 2026-11-04T19:48:24Z. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "Playground main did not move",
+      "url": "https://github.com/superstar717/dsh-superagent-playground/pull/41",
+      "confidence": 0.9,
+      "reason": "main remains 8c9c472e60e6 at 2026-11-15T06:20:06Z. pushed_at 2026-11-15T21:10:23Z matches open PR #41, head agent/verify-hw-encode-8dae0e8b1c01 at 7d80771af32c, updated 2026-11-15T21:11:21Z. Not main. Not listed."
+    },
+    {
+      "title": "Harness discussion 13444 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13444",
+      "confidence": 0.9,
+      "reason": "#13444 at 2026-11-15T20:52:36Z is a YouTube pipeline complaint. The title and body contain neither dsh-superagent nor Mandate. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-15T21:23:24Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-15T21:27:07Z is not a commit."
+    },
+    {
+      "title": "Harness discussion 12990 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12990",
+      "confidence": 0.9,
+      "reason": "#12990 updated at 2026-11-15T21:04:48Z is the experimental agent-team wait_agent policy. The title, body, and new comment contain neither dsh-superagent nor Mandate."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://export.arxiv.org/api/query?search_query=all:dsh-superagent&start=0&max_results=5",
+      "confidence": 0.85,
+      "reason": "arXiv query all:dsh-superagent returned 0 results. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-11. Not listed."
+    },
     {
       "title": "t3code main moved and does not name this prototype",
       "url": "https://github.com/pingdotgg/t3code/commit/51cdf232652d",
@@ -10596,9 +10626,12 @@
     }
   ],
   "rejected_this_run": [
-    "Updated superboard to f9ff296dee8e (#748-#757). Did not rewrite t3code or the curated plugin list. Signal main did not move. Discussion #13443 does not name this prototype."
+    "Updated superboard to 7c6567870a72 (#758-#762). Queue wording, the 7-day offset window, local pass/fail dots, and the 3/8 merge limits stayed. Did not rewrite t3code. Playground PR #41 is not main. Discussions #13444 and #12990 do not name this prototype."
   ],
   "held_on_other_branches": [
+    "superstar717/dsh-superagent-playground main remains 8c9c472e60e6. PR #41 head is 7d80771af32c and is not main.",
+    "pingdotgg/t3code main is b732621b5194. No superagent or hextor filename since 51cdf232652d. hextor main is 0dc3b4279c03.",
+    "awesome-dsh-plugin/awesome-dsh-plugin main remains eae12c77d0f7. updated_at 2026-11-15T20:36:25Z is not a commit.",
     "LittleChenLiya/dsh-superagent main is e0a400f1c4f6 at 2026-11-15T18:09:35Z. npm @xiangyixie/dsh-superagent latest is 0.14.4, gitHead ade03c15ab12a0da4129c2fc91436f84d55fa76c, published 2026-11-15T18:06:46.599Z.",
     "wychmod/dsh-mini-superagent main is 389e38e628c1 at 2026-11-15T18:11:47Z. client/index.js was not read line by line.",
     "lkshrk/dsh-superagent-signal main remains 3434a88a8267. PR #7 is 4b4f5d3968c4 and is not main.",
