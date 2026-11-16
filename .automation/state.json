@@ -1,26 +1,73 @@
 {
-  "last_run_at": "2026-11-16T18:35:30Z",
+  "last_run_at": "2026-11-16T19:35:00Z",
   "timezone": "UTC",
-  "baseline_commit": "0e2028c",
+  "baseline_commit": "7bf9fc5",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T17:36:34Z",
-    "to": "2026-11-16T18:35:30Z"
+    "from": "2026-11-16T18:35:30Z",
+    "to": "2026-11-16T19:35:00Z"
   },
   "added": [],
   "updated": [
     {
       "title": "lanshi17/dsh-booth",
       "url": "https://github.com/lanshi17/dsh-booth",
-      "to": "6ec1108a9301",
-      "version": "0.3.41"
+      "to": "5790d7b5e422",
+      "version": "0.3.47"
+    },
+    {
+      "title": "waixv-superagent/dsh-superagent-prototype",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
+      "to": "50eeb3ad884c"
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions 13540 and 13541 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13541",
+      "confidence": 0.9,
+      "reason": "#13540 created at 2026-11-16T18:52:42Z is a document-preview suffix note and does not contain superagent, super-agent, dsh-superagent, or 原型. #13541 at 19:05:14Z is Agent Teams spawn_teammate and does not contain those words. #13542 does not exist. Not listed."
+    },
+    {
+      "title": "t3code main has no superagent filename after 18:35Z",
+      "url": "https://github.com/pingdotgg/t3code/commit/4247b5aa1a1d",
+      "confidence": 0.9,
+      "reason": "main tip 4247b5aa1a1d at 2026-11-16T19:27:50Z. Compare from b0f0c44d2285 is 3 commits and 21 files. No filename matches superagent, super-agent, hextor, or dsh. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype after 18:35Z",
+      "url": "https://github.com/nwverse/persona/commit/6afd249f5b9a",
+      "confidence": 0.86,
+      "reason": "Tip 6afd249f5b9a at 2026-11-16T19:16:04Z. Compare from f79e11971e2d is 18 commits and 169 files. No filename matches superagent, super-agent, hextor, dsh, or harness. Not read line by line. Not listed."
+    },
+    {
+      "title": "awesome-dsh-plugin catalog did not move after 18:35Z",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/321fef801ba5",
+      "confidence": 0.9,
+      "reason": "main stays 321fef801ba5 at 2026-11-16T17:48:21Z. No commit after 18:35:30Z. The curated sentence was not rewritten."
+    },
+    {
+      "title": "superstar717 playground stays unlisted",
+      "url": "https://github.com/superstar717/dsh-superagent-playground/commit/45731db23e04",
+      "confidence": 0.9,
+      "reason": "Tip 45731db23e04 at 2026-11-16T19:28:27Z merges #44, a self-signed codesign change for a FocuSee clone packager. Playgrounds stay out. Not listed."
+    },
+    {
+      "title": "SkillfulAgents push is not this prototype",
+      "url": "https://github.com/SkillfulAgents/SuperAgent/commit/54416cecac9a",
+      "confidence": 0.9,
+      "reason": "main tip 54416cecac9a at 2026-11-16T19:14:28Z merges #1989. Compare from 721ac4f5e744 is 2 commits and 3 files under src/shared/lib/agent-actor. The text does not contain dsh, deepseek, harness, or prototype. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 18:35Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness tip stays 39163dd30f70. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. dsh-ghost, LittleChenLiya, Missher, HUHAN-HIT, superboard, szmdshagent, MYCF711, wheelchair-agent, Nelson, AstraBox, injet, dsh-foreman, CACppuccino, ft54482, Shuai-S wechat, tanxinz, ReSerendipity, and baojingyu had no commit after 18:35:30Z. arXiv dsh-superagent returned 0. No new HN story. Not listed."
+    },
     {
       "title": "Harness discussion 13539 does not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13539",
@@ -11783,7 +11830,7 @@
     }
   ],
   "rejected_this_run": [
-    "Started from 0e2028c. Did not repeat booth 0.3.37 retry or quiet profile setup. Updated booth to 6ec1108a9301 (0.3.41). No new list rows. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
+    "Started from 7bf9fc5. Did not repeat booth 0.3.41 taskState or the 0.3.38 relay prefix. Updated booth to 5790d7b5e422 (0.3.47) and waixv to 50eeb3ad884c. No new list rows. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
   ],
   "held_on_other_branches": [
     "NelsonLongxiang/dsh-open-a2a-net master stays e28eba14fa4c.",
