@@ -1,26 +1,81 @@
 {
-  "last_run_at": "2026-11-16T10:50:00Z",
+  "last_run_at": "2026-11-16T11:35:27Z",
   "timezone": "UTC",
-  "baseline_commit": "a1c8890",
+  "baseline_commit": "21dd451",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T09:27:32Z",
-    "to": "2026-11-16T10:50:00Z"
+    "from": "2026-11-16T10:50:00Z",
+    "to": "2026-11-16T11:35:27Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "ft54482/dsh-superagent-view",
+      "url": "https://github.com/ft54482/dsh-superagent-view",
+      "to": "a91c53789600",
+      "version": "0.1.0"
+    }
+  ],
   "updated": [
     {
       "title": "Missher12/Missher-DSH-Superagent",
       "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "to": "e1e62bf0222a",
-      "version": "1.12.0"
+      "to": "dd387eb87fdc",
+      "version": "1.12.1"
     }
   ],
   "pending": [
+    {
+      "title": "MYCF711 onlyNewComments stays off main",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/6878b81593d6",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-16T11:29:02Z is branch task/issue-60-only-new-comments. Tip 6878b81593d6 at 11:28:56Z says it fills empty comment responses and page edges. Parent ed18a3cf29e3 at 11:20:40Z adds onlyNewComments. main stays 48ddf2eeffda. Not merged. Not listed."
+    },
+    {
+      "title": "t3code main has no superagent filename after 10:50Z",
+      "url": "https://github.com/pingdotgg/t3code/commit/629d5083b7b0",
+      "confidence": 0.9,
+      "reason": "main tip 629d5083b7b0 at 2026-11-16T11:08:42Z. Compare from dfeaf7b13786 is 3 commits and 18 files. No filename matches superagent or hextor. Not listed."
+    },
+    {
+      "title": "IHUI has no super-agent filename after 10:50Z",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/cfa48e273cce",
+      "confidence": 0.9,
+      "reason": "main tip cfa48e273cce at 2026-11-16T11:08:31Z. Compare from 7615c1cdfeff is 1 commit and 2 files, both under apps/api/src/plugins. No filename matches superagent, super-agent, or hextor. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype after 10:50Z",
+      "url": "https://github.com/nwverse/persona/commit/ddd7f7fcc7ca",
+      "confidence": 0.86,
+      "reason": "Tip ddd7f7fcc7ca at 2026-11-16T11:29:30Z. Compare from c8c4f60c278d is 18 commits and 194 files. No filename matches dsh, superagent, or hextor. Not read line by line. Not listed."
+    },
+    {
+      "title": "Nelson master did not move after 10:50Z",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/708",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-16T11:13:22Z is pull request activity. master stays e28eba14fa4c. #708 head c17a7b56eb65 targets next/0.8 and is not merged. #710 head 3eb2bb112a2d still targets master and is not merged. Not listed."
+    },
+    {
+      "title": "AstraBox main did not move after 10:50Z",
+      "url": "https://github.com/Colton-z/AstraBox/commit/607bc6c827a2",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-16T11:18:25Z is not a newer main commit. main tip stays 607bc6c827a2. containers/sandbox-dsh-superagent was not in a new commit. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Harness discussions 13500-13508 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13508",
+      "confidence": 0.9,
+      "reason": "#13500 through #13502 were created after the previous scan commit and before 10:50Z. #13503 through #13508 were created after 10:50Z. Bodies cover workspace integrity, subdirectory writes, slash-command session titles, Anthropic tool schema, a Windows safety evaluation, plugin-manager registries, context window size, a phone client, and gateway message-count compression. None contain superagent or dsh-superagent. Not listed."
+    },
+    {
+      "title": "Unrelated superagent repositories were not listed",
+      "url": "https://github.com/lobehub/lobehub",
+      "confidence": 0.84,
+      "reason": "Pushed after 10:50Z and not this prototype: lobehub/lobehub, Astrmira/Varin, wanshuiyin/SuperARIS, strapidinnovation/construction-agent, jamestesting0/helio-superagent, FraRussotto/frank, kadaliao/open-super-agent, iflytek/astron-agent. Not listed."
+    },
     {
       "title": "t3code main did not move after 09:27Z",
       "url": "https://github.com/pingdotgg/t3code/commit/dfeaf7b13786",
@@ -11429,7 +11484,7 @@
     }
   ],
   "rejected_this_run": [
-    "Started from a1c8890, which already recorded LittleChenLiya 0.14.6, injet fd785c8c9909, and booth 0.3.16. Updated Missher to e1e62bf0222a (1.12.0). t3code main stayed dfeaf7b13786. IHUI and persona have no superagent filename. Nelson master stayed e28eba14fa4c. ClumsyWu is still a pi-sdk demo. Discussions #13496 through #13499 do not name the prototype. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1."
+    "Started from 21dd451, which already recorded Missher 1.12.0 at e1e62bf0222a. Updated Missher to dd387eb87fdc (1.12.1). Added ft54482/dsh-superagent-view at a91c53789600, created 10:36Z after that scan commit. MYCF711 onlyNewComments stays on task/issue-60-only-new-comments. t3code, IHUI, and persona have no superagent filename. Nelson master stayed e28eba14fa4c. AstraBox main stayed 607bc6c827a2. Discussions #13500 through #13508 do not name the prototype. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1."
   ],
   "held_on_other_branches": [
     "pingdotgg/t3code main stays dfeaf7b13786. pushed_at 2026-11-16T10:18:51Z is not a newer main commit.",
@@ -11813,5 +11868,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-13T08:05:45.849Z. Unscoped dsh-superagent, dsh-superagent-linear, dsh-superagent-signal, and @missher/dsh-superagent remain 404. dsh-foreman latest remains 0.9.1 (published 2026-11-16T05:34:38.792Z). @xiangyixie/dsh-superagent latest is 0.14.6 (published 2026-11-16T09:20:43.096Z, gitHead 30bd788b91bfc1574d65d9c63d824a196259ad70). dsh-session-superagent latest remains 0.10.12."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-13T08:05:45.849Z. Unscoped dsh-superagent, dsh-superagent-linear, dsh-superagent-signal, and @missher/dsh-superagent remain 404. dsh-foreman latest remains 0.9.1 (published 2026-11-16T05:34:38.792Z). @xiangyixie/dsh-superagent latest is 0.14.6 (published 2026-11-16T09:20:43.096Z, gitHead 30bd788b91bfc1574d65d9c63d824a196259ad70). dsh-session-superagent latest remains 0.10.12. dsh-superagent-view remains 404."
 }
