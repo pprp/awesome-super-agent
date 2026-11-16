@@ -1,45 +1,92 @@
 {
-  "last_run_at": "2026-11-16T12:32:39Z",
+  "last_run_at": "2026-11-16T13:39:53Z",
   "timezone": "UTC",
-  "baseline_commit": "3931108",
+  "baseline_commit": "49e28e1",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T11:35:27Z",
-    "to": "2026-11-16T12:32:39Z"
+    "from": "2026-11-16T12:32:39Z",
+    "to": "2026-11-16T13:39:53Z"
   },
-  "added": [
-    {
-      "title": "nihaoWX/wheelchair-agent",
-      "url": "https://github.com/nihaoWX/wheelchair-agent",
-      "to": "27d446340261",
-      "version": "0.1.0"
-    }
-  ],
+  "added": [],
   "updated": [
     {
       "title": "LittleChenLiya/dsh-superagent",
       "url": "https://github.com/LittleChenLiya/dsh-superagent",
-      "to": "4096636c40ce",
-      "version": "0.14.7"
+      "to": "cb14dd9c910f",
+      "version": "0.14.9"
     },
     {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "to": "abfe08206697",
-      "version": "1.13.0"
+      "title": "lanshi17/dsh-booth",
+      "url": "https://github.com/lanshi17/dsh-booth",
+      "to": "9b1530ef0135",
+      "version": "0.3.18"
     },
     {
-      "title": "MYCF711/dsh-session-superagent",
-      "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "to": "a304a31f2356",
-      "version": "0.11.0"
+      "title": "sallaumen/dsh-superagent-superboard",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
+      "to": "705df49a620b",
+      "version": "770"
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions 13512-13518 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13518",
+      "confidence": 0.9,
+      "reason": "#13512 at 12:54:52Z is a Windows desktop 0.2.2-rc.3 update fetch failure. #13513 at 12:58:38Z is a Huorong false positive on associations.ps1. #13514 at 13:00:22Z is a non-admin Windows installer failure. #13515 at 13:07:35Z is IcmpSendEcho access denied in the sandbox. #13516 at 13:19:22Z is malformed tool-argument JSON. #13517 at 13:26:08Z is cacheReadTokens aggregation. #13518 at 13:27:49Z is fork() omitting parentSession. Bodies do not contain superagent or dsh-superagent. #13511's comment at 13:22:24Z is an access violation 0xC0000005 and does not name the prototype. #13518's comment at 13:29:14Z is a one-line patch note and does not name it. Not listed."
+    },
+    {
+      "title": "t3code main has no superagent filename after 12:32Z",
+      "url": "https://github.com/pingdotgg/t3code/commit/d427894aa1d1",
+      "confidence": 0.9,
+      "reason": "main tip d427894aa1d1 at 2026-11-16T13:31:31Z. Compare from 1f698f01d9fb is 1 commit and 3 files, all pull-request service code. No filename matches superagent or hextor. Not listed."
+    },
+    {
+      "title": "IHUI has no super-agent filename after 12:32Z",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/984a5a3970a3",
+      "confidence": 0.9,
+      "reason": "main tip 984a5a3970a3 at 2026-11-16T13:20:43Z. Compare from 7f4796b153c9 is 2 commits and 7 files, all desktop window, heartbeat, or README counts. No filename matches superagent, super-agent, or hextor. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype after 12:32Z",
+      "url": "https://github.com/nwverse/persona/commit/3e1384c68ebd",
+      "confidence": 0.86,
+      "reason": "Tip 3e1384c68ebd at 2026-11-16T13:32:41Z. Compare from fbf032bb47b9 is 11 commits and 159 files. The only filename containing the letters dsh is BriefCardShotsTest.kt, which is not this prototype. No filename matches superagent or hextor. Not read line by line. Not listed."
+    },
+    {
+      "title": "Nelson master did not move after 12:32Z",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/708",
+      "confidence": 0.88,
+      "reason": "master stays e28eba14fa4c. #708 head 4518c715a5b9 updated 13:10:45Z still targets next/0.8 and is not merged. #710 head 3eb2bb112a2d updated 13:22:11Z still targets master and is not merged. #711 head b6af541f96fe updated 13:22:15Z targets release/0.8.1-preview.27-reminder-backpressure and is not master. Not listed."
+    },
+    {
+      "title": "ClumsyWu is still a demo after the health endpoints",
+      "url": "https://github.com/ClumsyWu/dsh-superagent-test/commit/6c08750d68c1",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-16T13:04:30Z. main tip 6c08750d68c1 merges health endpoints /health, /metrics, and /ready. The tree is still README.md, requirements.txt, feature-ideas.md, and demo/simple_agent.py, conversational_agent.py, health_server.py, plus a test. It does not implement this prototype's tickets. Not listed."
+    },
+    {
+      "title": "22-ai-00 v0.1.73 does not name this prototype",
+      "url": "https://github.com/22-ai-00/dsh-enhanced/commit/f7020a7af368",
+      "confidence": 0.86,
+      "reason": "pushed_at 2026-11-16T13:05:10Z. main tip f7020a7af368 at 2026-11-16T12:15:57Z only changes release-manifest.json and says record v0.1.73. The repository is a personal assistant on dsh, not this prototype's ticket engine. Not listed."
+    },
+    {
+      "title": "dbc-hbin omp-superagent 0.1.1 is not this prototype",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/2ee2760a4a5a",
+      "confidence": 0.86,
+      "reason": "pushed_at 2026-11-16T12:38:38Z. Tip 2ee2760a4a5a at 12:38:09Z says chore: release 0.1.1 on npm. The repository connects Discord, Telegram, and Slack to oh-my-pi. It is not the already listed cjcj5438/omp-superagent-prototype and does not implement this prototype's tickets. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 12:32Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72; updated_at 2026-11-16T13:22:24Z is not a commit. Harness tip stays 39163dd30f70; updated_at 2026-11-16T13:30:42Z is not a commit. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. Missher stays abfe08206697. MYCF711 stays a304a31f2356. wheelchair-agent stays 27d446340261. AstraBox stays 607bc6c827a2. foreman stays 2975cb74c598. dsh-ghost stays 2a5c307822a6. injet stays fd785c8c9909. arXiv returned no dsh-superagent result. Not listed."
+    },
     {
       "title": "Harness discussions 13509-13511 do not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13511",
@@ -11532,9 +11579,13 @@
     }
   ],
   "rejected_this_run": [
-    "Started from 3931108. Updated LittleChenLiya to 4096636c40ce (0.14.7), Missher to abfe08206697 (1.13.0), and MYCF711 to a304a31f2356 (0.11.0, onlyNewComments on main). Added nihaoWX/wheelchair-agent at 27d446340261. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3. Discussions #13509-#13511 do not name the prototype. t3code, IHUI, and persona were not listed. Nelson master stayed e28eba14fa4c."
+    "Started from 49e28e1. Updated LittleChenLiya to cb14dd9c910f (0.14.9), booth to 9b1530ef0135 (0.3.18), and superboard to 705df49a620b (#770 receipt). No new list rows. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3. Discussions #13512-#13518 do not name the prototype. t3code, IHUI, and persona were not listed. Nelson master stayed e28eba14fa4c. ClumsyWu, 22-ai-00, and dbc-hbin/omp-superagent were not listed."
   ],
   "held_on_other_branches": [
+    "NelsonLongxiang/dsh-open-a2a-net #708 head 4518c715a5b9 targets next/0.8 and is not merged. #710 head 3eb2bb112a2d targets master and is not merged. master stays e28eba14fa4c.",
+    "pingdotgg/t3code main tip d427894aa1d1 has no superagent filename.",
+    "IHUI-INF-AI/IHUI-AI main tip 984a5a3970a3 has no super-agent filename.",
+    "nwverse/persona tip 3e1384c68ebd has no superagent filename.",
     "NelsonLongxiang/dsh-open-a2a-net #708 head 4518c715a5b9 targets next/0.8 and is not merged. master stays e28eba14fa4c.",
     "pingdotgg/t3code main tip 1f698f01d9fb has no superagent filename.",
     "IHUI-INF-AI/IHUI-AI main tip 7f4796b153c9 has no super-agent filename.",
