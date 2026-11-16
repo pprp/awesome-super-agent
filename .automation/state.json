@@ -1,32 +1,122 @@
 {
-  "last_run_at": "2026-11-16T02:43:32Z",
+  "last_run_at": "2026-11-16T03:37:00Z",
   "timezone": "UTC",
-  "baseline_commit": "b205b17",
+  "baseline_commit": "a12aca6",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T01:33:30Z",
-    "to": "2026-11-16T02:43:32Z"
+    "from": "2026-11-16T02:43:32Z",
+    "to": "2026-11-16T03:37:00Z"
   },
   "added": [],
   "updated": [
     {
       "title": "Missher12/Missher-DSH-Superagent",
       "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "to": "20338f28fa68",
-      "version": "1.10.13"
+      "to": "e8398e386d8e",
+      "version": "1.10.15"
     },
     {
-      "title": "CACppuccino/DSH-Super-Agent",
-      "url": "https://github.com/CACppuccino/DSH-Super-Agent",
-      "to": "ed500c234d72",
-      "version": "pending-card markdown"
+      "title": "lanshi17/dsh-booth",
+      "url": "https://github.com/lanshi17/dsh-booth",
+      "to": "b95a6f07720f",
+      "version": "0.3.13"
     }
   ],
   "pending": [
+    {
+      "title": "Missher 1.10.15 blocks native delegation on already loaded sessions",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent/commit/e8398e386d8e",
+      "confidence": 0.93,
+      "reason": "main tip e8398e386d8e at 2026-11-16T03:30:02Z is private 1.10.15. 1.10.14 at 6f4932a14145 only changes spacing, the demo link preview, and the version. install re-decorates the master and in-memory worker sessions. NATIVE_DELEGATION adds fork_agent, wait_agent, and team_task_create/list/get/update. DELEGATION_POLICY is prompt text. Annotated tag v1.10.15 object 149df71ba95e points at that commit. Release at 03:31:41Z attaches missher-dsh-superagent-1.10.15.tgz. npm 404. Sentence appended."
+    },
+    {
+      "title": "booth 0.3.13 rotates a missing orchestrator session id",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/b95a6f07720f",
+      "confidence": 0.93,
+      "reason": "master tip b95a6f07720f at 2026-11-16T02:55:06Z is Cargo 0.3.13, one commit ahead of 085c2c716595. start reads only the new log, extracts one quoted missing session id, and updates kv.master-id when it still matches. It no longer moves the session directory aside. Submodule stays 2febfad95e95. Annotated tag v0.3.13 object 1f5669658e77 points at that commit. Release at 03:00:26Z attaches the two Linux binaries, booth-runtime.tar.gz, and sha256 files. Sentence appended."
+    },
+    {
+      "title": "CACppuccino project-memory commits were not read line by line",
+      "url": "https://github.com/CACppuccino/DSH-Super-Agent/commit/c069fa48280d",
+      "confidence": 0.86,
+      "reason": "main tip c069fa48280d at 2026-11-16T02:57:39Z. Compare from ed500c234d72 is 2 commits and 17 files, all under packages/dsh-project-memory. The pending-card files were not in the diff. Not read line by line. The listed sentence was not rewritten."
+    },
+    {
+      "title": "dsh-ghost only adds a Windows pack script",
+      "url": "https://github.com/fs7744/dsh-ghost/commit/e822ff9842c0",
+      "confidence": 0.9,
+      "reason": "main tip e822ff9842c0 at 2026-11-16T02:57:51Z. One commit adds scripts/pack-win-portable.mjs and pack:win scripts. It does not change packages/superagent/src/core, packages/playbook/src/schedule.ts, or apps/desktop/src/schedules-section.ts. The listed sentence was not rewritten."
+    },
+    {
+      "title": "wychmod 0.10.0 client was not read line by line",
+      "url": "https://github.com/wychmod/dsh-mini-superagent/commit/d52204ff41c4",
+      "confidence": 0.84,
+      "reason": "main tip d52204ff41c4 at 2026-11-16T03:33:33Z. Compare from 08921ef6bdd4 is 8 commits and 12 files. The release subject says 0.10.0. client/index.js is +1673/-49 and was not read line by line. The listed sentence was not rewritten."
+    },
+    {
+      "title": "dingmac monitor bundle was not read line by line",
+      "url": "https://github.com/dingmac/dsh-superagent-monitor",
+      "confidence": 0.8,
+      "reason": "main tip d19751c3c2a2 at 2026-11-16T03:30:10Z. package.json names private @local/dsh-superagent-monitor 1.4.0. index.js and client.js are bundled and were not read line by line. Not listed."
+    },
+    {
+      "title": "I2y0 only refreshed the contributor wall",
+      "url": "https://github.com/I2y0/dsh-superagent/commit/36bcb956ef5d",
+      "confidence": 0.88,
+      "reason": "main tip 36bcb956ef5d at 2026-11-16T03:23:40Z only refreshes the contributor wall. The 2026-11-08 feature commit was not read line by line. Not listed."
+    },
+    {
+      "title": "pcerypeng demo README was not listed",
+      "url": "https://github.com/pcerypeng/superagent-demo/commit/94bd15f67e1a",
+      "confidence": 0.9,
+      "reason": "main tip 94bd15f67e1a at 2026-11-16T03:02:49Z. The only file is a 179-byte README whose subject is seed README with a typo. Not listed."
+    },
+    {
+      "title": "ClumsyWu test repository is empty",
+      "url": "https://github.com/ClumsyWu/dsh-superagent-test",
+      "confidence": 0.92,
+      "reason": "Created 2026-11-16T03:26:52Z. Default branch main has no commit. Not listed."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/6234afba123d",
+      "confidence": 0.9,
+      "reason": "Default main tip 6234afba123d at 2026-11-16T03:30:24Z. Compare from 6b7027b1f43e is 2 commits and 6 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "Persona lesson does not name this prototype",
+      "url": "https://github.com/nwverse/persona/commit/e46cd89aca0e",
+      "confidence": 0.84,
+      "reason": "Tip e46cd89aca0e at 2026-11-16T03:31:42Z. Compare from a7f9b5db598f is 31 commits and 300 files. docs/lessons/dsh.md adds a Grok session-rename note. It does not name this prototype. Not listed."
+    },
+    {
+      "title": "IHUI main moved and does not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/35e69d40642b",
+      "confidence": 0.86,
+      "reason": "main tip 35e69d40642b at 2026-11-16T03:16:17Z. Compare from c96dea182148 is 52 commits and 180 files. No filename matches super-agent. Not read line by line. Not listed."
+    },
+    {
+      "title": "Harness discussions in this window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13459",
+      "confidence": 0.88,
+      "reason": "#13459 created at 2026-11-16T03:23:08Z is a dsh-session-query absence report. The latest fetched comments on #13236, #12751, #11740, #3075, and #13450 do not contain dsh-superagent, Mandate, or Ticket. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-16T03:28:34Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-16T03:29:29Z is not a commit."
+    },
+    {
+      "title": "mystic7c main did not move",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/commit/637f60da5ce7",
+      "confidence": 0.9,
+      "reason": "Default main remains 637f60da5ce7, committed 2026-11-16T02:08:07Z. pushed_at 2026-11-16T03:31:10Z is not a new main commit. The listed sentence was not rewritten."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://export.arxiv.org/api/query?search_query=all:dsh-superagent&start=0&max_results=5",
+      "confidence": 0.85,
+      "reason": "arXiv query all:dsh-superagent returned 0 results. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-11. Not listed."
+    },
     {
       "title": "Missher 1.10.13 choice rows wrap and ignore unrelated scrolling",
       "url": "https://github.com/Missher12/Missher-DSH-Superagent/commit/20338f28fa68",
@@ -10943,7 +11033,7 @@
     }
   ],
   "rejected_this_run": [
-    "Added none. Updated Missher to 20338f28fa68 (1.10.13) and CACppuccino's two read commits at ed500c234d72. Did not rewrite Signal or Linear zod bumps, AstraBox changelog, mystic7c (34 files), tanxinz docs, IHUI PROJECT_PLAN.md, or Nelson master. Discussions #13451 through #13458 do not name this prototype. No npm publish."
+    "Added none. Updated Missher to e8398e386d8e (1.10.15) and booth to b95a6f07720f (0.3.13). Did not rewrite CACppuccino project-memory, dsh-ghost pack script, wychmod 0.10.0, dingmac, I2y0, or IHUI. Discussions in this window do not name this prototype. No npm publish."
   ],
   "held_on_other_branches": [
     "pingdotgg/t3code main is 6b7027b1f43e. 4 commits and 17 files from eeae88de5c68. No superagent or hextor filename. hextor-ndc/superagent did not push after 2026-11-16T00:37:05Z.",
