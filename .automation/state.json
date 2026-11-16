@@ -1,26 +1,92 @@
 {
-  "last_run_at": "2026-11-15T23:35:20Z",
+  "last_run_at": "2026-11-16T00:37:05Z",
   "timezone": "UTC",
-  "baseline_commit": "be61c9a",
+  "baseline_commit": "bb20be8",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T22:30:40Z",
-    "to": "2026-11-15T23:35:20Z"
+    "from": "2026-11-15T23:35:20Z",
+    "to": "2026-11-16T00:37:05Z"
   },
-  "added": [
+  "added": [],
+  "updated": [
     {
       "title": "fs7744/dsh-ghost",
       "url": "https://github.com/fs7744/dsh-ghost",
-      "to": "928143934a2d",
+      "to": "0a524302785d",
       "version": "private 0.0.0"
     }
   ],
-  "updated": [],
   "pending": [
+    {
+      "title": "Harness discussion 13446 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13446",
+      "confidence": 0.9,
+      "reason": "#13446 updated at 2026-11-15T23:58:36Z is the experimental-inspector fetch accessor report by bluesky8318. There are no comments. The title and body contain neither dsh-superagent nor Mandate nor superagent nor ticket. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-16T00:13:35Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-16T00:27:29Z is not a commit."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/eeae88de5c68",
+      "confidence": 0.9,
+      "reason": "Default main tip eeae88de5c68 at 2026-11-16T00:06:54Z. The compare from 06150a08ec7b is 5 commits and 10 files. No filename matches superagent or hextor. hextor main remains 0dc3b4279c03; pushed_at remains 2026-11-04T19:48:24Z. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "Signal main only bumped devDependencies",
+      "url": "https://github.com/lkshrk/dsh-superagent-signal/commit/b6e8b67855d4",
+      "confidence": 0.9,
+      "reason": "main tip b6e8b67855d4 at 2026-11-16T00:30:12Z. Compare from d7df09aa7ed3 is #8 and #9, 2 commits and 2 files: package.json and pnpm-lock.yaml. @types/node 22.20.0 to 22.20.5 and vitest 4.1.8 to 4.1.12. Package name stays dsh-superagent-signal 0.2.1 and still has no private field. No src change. The 0.2.1 sentence was not rewritten."
+    },
+    {
+      "title": "Linear main only bumped devDependencies",
+      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/5be4c6fe6858",
+      "confidence": 0.9,
+      "reason": "main tip 5be4c6fe6858 at 2026-11-16T00:30:12Z. Compare from 8ef891456471 is #5 and #6, 2 commits and 2 files: package.json and pnpm-lock.yaml. @types/node 22.20.0 to 22.20.5 and vitest 4.1.8 to 4.1.12. Package name stays dsh-superagent-linear 0.2.3 and still has no private field. No src change. The 0.2.3 sentence was not rewritten."
+    },
+    {
+      "title": "tanxinz docs branch is not main",
+      "url": "https://github.com/tanxinz/dsh-superagent/commit/2cab8e1b3a60",
+      "confidence": 0.88,
+      "reason": "docs/v1-2-1-plugin-boundary-review-20261116 is 2cab8e1b3a60 at 2026-11-16T00:10:44Z. The subject is Cordis plugin boundaries and safe fork evolution. Default main remains a56eb40a096e. Not main. Not listed."
+    },
+    {
+      "title": "Playground pull request 41 is not main",
+      "url": "https://github.com/superstar717/dsh-superagent-playground/pull/41",
+      "confidence": 0.9,
+      "reason": "main remains 8c9c472e60e6 at 2026-11-15T06:20:06Z. Open PR #41 head is 5b3a6af60c4e on agent/verify-hw-encode-8dae0e8b1c01, updated 2026-11-16T00:08:42Z. Not main. Not listed."
+    },
+    {
+      "title": "LoongPass updates branch does not edit the superagent guide",
+      "url": "https://github.com/SailingLoong/LoongPass/commit/476a35c4214b",
+      "confidence": 0.86,
+      "reason": "updates is 476a35c4214b at 2026-11-15T23:46:22Z and publishes signed desktop update 50. The commit only changes appcast-stable.xml, appcast-windows-stable.xml, appcast-windows.xml, and appcast.xml. Default main remains 4ca40b0d6cfc. Not listed."
+    },
+    {
+      "title": "Zovaris skills still do not target this prototype",
+      "url": "https://github.com/Zovaris/skills/commit/f7c93a6f5b2b",
+      "confidence": 0.88,
+      "reason": "main tip f7c93a6f5b2b at 2026-11-16T00:28:49Z. Compare from a9f3d31d7321 is 28 commits and 104 files. README still credits dsh-superagent-prototype. skills/foreman/references/harness.md adapters remain Claude Code desktop, Claude Code CLI, and any harness via agent.sh. Not a DSH port. Not listed."
+    },
+    {
+      "title": "Persona commits in this window do not name this prototype",
+      "url": "https://github.com/nwverse/persona/commit/e0a9524660f8",
+      "confidence": 0.8,
+      "reason": "Tip e0a9524660f8 at 2026-11-16T00:35:19Z. Compare from b461a9ad0889 is 10 commits and 53 files. No filename matches superagent, dsh, mandate, or ticket. The subjects do not name this prototype. Not listed."
+    },
+    {
+      "title": "Proofline v2.6 only borrows ideas",
+      "url": "https://github.com/peaknr35/Proofline/commit/096e2aa82753",
+      "confidence": 0.74,
+      "reason": "main tip 096e2aa82753 at 2026-11-16T00:20:14Z. README says the kit read dsh-superagent-prototype and kept the ideas in its own words, and that no code was copied. library/PATTERNS-LOG.md says the v2.6 entries were not tested in a kit build. The observe wording was not checked line by line. Not listed."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://export.arxiv.org/api/query?search_query=all:dsh-superagent&start=0&max_results=5",
+      "confidence": 0.85,
+      "reason": "arXiv query all:dsh-superagent returned 0 results. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-11. Not listed."
+    },
     {
       "title": "Harness discussion 13445 does not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13445",
@@ -10727,9 +10793,14 @@
     }
   ],
   "rejected_this_run": [
-    "Added fs7744/dsh-ghost at 928143934a2d. The core files at that tip were read for Engine, intake.receive, and the reason table. The gate that emits those reasons was not read. The 23:12 UTC commit does not touch packages/superagent/src/core. Did not rewrite t3code or the plugin catalog. Discussion #13445 does not name this prototype. No npm publish."
+    "Updated fs7744/dsh-ghost from 928143934a2d to 0a524302785d. The schedule parser and the settings section were read. The compare does not touch packages/superagent/src/core. Did not rewrite the Signal or Linear devDependency bumps. Discussion #13446 does not name this prototype. No npm publish."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code main is eeae88de5c68. 5 commits and 10 files from 06150a08ec7b. No superagent or hextor filename. hextor main is 0dc3b4279c03.",
+    "tanxinz/dsh-superagent docs/v1-2-1-plugin-boundary-review-20261116 is 2cab8e1b3a60 at 2026-11-16T00:10:44Z. Default main remains a56eb40a096e. Do not list the branch.",
+    "superstar717/dsh-superagent-playground pull request 41 head is 5b3a6af60c4e. Default main remains 8c9c472e60e6. Do not list the branch.",
+    "SailingLoong/LoongPass updates is 476a35c4214b at 2026-11-15T23:46:22Z. Default main remains 4ca40b0d6cfc. Do not list the branch.",
+    "nwverse/persona main is e0a9524660f8. 10 commits and 53 files from b461a9ad0889. No superagent filename.",
     "pingdotgg/t3code main is 06150a08ec7b. 4 commits and 10 files from f5d86e31e82f. No superagent or hextor filename. hextor main is 0dc3b4279c03.",
     "awesome-dsh-plugin/awesome-dsh-plugin main is af6a61860c80. 10 commits and 10 files from eae12c77d0f7. No superagent filename.",
     "pingdotgg/t3code main is f5d86e31e82f. 2 commits and 8 files from b732621b5194. No superagent or hextor filename. hextor main is 0dc3b4279c03.",
