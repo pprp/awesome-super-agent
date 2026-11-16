@@ -1,26 +1,92 @@
 {
-  "last_run_at": "2026-11-16T00:37:05Z",
+  "last_run_at": "2026-11-16T01:33:30Z",
   "timezone": "UTC",
-  "baseline_commit": "bb20be8",
+  "baseline_commit": "77ac199",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-15T23:35:20Z",
-    "to": "2026-11-16T00:37:05Z"
+    "from": "2026-11-16T00:37:05Z",
+    "to": "2026-11-16T01:33:30Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "fs7744/dsh-ghost",
-      "url": "https://github.com/fs7744/dsh-ghost",
-      "to": "0a524302785d",
-      "version": "private 0.0.0"
+      "title": "sallaumen/dsh-superagent-superboard",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
+      "to": "c592853117e7",
+      "version": "#763"
     }
   ],
   "pending": [
+    {
+      "title": "superboard #763 moves dropped tickets to stopped",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/pull/763",
+      "confidence": 0.92,
+      "reason": "main tip c592853117e7 at 2026-11-16T00:55:13Z. One commit and 8 files from 7c6567870a72. Tickets.state returns stopped when ended_outcome is dropped and ended_at is set, after an owner stopped or archived ticket still returns nil. Overlay apply skips t.stopped, archived, and by default done and closed. The stopped write only updates kind issue, and skips a task with a starting or running execution or an execution finished at or after ended_at. It does not set the owner stop flag. ReopenedTickets now also accepts dropped. A native ReopenedEvent not before ended_at sets queued. No prototype pin. Sentence appended."
+    },
+    {
+      "title": "Signal main only bumped tool versions",
+      "url": "https://github.com/lkshrk/dsh-superagent-signal/commit/cc1aaf728bf9",
+      "confidence": 0.93,
+      "reason": "main tip cc1aaf728bf9 at 2026-11-16T01:26:41Z. Compare from b6e8b67855d4 is #10, #11, and #12, 3 commits and 3 files: .node-version 24.19.0 to 24.22.3, packageManager pnpm 11.7.0 to 11.28.12, and tsdown 0.22.14 to 0.23.7. engines.dsh stays ^0.2.1-alpha.2 || ^0.2.2-0. No src change. The 0.2.1 sentence was not rewritten."
+    },
+    {
+      "title": "Linear main only bumped tool versions",
+      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/c9afd4242cde",
+      "confidence": 0.93,
+      "reason": "main tip c9afd4242cde at 2026-11-16T01:19:00Z. Compare from 5be4c6fe6858 is #7, #8, and #9, 3 commits and 3 files: .node-version 24.19.0 to 24.22.3, packageManager pnpm 11.7.0 to 11.28.12, and tsdown 0.22.14 to 0.23.7. engines.dsh stays ^0.2.1-alpha.2 || ^0.2.2-0. No src change. The 0.2.3 sentence was not rewritten."
+    },
+    {
+      "title": "tanxinz main moved and was not read line by line",
+      "url": "https://github.com/tanxinz/dsh-superagent/commit/43ff77b7b5e9",
+      "confidence": 0.86,
+      "reason": "Default main is 43ff77b7b5e9 at 2026-11-16T01:17:24Z, merging pull request 23. Compare from a56eb40a096e is 69 commits and 300 files, mostly docs, evidence, and CI. Not read line by line. Not listed."
+    },
+    {
+      "title": "martinxiao R0-R4 was not read line by line",
+      "url": "https://github.com/martinxiao2025/dsh-superagent/commit/7ec9c7c352b3",
+      "confidence": 0.84,
+      "reason": "main tip 7ec9c7c352b3 at 2026-11-16T01:27:43Z. Compare from b9b988b86d44 is 7 commits and 66 files, including a review skill and client changes. Not read line by line. The listed sentence was not rewritten."
+    },
+    {
+      "title": "Disposable loop target was not listed",
+      "url": "https://github.com/effiy/dsh-superagent-loop-public",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-16T00:58:02Z. Description is Disposable prototype loop target. Tip 483e397f62e8 at 2026-11-16T01:15:33Z. The four commits are an initial commit, a CI workflow, and two trigger-the-loop-comment commits. Not a superagent implementation. Not listed."
+    },
+    {
+      "title": "t3code main moved and does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/6b7027b1f43e",
+      "confidence": 0.9,
+      "reason": "Default main tip 6b7027b1f43e at 2026-11-16T01:26:32Z. The compare from eeae88de5c68 is 4 commits and 17 files. No filename matches superagent or hextor. hextor-ndc/superagent did not push after 2026-11-16T00:37:05Z. The hextor sentence was not rewritten."
+    },
+    {
+      "title": "Zovaris skills still do not port this prototype",
+      "url": "https://github.com/Zovaris/skills/commit/cc74557f6a6e",
+      "confidence": 0.88,
+      "reason": "main tip cc74557f6a6e at 2026-11-16T01:11:36Z. Compare from f7c93a6f5b2b is 9 commits and 26 files. skills/foreman/references/harness.md now launches dsh headless --approval-policy never beside other CLIs, and says DeepSeek Harness resumes a session when a background command ends. It is not a port of this prototype. Not listed."
+    },
+    {
+      "title": "Persona commits in this window do not name this prototype",
+      "url": "https://github.com/nwverse/persona/commit/a7f9b5db598f",
+      "confidence": 0.8,
+      "reason": "Tip a7f9b5db598f at 2026-11-16T01:28:43Z. Compare from e0a9524660f8 is 13 commits and 87 files. No filename matches superagent, dsh, mandate, or ticket. The subjects do not name this prototype. Not listed."
+    },
+    {
+      "title": "Harness discussions 13447-13450 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13450",
+      "confidence": 0.9,
+      "reason": "#13447 updated at 2026-11-16T00:41:33Z is a git-branch picker. #13448 created at 2026-11-16T00:57:50Z is a stop-button report. #13449 and #13450 created at 2026-11-16T01:24:56Z and 2026-11-16T01:25:06Z are harness subagent model-route notes for DSH 0.2.2-rc.3. Updated #13443, #13438, and #13365 comments do not name this prototype. Prototype tip remains 8c32a9dc5d72; updated_at 2026-11-16T01:26:23Z is not a commit. Harness tip remains 39163dd30f70; updated_at 2026-11-16T01:27:19Z is not a commit."
+    },
+    {
+      "title": "No in-window paper or HN story",
+      "url": "https://export.arxiv.org/api/query?search_query=all:dsh-superagent&start=0&max_results=5",
+      "confidence": 0.85,
+      "reason": "arXiv query all:dsh-superagent returned 0 results. HN stories matching dsh-superagent are older than this window; the newest returned story is 2026-11-11. Not listed."
+    },
     {
       "title": "Harness discussion 13446 does not name this prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13446",
@@ -10793,9 +10859,15 @@
     }
   ],
   "rejected_this_run": [
-    "Updated fs7744/dsh-ghost from 928143934a2d to 0a524302785d. The schedule parser and the settings section were read. The compare does not touch packages/superagent/src/core. Did not rewrite the Signal or Linear devDependency bumps. Discussion #13446 does not name this prototype. No npm publish."
+    "Updated superboard from 7c6567870a72 to c592853117e7 (#763). Tickets.state, TicketOverlay.apply, and ReopenedTickets.reconcile were read. Did not rewrite Signal or Linear tool bumps, martinxiao (66 files), or tanxinz (300 files). Discussions #13447 through #13450 do not name this prototype. No npm publish."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code main is 6b7027b1f43e. 4 commits and 17 files from eeae88de5c68. No superagent or hextor filename. hextor-ndc/superagent did not push after 2026-11-16T00:37:05Z.",
+    "tanxinz/dsh-superagent main is 43ff77b7b5e9. 69 commits and 300 files from a56eb40a096e. Not read line by line. Do not list from the commit list alone.",
+    "martinxiao2025/dsh-superagent main is 7ec9c7c352b3. 7 commits and 66 files from b9b988b86d44. Not read line by line.",
+    "effiy/dsh-superagent-loop-public tip is 483e397f62e8. Disposable loop target. Do not list.",
+    "Zovaris/skills main is cc74557f6a6e. 9 commits and 26 files from f7c93a6f5b2b. dsh headless is one worker CLI. Not a prototype port.",
+    "nwverse/persona main is a7f9b5db598f. 13 commits and 87 files from e0a9524660f8. No superagent filename.",
     "pingdotgg/t3code main is eeae88de5c68. 5 commits and 10 files from 06150a08ec7b. No superagent or hextor filename. hextor main is 0dc3b4279c03.",
     "tanxinz/dsh-superagent docs/v1-2-1-plugin-boundary-review-20261116 is 2cab8e1b3a60 at 2026-11-16T00:10:44Z. Default main remains a56eb40a096e. Do not list the branch.",
     "superstar717/dsh-superagent-playground pull request 41 head is 5b3a6af60c4e. Default main remains 8c9c472e60e6. Do not list the branch.",
