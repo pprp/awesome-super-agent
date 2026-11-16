@@ -1,19 +1,111 @@
 {
-  "last_run_at": "2026-11-16T07:34:00Z",
+  "last_run_at": "2026-11-16T08:40:00Z",
   "timezone": "UTC",
-  "baseline_commit": "c4ea1d9",
+  "baseline_commit": "2bba114",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T06:36:00Z",
-    "to": "2026-11-16T07:34:00Z"
+    "from": "2026-11-16T07:34:00Z",
+    "to": "2026-11-16T08:40:00Z"
   },
-  "added": [],
-  "updated": [],
+  "added": [
+    {
+      "title": "DASHAN-0079/dsh-superagent-0.2.2-adapt",
+      "url": "https://github.com/DASHAN-0079/dsh-superagent-0.2.2-adapt",
+      "to": "1cd6e269c185",
+      "version": "0.1.0"
+    }
+  ],
+  "updated": [
+    {
+      "title": "lanshi17/dsh-booth",
+      "url": "https://github.com/lanshi17/dsh-booth",
+      "to": "3d787abee7ba",
+      "version": "0.3.15"
+    },
+    {
+      "title": "Missher12/Missher-DSH-Superagent",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
+      "to": "b5ddb6e491f4",
+      "version": "1.11.2"
+    }
+  ],
   "pending": [
+    {
+      "title": "t3code has no superagent filename in this window",
+      "url": "https://github.com/pingdotgg/t3code/commit/56f41466f551",
+      "confidence": 0.9,
+      "reason": "main tip 56f41466f551 at 2026-11-16T08:25:31Z, pushed_at 2026-11-16T08:31:06Z. Compare from 47f90ee2e940 is 10 commits and 40 files. No filename matches superagent or hextor. Not listed."
+    },
+    {
+      "title": "IHUI has no super-agent filename in this window",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/c5d70ae7fecd",
+      "confidence": 0.9,
+      "reason": "main tip c5d70ae7fecd at 2026-11-16T08:15:57Z, pushed_at 2026-11-16T08:23:31Z. Compare from a6e4f38fea37 is 1 commit and 4 Dockerfiles. No filename matches superagent, super-agent, or hextor. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype",
+      "url": "https://github.com/nwverse/persona/commit/63f0ba50bd21",
+      "confidence": 0.86,
+      "reason": "Tip 63f0ba50bd21 at 2026-11-16T08:32:08Z. Compare from fd2a475b79a4 is 29 commits and 196 files. No filename matches dsh, superagent, or hextor. Not read line by line. Not listed."
+    },
+    {
+      "title": "Nelson master did not move",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/710",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-16T08:18:53Z is pull request activity. master stays e28eba14fa4c. next/0.8 stays f859168f4737. #710 head 3eb2bb112a2d targets master and is not merged. #711 head 3d1a9960d45c targets release/0.8.1-preview.27-reminder-backpressure and is not master. #708 head da7552c81ad7 targets next/0.8 and is not master. Not listed."
+    },
+    {
+      "title": "ClumsyWu/dsh-superagent-test is a pi-sdk demo",
+      "url": "https://github.com/ClumsyWu/dsh-superagent-test",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-16T08:00:01Z. main tip 871824f54690 merges a pi-sdk demo. The tree is README.md, requirements.txt, and demo/simple_agent.py plus conversational_agent.py. It calls deepseek_harness.DeepSeekHarness and does not implement this prototype's tickets. Not listed."
+    },
+    {
+      "title": "thekingofpython1/dsh-superagent-sandbox is still a one-line sandbox",
+      "url": "https://github.com/thekingofpython1/dsh-superagent-sandbox",
+      "confidence": 0.94,
+      "reason": "pushed_at 2026-11-16T07:51:46Z. main tip stays 7c092b8f600a at 2026-11-16T07:31:35Z. The only file is a README that calls it a sandbox for dsh-superagent tickets. Not listed."
+    },
+    {
+      "title": "mybot091/superagent-sandbox is a one-line sandbox",
+      "url": "https://github.com/mybot091/superagent-sandbox",
+      "confidence": 0.94,
+      "reason": "created 2026-11-16T08:08:02Z. main tip e99cbc5fe787. The only file is a README that calls it a sandbox for dsh-superagent. Not listed."
+    },
+    {
+      "title": "xucxapp/dsh-superagent-server is an empty license",
+      "url": "https://github.com/xucxapp/dsh-superagent-server",
+      "confidence": 0.93,
+      "reason": "created 2026-11-16T07:50:09Z. main tip dd552f60ee11. The tree is .gitignore and LICENSE. Not listed."
+    },
+    {
+      "title": "andrewngg/dsh-superagent-battlestar brain commit was not read line by line",
+      "url": "https://github.com/andrewngg/dsh-superagent-battlestar/commit/4e02b38029ef",
+      "confidence": 0.72,
+      "reason": "master tip 4e02b38029ef at 2026-11-16T07:50:45Z. The commit touches 65 files in hub, device-agent, android, and docs. Not read line by line. Not listed."
+    },
+    {
+      "title": "sandbaseai oncall resync was not listed",
+      "url": "https://github.com/sandbaseai/dsh-superagent/commit/46e008303cef",
+      "confidence": 0.7,
+      "reason": "main tip 46e008303cef at 2026-11-16T08:14:53Z merges #15. That commit changes oncall docs, scripts, and tests. Compare from d49961b5367e is 12 commits and 33 files, including src that was not read line by line. Not listed."
+    },
+    {
+      "title": "Harness discussions 13482-13491 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13491",
+      "confidence": 0.9,
+      "reason": "Created in this window: #13482 composer keybindings, #13483 oscillating sandbox, #13484 dsh-task-readiness, #13485 llm-deepseek error body, #13486 frontend cache, #13487 and #13489 LM Studio image upload, #13488 Windows runtime files, #13490 macOS workspace create, #13491 default model credential. Bodies do not contain superagent or dsh-superagent. #13492 does not exist. Not listed."
+    },
+    {
+      "title": "dsh-foreman 0.9.1 is still before this window",
+      "url": "https://www.npmjs.com/package/dsh-foreman",
+      "confidence": 0.8,
+      "reason": "npm dsh-foreman latest is 0.9.1, published 2026-11-16T05:34:38.792Z. niechao136/dsh-foreman tip 2975cb74c598 at 2026-11-16T05:30:20Z, pushed_at 2026-11-16T05:39:50Z. Both are before 07:34:00Z. The diff was not read this hour. README still ends at 0.9.0. Not rewritten."
+    },
     {
       "title": "t3code has no superagent filename in this window",
       "url": "https://github.com/pingdotgg/t3code/commit/47f90ee2e940",
@@ -11206,9 +11298,19 @@
     }
   ],
   "rejected_this_run": [
-    "Added none. Updated none. t3code, IHUI, and persona have no superagent filename. Nelson master stayed e28eba14fa4c. ClumsyWu/dsh-superagent-test, dhy53/superagent-demo, and thekingofpython1/dsh-superagent-sandbox were not listed. Discussions #13477 through #13481 do not name the prototype. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1."
+    "Added DASHAN-0079/dsh-superagent-0.2.2-adapt at 1cd6e269c185. Updated booth to 3d787abee7ba (0.3.15) and Missher to b5ddb6e491f4 (1.11.2). t3code, IHUI, and persona have no superagent filename. Nelson master stayed e28eba14fa4c. ClumsyWu is a pi-sdk demo. mybot091, thekingofpython1, and xucxapp were not listed. Discussions #13482 through #13491 do not name the prototype. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code compare from 47f90ee2e940 is 10 commits and 40 files. No superagent or hextor filename. Tip 56f41466f551.",
+    "IHUI-INF-AI/IHUI-AI compare from a6e4f38fea37 is 1 commit and 4 Dockerfiles. No super-agent filename. Tip c5d70ae7fecd.",
+    "nwverse/persona compare from fd2a475b79a4 is 29 commits and 196 files. No dsh, superagent, or hextor filename. Tip 63f0ba50bd21.",
+    "NelsonLongxiang/dsh-open-a2a-net master stays e28eba14fa4c. next/0.8 stays f859168f4737. #710 head 3eb2bb112a2d is not merged. #711 head 3d1a9960d45c is not master. #708 head da7552c81ad7 is not master.",
+    "ClumsyWu/dsh-superagent-test main 871824f54690 is a pi-sdk demo, not this prototype.",
+    "thekingofpython1/dsh-superagent-sandbox main stays 7c092b8f600a, a one-line sandbox README.",
+    "mybot091/superagent-sandbox main e99cbc5fe787 is a one-line sandbox README.",
+    "xucxapp/dsh-superagent-server main dd552f60ee11 is LICENSE and .gitignore.",
+    "andrewngg/dsh-superagent-battlestar 4e02b38029ef is 65 files and was not read line by line.",
+    "sandbaseai/dsh-superagent 46e008303cef is oncall docs and scripts. The 12-commit src span was not read line by line.",
     "pingdotgg/t3code compare from f8c8f30e49b8 is 5 commits and 22 files. No superagent or hextor filename. Tip 47f90ee2e940.",
     "IHUI-INF-AI/IHUI-AI compare from b1c23a9cc2bd is 5 commits and 13 files. No super-agent filename. Tip a6e4f38fea37.",
     "nwverse/persona compare from 72583f8d0e20 is 7 commits and 154 files. No dsh, superagent, or hextor filename. Tip fd2a475b79a4.",
@@ -11573,5 +11675,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). No @deepseek-ai/dsh publish in this window. Registry time.modified remains 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest is 0.14.5 (published 2026-11-16T05:05:17.222Z, gitHead 90a28d412b8cb2869852b1a0ade3eec382fe981c, shasum e4a3e3548d73eb9ed1fb737642c87e7a31140c14, fileCount 59). Registry time.modified for that package is 2026-11-16T05:05:17.374Z. @missher/dsh-superagent remains 404. Unscoped dsh-superagent remains 404. dsh-superagent-signal remains 404. dsh-superagent-linear remains 404. dsh-session-superagent latest remains 0.10.12 (published 2026-11-09T02:33:48.031Z). dsh-foreman latest is 0.9.1 (published 2026-11-16T05:34:38.792Z), before this window; README still describes 0.9.0. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.26 (published 2026-11-14T18:52:25.051Z); latest remains 0.7.0."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-13T08:05:45.849Z. Unscoped dsh-superagent, dsh-superagent-linear, dsh-superagent-signal, and @missher/dsh-superagent remain 404. dsh-foreman latest remains 0.9.1 (published 2026-11-16T05:34:38.792Z). @xiangyixie/dsh-superagent latest remains 0.14.5 (published 2026-11-16T05:05:17.222Z). dsh-session-superagent latest remains 0.10.12."
 }
