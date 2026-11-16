@@ -1,38 +1,62 @@
 {
-  "last_run_at": "2026-11-16T05:34:08Z",
+  "last_run_at": "2026-11-16T06:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "e34bcfe",
+  "baseline_commit": "c73f27e",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T04:33:24Z",
-    "to": "2026-11-16T05:34:08Z"
+    "from": "2026-11-16T05:34:08Z",
+    "to": "2026-11-16T06:36:00Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "to": "b5babaa9f9e9",
-      "version": "1.11.1"
-    },
-    {
-      "title": "LittleChenLiya/dsh-superagent",
-      "url": "https://github.com/LittleChenLiya/dsh-superagent",
-      "to": "42cdc2d7d618",
-      "version": "0.14.5"
-    },
-    {
-      "title": "lanshi17/dsh-booth",
-      "url": "https://github.com/lanshi17/dsh-booth",
-      "to": "272dd3c6371a",
-      "version": "0.3.14"
+      "title": "MYCF711/dsh-session-superagent",
+      "url": "https://github.com/MYCF711/dsh-session-superagent",
+      "to": "48ddf2eeffda",
+      "version": "0.11.0"
     }
   ],
   "pending": [
+    {
+      "title": "t3code has no superagent filename in this window",
+      "url": "https://github.com/pingdotgg/t3code/commit/f8c8f30e49b8",
+      "confidence": 0.9,
+      "reason": "main tip f8c8f30e49b8 at 2026-11-16T06:30:54Z. Compare from ad1b1365999c is 14 commits and 38 files. No filename matches superagent or hextor. Not listed."
+    },
+    {
+      "title": "IHUI has no super-agent filename in this window",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/b1c23a9cc2bd",
+      "confidence": 0.9,
+      "reason": "main tip b1c23a9cc2bd at 2026-11-16T06:19:13Z. Compare from 3655b57e41ba is 9 commits and 8 files. No filename matches superagent, super-agent, or hextor. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype",
+      "url": "https://github.com/nwverse/persona/commit/72583f8d0e20",
+      "confidence": 0.86,
+      "reason": "Tip 72583f8d0e20 at 2026-11-16T06:33:22Z. Compare from 19a327c38600 is 25 commits and 300 files. No filename matches dsh, superagent, or hextor. Not read line by line. Not listed."
+    },
+    {
+      "title": "Nelson master did not move",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/714",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-16T05:41:53Z is pull request activity. master stays e28eba14fa4c. next/0.8 stays f859168f4737. #714 head is 6043165b1c1c on feat/713-capacity-diagnostics-leaf and is not master. Not listed."
+    },
+    {
+      "title": "TTL813/superagent-playground is a scratch repo",
+      "url": "https://github.com/TTL813/superagent-playground",
+      "confidence": 0.92,
+      "reason": "pushed_at 2026-11-16T05:48:14Z. main tip cdfb3a805044. The tree is README.md and .github/workflows/agent-ping.yml. README calls it a scratch repo for the dsh-superagent prototype. Not listed."
+    },
+    {
+      "title": "Harness discussions 13472-13476 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13476",
+      "confidence": 0.9,
+      "reason": "Created in this window: #13476 dsh-dev-hub, #13475 web UI reconnect, #13474 dsh-mindmark, #13473 speech-to-text, #13472 web sources. #13471 does not exist. #13464 updated at 05:41Z; its body and the 04:07Z comment do not contain superagent or dsh-superagent. dsh-dev-hub README does not either. Not listed."
+    },
     {
       "title": "dsh-ghost 2a5c307822a6 is shell packaging",
       "url": "https://github.com/fs7744/dsh-ghost/commit/2a5c307822a6",
@@ -11135,9 +11159,14 @@
     }
   ],
   "rejected_this_run": [
-    "Added none. Updated Missher to b5babaa9f9e9 (1.11.1), LittleChenLiya to 42cdc2d7d618 (0.14.5), and booth to 272dd3c6371a (0.3.14). Did not rewrite dsh-ghost shell packaging. t3code, IHUI, and persona have no matching filename. Nelson master stayed e28eba14fa4c. Discussions #13468 through #13470 do not name this prototype. BloodPearl27/dsh-lab main is still a one-line throwaway README. No @deepseek-ai/dsh publish. arXiv dsh-superagent returned 0."
+    "Added none. Updated MYCF711 to 48ddf2eeffda (0.11.0): activeHours accepts several windows. Did not list TTL813/superagent-playground. t3code, IHUI, and persona have no superagent filename. Nelson master stayed e28eba14fa4c. Discussions #13472 through #13476 do not name the prototype. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code compare from ad1b1365999c is 14 commits and 38 files. No superagent or hextor filename.",
+    "IHUI-INF-AI/IHUI-AI compare from 3655b57e41ba is 9 commits and 8 files. No super-agent filename.",
+    "nwverse/persona compare from 19a327c38600 is 25 commits and 300 files. No dsh, superagent, or hextor filename.",
+    "NelsonLongxiang/dsh-open-a2a-net master stays e28eba14fa4c. next/0.8 stays f859168f4737. #714 head 6043165b1c1c is not master.",
+    "TTL813/superagent-playground main cdfb3a805044 is a scratch README plus agent-ping workflow.",
     "pingdotgg/t3code compare from ad1b1365999c is 4 commits and 12 files. No superagent or hextor filename.",
     "IHUI-INF-AI/IHUI-AI compare from 3655b57e41ba is 5 commits and 5 files. No super-agent filename.",
     "nwverse/persona tip 19a327c38600. 43 commits and 286 files from e46cd89aca0e. No dsh filename.",
