@@ -1,32 +1,73 @@
 {
-  "last_run_at": "2026-11-16T22:34:00Z",
+  "last_run_at": "2026-11-16T23:34:00Z",
   "timezone": "UTC",
-  "baseline_commit": "4174943",
+  "baseline_commit": "2e0eeb7",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T21:38:00Z",
-    "to": "2026-11-16T22:34:00Z"
+    "from": "2026-11-16T22:34:00Z",
+    "to": "2026-11-16T23:34:00Z"
   },
   "added": [],
-  "updated": [
+  "updated": [],
+  "pending": [
     {
-      "title": "lanshi17/dsh-booth",
-      "url": "https://github.com/lanshi17/dsh-booth",
-      "to": "e7fb557803dd",
-      "version": "0.3.64"
+      "title": "Harness discussion 13546 does not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13546",
+      "confidence": 0.9,
+      "reason": "#13546 created at 2026-11-16T22:40:45Z is a DeepSeek web chat PDF token note and does not contain superagent, super-agent, dsh-superagent, or 原型. #13542's new comment at 22:58:06Z is a Windows welcome-RPC .bat workaround and does not contain those words. #13547 does not exist. Not listed."
     },
     {
-      "title": "sallaumen/dsh-superagent-superboard",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "to": "9d11fb4541de",
-      "pull": 817
-    }
-  ],
-  "pending": [
+      "title": "vivy-dsh/dsh-superagent-reset is an empty repository",
+      "url": "https://github.com/vivy-dsh/dsh-superagent-reset",
+      "confidence": 0.94,
+      "reason": "Created 2026-11-16T23:30:13Z, pushed_at 2026-11-16T23:30:15Z, size 0. Description is DIVA Superagent session reset plugin. The repository is empty. Not listed."
+    },
+    {
+      "title": "dsh-ghost UI refactor does not touch the superagent package",
+      "url": "https://github.com/fs7744/dsh-ghost/commit/cbbb265a6c21",
+      "confidence": 0.9,
+      "reason": "Commit cbbb265a6c21 at 2026-11-16T23:25:59Z is a desktop UI refactor: sidebar scroll, more-menu groups, usage-stat labels, collapsed raw settings, and friendly memory timestamps. Seven files, none under packages/superagent. Root package stays private dsh-ghost 0.0.0. The signature and pull-URL sentence was not rewritten."
+    },
+    {
+      "title": "awesome-dsh-plugin catalog did not name this prototype after 22:34Z",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/c8ea8593d43c",
+      "confidence": 0.9,
+      "reason": "main tip c8ea8593d43c at 2026-11-16T23:24:39Z. Compare from c461cae65c27 is 15 commits and 14 files. No filename contains superagent or super-agent. Added plugins include a DaVinci console demo, middle panel, model fingerprint, browser bridge, fastvideo, observer, and dsh-orchestrator. The curated sentence was not rewritten. Not listed."
+    },
+    {
+      "title": "SkillfulAgents push is not this prototype",
+      "url": "https://github.com/SkillfulAgents/SuperAgent/commit/b54bd14626ad",
+      "confidence": 0.9,
+      "reason": "main tip b54bd14626ad at 2026-11-16T23:30:58Z. Compare from b8d55d481f15 is 15 commits and 45 files. No filename matches dsh, deepseek, harness, or prototype. Not listed."
+    },
+    {
+      "title": "t3code main has no superagent filename after 22:34Z",
+      "url": "https://github.com/pingdotgg/t3code/commit/b79d277cddaf",
+      "confidence": 0.9,
+      "reason": "main tip b79d277cddaf at 2026-11-16T23:00:40Z. Compare from f9db865403eb is 4 commits and 38 files. No filename matches superagent, super-agent, hextor, or dsh. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype after 22:34Z",
+      "url": "https://github.com/nwverse/persona/commit/a4acbc6d7a0b",
+      "confidence": 0.86,
+      "reason": "Tip a4acbc6d7a0b at 2026-11-16T23:29:16Z. Compare from 271d072dbd4d is 15 commits and 123 files. No filename matches superagent, super-agent, hextor, dsh, or harness. Not read line by line. Not listed."
+    },
+    {
+      "title": "IHUI release commits do not name this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/8dd24943a4f6",
+      "confidence": 0.9,
+      "reason": "main tip 8dd24943a4f6 at 2026-11-16T22:54:53Z. Compare from e28219996453 is 56 commits. The compare file page is capped at 300 names and none match. Each of the 56 commits was listed on its own and none of those filenames match superagent, super-agent, hextor, dsh, harness, or prototype. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 22:34Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness tip stays 39163dd30f70. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. Booth stays e7fb557803dd (0.3.64). Superboard stays 9d11fb4541de. codefufuai, LVTV6, LittleChenLiya, Missher, waixv, HUHAN-HIT, szmdshagent, MYCF711, wheelchair-agent, Nelson, AstraBox, injet, dsh-foreman, CACppuccino, ft54482, baojingyu, Shijiuwei, lkshrk, Aily, wychmod, hextor, and the playground had no push after 22:34:00Z. arXiv dsh-superagent returned 0. No new HN story. Not listed."
+    },
     {
       "title": "Harness discussions 13544 and 13545 do not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13545",
@@ -11957,9 +11998,16 @@
     }
   ],
   "rejected_this_run": [
-    "Started from 4174943. Updated booth to e7fb557803dd (0.3.64) and superboard to 9d11fb4541de (#817). No new list rows. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
+    "Added none. Updated none. Started from 2e0eeb7. t3code, persona, IHUI, and SkillfulAgents have no prototype filename. awesome-dsh-plugin added unrelated plugins. dsh-ghost cbbb265a6c21 is desktop UI only. vivy-dsh/dsh-superagent-reset is empty. Discussion #13546 does not name the prototype. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code compare from f9db865403eb is 4 commits and 38 files. No superagent, super-agent, hextor, or dsh filename. Tip b79d277cddaf.",
+    "nwverse/persona compare from 271d072dbd4d is 15 commits and 123 files. No superagent, hextor, dsh, or harness filename. Tip a4acbc6d7a0b.",
+    "IHUI-INF-AI/IHUI-AI compare from e28219996453 is 56 commits. No superagent, hextor, dsh, harness, or prototype filename across those commits. Tip 8dd24943a4f6.",
+    "SkillfulAgents/SuperAgent compare from b8d55d481f15 is 15 commits and 45 files. No dsh, deepseek, harness, or prototype filename. Tip b54bd14626ad.",
+    "awesome-dsh-plugin compare from c461cae65c27 is 15 commits and 14 files. No superagent filename. Tip c8ea8593d43c.",
+    "fs7744/dsh-ghost cbbb265a6c21 is desktop UI only. packages/superagent was not in the diff.",
+    "vivy-dsh/dsh-superagent-reset is empty (size 0) at 2026-11-16T23:30:13Z.",
     "pingdotgg/t3code main tip f9db865403eb has no superagent filename.",
     "nwverse/persona tip 271d072dbd4d has no dsh, superagent, or hextor filename.",
     "IHUI-INF-AI/IHUI-AI tip e28219996453 has no superagent filename.",
