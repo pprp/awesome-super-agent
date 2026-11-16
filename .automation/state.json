@@ -1,32 +1,80 @@
 {
-  "last_run_at": "2026-11-16T17:36:34Z",
+  "last_run_at": "2026-11-16T18:35:30Z",
   "timezone": "UTC",
-  "baseline_commit": "4278ca2",
+  "baseline_commit": "0e2028c",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T16:48:00Z",
-    "to": "2026-11-16T17:36:34Z"
+    "from": "2026-11-16T17:36:34Z",
+    "to": "2026-11-16T18:35:30Z"
   },
   "added": [],
   "updated": [
     {
       "title": "lanshi17/dsh-booth",
       "url": "https://github.com/lanshi17/dsh-booth",
-      "to": "323892638529",
-      "version": "0.3.37"
-    },
-    {
-      "title": "baojingyu/dsh-superagent-multi-channel",
-      "url": "https://www.npmjs.com/package/dsh-superagent-multi-channel",
-      "to": "15ba1894c238",
-      "version": "2.5.0"
+      "to": "6ec1108a9301",
+      "version": "0.3.41"
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussion 13539 does not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13539",
+      "confidence": 0.9,
+      "reason": "#13539 created at 2026-11-16T17:42:36Z has no comments. The body does not contain superagent, super-agent, dsh-superagent, or 原型. #13540 does not exist. Not listed."
+    },
+    {
+      "title": "t3code main has no superagent filename after 17:36Z",
+      "url": "https://github.com/pingdotgg/t3code/commit/b0f0c44d2285",
+      "confidence": 0.9,
+      "reason": "main tip b0f0c44d2285 at 2026-11-16T18:08:31Z. Compare from 4860a7306957 is 2 commits and 8 files. No filename matches superagent, super-agent, hextor, or dsh. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype after 17:36Z",
+      "url": "https://github.com/nwverse/persona/commit/f79e11971e2d",
+      "confidence": 0.86,
+      "reason": "Tip f79e11971e2d at 2026-11-16T18:26:09Z. Compare from fbaf8d43ec32 is 16 commits and 136 files. No filename matches superagent, super-agent, hextor, or dsh. Not read line by line. Not listed."
+    },
+    {
+      "title": "awesome-dsh-plugin catalog does not name this prototype",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/321fef801ba5",
+      "confidence": 0.88,
+      "reason": "main tip 321fef801ba5 at 2026-11-16T17:48:21Z. Compare from 7557e43ae662 is 88 commits and 134 files. No filename or commit subject contains superagent or super-agent. The curated sentence was not rewritten."
+    },
+    {
+      "title": "superstar717 playground stays unlisted",
+      "url": "https://github.com/superstar717/dsh-superagent-playground/commit/b98e878affcd",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-16T17:38:14Z. Compare from 8c9c472e60e6 is 10 commits and 157 files. No filename matches superagent, super-agent, hextor, or dsh. Not read line by line. Playgrounds stay out. Not listed."
+    },
+    {
+      "title": "Gatlin playground stays unlisted",
+      "url": "https://github.com/Gatlin-stone/superagent-playground/commit/72948735b302",
+      "confidence": 0.92,
+      "reason": "Tip 72948735b302 at 2026-11-16T17:47:03Z merges #2 and #3. Compare from 6b160cfd799e adds hello.md and hello2.md. Playgrounds stay out. Not listed."
+    },
+    {
+      "title": "opencode-superagent does not name this prototype",
+      "url": "https://github.com/lichenzhao060507/opencode-superagent/commit/5d995ec08eec",
+      "confidence": 0.86,
+      "reason": "Tip 5d995ec08eec at 2026-11-16T18:24:07Z. Compare from 43936033d6d3 is README.md and README.en.md. The README is an OpenCode plugin. DeepSeek appears as a model id. The text does not contain dsh, harness, ticket, or prototype. Not listed."
+    },
+    {
+      "title": "SkillfulAgents push is not a new prototype commit",
+      "url": "https://github.com/SkillfulAgents/SuperAgent/commit/721ac4f5e744",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-16T18:32:54Z is not a new main commit. main stays 721ac4f5e744 at 2026-11-14T00:32:23Z. The README does not contain dsh, deepseek, harness, or prototype. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 17:36Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness tip stays 39163dd30f70. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. dsh-ghost, LittleChenLiya, Missher, waixv, HUHAN-HIT, superboard, ReSerendipity, szmdshagent, MYCF711, wheelchair-agent, Nelson, AstraBox, and the other watched tips had no commit after 17:36:34Z. arXiv dsh-superagent returned 0. No new HN story. Not listed."
+    },
     {
       "title": "Harness discussions 13536-13538 do not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13538",
@@ -11735,7 +11783,7 @@
     }
   ],
   "rejected_this_run": [
-    "Started from 4278ca2. Did not repeat booth 0.3.35 installer wording, Missher 1.13.1, LittleChenLiya 0.15.1, superboard #790, dsh-ghost signature checks, waixv #111, or HUHAN-HIT idle tasks. Updated booth to 323892638529 (0.3.37) and the multi-channel npm latest to 2.5.0. No new list rows. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3."
+    "Started from 0e2028c. Did not repeat booth 0.3.37 retry or quiet profile setup. Updated booth to 6ec1108a9301 (0.3.41). No new list rows. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
   ],
   "held_on_other_branches": [
     "NelsonLongxiang/dsh-open-a2a-net master stays e28eba14fa4c.",
