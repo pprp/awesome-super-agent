@@ -1,32 +1,74 @@
 {
-  "last_run_at": "2026-11-16T21:38:00Z",
+  "last_run_at": "2026-11-16T22:34:00Z",
   "timezone": "UTC",
-  "baseline_commit": "edadee9",
+  "baseline_commit": "4174943",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T20:32:00Z",
-    "to": "2026-11-16T21:38:00Z"
+    "from": "2026-11-16T21:38:00Z",
+    "to": "2026-11-16T22:34:00Z"
   },
   "added": [],
   "updated": [
     {
       "title": "lanshi17/dsh-booth",
       "url": "https://github.com/lanshi17/dsh-booth",
-      "to": "9a924e7b5b0f",
-      "version": "0.3.60"
+      "to": "e7fb557803dd",
+      "version": "0.3.64"
     },
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "to": "f1c459766b9d",
-      "pull": 812
+      "to": "9d11fb4541de",
+      "pull": 817
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions 13544 and 13545 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13545",
+      "confidence": 0.9,
+      "reason": "#13544 created at 2026-11-16T21:48:47Z is a Telegram channel plugin gap note and does not contain superagent, super-agent, dsh-superagent, or 原型. #13545 at 21:58:39Z is Itsdust/deepseek-harness-token-injector, an nginx launch-token workaround for the web profile, and does not contain those words. #13546 does not exist. Not listed."
+    },
+    {
+      "title": "codefufuai refreshed cards and was not listed",
+      "url": "https://github.com/codefufuai/codefufuai/commit/23c6c8a072dd",
+      "confidence": 0.9,
+      "reason": "Commit 23c6c8a072dd at 2026-11-16T22:00:46Z is chore: refresh cards. Files are README, SVG cards, and data/contribs.json. Not listed."
+    },
+    {
+      "title": "LVTV6 push did not add a commit after 21:38Z",
+      "url": "https://github.com/LVTV6/git_test_dsh_superagent",
+      "confidence": 0.92,
+      "reason": "pushed_at is 2026-11-16T22:03:29Z. The only commit remains 42b05babb6c1 at 2026-11-16T19:53:39Z, a one-line README. Not listed."
+    },
+    {
+      "title": "t3code main has no superagent filename after 21:38Z",
+      "url": "https://github.com/pingdotgg/t3code/commit/f9db865403eb",
+      "confidence": 0.9,
+      "reason": "main tip f9db865403eb at 2026-11-16T22:27:18Z. Compare from 747ed9c5b1d9 is 7 commits and 36 files. No filename matches superagent, super-agent, hextor, or dsh. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype after 21:38Z",
+      "url": "https://github.com/nwverse/persona/commit/271d072dbd4d",
+      "confidence": 0.88,
+      "reason": "Tip 271d072dbd4d at 2026-11-16T22:25:43Z. Compare from 516ac5b27bcc is 8 commits and 34 files. No filename matches superagent, super-agent, hextor, dsh, or harness. Not read line by line. Not listed."
+    },
+    {
+      "title": "IHUI release commits do not name this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/e28219996453",
+      "confidence": 0.9,
+      "reason": "main tip e28219996453 at 2026-11-16T22:20:38Z. Compare from dab7ed0c7a7e is 3 commits and 5 files. No filename matches superagent, super-agent, hextor, dsh, or harness. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 21:38Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness tip stays 39163dd30f70. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. AstraBox, awesome-dsh-plugin, dsh-ghost, dsh-foreman, CACppuccino, and SkillfulAgents had no push after 21:38:00Z. arXiv dsh-superagent returned 0. No new HN story. Not listed."
+    },
     {
       "title": "Harness discussions 13542 and 13543 do not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13543",
@@ -11915,9 +11957,12 @@
     }
   ],
   "rejected_this_run": [
-    "Started from edadee9. Updated booth to 9a924e7b5b0f (0.3.60) and superboard to f1c459766b9d (#812). No new list rows. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
+    "Started from 4174943. Updated booth to e7fb557803dd (0.3.64) and superboard to 9d11fb4541de (#817). No new list rows. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code main tip f9db865403eb has no superagent filename.",
+    "nwverse/persona tip 271d072dbd4d has no dsh, superagent, or hextor filename.",
+    "IHUI-INF-AI/IHUI-AI tip e28219996453 has no superagent filename.",
     "NelsonLongxiang/dsh-open-a2a-net master stays e28eba14fa4c.",
     "pingdotgg/t3code main tip 12b9845d1c5a has no superagent filename.",
     "nwverse/persona tip b7111417a461 has no dsh, superagent, or hextor filename in the compare page.",
