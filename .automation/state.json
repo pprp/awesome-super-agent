@@ -1,32 +1,74 @@
 {
-  "last_run_at": "2026-11-16T03:37:00Z",
+  "last_run_at": "2026-11-16T04:33:24Z",
   "timezone": "UTC",
-  "baseline_commit": "a12aca6",
+  "baseline_commit": "5ba2fa3",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T02:43:32Z",
-    "to": "2026-11-16T03:37:00Z"
+    "from": "2026-11-16T03:37:00Z",
+    "to": "2026-11-16T04:33:24Z"
   },
   "added": [],
   "updated": [
     {
       "title": "Missher12/Missher-DSH-Superagent",
       "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "to": "e8398e386d8e",
-      "version": "1.10.15"
-    },
-    {
-      "title": "lanshi17/dsh-booth",
-      "url": "https://github.com/lanshi17/dsh-booth",
-      "to": "b95a6f07720f",
-      "version": "0.3.13"
+      "to": "bfaa2a8ac546",
+      "version": "1.11.0"
     }
   ],
   "pending": [
+    {
+      "title": "Missher 1.11.0 prepares a team before the native chat",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent/commit/bfaa2a8ac546",
+      "confidence": 0.94,
+      "reason": "main tip bfaa2a8ac546 at 2026-11-16T04:28:36Z is private 1.11.0. prepare stores phase draft, empty instructions, setup session superagent-setup- plus the team id, and planRevision 0. Members are capped at 12 and no longer require 2. A missing directory uses team- plus the first 12 characters of the team id. The setup session restricts tools to none. pre-step calls acceptPrepared and returns reject. The first user text becomes instructions and pending native messages are prompted after the coordinator ticket exists. updatePlan requires the current revision, retires removed members, and stops open tickets. Annotated tag v1.11.0 object 5bfedf845671 points at that commit. Release at 04:29:54Z attaches missher-dsh-superagent-1.11.0.tgz and is not draft or prerelease. npm 404. Sentence appended."
+    },
+    {
+      "title": "dsh-ghost desktop packaging was not read line by line",
+      "url": "https://github.com/fs7744/dsh-ghost/commit/bb04a36af042",
+      "confidence": 0.86,
+      "reason": "main tip bb04a36af042 at 2026-11-16T04:17:21Z. Compare from e822ff9842c0 is 2 commits. Neither packages/superagent/src/core nor the schedule files are in the diff. c147de1fc6ff changes the packaged host launch and icons. bb04a36af042 is a test commit over desktop UI. apps/desktop/src/main.ts was not read line by line. The listed sentence was not rewritten."
+    },
+    {
+      "title": "wychmod only changed the Pages site",
+      "url": "https://github.com/wychmod/dsh-mini-superagent/commit/7842b0889bc9",
+      "confidence": 0.9,
+      "reason": "main tip 7842b0889bc9 at 2026-11-16T03:48:14Z. Compare from d52204ff41c4 is 4 commits: .nojekyll, index.html, and plans/README.md. client/index.js was not in the diff and was still not read line by line. The listed sentence was not rewritten."
+    },
+    {
+      "title": "mystic7c 1.0.6 only fixes the render-check fixture",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/commit/e1d7b8c8f0c2",
+      "confidence": 0.88,
+      "reason": "main tip e1d7b8c8f0c2 at 2026-11-16T03:43:23Z is package 1.0.6. Compare from 637f60da5ce7 is 7 commits. 1.0.5 is AGENTS.md only. 1.0.6 makes scripts/render-check.mjs use test/fixtures/live.json unless DSH_SUPERAGENT_STATE_DIR is set. 1.0.3 and 1.0.4 were still not read line by line. The listed sentence was not rewritten."
+    },
+    {
+      "title": "t3code has no superagent filename in this window",
+      "url": "https://github.com/pingdotgg/t3code/commit/ad1b1365999c",
+      "confidence": 0.9,
+      "reason": "main tip ad1b1365999c at 2026-11-16T04:25:23Z. Compare from 6234afba123d is 7 commits and 22 files. No filename matches superagent or hextor. Not listed."
+    },
+    {
+      "title": "IHUI has no super-agent filename in this window",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/3655b57e41ba",
+      "confidence": 0.9,
+      "reason": "main tip 3655b57e41ba at 2026-11-16T04:29:48Z. Compare from 35e69d40642b is 2 commits and 1 file. No filename matches superagent, super-agent, or hextor. Not listed."
+    },
+    {
+      "title": "Harness discussions 13464-13467 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13467",
+      "confidence": 0.9,
+      "reason": "Created or updated in this window: #13467 memory bundle, #13466 decodeStoredLog, #13465 cua schema, #13464 tmem. Bodies do not contain superagent or dsh-superagent. Not listed."
+    },
+    {
+      "title": "BloodPearl27/dsh-lab is a throwaway sandbox",
+      "url": "https://github.com/BloodPearl27/dsh-lab",
+      "confidence": 0.92,
+      "reason": "Created 2026-11-16T03:25:26Z. Pushed 2026-11-16T04:04:44Z. The only file is a one-line README that calls it a throwaway dsh-superagent lab sandbox. Not listed."
+    },
     {
       "title": "Missher 1.10.15 blocks native delegation on already loaded sessions",
       "url": "https://github.com/Missher12/Missher-DSH-Superagent/commit/e8398e386d8e",
@@ -11033,7 +11075,7 @@
     }
   ],
   "rejected_this_run": [
-    "Added none. Updated Missher to e8398e386d8e (1.10.15) and booth to b95a6f07720f (0.3.13). Did not rewrite CACppuccino project-memory, dsh-ghost pack script, wychmod 0.10.0, dingmac, I2y0, or IHUI. Discussions in this window do not name this prototype. No npm publish."
+    "Added none. Updated Missher to bfaa2a8ac546 (1.11.0). Did not rewrite dsh-ghost packaging, wychmod Pages, or mystic7c 1.0.6 render-check. t3code and IHUI have no superagent filename. Discussions #13464 through #13467 do not name this prototype. BloodPearl27/dsh-lab is a throwaway sandbox. No npm publish. arXiv returned HTTP 429."
   ],
   "held_on_other_branches": [
     "pingdotgg/t3code main is 6b7027b1f43e. 4 commits and 17 files from eeae88de5c68. No superagent or hextor filename. hextor-ndc/superagent did not push after 2026-11-16T00:37:05Z.",
