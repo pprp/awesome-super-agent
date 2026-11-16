@@ -1,33 +1,81 @@
 {
-  "last_run_at": "2026-11-16T11:35:27Z",
+  "last_run_at": "2026-11-16T12:32:39Z",
   "timezone": "UTC",
-  "baseline_commit": "21dd451",
+  "baseline_commit": "3931108",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T10:50:00Z",
-    "to": "2026-11-16T11:35:27Z"
+    "from": "2026-11-16T11:35:27Z",
+    "to": "2026-11-16T12:32:39Z"
   },
   "added": [
     {
-      "title": "ft54482/dsh-superagent-view",
-      "url": "https://github.com/ft54482/dsh-superagent-view",
-      "to": "a91c53789600",
+      "title": "nihaoWX/wheelchair-agent",
+      "url": "https://github.com/nihaoWX/wheelchair-agent",
+      "to": "27d446340261",
       "version": "0.1.0"
     }
   ],
   "updated": [
     {
+      "title": "LittleChenLiya/dsh-superagent",
+      "url": "https://github.com/LittleChenLiya/dsh-superagent",
+      "to": "4096636c40ce",
+      "version": "0.14.7"
+    },
+    {
       "title": "Missher12/Missher-DSH-Superagent",
       "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "to": "dd387eb87fdc",
-      "version": "1.12.1"
+      "to": "abfe08206697",
+      "version": "1.13.0"
+    },
+    {
+      "title": "MYCF711/dsh-session-superagent",
+      "url": "https://github.com/MYCF711/dsh-session-superagent",
+      "to": "a304a31f2356",
+      "version": "0.11.0"
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions 13509-13511 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13511",
+      "confidence": 0.9,
+      "reason": "#13509 at 11:45:34Z is a registry bundle rollback gap. #13510 at 11:50:57Z is install_bundle ignoring cancel. #13511 at 12:27:34Z is a Desktop renderer crash on 0.2.2-rc.3. Bodies do not contain superagent or dsh-superagent. #13512 does not exist. Not listed."
+    },
+    {
+      "title": "t3code main has no superagent filename after 11:35Z",
+      "url": "https://github.com/pingdotgg/t3code/commit/1f698f01d9fb",
+      "confidence": 0.9,
+      "reason": "main tip 1f698f01d9fb at 2026-11-16T12:13:21Z. Compare from 629d5083b7b0 is 1 commit and 11 files, all pull-request diff folding. No filename matches superagent or hextor. Not listed."
+    },
+    {
+      "title": "IHUI has no super-agent filename after 11:35Z",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/7f4796b153c9",
+      "confidence": 0.9,
+      "reason": "main tip 7f4796b153c9 at 2026-11-16T12:26:56Z. Compare from cfa48e273cce is 4 commits and 5 files: four README locale files and packages/shared/src/ui/floating-layer-spec.ts. No filename matches superagent, super-agent, or hextor. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype after 11:35Z",
+      "url": "https://github.com/nwverse/persona/commit/fbf032bb47b9",
+      "confidence": 0.86,
+      "reason": "Tip fbf032bb47b9 at 2026-11-16T12:24:27Z. Compare from ddd7f7fcc7ca is 17 commits and 300 files, the compare page cap. No filename in that page matches superagent or hextor. Not read line by line. Not listed."
+    },
+    {
+      "title": "Nelson master did not move after 11:35Z",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/708",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-16T11:47:23Z is pull request activity. master stays e28eba14fa4c. #708 head 4518c715a5b9 updated 12:22:32Z still targets next/0.8 and is not merged. #710 head 3eb2bb112a2d still targets master and is not merged. Not listed."
+    },
+    {
+      "title": "MYCF711 onlyNewComments is on main",
+      "url": "https://github.com/MYCF711/dsh-session-superagent/commit/a304a31f2356",
+      "confidence": 0.93,
+      "reason": "Merge a304a31f2356 at 2026-11-16T11:33:02Z parents 48ddf2eeffda and 6878b81593d6. The previous scan recorded main as 48ddf2eeffda. The comment-only filter is now on main and the README sentence was updated. The branch tip stayed 6878b81593d6."
+    },
     {
       "title": "MYCF711 onlyNewComments stays off main",
       "url": "https://github.com/MYCF711/dsh-session-superagent/commit/6878b81593d6",
@@ -11484,9 +11532,13 @@
     }
   ],
   "rejected_this_run": [
-    "Started from 21dd451, which already recorded Missher 1.12.0 at e1e62bf0222a. Updated Missher to dd387eb87fdc (1.12.1). Added ft54482/dsh-superagent-view at a91c53789600, created 10:36Z after that scan commit. MYCF711 onlyNewComments stays on task/issue-60-only-new-comments. t3code, IHUI, and persona have no superagent filename. Nelson master stayed e28eba14fa4c. AstraBox main stayed 607bc6c827a2. Discussions #13500 through #13508 do not name the prototype. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1."
+    "Started from 3931108. Updated LittleChenLiya to 4096636c40ce (0.14.7), Missher to abfe08206697 (1.13.0), and MYCF711 to a304a31f2356 (0.11.0, onlyNewComments on main). Added nihaoWX/wheelchair-agent at 27d446340261. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3. Discussions #13509-#13511 do not name the prototype. t3code, IHUI, and persona were not listed. Nelson master stayed e28eba14fa4c."
   ],
   "held_on_other_branches": [
+    "NelsonLongxiang/dsh-open-a2a-net #708 head 4518c715a5b9 targets next/0.8 and is not merged. master stays e28eba14fa4c.",
+    "pingdotgg/t3code main tip 1f698f01d9fb has no superagent filename.",
+    "IHUI-INF-AI/IHUI-AI main tip 7f4796b153c9 has no super-agent filename.",
+    "nwverse/persona tip fbf032bb47b9 was not read line by line.",
     "pingdotgg/t3code main stays dfeaf7b13786. pushed_at 2026-11-16T10:18:51Z is not a newer main commit.",
     "IHUI-INF-AI/IHUI-AI compare from d77b7788b28c is 26 commits and 67 files. No super-agent filename. Tip 7615c1cdfeff.",
     "nwverse/persona compare from 576970b459ee is 23 commits and 168 files. No dsh, superagent, or hextor filename. Tip c8c4f60c278d.",
