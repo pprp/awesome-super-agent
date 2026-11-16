@@ -1,39 +1,128 @@
 {
-  "last_run_at": "2026-11-16T08:40:00Z",
+  "last_run_at": "2026-11-16T09:27:32Z",
   "timezone": "UTC",
-  "baseline_commit": "2bba114",
+  "baseline_commit": "72554f7",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T07:34:00Z",
-    "to": "2026-11-16T08:40:00Z"
+    "from": "2026-11-16T08:40:00Z",
+    "to": "2026-11-16T09:27:32Z"
   },
-  "added": [
-    {
-      "title": "DASHAN-0079/dsh-superagent-0.2.2-adapt",
-      "url": "https://github.com/DASHAN-0079/dsh-superagent-0.2.2-adapt",
-      "to": "1cd6e269c185",
-      "version": "0.1.0"
-    }
-  ],
+  "added": [],
   "updated": [
     {
-      "title": "lanshi17/dsh-booth",
-      "url": "https://github.com/lanshi17/dsh-booth",
-      "to": "3d787abee7ba",
-      "version": "0.3.15"
+      "title": "LittleChenLiya 0.14.6 keeps the console bridge alive",
+      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/30bd788b91bf",
+      "confidence": 0.93,
+      "reason": "main tip 55f3c97a676f at 2026-11-16T09:26:33Z is 0.14.6. 14edf00dfa30 uses Symbol.for('cordis.root') and cancels pending approvals when the last console client disconnects. npm latest 0.14.6 at 09:20:43Z, 63 files, gitHead 30bd788b91bf. Annotated tag v0.14.6 points at that commit. No GitHub Release. Sentence appended."
     },
     {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "to": "b5ddb6e491f4",
-      "version": "1.11.2"
+      "title": "injet #23 sends Discord through an optional proxy",
+      "url": "https://github.com/injet-zhou/dsh-superagent-prototype/commit/fd785c8c9909",
+      "confidence": 0.91,
+      "reason": "main tip fd785c8c9909 at 2026-11-16T08:03:29Z merges #23. The 08:40Z run did not record it. Optional proxyUrl is http or https. Commands.discord and discordReact pass it to undici 7.30.1 ProxyAgent. 9680e8294b6e destroys the proxy after the bot check. Package stays private 0.1.0. 92 ahead of 6337fc8, behind 0. Sentence appended."
+    },
+    {
+      "title": "booth 0.3.16 brands the terminal",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/f88173993b1e",
+      "confidence": 0.92,
+      "reason": "master tip f88173993b1e at 2026-11-16T09:16:17Z is 0.3.16. 0.3.15 3d787abee7ba was already recorded. Submodule stays 2febfad95e95. Annotated tag v0.3.16 points at f88173993b1e. Release at 09:23:47Z attaches the two Linux binaries, booth-runtime.tar.gz, and sha256 files. Sentence appended."
     }
   ],
   "pending": [
+    {
+      "title": "t3code has no superagent filename after 08:40Z",
+      "url": "https://github.com/pingdotgg/t3code/commit/dfeaf7b13786",
+      "confidence": 0.9,
+      "reason": "main tip dfeaf7b13786712cc350fa35abea17715fdef987 at 2026-11-16T09:08:30Z. Compare from 47f90ee2e940 is 15 commits and 47 files. No filename matches superagent or hextor. Not listed."
+    },
+    {
+      "title": "IHUI has no super-agent filename after 08:40Z",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/d77b7788b28c",
+      "confidence": 0.9,
+      "reason": "main tip d77b7788b28c61eb7d759e966979c1c857bbab25 at 2026-11-16T09:06:02Z. Compare from a6e4f38fea37 is 7 commits and 25 files. No filename matches superagent, super-agent, or hextor. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype after 08:40Z",
+      "url": "https://github.com/nwverse/persona/commit/576970b459ee",
+      "confidence": 0.86,
+      "reason": "Tip 576970b459ee569997fbebab487cd4220dac67f8 at 2026-11-16T09:26:00Z. Compare from fd2a475b79a4 is 49 commits and 300 files, the compare page cap. No filename in that page matches dsh, superagent, or hextor. Not read line by line. Not listed."
+    },
+    {
+      "title": "Nelson master did not move after 08:40Z",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/708",
+      "confidence": 0.88,
+      "reason": "pushed_at 2026-11-16T09:16:03Z is pull request activity. master stays e28eba14fa4c. next/0.8 stays f859168f4737. #708 head 514a9d932bcf targets next/0.8 and is not merged. #710 head 3eb2bb112a2d targets master and is not merged. #711 stays off master. Not listed."
+    },
+    {
+      "title": "Harness discussions 13492-13495 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13495",
+      "confidence": 0.9,
+      "reason": "Created after 08:40Z: #13492 plugin market pnpm, #13493 Open in VS Code, #13494 AgentTeams projection, #13495 update check. Bodies do not contain superagent or dsh-superagent. Not listed."
+    },
+    {
+      "title": "AstraBox only edits the OpenSandbox note",
+      "url": "https://github.com/Colton-z/AstraBox/commit/607bc6c827a2",
+      "confidence": 0.9,
+      "reason": "main tip 607bc6c827a29807e115b8bb257a8c578bd0b94e, pushed_at 2026-11-16T08:56:40Z. Compare from 2695754a1d5e is 4 commits. Files are CHANGELOG.md and docs/providers/opensandbox.md. containers/sandbox-dsh-superagent was not in the diff. The listed sentence was not rewritten."
+    },
+    {
+      "title": "billLiao sync only refreshes the catalog",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/197800a5e501",
+      "confidence": 0.84,
+      "reason": "main tip 197800a5e501 at 2026-11-16T08:01:41Z. The patch bumps star counts and adds dingmac/dsh-superagent-monitor. The curated sentence was not rewritten."
+    },
+    {
+      "title": "lzy350593418/dsh-superagent-test is a one-file trial README",
+      "url": "https://github.com/lzy350593418/dsh-superagent-test",
+      "confidence": 0.93,
+      "reason": "created 2026-11-16T08:32:05Z. The only file is README.md. The description calls it a dsh-superagent trial repo. Not listed."
+    },
+    {
+      "title": "kabiyangyang/dsh-superagent-test-project is empty",
+      "url": "https://github.com/kabiyangyang/dsh-superagent-test-project",
+      "confidence": 0.94,
+      "reason": "created 2026-11-16T08:33:44Z. GitHub reports an empty repository. Not listed."
+    },
+    {
+      "title": "SmallPig-new/superagent-playground is a one-file playground",
+      "url": "https://github.com/SmallPig-new/superagent-playground",
+      "confidence": 0.93,
+      "reason": "created 2026-11-16T09:23:10Z. The only file is README.md. The description calls it a playground for filing issues. Not listed."
+    },
+    {
+      "title": "Forrest-Xiong/superagent is a one-file README",
+      "url": "https://github.com/Forrest-Xiong/superagent",
+      "confidence": 0.8,
+      "reason": "pushed 2026-11-16T08:53:04Z. The only file is README.md. The description is agent management. It does not name this prototype. Not listed."
+    },
+    {
+      "title": "ClumsyWu/dsh-superagent-test was pushed again",
+      "url": "https://github.com/ClumsyWu/dsh-superagent-test",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-16T09:21:24Z. README still calls it an independent test repository with a pi-sdk demo. Not listed."
+    },
+    {
+      "title": "LittleChenLiya 0.14.6 keeps the console bridge alive",
+      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/30bd788b91bf",
+      "confidence": 0.93,
+      "reason": "main tip 55f3c97a676f at 2026-11-16T09:26:33Z is 0.14.6. 14edf00dfa30 uses Symbol.for('cordis.root') and cancels pending approvals when the last console client disconnects. npm latest 0.14.6 at 09:20:43Z, 63 files, gitHead 30bd788b91bf. Annotated tag v0.14.6 points at that commit. No GitHub Release. Sentence appended."
+    },
+    {
+      "title": "injet #23 sends Discord through an optional proxy",
+      "url": "https://github.com/injet-zhou/dsh-superagent-prototype/commit/fd785c8c9909",
+      "confidence": 0.91,
+      "reason": "main tip fd785c8c9909 at 2026-11-16T08:03:29Z merges #23. The 08:40Z run did not record it. Optional proxyUrl is http or https. Commands.discord and discordReact pass it to undici 7.30.1 ProxyAgent. 9680e8294b6e destroys the proxy after the bot check. Package stays private 0.1.0. 92 ahead of 6337fc8, behind 0. Sentence appended."
+    },
+    {
+      "title": "booth 0.3.16 brands the terminal",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/f88173993b1e",
+      "confidence": 0.92,
+      "reason": "master tip f88173993b1e at 2026-11-16T09:16:17Z is 0.3.16. 0.3.15 3d787abee7ba was already recorded. Submodule stays 2febfad95e95. Annotated tag v0.3.16 points at f88173993b1e. Release at 09:23:47Z attaches the two Linux binaries, booth-runtime.tar.gz, and sha256 files. Sentence appended."
+    },
     {
       "title": "t3code has no superagent filename in this window",
       "url": "https://github.com/pingdotgg/t3code/commit/56f41466f551",
@@ -11298,7 +11387,7 @@
     }
   ],
   "rejected_this_run": [
-    "Added DASHAN-0079/dsh-superagent-0.2.2-adapt at 1cd6e269c185. Updated booth to 3d787abee7ba (0.3.15) and Missher to b5ddb6e491f4 (1.11.2). t3code, IHUI, and persona have no superagent filename. Nelson master stayed e28eba14fa4c. ClumsyWu is a pi-sdk demo. mybot091, thekingofpython1, and xucxapp were not listed. Discussions #13482 through #13491 do not name the prototype. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1."
+    "Added none. The 08:40Z commit 72554f7 already added DASHAN-0079 and recorded booth 0.3.15 and Missher 1.11.2. Updated LittleChenLiya to 0.14.6 30bd788b91bf, injet-zhou to fd785c8c9909, and booth to 0.3.16 f88173993b1e. t3code, IHUI, and persona have no superagent filename. Nelson master stayed e28eba14fa4c. AstraBox 607bc6c827a2 does not touch the superagent container. Discussions #13492 through #13495 do not name the prototype. Sandbox, trial, empty, and test repositories were not listed. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1. next remains 0.2.2-rc.3. alpha remains 0.2.2-alpha.3. arXiv dsh-superagent hits: 0. No in-window HN story."
   ],
   "held_on_other_branches": [
     "pingdotgg/t3code compare from 47f90ee2e940 is 10 commits and 40 files. No superagent or hextor filename. Tip 56f41466f551.",
