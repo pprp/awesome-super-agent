@@ -1,26 +1,78 @@
 {
-  "last_run_at": "2026-11-17T13:33:52Z",
+  "last_run_at": "2026-11-17T14:36:30Z",
   "timezone": "UTC",
-  "baseline_commit": "d1d125a",
+  "baseline_commit": "f048209",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-17T12:35:49Z",
-    "to": "2026-11-17T13:33:52Z"
+    "from": "2026-11-17T13:33:52Z",
+    "to": "2026-11-17T14:36:30Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "lzp-plus/superagent-manager-plugin",
+      "url": "https://github.com/lzp-plus/superagent-manager-plugin",
+      "commit": "25b7595ce7d8"
+    },
+    {
+      "title": "Robert-Wang-08/dsh-superagent-patch",
+      "url": "https://github.com/Robert-Wang-08/dsh-superagent-patch",
+      "commit": "919d6b9c5981"
+    }
+  ],
   "updated": [
     {
-      "title": "fzss2012/dsh-superagent-local",
-      "url": "https://github.com/fzss2012/dsh-superagent-local",
-      "from": "9bdbd575910b",
-      "to": "36688f6f27be"
+      "title": "wiva-hq/superagent-imessage",
+      "url": "https://github.com/wiva-hq/superagent-imessage",
+      "change": "marked archived; last push 2026-11-02T09:22:13Z"
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions 13606-13611 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13611",
+      "confidence": 0.9,
+      "reason": "#13606 at 2026-11-17T13:49:37Z is dsh-relay for local HTTP tasks. #13607 at 14:07:55Z says a desktop update to 0.2.2-rc.3 wiped plugins and sessions. #13608 at 14:19:31Z is admission-denial evidence. #13609 at 14:22:50Z is a git-pinned bundle update dropping dsh.profile.bundles. #13610 at 14:30:18Z is an empty transcript_path in dsh-hooks-claude-code. #13611 at 14:34:04Z says stopReason rejects the legal stop_reason refusal. Bodies do not contain superagent, super-agent, dsh-superagent, or 原型. Not listed."
+    },
+    {
+      "title": "waixv #127 is an unmerged installer branch",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/pull/127",
+      "confidence": 0.9,
+      "reason": "Main stays 0a43e474c011. pushed_at 2026-11-17T14:11:29Z creates refs/heads/agent/app-host-lifecycle-453f9e0ed0ec at 688ff45d6e38. PR #127 opened 14:11:49Z, title feat(update): build a desktop app installer from the DSH fork. Non-default branch. Not listed."
+    },
+    {
+      "title": "steveopen1 plan still pins the unlisted Windows republish",
+      "url": "https://github.com/steveopen1/dsh-plan-superagent/commit/630f9fb15c44",
+      "confidence": 0.88,
+      "reason": "Tip 630f9fb15c44 at 2026-11-17T14:03:47Z adds a propose endpoint and planner model and timeout options. package.json still depends on github:steveopen1/dsh-superagent#441d7f15a2cae720b1ebee2266ce3246a770adbf. The route body was not read line by line. Not listed."
+    },
+    {
+      "title": "oh-my-pi main moved for web search, not this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/a344c4b31a12",
+      "confidence": 0.9,
+      "reason": "Main moved from 1bdbf6d242d9 to a344c4b31a12 at 2026-11-17T13:50:41Z. Merge PR #19562 requires opt-in before keyless third-party web search. No dsh-superagent path. Booth was not pushed. Not listed."
+    },
+    {
+      "title": "lahavi only drops a dead article and the archived iMessage repo",
+      "url": "https://github.com/lahavi/awesome-superagent/commit/2149a5c90a9d",
+      "confidence": 0.92,
+      "reason": "2149a5c90a9d at 2026-11-17T13:50:13Z edits README.md only. It remains a parallel aggregator. wiva-hq/superagent-imessage is archived and was already listed here, so that row was updated instead. Not listed."
+    },
+    {
+      "title": "t3code and IHUI do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/e9b48b780997",
+      "confidence": 0.9,
+      "reason": "t3code tip e9b48b780997 at 2026-11-17T14:31:38Z. Compare from 1da3f3f37028 is 8 commits and 20 files. No filename matches superagent, super-agent, hextor, or dsh-super. IHUI tip 46e61e7720e5 at 14:16:21Z. Compare from c1eebc45c0e3 is 3 commits and 4 files. No matching filename. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 13:33Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness tip stays 39163dd30f70. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. waixv main stays 0a43e474c011. superboard stays 81a64fefbe64. LittleChenLiya stays 2d82e8e5f6ef and @xiangyixie/dsh-superagent stays 0.19.0. multi-channel stays 2.5.3. mystic7c stays 6385093a6bd9. Booth stays f93af8a89003. Missher stays ea871ca05589. Wheelchair stays 35be1f546604. injet stays 0f92ad559e6d. AstraBox stays 607bc6c827a2. Me106y stays 3705bbc7167d. fzss2012 stays 36688f6f27be. dbc-hbin stays 11a448cc0231. fpdaiwalker, ReSerendipity, cg-dsh, xyt071024, CoNest, TianzeLuo, imx123, MYCF711, HUHAN-HIT, DASHAN, vivy-dsh, awesome-dsh-plugin, mashang, ft54482, dsh-foreman, and steveopen1/dsh-superagent have no commit after 13:33:52Z. arXiv dsh-superagent returned 0. The newest HN story naming dsh-superagent is still 2026-11-11. Not listed."
+    },
     {
       "title": "Harness discussions 13602-13605 do not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13605",
@@ -12581,9 +12633,10 @@
     }
   ],
   "rejected_this_run": [
-    "Added none. Updated fzss2012 from 9bdbd575910b to 36688f6f27be (Windows launcher, 32s lock wait, cookieMaxAgeDays 365). Discussions #13602-#13605 do not name the prototype. dbc-hbin 11a448cc0231 still waits on an oh-my-pi adapter owner. lahavi 790ea733886f only retargets the channels URL this list already uses. fpdaiwalker bc556dc52c6e is a non-default branch on a test repo. Jay-qyj 761ad8a011e2 is a playground. t3code 1da3f3f37028 is 4 commits and 12 files. IHUI c1eebc45c0e3 is 8 commits and 20 files. oh-my-pi main stays 1bdbf6d242d9."
+    "Added lzp-plus/superagent-manager-plugin at 25b7595ce7d8 and Robert-Wang-08/dsh-superagent-patch at 919d6b9c5981. Updated wiva-hq/superagent-imessage to say the repo is archived. Discussions #13606-#13611 do not name the prototype. waixv #127 is unmerged. steveopen1/dsh-plan-superagent 630f9fb15c44 still pins 441d7f15a2ca. oh-my-pi a344c4b31a12 is web-search opt-in. lahavi 2149a5c90a9d is a parallel aggregator. t3code e9b48b780997 is 8 commits and 20 files. IHUI 46e61e7720e5 is 3 commits and 4 files. Prototype tip stays 8c32a9dc5d72."
   ],
   "held_on_other_branches": [
+    "waixv-superagent/dsh-superagent-prototype main stays 0a43e474c011. pushed_at 2026-11-17T14:11:29Z is refs/heads/agent/app-host-lifecycle-453f9e0ed0ec at 688ff45d6e38. PR #127 is open. Non-default branches were not read.",
     "can1357/oh-my-pi main stays 1bdbf6d242d9. pushed_at 2026-11-17T13:20:07Z is refs/heads/feat/rs-tui. 13:00:35Z is refs/heads/fix/web-search-keyless-opt-in. Non-default branches were not read.",
     "fpdaiwalker/agent-test branch agent/agent-memory-research-a8ee376373b3 is bc556dc52c6e. Main stays 3e8ddc70ea09.",
     "pingdotgg/t3code compare from 33542a53be7c to d3c91008059b is 5 commits and 18 files. No superagent, super-agent, hextor, or dsh-super filename. IHUI-INF-AI/IHUI-AI compare from a2e896904c8e to 29ca3a405a9c is 64 commits and 181 files. No matching filename.",
@@ -13029,5 +13082,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest is 0.19.0 (published 2026-11-17T11:58:01.109Z, gitHead 518312c708db4e6b8d561f5401aaf4c141be53b8, shasum 702aecb919ea35fdc4a46aab200c2b2891f29b5c, 63 files). 0.18.4 was published 2026-11-17T11:34:12.182Z, gitHead e021fa0c867f8119acf1ea06122e43bd036caeb6, shasum 640e053bca88aebb1dfd41157a39102184b04427, 63 files. dsh-superagent-multi-channel latest remains 2.5.3 (gitHead 18edb120e7241c7f9870dec3b54b6e3680579711). Checked again 2026-11-17T13:33:52Z: @deepseek-ai/dsh tags unchanged, @xiangyixie/dsh-superagent latest remains 0.19.0, dsh-superagent-multi-channel latest remains 2.5.3."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.19.0. dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. @mystic7c/dsh-superagent-panel and @missher/dsh-superagent stay 404. Checked again 2026-11-17T14:36:30Z."
 }
