@@ -1,32 +1,98 @@
 {
-  "last_run_at": "2026-11-17T02:36:23Z",
+  "last_run_at": "2026-11-17T03:40:50Z",
   "timezone": "UTC",
-  "baseline_commit": "b8320cf",
+  "baseline_commit": "b0e17f6",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-17T01:32:29Z",
-    "to": "2026-11-17T02:36:23Z"
+    "from": "2026-11-17T02:36:23Z",
+    "to": "2026-11-17T03:40:50Z"
   },
-  "added": [
-    {
-      "title": "vivy-dsh/dsh-superagent-reset",
-      "url": "https://github.com/vivy-dsh/dsh-superagent-reset",
-      "sha": "0cd5bea8d18f"
-    }
-  ],
+  "added": [],
   "updated": [
     {
-      "title": "MYCF711/dsh-session-superagent",
-      "url": "https://github.com/MYCF711/dsh-session-superagent",
-      "from": "a304a31f2356",
-      "to": "bd1064c65f4c"
+      "title": "lanshi17/dsh-booth",
+      "url": "https://github.com/lanshi17/dsh-booth",
+      "from": "e7fb557803dd",
+      "to": "7a0c87c8fcfd"
+    },
+    {
+      "title": "Missher12/Missher-DSH-Superagent",
+      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
+      "from": "e1684da402a5",
+      "to": "0c7a4c1c3f06"
+    },
+    {
+      "title": "waixv-superagent/dsh-superagent-prototype",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
+      "from": "50eeb3ad884c",
+      "to": "904480d2eeea"
+    },
+    {
+      "title": "zhangzihaoDT/dsh-superagent-mashang-service",
+      "url": "https://github.com/zhangzihaoDT/dsh-superagent-mashang-service",
+      "from": "0a4a3cdc2379",
+      "to": "f2ba5903c813"
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions 13553-13558 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13558",
+      "confidence": 0.9,
+      "reason": "#13553 at 2026-11-17T02:48:01Z is a login failure. #13554 at 02:53:34Z is plan-mode narration after a rapid /plan toggle. #13555 at 03:02:35Z asks to toggle the left panel. #13556 at 03:12:33Z asks for a paid long-chat option. #13557 at 03:18:28Z asks for a multi-product shell. #13558 at 03:34:32Z is a Desktop rc.3 plugin CLI MODULE_NOT_FOUND. None of the bodies contain superagent, super-agent, dsh-superagent, or 原型. #13549's newest comment stays 01:32:40Z. Comments on #11309 at 03:34:34Z, #13522 at 03:33:46Z, #9557 at 03:25:07Z, #13518 at 02:50:48Z, and #13386 at 02:46:25Z do not contain those words. #13559 does not exist. Not listed."
+    },
+    {
+      "title": "steveopen1/dsh-plan-superagent depends on the rejected Windows republish",
+      "url": "https://github.com/steveopen1/dsh-plan-superagent",
+      "confidence": 0.86,
+      "reason": "Created 2026-11-17T02:37:24Z. Tip a167a1c0ae0c at 02:37:16Z. Package 0.1.0, engines.dsh ^0.2.1-alpha.2. It vendors hoyyang/dsh-plan-board v0.2.2 under src/board and src/client (BSD-3-Clause) and adds a bridge. dependencies pin dsh-superagent to github:steveopen1/dsh-superagent#b26693f7d49e, the Windows republish already left unlisted. The install text tells the reader to add that repository. The bridge was not executed. Not listed."
+    },
+    {
+      "title": "fancleef/superagent-playground is empty",
+      "url": "https://github.com/fancleef/superagent-playground",
+      "confidence": 0.94,
+      "reason": "Created 2026-11-17T03:23:37Z. pushed_at 2026-11-17T03:23:39Z. Size 0. The commits API returns 409. Description is Playground repository for dsh-superagent. Not listed."
+    },
+    {
+      "title": "kabiyangyang/dsh-superagent-test-project imported an unrelated scheduler",
+      "url": "https://github.com/kabiyangyang/dsh-superagent-test-project",
+      "confidence": 0.93,
+      "reason": "Tip 1c0938eaf597 at 2026-11-17T03:29:20Z merges #4. 2339529c54c7 rewrites the README as a test repository for trying DSH Super Agent. 71dcdd2f6b9c imports dbader/schedule into projects/schedule. It is still a practice checkout, not a superagent implementation. Not listed."
+    },
+    {
+      "title": "ReSerendipity timeline commits stay unlisted",
+      "url": "https://github.com/ReSerendipity/dsh-superagent/commit/33a01aa652c8",
+      "confidence": 0.88,
+      "reason": "main tip 33a01aa652c8 at 2026-11-17T03:13:57Z merges #48. #47 (16fdbd5dbb79) shows one chronological timeline on the ticket page. #48 keeps the ticket's actions in view above that timeline. The Windows delta against deployment doc 006 is still not compared. Not listed."
+    },
+    {
+      "title": "injet main did not gain a commit after 02:36Z",
+      "url": "https://github.com/injet-zhou/dsh-superagent-prototype/commit/ee690f8ed079",
+      "confidence": 0.84,
+      "reason": "main tip stays ee690f8ed079, committed 2026-11-16T10:35:51Z, parent fd785c8c9909. pushed_at 2026-11-17T02:43:49Z is not a newer commit. The WeCom sender log is outside this window. The listed sentence stays on #23. Not rewritten."
+    },
+    {
+      "title": "t3code, persona, SkillfulAgents, and oh-my-pi do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/ccae953c46c0",
+      "confidence": 0.9,
+      "reason": "t3code tip ccae953c46c0 at 2026-11-17T03:23:01Z. Compare from 9e32c95576f7 is 12 commits and 41 files. No filename matches superagent, super-agent, hextor, or dsh. persona tip f38beca29f41 at 03:31:41Z. Compare from 9c1cfa42420a is 18 commits and 169 files. The only filename hit is ForwardSheet.swift, which contains the letters dsh and is not this prototype. SkillfulAgents main stays 7623d09f6531. pushed_at 03:10:52Z is issue activity. #2019 opened at 02:55:44Z adds a cloud browser provider and is not merged. oh-my-pi 1bdbf6d242d9 and 760422a20520 at 02:38:33Z touch eval preludes and macOS pointer releases. The prelude commit's files do not match superagent, hextor, dsh, or harness. Not listed."
+    },
+    {
+      "title": "mystic7c #87 is not on main",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/pull/87",
+      "confidence": 0.9,
+      "reason": "Opened 2026-11-17T03:31:12Z against develop. Head 8833d2d92019. Title says 1.0.8 fixes a bare read-only false positive and adds ticket references. It is open and not merged. main stays e1d7b8c8f0c2 (2026-11-16T03:43:23Z, release/1.0.6). Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 02:36Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. updated_at 2026-11-17T03:29:17Z is not a commit. Harness tip stays 39163dd30f70. updated_at 2026-11-17T03:33:31Z is not a commit. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. Superboard stays 9d11fb4541de. LittleChenLiya, MYCF711, vivy reset, DASHAN, and Nelson master had no commit after 02:36:23Z. larksuite/cli main stays 3d82c85419ad (2026-11-13). arXiv dsh-superagent returned 0. No new HN story. Not listed."
+    },
     {
       "title": "Harness discussions 13550-13552 do not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13552",
@@ -12167,9 +12233,17 @@
     }
   ],
   "rejected_this_run": [
-    "Added vivy-dsh/dsh-superagent-reset at 0cd5bea8d18f. Updated MYCF711 from a304a31f2356 to bd1064c65f4c. Started from b8320cf. steveopen1 republishes buyou-claw. Test READMEs and the empty peeboowang repo were not listed. ReSerendipity 072813964a20 stays unlisted. Nelson #718 is not merged. t3code, persona, and SkillfulAgents do not name this prototype. Discussions #13550-#13552 do not name it. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
+    "Added none. Updated booth from e7fb557803dd to 7a0c87c8fcfd (0.3.65). Updated Missher from e1684da402a5 to 0c7a4c1c3f06 (1.14.0). Updated waixv from 50eeb3ad884c to 904480d2eeea. Updated mashang from 0a4a3cdc2379 to f2ba5903c813. Started from b0e17f6. steveopen1/dsh-plan-superagent depends on the rejected Windows republish. fancleef/superagent-playground is empty. kabiyangyang remains a test repo. ReSerendipity 33a01aa652c8 stays unlisted. Discussions #13553-#13558 do not name the prototype. t3code, persona, SkillfulAgents, and oh-my-pi do not name it. mystic7c #87 is not merged. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code compare from 9e32c95576f7 is 12 commits and 41 files. No superagent, super-agent, hextor, or dsh filename. Tip ccae953c46c0.",
+    "nwverse/persona compare from 9c1cfa42420a is 18 commits and 169 files. The only filename hit is ForwardSheet.swift. Tip f38beca29f41.",
+    "SkillfulAgents/SuperAgent main stays 7623d09f6531. #2019 is an open cloud-browser pull request.",
+    "can1357/oh-my-pi 1bdbf6d242d9 touches eval preludes. No superagent, hextor, dsh, or harness filename.",
+    "mystic7c/dsh-superagent-panel #87 is open against develop at 8833d2d92019. main stays e1d7b8c8f0c2.",
+    "injet-zhou/dsh-superagent-prototype main stays ee690f8ed079 (2026-11-16T10:35:51Z). No newer commit.",
+    "ReSerendipity/dsh-superagent tip 33a01aa652c8 merges #48. Windows delta against doc 006 is still not compared.",
+    "steveopen1/dsh-plan-superagent a167a1c0ae0c vendors hoyyang/dsh-plan-board and depends on steveopen1/dsh-superagent b26693f7d49e.",
     "pingdotgg/t3code compare from ba1193273ad0 is 17 commits. No superagent, super-agent, hextor, or dsh filename. Tip 9e32c95576f7.",
     "nwverse/persona compare from 7151bf8e9465 is 7 commits. No superagent, hextor, dsh, or harness filename. Tip 9c1cfa42420a.",
     "SkillfulAgents/SuperAgent main stays 7623d09f6531. pushed_at 2026-11-17T02:24:22Z is not a main commit.",
