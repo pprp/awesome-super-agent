@@ -1,25 +1,61 @@
 {
-  "last_run_at": "2026-11-17T19:32:00Z",
+  "last_run_at": "2026-11-17T20:34:00Z",
   "timezone": "UTC",
-  "baseline_commit": "b5527c5",
+  "baseline_commit": "65c9bea",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-17T18:32:00Z",
-    "to": "2026-11-17T19:32:00Z"
+    "from": "2026-11-17T19:32:00Z",
+    "to": "2026-11-17T20:34:00Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "MYCF711 watcher resume and manual poll",
-      "url": "https://github.com/MYCF711/dsh-session-superagent/pull/65",
-      "change": "Merged #65 at 2026-11-17T18:44:36Z. Tip 70badb7453d3. clearBackoff clears nextAt, deferReason, and consecutiveFailures. resume calls it. poll and the post-resume run use runManualPoll, which respects inFlight and DSH_SUPERAGENT_NO_POLL before clearing backoff. PR watchers call pollPrOnce; others call pollOnce. A successful resume poll clearTimeouts the boot timer. absorbGhTimeout does not bumpFailure and retries in 30 seconds for issue and PR list failures. decideWake adds busy true; the reason already contains agent busy, so planWakeSettlement already treated it as busy. intervalSec fallback is 60. Package stays 0.11.0. README says 1156 tests. npm latest stays 0.10.12."
+      "title": "superboard reported PR validation",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/dbdf55a7e9dd",
+      "change": "Tip dbdf55a7e9dd at 2026-11-17T20:29:51Z. #836 c09e4b889955 only changes the bundled harness lock, Plug multipart accounting, and a glob security test; lanes unchanged; glob patch not read line by line. #837 0b8164cc66e1 moves the automatic-retry row to Retry.build and still uses the observed line, or the same waiting fallback, with no invented retry time. #838 1f7430bfa659 publishes TaskCosts.entries/1; priced sums stay grouped by executor. #842 shows OWNER, MEMBER, and COLLABORATOR PR-comment reports in merge history. Reports do not authorize a merge. Local CI needs a Validation heading, one shared 40-hex SHA, and Workpad.reported_outcome. Independent review needs the Independent heading. Native approved and changes_requested stay native. One conversation read per sync."
     }
   ],
   "pending": [
+    {
+      "title": "superboard #836-#842 recorded on the existing bullet",
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/dbdf55a7e9dd",
+      "confidence": 0.93,
+      "reason": "Four commits after 98fcd9d16414. #836 does not change lib/agent_board lanes. #837 and #838 keep the retry line and the priced-sum grouping. #842 parse, comment_status, Review.label, and refresh_one were read. The glob patch was not read line by line. Recorded on the existing superboard bullet."
+    },
+    {
+      "title": "Harness discussion #12908 still does not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/12908",
+      "confidence": 0.9,
+      "reason": "Updated 2026-11-17T20:20:49Z. The newest comment is a sidebar fold persistence note for desktop rc.4. It does not contain superagent, super-agent, dsh-superagent, or 原型. No discussion in the latest updated page is numbered above #13631. Not listed."
+    },
+    {
+      "title": "t3code and IHUI do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/3d7b74a7ea39",
+      "confidence": 0.9,
+      "reason": "t3code tip 3d7b74a7ea39 at 2026-11-17T20:28:18Z. Compare from f92c5e8f9824 is 10 commits and 26 files. No filename matches superagent, super-agent, hextor, or dsh-super. IHUI tip ea356913e31d at 20:08:59Z. Compare from 5162eef17fbd is 8 commits and 12 files. No matching filename. Not listed."
+    },
+    {
+      "title": "oh-my-pi, Russ00028, and SkillfulAgents stay off this list",
+      "url": "https://github.com/can1357/oh-my-pi/commit/6425ef0e8d2f",
+      "confidence": 0.9,
+      "reason": "oh-my-pi main stays 6425ef0e8d2f, already compared. pushed_at 2026-11-17T19:42:48Z is not a new main commit. Russ00028 tip ae0f35e061e1 at 20:20:10Z is still a desktop code-update.zip manifest. SkillfulAgents main stays 7623d09f6531. pushed_at 19:55:35Z is not main. Not listed."
+    },
+    {
+      "title": "awesome-dsh-plugin sync adds no dsh-superagent row",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/0da738608ca6",
+      "confidence": 0.86,
+      "reason": "Tip 0da738608ca6 at 2026-11-17T20:18:56Z regenerates READMEs. Commit subjects since 19:32Z add unrelated plugins, including topmindspace/dsh-super-mind. No subject adds dsh-superagent. dsh-super-mind was not read. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 19:32Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2. Release list still tops at dsh-v0.2.2-rc.4. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.4, alpha stays 0.2.2-alpha.3. @xiangyixie/dsh-superagent stays 0.22.1. multi-channel stays 2.5.3. dsh-session-superagent stays 0.10.12. MYCF711 stays 70badb7453d3. waixv, booth, Missher, LittleChenLiya, and the other watched defaults have no commit after 19:32:00Z. arXiv dsh-superagent returned 0. The newest HN story naming dsh-superagent is still 2026-11-11. No dsh-superagent repository was pushed after 19:30Z. Not listed."
+    },
     {
       "title": "MYCF711 #65 landed on main",
       "url": "https://github.com/MYCF711/dsh-session-superagent/commit/70badb7453d3",
@@ -12832,7 +12868,7 @@
     }
   ],
   "rejected_this_run": [
-    "Updated the MYCF711 bullet for #65 at 18:44Z, tip 70badb7453d3. Discussions #13630 and #13631 do not name the prototype. #13614's newest comment stays 18:02:40Z. t3code f92c5e8f9824, IHUI 5162eef17fbd, and oh-my-pi 6425ef0e8d2f do not name this prototype. winniebear1/superagent is empty. Russ00028/superagent-updates is another desktop app. SkillfulAgents main stays 7623d09f6531. Prototype tip stays 8c32a9dc5d72."
+    "Updated superboard to dbdf55a7e9dd. #836 does not change lanes. #837 and #838 keep the retry line and priced sums. #842 records attributed PR-comment validation and does not authorize a merge. Discussion #12908 at 20:20Z does not name the prototype. t3code 3d7b74a7ea39 and IHUI ea356913e31d do not name this prototype. oh-my-pi main stays 6425ef0e8d2f. Russ00028 ae0f35e061e1 is still a desktop manifest. SkillfulAgents main stays 7623d09f6531. awesome-dsh-plugin 0da738608ca6 adds no dsh-superagent row. Prototype tip stays 8c32a9dc5d72."
   ],
   "held_on_other_branches": [
     "waixv-superagent/dsh-superagent-prototype main stays 0a43e474c011. PR #127 head is 9302b9ebb1a3 at 2026-11-17T16:09:16Z. Non-default branch.",
@@ -13287,5 +13323,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.4 (published 2026-11-17T17:03:03.170Z, shasum 3906b6f86a36c25475da1a8aec6d9095f5a06b0b, no gitHead). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-17T17:03:03.383Z. GitHub release dsh-v0.2.2-rc.4 published 2026-11-17T17:53:41Z and points at lightweight tag commit 3f321d32bfe382212a8ed8785c1d47a5a300aa23. master tip is ca33fd6843b205e279c7ccb6cb73a472c78f5760, pushed_at 2026-11-17T17:55:09Z. @xiangyixie/dsh-superagent latest remains 0.22.1 (published 2026-11-17T15:33:07.511Z, gitHead 04eb0e09fc927b2a5012374ad4bc153f140a9c8b). dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. Checked again 2026-11-17T18:32:00Z."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.4 (published 2026-11-17T17:03:03.170Z, shasum 3906b6f86a36c25475da1a8aec6d9095f5a06b0b, no gitHead). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-17T17:03:03.383Z. GitHub release dsh-v0.2.2-rc.4 published 2026-11-17T17:53:41Z and points at lightweight tag commit 3f321d32bfe382212a8ed8785c1d47a5a300aa23. master tip is ca33fd6843b205e279c7ccb6cb73a472c78f5760, pushed_at 2026-11-17T17:55:09Z. @xiangyixie/dsh-superagent latest remains 0.22.1 (published 2026-11-17T15:33:07.511Z, gitHead 04eb0e09fc927b2a5012374ad4bc153f140a9c8b). dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. Checked again 2026-11-17T20:34:00Z."
 }
