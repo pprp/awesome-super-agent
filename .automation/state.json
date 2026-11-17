@@ -1,19 +1,74 @@
 {
-  "last_run_at": "2026-11-17T00:34:00Z",
+  "last_run_at": "2026-11-17T01:32:29Z",
   "timezone": "UTC",
-  "baseline_commit": "d61c7bf",
+  "baseline_commit": "398e7c7",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-16T23:34:00Z",
-    "to": "2026-11-17T00:34:00Z"
+    "from": "2026-11-17T00:34:00Z",
+    "to": "2026-11-17T01:32:29Z"
   },
   "added": [],
-  "updated": [],
+  "updated": [
+    {
+      "title": "DASHAN-0079/dsh-superagent-adapt",
+      "url": "https://github.com/DASHAN-0079/dsh-superagent-adapt",
+      "from": "1cd6e269c185",
+      "to": "08e6b94e5c88"
+    }
+  ],
   "pending": [
+    {
+      "title": "Harness discussion 13549 does not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13549",
+      "confidence": 0.9,
+      "reason": "#13549 created at 2026-11-17T01:27:08Z is a multi-root workspace note for Desktop 0.2.2-rc.3 and dsh-chat-vscode. The body does not contain superagent, super-agent, dsh-superagent, or 原型. #13542's new comment at 2026-11-17T01:20:58Z is a Windows 0.2.2-rc.3 ECONNRESET log and does not contain those words. #11577's newest comment stays 2026-11-17T00:33:26Z, before this window. #13550 does not exist. Not listed."
+    },
+    {
+      "title": "fpdaiwalker/agent-test is a test README",
+      "url": "https://github.com/fpdaiwalker/agent-test",
+      "confidence": 0.94,
+      "reason": "Created 2026-11-17T00:59:45Z. Description is dsh-superagent test repository. Size 0. Commits are 937a50a07b58 at 00:59:46Z and 5d069a978ec0 at 01:28:28Z. The README is a title plus one line, dsh-superagent test reopsitory. Not listed."
+    },
+    {
+      "title": "kabiyangyang/dsh-superagent-test-project is a test README",
+      "url": "https://github.com/kabiyangyang/dsh-superagent-test-project",
+      "confidence": 0.94,
+      "reason": "Created 2026-11-16T08:33:44Z. pushed_at 2026-11-17T00:45:24Z. The only commit is e21e33e736fc at 2026-11-17T00:45:24Z, Initialize Super Agent test repository. Size 0. The README says it is a repository for trying DSH Super Agent. Not listed."
+    },
+    {
+      "title": "Nelson #718 is not on master",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/718",
+      "confidence": 0.92,
+      "reason": "Opened 2026-11-17T01:27:53Z against next/0.8. Head d6cac5576b53. Two commits, 16 files, 314 additions. The title says a plain member can propose work and the router still decides. It is open and not merged. Master stays e28eba14fa4c. Not listed."
+    },
+    {
+      "title": "t3code main has no superagent filename after 00:34Z",
+      "url": "https://github.com/pingdotgg/t3code/commit/ba1193273ad0",
+      "confidence": 0.9,
+      "reason": "main tip ba1193273ad0 at 2026-11-17T01:26:58Z. Compare from 4b758f49ec52 is 10 commits and 49 files. No filename matches superagent, super-agent, hextor, or dsh. Not listed."
+    },
+    {
+      "title": "persona commits do not name this prototype after 00:34Z",
+      "url": "https://github.com/nwverse/persona/commit/7151bf8e9465",
+      "confidence": 0.86,
+      "reason": "Tip 7151bf8e9465 at 2026-11-17T01:29:30Z. Compare from 4a75446a4554 is 9 commits and 126 files. No filename matches superagent, super-agent, hextor, dsh, or harness. Not read line by line. Not listed."
+    },
+    {
+      "title": "SkillfulAgents 0.6.12 does not name this prototype",
+      "url": "https://github.com/SkillfulAgents/SuperAgent/commit/7623d09f6531",
+      "confidence": 0.92,
+      "reason": "main tip 7623d09f6531 at 2026-11-17T00:48:25Z. Compare from bbfed6272d99 is 1 commit and 2 files, package.json and package-lock.json. The version moves from 0.6.12-rc.1 to 0.6.12. The description stays AI agent management platform, author Datawizz Inc. The hunk adds no dsh, deepseek, harness, or prototype dependency. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 00:34Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. updated_at 2026-11-17T01:30:36Z is not a commit. Harness tip stays 39163dd30f70. updated_at 2026-11-17T01:29:55Z is not a commit. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. Booth stays e7fb557803dd (0.3.64). Superboard stays 9d11fb4541de. dsh-ghost, awesome-dsh-plugin, codefufuai, LVTV6, LittleChenLiya, Missher, waixv, HUHAN-HIT, szmdshagent, MYCF711, wheelchair-agent, AstraBox, injet, dsh-foreman, CACppuccino, ft54482, baojingyu, Shijiuwei, lkshrk, Aily, wychmod, hextor, vivy-dsh, IHUI, and the playground had no push after 00:34:00Z. Shijiuwei/dsh-superagent-prototype-dist pushed_at stays 2026-11-16T20:17:06Z. arXiv dsh-superagent returned 0. No new HN story. Not listed."
+    },
     {
       "title": "Harness discussions 13547 and 13548 do not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13548",
@@ -12040,9 +12095,14 @@
     }
   ],
   "rejected_this_run": [
-    "Added none. Updated none. Started from d61c7bf. t3code, persona, IHUI, and SkillfulAgents have no prototype filename. songxiaoju0810-lab/superagent-test is a trial README. Discussions #13547 and #13548 do not name the prototype. #11577's 00:33Z comment does not name it. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
+    "Added none. Updated DASHAN to https://github.com/DASHAN-0079/dsh-superagent-adapt at 08e6b94e5c88. The rc.3 adaptation commit on main is a1a61d7bb683. 1cd6e269c185 is not on main. Started from 398e7c7. t3code, persona, and SkillfulAgents have no prototype filename. IHUI did not move. fpdaiwalker/agent-test and kabiyangyang/dsh-superagent-test-project are test READMEs. Nelson #718 is not merged. Discussion #13549 does not name the prototype. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm @deepseek-ai/dsh latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code compare from 4b758f49ec52 is 10 commits and 49 files. No superagent, super-agent, hextor, or dsh filename. Tip ba1193273ad0.",
+    "nwverse/persona compare from 4a75446a4554 is 9 commits and 126 files. No superagent, hextor, dsh, or harness filename. Tip 7151bf8e9465.",
+    "SkillfulAgents/SuperAgent compare from bbfed6272d99 is 1 commit and 2 files. Version only, 0.6.12. Tip 7623d09f6531.",
+    "IHUI-INF-AI/IHUI-AI had no push after 00:34:00Z. Tip stays 70142902c85f.",
+    "NelsonLongxiang/dsh-open-a2a-net master stays e28eba14fa4c. #718 head d6cac5576b53 targets next/0.8 and is not merged.",
     "pingdotgg/t3code compare from b79d277cddaf is 3 commits and 6 files. No superagent, super-agent, hextor, or dsh filename. Tip 4b758f49ec52.",
     "nwverse/persona compare from a4acbc6d7a0b is 14 commits and 123 files. No superagent, hextor, dsh, or harness filename. Tip 4a75446a4554.",
     "IHUI-INF-AI/IHUI-AI compare from 8dd24943a4f6 is 6 commits and 15 files. No superagent, hextor, dsh, harness, or prototype filename. Tip 70142902c85f.",
