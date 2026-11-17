@@ -1,25 +1,55 @@
 {
-  "last_run_at": "2026-11-17T22:34:54Z",
+  "last_run_at": "2026-11-17T23:45:00Z",
   "timezone": "UTC",
-  "baseline_commit": "f520d07",
+  "baseline_commit": "cd591d5",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-17T21:30:00Z",
-    "to": "2026-11-17T22:34:54Z"
+    "from": "2026-11-17T22:34:54Z",
+    "to": "2026-11-17T23:45:00Z"
   },
   "added": [],
-  "updated": [
-    {
-      "title": "superboard blocked explanations, slow-run details, and local merge days",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/366faf0df2f9",
-      "change": "Tip 366faf0df2f9 at 2026-11-17T22:16:25Z. Five commits after c420f12c7020. #849 moves blocked explanations to Attention.Blocked.explain/3. #850 publishes RunTiming.slow_details/2. #851 publishes CallStatus.pending_ticket?/1 without changing queue_stage results. #852 publishes Review.subject/2. #853 publishes MergeHistory.day_buckets/2. Recorded on the existing superboard bullet."
-    }
-  ],
+  "updated": [],
   "pending": [
+    {
+      "title": "tanxinz #37 is on main and is not the SuperAgent bundle",
+      "url": "https://github.com/tanxinz/dsh-superagent/commit/b492b53bc96f",
+      "confidence": 0.93,
+      "reason": "main tip b492b53bc96f at 2026-11-17T22:39:04Z merges #37. Parent is 05d8a8b02bac. Compare is 1 commit and 16 files: README, status docs, and examples/personal-native. examples/personal-native/README.md says the native path is STATIC_TEMPLATE / RUNTIME_NOT_VERIFIED and is not SuperAgent TeamExecutor integration. cordis.patch.yml says it is a DSH 0.2.2-rc.3 profile overlay with no SuperAgent bundle. It inserts personal-lead, personal-coder, personal-reviewer, and personal-tester. Lead has no shell, file write/edit/applyPatch false, and spawn_coder, spawn_reviewer, spawn_tester at maxDepth 1 with modelSelection false. Coder has bash or pwsh and file writes. Reviewer has no shell and read-only files. Tester has bash or pwsh with file write/edit false. skill-office is disabled. The README says Stage B uses cordis.acp.patch.yml for persistent acp-codex and acp-claude members; that patch was not read line by line. Not listed."
+    },
+    {
+      "title": "Harness discussion 13635 does not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13635",
+      "confidence": 0.93,
+      "reason": "#13635 created at 2026-11-17T22:39:06Z is the community Agent Workflow Viewer plugin. The body describes a read-only DSH session canvas and mentions child tasks. It does not contain superagent, super-agent, dsh-superagent, or 原型. No newer discussion was on the updated page. Not listed."
+    },
+    {
+      "title": "oh-my-pi Kiro merge does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/9cb7eaee6128",
+      "confidence": 0.9,
+      "reason": "main tip 9cb7eaee6128 at 2026-11-17T22:51:38Z merges #18955, a native Kiro provider. Compare from 276169d5168b is 41 commits and 82 files. No filename matches superagent, super-agent, hextor, or dsh-super. Not listed."
+    },
+    {
+      "title": "awesome-dsh-plugin sync adds no dsh-superagent row",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/29b3ed46e2e4",
+      "confidence": 0.86,
+      "reason": "Tip 29b3ed46e2e4 at 2026-11-17T23:24:35Z regenerates READMEs. ab9b6696232c drops the dsh-mneme access-check note. c2cd12a3f270 is a Rollstack name and route note. Commit search for dsh-superagent on 2026-11-17 returned 0. Code search still resolves at 0da738608ca6. Not listed."
+    },
+    {
+      "title": "SkillfulAgents main moved and does not name this prototype",
+      "url": "https://github.com/SkillfulAgents/SuperAgent/commit/ee6c07c20110",
+      "confidence": 0.9,
+      "reason": "main tip ee6c07c20110 at 2026-11-17T23:30:21Z is 0.6.13-rc.1. Parent 24fa0676f6e9 merges #1997, an integrations creator fix. Code search for dsh-superagent returned 0. The new commits were not compared file by file. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 22:34Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2. Release list still tops at dsh-v0.2.2-rc.4. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.4, alpha stays 0.2.2-alpha.3. Registry modified stays 2026-11-17T17:03:03.383Z. @xiangyixie/dsh-superagent stays 0.22.1. multi-channel stays 2.5.3. dsh-session-superagent stays 0.10.12. superboard stays 366faf0df2f9. t3code stays 7b4478895daf. waixv, booth, Missher, LittleChenLiya, MYCF711, AstraBox, injet, dsh-ghost, dsh-foreman, YeStarOne, dbc-hbin, xyt071024, ReSerendipity, CoNest, hextor, codefufuai, IHUI, and wheelchair-agent have no commit after 22:30:00Z. The only dsh-superagent repository pushed after 22:30Z is tanxinz. arXiv dsh-superagent returned 0. The newest HN story naming dsh-superagent is still 2026-11-11. Not listed."
+    },
     {
       "title": "superboard #849-#853 recorded on the existing bullet",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard/commit/366faf0df2f9",
@@ -12922,9 +12952,11 @@
     }
   ],
   "rejected_this_run": [
-    "Updated superboard to 366faf0df2f9. #849 explains only selected blocked candidates. #850 calculates slow-run details before the notice. #851 names pending-ticket eligibility. #852 chooses review evidence before the card wording. #853 groups merges by local calendar day. Discussions updated after 21:30Z do not name the prototype. t3code 7b4478895daf has no matching filename. codefufuai e50c6f190b6f only refreshes profile cards. Prototype tip stays 8c32a9dc5d72."
+    "Added none. Updated none. Started from cd591d5. tanxinz b492b53bc96f is a personal AgentTeam overlay and says it is not the SuperAgent bundle. Discussion #13635 does not name the prototype. oh-my-pi 9cb7eaee6128 has no matching filename. awesome-dsh-plugin 29b3ed46e2e4 adds no dsh-superagent row. SkillfulAgents ee6c07c20110 code search for dsh-superagent returned 0. Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2. npm latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3."
   ],
   "held_on_other_branches": [
+    "tanxinz/dsh-superagent main is now b492b53bc96f. The personal-native overlay is on main and was read. It is not a non-default branch.",
+    "can1357/oh-my-pi main is 9cb7eaee6128. Compare from 276169d5168b is 41 commits and 82 files. No superagent, super-agent, hextor, or dsh-super filename.",
     "deepseek-ai/deepseek-harness 7e4bf5601d6a at 2026-11-17T21:32:50Z is not master. Master stays ca33fd6843b2. The hmr filename guard does not name this prototype.",
     "waixv-superagent/dsh-superagent-prototype main stays 0a43e474c011. PR #127 head is 9302b9ebb1a3 at 2026-11-17T16:09:16Z. Non-default branch.",
     "tanxinz/dsh-superagent main stays 05d8a8b02bac. feat/personal-native-agentteam-20261117 is 8ddac54e94de at 2026-11-17T16:19:57Z. Non-default branch.",
@@ -13378,5 +13410,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.4 (published 2026-11-17T17:03:03.170Z, shasum 3906b6f86a36c25475da1a8aec6d9095f5a06b0b, no gitHead). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-17T17:03:03.383Z. GitHub release dsh-v0.2.2-rc.4 published 2026-11-17T17:53:41Z and points at lightweight tag commit 3f321d32bfe382212a8ed8785c1d47a5a300aa23. master tip is ca33fd6843b205e279c7ccb6cb73a472c78f5760, pushed_at 2026-11-17T17:55:09Z. @xiangyixie/dsh-superagent latest remains 0.22.1 (published 2026-11-17T15:33:07.511Z, gitHead 04eb0e09fc927b2a5012374ad4bc153f140a9c8b). dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. Checked again 2026-11-17T21:30:00Z. Rechecked 2026-11-17T22:34:54Z: latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.4 (published 2026-11-17T17:03:03.170Z, shasum 3906b6f86a36c25475da1a8aec6d9095f5a06b0b, no gitHead). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-17T17:03:03.383Z. GitHub release dsh-v0.2.2-rc.4 published 2026-11-17T17:53:41Z and points at lightweight tag commit 3f321d32bfe382212a8ed8785c1d47a5a300aa23. master tip is ca33fd6843b205e279c7ccb6cb73a472c78f5760, pushed_at 2026-11-17T17:55:09Z. @xiangyixie/dsh-superagent latest remains 0.22.1 (published 2026-11-17T15:33:07.511Z, gitHead 04eb0e09fc927b2a5012374ad4bc153f140a9c8b). dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. Checked again 2026-11-17T21:30:00Z. Rechecked 2026-11-17T22:34:54Z: latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z. Rechecked 2026-11-17T23:45:00Z: same tags and modified time."
 }
