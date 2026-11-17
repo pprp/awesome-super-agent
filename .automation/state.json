@@ -1,35 +1,85 @@
 {
-  "last_run_at": "2026-11-17T15:34:48Z",
+  "last_run_at": "2026-11-17T16:35:39Z",
   "timezone": "UTC",
-  "baseline_commit": "bb08845",
+  "baseline_commit": "007f043",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-17T14:36:30Z",
-    "to": "2026-11-17T15:34:48Z"
+    "from": "2026-11-17T15:34:48Z",
+    "to": "2026-11-17T16:35:39Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "LittleChenLiya/dsh-superagent",
-      "url": "https://www.npmjs.com/package/@xiangyixie/dsh-superagent",
-      "change": "npm latest 0.22.1 at 2026-11-17T15:33:07Z; gitHead 04eb0e09fc92 still passes an empty button type; git 981d29f5850d does not"
-    },
-    {
-      "title": "lzp-plus/superagent-manager-plugin",
-      "url": "https://github.com/lzp-plus/superagent-manager-plugin",
-      "change": "tip 58725408efeb native page; paste a repository to derive id, name, and port"
-    },
-    {
       "title": "sallaumen/dsh-superagent-superboard",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard/pull/828",
-      "change": "5ad6d94f35ae adds reviewable verification and grounded guides"
+      "url": "https://github.com/sallaumen/dsh-superagent-superboard/pull/835",
+      "change": "tip 98fcd9d16414. #829 pairs clarification answers and splits via Intake.run. #830 has no lib change; AGENT_BOARD_STATE_DB and AGENT_BOARD_BOT_LOGIN are optional. #831-#835 read review-card pulls from the task's own repository URL, then own_threads."
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions 13618-13624 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13624",
+      "confidence": 0.9,
+      "reason": "#13618 at 2026-11-17T15:37:21Z is Agent Teams disabling subagent tools. #13619 at 15:37:27Z is a sidebar session label. #13620 at 15:38:45Z is design-garden. #13621 at 15:39:41Z is unattended goal retries. #13622 at 15:56:54Z is sign-in before WebSocket. #13623 at 16:02:34Z is dsh-hmr pathToFileURL. #13624 at 16:17:51Z is a blank Session subagent allowlist. #13611 gained comments at 15:51:57Z and 16:02:35Z about stopReason refusal in dsh-api-session-controller. #13614 gained a comment at 15:54:01Z about a hex escape. Bodies and those comments do not contain superagent, super-agent, dsh-superagent, or 原型. Not listed."
+    },
+    {
+      "title": "xyt071024 still omits the explicit-request exception",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/796c3eb24399",
+      "confidence": 0.9,
+      "reason": "Tip 796c3eb24399 at 2026-11-17T15:39:02Z removes release mirror zips and purge pages and adds a v0.3.6 changelog. README.md still does not contain observe, explicit, or 点名. Not listed."
+    },
+    {
+      "title": "CoNest Unicode commit is on main; admission was not read",
+      "url": "https://github.com/cc8887/CoNest/commit/d232b13a117c",
+      "confidence": 0.86,
+      "reason": "main tip d232b13a117c at 2026-11-17T15:41:22Z records a verified tenant Docker release in AGENTS.md, README.md, and docs/conest/weixin-runtime.md. Its parent is a57f3747cc11. The admission tree was not read line by line. Not listed."
+    },
+    {
+      "title": "ReSerendipity #41 and #42 stay unlisted",
+      "url": "https://github.com/ReSerendipity/dsh-superagent/commit/28b435959453",
+      "confidence": 0.88,
+      "reason": "Tip 28b435959453 at 2026-11-17T15:53:31Z merges #42. #41 at c65c564e0bb7 adds selectReviewThread, which keeps a review root and its replies. #42 changes the portability sentence so a bare account name is outside the static path check. The Windows delta against deployment doc 006 was still not compared. Not listed."
+    },
+    {
+      "title": "tanxinz native preset commit is not on main",
+      "url": "https://github.com/tanxinz/dsh-superagent/commit/8ddac54e94de",
+      "confidence": 0.9,
+      "reason": "pushed_at 2026-11-17T16:20:38Z. Default main stays 05d8a8b02bac. feat/personal-native-agentteam-20261117 is 8ddac54e94de at 16:19:57Z and says it fixes a native preset mount. Non-default branch. Not listed."
+    },
+    {
+      "title": "waixv #127 remains an unmerged installer branch",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/pull/127",
+      "confidence": 0.92,
+      "reason": "Main stays 0a43e474c011. PR #127 head moved to 9302b9ebb1a3 at 2026-11-17T16:09:16Z. That commit edits docs/006-deployment.md, src/app/app-upgrade.ts, src/deployment.ts, and tests/app-upgrade.spec.ts. Non-default branch. Not listed."
+    },
+    {
+      "title": "t3code, IHUI, and oh-my-pi do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/ffc5bbffb03d",
+      "confidence": 0.9,
+      "reason": "t3code tip ffc5bbffb03d at 2026-11-17T16:30:33Z. Compare from cc8593e06d8d is 10 commits and 36 files. No filename matches superagent, super-agent, hextor, or dsh-super. IHUI tip ab0e15ca36b5 at 16:22:07Z. Compare from 476abb2bdd31 is 3 commits and 4 files. No matching filename. oh-my-pi tip 852eb2d0a24a at 16:30:29Z reverts the web-search opt-in. Compare from a344c4b31a12 is 15 commits and 48 files. No dsh-superagent path. Not listed."
+    },
+    {
+      "title": "Jay-qyj playground README is not on main",
+      "url": "https://github.com/Jay-qyj/superagent-playground/commit/0ac370719a8f",
+      "confidence": 0.93,
+      "reason": "pushed_at 2026-11-17T16:28:09Z. Default main stays 761ad8a011e2. agent/add-readme-superagent-playground-c37df2eedb17 is 0ac370719a8f at 16:28:06Z and only adds README.md. Playground. Not listed."
+    },
+    {
+      "title": "billLiao sync adds no superagent row",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/b65446190db8",
+      "confidence": 0.9,
+      "reason": "b65446190db8 at 2026-11-17T16:01:49Z. plugins.json meta goes from 31467 plugins to 31627. 169 ids were added and 9 removed. Rows matching superagent, super-agent, or dsh-super stay at 90, with none of the added ids matching. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 15:34Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness tip stays 39163dd30f70. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. @xiangyixie/dsh-superagent stays 0.22.1, gitHead 04eb0e09fc92. multi-channel stays 2.5.3. dsh-session-superagent stays 0.10.12. LittleChenLiya, lzp-plus, booth, Missher, wheelchair, injet, AstraBox, Me106y, fzss2012, dbc-hbin, Robert-Wang patch, lahavi, and dsh-ghost have no commit after 15:34:48Z. arXiv dsh-superagent returned 0. The newest HN story naming dsh-superagent is still 2026-11-11. Not listed."
+    },
     {
       "title": "Harness discussions 13612-13617 do not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13617",
@@ -12686,9 +12736,12 @@
     }
   ],
   "rejected_this_run": [
-    "Updated LittleChenLiya for npm 0.22.1 whose gitHead 04eb0e09fc92 still passes an empty button type, while git 981d29f5850d does not. Updated lzp-plus to the native page at 58725408efeb and superboard #828 at 5ad6d94f35ae. Discussions #13612-#13617 do not name the prototype. Saikel is a test repo. steveopen1 still republishes the Windows port. xyt071024 README still omits the explicit-request exception. CoNest a57f3747cc11 is not main. t3code and IHUI filenames do not match. tanxinz main did not move."
+    "Updated superboard to 98fcd9d16414 (#829-#835). Discussions #13618-#13624 do not name the prototype. xyt071024 README still omits the explicit-request exception. CoNest main d232b13a117c was not read for admission. ReSerendipity #41 and #42 stay unlisted. tanxinz 8ddac54e94de and waixv #127 are not on main. t3code, IHUI, and oh-my-pi filenames do not match. billLiao sync adds no superagent row. Jay-qyj remains a playground."
   ],
   "held_on_other_branches": [
+    "waixv-superagent/dsh-superagent-prototype main stays 0a43e474c011. PR #127 head is 9302b9ebb1a3 at 2026-11-17T16:09:16Z. Non-default branch.",
+    "tanxinz/dsh-superagent main stays 05d8a8b02bac. feat/personal-native-agentteam-20261117 is 8ddac54e94de at 2026-11-17T16:19:57Z. Non-default branch.",
+    "Jay-qyj/superagent-playground main stays 761ad8a011e2. agent/add-readme-superagent-playground-c37df2eedb17 is 0ac370719a8f. Playground.",
     "cc8887/CoNest main stays 79908617cad0. pushed_at 2026-11-17T15:26:35Z is refs/heads/codex/release-0.2.0-alpha.1 at a57f3747cc11. Non-default branch.",
     "tanxinz/dsh-superagent main stays 05d8a8b02bac. pushed_at 2026-11-17T15:06:39Z is not a newer main commit.",
     "waixv-superagent/dsh-superagent-prototype pushed_at stays 2026-11-17T14:11:29Z. No newer default commit in this window.",
@@ -13138,5 +13191,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest is 0.22.1 (published 2026-11-17T15:33:07.511Z); 0.22.0 was published 2026-11-17T15:23:07.037Z. dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. @mystic7c/dsh-superagent-panel and @missher/dsh-superagent stay 404. Checked again 2026-11-17T15:34:48Z."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest remains 0.22.1 (published 2026-11-17T15:33:07.511Z, gitHead 04eb0e09fc927b2a5012374ad4bc153f140a9c8b). dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. Checked again 2026-11-17T16:35:39Z."
 }
