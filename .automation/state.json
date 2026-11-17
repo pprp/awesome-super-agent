@@ -1,44 +1,62 @@
 {
-  "last_run_at": "2026-11-17T03:40:50Z",
+  "last_run_at": "2026-11-17T04:32:29Z",
   "timezone": "UTC",
-  "baseline_commit": "b0e17f6",
+  "baseline_commit": "7d1e2c4",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-17T02:36:23Z",
-    "to": "2026-11-17T03:40:50Z"
+    "from": "2026-11-17T03:40:50Z",
+    "to": "2026-11-17T04:32:29Z"
   },
   "added": [],
   "updated": [
     {
       "title": "lanshi17/dsh-booth",
       "url": "https://github.com/lanshi17/dsh-booth",
-      "from": "e7fb557803dd",
-      "to": "7a0c87c8fcfd"
-    },
-    {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "from": "e1684da402a5",
-      "to": "0c7a4c1c3f06"
+      "from": "7a0c87c8fcfd",
+      "to": "66c5ac6edd20"
     },
     {
       "title": "waixv-superagent/dsh-superagent-prototype",
       "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "from": "50eeb3ad884c",
-      "to": "904480d2eeea"
+      "from": "904480d2eeea",
+      "to": "8339d9bb4d93"
     },
     {
-      "title": "zhangzihaoDT/dsh-superagent-mashang-service",
-      "url": "https://github.com/zhangzihaoDT/dsh-superagent-mashang-service",
-      "from": "0a4a3cdc2379",
-      "to": "f2ba5903c813"
+      "title": "mystic7c/dsh-superagent-panel",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel",
+      "from": "e1d7b8c8f0c2",
+      "to": "3eb3061f7e52"
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions 13559-13562 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13562",
+      "confidence": 0.9,
+      "reason": "#13559 at 2026-11-17T03:51:20Z is a Desktop rc.3 profile-save path-casing failure. #13560 at 03:58:44Z asks for official model numbers. #13561 at 04:12:22Z is a Tiana publishing plugin; the only 原型 is a personal-project phrase and the body does not contain superagent, super-agent, or dsh-superagent. #13562 at 04:18:49Z is a headless CLI session shown as stopped. Comments after 03:40:50Z on #9692, #13558, #13559, and #10034 do not contain those words. #13549 updated at 04:05:05Z and its newest comment is older. #13563 does not exist. Not listed."
+    },
+    {
+      "title": "steveopen1 proxy commit still republishes the listed Windows port",
+      "url": "https://github.com/steveopen1/dsh-superagent",
+      "confidence": 0.9,
+      "reason": "Tip 6bb5c0fe034c at 2026-11-17T03:46:55Z adds one proxy setting across GitHub polling, the agent CLI, and worker git/gh. README title remains dsh-superagent-win and still describes the same Windows port plus per-command identity. The bridge files in that commit were not read line by line. dsh-plan-superagent tip 835b7e97a04d at 03:47:24Z only pins dependencies.dsh-superagent to github:steveopen1/dsh-superagent#6bb5c0fe034c. 40776c3ef0fb writes bridge evidence and was not read line by line. Not listed."
+    },
+    {
+      "title": "t3code, persona, and IHUI do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/907ff258e07b",
+      "confidence": 0.9,
+      "reason": "t3code tip 907ff258e07b at 2026-11-17T04:27:26Z. Compare from ccae953c46c0 is 7 commits and 19 files. No filename matches superagent, super-agent, hextor, or dsh. persona tip 397bab2c95c4 at 04:26:07Z. Compare from f38beca29f41 is 6 commits and 34 files. No filename matches superagent, super-agent, hextor, dsh, or harness. IHUI tip aa84d31e4b3c at 04:25:13Z. Compare from 70142902c85f is 5 commits and 3 files. No filename matches super-agent, superagent, or dsh. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 03:40Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. updated_at 2026-11-17T04:18:00Z is not a commit. Harness tip stays 39163dd30f70. updated_at 2026-11-17T04:27:59Z is not a commit. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. Missher, mashang, superboard, LittleChenLiya, MYCF711, vivy reset, DASHAN, injet, and ReSerendipity had no commit after 03:40:50Z. SkillfulAgents main stays 7623d09f6531. Nelson master stays e28eba14fa4c; pushed_at 04:22:36Z is not a commit. kabiyangyang tip stays 1c0938eaf597; pushed_at 03:42:08Z is not a newer commit. fancleef/superagent-playground stays size 0. larksuite/cli main stays 3d82c85419ad. oh-my-pi main stays 1bdbf6d242d9. arXiv dsh-superagent returned 0. No new HN story. Not listed."
+    },
     {
       "title": "Harness discussions 13553-13558 do not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13558",
@@ -12233,9 +12251,12 @@
     }
   ],
   "rejected_this_run": [
-    "Added none. Updated booth from e7fb557803dd to 7a0c87c8fcfd (0.3.65). Updated Missher from e1684da402a5 to 0c7a4c1c3f06 (1.14.0). Updated waixv from 50eeb3ad884c to 904480d2eeea. Updated mashang from 0a4a3cdc2379 to f2ba5903c813. Started from b0e17f6. steveopen1/dsh-plan-superagent depends on the rejected Windows republish. fancleef/superagent-playground is empty. kabiyangyang remains a test repo. ReSerendipity 33a01aa652c8 stays unlisted. Discussions #13553-#13558 do not name the prototype. t3code, persona, SkillfulAgents, and oh-my-pi do not name it. mystic7c #87 is not merged. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
+    "Added none. Updated booth from 7a0c87c8fcfd to 66c5ac6edd20 (0.3.66). Updated waixv from 904480d2eeea to 8339d9bb4d93 (#116 prepare/apply, #117 mayActOnCard). Updated mystic7c from e1d7b8c8f0c2 to 3eb3061f7e52 (1.0.8). Started from 7d1e2c4. steveopen1/dsh-superagent 6bb5c0fe034c still republishes the Windows port. dsh-plan-superagent 835b7e97a04d only repins that commit. Discussions #13559-#13562 do not name the prototype. t3code 907ff258e07b, persona 397bab2c95c4, and IHUI aa84d31e4b3c do not name it. Prototype tip still 8c32a9dc5d72. Harness tip still 39163dd30f70. npm latest remains 0.2.2-rc.1, next 0.2.2-rc.3, alpha 0.2.2-alpha.3."
   ],
   "held_on_other_branches": [
+    "pingdotgg/t3code compare from ccae953c46c0 is 7 commits and 19 files. No superagent, super-agent, hextor, or dsh filename. Tip 907ff258e07b.",
+    "nwverse/persona compare from f38beca29f41 is 6 commits and 34 files. No superagent, super-agent, hextor, dsh, or harness filename. Tip 397bab2c95c4.",
+    "IHUI-INF-AI/IHUI-AI compare from 70142902c85f is 5 commits and 3 files. No super-agent, superagent, or dsh filename. Tip aa84d31e4b3c.",
     "pingdotgg/t3code compare from 9e32c95576f7 is 12 commits and 41 files. No superagent, super-agent, hextor, or dsh filename. Tip ccae953c46c0.",
     "nwverse/persona compare from 9c1cfa42420a is 18 commits and 169 files. The only filename hit is ForwardSheet.swift. Tip f38beca29f41.",
     "SkillfulAgents/SuperAgent main stays 7623d09f6531. #2019 is an open cloud-browser pull request.",
