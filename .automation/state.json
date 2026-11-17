@@ -1,80 +1,86 @@
 {
-  "last_run_at": "2026-11-17T10:35:47Z",
+  "last_run_at": "2026-11-17T11:34:29Z",
   "timezone": "UTC",
-  "baseline_commit": "9c00666",
+  "baseline_commit": "50e1bd1",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-17T09:31:16Z",
-    "to": "2026-11-17T10:35:47Z"
+    "from": "2026-11-17T10:35:47Z",
+    "to": "2026-11-17T11:34:29Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "Missher12/Missher-DSH-Superagent",
-      "url": "https://github.com/Missher12/Missher-DSH-Superagent",
-      "from": "0c7a4c1c3f06",
-      "to": "ea871ca05589"
-    },
-    {
-      "title": "lanshi17/dsh-booth",
-      "url": "https://github.com/lanshi17/dsh-booth",
-      "from": "e280a8705dc2",
-      "to": "f93af8a89003"
-    },
-    {
-      "title": "sallaumen/dsh-superagent-superboard",
-      "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "from": "f3b7c3415696",
-      "to": "4b7b58239612"
-    },
-    {
-      "title": "baojingyu/dsh-superagent-multi-channel",
-      "url": "https://github.com/baojingyu/dsh-superagent-multi-channel",
-      "from": "c3884da97c2a",
-      "to": "18edb120e724"
-    },
-    {
-      "title": "Me106y/dsh-superagent-launcher",
-      "url": "https://github.com/Me106y/dsh-superagent-launcher",
-      "from": "16812bcf4829",
-      "to": "3705bbc7167d"
-    },
-    {
       "title": "waixv-superagent/dsh-superagent-prototype",
       "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "from": "7838beabefbd",
-      "to": "e247b120fe8a"
+      "from": "e247b120fe8a",
+      "to": "c5f9089e48af"
     },
     {
       "title": "sallaumen/dsh-superagent-superboard",
       "url": "https://github.com/sallaumen/dsh-superagent-superboard",
-      "from": "9d11fb4541de",
-      "to": "f3b7c3415696"
+      "from": "4b7b58239612",
+      "to": "4cb4649cc9d7"
     },
     {
       "title": "baojingyu/dsh-superagent-multi-channel",
       "url": "https://github.com/baojingyu/dsh-superagent-multi-channel",
-      "from": "15ba1894c238",
-      "to": "c3884da97c2a"
+      "from": "18edb120e724",
+      "to": "e301291103b1"
     },
     {
-      "title": "LittleChenLiya/dsh-superagent npm 0.16.10",
+      "title": "mystic7c/dsh-superagent-panel",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel",
+      "from": "3eb3061f7e52",
+      "to": "6385093a6bd9"
+    },
+    {
+      "title": "LittleChenLiya/dsh-superagent npm 0.18.3",
       "url": "https://www.npmjs.com/package/@xiangyixie/dsh-superagent",
-      "from": "0.16.6",
-      "to": "0.16.10"
-    },
-    {
-      "title": "Colton-z/AstraBox",
-      "url": "https://github.com/Colton-z/AstraBox",
-      "from": "2695754a1d5e",
-      "to": "607bc6c827a2"
+      "from": "0.16.10",
+      "to": "0.18.3"
     }
   ],
   "pending": [
+    {
+      "title": "Harness discussions 13587-13595 do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13595",
+      "confidence": 0.9,
+      "reason": "#13587 at 2026-11-17T10:35:56Z is a cordis preset missing dsh-tool-office. #13589 at 10:50:29Z is ctx.inject shadowing in dsh-auto-evolve. #13593 at 11:24:35Z is an EMFILE startup failure after any external plugin. Those three bodies do not contain superagent, super-agent, dsh-superagent, or 原型. #13588, #13590, #13591, #13592, #13594, and #13595 were judged from titles only: opencode header, telemetry crash, model balance, free-form tool calling, macOS auth, and a sidebar logo. Not listed."
+    },
+    {
+      "title": "cg-dsh poll commits were not read line by line",
+      "url": "https://github.com/cg-dsh/dsh-superagent-prototype/commit/1853268af93c",
+      "confidence": 0.85,
+      "reason": "Still describes itself as a private mirror. 59f540d0c108 at 2026-11-17T10:38:09Z says a poll round reports where time goes. 1853268af93c at 10:54:56Z says eight readers and no idle pause. Neither was read line by line. Not listed."
+    },
+    {
+      "title": "xyt071024 docs rewrite was not read line by line",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/15f3751e2fd5",
+      "confidence": 0.7,
+      "reason": "Tip 15f3751e2fd5 at 2026-11-17T11:05:44Z rewrites the README for v0.3.6. The file was not read. Earlier holds for dropping the explicit-request exception stay. Not listed."
+    },
+    {
+      "title": "CoNest loopback commits were not read line by line",
+      "url": "https://github.com/cc8887/CoNest/commit/79908617cad0",
+      "confidence": 0.62,
+      "reason": "Created 2026-11-17T03:55:14Z. Tip 79908617cad0 at 11:00:02Z records a Docker release. 45f9594b0642 at 10:50:47Z and 765f8b7e4e46 at 10:41:33Z mention loopback management. The tree was not read. Not listed."
+    },
+    {
+      "title": "t3code and IHUI do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/33542a53be7c",
+      "confidence": 0.9,
+      "reason": "t3code tip 33542a53be7c at 2026-11-17T11:29:49Z. Compare from 134580067f3c is 5 commits and 19 files. No filename matches superagent, super-agent, hextor, or a dsh path. IHUI tip a2e896904c8e at 11:02:01Z. Compare from bc88f35bcdcc is 3 commits. Files are README counts, a DSML parser, and the WorkBuddy adapter. No super-agent path. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 10:35Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness tip stays 39163dd30f70. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.3, alpha stays 0.2.2-alpha.3. Booth, Missher, Me106y, wheelchair, AstraBox, injet, steveopen1/dsh-superagent, and steveopen1/dsh-plan-superagent have no commit after 10:35:47Z. oh-my-pi tip stays 1bdbf6d242d9; pushed_at 10:34:09Z is not a newer commit. Xenra, TianzeLuo, and imx123 have no commit after 10:35:47Z. arXiv dsh-superagent returned 0. The newest HN story naming dsh-superagent is still 2026-11-11. Not listed."
+    },
     {
       "title": "Harness discussions 13583-13586 do not name the prototype",
       "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13586",
@@ -12515,7 +12521,7 @@
     }
   ],
   "rejected_this_run": [
-    "Added none. Updated booth from e280a8705dc2 to f93af8a89003 (0.3.68, no omp launch). Updated superboard from f3b7c3415696 to 4b7b58239612 (#824 split ceiling). Updated multi-channel from c3884da97c2a to 18edb120e724 (repo and npm 2.5.3). Updated Me106y from 16812bcf4829 to 3705bbc7167d (ps stop, profile delete, child_path). Updated Missher from 0c7a4c1c3f06 to ea871ca05589 (1.14.1, missed by the 07:35Z through 09:31Z scans). Started from 9c00666."
+    "Added none. Updated waixv from e247b120fe8a to c5f9089e48af (#125 model relay). Updated superboard from 4b7b58239612 to 4cb4649cc9d7 (#825 delivery receipt, #826 answered questions). Updated multi-channel from 18edb120e724 to e301291103b1 (distribution docs only). Updated mystic7c from 3eb3061f7e52 to 6385093a6bd9 (1.0.12). Updated LittleChenLiya public tip from c124c2818f95 to fab757877c67 and npm latest from 0.16.10 to 0.18.3. Started from 50e1bd1."
   ],
   "held_on_other_branches": [
     "pingdotgg/t3code compare from d27002bf9935 to f98249acad34 is 19 commits and 114 files. No superagent, super-agent, hextor, dsh, or harness filename.",
@@ -12960,5 +12966,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-13T08:05:45.849Z. Unscoped dsh-superagent, dsh-superagent-linear, dsh-superagent-signal, and @missher/dsh-superagent remain 404. dsh-foreman latest remains 0.9.1 (published 2026-11-16T05:34:38.792Z). @xiangyixie/dsh-superagent latest is 0.16.10 (published 2026-11-17T09:31:50.653Z, gitHead 0d4178199971ed3db5468e2761f8147e42c9cb92 returns 422, shasum 10c445a90f3f7c3e1a4dd9e30dbdb7a7c288a66e, 63 files). 0.16.7 published 2026-11-17T08:34:56.026Z (gitHead b788166b0e51b432d610a325ff60dcc30a8c11e4, shasum 19683020aa63f0993c3e0a0a91e7d204475de983), 0.16.8 at 08:41:49.925Z (gitHead 25d40737abd5a5672ff89d8a03497b40c527476c, shasum 4f8fa19f2cf289f134c04eb6a77d9818c8b5de36), 0.16.9 at 09:16:45.618Z (gitHead c7afc09ceff990c0f005fab37bf6c48806252ab1, shasum fd3c89e46cf08de0f7fd75cdde36c0cbe54ab20f). 0.16.6 remains published 2026-11-17T08:20:25.382Z. 0.16.2 published 2026-11-17T07:37:09.742Z, 0.16.3 at 07:46:34.577Z, 0.16.4 at 07:55:31.062Z, 0.16.5 at 08:10:27.802Z. 0.16.1 remains published 2026-11-17T07:11:21.812Z. 0.16.0 remains published 2026-11-17T06:22:04.308Z. 0.15.3 published 2026-11-17T05:52:35.027Z (gitHead 3235096be88e02bac2fffb103ce67d85e7299a25), 0.15.4 at 2026-11-17T05:57:48.028Z (gitHead 82efc17a0a4b66a8f4c8d47aac0edb98a6528ca1). 0.15.2 remains published 2026-11-17T05:25:11.435Z. dsh-superagent-multi-channel latest is 2.5.3 (published 2026-11-17T10:31:54.538Z, modified 2026-11-17T10:31:54.849Z, gitHead 18edb120e7241c7f9870dec3b54b6e3680579711, shasum d9468356edf303d882ac7ed28ad49ea8de68d9cf, 82 files). 2.5.1 published 2026-11-17T09:52:06.087Z (gitHead c3884da97c2ac45faaee3148404b775d12b8b440, shasum 194459011404a599394fa8076694ff7f00a8a608, 83 files). 2.5.2 published 2026-11-17T09:52:43.502Z (same gitHead, shasum 0e1685fd374f0adf6c0e5c6e30922d8ac6ab951b, 83 files). 2.5.0 remains published 2026-11-16T17:10:14.535Z. dsh-session-superagent latest remains 0.10.12. dsh-superagent-view remains 404. @reserendipity/dsh-superagent latest is 0.2.10 (published 2026-11-17T05:50:39.964Z, gitHead 3509242ff3421d23cd2841d072b3b3f8d2e82623) and stays unlisted."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.3 (published 2026-11-13T08:05:45.455Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-13T08:05:45.849Z. @xiangyixie/dsh-superagent latest is 0.18.3 (published 2026-11-17T11:23:57.670Z, gitHead a380f921a8bdcfaf6af4ee86699483f337895a84, shasum 131ff69d92f4d6735d7c0d7aa2f992203c444c0e, 63 files). dsh-superagent-multi-channel latest remains 2.5.3 (gitHead 18edb120e7241c7f9870dec3b54b6e3680579711)."
 }
