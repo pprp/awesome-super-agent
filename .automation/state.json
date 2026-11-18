@@ -1,22 +1,57 @@
 {
-  "last_run_at": "2026-11-18T01:39:34Z",
+  "last_run_at": "2026-11-18T02:32:05Z",
   "timezone": "UTC",
-  "baseline_commit": "db3b3ec",
+  "baseline_commit": "4905827",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-18T00:32:00Z",
-    "to": "2026-11-18T01:39:34Z"
+    "from": "2026-11-18T01:39:34Z",
+    "to": "2026-11-18T02:32:05Z"
   },
   "added": [],
   "updated": [
-    "LittleChenLiya/dsh-superagent: npm @xiangyixie/dsh-superagent 0.23.0, tip 7aa072e38f01, behavior 9c4e6a878f73",
-    "DASHAN-0079/dsh-superagent-adapt: private 0.1.1, tip d236a92b7000, tag v0.1.1"
+    "waixv-superagent/dsh-superagent-prototype: #128 10ac7156d088, tip 3431237d5a883460d051d3c79dee2923bb66f0da, budgets 70100/64900"
   ],
   "pending": [
+    {
+      "title": "waixv #128 recorded on the existing bullet",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/commit/3431237d5a88",
+      "confidence": 0.96,
+      "reason": "Merge 3431237d5a88 at 2026-11-18T01:58:59Z of #128, feature 10ac7156d088 at 01:57:38Z. execution_mode is phased only when the person's own message asks; omitted mode stays standard and is not inferred. It is stored on execution.mode. DSH_SUPERAGENT_MODE is set only with a ticket. Phased tickets start in plan on git and p4; standard git still starts in implement. phases are 2-4, names at most 20 code points and unique case-insensitively, jobs at most 300, files optional up to 20, after at most 3 earlier phases, route must be in list_subagent_models. Parallel phases with declared paths cannot overlap as the same path or a directory prefix after slash and case normalization. Plan text must name the phase and its display name, provider/model, or bare model id. Standard-with-phases, phased-without-phases, and phased decided:true are refused. Self-iteration cannot skip the card. Approval writes modelGrants with role equal to the phase name and planAt equal to the plan time, skipping an existing provider, model, and role. The approval input names the grants and the 只调度 conditional. The worker prompt offers 只调度 and 参与实现 only when the chain is deeper than three or two phases may run side by side. The host does not change tool permission from that choice. A backend move keeps a phased ticket's current phase. Test comments measure orchestrator 69963 and worker 64799; budgets are 70100 and 64900. Recorded on the existing bullet. Do not repeat unless execution_mode, planPhaseProblem, grantPlanModels, or those budgets change."
+    },
+    {
+      "title": "hwachief webhook bridge is a README stub",
+      "url": "https://github.com/hwachief/dsh-superagent-webhook-bridge",
+      "confidence": 0.93,
+      "reason": "Created 2026-11-18T02:11:00Z, pushed_at 2026-11-18T02:11:02Z, size 0. Initial commit bb5b03a462ae adds .gitignore, MIT LICENSE, and a two-line README. No source, package, or webhook handler. Not listed."
+    },
+    {
+      "title": "t3code translation does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/055b44919eeb",
+      "confidence": 0.9,
+      "reason": "main tip 055b44919eeb at 2026-11-18T02:25:50Z. Compare from 65accaf23cc5 is 4 commits and 300 files: 42763ff8b12b reads a pull number once, 08f324988ef1 keeps DOCX tabs, 724f5c6bec17 keeps the last usage reading, and 055b44919eeb translates the app. No filename matches superagent, super-agent, hextor, or dsh-super. Not listed."
+    },
+    {
+      "title": "Harness discussions updated after 01:39Z do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13640",
+      "confidence": 0.93,
+      "reason": "#13640 created at 2026-11-18T02:25:25Z is a Windows updater LiteralPath case mismatch. #13639 at 02:08:02Z asks to bound session memory. #13638 at 02:01:45Z is an ask_user_question loop. #13637 at 01:41:58Z is content_filter copy. #13626 updated at 02:00:58Z is dsh-computer-use-pip. #12098 comment at 02:02:32Z is the bad-port startup failure on 0.2.2-rc.3. #8876 comment at 02:19:11Z is gateway input modalities. Full bodies and the latest comments do not contain superagent, super-agent, dsh-superagent, or 原型. Not listed."
+    },
+    {
+      "title": "SkillfulAgents pushes after 01:39Z are not main",
+      "url": "https://github.com/SkillfulAgents/SuperAgent/commit/ee6c07c20110",
+      "confidence": 0.9,
+      "reason": "main tip stays ee6c07c20110 at 2026-11-17T23:30:21Z. Commits since 2026-11-18T01:39:34Z on the default branch returned 0. pushed_at was 2026-11-18T02:16:22Z and later 02:29:48Z. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 01:39Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2 and pushed_at stays 2026-11-17T17:55:09Z. Release list still tops at dsh-v0.2.2-rc.4. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.4, alpha stays 0.2.2-alpha.3. Registry modified stays 2026-11-17T17:03:03.383Z. @xiangyixie/dsh-superagent stays 0.23.0. multi-channel stays 2.5.3. dsh-session-superagent stays 0.10.12. LittleChenLiya tip stays 7aa072e38f01. DASHAN tip stays d236a92b7000. ReSerendipity tip stays dd16f5181981. tanxinz tip stays 88de244edadd. oh-my-pi tip stays e1ae2cc998ef. superboard, booth, Missher, MYCF711, AstraBox, injet, dsh-ghost, dsh-foreman, billLiao, awesome-dsh-plugin, wheelchair, mystic7c, Me106y, lzp-plus, Robert-Wang-08, vivy-dsh, fzss2012, touch-agent, codefufuai, and IHUI have no commit after 01:39Z. n-loml/dsh-superagent-test stays empty. A name search of dsh-superagent repositories pushed on 2026-11-18 found hwachief after 01:39Z and no other new implementation. arXiv dsh-superagent returned 0. The newest HN story naming dsh-superagent is still 2026-11-11. Not listed."
+    },
     {
       "title": "LittleChenLiya 0.23.0 recorded on the existing bullet",
       "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/9c4e6a878f73",
@@ -13033,7 +13068,7 @@
     }
   ],
   "rejected_this_run": [
-    "Added none. Updated the LittleChenLiya and DASHAN bullets. tanxinz 88de244edadd only touches examples/personal-native checks and a review doc. t3code 65accaf23cc5 and oh-my-pi e1ae2cc998ef have no matching filename. n-loml/dsh-superagent-test is an empty repository. Discussions #13636, #3610, #12751, #13611, and #11337 do not name the prototype. Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2. npm @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3."
+    "Added none. Updated the waixv bullet for #128 phased execution_mode at 3431237d5a88. hwachief/dsh-superagent-webhook-bridge bb5b03a462ae is a README stub. t3code 055b44919eeb is 4 commits and 300 files from 65accaf23cc5 with no matching filename. SkillfulAgents main stays ee6c07c20110. Discussions #13637-#13640, #13626, #12098, and #8876 do not name the prototype. Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2. npm @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3."
   ],
   "held_on_other_branches": [
     "tanxinz/dsh-superagent main is now b492b53bc96f. The personal-native overlay is on main and was read. It is not a non-default branch.",
