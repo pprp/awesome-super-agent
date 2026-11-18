@@ -1,23 +1,58 @@
 {
-  "last_run_at": "2026-11-18T08:38:05Z",
+  "last_run_at": "2026-11-18T09:34:48Z",
   "timezone": "UTC",
-  "baseline_commit": "8fa334d",
+  "baseline_commit": "e3b85a7",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-18T07:34:18Z",
-    "to": "2026-11-18T08:38:05Z"
+    "from": "2026-11-18T08:38:05Z",
+    "to": "2026-11-18T09:34:48Z"
   },
   "added": [],
   "updated": [
-    "wealth/dsh-superagent-prototype: tip bc6d5365dbcb adds deploy checks, QA skill, Playwright MCP, harness2, memory, and a support preset",
-    "waixv-superagent/dsh-superagent-prototype: tip 0db0900f55a2 opens Feishu AppLinks in the desktop shell and deploys hot self-iteration",
-    "seabiscuit-agent/dsh-superagent-prototype: tip e444d809c1bb is a docs-only answer-panel proposal"
+    "wealth/dsh-superagent-prototype: tip 90c3dd9c2c7a loads the support preset from @deepseek-ai/dsh-agent-preset and rejects AgentMail only on DMARC or unauthenticated evidence",
+    "seabiscuit-agent/dsh-superagent-prototype: tip 6f512b735892 implements panel answer, 15s withdraw, and correction"
   ],
   "pending": [
+    {
+      "title": "wealth support preset module and AgentMail object auth recorded",
+      "url": "https://github.com/wealth/dsh-superagent-prototype/commit/90c3dd9c2c7a",
+      "confidence": 0.95,
+      "reason": "Tip 90c3dd9c2c7a at 2026-11-18T09:15:06Z is 4 commits ahead of bc6d5365dbcb and 0 behind. 5760a1b7d372 changes the support preset cordis name from dsh-superagent-support to @deepseek-ai/dsh-agent-preset. Entry id and config.id stay dsh-superagent-support. 2f593cda3410 and 069cafeaedd9 only replace Feishu-era wording in prompts and operator docs with Mattermost, Telegram, AgentMail, and chat or mail. SETUP.md no longer checks lark-cli. No source file was deleted. 90c3dd9c2c7a accepts authentication_results as a string or other JSON, stringifying non-strings. Absent or null still receives. A present value is skipped only when dmarc is followed within 80 characters by fail, softfail, or permerror, or unauthenticated is followed within 80 characters by true. An spf or dkim failure alone does not reject. Package stays private 0.1.0, engines.dsh ^0.2.1-alpha.2. Tests were not rerun. Recorded on the existing bullet. Do not repeat unless the preset name, the auth regex, or the deleted-source claim changes."
+    },
+    {
+      "title": "seabiscuit panel answers are implemented",
+      "url": "https://github.com/seabiscuit-agent/dsh-superagent-prototype/commit/6f512b735892",
+      "confidence": 0.96,
+      "reason": "Tip 6f512b735892 at 2026-11-18T09:20:57Z is 4 commits ahead of e444d809c1bb and 0 behind. #29 merges 08b265b5bd75, which writes the answer slot into src/. WITHDRAW_WINDOW_MS is 15000. answerPersonQuestion is one slot for panel and channel, first write wins. A panel answer must be one of the options, stays pending, and does not add a worker Input until commitWithin. A channel answer uses holdMs 0 and commits immediately. commitAnswer is silent when the question is no longer pending or the ticket has ended. withdrawAnswer is only inside the window and before commit. correctAnswer throws withdrawInstead while pending, is a no-op for the same text, and writes question-correction:<id>:<n> with correction true. personAnswered uses the channel entry; a taken slot records question.answer-ignored. Ticket end marks unresolved questions withdrawn and does not emit an Input for a pending answer. Panel routes are POST tickets/:id/questions/:questionId/answer, withdraw, and correct. Conflicts are HTTP 409. #30 archives the openspec and does not change src/. Package stays private 0.1.0, engines.dsh ^0.2.1-alpha.2. Tests were not rerun. Recorded on the existing bullet. Do not repeat unless the window, the slot rule, the route names, or the end-of-ticket withdraw changes."
+    },
+    {
+      "title": "jiurang needs-you badge was read, the workbench domain was not",
+      "url": "https://github.com/jiurang/dsh-superagent-prototype/commit/e7115c8fb7b6",
+      "confidence": 0.74,
+      "reason": "Tip e7115c8fb7b6 at 2026-11-18T08:47:42Z is 3 commits ahead of 8c32a9dc5d72 and 0 behind. The new commit widens .wb-view to 960px and .wb-doc to 900px, and registers sidebar.footer.action id xg-attention. SidebarBadge polls /workbench every 30s and counts requirements 待确认, tasks 待验收 or 阻塞 or 就绪, inbox 未处理, and memory 待复核. Zero hides the button. Over 99 shows 99+. Click selects the today panel. The earlier src/xg domain, engine.ts, and sessions.ts diffs were still not read line by line. Package stays private 0.1.0, engines.dsh ^0.2.1-alpha.2. Not listed. Do not repeat the badge formula or the two widths unless they change."
+    },
+    {
+      "title": "xiancaige queued counter was type-narrowed, handlers still unread",
+      "url": "https://github.com/xiancaige/dsh-superagent-prototype/commit/01726dd320d4",
+      "confidence": 0.72,
+      "reason": "Tip 01726dd320d4 at 2026-11-18T08:48:14Z is 64 commits ahead of 8c32a9dc5d72 and 0 behind. The window commit changes one line in src/app/feishu-commands.ts: the overview queued count now requires stage.stage === working and stage.action === queued. The command handlers and the earlier 63 commits were not read through. Package stays private 0.1.0, engines.dsh ^0.2.1-alpha.2. Not listed. Do not repeat unless the queued condition or a handler's command set changes."
+    },
+    {
+      "title": "t3code and discussions after 08:38Z do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/316c3256a3a0",
+      "confidence": 0.9,
+      "reason": "t3code main tip 316c3256a3a0 at 2026-11-18T09:08:16Z is 6 commits ahead of b648395fa5af. Filenames are keep-awake, Windows service encoding, Claude subagent resume, imported Claude threads, Muse errors, and a simulator typing fix. No filename matches superagent, super-agent, hextor, or dsh-super. Discussions #13677 through #13684, created from 2026-11-18T08:35:01Z to 09:21:08Z, are evokit, gateway reasoning, session-record 431s, Numes models, a voice-slot conflict, a pnpm Git URL hang, dsh-move-up 0.4.5, and a sidebar move-up. Bodies do not contain superagent, super-agent, dsh-superagent, or 原型. Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2. Release list still tops at dsh-v0.2.2-rc.4. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.4, alpha stays 0.2.2-alpha.3. Registry modified stays 2026-11-17T17:03:03.383Z. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. @xiangyixie/dsh-superagent stays 0.23.0. dsh-superagent-multi-channel latest stays 2.5.3. arXiv query all:dsh-superagent returned 0 results. HN newest story timestamp naming the query is still 2026-11-11T16:50:41Z. Not listed beyond the rows this run changed."
+    },
+    {
+      "title": "WalleDj, ClumsyWu, and the two playgrounds stay unlisted",
+      "url": "https://github.com/WalleDj/superagent-test/commit/2589a1697b55",
+      "confidence": 0.93,
+      "reason": "WalleDj/superagent-test pushed 2026-11-18T09:28:50Z. Description says dsh-superagent test playground. Tip 2589a1697b55 merges a farewell(name) change. ClumsyWu/dsh-superagent-test pushed 2026-11-18T09:29:26Z. Tip commits rewrite a README and add a project skill for dsh-superagent testing. 1787463152-hub/agent-playground and agent-playground-mac pushed 2026-11-18T08:47Z and only sync STATUS-win.md and STATUS-mac.md. Sandbox, playground, and test repositories stay unlisted."
+    },
     {
       "title": "wealth deploy checks, presets, and support reader recorded",
       "url": "https://github.com/wealth/dsh-superagent-prototype/commit/bc6d5365dbcb",
@@ -13394,16 +13429,10 @@
     }
   ],
   "rejected_this_run": [
-    "xymtop/dsh-superagent-sandbox is a one-line README",
-    "condealex600-stack/superagent-work-test is a two-line README",
-    "WalleDj/superagent-test only adds farewell(name) to hello.py",
-    "dbc-hbin tip db3d74e4f371 still refreshes OMP presets",
-    "gerdr-dev/gerdr-panel-superagent is a Gerdr panel",
-    "I-linmeng-I/SuperAgentForCopilot has no dsh or deepseek string",
-    "DouLion/SuperAgentPlusCloud 7ef12a79977d is a docs restructure with empty implementation dirs",
-    "pingdotgg/t3code has no superagent filename",
-    "Harness discussions 13671-13676 do not name this prototype",
-    "jiurang and xiancaige forks were not line-read"
+    "WalleDj/superagent-test is a playground farewell function",
+    "ClumsyWu/dsh-superagent-test is a test skill and README",
+    "1787463152-hub/agent-playground only syncs STATUS-win.md",
+    "1787463152-hub/agent-playground-mac only syncs STATUS-mac.md"
   ],
   "held_on_other_branches": [
     "YansongG-HKU/dsh-superagent-windows PR #8 is open from cursor/verify-dsh-superagent-612d onto windows-port and is not merged. Tip stays 94a988559c0e.",
