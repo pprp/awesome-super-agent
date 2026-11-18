@@ -1,23 +1,79 @@
 {
-  "last_run_at": "2026-11-18T03:35:31Z",
+  "last_run_at": "2026-11-18T04:39:34Z",
   "timezone": "UTC",
-  "baseline_commit": "4c82b54",
+  "baseline_commit": "ddcb9a7",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-18T02:32:05Z",
-    "to": "2026-11-18T03:35:31Z"
+    "from": "2026-11-18T03:35:31Z",
+    "to": "2026-11-18T04:39:34Z"
   },
-  "added": [],
+  "added": [
+    "seabiscuit-agent/dsh-superagent-prototype: schedule source 89b867257ee4, tip 28b6e355347f",
+    "wealth/dsh-superagent-prototype: prNotices 5bbf4bb01b37"
+  ],
   "updated": [
-    "waixv-superagent/dsh-superagent-prototype: #127 688ff45d6e38 d526d7840a6d 9302b9ebb1a3, tip a3a59031376d",
-    "wychmod/dsh-mini-superagent: 0.10.1 tip 835b6ac943aa, registerBoardRoutes isolates register failures",
-    "DASHAN-0079/dsh-superagent-adapt: icon-180.png at 1e8aaeac5cc9, tag v0.1.1 stays d236a92b7000"
+    "lanshi17/dsh-booth: 0.3.69 94e814fd77f1, tag 7032d3a066da, release v0.3.69",
+    "DASHAN-0079/dsh-superagent-adapt: prebuilt tarball README 34c21ffd6b78, asset dsh-superagent.tgz"
   ],
   "pending": [
+    {
+      "title": "booth 0.3.69 goal delegation recorded on the existing bullet",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/94e814fd77f1",
+      "confidence": 0.95,
+      "reason": "94e814fd77f1 at 2026-11-18T03:48:47Z bumps 0.3.68 to 0.3.69. apply_superagent_patch.py also applies patches/dsh-superagent-goal-delegation.patch with git apply --unidiff-zero. build() applies it only when src/app/sessions.ts exists and .booth-prebuilt is absent. The patch adds command-goal, tool-goal, a spawn subagent on preset dsh-superagent-worker with commandcode and deepseek/deepseek-v4.1-flash, and a fork subagent_fork. ROUTER_DELEGATION_TOOLS are subagent, subagent_fork, list_subagent_models, send_message, list_agents, interrupt_agent, get_goal, create_goal, and update_goal. The orchestrator prompt and decider contract say goal mode delegates substantial work to parallel subagents. The submodule pointer did not change. Annotated tag v0.3.69 object 7032d3a066da points at 94e814fd77f1. Release v0.3.69 published 2026-11-18T03:59:26Z is not a draft; assets are booth-linux-aarch64, booth-linux-x86_64, booth-runtime.tar.gz, and three sha256 files. Recorded on the existing bullet. Do not repeat unless the patch set, the prebuilt skip, the worker preset, the model, or the release assets change."
+    },
+    {
+      "title": "seabiscuit schedule source listed",
+      "url": "https://github.com/seabiscuit-agent/dsh-superagent-prototype/commit/28b6e355347f",
+      "confidence": 0.93,
+      "reason": "Feature 89b867257ee4 committed 2026-11-18T03:49:14Z, merged as #23 d20db9a9 at 03:55:56Z. Tip 28b6e355347f at 04:12:20Z merges #24, which only archives openspec and adds a note; src/ is unchanged in that commit. cordis.patch.yml adds dsh-superagent-schedule / dsh-superagent/schedule-watch with disabled true. Five-field cron plus an IANA timezone. One Trigger per due instant, id from the job key and the due instant, no sender, human false. The source opens no ticket. The KV cursor schedule-cursor: advances in the same atomic step as receive. A new row anchors on the latest due instant and does not fire it or replay history. Pause, source off, and setup pending produce no Trigger; resume fires only the latest missed instant. A bad cron or timezone reports scheduleJobInvalid for that row and other rows in the same loop still fire. The field hint says the unlisted, unaddressed cell must be set to inferred before a Trigger reaches assessment. Package stays private dsh-superagent 0.1.0, engines.dsh ^0.2.1-alpha.2, author still DeepSeek Harness Team. Tests were not rerun. Do not repeat unless disabled, the cron fields, the cursor rule, or the catch-up rule changes."
+    },
+    {
+      "title": "wealth prNotices switch listed",
+      "url": "https://github.com/wealth/dsh-superagent-prototype/commit/5bbf4bb01b37",
+      "confidence": 0.92,
+      "reason": "Fork of deepseek-ai/dsh-superagent-prototype. Tip 5bbf4bb01b37 at 2026-11-18T03:36:45Z. prNotices defaults true on ExecutorConfigSchema. DSH_SUPERAGENT_PR_NOTICES is 1 when true and empty when false. pullEndNotices runs only when the switch is on and setup is configured, and still skips GitHub channels. The communication prompt forbids IM PR readiness and merge or close notices when the variable is empty; answers and human-attention stay allowed. When it is set, an IM ticket sends the result and PR link before merge and a completion notice at the end. Notice language is Chinese for Han without kana, otherwise Russian for Cyrillic (вмержен / закрыт без мержа), otherwise English. The Execution settings page has the switch. README says the prototype is not a DeepSeek product and also listens to Mattermost and AgentMail; those two sources were not reread. Package stays private 0.1.0 and engines.dsh ^0.2.1-alpha.2. Tests were not rerun. Do not repeat unless the default, the env values, the host gate, or the language rule changes."
+    },
+    {
+      "title": "DASHAN prebuilt tarball recorded on the existing bullet",
+      "url": "https://github.com/DASHAN-0079/dsh-superagent-adapt/commit/34c21ffd6b78",
+      "confidence": 0.96,
+      "reason": "34c21ffd6b78 at 2026-11-18T03:39:19Z adds nine README lines and no other file. The install line is dsh plugin add https://github.com/DASHAN-0079/dsh-superagent-adapt/releases/latest/download/dsh-superagent.tgz. Release v0.1.1 published 2026-11-18T03:22:54Z. Asset dsh-superagent.tgz uploaded 2026-11-18T03:23:48Z, 311412 bytes. The URL returned 200. The tarball package.json is private dsh-superagent 0.1.1, engines.dsh ^0.2.2-rc.3, main lib/index.js. The release body names dsh-superagent-0.1.1.tgz, which is not the asset. Lightweight tag v0.1.1 still points at d236a92b7000. Community index versions[0] source commit stays d236a92b7000. src/ did not change. Recorded on the existing bullet. Do not repeat unless the asset name, the URL, the tarball version, or the tag target changes."
+    },
+    {
+      "title": "dsh-superagent-robot/heartbeat-rea is a gitignore only",
+      "url": "https://github.com/dsh-superagent-robot/heartbeat-rea/commit/cacf33c19afc",
+      "confidence": 0.94,
+      "reason": "Created 2026-11-18T03:34:03Z, pushed_at 2026-11-18T03:46:30Z, size 0. Initial commit cacf33c19afc adds only an 18-line .gitignore. No source, package, or README. Not listed."
+    },
+    {
+      "title": "t3code issue-tracker commits do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/2216ffe00688",
+      "confidence": 0.9,
+      "reason": "main tip 2216ffe00688 at 2026-11-18T04:09:52Z. Compare from 3e1b7c4e93d7 is 2 commits and 13 files: b8b5affac42a reads a Linear issue once, and 2216ffe00688 skips the signed-in account read on All issues pages. No filename matches superagent, super-agent, hextor, or dsh-super. Not listed."
+    },
+    {
+      "title": "SkillfulAgents push after 03:35Z is not main",
+      "url": "https://github.com/SkillfulAgents/SuperAgent/commit/ee6c07c20110",
+      "confidence": 0.9,
+      "reason": "Default branch tip stays ee6c07c20110. pushed_at was 2026-11-18T03:55:30Z. Not listed."
+    },
+    {
+      "title": "Harness discussions updated after 03:35Z do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13655",
+      "confidence": 0.93,
+      "reason": "#13655 created at 2026-11-18T04:33:21Z is a Windows desktop updater MoveFileExW failure. #13654 at 04:21:38Z is a reference-chip caret bug. #13653 at 04:19:52Z is an MCP initialize timeout. #13652 at 03:57:19Z is ds-webmate. #13651 at 03:51:55Z hides archived session mentions. #13650 at 03:44:20Z is dsh-island-bridge. #13649 at 03:39:07Z is a model picker. #13648 at 03:38:39Z is a slash-command plan option. #9718 updated at 04:24:31Z is a browser time zone bug. #13643 updated at 04:17:49Z is an Anthropic-compatible 400. #13646 updated at 04:17:28Z is a blank new Session. Full bodies do not contain superagent, super-agent, dsh-superagent, or 原型. Not listed."
+    },
+    {
+      "title": "Listed tips that did not move after 03:35Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2 and pushed_at stays 2026-11-17T17:55:09Z. Release list still tops at dsh-v0.2.2-rc.4. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.4, alpha stays 0.2.2-alpha.3. Registry modified stays 2026-11-17T17:03:03.383Z. waixv tip stays a3a59031376d. wychmod tip stays 835b6ac943aa. LittleChenLiya tip stays 7aa072e38f01. YansongG #8 stays open and was not updated after 02:57Z. oh-my-pi main stays e1ae2cc998ef. superboard tip stays 366faf0df2f9. Missher, MYCF711, AstraBox, dsh-ghost, dsh-foreman, and both awesome-dsh-plugin repos have no push after 03:35Z. arXiv dsh-superagent returned 0. The newest HN story naming dsh-superagent is still 2026-11-11. A name search including forks found heartbeat-rea, DASHAN, wealth, and seabiscuit after 03:35Z and no other new implementation. Not listed beyond the rows this run changed."
+    },
     {
       "title": "waixv #127 in-place desktop app update recorded on the existing bullet",
       "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/commit/a3a59031376d",
@@ -13118,6 +13174,7 @@
     }
   ],
   "rejected_this_run": [
+    "Added seabiscuit for the schedule source at 89b867257ee4 and wealth for prNotices at 5bbf4bb01b37. Updated booth to 0.3.69 at 94e814fd77f1 and DASHAN for the prebuilt tarball at 34c21ffd6b78. heartbeat-rea cacf33c19afc is a gitignore only. t3code 2216ffe00688 is 2 commits and 13 files. SkillfulAgents main stays ee6c07c20110. Discussions #13648-#13655, #9718, #13643, and #13646 do not name this prototype. Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2. npm latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3.",
     "Added none. Updated waixv for #127 at a3a59031376d, wychmod for 0.10.1 at 835b6ac943aa, and DASHAN for icon-only 1e8aaeac5cc9. t3code 3e1b7c4e93d7 is 1 commit and 3 files. YansongG #8 is open. oh-my-pi main stays e1ae2cc998ef. Discussions #13641-#13647 and #13528 do not name this prototype. Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2.",
     "Added none. Updated the waixv bullet for #128 phased execution_mode at 3431237d5a88. hwachief/dsh-superagent-webhook-bridge bb5b03a462ae is a README stub. t3code 055b44919eeb is 4 commits and 300 files from 65accaf23cc5 with no matching filename. SkillfulAgents main stays ee6c07c20110. Discussions #13637-#13640, #13626, #12098, and #8876 do not name the prototype. Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2. npm @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3."
   ],
