@@ -1,24 +1,104 @@
 {
-  "last_run_at": "2026-11-18T05:35:05Z",
+  "last_run_at": "2026-11-18T06:32:46Z",
   "timezone": "UTC",
-  "baseline_commit": "4465d9e",
+  "baseline_commit": "c0a422e",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-18T04:39:34Z",
-    "to": "2026-11-18T05:35:05Z"
+    "from": "2026-11-18T05:35:05Z",
+    "to": "2026-11-18T06:32:46Z"
   },
   "added": [
-    "liufengling233/dsh-superagent-prototype: trigger ids 47760454d378",
-    "HiSeax/dsh-superagent: weixin source f0ddab0e7f5a, initial 337e0a3c1596"
+    "AION-Battlecruiser/dsh-worker-orchestrator: 1.1.0 aa7f307227f1"
   ],
   "updated": [
-    "wychmod/dsh-mini-superagent: npm 0.10.1 gitHead 835b6ac943aa, docs tip 0545593fb52d"
+    "waixv-superagent/dsh-superagent-prototype: tip 9acd4182f0a8 replies #129 #130",
+    "seabiscuit-agent/dsh-superagent-prototype: tip 344f20dd3d15 openspec #25",
+    "HiSeax/dsh-superagent: 0.2.1 tip 2cbf1a228ea0"
   ],
   "pending": [
+    {
+      "title": "waixv #129 and #130 recorded on the existing bullet",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/commit/9acd4182f0a8",
+      "confidence": 0.95,
+      "reason": "Tip 9acd4182f0a8 at 2026-11-18T06:02:30Z is 4 commits ahead of a3a59031376d and 0 behind. #129 f1cf023ccf05 routes a later acknowledgement to ticket.replyChannel only when that channel's source equals the trigger channel's source; otherwise it stays on the trigger channel. acknowledgeAccepted still prefers trigger.channel, then replyChannel, then channels[0]. answer still uses the trigger channel. result uses sourceChannel: replyChannel, else the origin trigger channel, else channels[0]. attention prefers the asking trigger's channel, else sourceChannel. The ticket card adds reply_channel when replyChannel is set. prompts/work.md tells a worker to post an inquiry report with --reply-in-thread on that message. #130 20a3cb5bf8b3 stores optional chatId and messageId on topicLinks. sendFeishu drops the topic-link line only when an acknowledgement's chatId and messageId both equal that record. openFeishuTopic skips the fallback notice when the source message is already that topic root. Older records without the two fields still append the link. Tests were not rerun. Recorded on the existing bullet. Do not repeat unless the channel choice, the in-topic skip, or the old-record fallback changes."
+    },
+    {
+      "title": "seabiscuit #25 merged as docs only",
+      "url": "https://github.com/seabiscuit-agent/dsh-superagent-prototype/commit/344f20dd3d15",
+      "confidence": 0.94,
+      "reason": "Tip 344f20dd3d15 at 2026-11-18T05:53:02Z merges #25. Compare from 28b6e355347f is 4 commits and only openspec/changes/dispatch-rules/ plus docs/notes/2026-11-18-dispatch-rules-proposal.md. No src/, tests/, or locale/. The note says the change is a proposal: policy.dispatch.rules would create a ticket without the assessor when one enabled rule matches an inferred human:false event by source and event type; zero or many matches stay on model eval; maxActive skips both create and eval. Package stays private dsh-superagent 0.1.0, engines.dsh ^0.2.1-alpha.2. Recorded as not implemented. Do not repeat unless src/ changes or the proposal's match rule changes."
+    },
+    {
+      "title": "HiSeax 0.2.1 recorded on the existing bullet",
+      "url": "https://github.com/HiSeax/dsh-superagent/commit/2cbf1a228ea0",
+      "confidence": 0.93,
+      "reason": "Tip 2cbf1a228ea0 at 2026-11-18T06:18:24Z is 7 commits ahead of f0ddab0e7f5a and 0 behind. Root dsh-superagent-release, packages/dsh-superagent, and packages/dsh-superagent-board are private 0.2.1. Root repository.url is https://github.com/HiSeax/dsh-superagent.git. engines.dsh stays ^0.2.1-alpha.2. Board description stays Read-only superagent board page for the DSH sidebar (skeleton), and that package still has no engines.dsh. The compare has no src/ file. The weixin skill only replaces the example project name with 演示任务; the 24-hour window, no history, and group_id drop sentences remain. README adds a DSH relationship section, install notes, docs/screenshots/harness-full.png, and docs/screenshots/weixin-qr-binding.png. Tests were not rerun. Do not repeat unless the version, engines.dsh, the weixin src, or those skill constraints change."
+    },
+    {
+      "title": "AION worker orchestrator listed under 生态",
+      "url": "https://github.com/AION-Battlecruiser/dsh-worker-orchestrator/commit/aa7f307227f1",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-18T03:57:07Z. Discussion #13658 at 2026-11-18T05:36:34Z names this repo. Tip aa7f307227f1 at 05:34:50Z, pushed_at 05:35:50Z. Package plugins/dsh-worker-orchestrator is private 1.1.0, MIT, engines.node >=22, no engines.dsh, no dependencies. cordis id dsh-worker-orchestrator. It creates ordinary DSH sessions, not subagents and not an agent team. Coordinator tools are the ten worker_* names; workers are denied those, gui_*, and skill. Dispatch is refused when 4 other workers for the same owner are running. Spawn is refused at 8 own unfinished workers plus pending, or at global MAX_WORKERS 8 including the verifier and pending spawns. Chat report copies cut at 1200 chars. Rotation notice starts at pressure 400000 and repeats every 50000. Worker max_calls defaults to 6 (1..50); worker_verify sets 8. Crossing maxCalls and twice that inserts a notice; it does not reject the tool call. Missing required host features throw on new spawn, dispatch, verify, resume, and transfer. Release v1.1.0 published 2026-11-18T05:10:51Z. Not the prototype's tickets. Tests were not rerun. Listed under 生态. Do not repeat unless the caps, the session kind, or the version change."
+    },
+    {
+      "title": "dbc-hbin head lane decision is still not this prototype",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/685141f4ff42",
+      "confidence": 0.9,
+      "reason": "Tip 685141f4ff42 at 2026-11-18T06:18:06Z. The commit lets the head resolve routine lane decisions. Files are DESIGN.md, skills, src/contracts.ts, src/decision-tool.ts, src/decisions.ts, src/extension.ts, src/lane-extension.ts, src/runtime.ts, and tests. The repository still connects chat channels to oh-my-pi. It does not implement this prototype's tickets. Not listed."
+    },
+    {
+      "title": "t3code preview user-agent commits do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/044ba3ad67d0",
+      "confidence": 0.9,
+      "reason": "main tip 044ba3ad67d0 at 2026-11-18T06:14:43Z. Compare from c48825322df3 is 3 commits and 7 files: a vouch list, a contribution doc, and a preview service-worker user-agent fix. No filename matches superagent, super-agent, hextor, or dsh-super. Not listed."
+    },
+    {
+      "title": "heartbeat-rea non-default branch is a heart-health app",
+      "url": "https://github.com/dsh-superagent-robot/heartbeat-rea/commit/572730b7b2e6",
+      "confidence": 0.94,
+      "reason": "main stays cacf33c19afc, the gitignore-only initial commit. pushed_at 2026-11-18T06:19:06Z is branch agent/build-heartbeat-app-682b3fbd0f6d at 572730b7b2e6. That branch adds a SwiftUI Heartica app: camera heart rate, HRV, blood pressure, oxygen, glucose. It does not implement this prototype. Non-default branches stay unlisted."
+    },
+    {
+      "title": "Nelson master did not move after 05:35Z",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/62e86de18b10",
+      "confidence": 0.9,
+      "reason": "pushed_at moved, and no branch commit is newer than 2026-11-18T05:35:05Z. master tip stays 62e86de18b10 at 2026-11-17T16:37:41Z. The listed preview.26 sentence stays. Not updated."
+    },
+    {
+      "title": "maqian sandbox is a one-line README",
+      "url": "https://github.com/maqian/dsh-superagent-sandbox",
+      "confidence": 0.96,
+      "reason": "Created 2026-11-18T05:50:45Z, pushed_at 2026-11-18T05:50:47Z, size 0. The only file is a 76-byte README that calls it a throwaway sandbox. Not listed."
+    },
+    {
+      "title": "n-loml test repo is a README only",
+      "url": "https://github.com/n-loml/dsh-superagent-test/commit/4996920ddc31",
+      "confidence": 0.95,
+      "reason": "Created 2026-11-18T01:30:01Z, pushed_at 2026-11-18T05:50:13Z, size 0. Commit 4996920ddc31 adds only README.md: Test repository for the dsh-superagent deployment. Not listed."
+    },
+    {
+      "title": "WalleDj and KarSar playgrounds stay out",
+      "url": "https://github.com/WalleDj/superagent-test",
+      "confidence": 0.9,
+      "reason": "WalleDj/superagent-test was created 2026-11-18T05:26:39Z and pushed 2026-11-18T05:31:25Z, before this window. Tree is README.md and hello.py. KarSar-lab/superagent-playground was created 2026-11-18T05:26:22Z and pushed 2026-11-18T05:26:24Z. Description says sandbox, tree is README.md, size 0. Neither is listed."
+    },
+    {
+      "title": "Harness discussions after 05:35Z do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13658",
+      "confidence": 0.92,
+      "reason": "#13658 at 2026-11-18T05:36:34Z is the worker-orchestrator lead and is listed from the repository, not as a discussion row. #13662 at 06:03:09Z is a desktop extension API suggestion. #13661 at 06:00:08Z is a /file pointer bug. #13660 at 05:55:35Z is a DSML tool-tag leak. #13659 at 05:38:08Z is a repeated-thinking loop with zero tool calls. Those four bodies do not contain superagent, super-agent, dsh-superagent, or 原型. #13656 was already noted as dsh-subagent nested idle. Not listed beyond the orchestrator row."
+    },
+    {
+      "title": "Listed tips that did not move after 05:35Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays ca33fd6843b2. Release list still tops at dsh-v0.2.2-rc.4. npm @deepseek-ai/dsh latest stays 0.2.2-rc.1, next stays 0.2.2-rc.4, alpha stays 0.2.2-alpha.3. Registry modified stays 2026-11-17T17:03:03.383Z. @xiangyixie/dsh-superagent stays 0.23.0. multi-channel stays 2.5.3. dsh-session-superagent stays 0.10.12. dsh-mini-superagent stays 0.10.1 gitHead 835b6ac943aa. booth, DASHAN, wealth, superboard, LittleChenLiya, liufengling233, Missher, MYCF711, AstraBox, dsh-ghost, dsh-foreman, injet, wheelchair, lkshrk, fliggy, vivy reset, person-clouds, xyt071024, both awesome-dsh-plugin repos, and the official prototype have no default-branch commit after 05:35Z. arXiv export returned 429 and was not retried into a result. HN search hits 6; the newest story timestamp naming the query is still 2026-11-11T16:50:41Z. Not listed beyond the rows this run changed."
+    },
+
     {
       "title": "liufengling233 repository-scoped GitHub trigger ids listed",
       "url": "https://github.com/liufengling233/dsh-superagent-prototype/commit/47760454d378",
@@ -13227,11 +13307,13 @@
     }
   ],
   "rejected_this_run": [
-    "ewertonbertolino/dsh-superagent-prototype is an unmodified fork of 8c32a9dc5d72",
-    "seabiscuit #25 is an open openspec proposal",
-    "xyt071024 240f968eae01 is docs pages only",
-    "dbc-hbin 03f695433610 is still omp, not this prototype",
-    "person-clouds a3d779fb5361 only adds docs frontmatter"
+    "maqian/dsh-superagent-sandbox is a throwaway README",
+    "n-loml/dsh-superagent-test is a README only",
+    "WalleDj/superagent-test is a playground with hello.py",
+    "KarSar-lab/superagent-playground is a sandbox README",
+    "dbc-hbin 685141f4ff42 is still omp, not this prototype",
+    "dsh-superagent-robot/heartbeat-rea non-default branch is the Heartica app",
+    "pingdotgg/t3code 044ba3ad67d0 has no superagent filename"
   ],
   "held_on_other_branches": [
     "YansongG-HKU/dsh-superagent-windows PR #8 is open from cursor/verify-dsh-superagent-612d onto windows-port and is not merged. Tip stays 94a988559c0e.",
@@ -13691,5 +13773,5 @@
     "NelsonLongxiang/dsh-open-a2a-net fix/reconciliation-reminder-backpressure is 5aff71498c1c at 2026-11-15T10:42:29Z. Default master remains e28eba14fa4c. next/0.8 remains 16edb76e6eab. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.4 (published 2026-11-17T17:03:03.170Z, shasum 3906b6f86a36c25475da1a8aec6d9095f5a06b0b, no gitHead). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-17T17:03:03.383Z. GitHub release dsh-v0.2.2-rc.4 published 2026-11-17T17:53:41Z and points at lightweight tag commit 3f321d32bfe382212a8ed8785c1d47a5a300aa23. master tip is ca33fd6843b205e279c7ccb6cb73a472c78f5760, pushed_at 2026-11-17T17:55:09Z. @xiangyixie/dsh-superagent latest remains 0.22.1 (published 2026-11-17T15:33:07.511Z, gitHead 04eb0e09fc927b2a5012374ad4bc153f140a9c8b). dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. Checked again 2026-11-17T21:30:00Z. Rechecked 2026-11-17T22:34:54Z: latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z. Rechecked 2026-11-17T23:45:00Z: same tags and modified time. Rechecked 2026-11-18T00:32:00Z: same tags and modified time. Rechecked 2026-11-18T01:39:34Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z. @xiangyixie/dsh-superagent latest is 0.23.0 (published 2026-11-18T01:24:58.893Z, shasum ded3d3d998434bc4e4f5611b3d6f7f715e7b14ce, registry gitHead 0f429b39cde86691a4468c6ea9dcefc6b66c0911, which still has package.json 0.22.1). dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. Rechecked 2026-11-18T03:35:31Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z. @xiangyixie/dsh-superagent latest stays 0.23.0. dsh-superagent-multi-channel latest stays 2.5.3. dsh-session-superagent latest stays 0.10.12. npm dsh-mini-superagent latest stays 0.10.0 (published 2026-11-16T03:36:28.326Z, gitHead d52204ff41c4); repo tip 835b6ac943aa is 0.10.1 and is not the published version. Rechecked 2026-11-18T05:35:05Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z. @xiangyixie/dsh-superagent latest stays 0.23.0. dsh-superagent-multi-channel latest stays 2.5.3. dsh-session-superagent latest stays 0.10.12. npm dsh-mini-superagent latest is 0.10.1 (published 2026-11-18T04:11:38.598Z, gitHead 835b6ac943aae5af5d03d2c6bb98280f61478f85). The docs tip 0545593fb52d is not that published commit."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.4 (published 2026-11-17T17:03:03.170Z, shasum 3906b6f86a36c25475da1a8aec6d9095f5a06b0b, no gitHead). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). Registry modified 2026-11-17T17:03:03.383Z. GitHub release dsh-v0.2.2-rc.4 published 2026-11-17T17:53:41Z and points at lightweight tag commit 3f321d32bfe382212a8ed8785c1d47a5a300aa23. master tip is ca33fd6843b205e279c7ccb6cb73a472c78f5760, pushed_at 2026-11-17T17:55:09Z. @xiangyixie/dsh-superagent latest remains 0.22.1 (published 2026-11-17T15:33:07.511Z, gitHead 04eb0e09fc927b2a5012374ad4bc153f140a9c8b). dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. Checked again 2026-11-17T21:30:00Z. Rechecked 2026-11-17T22:34:54Z: latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z. Rechecked 2026-11-17T23:45:00Z: same tags and modified time. Rechecked 2026-11-18T00:32:00Z: same tags and modified time. Rechecked 2026-11-18T01:39:34Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z. @xiangyixie/dsh-superagent latest is 0.23.0 (published 2026-11-18T01:24:58.893Z, shasum ded3d3d998434bc4e4f5611b3d6f7f715e7b14ce, registry gitHead 0f429b39cde86691a4468c6ea9dcefc6b66c0911, which still has package.json 0.22.1). dsh-superagent-multi-channel latest remains 2.5.3. dsh-session-superagent latest remains 0.10.12. Rechecked 2026-11-18T03:35:31Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z. @xiangyixie/dsh-superagent latest stays 0.23.0. dsh-superagent-multi-channel latest stays 2.5.3. dsh-session-superagent latest stays 0.10.12. npm dsh-mini-superagent latest stays 0.10.0 (published 2026-11-16T03:36:28.326Z, gitHead d52204ff41c4); repo tip 835b6ac943aa is 0.10.1 and is not the published version. Rechecked 2026-11-18T05:35:05Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z. @xiangyixie/dsh-superagent latest stays 0.23.0. dsh-superagent-multi-channel latest stays 2.5.3. dsh-session-superagent latest stays 0.10.12. npm dsh-mini-superagent latest is 0.10.1 (published 2026-11-18T04:11:38.598Z, gitHead 835b6ac943aae5af5d03d2c6bb98280f61478f85). The docs tip 0545593fb52d is not that published commit. Rechecked 2026-11-18T06:32:46Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.4, alpha 0.2.2-alpha.3, modified 2026-11-17T17:03:03.383Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-superagent-multi-channel stays 2.5.3. dsh-session-superagent stays 0.10.12. dsh-mini-superagent stays 0.10.1."
 }
