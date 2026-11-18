@@ -1,22 +1,52 @@
 {
-  "last_run_at": "2026-11-18T12:33:35Z",
+  "last_run_at": "2026-11-18T13:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "26c164b",
+  "baseline_commit": "5e58f09",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-18T11:36:43Z",
-    "to": "2026-11-18T12:33:35Z"
+    "from": "2026-11-18T12:33:35Z",
+    "to": "2026-11-18T13:36:00Z"
   },
   "added": [],
   "updated": [
-    "wealth/dsh-superagent-prototype: tip 1144954d23fa adds a disabled Sentry/GlitchTip source",
-    "fliggy-travel-ai/dsh-superagent-prototype: tip 72533761ca3a hides a browser quota card when the Claude account is already registered"
+    "npm @deepseek-ai/dsh next is 0.2.2-rc.5; harness master tip 2e39e70496aa",
+    "waixv/dsh-superagent-prototype: tip a8398719727b pins p4 tickets and widens leases"
   ],
   "pending": [
+    {
+      "title": "dsh 0.2.2-rc.5 recorded",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.5",
+      "confidence": 0.96,
+      "reason": "npm next is 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z. Registry modified 2026-11-18T13:17:23.881Z. No gitHead. shasum b540ae0577939a34c43fdc6bf44f034b2de040e5. latest stays 0.2.2-rc.1. alpha stays 0.2.2-alpha.3. Release dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z, prerelease, not a draft. Notes are DeepSeek server-side search with no per-search charge, and other models defaulting to the DeepSeek Search API. No superagent, super-agent, or 原型. Lightweight tag points at 9c2670d3bce5 (2026-11-18T09:45:47Z, merge #8728). Master tip 2e39e70496aa at 2026-11-18T10:58:42Z merges #8736. Repo pushed_at 2026-11-18T12:48:10Z. ^0.2.1-alpha.2 does not accept 0.2.2-rc.5. Do not repeat unless next, the tag SHA, the release body, or the master tip changes."
+    },
+    {
+      "title": "waixv pinned p4 workspace and lease widening recorded",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/commit/a8398719727b",
+      "confidence": 0.95,
+      "reason": "Tip a8398719727b at 2026-11-18T13:28:39Z is 4 commits ahead of 0db0900f55a2 and 0 behind. #134 a494bdb314d5 pins backend p4 to executor.workspaces[0]. git tickets are not pinned. placeTicket stays on the pinned id and falls back to the pool only when that id is gone. An empty lease waits with Waiting for the workspace to be free. DSH_SUPERAGENT_P4_CLIENT prefers workspace.p4Client, else the template with the workspace id, else the ticket short name. docs/009 names this install sun and wanghuaiyang_sun_mainline. #135 beef666206ff adds plan paths and report lease. 1-20 paths, 400 characters, relative, no absolute, .., or dot segments. decidePlan approve and settlePlan merge them. widenLease runs in the report transaction and does not create attention. A fully covered request leaves updatedAt unchanged. Prompt budgets in the test file move from 71000/66000 to 71100/67800, measured 71096 and 67694. Tests were not rerun. Do not repeat unless the pin, the client name, the path rules, or those budgets change."
+    },
+    {
+      "title": "jiurang workbench sanitize was not line-read",
+      "url": "https://github.com/jiurang/dsh-superagent-prototype/commit/f00c624b42b7",
+      "confidence": 0.7,
+      "reason": "Tip f00c624b42b7 at 2026-11-18T13:28:44Z is 3 commits ahead of 8d3fa4b702ff. 7b7c0fe53ade rebuilds the work page. 968f6a0a5fcd polishes creation and reports. f00c624b42b7 only changes src/client/xg/v2/Workbench.tsx. Those files were not line-read. Not listed."
+    },
+    {
+      "title": "DouLion Hivebot and Russ00028 stayed off the list",
+      "url": "https://github.com/DouLion/SuperAgentPlusCloud/commit/aad5fa711c86",
+      "confidence": 0.9,
+      "reason": "DouLion tip aad5fa711c86 at 2026-11-18T13:27:31Z adds a setup wizard. README still describes a project tree and a center HTTP service, not this prototype's tickets. Hivebot tip 32ef27f30403 at 2026-11-18T12:56:32Z is visual screenshots. README still describes a desktop multi-bot on dsh. Russ00028 tip a1519ecfd642 at 2026-11-18T13:28:25Z is a v2.1.0 code-update.zip manifest. Not listed."
+    },
+    {
+      "title": "t3code oh-my-pi IHUI hermes and discussions did not move this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/f4b988aeafc4",
+      "confidence": 0.9,
+      "reason": "t3code tip f4b988aeafc4 at 2026-11-18T13:27:37Z is 9 commits and 19 files from 9431a9479faf. No filename matches superagent, super-agent, hextor, or dsh-super. oh-my-pi tip b27953203631 at 2026-11-18T13:04:05Z is 9 commits in the window; compare from 04a4c101ff5b is 59 ahead and 300 files with no matching filename. IHUI tip b08c158634c9 at 2026-11-18T12:57:12Z is 4 commits in the window; compare from cc742d547cfb is 22 ahead and 28 files with no matching filename. hermes main stays 96b47ffe2690. Discussions #13700 through #13708 and the #13698 update at 12:51Z do not contain superagent, super-agent, dsh-superagent, or 原型. Prototype tip stays 8c32a9dc5d72. Harness master is the rc.5 sync above. npm latest 0.2.2-rc.1, next 0.2.2-rc.5, alpha 0.2.2-alpha.3. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel latest stays 2.5.3. @xiangyixie/dsh-superagent stays 0.23.0. @missher/dsh-superagent and @missher/dsh-dashboard stay 404. arXiv entries 0. HN newest story 2026-11-11. Not listed beyond the rows this run changed."
+    },
     {
       "title": "wealth Sentry source recorded",
       "url": "https://github.com/wealth/dsh-superagent-prototype/commit/1144954d23fa",
