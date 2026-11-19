@@ -1,19 +1,80 @@
 {
-  "last_run_at": "2026-11-19T22:31:08Z",
+  "last_run_at": "2026-11-19T23:39:31Z",
   "timezone": "UTC",
-  "baseline_commit": "43d27c2",
+  "baseline_commit": "9de28e6",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T21:32:14Z",
-    "to": "2026-11-19T22:31:08Z"
+    "from": "2026-11-19T22:31:08Z",
+    "to": "2026-11-19T23:39:31Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "simveit/dsh-whalepod 0.6.0",
+      "url": "https://github.com/simveit/dsh-whalepod/commit/21e5f7c4fdaa",
+      "confidence": 0.93,
+      "reason": "User-facing Coordinator is now Orchestrator. Per-orchestrator Matriarc switches: chat default off, new executors default on. npm latest stays 0.5.0."
+    }
+  ],
   "updated": [],
   "pending": [
+    {
+      "title": "window after 22:31Z listed whalepod 0.6.0 only",
+      "url": "https://github.com/simveit/dsh-whalepod/commit/21e5f7c4fdaa",
+      "confidence": 0.93,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. No harness commit after 22:31Z. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @reserendipity/dsh-superagent stays 0.2.10. Unscoped dsh-superagent stays 404. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. dsh-patrol stays 404. @vicfei/dsh-super-agent stays 1.8.0, gitHead b44bde5f1d70. dsh-whalepod npm latest stays 0.5.0 at 2026-11-15T20:06:51.045Z; 0.6.0 is not on npm. LofiSu #174 head stays d98dc8e7ff02 and #180 head stays 309817ffa033. Nelson master stays 0c4579c8af37. next/0.8 stays 9856b8165eb1. Booth master was not pushed after 22:31Z. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
+    {
+      "title": "whalepod 0.6.0 Orchestrator rename and Matriarc switches are now listed",
+      "url": "https://github.com/simveit/dsh-whalepod/commit/21e5f7c4fdaa",
+      "confidence": 0.93,
+      "reason": "21e5f7c4fdaa at 2026-11-19T23:27:54Z is 0.6.0. 6b1c61eacbb9 at 2026-11-19T23:27:12Z renames the user-facing role. ROLE.coordinator and ROLE.Coordinator are Orchestrator. Tool name stays coordinator_report. Persisted mark dsh-coordinator:brief: is not renamed. coordinatorMatriarc defaults false and is stored only when true. executorMatriarc defaults true and is stored only when false. coordinatorInfo always returns both booleans. Non-boolean create fields reject the create. matriarcInstalled looks for a global tool named matriarc. switchMatriarc runs /matriarc on or /matriarc off with a 10 second timeout. Turning on is skipped when the command hint is present and is not [on [navigators]|off]. Chat switch failure is logged and the setting stays. Executor switch applies at start only; a failure is a note and the start still returns. npm latest stays 0.5.0. Tests were not rerun. Do not repeat unless the role strings, the two defaults, the hint check, the timeout, or the npm version changes."
+    },
+    {
+      "title": "t3code 5283f33ca9d3 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/5283f33ca9d3",
+      "confidence": 0.86,
+      "reason": "5283f33ca9d3 at 2026-11-19T23:30:09Z is 7 commits and 38 files after 6b6950adfe2e. No commit message names dsh-superagent. No filename contains superagent or dsh. Not listed. Do not repeat unless a message or path names this prototype."
+    },
+    {
+      "title": "oh-my-pi f40f335845f0 does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/f40f335845f0",
+      "confidence": 0.88,
+      "reason": "f40f335845f0 at 2026-11-19T22:43:17Z is 1 commit and 5 files after 6dcf164d2c6b. The message is chore: bump version to 19.0.1. No path names dsh-superagent. Not listed. Do not repeat unless a commit message or path names this prototype."
+    },
+    {
+      "title": "discussion #13843 does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13843",
+      "confidence": 0.86,
+      "reason": "#13843 at 2026-11-19T22:46:48Z is a chat-in-dsh plugin compatibility report. The title does not contain dsh-superagent. The body was not read. #13844 is 404. #13836 updated_at moved to 2026-11-19T23:31:26Z; its title is still the desktop rc.5 crash and does not contain dsh-superagent. Not listed."
+    },
+    {
+      "title": "awesome-dsh-plugin 1e6061a96f67 adds no superagent row",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/1e6061a96f67",
+      "confidence": 0.9,
+      "reason": "19 commits after 737ad09a922b. Tip 1e6061a96f67 at 2026-11-19T23:21:44Z is post-merge route disclosures. The compare file list has no superagent path. The curated list entry does not count plugins. Not updated. Do not repeat unless a filename or commit message names dsh-superagent."
+    },
+    {
+      "title": "IHUI 0893b25304bf does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/0893b25304bf",
+      "confidence": 0.9,
+      "reason": "17 commits after 22:31Z. Tip 0893b25304bf at 2026-11-19T23:28:17Z. Compare 82ab6998d74d...0893b25304bf is 19 commits and 34 files. No path contains superagent or super-agent. README.md changes only the generated counts testFiles 5911 to 5913 and trackedFiles 23016 to 23018. The listed row was not edited. Do not repeat unless a path under the super-agent control plane changes."
+    },
+    {
+      "title": "dsh-swarm 0.5.0 does not name this prototype",
+      "url": "https://github.com/VukanCekic/dsh-swarm/commit/89d1ea0e3265",
+      "confidence": 0.9,
+      "reason": "89d1ea0e3265 at 2026-11-19T23:14:09Z is the initial public release. The README describes a Harness swarm pane inspired by Antigravity. A search of that README found no superagent, Ticket, Mandate, or Executor. Not listed. Do not repeat unless the README names this prototype."
+    },
+    {
+      "title": "readme aggregators in this window do not add a prototype source",
+      "url": "https://github.com/dshworks/awesome-dsh-plugins/commit/465098a425a0",
+      "confidence": 0.84,
+      "reason": "Pushes after 22:31Z whose README already contains dsh-superagent, with no new prototype path: dshworks/awesome-dsh-plugins 465098a425a0 refreshes star counts. like-study1/Oh-My-DSH f35a5f11bde1 syncs the plugin index. lsv5853/collected-toolbox 9cb086cd8984 registers an unrelated batch. gotonote/awesome-agent-boom 8e652173e2e5 refreshes stars. wh000wh000/awesome-jev-live e12c349b6688 syncs entries. MkThingsHQ/openfree-tools-dataset 1645726c62a9 syncs the catalog. TakanobuSano/mcp-github-ranking, QAInsights/awesome-ai-tools, nwverse/persona, YuxiangLin-kaslana/continuum, damianpy-BIM/tested-on-bim-hardware, and Mz1823-Mex/SuperAgent have no superagent path in the compare. Not listed."
+    },
     {
       "title": "window after 21:32Z changed no list rows",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -14495,19 +14556,29 @@
   ],
   "rejected_this_run": [
     {
-      "title": "t3code 6b6950adfe2e",
-      "url": "https://github.com/pingdotgg/t3code/commit/6b6950adfe2e",
-      "reason": "Seven commits and 43 files. No message names dsh-superagent and no filename contains superagent or dsh."
+      "title": "t3code 5283f33ca9d3",
+      "url": "https://github.com/pingdotgg/t3code/commit/5283f33ca9d3",
+      "reason": "Seven commits and 38 files. No message names dsh-superagent and no filename contains superagent or dsh."
     },
     {
-      "title": "oh-my-pi 19.0.1",
-      "url": "https://github.com/can1357/oh-my-pi/commit/6dcf164d2c6b",
-      "reason": "Three commits and 31 files. Version bump, clippy, and Gemini catalog. No path names dsh-superagent."
+      "title": "oh-my-pi 19.0.1 bump",
+      "url": "https://github.com/can1357/oh-my-pi/commit/f40f335845f0",
+      "reason": "One commit and 5 files. Version bump only. No path names dsh-superagent."
     },
     {
-      "title": "harness discussions 13841-13842",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13842",
-      "reason": "Titles do not contain dsh-superagent."
+      "title": "harness discussion 13843",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13843",
+      "reason": "Title does not contain dsh-superagent."
+    },
+    {
+      "title": "dsh-swarm 0.5.0",
+      "url": "https://github.com/VukanCekic/dsh-swarm",
+      "reason": "README does not name dsh-superagent, Ticket, Mandate, or Executor."
+    },
+    {
+      "title": "IHUI 0893b25304bf",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/0893b25304bf",
+      "reason": "README generated counts only. No super-agent path."
     }
   ],
   "held_on_other_branches": [
