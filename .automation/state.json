@@ -1,18 +1,24 @@
 {
-  "last_run_at": "2026-11-19T18:32:23Z",
+  "last_run_at": "2026-11-19T19:35:55Z",
   "timezone": "UTC",
-  "baseline_commit": "f14ab0b",
+  "baseline_commit": "e7c8bfb",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T17:36:18Z",
-    "to": "2026-11-19T18:32:23Z"
+    "from": "2026-11-19T18:32:23Z",
+    "to": "2026-11-19T19:35:55Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "dsh-patrol action-layer rows 91009e1f260d",
+      "url": "https://github.com/yangpeng366/dsh-patrol/commit/91009e1f260d",
+      "commit": "91009e1f260d",
+      "reason": "One commit after ee7da0b33f5a. actionLayerRows() keeps ignored decisions whose reason is one of the six action-layer reasons and joins them by recordId. cellWritten is itemActionFact source column; cellIsGap is the opposite. The report adds the held-by-the-action-layer section and --json adds actionRows. Package stays 0.1.0. npm dsh-patrol stays 404."
+    },
     {
       "title": "HiSeax board bundle 5698f638876f",
       "url": "https://github.com/HiSeax/dsh-windows-superagent/commit/5698f638876f",
@@ -21,6 +27,48 @@
     }
   ],
   "pending": [
+    {
+      "title": "dsh-patrol 91009e1f260d is now listed",
+      "url": "https://github.com/yangpeng366/dsh-patrol/commit/91009e1f260deb7feb7674199aa33c4921863493",
+      "confidence": 0.93,
+      "reason": "91009e1f260d at 2026-11-19T19:20:43Z is 1 ahead of ee7da0b33f5a. Files are AGENTS.md, CHANGELOG.md, docs/local-json-round.md, scripts/local-json-round.ts, and tests/local-json-round.spec.ts. actionLayerRows() keeps verdict ignored and reason in action-needs-secret, action-needs-config, action-release, action-field-ops, action-needs-decision, action-unclear, then joins recordId. Each row computes itemActionFact (column first) and inspectAction with a blank actionType. cellWritten is source column. cellIsGap is its opposite. A missing source row stays, with kind and proseKind unclear, and cellWritten follows decision.actionSource === column. The report section is --- held by the action layer, by row ---. The header is cell already answers N/M | cell is the gap K/M. A written cell prints cell=<kind>; a blank cell prints cell=(blank). Notes are prose agrees; filling it changes nothing, a repo kind written here would win, or prose=<kind>; the cell overrides it. --json inserts actionRows before decisions. CHANGELOG and the doc record rev 4419 as cell is the gap 0/11, split 6 / 2 / 3; that is one table measurement. Gate reasons are unchanged. package.json was not in the diff and stays 0.1.0. Public npm dsh-patrol stays 404. Tests were not rerun. Do not repeat unless the six reasons, the cellIsGap rule, the report notes, the actionRows field, or the package version changes."
+    },
+    {
+      "title": "window after 18:32Z updated dsh-patrol only",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master has no commit after 18:32Z. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @reserendipity/dsh-superagent stays 0.2.10. Unscoped dsh-superagent stays 404. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. dsh-patrol stays 404. Discussion #13834 at 2026-11-19T18:54:48Z is a 0.2.2-rc.5 session-loading bug and its title does not contain dsh-superagent; the body was not read. #13833 stays the previous high-water mark. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. LofiSu #174 head stays d98dc8e7ff02 and #180 head stays 309817ffa033. No open PR on this list."
+    },
+    {
+      "title": "oh-my-pi 4530cba18f6f does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/4530cba18f6f68c0ba405966cd8dfd1093a03152",
+      "confidence": 0.86,
+      "reason": "4530cba18f6f at 2026-11-19T18:50:17Z merges #19591. The message is per-model snapcompact frame shape. The file list is docs/models.md and packages catalog, coding-agent, and snapcompact. No path names dsh-superagent. Not listed. Do not repeat unless a commit message or path names this prototype."
+    },
+    {
+      "title": "t3code 42d2387285ee does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/42d2387285eea2e4cb34bab29e64f78f65a8b3b2",
+      "confidence": 0.84,
+      "reason": "Tip 42d2387285ee at 2026-11-19T19:29:44Z is a sidebar search right-click. The commits since 18:32Z are web, client-runtime, server, marketing, acp, and mcp docs. None of the messages name dsh-superagent. File lists were not read. Not listed. Do not repeat unless a message names this prototype."
+    },
+    {
+      "title": "zhongmingLL 9238aae4108b stays a pi runtime",
+      "url": "https://github.com/zhongmingLL/superagentteam/commit/9238aae4108bfea799d2101504a0dbd602bc14e5",
+      "confidence": 0.86,
+      "reason": "9238aae4108b at 2026-11-19T19:16:27Z merges #112, docs close-out of an R3 plan. #111 is thread-scoped CLI evidence. #110 is multi_mention fan-out. A code search for dsh-superagent or deepseek-harness returned 0. Not listed. Do not repeat unless the README names this prototype."
+    },
+    {
+      "title": "acidvegas farming e037b26252f0 only tracks HiSeax",
+      "url": "https://github.com/acidvegas/farming/commit/e037b26252f04fb862f17e190b2f1642f9b126b0",
+      "confidence": 0.9,
+      "reason": "e037b26252f0 at 2026-11-19T19:16:33Z says Track new repo: HiSeax/dsh-windows-superagent. The repository description is Experiments in Github. HiSeax is already listed. Not listed. Do not repeat unless the farming tree itself ships a prototype profile or package."
+    },
+    {
+      "title": "cliffordscott0909 deer-flow is not this prototype",
+      "url": "https://github.com/cliffordscott0909/deer-flow",
+      "confidence": 0.9,
+      "reason": "Pushed 2026-11-19T19:31:56Z. README is the ByteDance DeerFlow copy, Python 3.12 and Node 22, and does not name dsh-superagent. Not listed."
+    },
     {
       "title": "HiSeax board bundle 5698f638876f is now listed",
       "url": "https://github.com/HiSeax/dsh-windows-superagent/commit/5698f638876f",
