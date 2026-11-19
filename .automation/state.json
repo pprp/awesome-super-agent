@@ -1,32 +1,63 @@
 {
-  "last_run_at": "2026-11-19T13:33:02Z",
+  "last_run_at": "2026-11-19T14:34:30Z",
   "timezone": "UTC",
-  "baseline_commit": "ea2ac9b",
+  "baseline_commit": "6f8af02",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T12:35:34Z",
-    "to": "2026-11-19T13:33:02Z"
+    "from": "2026-11-19T13:33:02Z",
+    "to": "2026-11-19T14:34:30Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "ku-lin 1.2.0 5a22f052e658",
+      "url": "https://github.com/ku-lin/dsh-superagent/commit/5a22f052e658",
+      "commit": "5a22f052e658",
+      "reason": "Created 2026-11-19T13:30:41Z. Not a GitHub fork. Tip merges #2. Workers join defaultWorkspace. wait_seconds defaults to 0. npm dsh-superagent is 404."
+    }
+  ],
   "updated": [
     {
-      "title": "LittleChenLiya 0.24.0 workbench e247ce66912b",
-      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/e247ce66912b",
-      "commit": "e247ce66912b",
-      "reason": "Index tip publishes 0.24.0. Feature commit e14bc946e29c keeps the current chat, routes task actions with owner, and adds a cross-project inbox. npm latest is 0.24.0 with no gitHead."
+      "title": "dsh-workbench TODO section fallback 1b2a12fc2772",
+      "url": "https://github.com/person-clouds/dsh-workbench/commit/1b2a12fc2772",
+      "commit": "1b2a12fc2772",
+      "reason": "Marker or the last 需要你执行 section. Code fence or list item counts. 无 does not. Subagents stay out. /ok still only strips the prefix."
     },
     {
-      "title": "AION worker orchestrator 1.1.1 9ba5dab10992",
-      "url": "https://github.com/AION-Battlecruiser/dsh-worker-orchestrator/commit/9ba5dab10992",
-      "commit": "9ba5dab10992",
-      "reason": "package.json is 1.1.1. Caps stay 4 running, 8 slots, 1200 characters, and 400000. README limits tests to Node and records rc.5 as a startup check only."
+      "title": "booth 0.4.1 OSC 52 c3e22a51209b",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/c3e22a51209b",
+      "commit": "c3e22a51209b",
+      "reason": "Cargo 0.4.1. OSC 52 first, 100000 byte base64 limit, then host clipboard tools. Ctrl+G and /copy open copy mode. /copy all copies the transcript."
     }
   ],
   "pending": [
+    {
+      "title": "ku-lin 1.2.0 5a22f052e658 is now listed",
+      "url": "https://github.com/ku-lin/dsh-superagent/commit/5a22f052e658",
+      "confidence": 0.93,
+      "reason": "Created 2026-11-19T13:30:41Z. fork is false. Tip 5a22f052e658 at 2026-11-19T14:21:29Z merges #2. package.json is 1.2.0. LICENSE is MIT, copyright DeepSeek Harness Team, and the release lines stop at 1.1.0. engines.dsh is ^0.2.1-alpha.2. README install example pins @deepseek-ai/dsh@0.2.1-rc.3. npm name dsh-superagent is 404. Sessions.ensure joins defaultWorkspace unless the host has none, then it creates a workspace from cwd. workerTitle is worker- plus 8 id characters and the ticket title. WORK_TOOLS has no subagent tools. orchestrator_worker_message wait_seconds defaults to 0 and max 600. Tests were not rerun. Do not repeat unless the workspace join, the tool list, or the wait default changes."
+    },
+    {
+      "title": "workbench TODO fallback 1b2a12fc2772 is now listed",
+      "url": "https://github.com/person-clouds/dsh-workbench/commit/1b2a12fc2772",
+      "confidence": 0.94,
+      "reason": "1b2a12fc2772 at 2026-11-19T14:14:02Z. hasUserActionSection reads only the last 需要你执行 section. A code fence or list item counts. 无, prose, and fenced examples do not. Subagents stay excluded. /ok still only strips the prefix. Package stays 0.2.1. Tests were not rerun. Do not repeat unless the section rule or the /ok behavior changes."
+    },
+    {
+      "title": "booth 0.4.1 c3e22a51209b is now listed",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/c3e22a51209b",
+      "confidence": 0.93,
+      "reason": "c3e22a51209b at 2026-11-19T13:40:09Z. Cargo.toml is 0.4.1. osc52_sequence writes ESC ]52;c; base64 BEL and refuses payloads whose base64 exceeds 100000. Host clipboard tools run only after OSC 52 cannot. Ctrl+G and /copy open copy mode. /copy all copies the transcript. Mouse capture stays off. Tests were not rerun. Do not repeat unless the OSC limit, the copy commands, or the Cargo version changes."
+    },
+    {
+      "title": "window after 13:33Z added ku-lin and updated booth and workbench",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Started from origin/main 6f8af02, which already lists LittleChenLiya e247ce66912b and AION 9ba5dab10992. Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Nelson master stays 0c4579c8af37. DASHAN main stays 34c21ffd6b78. LofiSu main has no commit after 12:30Z. #174 head stays d98dc8e7ff02. Hivebot 24dc726c03e2 stays a desktop bot. omp fdeeb6ad63d2 stays OMP. dori bda3539080a5 stays herdr. habit-quest 520fe9d1a8f3 stays a test repo. t3code d067a0417546, oh-my-pi 23e0b3b901c8, pi-durable 1b924b83272f, and IHUI 797623b9b27b do not name this prototype. Discussion search returned 0. arXiv returned 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
     {
       "title": "LittleChenLiya 0.24.0 e247ce66912b is now listed",
       "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/e247ce66912b",
@@ -14227,33 +14258,33 @@
   "rejected_this_run": [
     {
       "title": "Hivebot desktop UI",
-      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/47c8f9cd4e6f",
-      "reason": "B39 and B40 are UI and logs. README is still an Electron desktop workbench."
+      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/24dc726c03e2",
+      "reason": "B39 and B40 stay UI. README is still an Electron desktop workbench."
     },
     {
-      "title": "omp release notes on a side branch",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/d77e4d714121",
-      "reason": "ci/v0.1.2-omp-compat is not main. Main stays 0.1.2 on Bun with no dsh dependency."
+      "title": "omp main moved but stays OMP",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/fdeeb6ad63d2",
+      "reason": "Main commits are CI runners and OMP 18 notes. Not this prototype."
     },
     {
-      "title": "pi-durable admin console",
-      "url": "https://github.com/gscode1/pi-durable-k8s/commit/ae9b9008d6b0",
-      "reason": "Three commits and no dsh or superagent path."
+      "title": "dori still herdr",
+      "url": "https://github.com/sisyphuslabs/dori-superagent/commit/bda3539080a5",
+      "reason": "Installs Doriterm. Not a DSH bundle."
     },
     {
-      "title": "t3code PDF resize",
-      "url": "https://github.com/pingdotgg/t3code/commit/2a411317d9b7",
-      "reason": "PdfViewer only. No superagent filename."
+      "title": "habit-quest stays a test repo",
+      "url": "https://github.com/maojunhui0911/habit-quest-cli/commit/520fe9d1a8f3",
+      "reason": "Merged a web UI for the habit tracker. Not a superagent implementation."
     },
     {
-      "title": "oh-my-pi Windows shell paths",
-      "url": "https://github.com/can1357/oh-my-pi/commit/27a9ad51f94e",
-      "reason": "Shell and tray files only. No superagent filename."
-    },
-    {
-      "title": "LofiSu open PRs",
+      "title": "LofiSu PRs stay open",
       "url": "https://github.com/LofiSu/dsh-super-agent/pull/174",
-      "reason": "#174 head d98dc8e7ff02 and #180 head 309817ffa033 are not merged to main."
+      "reason": "#174 head is still d98dc8e7ff02. #180 head is still 309817ffa033. Main has no commit after 12:30Z."
+    },
+    {
+      "title": "DASHAN and Nelson mains did not move",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/0c4579c8af37",
+      "reason": "DASHAN main stays 34c21ffd6b78. Nelson master stays 0c4579c8af37."
     }
   ],
   "held_on_other_branches": [
@@ -14730,5 +14761,5 @@
     "seabiscuit-agent/dsh-superagent-prototype PR #32 head agent/archive-and-named-start is fe7429ec3e98 and is not merged. Default main stays 6f512b735892. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). GitHub release dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. Rechecked 2026-11-19T04:35:00Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha 0.2.2-alpha.3, modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher/dsh-superagent and @missher/dsh-dashboard stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0, preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent stays 404. npm dsh-patrol stays 404. Rechecked 2026-11-19T05:28:00Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha 0.2.2-alpha.3, modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher/dsh-superagent and @missher/dsh-dashboard stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0, preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent stays 404. npm dsh-patrol stays 404. Rechecked 2026-11-19T06:45:00Z: @deepseek-ai/dsh latest moved to 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z, no gitHead. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher packages stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent, @gamegeek-saikel/dsh-superagent-remote, and dsh-patrol stay 404. Rechecked 2026-11-19T07:36:00Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent latest is 0.10.2 at 2026-11-19T06:39:13.764Z, gitHead fad73dcdeaba. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher packages stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent latest is 0.3.0 at 2026-11-19T07:30:59.351Z with no gitHead; preview is 0.3.0-preview.1 at 2026-11-19T07:25:13.947Z. @gamegeek-saikel/dsh-superagent-remote and dsh-patrol stay 404. Rechecked 2026-11-19T08:42:00Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z, no gitHead. dsh-mini-superagent stays 0.10.2 at 2026-11-19T06:39:13.764Z, gitHead fad73dcdeaba. @oxmumu3/dsh-superagent latest stays 0.3.0 at 2026-11-19T07:30:59.351Z with no gitHead, preview stays 0.3.0-preview.1. @gamegeek-saikel/dsh-superagent-remote and dsh-patrol stay 404. Rechecked 2026-11-19T09:36:00Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z, no gitHead. dsh-mini-superagent stays 0.10.2 at 2026-11-19T06:39:13.764Z, gitHead fad73dcdeaba. @oxmumu3/dsh-superagent latest stays 0.3.0 at 2026-11-19T07:30:59.351Z with no gitHead, preview stays 0.3.0-preview.1. @gamegeek-saikel/dsh-superagent-remote and dsh-patrol stay 404. @xiangyixie/dsh-superagent stays 0.23.0. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. Rechecked 2026-11-19T12:35:34Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent latest stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @gamegeek-saikel/dsh-superagent-remote and dsh-patrol stay 404. Rechecked 2026-11-19T13:33:02Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z. dsh-mini-superagent stays 0.10.2, gitHead fad73dcdeaba. @oxmumu3/dsh-superagent latest stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @xiangyixie/dsh-superagent latest is 0.24.0 at 2026-11-19T13:27:58.813Z, 63 files, shasum d0cab2c257c527997cf86e8f865ee8c4fed6ff63, no gitHead. @gamegeek-saikel/dsh-superagent-remote and dsh-patrol stay 404. @reserendipity/dsh-superagent stays 0.2.10. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher packages stay 404."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). GitHub release dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. Rechecked 2026-11-19T04:35:00Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha 0.2.2-alpha.3, modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher/dsh-superagent and @missher/dsh-dashboard stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0, preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent stays 404. npm dsh-patrol stays 404. Rechecked 2026-11-19T05:28:00Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha 0.2.2-alpha.3, modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher/dsh-superagent and @missher/dsh-dashboard stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0, preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent stays 404. npm dsh-patrol stays 404. Rechecked 2026-11-19T06:45:00Z: @deepseek-ai/dsh latest moved to 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z, no gitHead. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher packages stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent, @gamegeek-saikel/dsh-superagent-remote, and dsh-patrol stay 404. Rechecked 2026-11-19T07:36:00Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent latest is 0.10.2 at 2026-11-19T06:39:13.764Z, gitHead fad73dcdeaba. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher packages stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent latest is 0.3.0 at 2026-11-19T07:30:59.351Z with no gitHead; preview is 0.3.0-preview.1 at 2026-11-19T07:25:13.947Z. @gamegeek-saikel/dsh-superagent-remote and dsh-patrol stay 404. Rechecked 2026-11-19T08:42:00Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z, no gitHead. dsh-mini-superagent stays 0.10.2 at 2026-11-19T06:39:13.764Z, gitHead fad73dcdeaba. @oxmumu3/dsh-superagent latest stays 0.3.0 at 2026-11-19T07:30:59.351Z with no gitHead, preview stays 0.3.0-preview.1. @gamegeek-saikel/dsh-superagent-remote and dsh-patrol stay 404. Rechecked 2026-11-19T09:36:00Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z, no gitHead. dsh-mini-superagent stays 0.10.2 at 2026-11-19T06:39:13.764Z, gitHead fad73dcdeaba. @oxmumu3/dsh-superagent latest stays 0.3.0 at 2026-11-19T07:30:59.351Z with no gitHead, preview stays 0.3.0-preview.1. @gamegeek-saikel/dsh-superagent-remote and dsh-patrol stay 404. @xiangyixie/dsh-superagent stays 0.23.0. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. Rechecked 2026-11-19T12:35:34Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent latest stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @gamegeek-saikel/dsh-superagent-remote and dsh-patrol stay 404. Rechecked 2026-11-19T13:33:02Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5, next stays 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z. dsh-mini-superagent stays 0.10.2, gitHead fad73dcdeaba. @oxmumu3/dsh-superagent latest stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @xiangyixie/dsh-superagent latest is 0.24.0 at 2026-11-19T13:27:58.813Z, 63 files, shasum d0cab2c257c527997cf86e8f865ee8c4fed6ff63, no gitHead. @gamegeek-saikel/dsh-superagent-remote and dsh-patrol stay 404. @reserendipity/dsh-superagent stays 0.2.10. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher packages stay 404. Rechecked 2026-11-19T14:34:30Z: @deepseek-ai/dsh latest stays 0.2.2-rc.5. @xiangyixie/dsh-superagent stays 0.24.0 at 2026-11-19T13:27:58.813Z with no gitHead. Unscoped dsh-superagent stays 404. @nelsonlongxiang/dsh-open-a2a-net preview stays 0.8.1-preview.26."
 }
