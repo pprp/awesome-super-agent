@@ -1,32 +1,56 @@
 {
-  "last_run_at": "2026-11-19T19:35:55Z",
+  "last_run_at": "2026-11-19T20:33:15Z",
   "timezone": "UTC",
-  "baseline_commit": "e7c8bfb",
+  "baseline_commit": "cf5377d",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T18:32:23Z",
-    "to": "2026-11-19T19:35:55Z"
+    "from": "2026-11-19T19:35:55Z",
+    "to": "2026-11-19T20:33:15Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "dsh-patrol action-layer rows 91009e1f260d",
-      "url": "https://github.com/yangpeng366/dsh-patrol/commit/91009e1f260d",
-      "commit": "91009e1f260d",
-      "reason": "One commit after ee7da0b33f5a. actionLayerRows() keeps ignored decisions whose reason is one of the six action-layer reasons and joins them by recordId. cellWritten is itemActionFact source column; cellIsGap is the opposite. The report adds the held-by-the-action-layer section and --json adds actionRows. Package stays 0.1.0. npm dsh-patrol stays 404."
-    },
-    {
-      "title": "HiSeax board bundle 5698f638876f",
-      "url": "https://github.com/HiSeax/dsh-windows-superagent/commit/5698f638876f",
-      "commit": "5698f638876f",
-      "reason": "Board package.json declares dsh.bundle.patch ./cordis.patch.yml. Version stays private 0.2.6. The published 0.2.6 tarball still needs an insert row."
+      "title": "vicfei 1.8.0 fleet and 1.7 judge",
+      "url": "https://github.com/vicfei/dsh-super-agent/commit/b44bde5f1d70",
+      "commit": "b44bde5f1d70",
+      "reason": "List stopped at 1.5.0. 6f067b0c0498 is package 1.6.0; that review desk was not line-read. 6b37929ff84a is package 1.7.0. On the 1.8 tree judge.ts defaults threshold 0.5 and candidates admit/reject, and fails closed without a score. b44bde5f1d70 is package 1.8.0. npm @vicfei/dsh-super-agent latest is 1.8.0 at 2026-11-19T19:06:49.792Z, gitHead b44bde5f1d70. dsh fleet requires --engines or DSH_FLEET_ENGINES, default port 8790 on 127.0.0.1, page refresh 10000 ms. The proxy allows only GET /api/engine/<name>/<path>. suggest returns hold when negativesCurrent of the current policy version is greater than 0. unreachable is counted apart from the mean. The WeChat login page POSTs /qr and the server only mints a QR on POST. 1f617772be37 only edits the two READMEs. Tests were not rerun."
     }
   ],
   "pending": [
+    {
+      "title": "vicfei 1.8.0 fleet is now listed",
+      "url": "https://github.com/vicfei/dsh-super-agent/commit/b44bde5f1d70",
+      "confidence": 0.94,
+      "reason": "b44bde5f1d70 at 2026-11-19T18:55:27Z sets package.json to 1.8.0. npm @vicfei/dsh-super-agent latest is 1.8.0 at 2026-11-19T19:06:49.792Z, gitHead b44bde5f1d70. 6f067b0c0498 at 2026-11-17T14:38:56Z is 1.6.0; the review desk and grant path in that commit were not line-read. 6b37929ff84a at 2026-11-18T12:16:37Z is 1.7.0. On b44bde5f1d70, judge.ts uses threshold 0.5 and candidates admit/reject. Endpoint failure, missing top_logprobs, no candidate mass, or a thrown request returns negative with no score. dsh fleet requires --engines name:port,... or DSH_FLEET_ENGINES. --fleet-port and DSH_FLEET_PORT default to 8790. startFleet listens on 127.0.0.1. fleet.html calls setInterval(tick, 10000). The proxy serves GET /api/engine/<name>/<path> to http://127.0.0.1:<port> and 404s every other method. suggest returns hold when negativesCurrent > 0. negativesCurrent counts assessed-negative rows whose policy_version is the current version. byJudge counts unreachable separately and the mean uses scores only. wechat-login-web.ts page fetches /qr with POST, and the server handles POST /qr only. 1f617772be37 at 2026-11-19T19:37:55Z edits README.md and README.zh-CN.md only: the tests badge moves from 356 to 375 and the status table adds the ledger, review, grant, trust console, BYO judge, and fleet rows. Tests were not rerun. Do not repeat unless the fleet port, the GET-only proxy, the 0.5 threshold, the negativesCurrent rule, the WeChat POST, or the npm version changes."
+    },
+    {
+      "title": "window after 19:35Z updated vicfei only",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. No harness commit after 19:35Z. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @reserendipity/dsh-superagent stays 0.2.10. Unscoped dsh-superagent stays 404. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. dsh-patrol stays 404. @vicfei/dsh-super-agent latest is 1.8.0. Listed repos pushed after 19:35Z were pingdotgg/t3code, awesome-dsh-plugin/awesome-dsh-plugin, and vicfei/dsh-super-agent. LofiSu #174 head stays d98dc8e7ff02 and #180 head stays 309817ffa033. Nelson master stays 0c4579c8af37. next/0.8 is 9856b8165eb1 at 2026-11-19T14:26:56Z, before this window. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. Discussion titles #13835 through #13838 do not contain dsh-superagent; bodies were not read. No open PR on this list."
+    },
+    {
+      "title": "t3code 3b199e77fb42 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/3b199e77fb42",
+      "confidence": 0.86,
+      "reason": "50 commits since 19:35Z. Tip 3b199e77fb42 at 2026-11-19T20:29:35Z indexes thread-search line ranges. None of the commit messages name dsh-superagent. File lists were not read. Not listed. Do not repeat unless a message names this prototype."
+    },
+    {
+      "title": "awesome-dsh-plugin 737ad09a922b adds no superagent row",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/737ad09a922b",
+      "confidence": 0.9,
+      "reason": "55 commits after 5e23c91531bf. Tip 737ad09a922b at 2026-11-19T20:10:52Z is post-merge route disclosures. The compare file list has no superagent path. The curated list entry does not count plugins. Not updated. Do not repeat unless a filename or commit message names dsh-superagent."
+    },
+    {
+      "title": "discussions #13835-#13838 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13838",
+      "confidence": 0.88,
+      "reason": "#13835 at 2026-11-19T19:41:01Z is reply-template feedback. #13836 at 20:14:07Z is a desktop rc.5 crash. #13837 at 20:25:06Z is a pi-ai catalog request. #13838 at 20:29:56Z is beginner help. None of the titles contain dsh-superagent. Bodies were not read. Not listed."
+    },
     {
       "title": "dsh-patrol 91009e1f260d is now listed",
       "url": "https://github.com/yangpeng366/dsh-patrol/commit/91009e1f260deb7feb7674199aa33c4921863493",
@@ -14418,24 +14442,19 @@
   ],
   "rejected_this_run": [
     {
-      "title": "xyt071024 v0.3.10 docs",
-      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/38455c9ec799",
-      "reason": "Docs only. The changelog does not state the explicit-request exception."
+      "title": "t3code thread search",
+      "url": "https://github.com/pingdotgg/t3code/commit/3b199e77fb42",
+      "reason": "Fifty commit messages do not name dsh-superagent."
     },
     {
-      "title": "playground empty-name greet",
-      "url": "https://github.com/xuebicc102030-sys/dsh-superagent-playground/commit/d8b990605d66",
-      "reason": "Still a greet.py sandbox."
+      "title": "awesome-dsh-plugin catalog",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/737ad09a922b",
+      "reason": "Plugin catalog additions. No superagent filename."
     },
     {
-      "title": "mindtheory delete impact",
-      "url": "https://github.com/mindtheory/dsh-super-agents/commit/c6fbea601c54",
-      "reason": "Persona ledger. README does not name Ticket."
-    },
-    {
-      "title": "t3code shell reads",
-      "url": "https://github.com/pingdotgg/t3code/commit/2fe74b00fa3e",
-      "reason": "Commit message does not name dsh-superagent."
+      "title": "harness discussions 13835-13838",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13838",
+      "reason": "Titles do not contain dsh-superagent."
     }
   ],
   "held_on_other_branches": [
