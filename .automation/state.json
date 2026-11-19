@@ -1,26 +1,74 @@
 {
-  "last_run_at": "2026-11-19T09:36:00Z",
+  "last_run_at": "2026-11-19T10:36:30Z",
   "timezone": "UTC",
-  "baseline_commit": "20b7d68",
+  "baseline_commit": "ec09ed9",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T08:42:00Z",
-    "to": "2026-11-19T09:36:00Z"
+    "from": "2026-11-19T09:36:00Z",
+    "to": "2026-11-19T10:36:30Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "wychmod README visuals 10a814d6fec3",
-      "url": "https://github.com/wychmod/dsh-mini-superagent/commit/10a814d6fec3",
-      "commit": "10a814d6fec3",
-      "reason": "One commit after 0b07826521ce only changes the root README and four demo images. The README test count moves from 648 to 661 and the install example from 0.10.1 to 0.10.2. npm gitHead stays fad73dcdeaba."
+      "title": "LofiSu deliver-gate evolution 7829516bef35",
+      "url": "https://github.com/LofiSu/dsh-super-agent/commit/7829516bef35",
+      "commit": "7829516bef35",
+      "reason": "Merge #168 lands src/evolution and ds-agent evolution. Opt-in via DS_AGENT_USE_PROMOTED_DELIVER_GATE=1."
+    },
+    {
+      "title": "booth launch directory f0605c42a471",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/f0605c42a471",
+      "commit": "f0605c42a471",
+      "reason": "Cargo 0.4.0. Release v0.4.0 at 09:44Z. Tip binds current_dir, not git toplevel, and stops capturing the mouse."
+    },
+    {
+      "title": "open-superagent GitHub source b0e45231717e",
+      "url": "https://github.com/1LunarVeil/open-superagent/commit/b0e45231717e",
+      "commit": "b0e45231717e",
+      "reason": "source:github defaults: poll 60s, observe flags false, backlog 1440 minutes, api.github.com only, idempotent reply marker."
     }
   ],
   "pending": [
+    {
+      "title": "LofiSu deliver-gate evolution 7829516bef35 is now listed",
+      "url": "https://github.com/LofiSu/dsh-super-agent/commit/7829516bef35",
+      "confidence": 0.93,
+      "reason": "Tip 7829516bef35 at 2026-11-19T10:20:10Z merges #168 and is 57 commits ahead of 7a369491a5c2. ds-agent evolution mutates a bounded token list for deliver-gate-v1. Runtime compiles tokens to linear-time alternation regex and rejects arbitrary patterns. Default selector is kl-ucb. policy-memory turns KL off. simplified-greedy is round-robin with memory off. search-run.lock uses wx and fails closed. finaltest.json is read only by evolution finalize. Automatic merge and deploy stay off. DS_AGENT_USE_PROMOTED_DELIVER_GATE must be 1 and evolution/deliver-gate.strategy.json must exist, otherwise HeuristicDeliverGate stays. Default dataset is the repo fixture. Tests were not rerun. Do not repeat unless the env gate, the lock, the regex bound, or the selector default changes."
+    },
+    {
+      "title": "booth 0.4.0 launch directory f0605c42a471 is now listed",
+      "url": "https://github.com/lanshi17/dsh-booth/commit/f0605c42a471",
+      "confidence": 0.94,
+      "reason": "Release v0.4.0 published 2026-11-19T09:44:01Z. Cargo version is 0.4.0. Tip f0605c42a471 at 2026-11-19T10:21:32Z is after that release. bind_execution_root writes real_path(current_dir) into executor.directory and no longer runs git rev-parse --show-toplevel. A directory that is already bound is not written again. /setup still overrides until the next launch. activity() starts a timer for a busy foreground command, or when subagents.running() is not 0. running()==0 leaves pending judgement and person waits without a timer. A focused row with stage working is named. Any other running count is labeled CSS Agent and still timed. This tip stops capturing the mouse and removes in-app transcript selection, clipboard helpers, and the Ctrl+V fallback. PgUp and PgDn still scroll. Tests were not rerun. Do not repeat unless the bind function, the timer rule, or the mouse capture changes."
+    },
+    {
+      "title": "open-superagent GitHub source b0e45231717e is now listed",
+      "url": "https://github.com/1LunarVeil/open-superagent/commit/b0e45231717e",
+      "confidence": 0.92,
+      "reason": "b0e45231717e at 2026-11-19T09:48:30Z adds source:github. pollSeconds default 60, range 60 to 3600. failuresBeforeError default 3, range 1 to 20. observeIssues, observePulls, observeComments, and observeCi default false. backlogMinutes default 1440, range 0 to 20160, and 0 means only new events. REST origin is https://api.github.com. Token is OPEN_SUPERAGENT_GITHUB_TOKEN or GITHUB_TOKEN. Replies look for the marker <!-- open-superagent: plus the message id and do not post a second comment. The agent's own messages are not someone else's request. Package stays private 0.1.1, node >=22.5. Tests were not rerun. Do not repeat unless those defaults, the origin, or the marker change."
+    },
+    {
+      "title": "Nelson next/0.8 a9cc84fa5e12 is not listed",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/a9cc84fa5e12",
+      "confidence": 0.88,
+      "reason": "next/0.8 tip a9cc84fa5e12 at 2026-11-19T10:13:10Z merges #749. master stays 62e86de18b10. Do not list next/0.8. Do not repeat unless this commit merges to master or the package version on master changes."
+    },
+    {
+      "title": "DASHAN rc.5 branches are not main",
+      "url": "https://github.com/DASHAN-0079/dsh-superagent-adapt/commit/50b3ef9cfc00",
+      "confidence": 0.86,
+      "reason": "pushed_at 2026-11-19T09:52:52Z. main stays 34c21ffd6b78. adapt/rc5 is adccef4911f7 at 2026-11-19T03:28:55Z. feat/rc5-evidence-pages is 50b3ef9cfc00 at 2026-11-19T09:52:49Z. Neither is merged. Do not list them. Do not repeat unless one lands on main."
+    },
+    {
+      "title": "window after 09:36Z updated LofiSu, booth, and open-superagent",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release dsh-v0.2.2-rc.5 stays published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. dsh-mini-superagent npm stays 0.10.2, gitHead fad73dcdeaba. @oxmumu3/dsh-superagent latest stays 0.3.0. t3code 2f577fa39734 is 4 commits and 13 files from bb234221cefe with no superagent filename. dbc-hbin/omp-superagent 4d1ad5534145 stays 0.1.2 on Bun with no dsh dependency. Sandbox and ticket repos chensh1024/superagent-sandbox, maojunhui0911/habit-quest-cli, and cwolfhl-coder/agent-workspace were not listed. Discussions #13785 through #13791 do not name this prototype. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
     {
       "title": "wychmod README visuals 10a814d6fec3 are now listed",
       "url": "https://github.com/wychmod/dsh-mini-superagent/commit/10a814d6fec3",
@@ -14070,27 +14118,34 @@
   ],
   "rejected_this_run": [
     {
-      "title": "LofiSu RSI plan",
-      "url": "https://github.com/LofiSu/dsh-super-agent/commit/7a369491a5c2",
-      "reason": "Unchecked plan only. No runtime file changed."
-    },
-    {
       "title": "Nelson next/0.8",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/413d52be1f20",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/a9cc84fa5e12",
       "reason": "Not merged to master."
     },
     {
-      "title": "t3code mobile tunnel",
-      "url": "https://github.com/pingdotgg/t3code/commit/bb234221cefe",
-      "reason": "4 commits and 34 files with no superagent filename."
+      "title": "DASHAN rc.5 branches",
+      "url": "https://github.com/DASHAN-0079/dsh-superagent-adapt/commit/50b3ef9cfc00",
+      "reason": "adapt/rc5 and feat/rc5-evidence-pages are not main."
     },
     {
-      "title": "oh-my-pi side push",
-      "url": "https://github.com/can1357/oh-my-pi/commit/57771ae562b9",
-      "reason": "Default main stays 57771ae562b9. pushed_at 09:25Z is not main."
+      "title": "t3code settings watcher",
+      "url": "https://github.com/pingdotgg/t3code/commit/2f577fa39734",
+      "reason": "4 commits and 13 files with no superagent filename."
+    },
+    {
+      "title": "omp messenger refactor",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/4d1ad5534145",
+      "reason": "Still omp-superagent 0.1.2 on Bun. No dsh dependency."
+    },
+    {
+      "title": "sandbox and ticket workspaces",
+      "url": "https://github.com/chensh1024/superagent-sandbox",
+      "reason": "superagent-sandbox, habit-quest-cli, and agent-workspace are trial or ticket workspaces."
     }
   ],
   "held_on_other_branches": [
+    "DASHAN-0079/dsh-superagent-adapt main stays 34c21ffd6b78. adapt/rc5 adccef4911f7 and feat/rc5-evidence-pages 50b3ef9cfc00 are not merged.",
+    "NelsonLongxiang/dsh-open-a2a-net master stays 62e86de18b10. next/0.8 a9cc84fa5e12 merges #749 and is not master.",
     "louifinn/dsh-superagent-further branch docs/information-discipline tip b06ffd5e001c is not merged. main stays 895e0ff7cf66.",
     "Robert-Wang-08/dsh-superagent-prototype PR #3 head aa575d5dc050 is open and not merged. main stays 931a4be5e662.",
     "louifinn/dsh-superagent-further branch docs/information-discipline tip 73fa5e3511b9 is not merged. main stays 895e0ff7cf66.",
