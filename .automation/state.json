@@ -1,32 +1,50 @@
 {
-  "last_run_at": "2026-11-19T04:35:00Z",
+  "last_run_at": "2026-11-19T05:28:00Z",
   "timezone": "UTC",
-  "baseline_commit": "3f60917",
+  "baseline_commit": "ce9bba5",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T03:33:18Z",
-    "to": "2026-11-19T04:35:00Z"
+    "from": "2026-11-19T04:35:00Z",
+    "to": "2026-11-19T05:28:00Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "oxmumu3/dsh-superagent",
-      "url": "https://github.com/oxmumu3/dsh-superagent/commit/681bfd725900",
-      "commit": "681bfd725900",
-      "reason": "0.3.0 adds triage and Codex worktrees. engines.dsh is >=0.2.2-rc.2 <0.3.0. Release v0.3.0 is not a draft."
+      "title": "GameGeek-Saikel/dsh-superagent-remote",
+      "url": "https://github.com/GameGeek-Saikel/dsh-superagent-remote/commit/33e73fe34d56",
+      "commit": "33e73fe34d56",
+      "reason": "portBase defaults to 3081. Allocation probes 127.0.0.1. Exit still stops enabled workspaces and clears wslOwned after terminate."
     },
     {
-      "title": "LofiSu/dsh-super-agent",
-      "url": "https://github.com/LofiSu/dsh-super-agent/commit/400bf63bbddc",
-      "commit": "400bf63bbddc",
-      "reason": "README identity and clone URL now use LofiSu/dsh-super-agent. Prompt budget and health check unchanged."
+      "title": "HiSeax/dsh-superagent",
+      "url": "https://github.com/HiSeax/dsh-superagent/commit/67d64345cae1",
+      "commit": "67d64345cae1",
+      "reason": "0.2.3 mounts ask_user_question on the main Session. The grill skill refuses cards outside an explicit grilling session."
     }
   ],
   "pending": [
+    {
+      "title": "GameGeek tip 33e73fe34d56 is now listed",
+      "url": "https://github.com/GameGeek-Saikel/dsh-superagent-remote/commit/33e73fe34d56",
+      "confidence": 0.94,
+      "reason": "Tip 33e73fe34d56 at 2026-11-19T05:24:33Z is 4 commits ahead of 7ea278db9612. #2 is 91e5d244c10a merging f16b71cd70b6. #3 is 33e73fe34d56 merging fe0af0b8b715. portBase default is 3081, still an integer from 1024 to 65000. firstFreePort starts at the base, skips registry ports even when the deployment is stopped, skips ports that cannot bind 127.0.0.1, and searches base through base+1000 capped at 65535. An explicit port in the registry or held by another process is refused. Removing a workspace stops the deployment and deletes the row. lastWorkspace prefers the browser selection, then the unarchived workspace open when the panel closed, then the first unarchived row. POST /superagent-remote/api/runtime/start calls beginStart and returns the snapshot. Panel close does not call shutdown. Process exit stops enabled workspaces only when the distro is running, with --stop-timeout 8, terminates WSL for always or for owned when this plugin booted it, then setWslOwnedSync(false). Idle chat poll stays 3000 ms. Awaiting replies poll every 1500 ms. The running mark reads load.running from GET /orchestrator/api/state. Prefix, 256 KiB, the @agentLogin rule, and private 0.1.0 stay. npm stays 404. Tests were not rerun. Do not repeat unless the port base, the bind probe, the exit rule, the poll intervals, or the npm name changes."
+    },
+    {
+      "title": "HiSeax 0.2.3 grill card is now listed",
+      "url": "https://github.com/HiSeax/dsh-superagent/commit/67d64345cae1",
+      "confidence": 0.93,
+      "reason": "Tip 67d64345cae1 at 2026-11-19T05:16:17Z is 3 commits ahead of 6402e8a45b73. Root, packages/dsh-superagent, and the board are private 0.2.3. engines.dsh stays ^0.2.1-alpha.2. Board description stays skeleton and has no engines.dsh. Weixin source dsh-superagent/weixin-watch stays disabled. Router preset dsh-superagent-router mounts @deepseek-ai/dsh-tool-ask-user. The main Session restrict allow list includes ask_user_question. WORK_TOOLS does not. bundledSkills.grill loads the skill. skill/grill roles are BOTH. The skill text says a worker must not ask a person. The card is only for decisions the person must make, not facts, already authorized work, implementation choices inside an authorized scope, or a decision already given. Outside grill me or 拷问我 the card stays closed. One round is one questions[] call. docs/ops-notes.md says a copied state directory that still points at the original worker-bin CLI shim leaves Setup at setupPending/agentCliSignedOut, and both plugins read DSH_SUPERAGENT_BOARD_PORT, documented defaults 8916 and 8917. Tests were not rerun. Do not repeat unless the tool allow lists, the grill gate, the version, or those two ops facts change."
+    },
+    {
+      "title": "window after 04:35Z updated GameGeek and HiSeax only",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13754",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release dsh-v0.2.2-rc.5 stays published 2026-11-18T12:51:39Z. npm latest 0.2.2-rc.1, next 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha 0.2.2-alpha.3, modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher packages stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. Nelson master stays 62e86de18b10. next/0.8 tip is 4b2657f8c4d1 at 2026-11-19T05:17:05Z, merge of #733, and is 12 commits from 8c88782099be including #744 and #740. Do not list next/0.8. oxmumu3 stays 681bfd725900. LofiSu stays 400bf63bbddc. waixv stays f96e3a8c538f. louifinn main stays 895e0ff7cf66. Robert main stays 931a4be5e662. t3code 6b45d90047c7 at 2026-11-19T05:17:00Z is 9 commits and 41 files from a941ab544d4b with no matching filename. SkillfulAgents pushed_at stays 2026-11-19T03:26:25Z. changediff/pi-durable-superagent main stays 8c32a9dc5d72. feat/pi-durable-port tip 83fa156f6d1e at 2026-11-19T05:04:30Z is docs only and is not merged. 1787463152-hub/agent-playground 8fea6c630636 only syncs STATUS-mac.md. Eddie8347-bot/superagent-lab created 2026-11-19T05:00:09Z is size 0. tljmood and shodow-agent stay empty. Discussions #13748 through #13754 and the #13591 update do not name this prototype. arXiv export timed out. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
     {
       "title": "oxmumu3 0.3.0 is now listed",
       "url": "https://github.com/oxmumu3/dsh-superagent/commit/681bfd725900",
@@ -13933,16 +13951,16 @@
   "rejected_this_run": [
     "prototype tip stays 8c32a9dc5d72",
     "harness master stays 2e39e70496aa",
-    "npm latest 0.2.2-rc.1 next 0.2.2-rc.5 alpha 0.2.2-alpha.3",
-    "oxmumu3 681bfd725900 is 0.3.0",
-    "LofiSu 400bf63bbddc renames the README clone URL",
-    "Nelson master stays 62e86de18b10",
-    "Nelson #744 merged to next/0.8 only",
-    "t3code a941ab544d4b has no matching filename",
-    "discussions #13743 through #13747 do not name this prototype",
-    "tljmood/dsh-superagent-test is empty",
-    "arXiv entries 0",
-    "no open PR on this list"
+    "npm tags unchanged",
+    "Nelson master stays 62e86de18b10; next/0.8 not listed",
+    "t3code has no superagent filename",
+    "pi-durable main stays 8c32a9dc5d72",
+    "playground only syncs STATUS-mac.md",
+    "Eddie8347-bot/superagent-lab is empty",
+    "discussions #13748-#13754 do not name this prototype",
+    "arXiv export timed out",
+    "HN newest story stays 2026-11-11",
+    "oxmumu3 and LofiSu did not move after 04:35Z"
   ],
   "held_on_other_branches": [
     "louifinn/dsh-superagent-further branch docs/information-discipline tip b06ffd5e001c is not merged. main stays 895e0ff7cf66.",
@@ -14410,5 +14428,5 @@
     "seabiscuit-agent/dsh-superagent-prototype PR #32 head agent/archive-and-named-start is fe7429ec3e98 and is not merged. Default main stays 6f512b735892. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). GitHub release dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. Rechecked 2026-11-19T04:35:00Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha 0.2.2-alpha.3, modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher/dsh-superagent and @missher/dsh-dashboard stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0, preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent stays 404. npm dsh-patrol stays 404."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). GitHub release dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. Rechecked 2026-11-19T04:35:00Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha 0.2.2-alpha.3, modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher/dsh-superagent and @missher/dsh-dashboard stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0, preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent stays 404. npm dsh-patrol stays 404. Rechecked 2026-11-19T05:28:00Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha 0.2.2-alpha.3, modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher/dsh-superagent and @missher/dsh-dashboard stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0, preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent stays 404. npm dsh-patrol stays 404."
 }
