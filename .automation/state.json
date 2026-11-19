@@ -1,39 +1,62 @@
 {
-  "last_run_at": "2026-11-19T14:34:30Z",
+  "last_run_at": "2026-11-19T15:33:05Z",
   "timezone": "UTC",
-  "baseline_commit": "6f8af02",
+  "baseline_commit": "400552d",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T13:33:02Z",
-    "to": "2026-11-19T14:34:30Z"
+    "from": "2026-11-19T14:34:30Z",
+    "to": "2026-11-19T15:33:05Z"
   },
   "added": [
     {
-      "title": "ku-lin 1.2.0 5a22f052e658",
-      "url": "https://github.com/ku-lin/dsh-superagent/commit/5a22f052e658",
-      "commit": "5a22f052e658",
-      "reason": "Created 2026-11-19T13:30:41Z. Not a GitHub fork. Tip merges #2. Workers join defaultWorkspace. wait_seconds defaults to 0. npm dsh-superagent is 404."
+      "title": "specmill offline controller 432c17d6ce9c",
+      "url": "https://github.com/mrhoody/specmill/commit/432c17d6ce9c",
+      "commit": "432c17d6ce9c",
+      "reason": "Submodule pins 8c32a9dc5d72. Profile bundles dsh-base, dsh-web-app, and unchanged dsh-superagent. DSH packages are 0.2.1-alpha.2. Panel stays 127.0.0.1:3082. stateDir reads SPECMILL_CONTROLLER_STATE. controller-contracts only provides schemas. #59 is docs: observe, owner allow list, slack-briefed-task would-accept, no merge CLI. Services are not implemented. Live checks are pending."
     }
   ],
-  "updated": [
+  "updated": [],
+  "pending": [
     {
-      "title": "dsh-workbench TODO section fallback 1b2a12fc2772",
-      "url": "https://github.com/person-clouds/dsh-workbench/commit/1b2a12fc2772",
-      "commit": "1b2a12fc2772",
-      "reason": "Marker or the last 需要你执行 section. Code fence or list item counts. 无 does not. Subagents stay out. /ok still only strips the prefix."
+      "title": "specmill 432c17d6ce9c is now listed",
+      "url": "https://github.com/mrhoody/specmill/commit/432c17d6ce9c",
+      "confidence": 0.9,
+      "reason": "432c17d6ce9c at 2026-11-19T15:06:06Z merges #59 and only edits docs/controller-configuration.md, docs/feature-parity.md, and docs/upstream-path-trace.md. 04bc71614ff3 at 2026-11-19T14:45:58Z merges #54. Submodule upstream/superagent is 8c32a9dc5d72. @specmill/controller-harness 0.1.0 private bundles @deepseek-ai/dsh-base, @deepseek-ai/dsh-web-app, and dsh-superagent. Those DSH packages, dsh-app-boot, and the root devDependency @deepseek-ai/dsh are 0.2.1-alpha.2. cordis.patch.yml sets webserver 127.0.0.1:3082 and dsh-superagent stateDir to SPECMILL_CONTROLLER_STATE, and inserts only @specmill/controller-contracts. index.mjs apply provides controllerContracts. protocolVersion is 1. maxWireBytes is 65536. Operations are context.read, issue.submit, issue.followup, decision.answer, and task.stop. The configuration doc keeps eval.mode observe, an owner-only allowed list, bots as <app>[bot], and an enabled slack-briefed-task rule that records would-accept and does not open a ticket. Delivery requirements name no merge CLI, so the owner merges. The doc says the settings are not applied and the live checks are pending. README says app services are not implemented. Root package is private. Node is >=24.9.0 <25. Tests were not rerun. Do not repeat unless the pin, the bundle list, the port, the stateDir env, the contract operations, the observe rule, or the not-implemented sentence changes."
     },
     {
-      "title": "booth 0.4.1 OSC 52 c3e22a51209b",
-      "url": "https://github.com/lanshi17/dsh-booth/commit/c3e22a51209b",
-      "commit": "c3e22a51209b",
-      "reason": "Cargo 0.4.1. OSC 52 first, 100000 byte base64 limit, then host clipboard tools. Ctrl+G and /copy open copy mode. /copy all copies the transcript."
-    }
-  ],
-  "pending": [
+      "title": "awtutu clean-session e7b52614944d stays a sandbox",
+      "url": "https://github.com/awtutu/dsh-superagent-sandbox/commit/e7b52614944d",
+      "confidence": 0.9,
+      "reason": "e7b52614944d at 2026-11-19T14:45:58Z merges #3 and adds clean-session.txt. The file text is \"clean session\". README is still \"Sandbox for dsh-superagent setup\". Not listed. Do not repeat unless the tree gains a prototype source, profile, or package."
+    },
+    {
+      "title": "zhongmingLL 00b34f769c05 stays a pi runtime",
+      "url": "https://github.com/zhongmingLL/superagentteam/commit/00b34f769c05",
+      "confidence": 0.86,
+      "reason": "00b34f769c05 at 2026-11-19T14:56:38Z merges a stream-contract doc. 3a00955c4fba at 2026-11-19T14:36:21Z merges a worker pool. A code search for dsh-superagent returned 0. Not listed. Do not repeat unless the README names this prototype."
+    },
+    {
+      "title": "deke-sasi playground 8f9d0ad911c7 is a README",
+      "url": "https://github.com/deke-sasi/superagent-playground/commit/8f9d0ad911c7",
+      "confidence": 0.88,
+      "reason": "8f9d0ad911c7 at 2026-11-19T15:03:22Z is the initial commit. README is the title and \"Super-agent playground repo\". Not listed. Do not repeat unless it gains prototype source."
+    },
+    {
+      "title": "oryx-labs 0615951acaf8 is not this prototype",
+      "url": "https://github.com/oryx-labs/SuperAgent/commit/0615951acaf8",
+      "confidence": 0.84,
+      "reason": "0615951acaf8 at 2026-11-19T14:43:46Z is a kernel bugfix. A code search for dsh-superagent or deepseek-harness returned 0. Not listed."
+    },
+    {
+      "title": "window after 14:34Z listed specmill only",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master has no commit after 14:34Z. Release dsh-v0.2.2-rc.5 stays published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0. @nelsonlongxiang/dsh-open-a2a-net preview stays 0.8.1-preview.26 and latest stays 0.7.0. Unscoped dsh-superagent stays 404. LittleChenLiya, ku-lin, LofiSu, booth, workbench, AION, waixv, ReSerendipity, cg-dsh, wychmod, HiSeax, GameGeek, oxmumu3, xyt071024, DASHAN, seabiscuit, wealth, gerdr, open-superagent, dsh-patrol, omp, and dori have no commit after 14:34Z. LofiSu #174 head stays d98dc8e7ff02 and #180 head stays 309817ffa033. Nelson master has no commit after 14:34Z. #748 stays open on next/0.8. pi-durable tip a63f750c7aee, t3code tip da33a53d1896, and oh-my-pi tip 65e9a4674d3d have commit messages that do not name dsh-superagent; file lists were not read. Discussion titles through #13823 do not contain dsh-superagent; bodies were not read. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
     {
       "title": "ku-lin 1.2.0 5a22f052e658 is now listed",
       "url": "https://github.com/ku-lin/dsh-superagent/commit/5a22f052e658",
@@ -14257,34 +14280,34 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Hivebot desktop UI",
-      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/24dc726c03e2",
-      "reason": "B39 and B40 stay UI. README is still an Electron desktop workbench."
+      "title": "awtutu sandbox file",
+      "url": "https://github.com/awtutu/dsh-superagent-sandbox/commit/e7b52614944d",
+      "reason": "clean-session.txt is the text clean session."
     },
     {
-      "title": "omp main moved but stays OMP",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/fdeeb6ad63d2",
-      "reason": "Main commits are CI runners and OMP 18 notes. Not this prototype."
+      "title": "zhongmingLL pi runtime",
+      "url": "https://github.com/zhongmingLL/superagentteam/commit/00b34f769c05",
+      "reason": "Code search for dsh-superagent returned 0."
     },
     {
-      "title": "dori still herdr",
-      "url": "https://github.com/sisyphuslabs/dori-superagent/commit/bda3539080a5",
-      "reason": "Installs Doriterm. Not a DSH bundle."
+      "title": "deke-sasi playground",
+      "url": "https://github.com/deke-sasi/superagent-playground/commit/8f9d0ad911c7",
+      "reason": "Initial README only."
     },
     {
-      "title": "habit-quest stays a test repo",
-      "url": "https://github.com/maojunhui0911/habit-quest-cli/commit/520fe9d1a8f3",
-      "reason": "Merged a web UI for the habit tracker. Not a superagent implementation."
+      "title": "oryx-labs kernel",
+      "url": "https://github.com/oryx-labs/SuperAgent/commit/0615951acaf8",
+      "reason": "Code search returned 0."
     },
     {
-      "title": "LofiSu PRs stay open",
-      "url": "https://github.com/LofiSu/dsh-super-agent/pull/174",
-      "reason": "#174 head is still d98dc8e7ff02. #180 head is still 309817ffa033. Main has no commit after 12:30Z."
+      "title": "pi-durable browser image",
+      "url": "https://github.com/gscode1/pi-durable-k8s/commit/a63f750c7aee",
+      "reason": "Patchright and a board spike. Messages do not name dsh-superagent."
     },
     {
-      "title": "DASHAN and Nelson mains did not move",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/0c4579c8af37",
-      "reason": "DASHAN main stays 34c21ffd6b78. Nelson master stays 0c4579c8af37."
+      "title": "t3code and oh-my-pi",
+      "url": "https://github.com/pingdotgg/t3code/commit/da33a53d1896",
+      "reason": "CI wake and queued-agent notices. Messages do not name dsh-superagent."
     }
   ],
   "held_on_other_branches": [
