@@ -1,26 +1,43 @@
 {
-  "last_run_at": "2026-11-19T20:33:15Z",
+  "last_run_at": "2026-11-19T21:32:14Z",
   "timezone": "UTC",
-  "baseline_commit": "cf5377d",
+  "baseline_commit": "1f1a839",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T19:35:55Z",
-    "to": "2026-11-19T20:33:15Z"
+    "from": "2026-11-19T20:33:15Z",
+    "to": "2026-11-19T21:32:14Z"
   },
   "added": [],
-  "updated": [
-    {
-      "title": "vicfei 1.8.0 fleet and 1.7 judge",
-      "url": "https://github.com/vicfei/dsh-super-agent/commit/b44bde5f1d70",
-      "commit": "b44bde5f1d70",
-      "reason": "List stopped at 1.5.0. 6f067b0c0498 is package 1.6.0; that review desk was not line-read. 6b37929ff84a is package 1.7.0. On the 1.8 tree judge.ts defaults threshold 0.5 and candidates admit/reject, and fails closed without a score. b44bde5f1d70 is package 1.8.0. npm @vicfei/dsh-super-agent latest is 1.8.0 at 2026-11-19T19:06:49.792Z, gitHead b44bde5f1d70. dsh fleet requires --engines or DSH_FLEET_ENGINES, default port 8790 on 127.0.0.1, page refresh 10000 ms. The proxy allows only GET /api/engine/<name>/<path>. suggest returns hold when negativesCurrent of the current policy version is greater than 0. unreachable is counted apart from the mean. The WeChat login page POSTs /qr and the server only mints a QR on POST. 1f617772be37 only edits the two READMEs. Tests were not rerun."
-    }
-  ],
+  "updated": [],
   "pending": [
+    {
+      "title": "window after 20:33Z changed no list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. No harness commit after 20:33Z. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @reserendipity/dsh-superagent stays 0.2.10. Unscoped dsh-superagent stays 404. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. dsh-patrol stays 404. @vicfei/dsh-super-agent stays 1.8.0 at 2026-11-19T19:06:49.792Z, gitHead b44bde5f1d70. LofiSu #174 head stays d98dc8e7ff02 and #180 head stays 309817ffa033. Nelson master stays 0c4579c8af37. Booth master stays c3e22a51209b. Repo search after 20:33Z returned only this list. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
+    {
+      "title": "t3code 296f9131f72c does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/296f9131f72c",
+      "confidence": 0.86,
+      "reason": "296f9131f72c at 2026-11-19T21:21:34Z is 20 commits and 87 files after 3b199e77fb42. No commit message names dsh-superagent. No filename contains superagent or dsh. Not listed. Do not repeat unless a message or path names this prototype."
+    },
+    {
+      "title": "oh-my-pi dbf726c9c9b7 is not on main",
+      "url": "https://github.com/can1357/oh-my-pi/commit/dbf726c9c9b7",
+      "confidence": 0.86,
+      "reason": "Main stays 4530cba18f6f. pushed_at 2026-11-19T20:55:43Z is branch farm/c6a3a0df/fix-pi-native-gateway-model-discovery. dbf726c9c9b7 at 2026-11-19T20:44:15Z says discovered pi-native gateway models. The message does not name dsh-superagent. Not listed. Do not repeat unless a commit message or path names this prototype."
+    },
+    {
+      "title": "discussions #13839 and #13840 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13840",
+      "confidence": 0.84,
+      "reason": "#13839 at 2026-11-19T21:19:55Z is composer submission identity. #13840 at 2026-11-19T21:25:10Z is a desktop renderer OOM and orphan subagent sessions. Neither title contains dsh-superagent. Bodies were not read. #13841 is 404. Not listed."
+    },
     {
       "title": "vicfei 1.8.0 fleet is now listed",
       "url": "https://github.com/vicfei/dsh-super-agent/commit/b44bde5f1d70",
@@ -14442,18 +14459,18 @@
   ],
   "rejected_this_run": [
     {
-      "title": "t3code thread search",
-      "url": "https://github.com/pingdotgg/t3code/commit/3b199e77fb42",
-      "reason": "Fifty commit messages do not name dsh-superagent."
+      "title": "t3code 296f9131f72c",
+      "url": "https://github.com/pingdotgg/t3code/commit/296f9131f72c",
+      "reason": "Twenty commits and 87 files. No message names dsh-superagent and no filename contains superagent or dsh."
     },
     {
-      "title": "awesome-dsh-plugin catalog",
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/737ad09a922b",
-      "reason": "Plugin catalog additions. No superagent filename."
+      "title": "oh-my-pi gateway branch",
+      "url": "https://github.com/can1357/oh-my-pi/commit/dbf726c9c9b7",
+      "reason": "Not on main. The message does not name dsh-superagent."
     },
     {
-      "title": "harness discussions 13835-13838",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13838",
+      "title": "harness discussions 13839-13840",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13840",
       "reason": "Titles do not contain dsh-superagent."
     }
   ],
