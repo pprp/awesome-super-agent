@@ -1,26 +1,50 @@
 {
-  "last_run_at": "2026-11-19T16:34:03Z",
+  "last_run_at": "2026-11-19T17:36:18Z",
   "timezone": "UTC",
-  "baseline_commit": "425ff46",
+  "baseline_commit": "f1cec14",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T15:33:05Z",
-    "to": "2026-11-19T16:34:03Z"
+    "from": "2026-11-19T16:34:03Z",
+    "to": "2026-11-19T17:36:18Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "GameGeek proxy split c35708a2b2c7",
-      "url": "https://github.com/GameGeek-Saikel/dsh-superagent-remote/commit/c35708a2b2c7",
-      "commit": "c35708a2b2c7",
-      "reason": "GITHUB_DIRECT drops github.com. API, codeload, objects, raw, and avatars stay direct. github.com uses https_proxy. portBase stays 3081."
+      "title": "HiSeax 0.2.6 114c5cb28581",
+      "url": "https://github.com/HiSeax/dsh-windows-superagent/commit/114c5cb28581",
+      "commit": "114c5cb28581",
+      "reason": "0.2.6 times the router ask_user card at 100s and keeps running when GitHub setup fails, using a local git repository and worktree. The board refresh stays on the title line below 640px."
     }
   ],
   "pending": [
+    {
+      "title": "HiSeax 0.2.6 114c5cb28581 is now listed",
+      "url": "https://github.com/HiSeax/dsh-windows-superagent/commit/114c5cb28581",
+      "confidence": 0.93,
+      "reason": "114c5cb28581 at 2026-11-19T16:42:20Z is 2 ahead of 5273f9982211. fd4c66b5c0f3 at 2026-11-19T16:17:22Z was pushed with it. Root dsh-windows-superagent-release, packages/dsh-windows-superagent, and the board are private 0.2.6. engines.dsh stays ^0.2.1-alpha.2. Weixin stays disabled. Router presets dsh-windows-superagent-router and dsh-superagent-router set ask_user mode timed timeout 100. Both worker presets still omit that tool. GITHUB_OPTIONAL_CODES are repositoryUnset, agentCliUnset, agentCliMissing, agentCliSignedOut, agentCliNoAccount, repositoryUnreadable, repositoryUnreported, and repositoryReadOnly. A configured repository stores githubProblem; an empty one logs info. Other setup errors still throw. repositoryPath empty uses <stateDir>/workspace/repo. A non-empty value must start with /. A missing directory is git init -b main, host user.name and user.email or dsh-windows-superagent and noreply@local, then an empty commit Initial commit (dsh-windows-superagent). An existing non-repo is localRepositoryInvalid. Empty prepare is git worktree add -B, then -b. The branch is the ticket execution name, else ticket- plus 12 id characters. A non-empty prepare stays sh -c with a 10 minute timeout. Without deployment.github the GitHub source reports paused with detail GitHub is not configured and does not poll. The gh shim is still written and exits 1. credential.https://github.com.helper is omitted. Below 640px the refresh stays on the title line and #updated is hidden. Tests were not rerun. Do not repeat unless the timeout, the optional codes, the repositoryPath rule, the worktree flags, or the package version changes."
+    },
+    {
+      "title": "Hivebot 035a1c2210c2 stays a desktop bot",
+      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/035a1c2210c2",
+      "confidence": 0.88,
+      "reason": "035a1c2210c2 at 2026-11-19T16:37:50Z only appends work/LOG.md and work/b30-live-re/ARCHITECTURE.md. Local-only intake can write triggers. eval to ticket is short-circuited by configured() until GitHub setup completes. The product README was not changed. Not listed. Do not repeat unless the README describes Trigger, Mandate, or Ticket."
+    },
+    {
+      "title": "xuebicc playground 3f6484ad8843 stays a sandbox",
+      "url": "https://github.com/xuebicc102030-sys/dsh-superagent-playground",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-19T17:04:28Z. Tip 3f6484ad8843 is the initial commit. README is a smoke-test sandbox: greet.py, tests/test_greet.py, and TASKS.md. It says nothing here is production code. Not listed. Do not repeat unless the tree gains prototype source, a profile, or a package."
+    },
+    {
+      "title": "window after 16:34Z updated HiSeax only",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master has no commit after 16:34Z. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, registry modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0. @nelsonlongxiang/dsh-open-a2a-net preview stays 0.8.1-preview.26 and latest stays 0.7.0. @reserendipity/dsh-superagent stays 0.2.10. Unscoped dsh-superagent stays 404. GameGeek, xyt071024, superboard, specmill, ku-lin, LittleChenLiya, workbench, booth, AION, LofiSu, Nelson, waixv, wealth, seabiscuit, fliggy, oxmumu3, wychmod, DASHAN, patrol, open-superagent, ReSerendipity, cg-dsh, omp, Missher, lishibin, and the earlier sandboxes have no push after 16:34Z. LofiSu #174 head stays d98dc8e7ff02 and #180 head stays 309817ffa033. Nelson master stays 0c4579c8af37. awesome-dsh-plugin tip 5e23c91531bf only normalizes catalog names. t3code tip 78d74598d47f at 2026-11-19T17:36:02Z hides Resume; the message does not name dsh-superagent and the file list was not read. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. Discussion search returned 0. No open PR on this list."
+    },
     {
       "title": "GameGeek c35708a2b2c7 proxy split is now listed",
       "url": "https://github.com/GameGeek-Saikel/dsh-superagent-remote/commit/c35708a2b2c7",
