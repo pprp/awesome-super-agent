@@ -1,38 +1,49 @@
 {
-  "last_run_at": "2026-11-19T10:36:30Z",
+  "last_run_at": "2026-11-19T11:36:13Z",
   "timezone": "UTC",
-  "baseline_commit": "ec09ed9",
+  "baseline_commit": "bd2062e",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T09:36:00Z",
-    "to": "2026-11-19T10:36:30Z"
+    "from": "2026-11-19T10:36:30Z",
+    "to": "2026-11-19T11:36:13Z"
   },
   "added": [],
-  "updated": [
-    {
-      "title": "LofiSu deliver-gate evolution 7829516bef35",
-      "url": "https://github.com/LofiSu/dsh-super-agent/commit/7829516bef35",
-      "commit": "7829516bef35",
-      "reason": "Merge #168 lands src/evolution and ds-agent evolution. Opt-in via DS_AGENT_USE_PROMOTED_DELIVER_GATE=1."
-    },
-    {
-      "title": "booth launch directory f0605c42a471",
-      "url": "https://github.com/lanshi17/dsh-booth/commit/f0605c42a471",
-      "commit": "f0605c42a471",
-      "reason": "Cargo 0.4.0. Release v0.4.0 at 09:44Z. Tip binds current_dir, not git toplevel, and stops capturing the mouse."
-    },
-    {
-      "title": "open-superagent GitHub source b0e45231717e",
-      "url": "https://github.com/1LunarVeil/open-superagent/commit/b0e45231717e",
-      "commit": "b0e45231717e",
-      "reason": "source:github defaults: poll 60s, observe flags false, backlog 1440 minutes, api.github.com only, idempotent reply marker."
-    }
-  ],
+  "updated": [],
   "pending": [
+    {
+      "title": "cg-dsh repositories list is refused before the probe",
+      "url": "https://github.com/cg-dsh/dsh-superagent-prototype/commit/aed8064a6096",
+      "confidence": 0.92,
+      "reason": "aed8064a6096 at 2026-11-19T11:11:26Z, parent 9da9b290a899. GithubAccountsSchema adds repositories: owner/name strings, max 20, default []. resolveDeployment throws SetupError repositoriesUnsupported when that array is non-empty, before the primary repository probe. The later loop that would probe extra repositories never runs. An empty list still resolves the primary repository and stores repositories as that one canonical name. The locale string says to leave the list empty. Package stays private dsh-superagent 0.1.0. engines.dsh stays ^0.2.1-alpha.2. engines.node stays ^22.19.0 || >=24.0.0. Official tip 8c32a9dc5d72 is not in this repository. Tests were not rerun. Not listed. Do not repeat unless the throw is removed or the source reads the extra repositories."
+    },
+    {
+      "title": "gerdr still dispatches Claude Code or Codex",
+      "url": "https://github.com/gerdr-dev/gerdr-panel-superagent/commit/1339a768319a",
+      "confidence": 0.9,
+      "reason": "1339a768319a at 2026-11-19T11:27:00Z is 14 commits ahead of bbb741ee92ef. local/superagent.ts only imports secAsks and adds asks to log(). README still says workers are Claude Code or Codex, and the CLI example uses agent codex. It cites dsh-superagent for the attention principle. Not a DSH plugin. Not listed. Do not repeat unless that worker claim changes."
+    },
+    {
+      "title": "LofiSu #180 and #174 are open",
+      "url": "https://github.com/LofiSu/dsh-super-agent/pull/180",
+      "confidence": 0.9,
+      "reason": "main stays 7829516bef35, identical to the listed tip. #180 updated 2026-11-19T11:31:06Z is open; the reviewed head is 2a328dcc327d. #174 updated 2026-11-19T11:10:21Z is open; the reviewed head is 10152ad7e329. Do not list either. Do not repeat unless one merges to main."
+    },
+    {
+      "title": "Nelson #750 is open and docs-only",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/750",
+      "confidence": 0.9,
+      "reason": "5fd8b45b49c6 at 2026-11-19T11:22:50Z only edits docs/ops/0.8.1-upgrade-check.md. #750 is open. master stays 62e86de18b10. next/0.8 stays a9cc84fa5e12. Do not list. Do not repeat unless this lands on master or the package version on master changes."
+    },
+    {
+      "title": "window after 10:36Z changed no listed row",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release dsh-v0.2.2-rc.5 stays published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, rc.5 time stays 2026-11-18T13:17:23.604Z, no gitHead. dsh-mini-superagent stays 0.10.2, gitHead fad73dcdeaba. @oxmumu3/dsh-superagent latest stays 0.3.0 and preview stays 0.3.0-preview.1. LofiSu main stays 7829516bef35. booth stays f0605c42a471. open-superagent stays b0e45231717e. wychmod stays 10a814d6fec3. HiSeax stays 5273f9982211. GameGeek stays 835396b49873. DASHAN main stays 34c21ffd6b78. t3code 475ae52ac279 at 2026-11-19T10:42:57Z is 2 commits and 6 files from 2f577fa39734: TelemetryExportSettings and AcpRegistrySupport, no superagent filename. oh-my-pi main stays 57771ae562b9. Xenra main stays 04ae31dcdafd at 2026-11-19T07:52:43Z, before this window. gscode1/pi-durable-k8s 3ef8064afa9e only edits docs/network-policy.md, docs/onecli-host-rules.md, and hack/onecli-policies. DouLion 326f4840d889 still describes a trunk tree. awtutu/dsh-superagent-sandbox is size 0, commit 430c5f878c94. openviking-superagent-glossary 0a57356e4b13 is an OpenViking term index. zhongmingLL/superagentteam 136d3bdbd61f is a pi v1.4.0 runtime. Discussions #13792 through #13796 do not name this prototype. A discussion search for dsh-superagent updated on 2026-11-19 returned 0. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
     {
       "title": "LofiSu deliver-gate evolution 7829516bef35 is now listed",
       "url": "https://github.com/LofiSu/dsh-super-agent/commit/7829516bef35",
@@ -14118,32 +14129,44 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Nelson next/0.8",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/a9cc84fa5e12",
-      "reason": "Not merged to master."
+      "title": "cg-dsh repositoriesUnsupported",
+      "url": "https://github.com/cg-dsh/dsh-superagent-prototype/commit/aed8064a6096",
+      "reason": "Non-empty repositories throws before the probe. The extra-repo loop is unreachable."
     },
     {
-      "title": "DASHAN rc.5 branches",
-      "url": "https://github.com/DASHAN-0079/dsh-superagent-adapt/commit/50b3ef9cfc00",
-      "reason": "adapt/rc5 and feat/rc5-evidence-pages are not main."
+      "title": "gerdr question cards",
+      "url": "https://github.com/gerdr-dev/gerdr-panel-superagent/commit/1339a768319a",
+      "reason": "README still dispatches Claude Code or Codex workers."
     },
     {
-      "title": "t3code settings watcher",
-      "url": "https://github.com/pingdotgg/t3code/commit/2f577fa39734",
-      "reason": "4 commits and 13 files with no superagent filename."
+      "title": "LofiSu open PRs",
+      "url": "https://github.com/LofiSu/dsh-super-agent/pull/180",
+      "reason": "#180 and #174 are not merged to main."
     },
     {
-      "title": "omp messenger refactor",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/4d1ad5534145",
-      "reason": "Still omp-superagent 0.1.2 on Bun. No dsh dependency."
+      "title": "Nelson #750",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/750",
+      "reason": "Open and docs-only. master and next/0.8 did not move."
     },
     {
-      "title": "sandbox and ticket workspaces",
-      "url": "https://github.com/chensh1024/superagent-sandbox",
-      "reason": "superagent-sandbox, habit-quest-cli, and agent-workspace are trial or ticket workspaces."
+      "title": "t3code telemetry and ACP registry",
+      "url": "https://github.com/pingdotgg/t3code/commit/475ae52ac279",
+      "reason": "2 commits and 6 files with no superagent filename."
+    },
+    {
+      "title": "awtutu sandbox",
+      "url": "https://github.com/awtutu/dsh-superagent-sandbox",
+      "reason": "Empty initial commit, size 0."
+    },
+    {
+      "title": "DouLion trunk tree",
+      "url": "https://github.com/DouLion/SuperAgentPlusCloud/commit/326f4840d889",
+      "reason": "Still a trunk tree, not this prototype."
     }
   ],
   "held_on_other_branches": [
+    "LofiSu/dsh-super-agent main stays 7829516bef35. #180 head 2a328dcc327d and #174 head 10152ad7e329 are open.",
+    "NelsonLongxiang/dsh-open-a2a-net master stays 62e86de18b10. next/0.8 stays a9cc84fa5e12. #750 head 5fd8b45b49c6 is open and docs-only.",
     "DASHAN-0079/dsh-superagent-adapt main stays 34c21ffd6b78. adapt/rc5 adccef4911f7 and feat/rc5-evidence-pages 50b3ef9cfc00 are not merged.",
     "NelsonLongxiang/dsh-open-a2a-net master stays 62e86de18b10. next/0.8 a9cc84fa5e12 merges #749 and is not master.",
     "louifinn/dsh-superagent-further branch docs/information-discipline tip b06ffd5e001c is not merged. main stays 895e0ff7cf66.",
