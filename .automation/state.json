@@ -1,19 +1,55 @@
 {
-  "last_run_at": "2026-11-19T21:32:14Z",
+  "last_run_at": "2026-11-19T22:31:08Z",
   "timezone": "UTC",
-  "baseline_commit": "1f1a839",
+  "baseline_commit": "43d27c2",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T20:33:15Z",
-    "to": "2026-11-19T21:32:14Z"
+    "from": "2026-11-19T21:32:14Z",
+    "to": "2026-11-19T22:31:08Z"
   },
   "added": [],
   "updated": [],
   "pending": [
+    {
+      "title": "window after 21:32Z changed no list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. No harness commit after 21:32Z. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @reserendipity/dsh-superagent stays 0.2.10. Unscoped dsh-superagent stays 404. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. dsh-patrol stays 404. @vicfei/dsh-super-agent stays 1.8.0, gitHead b44bde5f1d70. LofiSu #174 head stays d98dc8e7ff02 and #180 head stays 309817ffa033. Nelson master stays 0c4579c8af37. next/0.8 stays 9856b8165eb1. Booth master stays c3e22a51209b. A dsh-superagent repository search pushed after 21:32Z returned only codefufuai. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
+    {
+      "title": "t3code 6b6950adfe2e does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/6b6950adfe2e",
+      "confidence": 0.86,
+      "reason": "6b6950adfe2e at 2026-11-19T22:22:44Z is 7 commits and 43 files after 296f9131f72c. No commit message names dsh-superagent. No filename contains superagent or dsh. Not listed. Do not repeat unless a message or path names this prototype."
+    },
+    {
+      "title": "oh-my-pi 6dcf164d2c6b does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/6dcf164d2c6b",
+      "confidence": 0.88,
+      "reason": "6dcf164d2c6b at 2026-11-19T22:21:46Z is 3 commits and 31 files after 4530cba18f6f. The tip bumps the version to 19.0.1. ef9d87236514 allows Windows-only clippy lints in pty and rawproc. 6fda0d5e1a71 extends Gemini 4 Neon in the catalog. No path names dsh-superagent. Not listed. Do not repeat unless a commit message or path names this prototype."
+    },
+    {
+      "title": "discussions #13841 and #13842 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13842",
+      "confidence": 0.86,
+      "reason": "#13841 at 2026-11-19T21:34:03Z is a message-withdraw idea. #13842 at 2026-11-19T21:39:16Z is a corrupt JSONL session header. Neither title contains dsh-superagent. Bodies were not read. #13843 is 404. Not listed."
+    },
+    {
+      "title": "codefufuai 848483b408db only refreshes profile cards",
+      "url": "https://github.com/codefufuai/codefufuai/commit/848483b408db",
+      "confidence": 0.9,
+      "reason": "848483b408db at 2026-11-19T22:03:29Z edits the two READMEs, four snake SVGs, four stats SVGs, and data/contribs.json. The message is chore: refresh cards. Not listed. Do not repeat unless a path or message names this prototype."
+    },
+    {
+      "title": "dsh-procedures does not name this prototype",
+      "url": "https://github.com/fubai-fenzhi/dsh-procedures",
+      "confidence": 0.88,
+      "reason": "Created 2026-11-19T22:27:16Z. README describes file-based experience cards and a DSH conditional hook. A search of that README found no superagent, Ticket, or Mandate. songyang2026-yf/dsh-plugins, created 2026-11-19T21:51:31Z, is a session-archives plugin and its README and tree do not name this prototype. Not listed. Do not repeat unless a README names this prototype."
+    },
     {
       "title": "window after 20:33Z changed no list rows",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -14459,18 +14495,18 @@
   ],
   "rejected_this_run": [
     {
-      "title": "t3code 296f9131f72c",
-      "url": "https://github.com/pingdotgg/t3code/commit/296f9131f72c",
-      "reason": "Twenty commits and 87 files. No message names dsh-superagent and no filename contains superagent or dsh."
+      "title": "t3code 6b6950adfe2e",
+      "url": "https://github.com/pingdotgg/t3code/commit/6b6950adfe2e",
+      "reason": "Seven commits and 43 files. No message names dsh-superagent and no filename contains superagent or dsh."
     },
     {
-      "title": "oh-my-pi gateway branch",
-      "url": "https://github.com/can1357/oh-my-pi/commit/dbf726c9c9b7",
-      "reason": "Not on main. The message does not name dsh-superagent."
+      "title": "oh-my-pi 19.0.1",
+      "url": "https://github.com/can1357/oh-my-pi/commit/6dcf164d2c6b",
+      "reason": "Three commits and 31 files. Version bump, clippy, and Gemini catalog. No path names dsh-superagent."
     },
     {
-      "title": "harness discussions 13839-13840",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13840",
+      "title": "harness discussions 13841-13842",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13842",
       "reason": "Titles do not contain dsh-superagent."
     }
   ],
