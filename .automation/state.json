@@ -1,26 +1,50 @@
 {
-  "last_run_at": "2026-11-19T03:33:18Z",
+  "last_run_at": "2026-11-19T04:35:00Z",
   "timezone": "UTC",
-  "baseline_commit": "acf816f",
+  "baseline_commit": "3f60917",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T02:33:54Z",
-    "to": "2026-11-19T03:33:18Z"
+    "from": "2026-11-19T03:33:18Z",
+    "to": "2026-11-19T04:35:00Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "waixv-superagent/dsh-superagent-prototype",
-      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype",
-      "commit": "f96e3a8c538f",
-      "reason": "Plan, grill, and pipeline stage cards mention the ticket's Feishu person. Six mentions per ticket, ten minutes apart."
+      "title": "oxmumu3/dsh-superagent",
+      "url": "https://github.com/oxmumu3/dsh-superagent/commit/681bfd725900",
+      "commit": "681bfd725900",
+      "reason": "0.3.0 adds triage and Codex worktrees. engines.dsh is >=0.2.2-rc.2 <0.3.0. Release v0.3.0 is not a draft."
+    },
+    {
+      "title": "LofiSu/dsh-super-agent",
+      "url": "https://github.com/LofiSu/dsh-super-agent/commit/400bf63bbddc",
+      "commit": "400bf63bbddc",
+      "reason": "README identity and clone URL now use LofiSu/dsh-super-agent. Prompt budget and health check unchanged."
     }
   ],
   "pending": [
+    {
+      "title": "oxmumu3 0.3.0 is now listed",
+      "url": "https://github.com/oxmumu3/dsh-superagent/commit/681bfd725900",
+      "confidence": 0.94,
+      "reason": "Tip 681bfd725900 at 2026-11-19T04:19:43Z is 2 commits ahead of cb2dce96834c. 9ad17b6468bc at 2026-11-14T15:50:21Z and this release landed together. engines.dsh is >=0.2.2-rc.2 <0.3.0. Node is >=22.0.0. private stays false. Lightweight tag v0.3.0 points at 681bfd725900. GitHub release v0.3.0 published 2026-11-19T04:21:48Z, not a draft, not a prerelease, assets oxmumu3-dsh-superagent-0.3.0.tgz and ARCHIVE.sha256. npm @oxmumu3/dsh-superagent stays 404. Triage splits on lines, numbers, and 顺便/另外/还有, keeps at most 6 segments, titles 64. Unknown model paths are dropped. llm.stream uses DSH_SUPERAGENT_PROVIDER or deepseek-account, DSH_SUPERAGENT_MODEL or deepseek-chat, temperature 0, maxTokens 1200, prompt 4000, timeout 8s. Runners are codex, dsh, manual. Missing codex binary fails the start and does not fall back to dsh. Worktrees use $DSH_HOME/superagent-worktrees when DSH_HOME is set, else the ledger directory, branch sa/<taskId>, git timeout 10s. Default sandbox is workspace-write. Router off/observe/auto and max 2 stay. Tests were not rerun. Do not repeat unless the runner set, the path rule, the worktree location, or the engines range changes."
+    },
+    {
+      "title": "LofiSu repository is now dsh-super-agent",
+      "url": "https://github.com/LofiSu/dsh-super-agent/commit/400bf63bbddc",
+      "confidence": 0.93,
+      "reason": "Tip 400bf63bbddc at 2026-11-19T04:13:30Z merges #181. README title, clone URL, and DS_AGENT_GH_REPO default change from LofiSu/deepseek-super-agent to LofiSu/dsh-super-agent. The contributing section and the domain-naming paragraph are removed. The old GitHub URL returns 301. Prompt budgets and sandboxAvailability stay. Do not repeat unless the clone URL, the default repo, or those health-check facts change."
+    },
+    {
+      "title": "window after 03:33Z updated oxmumu3 and LofiSu only",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13747",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release dsh-v0.2.2-rc.5 stays published 2026-11-18T12:51:39Z. npm latest 0.2.2-rc.1, next 0.2.2-rc.5 modified 2026-11-18T13:17:23.604Z, alpha 0.2.2-alpha.3, registry modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher packages stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. Nelson master stays 62e86de18b10. #744 8c88782099be merged to next/0.8 at 2026-11-19T04:00:33Z. #745 head 771dca6c706d is open on next/0.8. Do not list next/0.8. t3code a941ab544d4b at 2026-11-19T04:26:59Z is 14 commits from f69b3a27a794 with no matching filename. SkillfulAgents 1ce558b0970a at 2026-11-19T03:25:43Z is before this window; 27 commits from d2241d24f79e have no matching filename. AstraBox main stays 607bc6c827a2. waixv main stays f96e3a8c538f. louifinn main stays 895e0ff7cf66; docs/information-discipline stays b06ffd5e001c and is not merged. Robert PR #3 head aa575d5dc050 stays open and unmerged; main stays 931a4be5e662. tljmood/dsh-superagent-test created 2026-11-19T03:54:48Z is size 0. shodow-agent playground stays empty. Discussions #13743 through #13747 do not name this prototype. No discussion number above #13747. arXiv entries 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
     {
       "title": "waixv milestone mention f96e3a8c538f is now listed",
       "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/commit/f96e3a8c538f",
@@ -13909,15 +13933,15 @@
   "rejected_this_run": [
     "prototype tip stays 8c32a9dc5d72",
     "harness master stays 2e39e70496aa",
-    "release dsh-v0.2.2-rc.5 stays published 2026-11-18T12:51:39Z",
-    "npm latest 0.2.2-rc.1, next 0.2.2-rc.5, alpha 0.2.2-alpha.3",
-    "shodow-agent/dsh-superagent-playground is empty",
-    "992056793/superagent-playground is a sandbox",
+    "npm latest 0.2.2-rc.1 next 0.2.2-rc.5 alpha 0.2.2-alpha.3",
+    "oxmumu3 681bfd725900 is 0.3.0",
+    "LofiSu 400bf63bbddc renames the README clone URL",
     "Nelson master stays 62e86de18b10",
-    "t3code f69b3a27a794 has no superagent filename",
-    "discussions #13736 through #13742 do not name this prototype",
+    "Nelson #744 merged to next/0.8 only",
+    "t3code a941ab544d4b has no matching filename",
+    "discussions #13743 through #13747 do not name this prototype",
+    "tljmood/dsh-superagent-test is empty",
     "arXiv entries 0",
-    "HN newest relevant story stays 2026-11-11",
     "no open PR on this list"
   ],
   "held_on_other_branches": [
@@ -14386,5 +14410,5 @@
     "seabiscuit-agent/dsh-superagent-prototype PR #32 head agent/archive-and-named-start is fe7429ec3e98 and is not merged. Default main stays 6f512b735892. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). GitHub release dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z."
+  "npm_note": "latest remains 0.2.2-rc.1 (published 2026-11-04T09:20:32.310Z). next remains 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.2-alpha.3 (published 2026-11-03T07:48:26.202Z). GitHub release dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. Rechecked 2026-11-19T04:35:00Z: @deepseek-ai/dsh latest 0.2.2-rc.1, next 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha 0.2.2-alpha.3, modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher/dsh-superagent and @missher/dsh-dashboard stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0, preview stays 0.8.1-preview.26. @oxmumu3/dsh-superagent stays 404. npm dsh-patrol stays 404."
 }
