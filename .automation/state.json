@@ -1,26 +1,38 @@
 {
-  "last_run_at": "2026-11-18T23:33:30Z",
+  "last_run_at": "2026-11-19T00:38:54Z",
   "timezone": "UTC",
-  "baseline_commit": "b272022",
+  "baseline_commit": "14c9707",
   "npm_dsh_latest_checked": "0.2.2-rc.1",
   "npm_dsh_latest_time": "2026-11-04T09:20:32.310Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-18T22:37:39Z",
-    "to": "2026-11-18T23:33:30Z"
+    "from": "2026-11-18T23:33:30Z",
+    "to": "2026-11-19T00:38:54Z"
   },
-  "added": [],
-  "updated": [
+  "added": [
     {
-      "title": "person-clouds/dsh-workbench",
-      "url": "https://github.com/person-clouds/dsh-workbench",
-      "commit": "d065d0197333",
-      "reason": "Composer /ok only strips the TODO prefix. The archive route is unchanged, and the user-action marker is a required context."
+      "title": "GameGeek-Saikel/dsh-superagent-remote",
+      "url": "https://github.com/GameGeek-Saikel/dsh-superagent-remote",
+      "commit": "7ea278db9612",
+      "reason": "Windows host plugin supervises one WSL2 dsh-superagent deployment per GitHub repository."
     }
   ],
+  "updated": [],
   "pending": [
+    {
+      "title": "GameGeek-Saikel/dsh-superagent-remote is listed",
+      "url": "https://github.com/GameGeek-Saikel/dsh-superagent-remote/commit/7ea278db9612",
+      "confidence": 0.92,
+      "reason": "Created and pushed 2026-11-18T23:44:14Z. Tip 7ea278db9612 committer date 2026-11-18T16:38:36Z. Package @gamegeek-saikel/dsh-superagent-remote 0.1.0 private. engines.node is ^22.19.0 || >=24.0.0. No engines.dsh. MIT, copyright Saikel (GameGeek Studio). Vendor panel stays upstream MIT. npm 404. Host inject is webServer. Prefix /superagent-remote. Body cap 256 KiB. Loopback or trustedHosts, else 403. Proxy adds x-orchestrator-request 1, 120s, 502 when the deployment does not answer. Registry is $DSH_HOME/storages/dsh-superagent-remote/workspaces.json. Defaults are Ubuntu-22.04, root, /root/dsh-superagent, /root/.local/bin/gh-agent, portBase 3083, terminateWslOnExit owned, autoImport true. autoImport runs only on an empty registry and only profiles whose patch contains id: dsh-superagent. A new workspace needs a logged-in gh, owner/name, and a unique repository. Profile default is superagent-<id>. The written patch pins webserver to 127.0.0.1 and leaves Feishu disabled. Checkout must already contain scripts/dsh-superagent, lib/, and cordis.patch.yml. Reload does not stop deployments. Process exit stops enabled workspaces with --stop-timeout 8 and terminates WSL only for always, or owned when this plugin booted it. Sidebar id dsh-superagent-remote order 11. One issue titled Superagent 对话; the body is the chat marker and the intro; person messages are comments. A missing @agentLogin is prepended. Chat poll is 3000 ms. Tests were not rerun. Do not repeat unless the prefix, the port base, the exit rule, the mention rule, or the npm name changes."
+    },
+    {
+      "title": "window after 23:33Z added the WSL remote supervisor",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13726",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release dsh-v0.2.2-rc.5 stays published 2026-11-18T12:51:39Z. npm latest 0.2.2-rc.1, next 0.2.2-rc.5, alpha 0.2.2-alpha.3, modified 2026-11-18T13:17:23.881Z. @xiangyixie/dsh-superagent stays 0.23.0. dsh-mini-superagent stays 0.10.1. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. @missher packages stay 404. Unscoped dsh-superagent-prototype stays 0.1.3. @reserendipity/dsh-superagent stays 0.2.10. oh-my-pi 57771ae562b9 is 1 commit and 1 file from 2421bdb99f84 and only bumps the daemon client version. t3code 3ce2145864f1 is 6 commits and 113 files from b6a0fd6d62ad with no matching filename. SkillfulAgents main stays 11e9cec07c50; pushed_at 2026-11-19T00:36:51Z is not that commit. dbc-hbin 123fe5395b31 is host-shutdown test fixtures and stays omp. IHUI 83f0397588ef has no matching filename. dsh-chief 2bc2a0bc02f0 is v1.4.0 and only cites the prototype as a router/worker reference. 1787463152-hub playgrounds only sync STATUS-mac.md. Discussion #13726 does not name this prototype. Updates to #10515 and #1999 do not. No discussion number above #13726. arXiv entries 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
     {
       "title": "dsh-workbench /ok no longer archives",
       "url": "https://github.com/person-clouds/dsh-workbench/commit/d065d0197333",
@@ -13826,11 +13838,13 @@
     "prototype tip stays 8c32a9dc5d72",
     "harness master stays 2e39e70496aa",
     "npm latest 0.2.2-rc.1 next 0.2.2-rc.5 alpha 0.2.2-alpha.3",
-    "dsh-workbench d065d0197333 listed for /ok and required context",
-    "oh-my-pi 2421bdb99f84 has no matching filename",
-    "t3code b6a0fd6d62ad has no matching filename",
-    "SkillfulAgents 11e9cec07c50 has no matching filename",
-    "discussion #13725 does not name this prototype",
+    "GameGeek-Saikel/dsh-superagent-remote 7ea278db9612 listed",
+    "oh-my-pi 57771ae562b9 is a version bump",
+    "t3code 3ce2145864f1 has no matching filename",
+    "SkillfulAgents main stays 11e9cec07c50",
+    "dsh-chief 2bc2a0bc02f0 only cites the prototype",
+    "dbc-hbin 123fe5395b31 stays omp",
+    "discussion #13726 does not name this prototype",
     "arXiv entries 0"
   ],
   "held_on_other_branches": [
