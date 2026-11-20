@@ -1,51 +1,44 @@
 {
-  "last_run_at": "2026-11-20T09:28:22Z",
+  "last_run_at": "2026-11-20T10:33:27Z",
   "timezone": "UTC",
-  "baseline_commit": "09e85ca",
+  "baseline_commit": "4d9ecd5",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T08:35:26Z",
-    "to": "2026-11-20T09:28:22Z"
+    "from": "2026-11-20T09:28:22Z",
+    "to": "2026-11-20T10:33:27Z"
   },
-  "added": [
-    {
-      "title": "LMQ00/superagent-lite",
-      "url": "https://github.com/LMQ00/superagent-lite/commit/81c379d5ac6f",
-      "confidence": 0.9,
-      "reason": "Repo created 2026-11-20T09:22:35Z. Read 81c379d5ac6f at 09:22:23Z. Private @local/superagent-lite 1.0.0, no LICENSE, engines.dsh exactly 0.2.2-rc.3. Presets superagent-lite and superagent-lite-reviewer. dispatch_worker refuses a dirty checkout, reuses an existing task id, and spawns a standard worker named sl-<id>. Delivery pushes the reviewed head, opens a PR, requires passing required checks, then gh pr merge --auto --squash. Parent sandbox must be danger-full-access. continue_worker only resumes awaiting-merge, review-required, or failed. 53386c16f640 at 09:30:43Z is after the window and was not used. Tests were not rerun."
-    }
-  ],
+  "added": [],
   "updated": [
     {
-      "title": "injet-zhou stops workers on the DSH tree API",
-      "url": "https://github.com/injet-zhou/dsh-superagent-prototype/commit/00364380639b",
+      "title": "LMQ00/superagent-lite worker preset and running follow-up",
+      "url": "https://github.com/LMQ00/superagent-lite/commit/210638545516",
       "confidence": 0.93,
-      "reason": "00364380639b at 2026-11-20T08:40:11Z merges #25. Code aa8d142485ab uses listDescendants and waitForTreeWork when present, and cancels live descendants with keepInbox false. The listChildren/drainChildren path remains. scripts/dsh-superagent treats node-MainThread as the service. Package stays private 0.1.0, engines.dsh ^0.2.1-alpha.2. Ahead of 6337fc8 by 97, behind 0. Tests were not rerun."
+      "reason": "210638545516 at 2026-11-20T09:59:19Z. Read dispatch.js, continue.js, review.js, message-router.js, helper-guard.js, worker-prompt.js, merge.js, github.js, turn-guard.js, validation.js, index.js, router.js, cordis.patch.yml, package.json, and memory.js. Presets are superagent-lite and superagent-lite-worker. superagent-lite-reviewer is gone. dispatch_worker requires delegate. continue_worker messages a running worker. Review is a structured_output helper. Package stays private @local/superagent-lite 1.0.0, engines.dsh exactly 0.2.2-rc.3, no LICENSE. Tests were not rerun."
     },
     {
-      "title": "vicfei seatbelt alias and iMessage watchlist",
-      "url": "https://github.com/vicfei/dsh-super-agent/commit/69ca153f4679",
-      "confidence": 0.92,
-      "reason": "d610933c55f1 at 2026-11-20T08:52:01Z merges #161. CI matrix is ubuntu-latest and macos-latest for Node 20 and 22. doctor names sandbox-exec on darwin and bwrap elsewhere. sandboxExecProfile allows the realpath when it differs from the literal worktree. 69ca153f4679 at 09:02:13Z merges #163. IMESSAGE_HANDLES polls only on darwin, groups are not addressed, isFromMe and empty text are dropped, and the first poll baselines. npm stays 1.9.0. Tests were not rerun."
-    },
-    {
-      "title": "Forkbomb dashboard /healthz does not call DSH",
-      "url": "https://github.com/ForkbombEu/superagent/commit/36cf007a44ac",
+      "title": "dsh-superagent-ptc 0.1.8 is docs and packaging",
+      "url": "https://github.com/BioAIEvolu/dsh-superagent-ptc/commit/83f04691bdc8",
       "confidence": 0.9,
-      "reason": "36cf007a44ac at 2026-11-20T08:53:24Z merges #9. Inner Caddy answers GET /healthz with ok 200. Compose and the image healthcheck wget http://127.0.0.1:8080/healthz every 30s. README says this does not mean the superagent service is up. Tests were not rerun."
+      "reason": "83f04691bdc8 at 2026-11-20T10:23:06Z is 0.1.8. Compare from 65385b3f4c14 has no src changes. npm 0.1.8 at 2026-11-20T10:21:55.425Z, gitHead 0c2aa262f1073a7c352a8cd72f5111e924e3a9e9, shasum 0b30f7e25c1e9c2614ee66707d0458ff5a6a0190, 27 files. The later market-index commit is not the published gitHead. engines.dsh stays >=0.2.2-rc.3 <0.3.0-0. Tests were not rerun."
     },
     {
-      "title": "dsh-superagent-ptc 0.1.4 is docs and packaging",
-      "url": "https://github.com/BioAIEvolu/dsh-superagent-ptc/commit/65385b3f4c14",
-      "confidence": 0.88,
-      "reason": "65385b3f4c14 at 2026-11-20T09:24:02Z is 0.1.4. Compare from ece4428c4d47 has no src changes. npm 0.1.4 at 2026-11-20T09:28:21.281Z, gitHead 65385b3f4c1486f5b65d6821097009e3b90cae52, shasum 11923c9ab7f106cd6785c75433c128eccafa1b81. engines.dsh stays >=0.2.2-rc.3 <0.3.0-0. Tests were not rerun."
+      "title": "Nelson README date follows preview.27",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/d433add75295",
+      "confidence": 0.9,
+      "reason": "d433add75295 at 2026-11-20T10:23:07Z merges #768 onto master. Only README.md and README_zh.md. The version-boundary date becomes 2026-11-20 and names preview 0.8.1-preview.27, which was already recorded. The guide link points at 0c4579c8af37. package.json was not in the diff. npm latest stays 0.7.0. Tests were not rerun."
     }
   ],
   "pending": [
+    {
+      "title": "window after 09:28Z updated lite, PTC, and the Nelson README date",
+      "url": "https://github.com/LMQ00/superagent-lite/commit/210638545516",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release stays dsh-v0.2.2-rc.5. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. Updated LMQ00/superagent-lite to 210638545516. Updated dsh-superagent-ptc to 0.1.8 at 83f04691bdc8; npm gitHead is 0c2aa262f107. Updated Nelson master to d433add75295, docs only. Xenra d6c8ba5c51e9 is CI timeout only; dispatch still not line-read. paseo-plugin-superagent stays b5f7eb8cc608, engines has node >=20 and no dsh, engine not line-read. Discussion #13891 is an unanswered note on design section 3.4. #13889 and #13890 and #13892 through #13897 do not name this prototype. t3code e6d521012d3a, IHUI e2636202c8fb, and oh-my-pi 21d93e49fbe3 have no matching filename. agentdescent f5017f930153 does not touch scripts/dsh-superagent-run.sh. Deepseektwins/superagent-playground and PREETCHAUHAN2005/SuperAgent-Architeure are empty or playground. HarshiJain20 is a Supabase chat backend. Hivebot main stays 59ee9c867a6e. awtutu de873738e469 adds a smoke note. agent-playground stays status sync. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 08:35Z added superagent-lite and updated four rows",
       "url": "https://github.com/LMQ00/superagent-lite/commit/81c379d5ac6f",
@@ -15157,57 +15150,58 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Xenra #19 only packages the plugin",
-      "url": "https://github.com/RUO-MO/Xenra-SuperAgent/commit/e5d9b50b187b",
-      "confidence": 0.84
+      "title": "Xenra #20 only lengthens Windows CI",
+      "url": "https://github.com/RUO-MO/Xenra-SuperAgent/commit/d6c8ba5c51e9",
+      "confidence": 0.86
     },
     {
-      "title": "paseo-plugin-superagent was not line-read",
+      "title": "paseo-plugin-superagent still has no engines.dsh",
       "url": "https://github.com/lekai63/paseo-plugin-superagent/commit/b5f7eb8cc608",
-      "confidence": 0.7
+      "confidence": 0.72
     },
     {
-      "title": "omp 197e586a791c stays docs",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/197e586a791c",
-      "confidence": 0.86
+      "title": "discussion #13891 is an unanswered design note",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13891",
+      "confidence": 0.74
     },
     {
-      "title": "discussion #13882 is a preset pin report",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13882",
-      "confidence": 0.58
+      "title": "PREETCHAUHAN2005/SuperAgent-Architeure is empty",
+      "url": "https://github.com/PREETCHAUHAN2005/SuperAgent-Architeure",
+      "confidence": 0.9
     },
     {
-      "title": "discussions #13883 through #13888 do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13888",
-      "confidence": 0.86
+      "title": "HarshiJain20 SuperAgent minor is not this prototype",
+      "url": "https://github.com/HarshiJain20/SuperAgent_Minor_backend",
+      "confidence": 0.88
     },
     {
-      "title": "t3code ed203c46cb3d does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/ed203c46cb3d",
-      "confidence": 0.86
+      "title": "Deepseektwins playground initial commit",
+      "url": "https://github.com/Deepseektwins/superagent-playground/commit/9f671e465f4e",
+      "confidence": 0.9
     },
     {
-      "title": "gerdr 45b7a356f2d0 stays off DSH",
-      "url": "https://github.com/gerdr-dev/gerdr-panel-superagent/commit/45b7a356f2d0",
+      "title": "agentdescent window does not change the handoff script",
+      "url": "https://github.com/ThinkFlowLab/agentdescent/commit/f5017f930153",
       "confidence": 0.84
     },
     {
-      "title": "qq-superagent and RudyCity are not this prototype",
-      "url": "https://github.com/zard110/qq-superagent/commit/eb981c80c4b1",
-      "confidence": 0.8
+      "title": "t3code e6d521012d3a has no matching filename",
+      "url": "https://github.com/pingdotgg/t3code/commit/e6d521012d3a",
+      "confidence": 0.86
     },
     {
-      "title": "JamesXuC/my-repo is empty",
-      "url": "https://github.com/JamesXuC/my-repo",
-      "confidence": 0.9
+      "title": "IHUI e2636202c8fb has no matching filename",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/e2636202c8fb",
+      "confidence": 0.86
     },
     {
-      "title": "agent-playground repos stay excluded",
-      "url": "https://github.com/1787463152-hub/agent-playground/commit/00b4a10750bf",
-      "confidence": 0.9
+      "title": "oh-my-pi 21d93e49fbe3 has no matching filename",
+      "url": "https://github.com/can1357/oh-my-pi/commit/21d93e49fbe3",
+      "confidence": 0.84
     }
   ],
   "held_on_other_branches": [
+    "2026-11-20T10:33:27Z: lite tip 210638545516 replaces the reviewer preset. PTC npm 0.1.8 gitHead is 0c2aa262f107, tip 83f04691bdc8 is later. Nelson d433add75295 is README only. Xenra d6c8ba5c51e9 is CI. paseo b5f7eb8cc608 still unread. #13891 not listed.",
     "2026-11-20T09:28:22Z: Xenra #19 e5d9b50b187b is packaging only. paseo-plugin-superagent b5f7eb8cc608 was not line-read. lite 53386c16f640, PTC 271e59233468, and Xenra d6c8ba5c51e9 are after the window.",
     "2026-11-20T07:35:02Z: Nelson next/0.8 is 6d887f46267d, package 0.8.1-preview.28, and is not master. npm preview stays 0.8.1-preview.27.",
     "2026-11-20T05:52:23Z: Nelson #759 is on next/0.8 at 1f77d737563a and is not master. vicfei #153 #155 #157 #158 #159 merged to main.",
