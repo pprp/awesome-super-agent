@@ -1,26 +1,80 @@
 {
-  "last_run_at": "2026-11-19T23:39:31Z",
+  "last_run_at": "2026-11-20T00:32:30Z",
   "timezone": "UTC",
-  "baseline_commit": "9de28e6",
+  "baseline_commit": "f38a493",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T22:31:08Z",
-    "to": "2026-11-19T23:39:31Z"
+    "from": "2026-11-19T23:39:31Z",
+    "to": "2026-11-20T00:32:30Z"
   },
-  "added": [
+  "added": [],
+  "updated": [
     {
-      "title": "simveit/dsh-whalepod 0.6.0",
-      "url": "https://github.com/simveit/dsh-whalepod/commit/21e5f7c4fdaa",
+      "title": "specmill candidate evidence ad6c1fe801c7",
+      "url": "https://github.com/mrhoody/specmill/commit/ad6c1fe801c72a8b208dcebcb7e6e3aa1a3b5fbf",
       "confidence": 0.93,
-      "reason": "User-facing Coordinator is now Orchestrator. Per-orchestrator Matriarc switches: chat default off, new executors default on. npm latest stays 0.5.0."
+      "reason": "Updated the existing specmill row. ad6c1fe801c7 at 2026-11-20T00:27:34Z merges #60, 3 ahead of 432c17d6ce9c. The new private package is not composed into the controller."
     }
   ],
-  "updated": [],
   "pending": [
+    {
+      "title": "window after 23:39Z updated specmill only",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa at 2026-11-18T10:58:42Z. No harness commit after 23:39Z. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @reserendipity/dsh-superagent stays 0.2.10. Unscoped dsh-superagent stays 404. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. dsh-patrol stays 404. @vicfei/dsh-super-agent stays 1.8.0, gitHead b44bde5f1d70. dsh-whalepod npm latest stays 0.5.0. Whalepod, booth, Nelson master, vicfei, and LofiSu main have no commit after 23:39Z. LofiSu #174 head stays d98dc8e7ff02 and #180 head stays 309817ffa033. Nelson master stays 0c4579c8af37. next/0.8 stays 9856b8165eb1. Booth master stays c3e22a51209b. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
+    {
+      "title": "specmill ad6c1fe801c7 candidate evidence is now listed",
+      "url": "https://github.com/mrhoody/specmill/commit/ad6c1fe801c72a8b208dcebcb7e6e3aa1a3b5fbf",
+      "confidence": 0.93,
+      "reason": "ad6c1fe801c7 at 2026-11-20T00:27:34Z merges #60 and is 3 ahead of 432c17d6ce9c. a51eceda6bf1 at 2026-11-20T00:23:37Z adds private @specmill/controller-candidate-evidence 0.1.0. engines.node is >=24.9.0 <25. The only devDependency is @deepseek-ai/cordis 4.0.5-alpha.1. There is no engines.dsh. The package README says it is developed for DSH 0.2.1-alpha.2 and prototype 8c32a9dc5d72, is not composed into the controller (#55), never merges or approves, and this packet does no live GitHub read or write. inject is orchestrator and superagentBridge. apply requires orchestrator.context({ kind: github, health: [github] }).commands.run and superagentBridge.ticket, then provides reviewCandidate.candidate plus candidateEvidence.evidence and evaluate. candidate returns undefined when the ticket is ended, when no github:<number> follow exists, or when the PR state is not open. Reads use the agent CLI. An empty readCli uses commands.deployment.github.cli, and API paths are prefixed repos/<repository>/. A missing, malformed, or truncated read throws and does not emit a partial packet. Worker report text and the PR body are not evidence. An origin trigger with meta.isPr === true is not read. An issues/<number> response that carries pull_request does not supply title or body as criteria. Issue title, an Acceptance criteria section, and task-list items are used only when the issue author is a string and differs from the configured agent login case-insensitively; ticket title, mandate scope, and Ticket <id> are then appended. Defaults are maxFiles 3000, maxFileContentChars 200000, maxTotalContentChars 4000000, maxDiffChars 60000, maxCriteria 50, mergeabilityRetryMs 1500, maxMergeabilityAttempts 2, and maxReviewThreads 1000. Unknown config keys reject activation. mergeable null is reread until the attempt cap and then retained. Branch protection 404 means not protected. 403 is rules-unreadable. GraphQL reviewThreads(first: 100) runs only when the rules require conversation resolution. Mode 120000 records the symlink target string and is not followed. Mode 160000 records the submodule commit and is not fetched. evaluate calls the mounted mergeGate.evaluate with mode observation and throws gate-unavailable when the gate is absent. cordis.patch.yml inserts id specmill-candidate-evidence. Root package.json only adds the candidate-evidence:check script. 675996adbac2 at 2026-11-20T00:26:35Z excludes pull-request origins from criteria. Tests were not rerun. Do not repeat unless composition, the open-PR rule, the isPr exclusion, the default caps, or the package version changes."
+    },
+    {
+      "title": "t3code 5872b0a48884 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/5872b0a488847d12aa2351fe5af5e7b7b81077ab",
+      "confidence": 0.86,
+      "reason": "5872b0a48884 at 2026-11-20T00:27:15Z is 10 commits and 104 files after 5283f33ca9d3. No filename contains superagent or dsh. Subjects on the default branch after 23:39Z are a thread-error banner, Antigravity usage indexes, a reconnect loop, Antigravity model ids, a preview-tunnel setting, worktree handoff, and Google sign-in. None name dsh-superagent. Not listed. Do not repeat unless a message or path names this prototype."
+    },
+    {
+      "title": "oh-my-pi 63bfb67d164e does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/63bfb67d164ecc3abfc34c0541ce370cfb59adbc",
+      "confidence": 0.88,
+      "reason": "63bfb67d164e at 2026-11-20T00:07:35Z is the default-branch tip. The commits after 23:39Z are a usage-status click, a let-else style fix, a changelog filing, and the merge of PR #19393 HeadMoved. Compare f40f335845f0...63bfb67d164e is 88 commits and 99 files. No filename matches superagent or dsh. Not listed. Do not repeat unless a commit message or path names this prototype."
+    },
+    {
+      "title": "discussions #13844 and #13845 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13845",
+      "confidence": 0.86,
+      "reason": "#13844 at 2026-11-19T23:36:05Z is a chat-in-dsh plugin show post. The previous scan recorded it as 404. #13845 at 2026-11-19T23:56:11Z is a Numes local-proxy show post. Neither title contains dsh-superagent. Bodies were not read. #13846 is not in the newest page. Not listed."
+    },
+    {
+      "title": "xuebicc shout branch stays a sandbox",
+      "url": "https://github.com/xuebicc102030-sys/dsh-superagent-playground/commit/8992b6eff009",
+      "confidence": 0.9,
+      "reason": "Main stays d8b990605d66. pushed_at 2026-11-19T23:57:16Z is branch agent/add-shout-function-39f145d361b5. 8992b6eff009 at 2026-11-19T23:57:11Z edits TASKS.md, greet.py, and tests/test_greet.py and adds shout(name). Not listed. Do not repeat unless the tree gains prototype source, a profile, or a package."
+    },
+    {
+      "title": "IHUI f9abaa454164 does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/f9abaa454164",
+      "confidence": 0.9,
+      "reason": "Tip f9abaa454164 at 2026-11-20T00:11:16Z. Compare 0893b25304bf...f9abaa454164 is 4 commits and 22 files. No filename matches superagent or super-agent. Messages are an ACP JSON-RPC bridge, a README route count from 669 to 679, and a remote sandbox opt-in. The listed row was not edited. Do not repeat unless a path under the super-agent control plane changes."
+    },
+    {
+      "title": "Rayrun f5dd01f197b8 does not show this prototype's ticket loop",
+      "url": "https://github.com/RayrunOS/Rayrun-Bot/commit/f5dd01f197b8",
+      "confidence": 0.84,
+      "reason": "f5dd01f197b8 at 2026-11-19T23:43:14Z edits the two READMEs and architecture docs. The message defines a cloud-bot supervisor and a local DSH control plane. The patches were not line-read for Ticket, Mandate, or observe. Not listed. Do not repeat unless a file in that commit mounts this prototype."
+    },
+    {
+      "title": "readme aggregators in this window do not add a prototype source",
+      "url": "https://github.com/zachysun/awesome-agents-notes/commit/d44c54c630c4",
+      "confidence": 0.84,
+      "reason": "zachysun/awesome-agents-notes d44c54c630c4 at 2026-11-19T23:53:27Z says deepseek-harness and dsh-superagent-prototype had no increment. 52e42612845c at 2026-11-20T00:07:08Z is an agent-memory note. the911fund/skill-of-skills e2ac41dff08c at 2026-11-20T00:25:04Z auto-updates README skill data. mmanzini/github-trending-digest 0cbe2a87710d adds the 2026-11-20 digest. Not listed."
+    },
     {
       "title": "window after 22:31Z listed whalepod 0.6.0 only",
       "url": "https://github.com/simveit/dsh-whalepod/commit/21e5f7c4fdaa",
