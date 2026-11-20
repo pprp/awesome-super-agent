@@ -1,32 +1,86 @@
 {
-  "last_run_at": "2026-11-20T03:37:10Z",
+  "last_run_at": "2026-11-20T04:33:46Z",
   "timezone": "UTC",
-  "baseline_commit": "b069708",
+  "baseline_commit": "6cb984e",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T02:31:59Z",
-    "to": "2026-11-20T03:37:10Z"
+    "from": "2026-11-20T03:37:10Z",
+    "to": "2026-11-20T04:33:46Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "fliggy #58 persists Claude quota waits",
-      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype/commit/05b3db11999b",
-      "confidence": 0.93,
-      "reason": "05b3db11999b at 2026-11-20T02:43:24Z merges #58 and is 1 ahead of 80207be6afc5. Compare with 6337fc8 is 238 ahead and 0 behind. Same-account profile and usage GETs share one request and cache a success for five minutes. A 429 waits for Retry-After or 15 minutes, stored as an account hash and deadline. Renewal no longer runs usage ls --refresh. A fresh limit rechecks every five minutes until attempts reaches 72. cancel drops that recheck. Cross-user 429 waits 15, 30, then 60 minutes. Prototype src was not in the commit. Tests were not rerun."
-    },
-    {
-      "title": "wangqiongkaka uses the subsession tree when listChildren is absent",
-      "url": "https://github.com/wangqiongkaka/dsh-superagent/commit/a38506dd1325",
-      "confidence": 0.92,
-      "reason": "a38506dd1325 at 2026-11-20T03:32:04Z is 4 ahead of 33ac5e54e216 and 0 behind. The three commits in between were not line-read. This commit changes background.ts, dsh.ts, and two tests. listChildren keeps the old drain. Without it, an open ticket interrupts resident or external descendants and does not drain the tree. Ticket end drains only when a descendant is diagnostic, resident, or the tree is still busy within one second. A missing unloaded session is empty. Other lookup errors throw. Package stays private 0.1.0 and engines.dsh stays ^0.2.1-alpha.2. Tests were not rerun."
+      "title": "wangqiongkaka posts a failed ticket back to the original request",
+      "url": "https://github.com/wangqiongkaka/dsh-superagent/commit/7ee853776ca1dec8e8cff989197d766fe7703fce",
+      "confidence": 0.94,
+      "reason": "7ee853776ca1 is 1 ahead of a38506dd1325. A failed ticket replies once on the original human channel. Retries stay internal. The public sentence uses failure_reason or a fixed category, and drops sensitive details. Package stays private 0.1.0."
     }
   ],
   "pending": [
+    {
+      "title": "window after 03:37Z updated wangqiongkaka only",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @reserendipity/dsh-superagent stays 0.2.10. Unscoped dsh-superagent stays 404. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. dsh-patrol stays 404. @vicfei/dsh-super-agent stays 1.8.0. dsh-whalepod stays 0.5.0. superagent-template stays 404. fliggy, louifinn, vicfei, LofiSu, HiSeax, GameGeek, specmill, patrol, LittleChenLiya, AION, ku-lin, oxmumu3, wychmod, workbench, wealth, waixv, whalepod, DASHAN, and Forkbomb have no commit after 03:37Z. Nelson master stays 0c4579c8af37. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
+    {
+      "title": "wangqiongkaka 7ee853776ca1 failure reply is now listed",
+      "url": "https://github.com/wangqiongkaka/dsh-superagent/commit/7ee853776ca1dec8e8cff989197d766fe7703fce",
+      "confidence": 0.94,
+      "reason": "7ee853776ca1 at 2026-11-20T03:49:05Z is 1 ahead of a38506dd1325 and 0 behind. reportFailure sends only when the original trigger is human and has a channel. A later attached channel is not the destination. The outbox id is ticket-failure plus the assignment id plus the text. PrepareFailed is not retried. Other transient errors retry before the public reply. failure_reason is stored only when state is failed, trimmed, length 1 to 240. Sensitive text is dropped and the fallback sentence is used. A kept detail is sliced to 72 characters and strips backticks, angle brackets, and @. The ticket id is the first 12 characters. Chinese is Han script without Hiragana or Katakana on the original text. The internal summary stays on the ticket and the master relay. Package stays private 0.1.0 and engines.dsh stays ^0.2.1-alpha.2. Tests were not rerun. Do not repeat unless the destination, the dedupe key, the retry rule, the sensitive filter, or the package version changes."
+    },
+    {
+      "title": "cg-dsh 8071c82 still refuses extra repositories",
+      "url": "https://github.com/cg-dsh/dsh-superagent-prototype/commit/8071c82c190fe74850c515241768a8285eb0ef57",
+      "confidence": 0.9,
+      "reason": "Tip 8071c82c190f at 2026-11-20T04:19:05Z. 1a2208117e0d routes thread keys and cursors through githubThreadKey and githubThreadId, but every call passes ctx.deployment.repository as both repository and primary, so the strings stay github:14. docs/009-multi-repo.md says a non-empty repositories list is still refused with repositoriesUnsupported, and that commands.api still resolves under the primary repository. Package stays private dsh-superagent 0.1.0, engines.dsh ^0.2.1-alpha.2. Not listed. Do not repeat unless the throw is removed or a read uses a repository other than the primary."
+    },
+    {
+      "title": "Nelson #753 and #754 merged to next/0.8 only",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/7e6df370b21a0cae4b6d93e12f9e427545d1bf56",
+      "confidence": 0.88,
+      "reason": "next/0.8 tip 7e6df370b21a at 2026-11-20T04:11:41Z merges #754. Parent 90b279cf8a17 merges #753. Master stays 0c4579c8af37 at 2026-11-19T11:37:53Z. npm preview stays 0.8.1-preview.26 and latest stays 0.7.0. The observer commits were not line-read. Not listed. Do not repeat unless one of them merges to master or the npm preview version changes."
+    },
+    {
+      "title": "lakii2982 is 37 ahead and was not line-read",
+      "url": "https://github.com/lakii2982/dsh-superagent-prototype/commit/1b8a6abf99038b79175dd9523bf50a8f55edc184",
+      "confidence": 0.7,
+      "reason": "1b8a6abf9903 at 2026-11-20T03:58:13Z merges #1. Compare with 8c32a9dc5d72 is 37 ahead and 0 behind. The in-window subjects are a panel shell and Chinese PR prompts. The source files were not line-read. Not listed. Do not repeat unless a verified behavior sentence is written."
+    },
+    {
+      "title": "Samuka007 deploy scripts stay one person's deployment",
+      "url": "https://github.com/Samuka007/dsh-superagent-prototype/commit/585b723d831f5b58be867edd281b27fd63bb8558",
+      "confidence": 0.86,
+      "reason": "585b723d831f at 2026-11-20T04:23:26Z. Compare with 8c32a9dc5d72 is 5 ahead and 0 behind. The files are .gitignore, .sops.yaml, deploy scripts, settings.desired.json, secrets/README.md, and an encrypted yaml. No src file. Not listed. Do not repeat unless a file under src changes."
+    },
+    {
+      "title": "awtutu 20e079dc0ab9 stays a sandbox",
+      "url": "https://github.com/awtutu/dsh-superagent-sandbox/commit/20e079dc0ab9a44dabab044b15799779607ef46d",
+      "confidence": 0.9,
+      "reason": "20e079dc0ab9 at 2026-11-20T04:03:11Z merges #5 and adds a Markdown relative-link checker. The description stays a sandbox for setup. Not listed. Do not repeat unless the tree gains prototype source, a profile, or a package."
+    },
+    {
+      "title": "t3code d1822be5a99a does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/d1822be5a99a335fd3cd34c482234d0b36d79c09",
+      "confidence": 0.86,
+      "reason": "d1822be5a99a at 2026-11-20T04:30:39Z is after 9bb92a46ddbc. No filename matches superagent or dsh. Not listed. Do not repeat unless a message or path names this prototype."
+    },
+    {
+      "title": "IHUI 15a958342656 does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/15a958342656d6bb7a19c4a430e13acae91ae6af",
+      "confidence": 0.9,
+      "reason": "15a958342656 at 2026-11-20T04:13:27Z is after 49923a5b5e41. No filename matches superagent or super-agent. Not listed. Do not repeat unless a path under the super-agent control plane changes."
+    },
+    {
+      "title": "discussions #13854 through #13863 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13863",
+      "confidence": 0.86,
+      "reason": "#13854 at 2026-11-20T03:40:45Z is a workspace plugin load failure. #13855 through #13858 and #13860 are harness ideas or bugs. #13859 is subagent abort semantics. #13862 is a month of DSH measurements. #13863 is a session watcher plugin. None of the titles contain dsh-superagent. Bodies were not read. Not listed."
+    },
     {
       "title": "window after 02:31Z updated fliggy and wangqiongkaka",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -14796,19 +14850,44 @@
   ],
   "rejected_this_run": [
     {
-      "title": "t3code 9bb92a46ddbc",
-      "url": "https://github.com/pingdotgg/t3code/commit/9bb92a46ddbc",
-      "reason": "No filename names this prototype."
+      "title": "cg-dsh 8071c82 still refuses extra repositories",
+      "url": "https://github.com/cg-dsh/dsh-superagent-prototype/commit/8071c82c190fe74850c515241768a8285eb0ef57",
+      "confidence": 0.9
     },
     {
-      "title": "IHUI 49923a5b5e41",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/49923a5b5e41",
-      "reason": "No super-agent path in the five-commit diff."
+      "title": "Nelson #753 and #754 merged to next/0.8 only",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/7e6df370b21a0cae4b6d93e12f9e427545d1bf56",
+      "confidence": 0.88
     },
     {
-      "title": "Harness discussions #13852 and #13853",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13853",
-      "reason": "Titles do not name dsh-superagent."
+      "title": "lakii2982 is 37 ahead and was not line-read",
+      "url": "https://github.com/lakii2982/dsh-superagent-prototype/commit/1b8a6abf99038b79175dd9523bf50a8f55edc184",
+      "confidence": 0.7
+    },
+    {
+      "title": "Samuka007 deploy scripts stay one person's deployment",
+      "url": "https://github.com/Samuka007/dsh-superagent-prototype/commit/585b723d831f5b58be867edd281b27fd63bb8558",
+      "confidence": 0.86
+    },
+    {
+      "title": "awtutu 20e079dc0ab9 stays a sandbox",
+      "url": "https://github.com/awtutu/dsh-superagent-sandbox/commit/20e079dc0ab9a44dabab044b15799779607ef46d",
+      "confidence": 0.9
+    },
+    {
+      "title": "t3code d1822be5a99a does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/d1822be5a99a335fd3cd34c482234d0b36d79c09",
+      "confidence": 0.86
+    },
+    {
+      "title": "IHUI 15a958342656 does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/15a958342656d6bb7a19c4a430e13acae91ae6af",
+      "confidence": 0.9
+    },
+    {
+      "title": "discussions #13854 through #13863 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13863",
+      "confidence": 0.86
     }
   ],
   "held_on_other_branches": [
