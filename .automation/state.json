@@ -1,26 +1,32 @@
 {
-  "last_run_at": "2026-11-20T22:42:00Z",
+  "last_run_at": "2026-11-20T23:33:47Z",
   "timezone": "UTC",
-  "baseline_commit": "d87bd97",
+  "baseline_commit": "bd367df",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T21:34:00Z",
-    "to": "2026-11-20T22:42:00Z"
+    "from": "2026-11-20T22:42:00Z",
+    "to": "2026-11-20T23:33:47Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "lkshrk/dsh-superagent-linear 0.3.1",
-      "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/17e82628ba09c26beb329bff6b9009b2572aecfb",
+      "title": "lkshrk/dsh-superagent 0.4.1",
+      "url": "https://github.com/lkshrk/dsh-superagent/commit/696e64dd4b21c1dfc45cb01cb65d21f6dc959f90",
       "confidence": 0.95,
-      "reason": "Tip 17e82628ba09 is package 0.3.1. linkedDocuments reads https linear.app document slugs. meta.documents only when creator.app is false. App-created issues keep the intersection with a person-created parent on served sessions, chain children, and redelegation. Prompts do not read the parent. engines unchanged. Tag v0.3.1 and the GitHub release point at this tip. npm stays 404."
+      "reason": "Tip 696e64dd4b21 is private package 0.4.1. Non-split Linear workers may get_document only for meta.documents ids. The first 20 entries count. UUID, query, and fragment ids are refused. list_documents stays refused. Tag v0.4.1 and the GitHub release point at this tip. npm stays 404."
     }
   ],
   "pending": [
+    {
+      "title": "window after 22:42Z updated the lkshrk fork to 0.4.1",
+      "url": "https://github.com/lkshrk/dsh-superagent/commit/696e64dd4b21",
+      "confidence": 0.95,
+      "reason": "The list still stopped at 0.3.3 / 8239c5c441bf. Updated lkshrk/dsh-superagent to 696e64dd4b21 / private package 0.4.1. Those four commits were pushed at 2026-11-20T22:17:01Z, before last_run 22:42Z, and the previous scan did not record them. bccce8f6907d lets a non-split Linear ticket's worker and a traced subagent call get_document only for ids in the origin Trigger meta.documents. The id is a https://linear.app/<workspace>/document/ slug, a <slug>-<id>, or a bare 12-hex id. A UUID tail, a query, or a fragment is refused. list_documents stays refused. Split epics, non-Linear origins, and Triggers with no valid id in the first 20 entries do not get the tool. b88e61943dd8 slices the first 20 entries before keeping exact 12-hex ids and lower-casing them, so an invalid entry still uses a slot. Tag v0.4.1 and Release v0.4.1 at 22:18:52Z point at this tip and attach dsh-superagent-0.4.1.tgz. The release body's last line is the ghcr image digest 4b83c6123b80ed221550d02a35de3cc88a5d9dd1cd4751b3f6735b3839a8d101. npm unscoped dsh-superagent stays 404. Ahead of 8c32a9dc5d72 is 71 and behind is 0. engines.node stays ^22.19.0 || >=24.0.0 and engines.dsh stays ^0.2.1-alpha.2 || ^0.2.2-0. Tests were not rerun. Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release stays dsh-v0.2.2-rc.5. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. The 0.2.2-rc.5 version time stays 2026-11-18T13:17:23.604Z, no gitHead. Linear tip stays 17e82628ba09 / 0.3.1. PTC stays 0.1.9, gitHead 7ec628a69650. whalepod stays 0.6.1. vicfei stays 1.10.0. Nelson preview stays 0.8.1-preview.27 and latest stays 0.7.0. Nelson master and next/0.8 have no commit after 22:42Z. Forkbomb main and feat/f6-superagent-yaml have no commit after 22:42Z. IHUI d09665fd0603 is 27 commits and 48 files after 882f4efc9367. No filename matches superagent or dsh. Not listed. t3code 8a0f19092e8c is 11 commits and 68 files after f2ec853fbbb6. No filename matches. Not listed. oh-my-pi efd92300eec7 is 6 commits and 22 files after 694bea64be84. No filename matches. Not listed. agentdescent 4b46761a6bb6 is 1 commit and 3 files after 8d75685aecde. scripts/dsh-superagent-run.sh is not among them. Not listed. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged. Discussions #13947, #13948, and #13949 do not name this prototype. Repo search for dsh-superagent shows no other push after 22:42Z. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 21:34Z updated Linear to 0.3.1",
       "url": "https://github.com/lkshrk/dsh-superagent-linear/commit/17e82628ba09",
@@ -15210,32 +15216,33 @@
   ],
   "rejected_this_run": [
     {
-      "title": "codefufuai ef72ed39ffa6 only refreshes cards",
-      "url": "https://github.com/codefufuai/codefufuai/commit/ef72ed39ffa67170a378de360b0d030a626811d1",
-      "reason": "Five files: README.md, README.zh-CN.md, and three snake svg assets. Not listed."
+      "title": "IHUI d09665fd0603 does not name this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/d09665fd06030ce5ebf99a92c42490f752d22f01",
+      "reason": "27 commits and 48 files after 882f4efc9367. No filename matches superagent or dsh. Not listed."
     },
     {
-      "title": "t3code f2ec853fbbb6 does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/f2ec853fbbb6ed84f6c08aa156d3b7d9e9f7385f",
-      "reason": "3 commits and 32 files after 21d7feaff7ed. No filename matches superagent or dsh. Not listed."
+      "title": "t3code 8a0f19092e8c does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/8a0f19092e8c3582385acaa3f477f47f8b25e5ee",
+      "reason": "11 commits and 68 files after f2ec853fbbb6. No filename matches superagent or dsh. Not listed."
     },
     {
-      "title": "IHUI 882f4efc9367 does not name this prototype",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/882f4efc9367747cad61644a5dc68c7a1c5bc1be",
-      "reason": "25 commits and 28 files after c4ef4379402b. No filename matches superagent or dsh. Not listed."
+      "title": "oh-my-pi efd92300eec7 does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/efd92300eec7e1d20e4d07393632f9b9ffcf031f",
+      "reason": "6 commits and 22 files after 694bea64be84. No filename matches superagent or dsh. Not listed."
     },
     {
-      "title": "oh-my-pi 694bea64be84 does not name this prototype",
-      "url": "https://github.com/can1357/oh-my-pi/commit/694bea64be84ca74ae8ec7fd98f1cd12dcbe434c",
-      "reason": "23 commits and 84 files after 26ac7ab37339. No filename matches superagent or dsh. Not listed."
+      "title": "agentdescent 4b46761a6bb6 does not change the handoff script",
+      "url": "https://github.com/ThinkFlowLab/agentdescent/commit/4b46761a6bb69985d86a9495b4eb8e397b3f2a92",
+      "reason": "One commit after 8d75685aecde. Files are AGENTS.md, a changelog fragment, and tests/test_process_controller.py. scripts/dsh-superagent-run.sh is not among them. Not listed."
     },
     {
-      "title": "agentdescent 8d75685aecde does not change the handoff script",
-      "url": "https://github.com/ThinkFlowLab/agentdescent/commit/8d75685aecdecb9a93056d8abee661b827a83c28",
-      "reason": "Two commits after 21:34Z. fa9d754c7802 edits the controller workflow. 8d75685aecde edits controller.py, AGENTS.md, a changelog fragment, and a draft-skip test. scripts/dsh-superagent-run.sh is not among them. Not listed."
+      "title": "Harness discussions #13947 through #13949 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13949",
+      "reason": "#13947 is a session-continuity idea, #13948 is an MCP credential race, and #13949 is a macOS LAN block. None name dsh-superagent. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-20T23:33:47Z: Forkbomb feat/f6-superagent-yaml has no commit after 22:42Z and is not main. Nelson next/0.8 has no commit after 22:42Z and is not master. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged.",
     "2026-11-20T22:42:00Z: Forkbomb feat/f6-superagent-yaml has no commit after 21:34Z and is not main. Nelson master and next/0.8 have no commit after 21:34Z. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged.",
     "2026-11-20T21:34:00Z: Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged.",
     "2026-11-20T20:31:00Z: Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00.",
