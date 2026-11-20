@@ -1,26 +1,32 @@
 {
-  "last_run_at": "2026-11-20T13:32:20Z",
+  "last_run_at": "2026-11-20T14:36:29Z",
   "timezone": "UTC",
-  "baseline_commit": "11b5160",
+  "baseline_commit": "32dbebb",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T12:34:20Z",
-    "to": "2026-11-20T13:32:20Z"
+    "from": "2026-11-20T13:32:20Z",
+    "to": "2026-11-20T14:36:29Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "vicfei 1.10.0 sqlite adapter",
-      "url": "https://github.com/vicfei/dsh-super-agent/commit/80fc35cd3c96",
+      "title": "whalepod 0.6.1 folder approval card",
+      "url": "https://github.com/simveit/dsh-whalepod/commit/fd3f9020a6f4",
       "confidence": 0.94,
-      "reason": "5c99feede1dd at 2026-11-20T12:47:20Z adds src/db.ts. 7c4ee3cf447f sets 1.10.0. npm 1.10.0 at 2026-11-20T12:53:17.340Z, gitHead 7c4ee3cf447f8f475009ea7472a00b168566cb35, shasum b427fedfd1375837d368d4dd1002bc3457e7f068, 130 files. Tip 80fc35cd3c96 only edits docs/ROADMAP.md. Read db.ts, package.json, ci.yml, and the openDatabase call sites. Tests were not rerun."
+      "reason": "dc48ace9ea86 at 2026-11-20T13:34:09Z removes the setup-step Matriarc toggle. fd3f9020a6f4 at 2026-11-20T14:09:29Z drops pathMentions. executor_start asks with userQuestions and labels Allow once, Always allow, and Reject. npm 0.6.1 at 2026-11-20T14:16:29.746Z has no gitHead, 72 files, shasum e8a4e866f5fa9da288d7c7255cd95dcc8dc76ff2. Read cwd-guard.ts, threads.ts askFolderInCall, folder-approval.ts, and tools.ts. Tests were not rerun."
     }
   ],
   "pending": [
+    {
+      "title": "window after 13:32Z updated whalepod to 0.6.1",
+      "url": "https://github.com/simveit/dsh-whalepod/commit/fd3f9020a6f4",
+      "confidence": 0.94,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. Updated simveit/dsh-whalepod to fd3f9020a6f4 / package 0.6.1. npm dsh-whalepod 0.6.1 at 2026-11-20T14:16:29.746Z has no gitHead. omp ac7d57241c68 stays omp-superagent 0.1.3, engines.bun >=1.4.4, no engines.dsh. paseo-plugin-superagent d552cd44fcd1 is 0.1.1 and drops CNB publish; engines.node >=20 and no engines.dsh. Engine was not line-read. Not listed. shizhengLi/superagent-learning bbbbfa5d8594 vendors a snapshot whose notes cite 7bd4741, which is not a commit on deepseek-ai/dsh-superagent-prototype. Eight of 32 interview notes. Not listed. fzq125/superagent-sandbox 6dca222776af is an initial README. yangfu20171212-hue/yangfu-superagent-bot e042e4f5c111 is a README and gitignore. LamplitIsles/grove 9978774e626f does not name this prototype. Russ00028/superagent-updates 0a97a348c693 is a desktop update manifest. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00. Forkbomb main stays 36cf007a44ac. feat/f5 and feat/f6 stay 422. f6/schema-loader stays 34cc7cacfa63. LofiSu main stays ca9823e5c096. #180 head stays 868a2cdc2301. #174 head is now f81853f310d3 on feat/instinct-connectors-index and is not merged. t3code 391f93fc8fd8 is 3 commits and 13 files after df09ced7688d and no filename matches. IHUI a0ac4cc1112d is 24 commits and 31 files after 666b2bd2e04a and no filename matches. oh-my-pi 17e663b73667 is 21 commits and 261 files after 640d6e49cff4 and no filename matches. Discussions #13915 through #13925 do not name this prototype in the title. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 12:34Z updated vicfei to 1.10.0",
       "url": "https://github.com/vicfei/dsh-super-agent/commit/80fc35cd3c96",
@@ -15156,34 +15162,39 @@
   ],
   "rejected_this_run": [
     {
-      "title": "omp 62b702aa081c stays a Bun messenger",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/62b702aa081c",
-      "reason": "Package stays 0.1.3. engines.bun >=1.4.4. No engines.dsh. The commit edits messenger lane choices."
+      "title": "omp ac7d57241c68 stays a Bun messenger",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/ac7d57241c68",
+      "reason": "Package stays 0.1.3. engines.bun >=1.4.4. No engines.dsh. The commit reduces RPC host memory and reaps test fixtures."
     },
     {
-      "title": "awtutu 232f6d627d41 stays a smoke doc",
-      "url": "https://github.com/awtutu/dsh-superagent-sandbox/commit/232f6d627d41",
-      "reason": "Merge of #25 adds docs/dispatch-smoke.md only. Not the prototype."
+      "title": "paseo d552cd44fcd1 stays off the CNB registry",
+      "url": "https://github.com/lekai63/paseo-plugin-superagent/commit/d552cd44fcd1",
+      "reason": "Package is 0.1.1. engines.node >=20. No engines.dsh. The commit drops CNB npm publish. The engine was not line-read."
     },
     {
-      "title": "t3code df09ced7688d does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/df09ced7688d",
-      "reason": "6 commits and 21 files after e6e1ce70c85f. No filename matches superagent or dsh."
+      "title": "shizhengLi notes cite a commit the official repo does not have",
+      "url": "https://github.com/shizhengLi/superagent-learning/commit/bbbbfa5d8594",
+      "reason": "Notes cite snapshot 7bd4741. That commit is not on deepseek-ai/dsh-superagent-prototype. Eight of 32 interview notes. Not listed."
     },
     {
-      "title": "IHUI 666b2bd2e04a does not touch the super-agent control plane",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/666b2bd2e04a",
-      "reason": "30 commits and 37 files after 3ee39fa8c0cd. No filename matches superagent or dsh."
+      "title": "LofiSu #174 stays off main",
+      "url": "https://github.com/LofiSu/dsh-super-agent/pull/174",
+      "reason": "Head f81853f310d3 on feat/instinct-connectors-index. Commits 70ad6d9b5a84 and f81853f310d3 are in the window. Main stays ca9823e5c096. Not merged."
     },
     {
-      "title": "oh-my-pi has no commit in the window",
-      "url": "https://github.com/can1357/oh-my-pi",
-      "reason": "No commit on the default branch after 2026-11-20T12:34:20Z."
+      "title": "t3code 391f93fc8fd8 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/391f93fc8fd8",
+      "reason": "3 commits and 13 files after df09ced7688d. No filename matches superagent or dsh."
     },
     {
-      "title": "discussions #13904 through #13914 do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13914",
-      "reason": "#13904 at 2026-11-20T12:44:34Z through #13914 at 2026-11-20T13:24:20Z. None of the titles contain dsh-superagent. Bodies were not read. Not listed."
+      "title": "IHUI a0ac4cc1112d does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/a0ac4cc1112d",
+      "reason": "24 commits and 31 files after 666b2bd2e04a. No filename matches superagent or dsh."
+    },
+    {
+      "title": "oh-my-pi 17e663b73667 does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/17e663b73667",
+      "reason": "21 commits and 261 files after 640d6e49cff4. No filename matches superagent or dsh."
     }
   ],
   "held_on_other_branches": [
