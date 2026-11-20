@@ -1,26 +1,25 @@
 {
-  "last_run_at": "2026-11-20T15:36:07Z",
+  "last_run_at": "2026-11-20T16:34:10Z",
   "timezone": "UTC",
-  "baseline_commit": "9a3de6b",
+  "baseline_commit": "f1aaa81",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T14:36:29Z",
-    "to": "2026-11-20T15:36:07Z"
+    "from": "2026-11-20T15:36:07Z",
+    "to": "2026-11-20T16:34:10Z"
   },
   "added": [],
-  "updated": [
-    {
-      "title": "Aily manager 0.3.15 encodes spaced session paths",
-      "url": "https://github.com/Aily-DSH/dsh-superagent-manager/commit/4494b5bc62a5",
-      "confidence": 0.93,
-      "reason": "4494b5bc62a5 at 2026-11-20T14:58:18Z is 0.3.15, two commits after listed c88bd2656c85. ebd779d631e9 at 2026-11-14T11:28:53Z is 0.3.14 and only fills the create-success label. Read bucketFor, safeName, autoResume, and syncWorkspaceSessions. The 20s timer is unchanged. npm dsh-superagent-manager stays 404. Package stays private, engines.dsh >=0.2.1-rc.2. Tests were not rerun."
-    }
-  ],
+  "updated": [],
   "pending": [
+    {
+      "title": "window after 15:36Z changed no list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. Hivebot tip is c17766d83324, two commits after bf1912d1a411. 896d841662c2 at 2026-11-20T16:26:44Z adds resolveLiveMasterId. initialize runs it only when machine.masterSessionId is blank. session/list keeps the candidate unless another id has a greater updatedAt and is not the candidate or a ds-bot rooms key. readDsBotRoomIds reads bot/state.json rooms, or returns empty when the file is missing. A changed id stops the old watch, watches the live session, and stores KV.runtime.masterId. The list payload has no title. The docs commit c17766d83324 only adds work/integration-rebuild/R3-R5-PROGRESS.md. Root README still opens as a desktop multi-bot workbench and does not describe Trigger, Mandate, or Ticket. app/superagent stays private dsh-superagent 0.1.0, engines.dsh ^0.2.1-alpha.2. Not listed. Tests were not rerun. oh-my-pi was pushed at 2026-11-20T16:14:21Z. Main tip 725f8c6f34ce is 41 commits and 59 files after 17e663b73667, and no filename matches. Not listed. agentdescent 050235a4d853 does not include scripts/dsh-superagent-run.sh. Not listed. t3code 7085c477768d is 3 commits and 18 files after e24f0c7154cc and no filename matches. Not listed. IHUI 6796f178be65 is 22 commits and 33 files after 9e4c61af652e and no filename matches. Not listed. grove 3c9737a38a81 is conversation jump shortcuts and does not name this prototype. Not listed. Russ00028 fc18895ca6d0 only edits version.json. Not listed. paseo stays d552cd44fcd1, package 0.1.1, engines.node >=20, no engines.dsh. Engine was not line-read. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00. npm preview stays 0.8.1-preview.27 and latest stays 0.7.0. Forkbomb main stays 36cf007a44ac. feat/f5 and feat/f6 stay 404. f6/schema-loader stays 34cc7cacfa63. LofiSu main stays ca9823e5c096. #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged. Aily manager stays 4494b5bc62a5 / 0.3.15. whalepod stays fd3f9020a6f4 / 0.6.1. vicfei stays 80fc35cd3c96 / 1.10.0. PTC stays 83f04691bdc8 / 0.1.8. omp stays ac7d57241c68. xyt071024 ffcebb3b4f66 at 15:21Z is before this window and was not line-read. Discussions #13933 through #13937 do not name this prototype in the title. Bodies were not read. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 14:36Z updated Aily manager to 0.3.15",
       "url": "https://github.com/Aily-DSH/dsh-superagent-manager/commit/4494b5bc62a5",
@@ -15168,39 +15167,44 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Hivebot bf1912d1a411 stays a desktop workbench",
-      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/bf1912d1a411",
-      "reason": "bf1912d1a411 at 2026-11-20T15:06:22Z reads ds-bot bot/state.json for the discovered chain and injects composer CSS. README still opens as a desktop multi-bot workbench and does not describe Trigger, Mandate, or Ticket. Not listed."
+      "title": "Hivebot c17766d83324 stays a desktop workbench",
+      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/c17766d83324",
+      "reason": "Unpinned masterSessionId is rebound to a newer non-room session after a ds-bot Chief rotation. Root README still does not describe Trigger, Mandate, or Ticket. Not listed."
     },
     {
-      "title": "LofiSu #174 stays off main",
-      "url": "https://github.com/LofiSu/dsh-super-agent/pull/174",
-      "reason": "Head fdc94320b4f8 at 2026-11-20T15:24:51Z on feat/instinct-connectors-index fences final wake admission after Store callbacks. Main stays ca9823e5c096. Not merged."
+      "title": "oh-my-pi 725f8c6f34ce does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/725f8c6f34ce",
+      "reason": "Pushed 2026-11-20T16:14:21Z. 41 commits and 59 files after 17e663b73667. No filename matches superagent or dsh. Not listed."
     },
     {
-      "title": "t3code e24f0c7154cc does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/e24f0c7154cc",
-      "reason": "2 files after 391f93fc8fd8. No filename matches superagent or dsh."
+      "title": "agentdescent 050235a4d853 does not change the handoff script",
+      "url": "https://github.com/ThinkFlowLab/agentdescent/commit/050235a4d853",
+      "reason": "Files are mcp.py, a changelog fragment, plugin-design.md, and a test. scripts/dsh-superagent-run.sh is not included. Not listed."
     },
     {
-      "title": "IHUI 9e4c61af652e does not touch the super-agent control plane",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/9e4c61af652e",
-      "reason": "3 files. No filename matches superagent or dsh."
+      "title": "t3code 7085c477768d does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/7085c477768d",
+      "reason": "3 commits and 18 files after e24f0c7154cc. No filename matches superagent or dsh. Not listed."
     },
     {
-      "title": "grove 6df33b000f22 does not name this prototype",
-      "url": "https://github.com/LamplitIsles/grove/commit/6df33b000f22",
-      "reason": "Sidebar organization avatars and Orc trees. No filename matches superagent or dsh."
+      "title": "IHUI 6796f178be65 does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/6796f178be65",
+      "reason": "22 commits and 33 files after 9e4c61af652e. No filename matches superagent or dsh. Not listed."
     },
     {
-      "title": "Russ00028 1f9af4bb118a stays an update manifest",
-      "url": "https://github.com/Russ00028/superagent-updates/commit/1f9af4bb118a",
-      "reason": "version.json is a v2.2.2 code-update.zip manifest. Not this prototype."
+      "title": "grove 3c9737a38a81 does not name this prototype",
+      "url": "https://github.com/LamplitIsles/grove/commit/3c9737a38a81",
+      "reason": "Conversation jump shortcuts. The message and filenames do not name this prototype. Not listed."
     },
     {
-      "title": "discussions #13926 through #13932 do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13932",
-      "reason": "#13926 at 2026-11-20T14:35:40Z through #13932 at 2026-11-20T15:03:31Z. None of the titles contain dsh-superagent. Bodies were not read. Not listed."
+      "title": "Russ00028 fc18895ca6d0 stays an update manifest",
+      "url": "https://github.com/Russ00028/superagent-updates/commit/fc18895ca6d0",
+      "reason": "Only version.json. Still a v2.2.2 code-update.zip manifest. Not listed."
+    },
+    {
+      "title": "discussions #13933 through #13937 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13937",
+      "reason": "#13933 at 2026-11-20T15:35:34Z through #13937 at 2026-11-20T16:23:17Z. None of the titles contain dsh-superagent. Bodies were not read. Not listed."
     }
   ],
   "held_on_other_branches": [
