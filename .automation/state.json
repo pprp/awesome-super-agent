@@ -1,19 +1,25 @@
 {
-  "last_run_at": "2026-11-20T20:31:00Z",
+  "last_run_at": "2026-11-20T21:34:00Z",
   "timezone": "UTC",
-  "baseline_commit": "dc5b79c",
+  "baseline_commit": "fd34099",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T19:35:00Z",
-    "to": "2026-11-20T20:31:00Z"
+    "from": "2026-11-20T20:31:00Z",
+    "to": "2026-11-20T21:34:00Z"
   },
   "added": [],
   "updated": [],
   "pending": [
+    {
+      "title": "window after 20:31Z changed no list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, no gitHead. PTC stays 0.1.9, gitHead 7ec628a69650. whalepod stays 0.6.1. @vicfei/dsh-super-agent stays 1.10.0. Nelson preview stays 0.8.1-preview.27 and latest stays 0.7.0. Hivebot tip stays c511695c1e6a. omp tip stays 151cfd4f6f1c at 2026-11-20T19:22:04Z. paseo-superagent tip stays 79fa2f6f2faf at 2026-11-20T19:30:37Z. pungme tip stays ed96da9b6f41 at 2026-11-20T19:28:36Z. Russ00028 has no commit after 20:31Z. Forkbomb main stays 36cf007a44ac. feat/f6-superagent-yaml stays 3b40a7f597da and is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00. oh-my-pi, agentdescent, grove, and paseo-plugin-superagent have no commit after 20:31Z. mindtheory/dsh-super-agents pushed_at stays 2026-11-20T18:05:20Z. t3code 21d7feaff7ed is 9 commits and 65 files after 392526768806. No filename matches superagent or dsh. Not listed. IHUI c4ef4379402b is 40 commits and 57 files after e11cf4b649e2. No filename matches superagent or dsh. docs/agent-harness-benchmark-2026-11-19.md does not name this prototype. Not listed. DrOlu/SuperAgent b8a446dc5d71 at 2026-11-20T21:30:42Z is a Hyperspace IT agent. README does not name DeepSeek, Harness, Ticket, or Mandate. Not listed. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged. No discussion newer than #13946. Repo searches for dsh-superagent show no push after 20:31Z. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 19:35Z changed no list rows",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -15191,22 +15197,23 @@
   ],
   "rejected_this_run": [
     {
-      "title": "t3code 392526768806 does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/392526768806",
-      "reason": "10 commits and 183 files after 6cbda0cd0aa9. No filename matches superagent or dsh. Not listed."
+      "title": "t3code 21d7feaff7ed does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/21d7feaff7ed",
+      "reason": "9 commits and 65 files after 392526768806. No filename matches superagent or dsh. Not listed."
     },
     {
-      "title": "IHUI e11cf4b649e2 does not name this prototype",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/e11cf4b649e2",
-      "reason": "41 commits and 71 files after a4337f12abd1. No filename matches superagent or dsh. Not listed."
+      "title": "IHUI c4ef4379402b does not name this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/c4ef4379402b",
+      "reason": "40 commits and 57 files after e11cf4b649e2. No filename matches superagent or dsh. The agent-harness benchmark doc does not name this prototype. Not listed."
     },
     {
-      "title": "discussions #13943 through #13946 do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13946",
-      "reason": "Titles and bodies do not contain dsh-superagent, super-agent, or superagent. #13943 is a workspace-scoped plugin idea. #13944 is a composer hook. #13945 is Kimi tool-call replay. #13946 is an IME caret bug."
+      "title": "DrOlu/SuperAgent b8a446dc5d71 is not this prototype",
+      "url": "https://github.com/DrOlu/SuperAgent/commit/b8a446dc5d71",
+      "reason": "Pushed 2026-11-20T21:30:48Z. Commits in the window are CI fixes. README does not name DeepSeek, Harness, Ticket, or Mandate. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-20T21:34:00Z: Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged.",
     "2026-11-20T20:31:00Z: Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00.",
     "2026-11-20T19:35:00Z: Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00.",
     "2026-11-20T18:35:22Z: Forkbomb feat/f6-superagent-yaml 3b40a7f597da is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00. omp main stays 6a07a8868761.",
