@@ -1,26 +1,129 @@
 {
-  "last_run_at": "2026-11-20T06:34:50Z",
+  "last_run_at": "2026-11-20T07:35:02Z",
   "timezone": "UTC",
-  "baseline_commit": "e93143e",
+  "baseline_commit": "ac3649b",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T05:52:23Z",
-    "to": "2026-11-20T06:34:50Z"
+    "from": "2026-11-20T06:34:50Z",
+    "to": "2026-11-20T07:35:02Z"
   },
   "added": [
     {
-      "title": "cg-dsh watches more than the primary repository",
-      "url": "https://github.com/cg-dsh/dsh-superagent-prototype/commit/e5520977f170a612a23d11e3c7c1a03204798c72",
-      "confidence": 0.92,
-      "reason": "Tip e5520977f170 at 2026-11-20T05:50:29Z was after the 37cf3a232aab note. repositories allows at most 20 owner/name values and defaults to empty. resolveDeployment probes push on the primary and each extra repository. Bare thread ids stay on the primary. Notifications are read once per round. Streams, open PR checks, closed requests, and subscribed threads run through ctx.scope per repository. Package stays private 0.1.0 and engines.dsh stays ^0.2.1-alpha.2."
+      "title": "yichao-agent/dsh-session-fold",
+      "url": "https://github.com/yichao-agent/dsh-session-fold",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-20T06:56:35Z. Tip d89f447d60fc. Private dsh-session-fold 0.3.0, no engines. Host apply() is empty. Default root /.dsh/state/superagent, localStorage dsh-session-fold.roots.v1 overrides. Fold when the normalized path contains a root and the next character is the end or a slash. Parent sessions stay on the row. Folded groups do not render child sessions. pendingInteraction counts as pending, otherwise running. Any of those moves the row to the top. Click opens the newest orchestrator-* parent session, else GET /orchestrator/api/state with x-orchestrator-request 1 and opens masterId. MIT copyright yichao-agent. npm dsh-session-fold is 404. Not installed."
+    },
+    {
+      "title": "henry2028/my-super-agent-windows",
+      "url": "https://github.com/henry2028/my-super-agent-windows/commit/39f00223f182",
+      "confidence": 0.88,
+      "reason": "Created 2026-11-18T05:52:01Z and first read this run. Not a GitHub fork. Tip 39f00223f182 at 2026-11-20T07:05:43Z. Private dsh-superagent 0.1.0. engines.dsh is exactly 0.2.2-rc.5, previously exactly 0.2.2-rc.1. cordis peer is 4.0.5-alpha.1 || ~4.1.0. schemastery peer is 3.18.5-alpha.1 || ^3.19.0. iterative mode is required when a stored plan already uses it or a human message matches the version-handoff phrases. Rounds need delegation_requested and a codex review. required_reviews is only codex or claude. Steps max 96, rounds 1 to 32, each step depends on the previous. An owned queued, starting, or running worker blocks another dispatch. Only the next unfinished step may start. review-pending or result-pending must be recorded first. worker_start takes plan_step and the host calls concludeTurn. Process exit is not approval. The schema text and the worker prompt say a last changes-requested review cannot be reported ready. LICENSE copyright remains DeepSeek Harness Team. npm unscoped dsh-superagent is 404. Tests were not rerun."
     }
   ],
-  "updated": [],
+  "updated": [
+    {
+      "title": "waixv subagent models no longer need a grant",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/commit/f349ab365feaec17922906262a4c3c3948f7e1e8",
+      "confidence": 0.93,
+      "reason": "f349ab365fea at 2026-11-20T06:56:33Z merges #142 and is 2 ahead of f96e3a8c538f. ensureModelSelectionPolicy returns when subagent/model-selection-policy is already present. It does not seed when subagentModelSelection.current().enabled is true or that read throws. Otherwise it seeds every catalog provider/model. An empty catalog or a replaced Session is not written. The per-ticket model grant check is gone. orchestrator_ticket_note no longer takes authorized_by. A team roster still asks 允许 or 不允许. The work prompt still requires the phased plan card before phases run, and approving it no longer authorizes the model. Tests were not rerun."
+    },
+    {
+      "title": "fliggy Paseo requirement is now a floor",
+      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype/commit/d11baa3e5e10",
+      "confidence": 0.92,
+      "reason": "d11baa3e5e10 at 2026-11-20T07:02:59Z merges #59 and is 1 ahead of 05b3db11999b, 239 ahead of 6337fc8 and 0 behind. requirements.paseo is >=0.15.0. The README says prereleases are checked against the stable version, so 0.16 and 0.17 prereleases pass, and 0.17.0-beta.1 was loaded. Later APIs still need a check. The three @getpaseo packages stay on 0.15.0. No prototype src file. Tests were not rerun."
+    }
+  ],
   "pending": [
+    {
+      "title": "window after 06:34Z updated waixv and fliggy and added two plugins",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Newest release stays dsh-v0.2.2-rc.5. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @vicfei/dsh-super-agent stays 1.9.0. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.27. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent latest stays 0.3.0 and preview stays 0.3.0-preview.1. @reserendipity/dsh-superagent stays 0.2.10. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. dsh-whalepod stays 0.5.0. dsh-patrol, unscoped dsh-superagent, superagent-template, and dsh-session-fold stay 404. cg-dsh main stays e5520977f170. wealth stays 2da3644bdf8c. vicfei main stays f1315e480606. LofiSu main stays ca9823e5c096. arXiv dsh-superagent returned 0. HN search did not show a newer story naming this prototype. No open PR on this list."
+    },
+    {
+      "title": "waixv f349ab365fea model seed is now listed",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/commit/f349ab365feaec17922906262a4c3c3948f7e1e8",
+      "confidence": 0.93,
+      "reason": "Do not repeat unless the seed event, the subagentModelSelection skip, the missing grant, the team card, or the tip changes."
+    },
+    {
+      "title": "fliggy d11baa3e5e10 Paseo floor is now listed",
+      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype/commit/d11baa3e5e10",
+      "confidence": 0.92,
+      "reason": "Do not repeat unless requirements.paseo, the 0.15.0 package pins, the 239-ahead count, or the tip changes."
+    },
+    {
+      "title": "yichao-agent dsh-session-fold is now listed",
+      "url": "https://github.com/yichao-agent/dsh-session-fold/commit/d89f447d60fc",
+      "confidence": 0.9,
+      "reason": "Do not repeat unless the default root, the localStorage key, the orchestrator- selection, the state fallback, the package version, or the tip changes."
+    },
+    {
+      "title": "henry2028 iterative handoff is now listed",
+      "url": "https://github.com/henry2028/my-super-agent-windows/commit/39f00223f182",
+      "confidence": 0.88,
+      "reason": "Do not repeat unless engines.dsh, the peer ranges, the iterative round rules, the active-worker refusal, or the tip changes. The rest of the tree was not line-read."
+    },
+    {
+      "title": "Nelson #763 stays on next/0.8",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/6d887f46267d",
+      "confidence": 0.9,
+      "reason": "next/0.8 tip 6d887f46267d at 2026-11-20T06:58:30Z merges #763. The branch package.json is 0.8.1-preview.28. Master stays c93d058f1a57. npm preview stays 0.8.1-preview.27 and latest stays 0.7.0. Not listed. Do not repeat unless it merges to master or the npm preview version changes."
+    },
+    {
+      "title": "omp ab4f9e34ac0b stays a Bun messenger",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/ab4f9e34ac0b",
+      "confidence": 0.88,
+      "reason": "ab4f9e34ac0b at 2026-11-20T07:21:19Z is docs for the native OMP checkout policy. 34d14a21ee13 shows OMP quotas. Package stays omp-superagent 0.1.2, engines.bun >=1.4.4, no dsh dependency. Not listed. Do not repeat unless the package gains a dsh dependency or a Ticket engine."
+    },
+    {
+      "title": "Hivebot 59ee9c867a6e stays a desktop workbench",
+      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/59ee9c867a6e",
+      "confidence": 0.86,
+      "reason": "59ee9c867a6e at 2026-11-20T06:50:47Z is a test. README still opens as a desktop multi-bot workbench. Not listed. Do not repeat unless that description changes."
+    },
+    {
+      "title": "HongJinjin9 a8f0ad0243d0 stays a ticket workspace",
+      "url": "https://github.com/HongJinjin9/agent-workspace/commit/a8f0ad0243d0",
+      "confidence": 0.86,
+      "reason": "a8f0ad0243d0 at 2026-11-20T06:53:04Z merges #40, a wechat shop plan. The description stays a workspace for issues and PRs. Not listed. Do not repeat unless the tree gains prototype source."
+    },
+    {
+      "title": "t3code 272cd3837904 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/272cd383790422ace6bc40a213176d0d11fb1700",
+      "confidence": 0.86,
+      "reason": "272cd3837904 at 2026-11-20T07:27:07Z only touches AgentSessionScanner. No filename matches superagent or dsh. Not listed."
+    },
+    {
+      "title": "IHUI 0a33050794c0 does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/0a33050794c0c331c3ecdfc62d608f23cd2fb965",
+      "confidence": 0.88,
+      "reason": "0a33050794c0 at 2026-11-20T07:22:46Z wires ACP methods. Filenames include subagent and admission tests but none contain superagent or super-agent. Not listed."
+    },
+    {
+      "title": "LofiSu main stayed on the browser-errand merge",
+      "url": "https://github.com/LofiSu/dsh-super-agent/commit/ca9823e5c096ea6ff4552b73b2d417cefaea88b9",
+      "confidence": 0.86,
+      "reason": "pushedAt 2026-11-20T07:13:16Z is watches and pull-request reviews. Default branch stays ca9823e5c096. Not an update."
+    },
+    {
+      "title": "Forkbomb main stayed on the blocked-run fix",
+      "url": "https://github.com/ForkbombEu/superagent/commit/3ba2d27bcee3354184f0f62fcf6ce481ab808504",
+      "confidence": 0.84,
+      "reason": "pushedAt 2026-11-20T07:07:21Z is open PR activity. #40 and #9 stay open and are not main. Main stays 3ba2d27bcee3. Not listed."
+    },
+    {
+      "title": "discussions #13874 through #13878 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13878",
+      "confidence": 0.86,
+      "reason": "#13874 at 2026-11-20T07:02:16Z through #13878 at 2026-11-20T07:29:46Z. None of the titles contain dsh-superagent. Bodies were not read. Not listed."
+    },
     {
       "title": "window after 05:52Z added cg-dsh only",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -14970,37 +15073,53 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Nelson #761 stays on next/0.8",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/9d5f391b43e6dab96df50ae94be79ed95b70977a",
+      "title": "Nelson #763 stays on next/0.8",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/6d887f46267d",
+      "confidence": 0.9
+    },
+    {
+      "title": "omp ab4f9e34ac0b stays a Bun messenger",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/ab4f9e34ac0b",
       "confidence": 0.88
     },
     {
-      "title": "t3code 59651c1761f6 does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/59651c1761f6",
+      "title": "Hivebot 59ee9c867a6e stays a desktop workbench",
+      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/59ee9c867a6e",
       "confidence": 0.86
     },
     {
-      "title": "IHUI e15797ed72a4 does not touch the super-agent control plane",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/e15797ed72a4",
-      "confidence": 0.9
-    },
-    {
-      "title": "Hivebot 6a62e099baf4 stays a desktop workbench",
-      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/6a62e099baf4",
+      "title": "HongJinjin9 a8f0ad0243d0 stays a ticket workspace",
+      "url": "https://github.com/HongJinjin9/agent-workspace/commit/a8f0ad0243d0",
       "confidence": 0.86
     },
     {
-      "title": "Samuka007 stays deploy scripts",
-      "url": "https://github.com/Samuka007/dsh-superagent-prototype/commit/5972b8f9d8aa",
+      "title": "t3code 272cd3837904 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/272cd383790422ace6bc40a213176d0d11fb1700",
       "confidence": 0.86
     },
     {
-      "title": "awtutu 6114894e34f2 stays a sandbox",
-      "url": "https://github.com/awtutu/dsh-superagent-sandbox/commit/6114894e34f2",
-      "confidence": 0.9
+      "title": "IHUI 0a33050794c0 does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/0a33050794c0c331c3ecdfc62d608f23cd2fb965",
+      "confidence": 0.88
+    },
+    {
+      "title": "LofiSu main stayed on the browser-errand merge",
+      "url": "https://github.com/LofiSu/dsh-super-agent/commit/ca9823e5c096ea6ff4552b73b2d417cefaea88b9",
+      "confidence": 0.86
+    },
+    {
+      "title": "Forkbomb main stayed on the blocked-run fix",
+      "url": "https://github.com/ForkbombEu/superagent/commit/3ba2d27bcee3354184f0f62fcf6ce481ab808504",
+      "confidence": 0.84
+    },
+    {
+      "title": "discussions #13874 through #13878 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13878",
+      "confidence": 0.86
     }
   ],
   "held_on_other_branches": [
+    "2026-11-20T07:35:02Z: Nelson next/0.8 is 6d887f46267d, package 0.8.1-preview.28, and is not master. npm preview stays 0.8.1-preview.27.",
     "2026-11-20T05:52:23Z: Nelson #759 is on next/0.8 at 1f77d737563a and is not master. vicfei #153 #155 #157 #158 #159 merged to main.",
     "2026-11-20T03:37:10Z: vicfei #153 is open on feat/persona-files. Nelson #753 #754 #755 #757 #758 are open and are not master. Forkbomb #9 is open. DASHAN feat/rc5-evidence-pages and #1 are not main. fliggy #58 merged to main.",
     "2026-11-20T02:27Z: Nelson #755 is open on next/0.8. fliggy #58 is open on fix/claude-browser-quota-dedup. Neither is the default branch.",
