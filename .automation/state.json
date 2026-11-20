@@ -1,19 +1,25 @@
 {
-  "last_run_at": "2026-11-20T18:35:22Z",
+  "last_run_at": "2026-11-20T19:35:00Z",
   "timezone": "UTC",
-  "baseline_commit": "bb73723",
+  "baseline_commit": "1b39569",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T17:34:23Z",
-    "to": "2026-11-20T18:35:22Z"
+    "from": "2026-11-20T18:35:22Z",
+    "to": "2026-11-20T19:35:00Z"
   },
   "added": [],
   "updated": [],
   "pending": [
+    {
+      "title": "window after 18:35Z changed no list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. Release stays dsh-v0.2.2-rc.5. PTC stays d91899a6426d / 0.1.9. Patrol stays db76998c85df. superagent-lite stays fe3cf9995e07. Hivebot tip c511695c1e6a is 4 commits after 6c6c335791ab. edf2afc592d0 changes app/superagent/src/app/runtime.ts: if stateDir lockSync throws, it warns, calls unlockSync once, and locks again. stale stays 30000. The compare also touches b17-lock-recovery.spec.ts, scripts/fresh-boot.sh, and R3-R5-PROGRESS.md. fresh-boot.sh was not line-read. Root README still opens as a desktop multi-bot workbench and does not describe Trigger, Mandate, or Ticket. Not listed. omp 151cfd4f6f1c at 2026-11-20T19:22:04Z. package.json is omp-superagent 0.1.4, engines.bun >=1.4.4, and has no dsh dependency. The message says the Gateway and Host owner moved to Rust. That Rust was not line-read. Not listed. org-mountai/paseo-superagent 79fa2f6f2faf at 2026-11-20T19:30:37Z is private paseo-superagent 0.1.0. Read-only status runs python dispatcher.py and paseo_bridge.py under SUPERAGENT_ROOT, default /home/companion/companion. No engines.dsh. Not listed. pungme/superagent-desktop is a Mac app for Claude Code, Codex, and Antigravity. Not listed. Russ00028 tip ecf6a6a36e43 only edits version.json for a v2.2.4 code-update.zip manifest. 15e0bd4b0330 edits master-v2-version.json and 4b6148de936d edits master-version.json. Not listed. t3code 6cbda0cd0aa9 is 4 commits after 068332c603ce. Files are thread settlement, terminal manager, file preview, and pull-request focus. No filename matches superagent or dsh. Not listed. IHUI a4337f12abd1 is 27 commits after 97553bef3a31. No filename matches superagent or dsh. Not listed. Forkbomb has no commit after 18:35Z. Main stays 36cf007a44ac. feat/f6-superagent-yaml stays 3b40a7f597da and is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00. npm preview stays 0.8.1-preview.27 and latest stays 0.7.0. mindtheory pushed_at stays 2026-11-20T18:05:20Z. Discussions #13941 and #13942 do not name this prototype in the title or body. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 17:34Z changed no list rows",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -15179,47 +15185,48 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Hivebot 6c6c335791ab stays a desktop workbench",
-      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/6c6c335791ab",
-      "reason": "8b34a754f0b1 adds a mention-send fallback in the web index tap. The other commits are boot scripts and progress notes. Root README still does not describe Trigger, Mandate, or Ticket. Not listed."
+      "title": "Hivebot c511695c1e6a stays a desktop workbench",
+      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/c511695c1e6a",
+      "reason": "4 commits after 6c6c335791ab. stateDir lockSync retries once after unlockSync when the lock is held. stale stays 30000. fresh-boot.sh was not line-read. Root README still does not describe Trigger, Mandate, or Ticket. Not listed."
     },
     {
-      "title": "mindtheory eeddb7d2b53b stays a persona ledger",
-      "url": "https://github.com/mindtheory/dsh-super-agents/commit/eeddb7d2b53b",
-      "reason": "A missing host session row now settles the run interrupted with ERR_RUN_SESSION_LOST instead of done. README still does not name Trigger, Mandate, Ticket, or observe. Not listed."
+      "title": "omp 151cfd4f6f1c stays a Bun messenger",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/151cfd4f6f1c",
+      "reason": "Package is omp-superagent 0.1.4, engines.bun >=1.4.4, and package.json has no dsh dependency. The message says the Gateway and Host owner moved to Rust. That Rust was not line-read. Not listed."
     },
     {
-      "title": "oh-my-pi fbb8085ff432 does not name this prototype",
-      "url": "https://github.com/can1357/oh-my-pi/commit/fbb8085ff432",
-      "reason": "11 commits after 725f8c6f34ce. Files are ovnfs path quoting, wait-window, changelog, system prompt, and task settings. No filename matches superagent or dsh. Not listed."
+      "title": "paseo-superagent 79fa2f6f2faf is a local companion screen",
+      "url": "https://github.com/org-mountai/paseo-superagent/commit/79fa2f6f2faf",
+      "reason": "private paseo-superagent 0.1.0. Read-only status calls python dispatcher.py and paseo_bridge.py under /home/companion/companion. No engines.dsh. Not listed."
     },
     {
-      "title": "t3code 068332c603ce does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/068332c603ce",
-      "reason": "Two commits after 667d8a120aa7. Files are Linear issue-tracker and GitLab source-control. No filename matches superagent or dsh. Not listed."
+      "title": "pungme/superagent-desktop is not this prototype",
+      "url": "https://github.com/pungme/superagent-desktop",
+      "reason": "The README describes a Mac app for Claude Code, Codex, and Antigravity. Not listed."
     },
     {
-      "title": "IHUI 97553bef3a31 does not touch the super-agent control plane",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/97553bef3a31",
-      "reason": "23 commits after a24c285ecc65. No filename matches superagent or dsh. Not listed."
+      "title": "t3code 6cbda0cd0aa9 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/6cbda0cd0aa9",
+      "reason": "Four commits after 068332c603ce. No filename matches superagent or dsh. Not listed."
     },
     {
-      "title": "Russ00028 dd7b3487016f stays an update manifest",
-      "url": "https://github.com/Russ00028/superagent-updates/commit/dd7b3487016f",
-      "reason": "The only file is version.json for v2.2.3. Not listed."
+      "title": "IHUI a4337f12abd1 does not name this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/a4337f12abd1",
+      "reason": "27 commits after 97553bef3a31. No filename matches superagent or dsh. Not listed."
     },
     {
-      "title": "discussion #13939 does not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13939",
-      "reason": "#13939 at 2026-11-20T17:51:26Z is a sidebar unpin persistence bug. Title and body do not name this prototype. Not listed."
+      "title": "Russ00028 ecf6a6a36e43 stays a desktop manifest",
+      "url": "https://github.com/Russ00028/superagent-updates/commit/ecf6a6a36e43",
+      "reason": "version.json for v2.2.4, plus master-version.json and master-v2-version.json. Not listed."
     },
     {
-      "title": "discussion #13940 does not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13940",
-      "reason": "#13940 at 2026-11-20T18:15:50Z is a turn/end reason:null projection bug. Title and body do not name this prototype. Not listed."
+      "title": "discussions #13941 and #13942 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13942",
+      "reason": "#13941 is a dsh-jobs job_output report. #13942 is a Chinese social-media MCP. Title and body do not name this prototype. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-20T19:35:00Z: Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00.",
     "2026-11-20T18:35:22Z: Forkbomb feat/f6-superagent-yaml 3b40a7f597da is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00. omp main stays 6a07a8868761.",
     "2026-11-20T17:34:23Z: agentdescent agent/1187-controller-pr-trigger b50583263406 is not main. oh-my-pi fix branches are not main. Nelson next/0.8 stays 02476bcb8b00. Forkbomb main stays 36cf007a44ac. LofiSu main stays ca9823e5c096.",
     "2026-11-20T15:36:07Z: LofiSu #174 head fdc94320b4f8 is not merged. Nelson next/0.8 stays 02476bcb8b00. Forkbomb feat/f5 and feat/f6 stay 404. f6/schema-loader stays 34cc7cacfa63.",
