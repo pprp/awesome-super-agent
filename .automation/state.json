@@ -1,26 +1,74 @@
 {
-  "last_run_at": "2026-11-20T00:32:30Z",
+  "last_run_at": "2026-11-20T01:30:23Z",
   "timezone": "UTC",
-  "baseline_commit": "f38a493",
+  "baseline_commit": "505de47",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-19T23:39:31Z",
-    "to": "2026-11-20T00:32:30Z"
+    "from": "2026-11-20T00:32:30Z",
+    "to": "2026-11-20T01:30:23Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "specmill candidate evidence ad6c1fe801c7",
-      "url": "https://github.com/mrhoody/specmill/commit/ad6c1fe801c72a8b208dcebcb7e6e3aa1a3b5fbf",
+      "title": "specmill CI and CODEOWNERS 4a3ad80dc7eb",
+      "url": "https://github.com/mrhoody/specmill/commit/4a3ad80dc7eb7de6d51d9c5d6f32f96c86759bb2",
       "confidence": 0.93,
-      "reason": "Updated the existing specmill row. ad6c1fe801c7 at 2026-11-20T00:27:34Z merges #60, 3 ahead of 432c17d6ce9c. The new private package is not composed into the controller."
+      "reason": "Updated the existing specmill row. 4a3ad80dc7eb at 2026-11-20T01:11:49Z is 1 ahead of ad6c1fe801c7 and adds the required check workflow and owner CODEOWNERS. bridge:check and review:check stay out."
     }
   ],
   "pending": [
+    {
+      "title": "window after 00:32Z updated specmill CI only",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master has no commit after 00:32Z; recorded tip stays 2e39e70496aa. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.26. @reserendipity/dsh-superagent stays 0.2.10. Unscoped dsh-superagent stays 404. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. dsh-patrol stays 404. @vicfei/dsh-super-agent stays 1.8.0, gitHead b44bde5f1d70. dsh-whalepod npm latest stays 0.5.0. Whalepod, booth, Nelson master, Nelson next/0.8, vicfei, LofiSu main, HiSeax, GameGeek, patrol, LittleChenLiya, wychmod, workbench, ku-lin, waixv, oxmumu3, superboard, worker orchestrator, codefufuai, Rayrun, dsh-swarm, awesome-dsh-plugin, and the xuebicc playground have no commit after 00:32Z. LofiSu #174 head stays d98dc8e7ff02 and #180 head stays 309817ffa033. #182 head stays c949534860a6, updated 2026-11-18T17:46:56Z. arXiv dsh-superagent returned 0. HN newest relevant story stays 2026-11-11. No open PR on this list."
+    },
+    {
+      "title": "specmill 4a3ad80dc7eb CI and CODEOWNERS are now listed",
+      "url": "https://github.com/mrhoody/specmill/commit/4a3ad80dc7eb7de6d51d9c5d6f32f96c86759bb2",
+      "confidence": 0.93,
+      "reason": "4a3ad80dc7eb at 2026-11-20T01:11:49Z is 1 commit and 2 files after ad6c1fe801c7. Both files are new: .github/CODEOWNERS and .github/workflows/ci.yml. CODEOWNERS is * @mrhoody. The comment says only the owner's approval satisfies branch protection on main, because the agent and merge machine accounts have Write and could otherwise approve agent PRs. The workflow runs on pull_request and on push to main, with permissions contents read. checkout uses submodules true and fetch-depth 0; the comment says build-controller records the merge base with origin/build/issue-1-harness-baseline. Node is 24, then corepack enable, pnpm install --frozen-lockfile, baseline:check, controller:check, merge-gate:check, and candidate-evidence:check. bridge:check and review:check stay out; the comment says they fail on main at ad6c1fe8 until #61 restores their boot fixtures. Branch protection was not queried. Tests were not rerun. Do not repeat unless the required checks, the CODEOWNERS rule, the Node version, or the tip changes."
+    },
+    {
+      "title": "osagentic has issues and no commits",
+      "url": "https://github.com/Theater-ahyeon/osagentic",
+      "confidence": 0.86,
+      "reason": "Created 2026-11-20T00:51:48Z, pushed_at 2026-11-20T00:51:49Z, size 0, no license, no commits. Description says an attention IRQ subsystem extending dsh-superagent. Open issues #1 and #3 through #7 are a spec and task list using the prototype's vocabulary. Issue #2 was not in the open page. Not listed. Do not repeat unless the tree gains source, a profile, or a package."
+    },
+    {
+      "title": "202211071216/superagent is an empty name",
+      "url": "https://github.com/202211071216/superagent",
+      "confidence": 0.84,
+      "reason": "Created 2026-11-20T00:47:34Z, pushed_at 2026-11-20T00:47:36Z, size 0, description null, no license. The name does not say dsh-superagent. Not listed. Do not repeat unless a README names this prototype."
+    },
+    {
+      "title": "t3code 5dd565d6b1f2 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/5dd565d6b1f2f68479507824431d24a01835270d",
+      "confidence": 0.86,
+      "reason": "5dd565d6b1f2 at 2026-11-20T01:23:38Z is 12 commits and 119 files after 5872b0a48884. No commit message names dsh-superagent. No filename contains superagent or dsh. Not listed. Do not repeat unless a message or path names this prototype."
+    },
+    {
+      "title": "oh-my-pi 34962a6f8e62 does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/34962a6f8e62cca003c24d6fa9a85578d7b23707",
+      "confidence": 0.88,
+      "reason": "34962a6f8e62 at 2026-11-20T01:22:22Z is 36 commits and 51 files after 63bfb67d164e. No filename matches superagent or dsh. Default-branch subjects after 00:07Z are a usage-status click, changelog filing, a read line:column hint, minimized-window reads, hunk reconciliation, and merges about commit previews, tool-approval recording, and native judges. None name dsh-superagent. Not listed. Do not repeat unless a commit message or path names this prototype."
+    },
+    {
+      "title": "discussions #13846 through #13850 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13850",
+      "confidence": 0.86,
+      "reason": "#13846 at 2026-11-20T00:29:36Z is an OpenAI Responses prompt-cache idea. #13847 at 00:50:36Z is an install_bundle hang. #13848 at 00:56:56Z is a PTC run_code permission error on 0.2.2-rc.5. #13849 at 01:12:23Z is a dsh-wb-desk plugin show post. #13850 at 01:23:17Z is a rea tool model-adapter bug. None of the titles contain dsh-superagent. Bodies were not read. #13843 updated_at moved to 2026-11-20T00:49:16Z; its title is still the chat-in-dsh compatibility report. #13851 is not in the newest page. Not listed."
+    },
+    {
+      "title": "IHUI d0b3f9b2cefb does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/d0b3f9b2cefb",
+      "confidence": 0.9,
+      "reason": "d0b3f9b2cefb at 2026-11-20T00:56:53Z is 1 commit and 1 file after f9abaa454164. The only file is .github/workflows/cross-end-sync.yml. The message builds package dist before the cascade and does not name superagent. The listed row was not edited. Do not repeat unless a path under the super-agent control plane changes."
+    },
     {
       "title": "window after 23:39Z updated specmill only",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -14610,29 +14658,29 @@
   ],
   "rejected_this_run": [
     {
-      "title": "t3code 5283f33ca9d3",
-      "url": "https://github.com/pingdotgg/t3code/commit/5283f33ca9d3",
-      "reason": "Seven commits and 38 files. No message names dsh-superagent and no filename contains superagent or dsh."
+      "title": "osagentic empty issue tracker",
+      "url": "https://github.com/Theater-ahyeon/osagentic",
+      "reason": "No commits. Issues describe an attention scheduler. Not listed until the tree has source."
     },
     {
-      "title": "oh-my-pi 19.0.1 bump",
-      "url": "https://github.com/can1357/oh-my-pi/commit/f40f335845f0",
-      "reason": "One commit and 5 files. Version bump only. No path names dsh-superagent."
+      "title": "202211071216/superagent",
+      "url": "https://github.com/202211071216/superagent",
+      "reason": "Empty repository. Description does not name this prototype."
     },
     {
-      "title": "harness discussion 13843",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13843",
-      "reason": "Title does not contain dsh-superagent."
+      "title": "t3code 5dd565d6b1f2",
+      "url": "https://github.com/pingdotgg/t3code/commit/5dd565d6b1f2f68479507824431d24a01835270d",
+      "reason": "Twelve commits and 119 files. No message names dsh-superagent and no filename contains superagent or dsh."
     },
     {
-      "title": "dsh-swarm 0.5.0",
-      "url": "https://github.com/VukanCekic/dsh-swarm",
-      "reason": "README does not name dsh-superagent, Ticket, Mandate, or Executor."
+      "title": "oh-my-pi 34962a6f8e62",
+      "url": "https://github.com/can1357/oh-my-pi/commit/34962a6f8e62cca003c24d6fa9a85578d7b23707",
+      "reason": "Thirty-six commits and 51 files. No filename matches superagent or dsh."
     },
     {
-      "title": "IHUI 0893b25304bf",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/0893b25304bf",
-      "reason": "README generated counts only. No super-agent path."
+      "title": "IHUI d0b3f9b2cefb",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/d0b3f9b2cefb",
+      "reason": "One workflow file. No super-agent path."
     }
   ],
   "held_on_other_branches": [
