@@ -1,26 +1,110 @@
 {
-  "last_run_at": "2026-11-20T04:33:46Z",
+  "last_run_at": "2026-11-20T05:52:23Z",
   "timezone": "UTC",
-  "baseline_commit": "6cb984e",
+  "baseline_commit": "d9722d3",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T03:37:10Z",
-    "to": "2026-11-20T04:33:46Z"
+    "from": "2026-11-20T04:33:46Z",
+    "to": "2026-11-20T05:52:23Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "wangqiongkaka posts a failed ticket back to the original request",
-      "url": "https://github.com/wangqiongkaka/dsh-superagent/commit/7ee853776ca1dec8e8cff989197d766fe7703fce",
+      "title": "vicfei 1.9.0 composes persona files and adds chat",
+      "url": "https://github.com/vicfei/dsh-super-agent/commit/d903bc210f6237ff457f7d3fe736c5a93322248b",
       "confidence": 0.94,
-      "reason": "7ee853776ca1 is 1 ahead of a38506dd1325. A failed ticket replies once on the original human channel. Retries stay internal. The public sentence uses failure_reason or a fixed category, and drops sensitive details. Package stays private 0.1.0."
+      "reason": "d903bc210f62 at 2026-11-20T04:57:01Z is package 1.9.0. npm @vicfei/dsh-super-agent latest is 1.9.0 at 2026-11-20T05:03:42.000Z, 124 files, shasum f1d501be232d295b242f067fb442277f541a435c, gitHead d903bc210f6237ff457f7d3fe736c5a93322248b. Persona is nine files in fixed order, budget 16000 on trimmed bodies, first file always included, tail dropped whole. persona.dispatch stores the sha256 of the composed section. dsh init does not overwrite existing persona files, including with --force. dsh chat emits cli im_dm triggers with addressing true. PANEL_TOKEN gates every request and returns 403 on the five acting POSTs. PANEL_HOST beyond 127.0.0.1, localhost, or ::1 without a token exits. f1315e480606 only edits docs/ROADMAP.md. engines.node stays >=20. Tests were not rerun."
+    },
+    {
+      "title": "wealth pollDeploys reads closed follows",
+      "url": "https://github.com/wealth/dsh-superagent-prototype/commit/2da3644bdf8c",
+      "confidence": 0.93,
+      "reason": "2da3644bdf8c at 2026-11-20T04:51:29Z is 1 ahead of 1144954d23fa and 0 behind. pollDeploys calls pullsOf(ticket), whose open flag defaults to false, so a closed follow still yields a PR number. The pull read passes the zod object to commands.api. Paginated slurp results are an array of pages. A non-completed first matching check breaks without writing KV. Open-ticket checks still use pullsOf(ticket, true). Package stays private dsh-superagent 0.1.0, engines.dsh ^0.2.1-alpha.2. Tests were not rerun."
+    },
+    {
+      "title": "Nelson preview tag 0.8.1-preview.27 is published",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/c93d058f1a57",
+      "confidence": 0.92,
+      "reason": "c93d058f1a57 at 2026-11-20T05:13:43Z merges #760 and only edits docs/release.md. Annotated tag v0.8.1-preview.27 peels to 0c4579c8af37. npm preview is 0.8.1-preview.27 at 2026-11-20T05:11:57.449Z, 409 files, shasum 68c0853a824c6750e8e658d6c7db7f492fc9dc42, no gitHead. latest stays 0.7.0. GitHub Release published 2026-11-20T05:13:12Z, prerelease, not a draft, target master. package.json stays 0.8.1-preview.27. Tests were not rerun."
     }
   ],
   "pending": [
+    {
+      "title": "window after 04:33Z updated vicfei, wealth, and Nelson npm",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. @xiangyixie/dsh-superagent stays 0.24.0. dsh-mini-superagent stays 0.10.2. @oxmumu3/dsh-superagent stays 0.3.0 and preview stays 0.3.0-preview.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview moved to 0.8.1-preview.27. @reserendipity/dsh-superagent stays 0.2.10. Unscoped dsh-superagent stays 404. dsh-superagent-prototype stays 0.1.3. dsh-session-superagent stays 0.10.12. dsh-superagent-multi-channel stays 2.5.3. dsh-patrol stays 404. @vicfei/dsh-super-agent latest is 1.9.0. dsh-whalepod stays 0.5.0. superagent-template stays 404. arXiv dsh-superagent export returned 429; the site search returned 0. HN has no story in this window. No open PR on this list."
+    },
+    {
+      "title": "vicfei 1.9.0 persona, chat, and panel token are now listed",
+      "url": "https://github.com/vicfei/dsh-super-agent/commit/d903bc210f6237ff457f7d3fe736c5a93322248b",
+      "confidence": 0.94,
+      "reason": "Main tip f1315e480606 is docs/ROADMAP.md only. Release commit d903bc210f62 is package 1.9.0. #153, #155, #157, and #158 are merged. Nine persona files, 16000-char body budget, first file always kept, persona.dispatch hashes the composed section. dsh init skips existing persona files even with --force. dsh chat uses source cli, scope im_dm, addressing true, thread cli:dm/<login>. PANEL_TOKEN compares sha256 digests with timingSafeEqual and 403s POST /api/mode, /api/stop, /api/promote, /api/grant, and /api/revoke. A non-loopback PANEL_HOST without a token exits. npm latest 1.9.0 at 2026-11-20T05:03:42.000Z, gitHead d903bc210f6237ff457f7d3fe736c5a93322248b, 124 files, shasum f1d501be232d295b242f067fb442277f541a435c. engines.node stays >=20. The im_dm cell table was not reread. Tests were not rerun. Do not repeat unless the file order, the budget, the chat id shape, the acting-route 403 list, or the npm version changes."
+    },
+    {
+      "title": "wealth 2da3644bdf8c deploy watch is now listed",
+      "url": "https://github.com/wealth/dsh-superagent-prototype/commit/2da3644bdf8c",
+      "confidence": 0.93,
+      "reason": "2da3644bdf8c at 2026-11-20T04:51:29Z is 1 ahead of 1144954d23fa. pullsOf defaults open to false. pollDeploys no longer passes true, so closed follows are included. commands.api receives the zod object. slurp pages are flat-mapped. An incomplete first named check breaks without KV. Package stays private 0.1.0, engines.dsh ^0.2.1-alpha.2. Tests were not rerun. Do not repeat unless the open flag, the api argument order, or the package version changes."
+    },
+    {
+      "title": "Nelson preview.27 publication is now listed",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/c93d058f1a57",
+      "confidence": 0.92,
+      "reason": "c93d058f1a57 merges #760 and only edits docs/release.md. Tag v0.8.1-preview.27 peels to 0c4579c8af37. npm preview is 0.8.1-preview.27 at 2026-11-20T05:11:57.449Z, 409 files, shasum 68c0853a824c6750e8e658d6c7db7f492fc9dc42, no gitHead. latest stays 0.7.0. GitHub Release is a prerelease published 2026-11-20T05:13:12Z. package.json stays 0.8.1-preview.27. next/0.8 is 1f77d737563a, merge of #759, and is not master. Tests were not rerun. Do not repeat unless preview, latest, the peeled tag, or the master tip changes."
+    },
+    {
+      "title": "cg-dsh 37cf3a232aab still refuses extra repositories",
+      "url": "https://github.com/cg-dsh/dsh-superagent-prototype/commit/37cf3a232aab",
+      "confidence": 0.9,
+      "reason": "Tip 37cf3a232aab at 2026-11-20T04:58:49Z is 3 commits after 8071c82c190f. Commands.for(repository) keeps a scope string and repository returns that scope or the primary. SourceContext.repository returns deployment.repository. docs/009 says the poller must not construct the scoped context, and the registry injection is still the remaining step. resolveDeployment still throws SetupError repositoriesUnsupported when accounts.repositories is non-empty, before the extra-repository loop. Package stays private dsh-superagent 0.1.0, engines.dsh ^0.2.1-alpha.2. Not listed. Do not repeat unless the throw is removed or a read uses a repository other than the primary."
+    },
+    {
+      "title": "omp 79eb346f824a stays a Bun messenger cron",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/79eb346f824a",
+      "confidence": 0.88,
+      "reason": "79eb346f824a at 2026-11-20T04:09:39Z was inside the previous window and was not in that run's note. package omp-superagent 0.1.2, engines.bun >=1.4.4, dependencies are @oh-my-pi packages plus Slack, Discord, and grammY. No dsh dependency. The commit adds cron jobs. Not listed. Do not repeat unless the package gains a dsh dependency or a Ticket engine."
+    },
+    {
+      "title": "Hivebot 4612da67e2f0 stays a desktop workbench",
+      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/4612da67e2f0",
+      "confidence": 0.86,
+      "reason": "Tip 4612da67e2f0 at 2026-11-20T05:32:15Z. In-window commits are per-tool MCP permission data and UI. README still opens as a desktop multi-bot workbench. The permission matrix was not line-read. Not listed. Do not repeat unless the README stops describing a desktop workbench or the intake pin changes."
+    },
+    {
+      "title": "t3code be9176761ce2 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/be9176761ce2",
+      "confidence": 0.86,
+      "reason": "be9176761ce2 at 2026-11-20T05:15:13Z is 6 files after d1822be5a99a. No filename matches superagent or dsh. Not listed. Do not repeat unless a message or path names this prototype."
+    },
+    {
+      "title": "IHUI 32f62bbacaa9 does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/32f62bbacaa9",
+      "confidence": 0.9,
+      "reason": "32f62bbacaa9 at 2026-11-20T05:32:38Z is 27 files after 15a958342656. No filename matches superagent or super-agent. The listed row was not edited. Do not repeat unless a path under the super-agent control plane changes."
+    },
+    {
+      "title": "oh-my-pi acdfffa248d1 does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/acdfffa248d1",
+      "confidence": 0.86,
+      "reason": "acdfffa248d1 at 2026-11-20T04:49:56Z is daemon MCP sharing. No filename in the first 30 matches superagent or dsh-superagent. Not listed. Do not repeat unless a path names this prototype."
+    },
+    {
+      "title": "discussions #13864 through #13870 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13870",
+      "confidence": 0.86,
+      "reason": "#13864 at 2026-11-20T04:41:04Z through #13870 at 2026-11-20T05:49:59Z. None of the titles contain dsh-superagent. Bodies were not read. Not listed."
+    },
+    {
+      "title": "awtutu, HealthSulingfeng, and xuebicc stay off the list",
+      "url": "https://github.com/awtutu/dsh-superagent-sandbox/commit/6114894e34f2",
+      "confidence": 0.88,
+      "reason": "awtutu tip 6114894e34f2 at 2026-11-20T05:21:31Z merges smoke-file PRs. xuebicc main stays 1a0763e62f28, a greet sandbox, despite pushed_at 2026-11-20T05:30:30Z. dsh-superagent-robot/HealthSulingfengQmpgn b9431517f3ff at 2026-11-20T05:05:14Z is a Heartica iOS app. Not listed. Do not repeat unless one of them gains prototype source, a profile, or a package that names this prototype."
+    },
     {
       "title": "window after 03:37Z updated wangqiongkaka only",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -14850,47 +14934,48 @@
   ],
   "rejected_this_run": [
     {
-      "title": "cg-dsh 8071c82 still refuses extra repositories",
-      "url": "https://github.com/cg-dsh/dsh-superagent-prototype/commit/8071c82c190fe74850c515241768a8285eb0ef57",
+      "title": "cg-dsh 37cf3a232aab still refuses extra repositories",
+      "url": "https://github.com/cg-dsh/dsh-superagent-prototype/commit/37cf3a232aab",
       "confidence": 0.9
     },
     {
-      "title": "Nelson #753 and #754 merged to next/0.8 only",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/7e6df370b21a0cae4b6d93e12f9e427545d1bf56",
+      "title": "omp 79eb346f824a stays a Bun messenger cron",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/79eb346f824a",
       "confidence": 0.88
     },
     {
-      "title": "lakii2982 is 37 ahead and was not line-read",
-      "url": "https://github.com/lakii2982/dsh-superagent-prototype/commit/1b8a6abf99038b79175dd9523bf50a8f55edc184",
-      "confidence": 0.7
-    },
-    {
-      "title": "Samuka007 deploy scripts stay one person's deployment",
-      "url": "https://github.com/Samuka007/dsh-superagent-prototype/commit/585b723d831f5b58be867edd281b27fd63bb8558",
+      "title": "Hivebot 4612da67e2f0 stays a desktop workbench",
+      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/4612da67e2f0",
       "confidence": 0.86
     },
     {
-      "title": "awtutu 20e079dc0ab9 stays a sandbox",
-      "url": "https://github.com/awtutu/dsh-superagent-sandbox/commit/20e079dc0ab9a44dabab044b15799779607ef46d",
+      "title": "t3code be9176761ce2 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/be9176761ce2",
+      "confidence": 0.86
+    },
+    {
+      "title": "IHUI 32f62bbacaa9 does not touch the super-agent control plane",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/32f62bbacaa9",
       "confidence": 0.9
     },
     {
-      "title": "t3code d1822be5a99a does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/d1822be5a99a335fd3cd34c482234d0b36d79c09",
+      "title": "oh-my-pi acdfffa248d1 does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/acdfffa248d1",
       "confidence": 0.86
     },
     {
-      "title": "IHUI 15a958342656 does not touch the super-agent control plane",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/15a958342656d6bb7a19c4a430e13acae91ae6af",
-      "confidence": 0.9
+      "title": "discussions #13864 through #13870 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13870",
+      "confidence": 0.86
     },
     {
-      "title": "discussions #13854 through #13863 do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13863",
-      "confidence": 0.86
+      "title": "awtutu, HealthSulingfeng, and xuebicc stay off the list",
+      "url": "https://github.com/awtutu/dsh-superagent-sandbox/commit/6114894e34f2",
+      "confidence": 0.88
     }
   ],
   "held_on_other_branches": [
+    "2026-11-20T05:52:23Z: Nelson #759 is on next/0.8 at 1f77d737563a and is not master. vicfei #153 #155 #157 #158 #159 merged to main.",
     "2026-11-20T03:37:10Z: vicfei #153 is open on feat/persona-files. Nelson #753 #754 #755 #757 #758 are open and are not master. Forkbomb #9 is open. DASHAN feat/rc5-evidence-pages and #1 are not main. fliggy #58 merged to main.",
     "2026-11-20T02:27Z: Nelson #755 is open on next/0.8. fliggy #58 is open on fix/claude-browser-quota-dedup. Neither is the default branch.",
     "LofiSu/dsh-super-agent main stays ca9823e5c096. #174 head stays d98dc8e7ff02 and #180 head stays 309817ffa033. Neither updated_at moved after 15:33Z.",
