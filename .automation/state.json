@@ -1,18 +1,24 @@
 {
-  "last_run_at": "2026-11-20T23:33:47Z",
+  "last_run_at": "2026-11-21T00:36:49Z",
   "timezone": "UTC",
-  "baseline_commit": "bd367df",
+  "baseline_commit": "7f7f7b5",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T22:42:00Z",
-    "to": "2026-11-20T23:33:47Z"
+    "from": "2026-11-20T23:33:47Z",
+    "to": "2026-11-21T00:36:49Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "JHOpenDev inbox 0.3.3 adapter wait, stall watchdog, and Session stop",
+      "url": "https://github.com/JHOpenDev/dsh-superagent-inbox/commit/0395d89a347b",
+      "confidence": 0.95,
+      "reason": "Tip 0395d89a347b is package 0.3.3. Startup waits up to 60s for the eval and executor provider adapters before resuming dispatch. A launch waits with Later while the executor adapter is missing. A person aborting the worker turn from its Session stops the live ticket; an executor-cancelled turn and a turn the person typed do not. The 60s watchdog fails 15 minutes of silence while idle or gone, unless a delivery is queued, and cancels a turn with no progress for 30 minutes. Handed-off, retrying, and settling assignments are left. Stale worker_report and worker_attention relays and pending channel receipts for a human-ended ticket are dropped. engines.dsh stays >=0.2.1-rc.3 || >=0.2.2-0. npm dsh-superagent-inbox stays 0.3.2. Tests were not rerun."
+    },
     {
       "title": "lkshrk/dsh-superagent 0.4.1",
       "url": "https://github.com/lkshrk/dsh-superagent/commit/696e64dd4b21c1dfc45cb01cb65d21f6dc959f90",
@@ -21,6 +27,12 @@
     }
   ],
   "pending": [
+    {
+      "title": "window after 23:33Z updated inbox to 0.3.3",
+      "url": "https://github.com/JHOpenDev/dsh-superagent-inbox/commit/0395d89a347b",
+      "confidence": 0.95,
+      "reason": "Updated JHOpenDev/dsh-superagent-inbox to 0395d89a347b / package 0.3.3. npm unscoped dsh-superagent-inbox stays 0.3.2 at 2026-11-07T14:03:52.384Z. Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. lkshrk/dsh-superagent tip stays 696e64dd4b21 / 0.4.1, pushed_at 2026-11-20T22:17:01Z. lkshrk/dsh-superagent-linear main stays 17e82628ba09 / 0.3.1. renovate/lock-file-maintenance 9f098337fc81 at 2026-11-21T00:00:26Z only edits pnpm-lock.yaml and is not main. Not listed. PTC stays 0.1.9. whalepod stays 0.6.1. vicfei stays 1.10.0. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00. Open #781 fix/735-root-drag and #780 test/778-portable-fixtures target next/0.8 and are not merged. npm preview stays 0.8.1-preview.27 and latest stays 0.7.0. Not listed. billLiao/awesome-dsh-plugin 5489ec8dcb1b is the 00:01Z topic sync. superagent name set is unchanged from 678b534e280a. Not listed. t3code a04bca5bcf36 is 12 commits and 66 files after 8a0f19092e8c. No filename matches superagent or dsh. Not listed. IHUI bac9d5f53bd0 is 28 commits and 34 files after d09665fd0603. No filename matches. docs/agent-harness-benchmark-2026-11-19.md does not name this prototype. Not listed. oh-my-pi main stays efd92300eec7. Discussions #13950, #13951, and #13952 do not name this prototype. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 22:42Z updated the lkshrk fork to 0.4.1",
       "url": "https://github.com/lkshrk/dsh-superagent/commit/696e64dd4b21",
