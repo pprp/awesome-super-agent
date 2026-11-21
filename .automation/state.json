@@ -1,26 +1,25 @@
 {
-  "last_run_at": "2026-11-21T07:35:00Z",
+  "last_run_at": "2026-11-21T08:33:31Z",
   "timezone": "UTC",
-  "baseline_commit": "9368766",
+  "baseline_commit": "6bdef69",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-21T06:31:34Z",
-    "to": "2026-11-21T07:35:00Z"
+    "from": "2026-11-21T07:35:00Z",
+    "to": "2026-11-21T08:33:31Z"
   },
   "added": [],
-  "updated": [
-    {
-      "title": "LMQ00/superagent-lite",
-      "url": "https://github.com/LMQ00/superagent-lite/commit/aad8ea878460",
-      "confidence": 0.93,
-      "reason": "Master moved from e86db3814801 to aad8ea878460 at 2026-11-21T07:08:30Z, merging #9 after #6, #3, #2, #5, #7, #8, and #4 in this window. Package stays private @local/superagent-lite 1.0.0, engines.dsh stays exactly 0.2.2-rc.3, and there is still no LICENSE. dispatch_worker mode defaults to change; report skips worktree and review tools. report_task requires a running report task, no worktree, a 1-20000 character report, unchanged HEAD, and a clean checkout aside from the worktrees gitignore. Worker completion no longer publishes: a reviewed change task stops at awaiting-merge. continue_worker records the follow-up before delivery. The review helper expectation covers startActivation only; a child claimed in that interval gets a read-only sandbox guard. merge-worker and POST /superagent-lite/git are owner-gated local merge or GitHub publish. github.js was not reread. Tests were not rerun."
-    }
-  ],
+  "updated": [],
   "pending": [
+    {
+      "title": "window after 07:35Z changed no list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Started from origin/main 6bdef69, which already lists LMQ00/superagent-lite at aad8ea878460. No README rows added or rewritten. Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. npm inbox stays 0.3.2, whalepod 0.6.1, vicfei 1.10.0, ptc 0.1.9, Nelson latest 0.7.0 and preview 0.8.1-preview.27. Unscoped dsh-superagent, dsh-patrol, dsh-superagent-linear, dsh-superagent-signal, and dsh-superagent-manager stay 404. superagent-lite master stays aad8ea878460, pushed_at 2026-11-21T07:19:43Z, and has no open pull request. opencode-superagent stays 6b20f9eab394. specmill main stays 4691b1b2f9e5. Open PR #2 stays off main. Nelson master stays d433add75295. next/0.8 stays 34cca78dc389 and is not master. LofiSu main stays ca9823e5c096. pushed_at is 2026-11-21T08:31:51Z. Open PR #175 head a0b6a27ac2d0 on feat/peanut-writable-on-main was updated 2026-11-21T08:32:19Z and is not merged. The summary gives the Feishu worker a writable workspace and a host-side pull-request publish path. The patch was not line-read. Not listed. #174 head stays fdc94320b4f8 and #180 head stays 868a2cdc2301. omp-superagent stays 5509a4ef2d5c / 0.1.5 with bun and no engines.dsh. paseo-plugin-superagent stays ed7f4cf00da3 with no engines.dsh. Hivebot stays 2816efc0d36f. oh-my-pi c61a4881a553 is 29 commits and 300 files after 28435917985e, past the 07:35 tip de21c0ac454b, and no filename matches superagent, dsh, or DeepSeek. Not listed. t3code 9f9ebf61fbdb is 32 commits and 300 files after 1f8f3698b03c, past 367f9d3759e6. The only filename hit is apps/server/src/orchestration-v2/testkit/ProviderReplayHarness.ts. Not listed. IHUI 9a8db2c83bbc is 36 commits and 133 files after 949fb997489c, past 70664a0a64d5. The benchmark doc contains ticket-artifacts and no dsh-superagent, superagent, or DeepSeek. Not listed. 1787463152-hub/agent-playground a6f65bfc84ab and agent-playground-mac 4e040669ea1e only changed STATUS files. Not listed. superstar717/dsh-superagent-playground main stays f033bf3245fb. Tillas-star/DSH_SuperagentHub-Private- 2ce1c3eb6edd at 2026-11-21T07:47:23Z only merges a README whose body is the title DSH SuperAgent. Not listed. fansir88boss-lab/superagent-demo was created 2026-11-21T07:52:24Z, size 0, and describes itself as a demo safe to delete. Not listed. mmdxey1/dsh-superagent-lab stays the sandbox README. billLiao/awesome-dsh-plugin c05ebfed4c7b is the 08:01Z topic sync. plugins.json is 16MB and was not diffed. Not listed. Inbox, lkshrk fork, Linear, signal, PTC, patrol, whalepod, vicfei, Aily, session-fold, cg-dsh, and Forkbomb main have no push after 07:35Z. Harness discussion search for dsh-superagent updated on 2026-11-21 returned 0. Titles updated in the window do not name this prototype. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 06:31Z updated superagent-lite",
       "url": "https://github.com/LMQ00/superagent-lite/commit/aad8ea878460",
@@ -15264,37 +15263,38 @@
   ],
   "rejected_this_run": [
     {
-      "title": "dbc-hbin/omp-superagent 0.1.5 stays off the list",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/5509a4ef2d5c",
-      "reason": "Main now includes #20 and the 0.1.5 release. engines has bun >=1.4.4 and no dsh. Not listed."
+      "title": "LofiSu PR #175 stays off main",
+      "url": "https://github.com/LofiSu/dsh-super-agent/pull/175",
+      "reason": "Head a0b6a27ac2d0 on feat/peanut-writable-on-main updated 2026-11-21T08:32:19Z and is not merged. Main stays ca9823e5c096. Not listed."
     },
     {
-      "title": "paseo-plugin-superagent stays off the list",
-      "url": "https://github.com/lekai63/paseo-plugin-superagent/commit/ed7f4cf00da3",
-      "reason": "Tip restores Codex provider selection. engines.node stays >=20 and there is no engines.dsh. Not listed."
+      "title": "Tillas-star hub is still a title",
+      "url": "https://github.com/Tillas-star/DSH_SuperagentHub-Private-/commit/2ce1c3eb6edd",
+      "reason": "Main 2ce1c3eb6edd at 2026-11-21T07:47:23Z only merges a README whose body is the title DSH SuperAgent. Not listed."
     },
     {
-      "title": "Hivebot admission self-check stays off the list",
-      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/2816efc0d36f",
-      "reason": "Main moved at 06:45Z. README mentions a lowercase ticket and does not name Mandate. runtime.ts was not line-read. Not listed."
+      "title": "fansir88boss-lab/superagent-demo is empty",
+      "url": "https://github.com/fansir88boss-lab/superagent-demo",
+      "reason": "Created 2026-11-21T07:52:24Z. The description says demo and safe to delete. Size is 0. Not listed."
     },
     {
-      "title": "mmdxey1/dsh-superagent-lab is a sandbox",
-      "url": "https://github.com/mmdxey1/dsh-superagent-lab",
-      "reason": "Created 06:29Z and pushed 06:38Z. The only file is a 61-byte sandbox README. Not listed."
-    },
-    {
-      "title": "Nelson PR #784 stays on next/0.8",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/784",
-      "reason": "Updated 2026-11-21T06:24:22Z, before this window. Head 1ca37474ba41 targets next/0.8, which stays 34cca78dc389. Not listed."
+      "title": "agent-playground status syncs stay off the list",
+      "url": "https://github.com/1787463152-hub/agent-playground/commit/a6f65bfc84ab",
+      "reason": "agent-playground a6f65bfc84ab and agent-playground-mac 4e040669ea1e only changed STATUS files. superstar717 main stays f033bf3245fb. Not listed."
     },
     {
       "title": "oh-my-pi, t3code, and IHUI diffs do not name this prototype",
-      "url": "https://github.com/can1357/oh-my-pi/commit/de21c0ac454b",
-      "reason": "oh-my-pi and t3code compare pages are capped at 300 files with no name match. IHUI's 21 files have no name match. Not listed."
+      "url": "https://github.com/can1357/oh-my-pi/commit/c61a4881a553",
+      "reason": "oh-my-pi c61a4881a553 has no matching filename. t3code 9f9ebf61fbdb only hits ProviderReplayHarness.ts. IHUI 9a8db2c83bbc mentions ticket-artifacts and not this prototype. Not listed."
+    },
+    {
+      "title": "billLiao 08:01Z topic sync was not diffed",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/c05ebfed4c7b",
+      "reason": "Commit message is Sync 2026-11-21T16:01. plugins.json is 16MB and was not diffed. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-21T08:33:31Z: LofiSu PR #175 head feat/peanut-writable-on-main is a0b6a27ac2d0 and is not main. main stays ca9823e5c096. specmill PR #2 stays off main 4691b1b2f9e5. Nelson next/0.8 stays 34cca78dc389 and is not master. superagent-lite has no open PR.",
     "2026-11-21T07:35:00Z: superagent-lite PRs #2 through #9 are on master aad8ea878460. Nelson PR #784 head 1ca37474ba41 still targets next/0.8 at 34cca78dc389. LofiSu #180 head stays 868a2cdc2301 and is not main. Forkbomb main stays 36cf007a44ac.",
     "2026-11-21T06:31:34Z: Nelson PR #784 head fix/783-proxied-owner-control is 1ca37474ba41 and targets next/0.8, not master. next/0.8 stays 34cca78dc389. omp-superagent PR #20 is not main. superagent-lite PRs #2 through #5 stay off master e86db3814801. mrhoody/specmill PR #2 stays off main 4691b1b2f9e5.",
     "2026-11-21T03:33:53Z: LMQ00/superagent-lite PR #2 stays open at 9ccc191d2f24 and is not master. Nelson next/0.8 stays 34cca78dc389 / 0.8.1-preview.28 and is not master. Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main.",
