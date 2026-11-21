@@ -1,32 +1,25 @@
 {
-  "last_run_at": "2026-11-21T00:36:49Z",
+  "last_run_at": "2026-11-21T01:33:00Z",
   "timezone": "UTC",
-  "baseline_commit": "7f7f7b5",
+  "baseline_commit": "3c9cd25",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-20T23:33:47Z",
-    "to": "2026-11-21T00:36:49Z"
+    "from": "2026-11-21T00:36:49Z",
+    "to": "2026-11-21T01:33:00Z"
   },
   "added": [],
-  "updated": [
-    {
-      "title": "JHOpenDev inbox 0.3.3 adapter wait, stall watchdog, and Session stop",
-      "url": "https://github.com/JHOpenDev/dsh-superagent-inbox/commit/0395d89a347b",
-      "confidence": 0.95,
-      "reason": "Tip 0395d89a347b is package 0.3.3. Startup waits up to 60s for the eval and executor provider adapters before resuming dispatch. A launch waits with Later while the executor adapter is missing. A person aborting the worker turn from its Session stops the live ticket; an executor-cancelled turn and a turn the person typed do not. The 60s watchdog fails 15 minutes of silence while idle or gone, unless a delivery is queued, and cancels a turn with no progress for 30 minutes. Handed-off, retrying, and settling assignments are left. Stale worker_report and worker_attention relays and pending channel receipts for a human-ended ticket are dropped. engines.dsh stays >=0.2.1-rc.3 || >=0.2.2-0. npm dsh-superagent-inbox stays 0.3.2. Tests were not rerun."
-    },
-    {
-      "title": "lkshrk/dsh-superagent 0.4.1",
-      "url": "https://github.com/lkshrk/dsh-superagent/commit/696e64dd4b21c1dfc45cb01cb65d21f6dc959f90",
-      "confidence": 0.95,
-      "reason": "Tip 696e64dd4b21 is private package 0.4.1. Non-split Linear workers may get_document only for meta.documents ids. The first 20 entries count. UUID, query, and fragment ids are refused. list_documents stays refused. Tag v0.4.1 and the GitHub release point at this tip. npm stays 404."
-    }
-  ],
+  "updated": [],
   "pending": [
+    {
+      "title": "window after 00:36Z changed no list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, no gitHead. PTC stays 0.1.9, gitHead 7ec628a69650. whalepod stays 0.6.1. vicfei stays 1.10.0. inbox stays 0395d89a347b / 0.3.3 and npm dsh-superagent-inbox stays 0.3.2. lkshrk/dsh-superagent tip stays 696e64dd4b21 / 0.4.1. Linear main stays 17e82628ba09 / 0.3.1. Nelson master stays d433add75295. next/0.8 moved to 34cca78dc389 at 2026-11-21T01:17:53Z and is not master. It merges #780 at ccb847e788a1 and #781 at 34cca78dc389. #780 is test-only portable fixtures. #781 wires planning-board pointer and native frame drops through the existing checked root join. The branch package.json is 0.8.1-preview.28. npm preview stays 0.8.1-preview.27 and latest stays 0.7.0. Not listed. Forkbomb main stays 36cf007a44ac. feat/f6-superagent-yaml stays 3b40a7f597da and is not main. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged. paseo-superagent tip is 469a08f3e0ea at 2026-11-20T23:36:32Z, inside the previous window and not recorded there. Private package 0.2.0. dropTicket requires confirm DROP, re-reads dispatcher.py, and accepts only open tickets whose source is agentmail, imap, pm, or schedule, then runs superagent/tickets.py drop. GitHub and host tickets are refused. No engines.dsh. Not listed. t3code 285558eb1053 is 7 commits after a04bca5bcf36. No filename matches superagent or dsh. Not listed. IHUI fb0af590ac69 is 18 commits and 18 files after bac9d5f53bd0. No filename matches superagent or dsh. docs/agent-harness-benchmark-2026-11-19.md names deepseek-tui and a generic agent harness, not this prototype. Not listed. oh-my-pi main stays efd92300eec7. agentdescent main stays 4b46761a6bb6. Open PRs #1200, #1199, and #1191 do not include scripts/dsh-superagent-run.sh. Not listed. N.E.K.O ab2fe1fa1cad is five plugin, theater, settings, and model commits. No filename matches dsh, superagent, or harness. Not listed. Repo search for dsh-superagent in the name shows no push after 00:36Z. Discussion #13953 does not name this prototype. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 23:33Z updated inbox to 0.3.3",
       "url": "https://github.com/JHOpenDev/dsh-superagent-inbox/commit/0395d89a347b",
@@ -15228,32 +15221,38 @@
   ],
   "rejected_this_run": [
     {
-      "title": "IHUI d09665fd0603 does not name this prototype",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/d09665fd06030ce5ebf99a92c42490f752d22f01",
-      "reason": "27 commits and 48 files after 882f4efc9367. No filename matches superagent or dsh. Not listed."
+      "title": "Nelson #780 and #781 stay on next/0.8",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/34cca78dc389",
+      "reason": "next/0.8 tip 34cca78dc389 merges #780 and #781. Master stays d433add75295. Branch package is 0.8.1-preview.28. npm preview stays 0.8.1-preview.27 and latest stays 0.7.0. Not listed."
     },
     {
-      "title": "t3code 8a0f19092e8c does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/8a0f19092e8c3582385acaa3f477f47f8b25e5ee",
-      "reason": "11 commits and 68 files after f2ec853fbbb6. No filename matches superagent or dsh. Not listed."
+      "title": "t3code 285558eb1053 does not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/285558eb1053",
+      "reason": "7 commits after a04bca5bcf36. No filename matches superagent or dsh. Not listed."
     },
     {
-      "title": "oh-my-pi efd92300eec7 does not name this prototype",
-      "url": "https://github.com/can1357/oh-my-pi/commit/efd92300eec7e1d20e4d07393632f9b9ffcf031f",
-      "reason": "6 commits and 22 files after 694bea64be84. No filename matches superagent or dsh. Not listed."
+      "title": "IHUI fb0af590ac69 does not name this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/fb0af590ac69",
+      "reason": "18 commits and 18 files after bac9d5f53bd0. No filename matches superagent or dsh. The agent-harness benchmark doc does not name this prototype. Not listed."
     },
     {
-      "title": "agentdescent 4b46761a6bb6 does not change the handoff script",
-      "url": "https://github.com/ThinkFlowLab/agentdescent/commit/4b46761a6bb69985d86a9495b4eb8e397b3f2a92",
-      "reason": "One commit after 8d75685aecde. Files are AGENTS.md, a changelog fragment, and tests/test_process_controller.py. scripts/dsh-superagent-run.sh is not among them. Not listed."
+      "title": "agentdescent PRs do not change the handoff script",
+      "url": "https://github.com/ThinkFlowLab/agentdescent/pull/1200",
+      "reason": "Main stays 4b46761a6bb6. Open PRs #1200, #1199, and #1191 edit cli, mcp, and tests. scripts/dsh-superagent-run.sh is not among them. Not listed."
     },
     {
-      "title": "Harness discussions #13947 through #13949 do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13949",
-      "reason": "#13947 is a session-continuity idea, #13948 is an MCP credential race, and #13949 is a macOS LAN block. None name dsh-superagent. Not listed."
+      "title": "N.E.K.O ab2fe1fa1cad is not this prototype",
+      "url": "https://github.com/Project-N-E-K-O/N.E.K.O/commit/ab2fe1fa1cad",
+      "reason": "Five commits after 00:36Z. No filename matches dsh, superagent, or harness. Not listed."
+    },
+    {
+      "title": "paseo-superagent 469a08f3e0ea stays a companion screen",
+      "url": "https://github.com/org-mountai/paseo-superagent/commit/469a08f3e0ea",
+      "reason": "Private 0.2.0 at 2026-11-20T23:36:32Z. Channel drops require confirm DROP and an open agentmail, imap, pm, or schedule ticket, then tickets.py drop. No engines.dsh. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-21T01:33:00Z: Nelson next/0.8 is 34cca78dc389, merges #780 and #781, and is not master. Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged.",
     "2026-11-20T23:33:47Z: Forkbomb feat/f6-superagent-yaml has no commit after 22:42Z and is not main. Nelson next/0.8 has no commit after 22:42Z and is not master. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged.",
     "2026-11-20T22:42:00Z: Forkbomb feat/f6-superagent-yaml has no commit after 21:34Z and is not main. Nelson master and next/0.8 have no commit after 21:34Z. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged.",
     "2026-11-20T21:34:00Z: Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main. Nelson master stays d433add75295. next/0.8 stays 02476bcb8b00. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged.",
