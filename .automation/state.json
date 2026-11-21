@@ -1,19 +1,32 @@
 {
-  "last_run_at": "2026-11-21T04:34:04Z",
+  "last_run_at": "2026-11-21T05:35:27Z",
   "timezone": "UTC",
-  "baseline_commit": "8ee79e6",
+  "baseline_commit": "6e1c2cd",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-21T03:33:53Z",
-    "to": "2026-11-21T04:34:04Z"
+    "from": "2026-11-21T04:34:04Z",
+    "to": "2026-11-21T05:35:27Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "StarRail2077/opencode-superagent",
+      "url": "https://github.com/StarRail2077/opencode-superagent/commit/6b20f9eab394",
+      "confidence": 0.9,
+      "reason": "Tip 6b20f9eab394 is an OpenCode Desktop plugin, not a DSH bundle. Package 0.1.0 depends only on @opencode/plugin 2.2.6. Tools require agent superagent. dispatch stores a ticket on a separate worker session and refuses a ninth active ticket. Watchdog defaults off and runWatchdog returns watchdog-disabled until it is enabled. The watchdog session has no tools. Workers drop subagent and task by default. Tests were not rerun."
+    }
+  ],
   "updated": [],
   "pending": [
+    {
+      "title": "window after 04:34Z added opencode-superagent",
+      "url": "https://github.com/StarRail2077/opencode-superagent/commit/6b20f9eab394",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, no gitHead. npm dsh-superagent-inbox stays 0.3.2, dsh-whalepod stays 0.6.1, @vicfei/dsh-super-agent stays 1.10.0, dsh-superagent-ptc stays 0.1.9. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.27. Unscoped dsh-superagent, dsh-patrol, dsh-superagent-linear, dsh-superagent-signal, and dsh-superagent-manager stay 404. Added StarRail2077/opencode-superagent at 6b20f9eab394. The repo was created 2026-11-21T03:41:26Z and pushed 2026-11-21T04:02:23Z, inside the previous window; the name is opencode-superagent, so the dsh-superagent name search did not see it. Package opencode-superagent 0.1.0 depends only on @opencode/plugin 2.2.6 and is MIT. Tools throw unless the session agent is superagent. dispatch opens a worker session and stores a ticket. Active tickets at the default maxWorkers 8 are refused. DEFAULT_SETTINGS.watchdogEnabled is false. runWatchdog returns watchdog-disabled while that switch is false, including a forced run. A watchdog session deletes every tool. A worker deletes superagent tools, and also subagent and task while allowNestedSubagents is false. Tests were not rerun. specmill main stays 4691b1b2f9e5. Open PR #2 head stays 2ec517974b5c and is not main. LMQ00/superagent-lite master stays e86db3814801. Open PR #2 stays 9ccc191d2f24 and PR #3 stays 14a59798979a. Open PR #4 head aaad3e0ae56d was opened 2026-11-21T04:44:31Z and is not master. It touches cordis.patch.yml, docs/DETAIL.md, docs/PROMPTS.md, continue, dispatch, memory, message-router, review, turn-guard, worker-prompt, and tests. The patch was not line-read. Not listed. Hivebot main stays 4b922fde6537. dbc-hbin/omp-superagent main moved to 7b8e0299958d at 2026-11-21T05:07:54Z, merging #19. The commit adds messenger menus for the HEAD model and effort. Package stays omp-superagent 0.1.4, engines.bun >=1.4.4, and there is no engines.dsh. Not listed. t3code tip 1f8f3698b03c is 18 commits and 300 files after 2e6b05011fa4. No filename in that compare page matches superagent or dsh. Not listed. IHUI 949fb997489c is 11 commits and 53 files after c68a023344ee. No filename matches. Not listed. agentdescent main stays e43e847a206c. oh-my-pi main stays 28435917985e. 1787463152-hub/agent-playground f52af8792961 and agent-playground-mac fea4c3aefc20 only sync status files. Not listed. superstar717/dsh-superagent-playground pushed_at is 2026-11-21T05:30:20Z. Main tip f033bf3245fb has committer date 2026-11-21T03:32:48Z and merges #48. The repository is a playground. Not listed. guazhounb/Superagent was created 2026-11-21T05:15:51Z and is empty. Not listed. Inbox, lkshrk fork, Linear, signal, PTC, patrol, whalepod, vicfei, Aily, session-fold, cg-dsh, Forkbomb, LofiSu, billLiao, Nelson, paseo-plugin, and paseo-superagent have no push after 04:34Z. Nelson pushed_at stays 2026-11-21T01:18:06Z, so next/0.8 stays 34cca78dc389 and is not master. Discussions #13968 through #13972 do not contain dsh-superagent, Mandate, or Ticket. arXiv export returned 429. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 03:33Z changed no list rows",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -15239,28 +15252,28 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Hivebot local mode stays off the list",
-      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/26fd0d5614c712b9ff051ccf401a8f8d0b1e8a84",
-      "reason": "Tip 26fd0d5614c7 makes an empty GitHub repository return the machine without a github field. Root README still does not name Trigger, Mandate, or Ticket. Not listed."
+      "title": "superagent-lite PR #4 stays off master",
+      "url": "https://github.com/LMQ00/superagent-lite/pull/4",
+      "reason": "Head aaad3e0ae56d at 2026-11-21T04:44:31Z is not master. The patch was not line-read. Not listed."
     },
     {
-      "title": "omp-superagent Discord split stays off the list",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/a214cb2b079573c3a1b307fbd0d83ed4c62b8739",
-      "reason": "One commit after 151cfd4f6f1c splits long Discord replies. Package stays 0.1.4 on Bun with no dsh dependency. Not listed."
+      "title": "omp-superagent messenger menus stay off the list",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/7b8e0299958d",
+      "reason": "Main 7b8e0299958d merges #19. Package stays 0.1.4 on Bun with no engines.dsh. Not listed."
     },
     {
-      "title": "paseo-plugin-superagent 0.1.2 stays off the list",
-      "url": "https://github.com/lekai63/paseo-plugin-superagent/commit/11fb38baf82dc143f3f738afc094b0d85843181c",
-      "reason": "Router and watchdog refuse an excluded decision-only provider. engines.node stays >=20 and there is no engines.dsh. Not listed."
+      "title": "guazhounb/Superagent is empty",
+      "url": "https://github.com/guazhounb/Superagent",
+      "reason": "Created 2026-11-21T05:15:51Z. The repository has no commits. Not listed."
     },
     {
-      "title": "JayYangstore/superagent is only a README",
-      "url": "https://github.com/JayYangstore/superagent",
-      "reason": "Created 2026-11-21T03:21:56Z. The tree is README.md and the body is one sentence. Not listed."
+      "title": "superstar717/dsh-superagent-playground stays off the list",
+      "url": "https://github.com/superstar717/dsh-superagent-playground",
+      "reason": "pushed_at is 2026-11-21T05:30:20Z. Main tip f033bf3245fb is a playground merge. Not listed."
     },
     {
-      "title": "Harness discussions #13962 through #13965 do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13965",
+      "title": "Harness discussions #13968 through #13972 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13972",
       "reason": "Titles and bodies do not contain dsh-superagent, Mandate, or Ticket. Not listed."
     }
   ],
