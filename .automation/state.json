@@ -1,26 +1,25 @@
 {
-  "last_run_at": "2026-11-21T03:33:53Z",
+  "last_run_at": "2026-11-21T04:34:04Z",
   "timezone": "UTC",
-  "baseline_commit": "07442b4",
+  "baseline_commit": "8ee79e6",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-21T02:36:41Z",
-    "to": "2026-11-21T03:33:53Z"
+    "from": "2026-11-21T03:33:53Z",
+    "to": "2026-11-21T04:34:04Z"
   },
   "added": [],
-  "updated": [
-    {
-      "title": "mrhoody/specmill Spec Buddy handoff",
-      "url": "https://github.com/mrhoody/specmill/commit/4691b1b2f9e550a038e7f31d112850eb42ad4937",
-      "confidence": 0.95,
-      "reason": "Tip 4691b1b2f9e5 is 2 commits after 1a87e94b8b99 and merges #1. 290b3e963b39 adds private @specmill/spec-buddy 0.1.0. A separate spec-buddy profile serves health on 127.0.0.1:3083. Only the requester can approve. spec_handoff files a GitHub issue whose last line mentions github.agentLogin, using a dedicated GH_CONFIG_DIR and refusing the agent login or a bot. Same specId returns the stored URL. Root specmill, specmill-dsh 0.2.1-rc.5, and plugins/dsh-superagent engines stay. Tests were not rerun."
-    }
-  ],
+  "updated": [],
   "pending": [
+    {
+      "title": "window after 03:33Z changed no list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, no gitHead. npm dsh-superagent-inbox stays 0.3.2, dsh-whalepod stays 0.6.1, @vicfei/dsh-super-agent stays 1.10.0, dsh-superagent-ptc stays 0.1.9. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.27. Unscoped dsh-superagent, dsh-patrol, dsh-superagent-linear, dsh-superagent-signal, and dsh-superagent-manager stay 404. specmill main stays 4691b1b2f9e5. Open PR #2 head 2ec517974b5c at 2026-11-21T03:53:55Z is not main. Its package.json is private @specmill/clean-reviewer 0.1.0, engines.node ^22.19.0 || >=24.0.0, engines.dsh ^0.2.1-alpha.2, MIT. The commit message describes a no-argument review_changes tool. src was not line-read. Not listed. LMQ00/superagent-lite master stays e86db3814801. Open PR #2 stays 9ccc191d2f24 and is not master. Open PR #3 head 14a59798979a at 2026-11-21T04:13:54Z was opened 2026-11-21T04:24:12Z and is not master. The pull request touches cordis.patch.yml, docs/TASK-MESSAGE.md, docs/PROMPTS.md, worker prompt, continue, and dispatch. The patch was not line-read. Not listed. Hivebot main is now root commit 4b922fde6537 at 2026-11-21T04:20:50Z, with no parents and no common ancestor with 26fd0d5614c7. Root README is still the 3055-byte desktop multi-bot workbench and does not name Trigger, Mandate, or Ticket. docs-public/README.md is 3736 bytes and describes a DS-Bot AppImage plus a SuperAgent plugin. app/superagent/package.json is private dsh-superagent 0.1.0, author DeepSeek Harness Team, engines.dsh ^0.2.1-alpha.2, and its description is the official prototype sentence. src still lists admission, policy, executor, and sources. scripts/dsbot-provision/provision.sh is present. No tags. provision.sh and src were not line-read. Not listed. dbc-hbin/omp-superagent main stays a214cb2b0795. feat/messenger-head-pickers 5c4fb2871e17 at 2026-11-21T04:31:17Z is not main. Not listed. t3code tip 2e6b05011fa4 is 20 commits and 103 files after b662d9b1ee3c. No filename matches superagent or dsh. Not listed. IHUI c68a023344ee is 21 commits and 29 files after a82b0d013941. No filename matches. Not listed. agentdescent tip e43e847a206c merges #1200 at that sha, #1199 at 4337e62b57c0, and #1191 at 59aa4c53ceb7. The compare files are cli.py, evolvespec.py, mcp.py, three changelog fragments, docs/plugins.md, and four tests. scripts/dsh-superagent-run.sh is not among them. Not listed. 1787463152-hub/agent-playground 225d76e0b1ae and agent-playground-mac 7c9b9be443d0 only sync status files. Not listed. Tillas-star/DSH_SuperagentHub-Private- was created 2026-11-21T04:05:55Z. The only file is a one-line README. Not listed. Inbox, lkshrk fork, Linear, signal, PTC, patrol, whalepod, vicfei, Aily, session-fold, cg-dsh, Forkbomb, LofiSu, billLiao, Nelson, paseo-plugin, oh-my-pi, and paseo-superagent have no push after 03:33Z. Nelson pushed_at stays 2026-11-21T01:18:06Z, so next/0.8 stays 34cca78dc389 and is not master. npm preview stays 0.8.1-preview.27 and latest stays 0.7.0. Discussions #13966 and #13967 do not contain dsh-superagent, Mandate, or Ticket. #13966 is a Desktop 0.2.2-rc.5 session-format error, PTC dispatch repeats subCallId. #13967 is a Windows installer MoveFileExW error 5 attributed to Huorong HIPS. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 02:36Z added Spec Buddy to specmill",
       "url": "https://github.com/mrhoody/specmill/commit/4691b1b2f9e550a038e7f31d112850eb42ad4937",
