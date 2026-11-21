@@ -1,26 +1,32 @@
 {
-  "last_run_at": "2026-11-21T02:36:41Z",
+  "last_run_at": "2026-11-21T03:33:53Z",
   "timezone": "UTC",
-  "baseline_commit": "00e5e62",
+  "baseline_commit": "07442b4",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-21T01:33:00Z",
-    "to": "2026-11-21T02:36:41Z"
+    "from": "2026-11-21T02:36:41Z",
+    "to": "2026-11-21T03:33:53Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "LMQ00/superagent-lite per-input routing count",
-      "url": "https://github.com/LMQ00/superagent-lite/commit/e86db381480151ca90f5e3c48e76b055e9a17b68",
+      "title": "mrhoody/specmill Spec Buddy handoff",
+      "url": "https://github.com/mrhoody/specmill/commit/4691b1b2f9e550a038e7f31d112850eb42ad4937",
       "confidence": 0.95,
-      "reason": "Tip e86db3814801 is 8 commits after the listed fe3cf9995e07. d7e062a97892 at 2026-11-21T01:25:18Z was before the 01:33 scan and was not recorded. It counts one successful dispatch_worker or continue_worker per user-kind input on a completed superagent-lite turn. A superagent-lite-reminder followup reopens a requirement only while fewer than 2 reminders have been sent. A followup error drops the reminder count. dispose cancels deferred setImmediate. The tip commit at 2026-11-21T02:09:08Z only adds .gitignore. Package stays private @local/superagent-lite 1.0.0, engines.dsh exactly 0.2.2-rc.3. The six commits from 2026-11-20T18:03:25Z through 18:43:30Z were not line-read. Tests were not rerun."
+      "reason": "Tip 4691b1b2f9e5 is 2 commits after 1a87e94b8b99 and merges #1. 290b3e963b39 adds private @specmill/spec-buddy 0.1.0. A separate spec-buddy profile serves health on 127.0.0.1:3083. Only the requester can approve. spec_handoff files a GitHub issue whose last line mentions github.agentLogin, using a dedicated GH_CONFIG_DIR and refusing the agent login or a bot. Same specId returns the stored URL. Root specmill, specmill-dsh 0.2.1-rc.5, and plugins/dsh-superagent engines stay. Tests were not rerun."
     }
   ],
   "pending": [
+    {
+      "title": "window after 02:36Z added Spec Buddy to specmill",
+      "url": "https://github.com/mrhoody/specmill/commit/4691b1b2f9e550a038e7f31d112850eb42ad4937",
+      "confidence": 0.95,
+      "reason": "Started from 07442b4, which listed specmill at 1a87e94b8b99. Updated mrhoody/specmill to 4691b1b2f9e5 / merge of #1 at 2026-11-21T03:05:56Z. 290b3e963b39 adds private @specmill/spec-buddy 0.1.0, engines.dsh ^0.2.1-alpha.2. Profile spec-buddy example webserver is 127.0.0.1:3083. GET /spec-buddy/api/health throws unless webServer.host is 127.0.0.1, and returns 403 unless Host is 127.0.0.1:<port> or localhost:<port>. Preset specmill-spec-buddy disables fs write and edit, enables web fetch, and has no shell. Session tools are spec_draft, spec_request_approval, and spec_handoff. A draft needs the eight template sections and one Acceptance criteria checkbox. specId is the first 16 hex chars of sha256 of the normalized markdown. Only the requester can approve, by Slack button or by a whole message that is hand off, handoff, approve, approve the spec, approve this spec, or approved. spec_handoff sets GH_CONFIG_DIR, deletes GH_TOKEN and GITHUB_TOKEN, and runs gh issue create. The agent login, a [bot] suffix, or a type containing bot is refused. The issue body's last line is @<agentLogin> please implement this issue. A repeat of the same specId returns the stored URL. Empty allowedUsers marks the Slack provider error and drops every message. Channel mentions also require the channel id. Ordinary messages are im only. Root specmill stays private, pnpm 11.7.0, node ^22.19.0 || >=24.0.0, no engines.dsh. specmill-dsh stays exactly 0.2.1-rc.5. dsh-superagent stays private 0.1.0, engines.dsh ^0.2.1-alpha.2. Tests were not rerun. Prototype tip stays 8c32a9dc5d72. Harness master stays 2e39e70496aa. Release stays dsh-v0.2.2-rc.5. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z, no gitHead. Nelson master stays d433add75295. next/0.8 stays 34cca78dc389 / package 0.8.1-preview.28 and is not master. npm preview stays 0.8.1-preview.27 and latest stays 0.7.0. Not listed. LMQ00/superagent-lite master stays e86db3814801. Open PR #2 at 9ccc191d2f24 is not master. Not listed. CrepuscularIRIS/Hivebot tip is 26fd0d5614c7, 3 commits after c511695c1e6a. 3f4d6a6b7cf9 returns the machine with no github field when accounts.repository is empty, instead of repositoryUnset. The other files in that commit were not line-read. Root README still opens as a desktop multi-bot workbench and does not name Trigger, Mandate, or Ticket. Not listed. dbc-hbin/omp-superagent is a214cb2b0795, one commit after 151cfd4f6f1c. It splits long Discord replies. Package stays omp-superagent 0.1.4, engines.bun >=1.4.4, no dsh dependency. Not listed. lekai63/paseo-plugin-superagent is 11fb38baf82d / package 0.1.2. Router and watchdog refuse a decision-only provider when Codex can read the workspace without a permission request. engines.node stays >=20 and there is no engines.dsh. Not listed. can1357/oh-my-pi is 28435917985e, 35 commits and 195 files after efd92300eec7. No filename matches. Not listed. pingdotgg/t3code is b662d9b1ee3c, 18 commits and 100 files after e7b1b88bef19. The only filename hit is threadKeyboardShortcuts.ts. No commit message names this prototype. Not listed. IHUI-INF-AI/IHUI-AI is a82b0d013941, one version-only commit after e8a83b0996b0. Not listed. ThinkFlowLab/agentdescent main stays 4b46761a6bb6. Commit search after 02:36Z returned 0. Not listed. JayYangstore/superagent was created 2026-11-21T03:21:56Z. The only file is a one-line README. Not listed. Discussions #13962 through #13965 do not contain dsh-superagent, Mandate, or Ticket. Inbox, lkshrk fork, Linear, PTC, patrol, whalepod, vicfei, Aily, session-fold, cg-dsh, Forkbomb, LofiSu, and billLiao have no default-branch commit after 02:36Z. Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da because the repo pushed_at is 2026-11-20T18:36:01Z. paseo-superagent tip stays 469a08f3e0ea. arXiv dsh-superagent hits: 0. Newest HN story seen remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "window after 01:33Z updated superagent-lite's per-input routing count",
       "url": "https://github.com/LMQ00/superagent-lite/commit/e86db381480151ca90f5e3c48e76b055e9a17b68",
@@ -15234,32 +15240,33 @@
   ],
   "rejected_this_run": [
     {
-      "title": "Nelson next/0.8 stays off master",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/34cca78dc38991a1ddf87bd83fec1998674c8d83",
-      "reason": "Tip stays 34cca78dc389. package.json on that branch is still 0.8.1-preview.28. npm preview stays 0.8.1-preview.27 and latest stays 0.7.0. Not listed."
+      "title": "Hivebot local mode stays off the list",
+      "url": "https://github.com/CrepuscularIRIS/Hivebot/commit/26fd0d5614c712b9ff051ccf401a8f8d0b1e8a84",
+      "reason": "Tip 26fd0d5614c7 makes an empty GitHub repository return the machine without a github field. Root README still does not name Trigger, Mandate, or Ticket. Not listed."
     },
     {
-      "title": "t3code e7b1b88bef19 does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/e7b1b88bef19d5dd83e692b5b70b195f4251a608",
-      "reason": "25 commits after a04bca5bcf36. No filename matches superagent or dsh. Not listed."
+      "title": "omp-superagent Discord split stays off the list",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/a214cb2b079573c3a1b307fbd0d83ed4c62b8739",
+      "reason": "One commit after 151cfd4f6f1c splits long Discord replies. Package stays 0.1.4 on Bun with no dsh dependency. Not listed."
     },
     {
-      "title": "IHUI e8a83b0996b0 does not name this prototype",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/e8a83b0996b0a7170f003350b2e67edeb073e166",
-      "reason": "20 commits and 21 files after bac9d5f53bd0. No filename matches superagent or dsh. Not listed."
+      "title": "paseo-plugin-superagent 0.1.2 stays off the list",
+      "url": "https://github.com/lekai63/paseo-plugin-superagent/commit/11fb38baf82dc143f3f738afc094b0d85843181c",
+      "reason": "Router and watchdog refuse an excluded decision-only provider. engines.node stays >=20 and there is no engines.dsh. Not listed."
     },
     {
-      "title": "reverse-maple/dsh-superagent-playground is empty",
-      "url": "https://github.com/reverse-maple/dsh-superagent-playground",
-      "reason": "Created 2026-11-21T02:06:44Z, size 0, described as a playground. Not listed."
+      "title": "JayYangstore/superagent is only a README",
+      "url": "https://github.com/JayYangstore/superagent",
+      "reason": "Created 2026-11-21T03:21:56Z. The tree is README.md and the body is one sentence. Not listed."
     },
     {
-      "title": "Harness discussions #13953 through #13961 do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13961",
-      "reason": "Titles and bodies do not contain dsh-superagent, superagent, Mandate, or Ticket. Not listed."
+      "title": "Harness discussions #13962 through #13965 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/13965",
+      "reason": "Titles and bodies do not contain dsh-superagent, Mandate, or Ticket. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-21T03:33:53Z: LMQ00/superagent-lite PR #2 stays open at 9ccc191d2f24 and is not master. Nelson next/0.8 stays 34cca78dc389 / 0.8.1-preview.28 and is not master. Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main.",
     "2026-11-21T02:36:41Z: Nelson next/0.8 stays 34cca78dc389 / 0.8.1-preview.28 and is not master. Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main.",
     "2026-11-21T01:33:00Z: Nelson next/0.8 is 34cca78dc389, merges #780 and #781, and is not master. Forkbomb feat/f6-superagent-yaml stays 3b40a7f597da and is not main. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged.",
     "2026-11-20T23:33:47Z: Forkbomb feat/f6-superagent-yaml has no commit after 22:42Z and is not main. Nelson next/0.8 has no commit after 22:42Z and is not master. LofiSu #180 head stays 868a2cdc2301. #174 head stays fdc94320b4f8 and is not merged.",
