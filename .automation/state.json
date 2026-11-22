@@ -1,26 +1,68 @@
 {
-  "last_run_at": "2026-11-22T13:36:32Z",
+  "last_run_at": "2026-11-22T14:38:27Z",
   "timezone": "UTC",
-  "baseline_commit": "6fd263b",
+  "baseline_commit": "dadd8aa",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-22T12:34:10Z",
-    "to": "2026-11-22T13:36:32Z"
+    "from": "2026-11-22T13:36:32Z",
+    "to": "2026-11-22T14:38:27Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "window after 12:34Z changed no list rows",
+      "title": "tonbiattack autopilot routes, reuses a session, and isolates a worktree",
+      "url": "https://github.com/tonbiattack/dsh-superagent-prototype/commit/2b2147ba1f38",
+      "confidence": 0.95,
+      "reason": "Started after the 13:36Z scan at dadd8aa. Window 2026-11-22T13:36:32Z to 2026-11-22T14:38:27Z. Updated tonbiattack/dsh-superagent-prototype. Tip is 2b2147ba1f38 at 2026-11-22T14:15:36Z, 4 ahead of a69b209a0865 and 0 behind, and 23 ahead of 8c32a9dc5d72 and 0 behind. Merges are #26, #27, #28, and #29. enabled, autoPush, autoMerge, the sha on the merge request, pullMergedState, and the unknown mergeable_state rule were not changed. routeToOpenWorkspace defaults true. verifyCheckout requires origin to equal https://github.com/<repo>, git@github.com:<repo>, or ssh://git@github.com/<repo>, with an optional .git suffix and a stripped trailing slash. A non-checkout, a missing origin, or another repository is not chosen. A workspace with a running session is not chosen. Several idle workspaces use workspacePriority, then path order. workspaceFallback defaults to checkout; wait records the reason. sessionReuse defaults to repository. off creates a session. repository reuses only an idle session whose id starts with autopilot-repo- and whose workspace path equals the recorded route, or the configured checkout when there is no route. any may also reuse an idle person session. The first id in sort order wins. Reuse keeps history and the common prefix and does not guarantee a cache hit. The worktree is stateDir/autopilot-worktrees/<repositoryId>-issue-<issue> on agent/issue-<issue>, created from the chosen checkout. A dirty checkout waits. A worktree already on that branch is reused. A worktree on another branch throws. Removal is git worktree remove --force and keeps the branch. A reused session takes a file lock under autopilot-sessions. A missed lock releases the job lock and does not start this pass. The lock is released when the job settles. The stale window is 10 minutes. The panel records the route, session, and worktree. Usage is read from assistant/message events. A missing input or cache figure stays unknown. The hit rate is omitted when either figure is missing or the sum is 0. The panel says not available. Currency is not shown. Tests were not rerun."
+    },
+    {
+      "title": "specmill container is on main",
+      "url": "https://github.com/mrhoody/specmill/commit/637beaae953e",
+      "confidence": 0.94,
+      "reason": "Started after the 13:36Z scan at dadd8aa. Window 2026-11-22T13:36:32Z to 2026-11-22T14:38:27Z. Updated mrhoody/specmill. main is 637beaae953e at 2026-11-22T13:53:23Z, merge of #3, 4 ahead of 56d2581d9d4d and 0 behind. dsh/container copies plugins/dsh-superagent and plugins/clean-reviewer into one superagent profile. spec-buddy is not copied. The image is node:24-bookworm. The panel stays on 127.0.0.1:3082 inside the container. entrypoint.sh publishes it with socat, and run.sh binds the host side to 127.0.0.1. Profile, state, the agent gh login, and clones live in the container. Secrets stay in DEEPSEEK_API_KEY, AGENT_GH_TOKEN, and SUPERAGENT_REPO. bootstrap-vm.sh refuses to run without sudo from a non-root admin. It sets PasswordAuthentication no, PermitRootLogin no, and AllowUsers to that admin and dsh. ufw denies incoming and limits OpenSSH. fail2ban watches sshd. The dsh user is password-locked and removed from sudo, adm, and docker. Docker is rootless and the daemon sets no-new-privileges. The script exits when landlock is absent from /sys/kernel/security/lsm. AUTO_REBOOT_TIME defaults empty. Plugin versions and engines.dsh were not in the diff. Tests were not rerun."
+    },
+    {
+      "title": "next/0.8 keeps an open workbench dropdown across a poll",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/dcb7ecd8155e",
+      "confidence": 0.93,
+      "reason": "Started after the 13:36Z scan at dadd8aa. Window 2026-11-22T13:36:32Z to 2026-11-22T14:38:27Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 12eb960a24e8. pushed_at is 2026-11-22T14:32:14Z because next/0.8 moved. next/0.8 tip is dcb7ecd8155e at 2026-11-22T13:36:39Z, merge of #803. Compare master...next/0.8 is diverged: next/0.8 is 8 ahead and 18 behind, so master is 18 ahead and 8 behind. 0db3cbb645e7 skips rebuilding the inspector on a poll while focus is a select, input, or textarea inside it, so an open dropdown stays mounted and focused. Closing the panel still disconnects it. The dispatch target select is not rewritten while it is focused; a later update after blur adds a new team. The test is nexus-stage/tests/dropdown-poll-dom.spec.ts. The merge also touches assets/nexusDist and docs/arch/a2a-architecture.anchors.json. package.json on both branches stays 0.8.1-preview.28. There is no engines.dsh. npm preview stays 0.8.1-preview.28. latest stays 0.7.0. Tests were not rerun."
+    },
+    {
+      "title": "window after 13:36Z changed no other list rows",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.9,
-      "reason": "Started after the 12:34Z scan at 6fd263b. Window 2026-11-22T12:34:10Z to 2026-11-22T13:36:32Z. No README rows added or rewritten. Prototype tip stays 8c32a9dc5d72; pushed_at stays 2026-11-03T09:29:14Z. updated_at is 2026-11-22T12:59:09Z and is not a new commit. Harness master stays 4b399c39a6d1; pushed_at stays 2026-11-22T11:00:05Z. updated_at is 2026-11-22T13:32:04Z and is not a new commit. Newest release stays dsh-v0.2.3-alpha.2 published 2026-11-22T11:00:39Z and is a prerelease. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z. alpha stays 0.2.3-alpha.2 at 2026-11-22T09:57:12.419Z. modified stays 2026-11-22T09:57:12.602Z. No gitHead. hermes-superagent main stays 28ae625e7739; pushed_at stays 2026-11-22T11:52:40Z. PerryLink/dsh-github has no commit on main after 12:34:10Z. npm @perrylink/dsh-github stays 0.7.36. dsh-mini-superagent stays 0.10.4. dsh-session-superagent stays 0.10.12. dsh-superagent-inbox stays 0.3.2. dsh-whalepod stays 0.6.1. dsh-superagent-ptc stays 0.1.9. @vicfei/dsh-super-agent stays 1.10.0. @xiangyixie/dsh-superagent stays 0.24.0. dsh-ladder-superagents stays 0.2.1. dsh-swarm-console stays 0.4.5. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.28. master stays 12eb960a24e8. next/0.8 stays 7df0d21a0d20. Open PR #803 head 3fd1ab1cdb4f is not merged. @dsh-external/workflow and @datat-x/dsh-wechat-superagent stay 404. Repo search for dsh-superagent in the name pushed on 2026-11-22 returned 8. None have pushed_at after 12:34:10Z. Of 280 repository names checked, 7 had pushed_at after 12:34:10Z and 11 names still do not resolve, including fsy0718/dsh-superagent-prototype. oh-my-pi main is b505770284de at 2026-11-22T12:54:40Z. Compare with efcbef6dd0a1 is ahead 422 and behind 0, 280 files. No filename matches superagent, dsh, or DeepSeek. File bodies were not line-read. Not rewritten. pingdotgg/t3code main is a985332c4471 at 2026-11-22T13:28:38Z. Compare with 3571f28cca5c is ahead 9 and behind 0, 42 files. No filename matches. Not rewritten. IHUI-INF-AI/IHUI-AI main stays 0e2936f80753 at 2026-11-22T12:08:09Z. pushed_at is 2026-11-22T12:47:32Z and is not a new main commit. Not rewritten. mrhoody/specmill main stays 56d2581d9d4d. pushed_at is 2026-11-22T13:08:30Z because feat/superagent-container is 29439d877692 at 2026-11-22T13:08:27Z. That branch is not main. The six files were not line-read. Not rewritten. fliggy-travel-ai/dsh-superagent-prototype main stays 0f117633c0f7. Open PR #63 head 47040fb4468d is not merged. dbc-hbin/omp-superagent main stays ac32463481e6 at 2026-11-22T08:46:41Z. Open PR #34 head 0f405a34a2fb is not main. Discussions updated after 12:34:10Z are #14087, #14044, #14086, #14085, #14084, #14037, #13418, #14083, and #14082. Their bodies and in-window comments do not contain dsh-superagent, Mandate, Ticket, superagent, or prototype. arXiv query all:dsh-superagent returned 0 results. Newest HN story for dsh-superagent remains 2026-11-11T16:50:41Z. No open PR on this list."
+      "reason": "Started after the 13:36Z scan at dadd8aa. Window 2026-11-22T13:36:32Z to 2026-11-22T14:38:27Z. No other README rows added. Prototype tip stays 8c32a9dc5d72; pushed_at stays 2026-11-03T09:29:14Z. updated_at is 2026-11-22T14:26:45Z and is not a new commit. Harness master stays 4b399c39a6d1; pushed_at stays 2026-11-22T11:00:05Z. updated_at is 2026-11-22T14:33:30Z and is not a new commit. Newest release stays dsh-v0.2.3-alpha.2 published 2026-11-22T11:00:39Z and is a prerelease. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z. alpha stays 0.2.3-alpha.2 at 2026-11-22T09:57:12.419Z. modified stays 2026-11-22T09:57:12.602Z. No gitHead. hermes-superagent main stays 28ae625e7739; pushed_at stays 2026-11-22T11:52:40Z. PerryLink/dsh-github stays 0.7.36. dsh-mini-superagent stays 0.10.4. dsh-session-superagent stays 0.10.12. dsh-superagent-inbox stays 0.3.2. dsh-whalepod stays 0.6.1. dsh-superagent-ptc stays 0.1.9. @vicfei/dsh-super-agent stays 1.10.0. @xiangyixie/dsh-superagent stays 0.24.0. dsh-ladder-superagents stays 0.2.1. dsh-swarm-console stays 0.4.5. dsh-foreman stays 0.9.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.28. @dsh-external/workflow and @datat-x/dsh-wechat-superagent stay 404. vicfei/dsh-super-agent main is 99c578617ba9 at 2026-11-22T13:48:10Z. The commit is a roadmap document for v1.11. package.json stays 1.10.0, engines.node stays >=20, and there is no engines.dsh. Not rewritten. pingdotgg/t3code main is ad2bdc76a5bf at 2026-11-22T14:14:38Z, 4 commits and 38 files after a985332c4471 and 0 behind. No filename matches superagent, dsh, or DeepSeek. Not rewritten. IHUI-INF-AI/IHUI-AI main is c11051f89eda, 1 commit and 2 files after 0e2936f80753 and 0 behind. Files are .gitignore and scripts/check-tracked-ignored.mjs. Not rewritten. dbc-hbin/omp-superagent main is e5e0ce5635b2 at 2026-11-22T13:49:15Z, merge of #34 plus a 0.1.7 release. engines is bun >=1.4.4. There is no engines.dsh. Not listed. fliggy-travel-ai/dsh-superagent-prototype main stays 0f117633c0f7. pushed_at is 2026-11-22T13:27:36Z, before this window. Open PR #63 head stays 47040fb4468d and is not merged. can1357/oh-my-pi main stays b505770284de. pushed_at is 2026-11-22T13:19:10Z, before this window. updated_at is 2026-11-22T14:22:47Z and is not a new commit. LofiSu main stays ca9823e5c096. Open PR #182 head stays 83770cce495d. Repo search for dsh-superagent in the name pushed on 2026-11-22 returned 8. None have pushed_at after 13:36:32Z. Of 272 repository names checked, 6 had pushed_at after 13:36:32Z and 11 names still do not resolve, including fsy0718/dsh-superagent-prototype. Discussions updated after 13:36:32Z are #14092, #14044, #13981, #14091, #10270, #14090, #14089, #14062, and #14088. Their bodies do not contain dsh-superagent, Mandate, Ticket, superagent, or prototype. arXiv query all:dsh-superagent returned 0 results. Newest HN story for dsh-superagent remains 2026-11-11T16:50:41Z. No open PR on this list."
     }
   ],
   "pending": [
+    {
+      "title": "tonbiattack autopilot routes, reuses a session, and isolates a worktree",
+      "url": "https://github.com/tonbiattack/dsh-superagent-prototype/commit/2b2147ba1f38",
+      "confidence": 0.95,
+      "reason": "Started after the 13:36Z scan at dadd8aa. Window 2026-11-22T13:36:32Z to 2026-11-22T14:38:27Z. Updated tonbiattack/dsh-superagent-prototype. Tip is 2b2147ba1f38 at 2026-11-22T14:15:36Z, 4 ahead of a69b209a0865 and 0 behind, and 23 ahead of 8c32a9dc5d72 and 0 behind. Merges are #26, #27, #28, and #29. enabled, autoPush, autoMerge, the sha on the merge request, pullMergedState, and the unknown mergeable_state rule were not changed. routeToOpenWorkspace defaults true. verifyCheckout requires origin to equal https://github.com/<repo>, git@github.com:<repo>, or ssh://git@github.com/<repo>, with an optional .git suffix and a stripped trailing slash. A non-checkout, a missing origin, or another repository is not chosen. A workspace with a running session is not chosen. Several idle workspaces use workspacePriority, then path order. workspaceFallback defaults to checkout; wait records the reason. sessionReuse defaults to repository. off creates a session. repository reuses only an idle session whose id starts with autopilot-repo- and whose workspace path equals the recorded route, or the configured checkout when there is no route. any may also reuse an idle person session. The first id in sort order wins. Reuse keeps history and the common prefix and does not guarantee a cache hit. The worktree is stateDir/autopilot-worktrees/<repositoryId>-issue-<issue> on agent/issue-<issue>, created from the chosen checkout. A dirty checkout waits. A worktree already on that branch is reused. A worktree on another branch throws. Removal is git worktree remove --force and keeps the branch. A reused session takes a file lock under autopilot-sessions. A missed lock releases the job lock and does not start this pass. The lock is released when the job settles. The stale window is 10 minutes. The panel records the route, session, and worktree. Usage is read from assistant/message events. A missing input or cache figure stays unknown. The hit rate is omitted when either figure is missing or the sum is 0. The panel says not available. Currency is not shown. Tests were not rerun."
+    },
+    {
+      "title": "specmill container is on main",
+      "url": "https://github.com/mrhoody/specmill/commit/637beaae953e",
+      "confidence": 0.94,
+      "reason": "Started after the 13:36Z scan at dadd8aa. Window 2026-11-22T13:36:32Z to 2026-11-22T14:38:27Z. Updated mrhoody/specmill. main is 637beaae953e at 2026-11-22T13:53:23Z, merge of #3, 4 ahead of 56d2581d9d4d and 0 behind. dsh/container copies plugins/dsh-superagent and plugins/clean-reviewer into one superagent profile. spec-buddy is not copied. The image is node:24-bookworm. The panel stays on 127.0.0.1:3082 inside the container. entrypoint.sh publishes it with socat, and run.sh binds the host side to 127.0.0.1. Profile, state, the agent gh login, and clones live in the container. Secrets stay in DEEPSEEK_API_KEY, AGENT_GH_TOKEN, and SUPERAGENT_REPO. bootstrap-vm.sh refuses to run without sudo from a non-root admin. It sets PasswordAuthentication no, PermitRootLogin no, and AllowUsers to that admin and dsh. ufw denies incoming and limits OpenSSH. fail2ban watches sshd. The dsh user is password-locked and removed from sudo, adm, and docker. Docker is rootless and the daemon sets no-new-privileges. The script exits when landlock is absent from /sys/kernel/security/lsm. AUTO_REBOOT_TIME defaults empty. Plugin versions and engines.dsh were not in the diff. Tests were not rerun."
+    },
+    {
+      "title": "next/0.8 keeps an open workbench dropdown across a poll",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/dcb7ecd8155e",
+      "confidence": 0.93,
+      "reason": "Started after the 13:36Z scan at dadd8aa. Window 2026-11-22T13:36:32Z to 2026-11-22T14:38:27Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 12eb960a24e8. pushed_at is 2026-11-22T14:32:14Z because next/0.8 moved. next/0.8 tip is dcb7ecd8155e at 2026-11-22T13:36:39Z, merge of #803. Compare master...next/0.8 is diverged: next/0.8 is 8 ahead and 18 behind, so master is 18 ahead and 8 behind. 0db3cbb645e7 skips rebuilding the inspector on a poll while focus is a select, input, or textarea inside it, so an open dropdown stays mounted and focused. Closing the panel still disconnects it. The dispatch target select is not rewritten while it is focused; a later update after blur adds a new team. The test is nexus-stage/tests/dropdown-poll-dom.spec.ts. The merge also touches assets/nexusDist and docs/arch/a2a-architecture.anchors.json. package.json on both branches stays 0.8.1-preview.28. There is no engines.dsh. npm preview stays 0.8.1-preview.28. latest stays 0.7.0. Tests were not rerun."
+    },
+    {
+      "title": "window after 13:36Z changed no other list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Started after the 13:36Z scan at dadd8aa. Window 2026-11-22T13:36:32Z to 2026-11-22T14:38:27Z. No other README rows added. Prototype tip stays 8c32a9dc5d72; pushed_at stays 2026-11-03T09:29:14Z. updated_at is 2026-11-22T14:26:45Z and is not a new commit. Harness master stays 4b399c39a6d1; pushed_at stays 2026-11-22T11:00:05Z. updated_at is 2026-11-22T14:33:30Z and is not a new commit. Newest release stays dsh-v0.2.3-alpha.2 published 2026-11-22T11:00:39Z and is a prerelease. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z. alpha stays 0.2.3-alpha.2 at 2026-11-22T09:57:12.419Z. modified stays 2026-11-22T09:57:12.602Z. No gitHead. hermes-superagent main stays 28ae625e7739; pushed_at stays 2026-11-22T11:52:40Z. PerryLink/dsh-github stays 0.7.36. dsh-mini-superagent stays 0.10.4. dsh-session-superagent stays 0.10.12. dsh-superagent-inbox stays 0.3.2. dsh-whalepod stays 0.6.1. dsh-superagent-ptc stays 0.1.9. @vicfei/dsh-super-agent stays 1.10.0. @xiangyixie/dsh-superagent stays 0.24.0. dsh-ladder-superagents stays 0.2.1. dsh-swarm-console stays 0.4.5. dsh-foreman stays 0.9.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.28. @dsh-external/workflow and @datat-x/dsh-wechat-superagent stay 404. vicfei/dsh-super-agent main is 99c578617ba9 at 2026-11-22T13:48:10Z. The commit is a roadmap document for v1.11. package.json stays 1.10.0, engines.node stays >=20, and there is no engines.dsh. Not rewritten. pingdotgg/t3code main is ad2bdc76a5bf at 2026-11-22T14:14:38Z, 4 commits and 38 files after a985332c4471 and 0 behind. No filename matches superagent, dsh, or DeepSeek. Not rewritten. IHUI-INF-AI/IHUI-AI main is c11051f89eda, 1 commit and 2 files after 0e2936f80753 and 0 behind. Files are .gitignore and scripts/check-tracked-ignored.mjs. Not rewritten. dbc-hbin/omp-superagent main is e5e0ce5635b2 at 2026-11-22T13:49:15Z, merge of #34 plus a 0.1.7 release. engines is bun >=1.4.4. There is no engines.dsh. Not listed. fliggy-travel-ai/dsh-superagent-prototype main stays 0f117633c0f7. pushed_at is 2026-11-22T13:27:36Z, before this window. Open PR #63 head stays 47040fb4468d and is not merged. can1357/oh-my-pi main stays b505770284de. pushed_at is 2026-11-22T13:19:10Z, before this window. updated_at is 2026-11-22T14:22:47Z and is not a new commit. LofiSu main stays ca9823e5c096. Open PR #182 head stays 83770cce495d. Repo search for dsh-superagent in the name pushed on 2026-11-22 returned 8. None have pushed_at after 13:36:32Z. Of 272 repository names checked, 6 had pushed_at after 13:36:32Z and 11 names still do not resolve, including fsy0718/dsh-superagent-prototype. Discussions updated after 13:36:32Z are #14092, #14044, #13981, #14091, #10270, #14090, #14089, #14062, and #14088. Their bodies do not contain dsh-superagent, Mandate, Ticket, superagent, or prototype. arXiv query all:dsh-superagent returned 0 results. Newest HN story for dsh-superagent remains 2026-11-11T16:50:41Z. No open PR on this list."
+    },
     {
       "title": "window after 12:34Z changed no list rows",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -15576,28 +15618,28 @@
   ],
   "rejected_this_run": [
     {
-      "title": "specmill container branch is not main",
-      "url": "https://github.com/mrhoody/specmill/commit/29439d877692",
+      "title": "vicfei roadmap does not change 1.10.0",
+      "url": "https://github.com/vicfei/dsh-super-agent/commit/99c578617ba9",
       "confidence": 0.9,
-      "reason": "main stays 56d2581d9d4d at 2026-11-21T13:27:56Z. feat/superagent-container is 29439d877692 at 2026-11-22T13:08:27Z. The commit adds dsh/container/Dockerfile, Dockerfile.dockerignore, entrypoint.sh, gh-agent, profile.cordis.patch.yml, and run.sh. Those files were not line-read. Not listed."
+      "reason": "main is 99c578617ba9 at 2026-11-22T13:48:10Z. The message says it records a v1.11 plan. package.json stays @vicfei/dsh-super-agent 1.10.0. engines.node stays >=20. There is no engines.dsh. Not rewritten."
     },
     {
-      "title": "A2A dropdown poll fix is not on next/0.8",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/803",
-      "confidence": 0.91,
-      "reason": "PR #803 is open against next/0.8. Head is 3fd1ab1cdb4f. It is not merged. next/0.8 stays 7df0d21a0d20 at 2026-11-22T11:30:27Z. master stays 12eb960a24e8. The six files were not line-read. Tests were not rerun."
+      "title": "t3code and IHUI have no prototype filename",
+      "url": "https://github.com/pingdotgg/t3code/commit/ad2bdc76a5bf",
+      "confidence": 0.88,
+      "reason": "t3code main is ad2bdc76a5bf, 4 commits and 38 files after a985332c4471. IHUI main is c11051f89eda, files .gitignore and scripts/check-tracked-ignored.mjs. No filename matches superagent, dsh, or DeepSeek. Not rewritten."
     },
     {
-      "title": "Paseo Claude quota backoff is not on main",
+      "title": "omp-superagent 0.1.7 still has no engines.dsh",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/e5e0ce5635b2",
+      "confidence": 0.9,
+      "reason": "PR #34 merged. main is e5e0ce5635b2 at 2026-11-22T13:49:15Z. Package is omp-superagent 0.1.7. engines is bun >=1.4.4. There is no engines.dsh. Not listed."
+    },
+    {
+      "title": "fliggy PR 63 is still not main",
       "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype/pull/63",
       "confidence": 0.88,
-      "reason": "PR #63 is open against main. Head is 47040fb4468d. It is not merged. main stays 0f117633c0f7 at 2026-11-22T08:02:42Z. The seven files are under paseo-github-subscriptions/ and were not line-read. Tests were not rerun."
-    },
-    {
-      "title": "omp-superagent PR 34 is not main",
-      "url": "https://github.com/dbc-hbin/omp-superagent/pull/34",
-      "confidence": 0.86,
-      "reason": "main stays ac32463481e6 at 2026-11-22T08:46:41Z. Open PR #34 head 0f405a34a2fb was updated 2026-11-22T12:44:11Z and is not main. Not listed."
+      "reason": "PR #63 is open. Head stays 47040fb4468d. updated_at 2026-11-22T13:29:24Z is before this window. main stays 0f117633c0f7. Not rewritten."
     }
   ],
   "held_on_other_branches": [
