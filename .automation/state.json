@@ -1,23 +1,23 @@
 {
-  "last_run_at": "2026-11-22T22:38:30Z",
+  "last_run_at": "2026-11-22T23:32:58Z",
   "timezone": "UTC",
-  "baseline_commit": "b67cccf",
+  "baseline_commit": "99ce15d",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-22T21:35:50Z",
-    "to": "2026-11-22T22:38:30Z"
+    "from": "2026-11-22T22:38:30Z",
+    "to": "2026-11-22T23:32:58Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "next/0.8 sets A2A team settings and says when every member is excluded",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/9107d90e12d2",
+      "title": "next/0.8 tests lock owner-local confirm and per-ticket exclusion",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/71d7902bbee0",
       "confidence": 0.95,
-      "reason": "Window 2026-11-22T21:35:50Z to 2026-11-22T22:38:30Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 12eb960a24e8. next/0.8 tip is 9107d90e12d2 at 2026-11-22T22:19:34Z. Compare 2821d396d10d...next/0.8 is 16 ahead and 0 behind. Merges on next/0.8 are #826 at 21:36:31Z (25d9f2ae27cb, tests/unit/receipt-capacity-fix.spec.ts only), #827 at 21:59:34Z (5e479a4e7e9a), and #828 at 22:19:34Z. Compare master...next/0.8 is diverged: next/0.8 is 60 ahead and 18 behind. team.settings.set is built. Keys are sources, progressOff, decisionPush, and reviewer. sources may contain only a2a. At least one key is required. reviewer null clears it; a non-address is invalid. When the team already exists, propose dry-runs parseSettings against current settings. Apply calls saveSettings. Owner agree then the team card are both required. Undo writes each named key back, including a cleared reviewer. owner-local is confirm and market is off. acceptMode, models, prompts, maxConcurrent, evalTimeoutMs, paused, workbench source, observerCast, idleSweep, repos, blockedTools, credentialAckMinutes, allowed, bots, prepare, extraTools, mcp, apiKey, and teamJoinAllowlist are refused. The owner diff lists each key and value. queued() uses the same exclusion as free(). A held member who is excluded is not left as launching or member-busy. If every eligible member is excluded, the reason is all-excluded and member is the first excluded session; a repository route also keeps repo. Another eligible member means it is not all-excluded. The health reminder and the zh/en banner say every eligible member is excluded and to add a member or handle it by hand. assignTicket returns ok false and code excluded. The same tests lock the newest 500 exclusions, a grandchild of a two-level split, and a deny list that hides bash but not a2a_ticket_report or run_code. package.json stays 0.8.1-preview.28. engines is pnpm >=11.24 <12. There is no engines.dsh. npm preview stays 0.8.1-preview.28 at 2026-11-22T06:43:09.229Z. latest stays 0.7.0. Open PRs #829 head 9044e23c327c, #819, #816, #815, #811, #807, #806, and #804 are not merged. #829 only names test gaps left by #827. Prototype tip stays 8c32a9dc5d72c033816c6a8110b37f40cf94fba4. pushed_at stays 2026-11-03T09:29:14Z. updated_at 2026-11-22T21:46:30Z is not a new commit. Harness master stays 4b399c39a6d1479cd84ca591b4d7c88e24d38a96. pushed_at stays 2026-11-22T11:00:05Z. updated_at 2026-11-22T22:28:23Z is not a new commit. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. modified stays 2026-11-22T09:57:12.602Z. Listed packages dsh-mini-superagent 0.10.4, dsh-session-superagent 0.10.12, dsh-superagent-inbox 0.3.2, dsh-whalepod 0.6.1, dsh-superagent-ptc 0.1.9, @xiangyixie/dsh-superagent 0.24.0, dsh-ladder-superagents 0.2.1, dsh-swarm-console 0.4.5, dsh-foreman 0.9.1, @perrylink/dsh-github 0.7.37, and @vicfei/dsh-super-agent 1.11.0 are unchanged. Of 276 listed repository names, 11 still do not resolve, including fsy0718/dsh-superagent-prototype, and 4 had pushed_at after 21:35:50Z. can1357/oh-my-pi 88295533e695 is one magic-edit commit and has no filename for this prototype. pingdotgg/t3code 7103527dccfa is 3 ahead of a3323d4a433a, 8 files, no filename match. IHUI-INF-AI/IHUI-AI e163160c3c9f is 8 ahead of c3adf7aed484, 20 files, no filename match. codefufuai/codefufuai a55fa798731d only refreshes cards. yb2630/superagent db8516117a19 is still the Columbia COMS 4705 paper. No discussion was updated after 21:35:50Z. arXiv query all:dsh-superagent returned 0 results. Newest HN story for dsh-superagent remains 2026-11-11T16:50:41Z. No open PR on this list. Tests were not rerun."
+      "reason": "Window 2026-11-22T22:38:30Z to 2026-11-22T23:32:58Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 12eb960a24e8. next/0.8 tip is 71d7902bbee0 at 2026-11-22T23:22:38Z. Compare 9107d90e12d2...71d7902bbee0 is 9 ahead and 0 behind. Merges on next/0.8 are #829 at 22:39:08Z (b0c5b2d2c9ea), #830 at 22:59:38Z (e1a93c16d459), and #831 at 23:22:38Z. The compare touches only tests/unit/staffing-settings.spec.ts and tests/unit/superagent-excluded-hint.spec.ts. #829 locks an undo when the team never had a reviewer, the default owner-local confirm and market off table, and refusal of approvers, router, and canvas. #830 locks all-excluded with the repository, a named excluded member that is not launching or member-busy, assignment to a member who is not excluded, and a different ticket for the excluded session. #831 locks the executor: owner-local team.settings.set stays awaiting after the team card, including when a policy override says auto, and lands after the owner agrees. Compare master...next/0.8 is diverged: next/0.8 is 69 ahead and 18 behind. package.json stays 0.8.1-preview.28. There is no engines.dsh. npm preview stays 0.8.1-preview.28 at 2026-11-22T06:43:09.229Z. latest stays 0.7.0. Open PRs #816 head 2afed541122d, #819 head 1756506268ae, #815 head 9c091bee6b22, #811 head 2fd4e9fe5418, #807 head df406d0ed9db, #806 head d4e5770584e9, and #804 head 2b21cfe50838 are not merged. Prototype tip stays 8c32a9dc5d72c033816c6a8110b37f40cf94fba4. pushed_at stays 2026-11-03T09:29:14Z. updated_at 2026-11-22T23:27:01Z is not a new commit. Harness master stays 4b399c39a6d1479cd84ca591b4d7c88e24d38a96. pushed_at stays 2026-11-22T11:00:05Z. updated_at 2026-11-22T23:21:44Z is not a new commit. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. modified stays 2026-11-22T09:57:12.602Z. Listed packages dsh-mini-superagent 0.10.4, dsh-session-superagent 0.10.12, dsh-superagent-inbox 0.3.2, dsh-whalepod 0.6.1, dsh-superagent-ptc 0.1.9, @xiangyixie/dsh-superagent 0.24.0, dsh-ladder-superagents 0.2.1, dsh-swarm-console 0.4.5, dsh-foreman 0.9.1, @perrylink/dsh-github 0.7.37, and @vicfei/dsh-super-agent 1.11.0 are unchanged. Of 276 listed repository names, 11 still do not resolve, including fsy0718/dsh-superagent-prototype, and 4 had pushed_at after 22:38:30Z. IHUI-INF-AI/IHUI-AI 15277a7116bf is 1 ahead of e163160c3c9f, 2 files, no filename match. pingdotgg/t3code fb23f12f1fb1 is 7 ahead of 7103527dccfa, 57 files, no filename match. awesome-dsh-plugin/awesome-dsh-plugin 1cfebf33f8f7 is 6 ahead of 9190e56ec20d, 8 files, no filename match. yb2630/superagent afeea7240125 is 2 ahead of db8516117a19, 1 notebook, and is still the Columbia course repository. Discussion #14115 and the 2026-11-22T22:53:08Z comment on #8270 do not contain dsh-superagent, Mandate, Ticket, superagent, or prototype. arXiv query all:dsh-superagent returned 0 results. Newest HN story for dsh-superagent remains 2026-11-11T16:50:41Z. No open PR on this list. Tests were not rerun."
     }
   ],
   "pending": [
@@ -15750,43 +15750,44 @@
   ],
   "rejected_this_run": [
     {
-      "title": "oh-my-pi magic edit does not name this prototype",
-      "url": "https://github.com/can1357/oh-my-pi/commit/88295533e695",
+      "title": "IHUI chat model list does not name this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/15277a7116bf",
       "confidence": 0.3,
-      "reason": "main 88295533e695 at 2026-11-22T22:00:16Z is 1 ahead of ad9206d87c16. Files are packages/coding-agent edit and magic-apply. No filename matches superagent, dsh, or DeepSeek. Not rewritten."
+      "reason": "main 15277a7116bf at 2026-11-22T22:41:42Z is 1 ahead of e163160c3c9f and 0 behind. Files are a chat selector test and packages/shared/src/constants/model-catalog.ts. No filename matches superagent, dsh, or DeepSeek. Not rewritten."
     },
     {
-      "title": "t3code commits after 21:35Z do not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/7103527dccfa",
-      "confidence": 0.3,
-      "reason": "7103527dccfa is 3 ahead of a3323d4a433a and 0 behind, 8 files. Speech, markdown, and timeline changes. No filename matches superagent, dsh, or DeepSeek. Not rewritten."
+      "title": "awesome-dsh-plugin catalog sync does not name this prototype",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/1cfebf33f8f7",
+      "confidence": 0.35,
+      "reason": "main 1cfebf33f8f7 at 2026-11-22T23:19:27Z is 6 ahead of 9190e56ec20d and 0 behind. Files are the two READMEs and six plugin YAML files: dsh-davinci-console-demo, deep-projects, dsh-design-studio, dsh-memory, dsh-subscription-agents, and dsh-welcome. No filename matches superagent. Not rewritten."
     },
     {
-      "title": "IHUI commits after 21:35Z do not touch the super-agent path",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/e163160c3c9f",
+      "title": "t3code milestones and Claude CLI fixes do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/fb23f12f1fb1",
       "confidence": 0.3,
-      "reason": "e163160c3c9f is 8 ahead of c3adf7aed484 and 0 behind, 20 files. No filename matches superagent, dsh, or DeepSeek. Not rewritten."
+      "reason": "main fb23f12f1fb1 at 2026-11-22T23:17:46Z is 7 ahead of 7103527dccfa and 0 behind, 57 files. No filename matches superagent, dsh, or DeepSeek. Not rewritten."
     },
     {
-      "title": "codefufuai only refreshed cards",
-      "url": "https://github.com/codefufuai/codefufuai/commit/a55fa798731d",
+      "title": "yb2630/superagent A100 provenance is still a course notebook",
+      "url": "https://github.com/yb2630/superagent/commit/afeea7240125",
       "confidence": 0.25,
-      "reason": "Pushed 2026-11-22T21:56:53Z. The only commit since 21:35:50Z says chore: refresh cards. Not written."
+      "reason": "main afeea7240125 at 2026-11-22T22:50:58Z is 2 ahead of db8516117a19 and 0 behind. The only file is notebooks/colab_a100_vllm.ipynb. It does not name this prototype. Not written."
     },
     {
-      "title": "yb2630/superagent is still the Columbia course paper",
-      "url": "https://github.com/yb2630/superagent/commit/db8516117a19",
+      "title": "Harness discussion 14115 is an HMR marketplace reload",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14115",
+      "confidence": 0.3,
+      "reason": "Created 2026-11-22T23:20:00Z. The body is about nested HMR transactions after an HTTP listener reload on 0.2.2-rc.5. It does not contain dsh-superagent, Mandate, Ticket, superagent, or prototype. Not written."
+    },
+    {
+      "title": "Harness discussion 8270 comment does not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/8270#discussioncomment-19820641",
       "confidence": 0.2,
-      "reason": "Pushed 2026-11-22T22:30:05Z. db8516117a19 records smoothing-sampling provenance. README is still Columbia COMS 4705 wish-driven code agents. It does not name DSH or this prototype. Not written."
-    },
-    {
-      "title": "A2A review-gap tests are still an open pull request",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/829",
-      "confidence": 0.55,
-      "reason": "Open against next/0.8. Updated 2026-11-22T22:27:42Z. Head 9044e23c327c. Title says it closes three test gaps the #827 review left. Not merged. Not written."
+      "reason": "Comment at 2026-11-22T22:53:08Z is about training-data pollution. It does not contain dsh-superagent, Mandate, Ticket, superagent, or prototype. Not written."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-22T23:32:58Z: Nelson open PRs #816 head 2afed541122d, #819 head 1756506268ae, #815 head 9c091bee6b22, #811 head 2fd4e9fe5418, #807 head df406d0ed9db, #806 head d4e5770584e9, and #804 head 2b21cfe50838 are not merged. #829, #830, and #831 merged to next/0.8 71d7902bbee0. master stays 12eb960a24e8.",
     "2026-11-22T18:35:23Z: Nelson open PRs #822 head 2472725d6ceb, #819 head 1756506268ae, #816 head 2afed541122d, #815 head 9c091bee6b22, #811 head 2fd4e9fe5418, #807 head df406d0ed9db, #806 head d4e5770584e9, and #804 head 2b21cfe50838 are not merged. #818 and #820 merged to next/0.8 0f9a3a43ed94. master stays 12eb960a24e8. oh-my-pi main stays da91f6af1d90; pushed_at 2026-11-22T18:28:21Z is not a new main commit.",
     "2026-11-22T16:41:03Z: Nelson PRs #809 head 1e9b587d18b3, #811 head 2fd4e9fe5418, #806 head d4e5770584e9, #804 head 2b21cfe50838, and #807 head df406d0ed9db are not merged. #813 merged to next/0.8 cb925b3c661e. master stays 12eb960a24e8. npm preview stays 0.8.1-preview.28.",
     "2026-11-22T15:37:44Z: Nelson PRs #804 head 2b21cfe50838, #806 head d4e5770584e9, and #807 head df406d0ed9db are not merged. master stays 12eb960a24e8. next/0.8 stays dcb7ecd8155e. npm preview stays 0.8.1-preview.28.",
@@ -16310,5 +16311,5 @@
     "tonbiattack/autopilot-merge-check-86302 closed merge-check PRs are the disposable live-merge target. Do not list that repository."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). modified remains 2026-11-22T09:57:12.602Z. @perrylink/dsh-github latest is 0.7.37 (published 2026-11-22T16:11:16.134Z, gitHead 086838447309ecd0f34e84ec670739b42f713f92). @vicfei/dsh-super-agent latest is 1.11.0 (published 2026-11-22T18:08:44.725Z, gitHead 21b67fd66adf1c6687fc2e8b9a39eb2c0ac2acf8, shasum e9c77dd4f2966529bca28487b6544f11cfced088). @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.28 (published 2026-11-22T06:43:09.229Z). Rechecked 2026-11-22T22:38:30Z; dist-tags unchanged."
+  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). modified remains 2026-11-22T09:57:12.602Z. @perrylink/dsh-github latest is 0.7.37 (published 2026-11-22T16:11:16.134Z, gitHead 086838447309ecd0f34e84ec670739b42f713f92). @vicfei/dsh-super-agent latest is 1.11.0 (published 2026-11-22T18:08:44.725Z, gitHead 21b67fd66adf1c6687fc2e8b9a39eb2c0ac2acf8, shasum e9c77dd4f2966529bca28487b6544f11cfced088). @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.28 (published 2026-11-22T06:43:09.229Z). Rechecked 2026-11-22T23:32:58Z; dist-tags unchanged."
 }
