@@ -1,57 +1,75 @@
 {
-  "last_run_at": "2026-11-22T16:41:03Z",
+  "last_run_at": "2026-11-22T17:37:47Z",
   "timezone": "UTC",
-  "baseline_commit": "55b05ce",
+  "baseline_commit": "7f362bc",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-22T15:37:44Z",
-    "to": "2026-11-22T16:41:03Z"
+    "from": "2026-11-22T16:41:03Z",
+    "to": "2026-11-22T17:37:47Z"
   },
   "added": [
     {
-      "title": "ft54482/dsh-control-bridge v0.2.1 verifies a master-control session",
-      "url": "https://github.com/ft54482/dsh-control-bridge/commit/0808ae94a823deb68f5369ed57c7de67b247f773",
+      "title": "ZephyrBD/opencode-superagent gates actors before assessment",
+      "url": "https://github.com/ZephyrBD/opencode-superagent/commit/81897985e034c98636a114e664ac92776f128189",
       "confidence": 0.86,
-      "reason": "Window 2026-11-22T15:37:44Z to 2026-11-22T16:41:03Z. Added ft54482/dsh-control-bridge. Not a fork. Created 2026-11-21T17:26:05Z. Tip 0808ae94a823deb68f5369ed57c7de67b247f773 at 2026-11-22T15:44:53Z merges #5. Tag v0.2.1 is a commit tag pointing at that sha, published 2026-11-22T15:45:35Z, not a prerelease. Python package dsh-control-bridge 0.2.1, requires Python >=3.11, no runtime dependencies, MIT. Host plugin dsh-control-bridge-host 0.2.1 is private and has no engines.dsh. dsh.compat sets installProfile desktop, headlessProfile false, sessionController 0.2.2, verifiedOnDesktop false. README describes ordinary_session (session_id) and superagent (ticket_id and run_id). A completion report stays awaiting review. The in-window diff is Codex desktop session creation, not a SuperAgent assignment. create-session defaults agent_preset to master-control and rejects a session_id. The host reports preset_create_verified only when agentPresets.resolve, sessionController.create, and projections exist; otherwise the desktop script returns preset_creation_unavailable and the host returns 501. resolve must return the same id with broken undefined, or the host returns 409. After create, a sequenced projection must show that agentPreset, or the host returns 409 agent_preset_unverified and keeps the session id. session/workspace-attach-failed returns 502 with the created session id. 5xx and transport errors set manual_reconcile. docs/verified-scope.md says a Windows check used Desktop 0.2.2-rc.5 CLI, an isolated official web profile, and Host 0.2.1 to create a read-only blank session whose projection was master-control, session_projection, blank true, and no turns. The installed Desktop GUI was not changed. No model prompt and no SuperAgent assignment were sent. The superagent dispatch path and examples/e2e_fake.py were not line-read. Tests were not rerun."
+      "reason": "Window 2026-11-22T16:41:03Z to 2026-11-22T17:37:47Z. Added ZephyrBD/opencode-superagent. Not a GitHub fork. Created 2026-11-22T15:27:38Z. Tip 81897985e034 at 2026-11-22T17:06:08Z only edits README. Package @zephyrbd/opencode-superagent 0.1.0 depends on zod 4.4.3. @opencode/plugin is a devDependency set to latest. There is no engines.dsh. LICENSE still says Copyright (c) 2026 DeepSeek Harness Team and is MIT. core/policy.ts gate refuses paused, refuses bots as bot-ignored, treats allowedActors as explicit, and treats the repository owner as inferred when proactive is not off. Default proactive is record, which adds recordOnly. act does not. Everyone else is actor-not-allowed. revalidate requires the policy not paused and the same policyVersion. GitHub source schema requires owner/name and defaults poll to 60 seconds. Feishu is optional, defaults cliPath to lark-cli and poll to 30 seconds, and listen is mentions or all. The executor and the two pollers were not line-read. Tests were not rerun."
     }
   ],
   "updated": [
     {
-      "title": "dsh-github 0.7.37 adds Discover locale files",
-      "url": "https://github.com/PerryLink/dsh-github/commit/086838447309ecd0f34e84ec670739b42f713f92",
-      "confidence": 0.95,
-      "reason": "Window 2026-11-22T15:37:44Z to 2026-11-22T16:41:03Z. Updated PerryLink/dsh-github. Tip 086838447309ecd0f34e84ec670739b42f713f92 at 2026-11-22T16:06:58Z is 1 ahead of 87ba63b8a50e and 0 behind. It adds locale/en.json and locale/zh.json, exports ./locale/*.json, and sets author to PerryLink. Both title fields are the file's own spelling, not the capitalized GitHub form. The English description says writes are human-approved and the token is not logged; the Chinese description is the same statement. CHANGELOG calls this marketplace display metadata. icon.svg was not in the diff. engines.dsh stays >=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0. engines.node stays ^22.19.0 || >=24.0.0. License stays Apache-2.0. GitHub release v0.7.37 published 2026-11-22T16:08:13Z and is not a prerelease. npm latest is 0.7.37 at 2026-11-22T16:11:16.134Z, modified 2026-11-22T16:11:16.517Z, gitHead 086838447309ecd0f34e84ec670739b42f713f92. Tests were not rerun."
-    },
-    {
-      "title": "next/0.8 seeds owner settings from the lower a2a layer",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/cb925b3c661e76e4ff7bcd884eddf5e99f49dbf8",
+      "title": "superagent-lite reviews with submit_review and merges locally",
+      "url": "https://github.com/LMQ00/superagent-lite/commit/46729f2758fe8e49b51ae91d359fc4bc22451c0c",
       "confidence": 0.93,
-      "reason": "Window 2026-11-22T15:37:44Z to 2026-11-22T16:41:03Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 12eb960a24e8. next/0.8 tip is cb925b3c661e76e4ff7bcd884eddf5e99f49dbf8 at 2026-11-22T16:30:51Z, merge of #813. Parents are dcb7ecd8155e56b77c19182fca1f25cadf57ba58 and 41c317ccfbed6042d2b3cd93521655d788c13f57. Compare master...next/0.8 is diverged: next/0.8 is 10 ahead and 18 behind, so master is 18 ahead and 10 behind. 41c317ccfbed seeds a newly created home-layer a2a config block with lower-layer keys that differ from schema defaults. Keys being written win. Writing teamScope does not copy teamScopeInfo. An existing config block is still edited key by key. apiKey and linkKeys are not copied; if the lower layer sets either, the admin face returns 409 and names cordis.patch.yml. DSH whole-key replacement was not changed. The test file is tests/unit/owner-settings-shadow.spec.ts. The commit message says the owner-settings suites are 46/46. package.json on next/0.8 stays 0.8.1-preview.28. engines is pnpm >=11.24 <12. There is no engines.dsh. npm preview stays 0.8.1-preview.28 at 2026-11-22T06:43:09.229Z. latest stays 0.7.0. modified stays 2026-11-22T06:43:09.393Z. Tests were not rerun."
+      "reason": "Window 2026-11-22T16:41:03Z to 2026-11-22T17:37:47Z. Updated LMQ00/superagent-lite. master tip 46729f2758fe at 2026-11-22T16:43:47Z is 16 ahead of 62300657ad16 and 0 behind. Reviewer calls submit_review once. Content exactly 通过 is approved. A verdict without inspection is still rejected. Review tools add submit_review. ls, cat, head, tail, wc, pwd, file, and stat may run inside the worktree, including a subdirectory. Shell operators stay refused. extract_team_memory is now extract_memory. Caps are private 1, public 3, profile 1, team 3, 500 characters each, findings at most 5000. message_router runs that extraction once in change mode when it was not already attempted and the worker is in the checkout. Failure is only logged. GET and POST /superagent-lite/memory admit only the owner. /merge-worker no longer refuses a GitHub origin. It merges the reviewed head with --no-ff into the task baseBranch. The target must be an existing refs/heads branch and cannot be the worker branch. Merges and branch deletes for one projectRoot are serialized. Exit code 1 leaves the target unchanged and says Merge would conflict; the target was not changed. The panel disables merge when the project checkout is not on a branch. src/github.js no longer exports mergeGithub. package.json stays private @local/superagent-lite 1.0.0. engines.dsh stays exactly 0.2.2-rc.3. No LICENSE file. client.js and the docs were not line-read. Tests were not rerun."
     },
     {
-      "title": "wheelchair queue moves into the Rust core and compaction stays manual",
-      "url": "https://github.com/nihaoWX/wheelchair-agent/commit/ea1fa63cad32f3b8f8ec7d9e056b1fabb3daf0b2",
-      "confidence": 0.9,
-      "reason": "Window 2026-11-22T15:37:44Z to 2026-11-22T16:41:03Z. Updated nihaoWX/wheelchair-agent. Recorded main was 7286d0aff9cc. Tip ea1fa63cad32f3b8f8ec7d9e056b1fabb3daf0b2 at 2026-11-22T16:10:26Z is 5 ahead and 0 behind. Line-read commits are 5c151a476a6e (#33, 2026-11-22T15:40:18Z) and 1ae93c0bac12 (#34, 2026-11-22T16:10:12Z). The file queue and schema validators move into wheelchair-agent-core. The on-disk layout stays pending, done, outbox, and outbox/read, and consumption is still an atomic rename. src/shared/queue.js calls the binary with spawnSync and has no JavaScript fallback. It looks for build/artifacts/wheelchair-agent-core-linux-x64, then the same path under the current directory, then PATH. A missing binary, a non-executable binary, or output that is not an object with boolean ok throws and names bash build/build-core.sh. Timeout is 300 seconds. stdout cap is 16 MiB. A success envelope with a non-zero status also throws. #34 sets compaction-basic auto to false so automatic compaction is left to billion-context. command-compact and the tool-result pruner stay. Deployments without billion-context set auto back to true. Package stays private wheelchair-agent 0.1.0. engines.node stays ^22.19.0 || >=24.0.0. There is no engines.dsh and no license field. The other three commits are docs and were not line-read. Tests were not rerun."
+      "title": "next/0.8 blueprints edit plain canvases and network settings",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/b568ab79fb4a6b703656811bf79338c18c39fca1",
+      "confidence": 0.93,
+      "reason": "Window 2026-11-22T16:41:03Z to 2026-11-22T17:37:47Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 12eb960a24e8. next/0.8 tip is b568ab79fb4a at 2026-11-22T17:34:13Z, merging #809 at 16:49:08Z and #817 at 17:34:13Z. Compare master...next/0.8 is diverged: next/0.8 is 17 ahead and 18 behind, so master is 18 ahead and 17 behind. canvas.create, canvas.member.add, and canvas.member.remove are built. Members go through src/canvas-member-write.ts: a joined local session, a zone-qualified remote ref with owner proof, or a CLI handle with its home pinned. A superagent team canvas still uses member.add and member.retire. Those canvas ops are confirm for owner-local and off for market. network.set, network.peer.add, network.peer.remove, and network.originClaimByPeer.set write through writeHomeA2a. A new home a2a block is still seeded from the lower layer. apiKey and linkKeys still return 409 and are not copied. teamJoinAllowlist is not a network key. Peer URLs are credential-free http(s) and at most 200 characters. Removing a peer that still has an originClaimByPeer entry is refused. A key that is not written exactly as in peers, or two claims for one peer, is refused. Unset teamScope follows the host: on unless teamScopeRouting or teamScopeInfo is false. Writes since boot stay in a process overlay. The keys take effect on restart. package.json stays 0.8.1-preview.28 with no engines.dsh. npm preview stays 0.8.1-preview.28. latest stays 0.7.0. Open PRs #819, #818, #816, #815, #811, #807, #806, and #804 are not merged. Tests were not rerun."
     },
     {
-      "title": "nonGuo documents local mode and adds -LocalOnly",
-      "url": "https://github.com/nonGuo/dsh-SuperAgent/commit/a1450678c2f2883de3afce149b3599378ee12830",
-      "confidence": 0.9,
-      "reason": "The commit is 2026-11-22T15:34:55Z, after the tip recorded at 15:25Z and before this window's start 2026-11-22T15:37:44Z. Updated the listed nonGuo/dsh-SuperAgent row because that tip was stale. a1450678c2f2883de3afce149b3599378ee12830 is 1 ahead of 66e7bc088018 and 0 behind. Files are README.md, docs/006-deployment.md, and scripts/install-desktop.ps1. The README adds a Chinese usage guide that restates pwsh, localOnly, and the local source, and points at this fork's deployment doc. docs/006 names scripts/install-desktop.ps1 -LocalOnly as one way to set localOnly. The script adds -LocalOnly. A new block writes localOnly true under stateDir. An existing block without localOnly is backed up with a timestamp and then gets that line under stateDir. A block that already has localOnly is left unchanged. The guide's sample port and panel clicks were not checked against code. Tests were not rerun."
-    },
-    {
-      "title": "window after 15:37Z rewrote four rows and added the control bridge",
+      "title": "window after 16:41Z rewrote two rows and added the OpenCode port",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.9,
-      "reason": "Window 2026-11-22T15:37:44Z to 2026-11-22T16:41:03Z. Prototype tip stays 8c32a9dc5d72c033816c6a8110b37f40cf94fba4. pushed_at stays 2026-11-03T09:29:14Z. updated_at is 2026-11-22T16:34:46Z and is not a new commit. Harness master stays 4b399c39a6d1479cd84ca591b4d7c88e24d38a96. pushed_at stays 2026-11-22T11:00:05Z. updated_at is 2026-11-22T16:38:46Z and is not a new commit. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z. alpha stays 0.2.3-alpha.2 at 2026-11-22T09:57:12.419Z. modified stays 2026-11-22T09:57:12.602Z. dsh-mini-superagent stays 0.10.4. dsh-session-superagent stays 0.10.12. dsh-superagent-inbox stays 0.3.2. dsh-whalepod stays 0.6.1. dsh-superagent-ptc stays 0.1.9. @vicfei/dsh-super-agent stays 1.10.0. @xiangyixie/dsh-superagent stays 0.24.0. dsh-ladder-superagents stays 0.2.1. dsh-swarm-console stays 0.4.5. dsh-foreman stays 0.9.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.28. Of 279 repository names checked, 12 still do not resolve, including fsy0718/dsh-superagent-prototype, and 9 had pushed_at after 15:37:44Z. IHUI-INF-AI/IHUI-AI c3fa863ed890 is 1 ahead of 44d1ebf1112f and 0 behind, 13 files, no filename matches superagent, dsh, or DeepSeek. Not rewritten. can1357/oh-my-pi e5aad2d8d30f is 41 ahead of b505770284de and 0 behind, 41 files, no filename matches. Not rewritten. pingdotgg/t3code ad446450e1cd is 3 ahead of 2c4310eb0613 and 0 behind, 9 files, no filename matches. Not rewritten. billLiao/awesome-dsh-plugin 7cce7065e8aa at 2026-11-22T16:01:38Z is a catalog sync. The plugin JSON was not line-read. Not rewritten. Robert-Wang-08/dsh-superagent-prototype pushed_at is 2026-11-22T16:12:45Z. Default-branch tip stays 18822ddd073c at 2026-11-20T02:06:50Z. Not rewritten. Open Nelson PRs #809, #811, #806, #804, and #807 are not merged. #813 is merged. Discussions whose bodies were read and do not contain dsh-superagent, Mandate, Ticket, superagent, or prototype: #14100, #11820, #14099, #14098, #14095, #14096, #14097, and #14044. arXiv query all:dsh-superagent returned 0 results. Newest HN story for dsh-superagent remains 2026-11-11T16:50:41Z. No open PR on this list."
+      "reason": "Window 2026-11-22T16:41:03Z to 2026-11-22T17:37:47Z. Prototype tip stays 8c32a9dc5d72c033816c6a8110b37f40cf94fba4. pushed_at stays 2026-11-03T09:29:14Z. updated_at is 2026-11-22T17:20:08Z and is not a new commit. Harness master has no commit after 16:41:03Z. pushed_at stays 2026-11-22T11:00:05Z. updated_at is 2026-11-22T17:29:04Z and is not a new commit. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z. alpha stays 0.2.3-alpha.2 at 2026-11-22T09:57:12.419Z. modified stays 2026-11-22T09:57:12.602Z. dsh-mini-superagent stays 0.10.4. dsh-session-superagent stays 0.10.12. dsh-superagent-inbox stays 0.3.2. dsh-whalepod stays 0.6.1. dsh-superagent-ptc stays 0.1.9. @vicfei/dsh-super-agent stays 1.10.0. @xiangyixie/dsh-superagent stays 0.24.0. dsh-ladder-superagents stays 0.2.1. dsh-swarm-console stays 0.4.5. dsh-foreman stays 0.9.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.28. @perrylink/dsh-github stays 0.7.37. Of the listed repository names checked, 11 still do not resolve, including fsy0718/dsh-superagent-prototype, and 7 had pushed_at after 16:41:03Z. IHUI-INF-AI/IHUI-AI da15287ff809 is 30 ahead of c3fa863ed890 and 0 behind, 157 files, no filename matches superagent, dsh, or DeepSeek. Not rewritten. can1357/oh-my-pi da91f6af1d90 is 11 ahead of e5aad2d8d30f and 0 behind, 2 files, no filename matches. Not rewritten. pingdotgg/t3code 7ddc81d639aa is 3 ahead of ad446450e1cd and 0 behind, 15 files, no filename matches. Not rewritten. awesome-dsh-plugin/awesome-dsh-plugin d7742e1f9e8d adds unrelated plugins and no superagent name. Not rewritten. dbc-hbin/omp-superagent main stays bf8f34c7f1d3. Open PR #36 is not merged. Not listed. sa-bot888/superagent-demo is an empty README. Not listed. Repo name search for dsh-superagent pushed on 2026-11-22 returned none after 16:41:03Z. Discussions whose bodies were read and do not contain dsh-superagent, Mandate, Ticket, superagent, or prototype: #14104, #14101, #14102, #14039, #14041, #9692, and #12755. In-window comments on #14039 and #12755 do not contain those words. arXiv query all:dsh-superagent returned 0 results. Newest HN story for dsh-superagent remains 2026-11-11T16:50:41Z. No open PR on this list."
     }
   ],
   "pending": [
+    {
+      "title": "ZephyrBD/opencode-superagent gates actors before assessment",
+      "url": "https://github.com/ZephyrBD/opencode-superagent/commit/81897985e034c98636a114e664ac92776f128189",
+      "confidence": 0.86,
+      "reason": "Window 2026-11-22T16:41:03Z to 2026-11-22T17:37:47Z. Added ZephyrBD/opencode-superagent. Not a GitHub fork. Created 2026-11-22T15:27:38Z. Tip 81897985e034 at 2026-11-22T17:06:08Z only edits README. Package @zephyrbd/opencode-superagent 0.1.0 depends on zod 4.4.3. @opencode/plugin is a devDependency set to latest. There is no engines.dsh. LICENSE still says Copyright (c) 2026 DeepSeek Harness Team and is MIT. core/policy.ts gate refuses paused, refuses bots as bot-ignored, treats allowedActors as explicit, and treats the repository owner as inferred when proactive is not off. Default proactive is record, which adds recordOnly. act does not. Everyone else is actor-not-allowed. revalidate requires the policy not paused and the same policyVersion. GitHub source schema requires owner/name and defaults poll to 60 seconds. Feishu is optional, defaults cliPath to lark-cli and poll to 30 seconds, and listen is mentions or all. The executor and the two pollers were not line-read. Tests were not rerun."
+    },
+    {
+      "title": "superagent-lite reviews with submit_review and merges locally",
+      "url": "https://github.com/LMQ00/superagent-lite/commit/46729f2758fe8e49b51ae91d359fc4bc22451c0c",
+      "confidence": 0.93,
+      "reason": "Window 2026-11-22T16:41:03Z to 2026-11-22T17:37:47Z. Updated LMQ00/superagent-lite. master tip 46729f2758fe at 2026-11-22T16:43:47Z is 16 ahead of 62300657ad16 and 0 behind. Reviewer calls submit_review once. Content exactly 通过 is approved. A verdict without inspection is still rejected. Review tools add submit_review. ls, cat, head, tail, wc, pwd, file, and stat may run inside the worktree, including a subdirectory. Shell operators stay refused. extract_team_memory is now extract_memory. Caps are private 1, public 3, profile 1, team 3, 500 characters each, findings at most 5000. message_router runs that extraction once in change mode when it was not already attempted and the worker is in the checkout. Failure is only logged. GET and POST /superagent-lite/memory admit only the owner. /merge-worker no longer refuses a GitHub origin. It merges the reviewed head with --no-ff into the task baseBranch. The target must be an existing refs/heads branch and cannot be the worker branch. Merges and branch deletes for one projectRoot are serialized. Exit code 1 leaves the target unchanged and says Merge would conflict; the target was not changed. The panel disables merge when the project checkout is not on a branch. src/github.js no longer exports mergeGithub. package.json stays private @local/superagent-lite 1.0.0. engines.dsh stays exactly 0.2.2-rc.3. No LICENSE file. client.js and the docs were not line-read. Tests were not rerun."
+    },
+    {
+      "title": "next/0.8 blueprints edit plain canvases and network settings",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/b568ab79fb4a6b703656811bf79338c18c39fca1",
+      "confidence": 0.93,
+      "reason": "Window 2026-11-22T16:41:03Z to 2026-11-22T17:37:47Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 12eb960a24e8. next/0.8 tip is b568ab79fb4a at 2026-11-22T17:34:13Z, merging #809 at 16:49:08Z and #817 at 17:34:13Z. Compare master...next/0.8 is diverged: next/0.8 is 17 ahead and 18 behind, so master is 18 ahead and 17 behind. canvas.create, canvas.member.add, and canvas.member.remove are built. Members go through src/canvas-member-write.ts: a joined local session, a zone-qualified remote ref with owner proof, or a CLI handle with its home pinned. A superagent team canvas still uses member.add and member.retire. Those canvas ops are confirm for owner-local and off for market. network.set, network.peer.add, network.peer.remove, and network.originClaimByPeer.set write through writeHomeA2a. A new home a2a block is still seeded from the lower layer. apiKey and linkKeys still return 409 and are not copied. teamJoinAllowlist is not a network key. Peer URLs are credential-free http(s) and at most 200 characters. Removing a peer that still has an originClaimByPeer entry is refused. A key that is not written exactly as in peers, or two claims for one peer, is refused. Unset teamScope follows the host: on unless teamScopeRouting or teamScopeInfo is false. Writes since boot stay in a process overlay. The keys take effect on restart. package.json stays 0.8.1-preview.28 with no engines.dsh. npm preview stays 0.8.1-preview.28. latest stays 0.7.0. Open PRs #819, #818, #816, #815, #811, #807, #806, and #804 are not merged. Tests were not rerun."
+    },
+    {
+      "title": "window after 16:41Z rewrote two rows and added the OpenCode port",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Window 2026-11-22T16:41:03Z to 2026-11-22T17:37:47Z. Prototype tip stays 8c32a9dc5d72c033816c6a8110b37f40cf94fba4. pushed_at stays 2026-11-03T09:29:14Z. updated_at is 2026-11-22T17:20:08Z and is not a new commit. Harness master has no commit after 16:41:03Z. pushed_at stays 2026-11-22T11:00:05Z. updated_at is 2026-11-22T17:29:04Z and is not a new commit. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z. alpha stays 0.2.3-alpha.2 at 2026-11-22T09:57:12.419Z. modified stays 2026-11-22T09:57:12.602Z. dsh-mini-superagent stays 0.10.4. dsh-session-superagent stays 0.10.12. dsh-superagent-inbox stays 0.3.2. dsh-whalepod stays 0.6.1. dsh-superagent-ptc stays 0.1.9. @vicfei/dsh-super-agent stays 1.10.0. @xiangyixie/dsh-superagent stays 0.24.0. dsh-ladder-superagents stays 0.2.1. dsh-swarm-console stays 0.4.5. dsh-foreman stays 0.9.1. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.28. @perrylink/dsh-github stays 0.7.37. Of the listed repository names checked, 11 still do not resolve, including fsy0718/dsh-superagent-prototype, and 7 had pushed_at after 16:41:03Z. IHUI-INF-AI/IHUI-AI da15287ff809 is 30 ahead of c3fa863ed890 and 0 behind, 157 files, no filename matches superagent, dsh, or DeepSeek. Not rewritten. can1357/oh-my-pi da91f6af1d90 is 11 ahead of e5aad2d8d30f and 0 behind, 2 files, no filename matches. Not rewritten. pingdotgg/t3code 7ddc81d639aa is 3 ahead of ad446450e1cd and 0 behind, 15 files, no filename matches. Not rewritten. awesome-dsh-plugin/awesome-dsh-plugin d7742e1f9e8d adds unrelated plugins and no superagent name. Not rewritten. dbc-hbin/omp-superagent main stays bf8f34c7f1d3. Open PR #36 is not merged. Not listed. sa-bot888/superagent-demo is an empty README. Not listed. Repo name search for dsh-superagent pushed on 2026-11-22 returned none after 16:41:03Z. Discussions whose bodies were read and do not contain dsh-superagent, Mandate, Ticket, superagent, or prototype: #14104, #14101, #14102, #14039, #14041, #9692, and #12755. In-window comments on #14039 and #12755 do not contain those words. arXiv query all:dsh-superagent returned 0 results. Newest HN story for dsh-superagent remains 2026-11-11T16:50:41Z. No open PR on this list."
+    },
+    {
+      "title": "sa-bot888/superagent-demo is an empty repository",
+      "url": "https://github.com/sa-bot888/superagent-demo",
+      "confidence": 0.2,
+      "reason": "Created 2026-11-22T16:59:21Z and pushed 2026-11-22T16:59:23Z. Size 0. README.md is 17 bytes. No description. Not written."
+    },
     {
       "title": "ft54482/dsh-control-bridge v0.2.1 verifies a master-control session",
       "url": "https://github.com/ft54482/dsh-control-bridge/commit/0808ae94a823deb68f5369ed57c7de67b247f773",
@@ -15691,28 +15709,10 @@
   ],
   "rejected_this_run": [
     {
-      "title": "IHUI typecheck fix does not name this prototype",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/c3fa863ed890c07a7dc60cba9ec2586449da5288",
-      "confidence": 0.3,
-      "reason": "13 files after 44d1ebf1112f. No filename matches superagent, dsh, or DeepSeek. Not written."
-    },
-    {
-      "title": "oh-my-pi changelog does not name this prototype",
-      "url": "https://github.com/can1357/oh-my-pi/commit/e5aad2d8d30f89590a32a4471abc35252e0aaada",
-      "confidence": 0.3,
-      "reason": "41 files after b505770284de. No filename matches superagent, dsh, or DeepSeek. Not written."
-    },
-    {
-      "title": "t3code proxy heartbeat does not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/ad446450e1cd66763cf03ed5c4b012913826f5d7",
-      "confidence": 0.3,
-      "reason": "9 files after 2c4310eb0613. No filename matches superagent, dsh, or DeepSeek. Not written."
-    },
-    {
-      "title": "awesome-dsh-plugin sync was not line-read",
-      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/7cce7065e8aa6dceca825e920a1b1c385e8d421a",
-      "confidence": 0.4,
-      "reason": "Catalog sync at 2026-11-22T16:01:38Z. plugins.json changed thousands of lines. Not used as a primary source. Not written."
+      "title": "sa-bot888/superagent-demo is an empty repository",
+      "url": "https://github.com/sa-bot888/superagent-demo",
+      "confidence": 0.2,
+      "reason": "Created 2026-11-22T16:59:21Z and pushed 2026-11-22T16:59:23Z. Size 0. README.md is 17 bytes. No description. Not written."
     }
   ],
   "held_on_other_branches": [
