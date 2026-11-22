@@ -1,41 +1,23 @@
 {
-  "last_run_at": "2026-11-22T18:35:23Z",
+  "last_run_at": "2026-11-22T19:36:10Z",
   "timezone": "UTC",
-  "baseline_commit": "e75ba04",
+  "baseline_commit": "20c533b",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-22T17:37:47Z",
-    "to": "2026-11-22T18:35:23Z"
+    "from": "2026-11-22T18:35:23Z",
+    "to": "2026-11-22T19:36:10Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "next/0.8 blueprints set approvers, join sessions, and name seats",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/0f9a3a43ed945ad4776ef2d21b7990a4ed03aee7",
-      "confidence": 0.93,
-      "reason": "Window 2026-11-22T17:37:47Z to 2026-11-22T18:35:23Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 12eb960a24e8. next/0.8 tip is 0f9a3a43ed94 at 2026-11-22T18:30:29Z, merging #818 at 18:00:18Z and #820 at 18:30:29Z. Compare master...next/0.8 is diverged: next/0.8 is 25 ahead and 18 behind, so master is 18 ahead and 25 behind. #818 only changes docs: a home-layer a2a config block replaces the profile layer's whole config key. Check /__dsh_a2a/state host.* and top-level peers, not the file. #820 adds team.approvers.set, session.join, and session.seatName.set. owner-local is confirm and market is off for all three. approvers is at most 10 session ids; [] is saved as null through saveSettings, and undo writes the previous list. The executor comment says the team's own checks refuse the router. saveSettings was not line-read. session.join returns joined already when the session is already joined. Otherwise the host accepts only a session in liveRoots, returns no live local session when it is missing, and otherwise calls mountSessionNode and joinedSessions.add. Undo calls leave, which calls revokeCanvasMember(id, 'leave') and then drops the session from sessionNodes, joinedSessions, and teamMemberships. session.seatName.set refuses a non-empty name that parseSeatNames rejects; the error text says at most 64 characters and not shaped like an address. An empty string deletes the session. Other names are trimmed and the whole map is written through writeHomeA2a as seatNames. The owner-facing sentence says those approvers may approve outbound cards and cannot approve cards they raised. The test file is tests/unit/staffing-p3.spec.ts. package.json stays 0.8.1-preview.28 with no engines.dsh. npm preview stays 0.8.1-preview.28 at 2026-11-22T06:43:09.229Z. latest stays 0.7.0. Open PRs #822, #819, #816, #815, #811, #807, #806, and #804 are not merged. Tests were not rerun."
-    },
-    {
-      "title": "dsh-control-bridge 0.2.2 resumes a blank master-control session",
-      "url": "https://github.com/ft54482/dsh-control-bridge/commit/1d2ce81bc35b5bf47f639d23c1db879959689fda",
-      "confidence": 0.92,
-      "reason": "Window 2026-11-22T17:37:47Z to 2026-11-22T18:35:23Z. Updated ft54482/dsh-control-bridge. Tip 1d2ce81bc35b at 2026-11-22T17:42:34Z merges #6 and is 2 ahead of 0808ae94a823 and 0 behind. Tag v0.2.2 published 2026-11-22T17:42:57Z is not a prerelease and points at that sha. Python package dsh-control-bridge 0.2.2 requires Python >=3.11, has no runtime dependencies, and is MIT. Host plugin dsh-control-bridge-host 0.2.2 stays private. The package.json diff only changes the version. There is still no engines field. dsh.compat stays installProfile desktop, headlessProfile false, sessionController 0.2.2, verifiedOnDesktop false. A preset create requires an existing workspace_id. create_workspace or create_directory true returns 400 existing_workspace_required. A profile other than desktop returns 403 cross_profile. presetSessionWorkspaceIds defaults to []. The workspace directory, the grant cwd, and the registered path must resolve to the same existing directory, or the host returns cwd_mismatch. An id outside that list whose directory is outside workspaceRoots returns outside_allowed_roots. access write also requires an existing desktop write grant in that workspace whose cwd matches and whose session is still listed, or the host returns workspace_write_not_granted. The new grant uses grantFreshSession and rechecks inside the same lock. A refusal is 403 with saved false, manual_reconcile true, and the created session id. sameDirectory is true when the strings match or both resolve to one absolute directory. The first resume of a master-control grant requires a snapshot whose header id matches, inherited 0, and no turn/start, request/header, user/message, or assistant/message. The projection kind must be sequenced and agentPreset must still be master-control. The listed running value must be boolean false. The grant must still be a desktop master-control write grant with the same cwd. A missing live agent calls sessionController.resolveAgent. A failed check is 409 with started_task false. When no model is selected, this resume must supply one and the source is session_live_effective. A model that differs from the confirmed selection before send ends as model_changed_before_send, terminal_scope admission, prompt_attempted false. docs/verified-scope.md says a Windows host upgraded from 0.2.0 to 0.2.2 created two sessions in one authorized workspace through the installed Codex skill. Both were HTTP 200, read master-control from the session projection, and had started_task false. The first then received a local synthetic task that reached phase terminal, terminal_scope official, and completed true. An invalid preset was HTTP 404 agent-preset/not-found. A registered but unauthorized workspace was HTTP 403 workspace_not_allowlisted. After those two refusals, created sessions and dispatches were both zero. The note says this run has no evidence for an official SuperAgent Assignment or a worker session. The post-dispatch recording path in server.js was not line-read. Tests were not rerun."
-    },
-    {
-      "title": "vicfei 1.11.0 holds a ticket at a budget or milestone",
-      "url": "https://github.com/vicfei/dsh-super-agent/commit/21b67fd66adf1c6687fc2e8b9a39eb2c0ac2acf8",
+      "title": "next/0.8 closes an undecided credential-access card as 知道了 on a timeout",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/bdc5490fcc04c5d6bc35a6af70d60c815e30a2b0",
       "confidence": 0.94,
-      "reason": "Window 2026-11-22T17:37:47Z to 2026-11-22T18:35:23Z. Updated vicfei/dsh-super-agent. main tip 21b67fd66adf at 2026-11-22T18:03:09Z is 4 ahead of 99c578617ba9 and 0 behind. docs/designs/delegation-governance.md was not line-read. policy.budget is inert when absent or when maxWallMs, maxAttempts, maxOutputBytes, and maxTokens include no value greater than 0. Wall time sums assignments that have both started_at and ended_at. Attempts are the assignment row count. Output is the largest single output length. Tokens are input plus output from .dsh/usage.json in the worktree. Accepted names are prompt_tokens/completion_tokens, input_tokens/output_tokens, and the camelCase pair. A malformed report does not fail the run. A consumed file is renamed under .dsh/consumed/. nearRatio defaults to 0.8. Reaching a cap holds the ticket and records budget.exhausted. It does not kill the process. Approval stores those dimensions in budget-waived, records budget.waived, and requeues the ticket. Waived dimensions are skipped. A ticket already at a cap does not start. After a run, an open ticket at a cap is held; a completed ticket only records budget.exhausted. When maxWallMs still has remainder, the timeout is the minimum of the executor default and the remainder. When the remainder is not positive, wall is waived, or maxWallMs is unset, the timeout stays the executor default. budget.near is recorded once per dimension. Milestone checks run only when policy.milestones.enabled and policy.approval.enabled are both true. A successful run reads .dsh/milestones.md and keeps lines that start with - or * and whose bracket is a space, x, or X. Pending items hold the ticket and do not complete it. The approval kind is milestone. Digit 1 requeues and writes the last done item plus the remaining items into the next note. Digit 3 adds the counts and the next item. Without the approval surface the gate does not block. Claimable tickets exclude kv keys budget-held: and milestone-held:. The prompt tells the worker to write both files and says the token numbers are not checked. engines.node stays >=20. There is no engines.dsh. npm @vicfei/dsh-super-agent latest is 1.11.0 at 2026-11-22T18:08:44.725Z, shasum e9c77dd4f2966529bca28487b6544f11cfced088, gitHead 21b67fd66adf1c6687fc2e8b9a39eb2c0ac2acf8. Tests were not rerun."
-    },
-    {
-      "title": "ZephyrBD README drops the compiled OpenCode install note",
-      "url": "https://github.com/ZephyrBD/opencode-superagent/commit/e3489e3576b8",
-      "confidence": 0.9,
-      "reason": "Window 2026-11-22T17:37:47Z to 2026-11-22T18:35:23Z. Updated ZephyrBD/opencode-superagent. Tip e3489e3576b8 at 2026-11-22T17:45:04Z is 1 ahead of 81897985e034 and 0 behind. The only file is README.md, deleting one note. That note said opencode plugin add github:ZephyrBD/opencode-superagent#main works on most machines, while a globally installed compiled OpenCode fails git-dependency prepare with git dep preparation failed, and the clone path should be used then. Package, LICENSE, and core/policy.ts were not in the diff. npm @zephyrbd/opencode-superagent stays 404. Tests were not rerun."
+      "reason": "Window 2026-11-22T18:35:23Z to 2026-11-22T19:36:10Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 12eb960a24e8. next/0.8 tip is bdc5490fcc04 at 2026-11-22T19:32:29Z, merging #822 at 18:41:47Z and #823 at 19:32:29Z. Compare master...next/0.8 is diverged: next/0.8 is 35 ahead and 18 behind, so master is 18 ahead and 35 behind. #822 only changes tests/unit/superagent-decision-push.spec.ts (+35/-2). envelopeWithoutCardId checks two lines, DECISION_CARD_HEADER, card.id and decide_at, then strips those two fields before the six leak markers. A fixed id d-00004242-0000-4000-8000-000000000000 still appears in the raw envelope. No src change. #823 adds credentialAckMinutes (default 15, 0 off, integer 0-1440, null clears). It is in RULE_FIELDS. ackCredentialCards runs in pass() before the paused return. It closes only open health cards whose by starts with credential:. Text is 决定：知道了（超时自动）. autoAck stays when DecisionBook.decide replaces decided. AUTO_ACK_SHOWN_MS is 24h. CREDENTIAL_CARD_GAP_MS stays 10 minutes. auditCall still records and does not block. healthReminders.decided is called with 知道了 but auditCall does not register the card in open. package.json stays 0.8.1-preview.28 with no engines.dsh. npm preview stays 0.8.1-preview.28. latest stays 0.7.0. Open PRs #819, #816, #815, #811, #807, #806, and #804 are not merged. #816 is a preview.29 candidate and is not on next/0.8. Tests were not rerun."
     }
   ],
   "pending": [
@@ -15768,34 +15750,46 @@
   ],
   "rejected_this_run": [
     {
-      "title": "mieshui113-bit/superagent-playground is an empty test repository",
-      "url": "https://github.com/mieshui113-bit/superagent-playground",
+      "title": "sa-bot888/superagent-demo rebuilt a banking page",
+      "url": "https://github.com/sa-bot888/superagent-demo/commit/b53f5eb2f5b6",
       "confidence": 0.2,
-      "reason": "Created 2026-11-22T18:19:07Z and pushed 2026-11-22T18:19:44Z. Size 0. Description says it is a dsh-superagent listen-and-run test repository. One init commit. Not written."
+      "reason": "Pushed 2026-11-22T19:20:00Z. The commit restyles a mobile-banking wealth page. It does not name this prototype. Not written."
     },
     {
-      "title": "haydenx107/superagent-v10 is an empty Muse install kit",
-      "url": "https://github.com/haydenx107/superagent-v10",
+      "title": "pungme/superagent-desktop is a Claude and Codex Mac app",
+      "url": "https://github.com/pungme/superagent-desktop/commit/c759f5e6bd38",
       "confidence": 0.15,
-      "reason": "Created 2026-11-22T18:02:20Z. Size 0. Description says SUPERAGENT V10 install kit. The only commit says the kit is for Muse. Not a DSH super-agent source. Not written."
+      "reason": "Pushed 2026-11-22T18:57:39Z. Description names Claude Code, Codex, and Antigravity. Topics do not include DeepSeek Harness. Not written."
     },
     {
-      "title": "danielcampanahernandez2/superagent is an empty repository",
-      "url": "https://github.com/danielcampanahernandez2/superagent",
-      "confidence": 0.1,
-      "reason": "Created 2026-11-22T17:42:51Z. Size 0. No description. One initial commit. Not written."
+      "title": "superstar717/dsh-superagent-playground is a watched test repository",
+      "url": "https://github.com/superstar717/dsh-superagent-playground",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-22T18:49:26Z by merging #61. README says it is a repository watched by dsh-superagent. Playgrounds stay unlisted."
     },
     {
-      "title": "sa-bot888/superagent-demo added a flash-sale page",
-      "url": "https://github.com/sa-bot888/superagent-demo",
-      "confidence": 0.2,
-      "reason": "Pushed 2026-11-22T17:40:28Z. The new commit adds a Spruce Bank flash-sale demo page. It does not name this prototype. Not written."
+      "title": "t3code linked-thread commits do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/380676302298",
+      "confidence": 0.4,
+      "reason": "Commits 380676302298 and 4e1c1fea7aa2 touch linked-thread client and mobile files. No dsh-superagent path. Not written."
     },
     {
-      "title": "mindtheory/dsh-super-agents schedule status was not line-read",
-      "url": "https://github.com/mindtheory/dsh-super-agents/commit/d5240b6baaa6",
-      "confidence": 0.55,
-      "reason": "Pushed 2026-11-22T18:05:46Z. Tip d5240b6baaa6 is 2 ahead of 110145dc10b9. The feature commit changes index.js by 140 lines and says a schedule reports what it is doing. index.js was not line-read. Not written."
+      "title": "IHUI deploy and chat commits do not name this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/4b001db51561",
+      "confidence": 0.4,
+      "reason": "Commits since 2026-11-22T18:35:23Z have no filename containing superagent or dsh-super. Not written."
+    },
+    {
+      "title": "oh-my-pi settings todo backend is not this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/ad9206d87c16",
+      "confidence": 0.35,
+      "reason": "Merged 2026-11-22T18:36:45Z. Files are coding-agent settings and a todo backend. No dsh-superagent path. Not written."
+    },
+    {
+      "title": "A2A preview.29 is still an open pull request",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/816",
+      "confidence": 0.7,
+      "reason": "Open against next/0.8. Title says preview.29 receipt-capacity hotfix candidate. Not merged. npm preview stays 0.8.1-preview.28. Not written."
     }
   ],
   "held_on_other_branches": [
@@ -16322,5 +16316,5 @@
     "tonbiattack/autopilot-merge-check-86302 closed merge-check PRs are the disposable live-merge target. Do not list that repository."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). modified remains 2026-11-22T09:57:12.602Z. @perrylink/dsh-github latest is 0.7.37 (published 2026-11-22T16:11:16.134Z, gitHead 086838447309ecd0f34e84ec670739b42f713f92). @vicfei/dsh-super-agent latest moved to 1.11.0 (published 2026-11-22T18:08:44.725Z, gitHead 21b67fd66adf1c6687fc2e8b9a39eb2c0ac2acf8, shasum e9c77dd4f2966529bca28487b6544f11cfced088). @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.28 (published 2026-11-22T06:43:09.229Z)."
+  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). modified remains 2026-11-22T09:57:12.602Z. @perrylink/dsh-github latest is 0.7.37 (published 2026-11-22T16:11:16.134Z, gitHead 086838447309ecd0f34e84ec670739b42f713f92). @vicfei/dsh-super-agent latest moved to 1.11.0 (published 2026-11-22T18:08:44.725Z, gitHead 21b67fd66adf1c6687fc2e8b9a39eb2c0ac2acf8, shasum e9c77dd4f2966529bca28487b6544f11cfced088). @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.28 (published 2026-11-22T06:43:09.229Z). Rechecked 2026-11-22T19:36:10Z; dist-tags unchanged."
 }
