@@ -1,32 +1,68 @@
 {
-  "last_run_at": "2026-11-22T06:38:00Z",
+  "last_run_at": "2026-11-22T07:34:24Z",
   "timezone": "UTC",
-  "baseline_commit": "ab2b48f",
+  "baseline_commit": "f310faa",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-22T05:29:41Z",
-    "to": "2026-11-22T06:38:00Z"
+    "from": "2026-11-22T06:38:00Z",
+    "to": "2026-11-22T07:34:24Z"
   },
-  "added": [
+  "added": [],
+  "updated": [
     {
-      "title": "headinwinter/windows-dsh-superagent",
-      "url": "https://github.com/headinwinter/windows-dsh-superagent",
-      "confidence": 0.92,
-      "reason": "Created 2026-11-22T06:06:04Z. Only commit 6cbb1fde604b at 2026-11-22T06:05:40Z has no parent. Package private dsh-superagent 0.1.0, engines.dsh ^0.2.1-alpha.2, node ^22.19.0 || >=24. windows/cli-wrapper.cs and env-shim.cs build real exes with csc. sessions restrict uses pwsh on win32. environment.ts strips a leading \\\\?\\ before the gitTooOld compare. stopSubagents returns when listChildren or drainChildren is not a function. Feishu chunks at 3500. stateDir schema still requires a leading slash. scripts/dsh-superagent still needs tmux and fcntl."
-    },
-    {
-      "title": "tonbiattack/dsh-superagent-prototype autopilot merge",
+      "title": "tonbiattack Japanese autopilot guide",
       "url": "https://github.com/tonbiattack/dsh-superagent-prototype",
-      "confidence": 0.9,
-      "reason": "Fork is 18 ahead of 8c32a9dc5d72 and 0 behind. Tip 22654467a8e0 at 2026-11-22T06:11:48Z. enabled defaults false. autoMerge and autoPush default true, merge method squash. pullMergedState reads merged or merged_at. unknown mergeable_state is not a refusal. merge PUT sends sha of the checked commit. Live merge runs only with DSH_SUPERAGENT_LIVE_MERGE_REPO."
+      "confidence": 0.92,
+      "reason": "Started after the 06:38Z scan at f310faa. Window 2026-11-22T06:38:00Z to 2026-11-22T07:34:24Z. Updated tonbiattack/dsh-superagent-prototype only. Tip is a69b209a0865 at 2026-11-22T06:51:44Z, 19 ahead of 8c32a9dc5d72 and 0 behind. The commit adds docs/012-issue-autopilot-usage.md and README links to docs/012, docs/009-issue-autopilot-fork.md, and docs/011-windows-wsl.md. It does not change enabled, autoMerge, autoPush, the sha guard, pullMergedState, or the unknown mergeable_state rule. The Japanese guide says one Issue maps to agent/issue-<number>, one verify command is run by the prototype, a running job is not stopped directly, and a protected-branch live merge is still unverified on a real repository. docs/011 says the process, stateDir, and checkouts stay on the WSL2 Linux filesystem, not /mnt/c. Prototype tip stays 8c32a9dc5d72; pushed_at stays 2026-11-03T09:29:14Z. Harness master stays d98f5d685192; pushed_at stays 2026-11-22T03:18:55Z. Release stays dsh-v0.2.3-alpha.1. npm latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.1. headinwinter stays 6cbb1fde604b."
     }
   ],
-  "updated": [],
   "pending": [
+    {
+      "title": "tonbiattack Japanese autopilot guide",
+      "url": "https://github.com/tonbiattack/dsh-superagent-prototype",
+      "confidence": 0.92,
+      "reason": "Started after the 06:38Z scan at f310faa. Window 2026-11-22T06:38:00Z to 2026-11-22T07:34:24Z. Updated tonbiattack/dsh-superagent-prototype only. Tip is a69b209a0865 at 2026-11-22T06:51:44Z, 19 ahead of 8c32a9dc5d72 and 0 behind. The commit adds docs/012-issue-autopilot-usage.md and README links to docs/012, docs/009-issue-autopilot-fork.md, and docs/011-windows-wsl.md. It does not change enabled, autoMerge, autoPush, the sha guard, pullMergedState, or the unknown mergeable_state rule. The Japanese guide says one Issue maps to agent/issue-<number>, one verify command is run by the prototype, a running job is not stopped directly, and a protected-branch live merge is still unverified on a real repository. docs/011 says the process, stateDir, and checkouts stay on the WSL2 Linux filesystem, not /mnt/c. Prototype tip stays 8c32a9dc5d72; pushed_at stays 2026-11-03T09:29:14Z. Harness master stays d98f5d685192; pushed_at stays 2026-11-22T03:18:55Z. Release stays dsh-v0.2.3-alpha.1. npm latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.1. headinwinter stays 6cbb1fde604b."
+    },
+    {
+      "title": "dbc-hbin/omp-superagent main moved but still has no engines.dsh",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/f91dc54c10de",
+      "confidence": 0.88,
+      "reason": "main is f91dc54c10de at 2026-11-22T07:27:11Z, merge of #28. Package stays omp-superagent 0.1.6. engines is bun >=1.4.4. No engines.dsh and no dsh field. Not listed."
+    },
+    {
+      "title": "wcgg147/superagent-pack does not hook this prototype",
+      "url": "https://github.com/wcgg147/superagent-pack",
+      "confidence": 0.62,
+      "reason": "Tip 94ac7c822406 at 2026-11-22T07:25:08Z is a UI restyle. Packages dsh-superagent-intervention, dsh-superagent-takeover, and dsh-superagent-caretaker 1.0.0 have no engines.dsh. Code does not name the prototype ticket or Source model. Held in pending."
+    },
+    {
+      "title": "Momentum96 worker-onboarding is not main",
+      "url": "https://github.com/Momentum96/omp-superagent",
+      "confidence": 0.86,
+      "reason": "CreateEvent at 2026-11-22T06:42:28Z is branch worker-onboarding. main stays 7d437e4a5339. Not listed."
+    },
+    {
+      "title": "empty prototype forks after 06:38Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "confidence": 0.9,
+      "reason": "ethan-jiang-1/dsh-superagent-prototype was created 2026-11-22T06:48:11Z and LuisQin01/my-dsh-superagent was created 2026-11-22T06:46:41Z. Both still show pushed_at 2026-11-03T09:29:14Z. Not listed."
+    },
+    {
+      "title": "IHUI and oh-my-pi did not move the listed super-agent code",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/6466019cce21",
+      "confidence": 0.9,
+      "reason": "IHUI commits from e507eaddaf5a through 6466019cce21 at 2026-11-22T07:29:57Z do not touch a super-agent path. oh-my-pi main stays e1a9f4b41d24. Not rewritten."
+    },
+    {
+      "title": "Harness discussions in this window do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14044",
+      "confidence": 0.86,
+      "reason": "#14044 comment at 2026-11-22T07:03:47Z is another EntryValidationError reproduction and does not name this prototype. #8077, #13779, #14055, and #14051 do not name it either. Not a new row."
+    },
     {
       "title": "window after 04:36Z changed no list rows",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -15438,43 +15474,44 @@
   ],
   "rejected_this_run": [
     {
-      "title": "dbc-hbin omp ssh lanes are not main",
-      "url": "https://github.com/dbc-hbin/omp-superagent/pull/31",
-      "confidence": 0.86,
-      "reason": "Push 0fb02905fa60 at 2026-11-22T06:21:33Z is feat/ssh-remote-lanes. Open PRs #31 and #30 are not merged. main stays 7d437e4a5339. Not listed."
+      "title": "dbc-hbin/omp-superagent main moved but still has no engines.dsh",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/f91dc54c10de",
+      "confidence": 0.88,
+      "reason": "main is f91dc54c10de at 2026-11-22T07:27:11Z, merge of #28. Package stays omp-superagent 0.1.6. engines is bun >=1.4.4. No engines.dsh and no dsh field. Not listed."
     },
     {
-      "title": "Momentum96 remote-workers branch",
+      "title": "wcgg147/superagent-pack does not hook this prototype",
+      "url": "https://github.com/wcgg147/superagent-pack",
+      "confidence": 0.62,
+      "reason": "Tip 94ac7c822406 at 2026-11-22T07:25:08Z is a UI restyle. Packages dsh-superagent-intervention, dsh-superagent-takeover, and dsh-superagent-caretaker 1.0.0 have no engines.dsh. Code does not name the prototype ticket or Source model. Held in pending."
+    },
+    {
+      "title": "Momentum96 worker-onboarding is not main",
       "url": "https://github.com/Momentum96/omp-superagent",
-      "confidence": 0.8,
-      "reason": "CreateEvent at 2026-11-22T05:54:34Z is branch remote-workers. No main commit after 05:29Z. Not listed."
+      "confidence": 0.86,
+      "reason": "CreateEvent at 2026-11-22T06:42:28Z is branch worker-onboarding. main stays 7d437e4a5339. Not listed."
     },
     {
-      "title": "Nelson #797 stays on next/0.8",
-      "url": "https://github.com/nelsonlongxiang/dsh-open-a2a-net/pull/797",
-      "confidence": 0.84,
-      "reason": "Merged 2026-11-22T06:12:08Z to next/0.8. It stabilizes tests on a contended Windows host. master stays d433add75295. Not listed."
+      "title": "empty prototype forks after 06:38Z",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "confidence": 0.9,
+      "reason": "ethan-jiang-1/dsh-superagent-prototype was created 2026-11-22T06:48:11Z and LuisQin01/my-dsh-superagent was created 2026-11-22T06:46:41Z. Both still show pushed_at 2026-11-03T09:29:14Z. Not listed."
     },
     {
-      "title": "scenechoice superagent doc is an open PR",
-      "url": "https://github.com/zhugela/scenechoice/pull/11",
-      "confidence": 0.7,
-      "reason": "Open against master. Three-sentence harness doc on branch agent/add-superagent-live-doc-f12a28e71e90. Not merged. Not listed."
+      "title": "IHUI and oh-my-pi did not move the listed super-agent code",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/6466019cce21",
+      "confidence": 0.9,
+      "reason": "IHUI commits from e507eaddaf5a through 6466019cce21 at 2026-11-22T07:29:57Z do not touch a super-agent path. oh-my-pi main stays e1a9f4b41d24. Not rewritten."
     },
     {
-      "title": "dsh-marshal routing fix is not main",
-      "url": "https://github.com/JR-Rong/dsh-marshal/pull/7",
-      "confidence": 0.75,
-      "reason": "Push 0a2cfa04c3d2 at 2026-11-22T05:52:47Z is branch rjr/cx/pr6-routing-memory-fixes. PR #7 targets feat/mobile-one-code, not main. Not listed."
-    },
-    {
-      "title": "Harness discussions 14050-14053",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14053",
-      "confidence": 0.8,
-      "reason": "Titles are settings rollback, a Copilot key, a DSML context bug, and session titles. They do not name this prototype. Not listed."
+      "title": "Harness discussions in this window do not name the prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14044",
+      "confidence": 0.86,
+      "reason": "#14044 comment at 2026-11-22T07:03:47Z is another EntryValidationError reproduction and does not name this prototype. #8077, #13779, #14055, and #14051 do not name it either. Not a new row."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-22T07:34:24Z: dbc-hbin/omp-superagent main is f91dc54c10de and still has no engines.dsh. Momentum96/omp-superagent main stays 7d437e4a5339. worker-onboarding is not main. oh-my-pi main stays e1a9f4b41d24. LofiSu was not rechecked past pushed_at 2026-11-22T04:33:27Z.",
     "2026-11-22T05:29:41Z: dbc-hbin/omp-superagent main stays 7d437e4a5339. fix/head-context-routing is be96d32a6d6c and is not main. Momentum96/omp-superagent main stays 7d437e4a5339. discord-require-addressing is 8e94231491c3 and is not main. LofiSu main stays ca9823e5c096. Open PR #182 head stays 83770cce495d.",
     "2026-11-22T04:36:00Z: LofiSu main stays ca9823e5c096. Open PR #182 head 83770cce495d is not main. Open PR #175 head stays 7044a54b7ec1. Nelson master stays d433add75295. next/0.8 stays 7e3381701a14 and is not master. oh-my-pi main stays e1a9f4b41d24. agentdescent open PR #1218 is not main.",
     "2026-11-22T03:32:00Z: LofiSu main stays ca9823e5c096. Open PR #182 head dcf3e00438e6 is not main. omp main stays 9c39373bfac3. Open PR #27 head 2c5ba6516022 is not main. Nelson master stays d433add75295. next/0.8 stays 7e3381701a14 and is not master.",
