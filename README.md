@@ -421,6 +421,10 @@
 
 - [StarRail2077/opencode-superagent](https://github.com/StarRail2077/opencode-superagent) - 🔌 非官方的 OpenCode Desktop 插件，不跑在 DSH 上，也不是 DeepSeek 的仓库。2026-11-21 03:41 UTC 创建，尖端 `6b20f9eab394`（04:02 UTC）。包 `opencode-superagent` 0.1.0，只依赖 `@opencode/plugin` 2.2.6，MIT。工具只在 agent `superagent` 里可用。`dispatch` 另开 Worker 会话并记下 ticket；活跃票达到默认 `maxWorkers` 8 就拒绝。Watchdog 默认关，关着时 `run` 也直接返回 `watchdog-disabled`；它自己的会话会删掉全部工具。Worker 默认拿不到 `subagent` 和 `task`。测试没有重跑.
 
+- [headinwinter/windows-dsh-superagent](https://github.com/headinwinter/windows-dsh-superagent) - 🔌 非官方的 Windows 移植，整库一次放上，没有父提交，不是 Git fork，也不是 DeepSeek 的仓库。2026-11-22 06:05 UTC 的唯一提交 `6cbb1fde604b`。包仍是 private 的 `dsh-superagent` 0.1.0，`engines.dsh` 是 `^0.2.1-alpha.2`，Node 要 `^22.19.0 || >=24`。`windows/cli-wrapper.cs` 编成真正的 `.exe`，因为 Node 在 Windows 上 spawn `.cmd` 会 EINVAL；`windows/env-shim.cs` 只实现探测用的 `env VAR=value program`，避免把依赖 MSYS DLL 的 Git `env.exe` 拷到 PATH。`build-wrappers.ps1` 用系统 `csc.exe` 写出 `env.exe`、`sh.exe`、`gh-<name>.exe` 和 `lark-bot.exe`。编排会话在 win32 上把 `tools.restrict` 的 shell 从上游固定的 `bash` 换成 `pwsh`。核对 credential helper 来源时去掉 `\\?\` 前缀，这个前缀本身不会被当成 `gitTooOld`。`stopSubagents` 在 `listChildren` 或 `drainChildren` 不是函数时直接返回。飞书正文按 3500 字切开。`stateDir` 的 schema 仍要求以 `/` 开头，README 写的是 `//localhost/C$/…`。`scripts/dsh-superagent` 仍要 `tmux` 和 `fcntl`。MIT，版权行仍是 DeepSeek Harness Team.
+
+- [tonbiattack/dsh-superagent-prototype](https://github.com/tonbiattack/dsh-superagent-prototype) - 🔌 官方原型的 fork，比 `8c32a9d` 超前 18 个提交、落后 0（尖端 `22654467a8e0`，2026-11-22 06:11 UTC），不是 DeepSeek 的仓库。多出来的是默认关闭的 Issue autopilot：`enabled` 默认 false。打开之后，只有它自己的轮询从 GitHub 读到的标签才算授权，作者还必须仍在允许名单里；别的路径不能靠 metadata 自称带了这个标签。标签默认 `autopilot`，轮询默认 60 秒，全局和每个仓库同时最多 1 个，修正最多 3 次。`autoPush` 和 `autoMerge` 默认 true，合并方式默认 squash，并默认要求遵守分支保护、不直接提交默认分支。合并请求带上当时核对过的 `sha`，分支已经挪走就由 GitHub 拒绝。`pullMergedState` 把 `merged === true` 或带 `merged_at` 都当成已合并，重试按编号取最新的一张。`mergeable_state` 为 `unknown` 不当成拒绝。实时合并测试只在 `DSH_SUPERAGENT_LIVE_MERGE_REPO` 指向一次性仓库时跑。MIT.
+
 ## 生态
 
 跑 superagent 时偶尔会一起用到的。皮肤和挂件不收。和本原型的工单模型不同的，不要混装当替代品。
