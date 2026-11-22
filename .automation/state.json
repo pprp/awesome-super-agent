@@ -1,18 +1,37 @@
 {
-  "last_run_at": "2026-11-22T14:38:27Z",
+  "last_run_at": "2026-11-22T15:37:44Z",
   "timezone": "UTC",
-  "baseline_commit": "dadd8aa",
+  "baseline_commit": "6672d15",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-22T13:36:32Z",
-    "to": "2026-11-22T14:38:27Z"
+    "from": "2026-11-22T14:38:27Z",
+    "to": "2026-11-22T15:37:44Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "scottzx group members can speak and sessions start early",
+      "url": "https://github.com/scottzx/dsh-multi-superagent/commit/1d52d24b7860",
+      "confidence": 0.9,
+      "reason": "Started after the 14:38Z scan at 6672d15. Window 2026-11-22T14:38:27Z to 2026-11-22T15:37:44Z. Added scottzx/dsh-multi-superagent. Not a GitHub fork. Tip 1d52d24b7860 at 2026-11-22T15:17:37Z is 16 ahead of 8c32a9dc5d72 and 0 behind. Package stays private dsh-superagent 0.1.0. engines.node is ^22.19.0 || >=24.0.0. engines.dsh stays ^0.2.1-alpha.2. npm semver default rejects 0.2.2-rc.5 and 0.2.3-alpha.2. Author stays DeepSeek Harness Team. MIT. Only the tip commit was line-read. superagent_team_message no longer requires the group owner. The prompt lets any member speak, including all-hands. Add, remove, propose, and dispatch stay with the owner. A disabled sender gets superagentDisabled. ensureSuperagentSession runs when a specialist is created or saved while active, and again for each active non-human superagent at startup. A model init failure falls back to the DSH default, then decorate and danger-full-access still run. Team task session titles use the superagent name. superagent-inbox dropped quiet: true. src/client/group-chat.tsx was not line-read. The other 15 commits were not line-read. Tests were not rerun."
+    },
+    {
+      "title": "nonGuo runs prepare in pwsh and can refuse GitHub",
+      "url": "https://github.com/nonGuo/dsh-SuperAgent/commit/66e7bc088018",
+      "confidence": 0.92,
+      "reason": "Started after the 14:38Z scan at 6672d15. Window 2026-11-22T14:38:27Z to 2026-11-22T15:37:44Z. Added nonGuo/dsh-SuperAgent. Not a GitHub fork. Tip 66e7bc088018 at 2026-11-22T15:25:12Z is 1 ahead of 8c32a9dc5d72 and 0 behind. Package stays private dsh-superagent 0.1.0. engines.node is ^22.19.0 || >=24.0.0. engines.dsh stays ^0.2.1-alpha.2. npm semver default rejects 0.2.2-rc.5 and 0.2.3-alpha.2. Author and LICENSE stay DeepSeek Harness Team. MIT. localOnly defaults false. It skips repository and account resolution. Commands throw when repository is empty. GitHub polling runs only when a repository is configured. localOnly does not write worker shims or change the process environment. cordis.patch.yml adds dsh-superagent-local without disabled: true. POST /superagent/inbox requires x-superagent-request: 1 and a bearer token when one is set. Bodies over 65536 bytes are refused. /superagent/ws accepts the token as a query or a bearer. Replies go to every open bridge and to inbox/outbox. Gateway reconnect backoff starts at 1s, doubles, and caps at 30s. Windows prepare uses pwsh -NoProfile -NonInteractive -Command. Other platforms stay on sh -c. Windows shims are .cmd files that strip their own directory from PATH. .cmd and .bat run through cmd.exe /d /s /c. GitHub POST JSON goes on stdin. The main session names bash and pwsh and restrict keeps only tools the host has. noWait covers pwsh and Start-Sleep. The Windows credential helper is !\"<cli>\" auth git-credential. POSIX suites skip on win32. Windows suites skip elsewhere. Tests were not rerun."
+    }
+  ],
   "updated": [
+    {
+      "title": "window after 14:38Z changed no other list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Started after the 14:38Z scan at 6672d15. Window 2026-11-22T14:38:27Z to 2026-11-22T15:37:44Z. No other README rows rewritten. Prototype tip stays 8c32a9dc5d72; pushed_at stays 2026-11-03T09:29:14Z. updated_at is 2026-11-22T15:23:48Z and is not a new commit. Harness master stays 4b399c39a6d1; pushed_at stays 2026-11-22T11:00:05Z. updated_at is 2026-11-22T15:31:16Z and is not a new commit. Newest release stays dsh-v0.2.3-alpha.2 published 2026-11-22T11:00:39Z and is a prerelease. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z. alpha stays 0.2.3-alpha.2 at 2026-11-22T09:57:12.419Z. modified stays 2026-11-22T09:57:12.602Z. No gitHead. hermes-superagent main stays 28ae625e7739. PerryLink/dsh-github stays 0.7.36. tonbiattack stays 2b2147ba1f38. specmill stays 637beaae953e. Nelson master stays 12eb960a24e8. next/0.8 stays dcb7ecd8155e. pushed_at is 2026-11-22T15:32:16Z because open PRs moved. #804 head 2b21cfe50838, #806 head d4e5770584e9, and #807 head df406d0ed9db are not merged. npm preview stays 0.8.1-preview.28. latest stays 0.7.0. fliggy main stays 0f117633c0f7. Open PR #63 head stays 47040fb4468d. LofiSu main stays ca9823e5c096. Open PR #182 head stays 83770cce495d. oh-my-pi main stays b505770284de. pushed_at is 2026-11-22T15:01:42Z and is not a new commit. vicfei main stays 99c578617ba9. t3code is 2c4310eb0613, 6 commits and 16 files after ad2bdc76a5bf and 0 behind. No filename matches superagent, dsh, or DeepSeek. Not rewritten. IHUI is 44d1ebf1112f, 1 commit and 5 files after c11051f89eda and 0 behind. Files are next.config, web package.json, a dependency audit, the lockfile, and a drift baseline. Not rewritten. dbc-hbin/omp-superagent main is bf8f34c7f1d3 at 2026-11-22T15:13:17Z, merge of #35. Package stays omp-superagent 0.1.7. engines is bun >=1.4.4. There is no engines.dsh. Not listed. Rodert/wechat-win-versions is 3b15cac418a5. releases.json only changes download counts. Not rewritten. nihaoWX/wheelchair-agent pushed_at is 2026-11-22T15:31:30Z. main stays 7286d0aff9cc at 2026-11-18T13:21:07Z. Not rewritten. Of 261 repository names checked after dropping 11 that still do not resolve, 6 had pushed_at after 14:38:27Z. fsy0718/dsh-superagent-prototype still does not resolve. Discussions updated after 14:38:27Z include #14095, #10769, #12708, #13399, #13906, #14094, #4303, and #14093. #13906's new comment at 2026-11-22T14:55:27Z is a token-meter measurement and does not name this prototype. The other bodies do not contain dsh-superagent, Mandate, Ticket, superagent, or prototype. arXiv query all:dsh-superagent returned 0 results. Newest HN story for dsh-superagent remains 2026-11-11T16:50:41Z. No open PR on this list."
+    },
     {
       "title": "tonbiattack autopilot routes, reuses a session, and isolates a worktree",
       "url": "https://github.com/tonbiattack/dsh-superagent-prototype/commit/2b2147ba1f38",
@@ -39,6 +58,30 @@
     }
   ],
   "pending": [
+    {
+      "title": "xyt071024 v0.3.11 sync still has backup files",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/679327f2f836",
+      "confidence": 0.55,
+      "reason": "Pushed 2026-11-22T15:23:50Z, inside the window. Nineteen commits landed within one minute. Docs name both v0.3.9 and v0.3.11. One commit syncs src-repo to private dsh-superagent 0.3.11 with engines.dsh ^0.2.1-alpha.2 and also adds .bak-before-m02 files. archive.ts, relay.ts, runtime.ts, and sessions.ts were not line-read. Install pages were not checked against the official deployment doc. Not written."
+    },
+    {
+      "title": "scottzx group members can speak and sessions start early",
+      "url": "https://github.com/scottzx/dsh-multi-superagent/commit/1d52d24b7860",
+      "confidence": 0.9,
+      "reason": "Started after the 14:38Z scan at 6672d15. Window 2026-11-22T14:38:27Z to 2026-11-22T15:37:44Z. Added scottzx/dsh-multi-superagent. Not a GitHub fork. Tip 1d52d24b7860 at 2026-11-22T15:17:37Z is 16 ahead of 8c32a9dc5d72 and 0 behind. Package stays private dsh-superagent 0.1.0. engines.node is ^22.19.0 || >=24.0.0. engines.dsh stays ^0.2.1-alpha.2. npm semver default rejects 0.2.2-rc.5 and 0.2.3-alpha.2. Author stays DeepSeek Harness Team. MIT. Only the tip commit was line-read. superagent_team_message no longer requires the group owner. The prompt lets any member speak, including all-hands. Add, remove, propose, and dispatch stay with the owner. A disabled sender gets superagentDisabled. ensureSuperagentSession runs when a specialist is created or saved while active, and again for each active non-human superagent at startup. A model init failure falls back to the DSH default, then decorate and danger-full-access still run. Team task session titles use the superagent name. superagent-inbox dropped quiet: true. src/client/group-chat.tsx was not line-read. The other 15 commits were not line-read. Tests were not rerun."
+    },
+    {
+      "title": "nonGuo runs prepare in pwsh and can refuse GitHub",
+      "url": "https://github.com/nonGuo/dsh-SuperAgent/commit/66e7bc088018",
+      "confidence": 0.92,
+      "reason": "Started after the 14:38Z scan at 6672d15. Window 2026-11-22T14:38:27Z to 2026-11-22T15:37:44Z. Added nonGuo/dsh-SuperAgent. Not a GitHub fork. Tip 66e7bc088018 at 2026-11-22T15:25:12Z is 1 ahead of 8c32a9dc5d72 and 0 behind. Package stays private dsh-superagent 0.1.0. engines.node is ^22.19.0 || >=24.0.0. engines.dsh stays ^0.2.1-alpha.2. npm semver default rejects 0.2.2-rc.5 and 0.2.3-alpha.2. Author and LICENSE stay DeepSeek Harness Team. MIT. localOnly defaults false. It skips repository and account resolution. Commands throw when repository is empty. GitHub polling runs only when a repository is configured. localOnly does not write worker shims or change the process environment. cordis.patch.yml adds dsh-superagent-local without disabled: true. POST /superagent/inbox requires x-superagent-request: 1 and a bearer token when one is set. Bodies over 65536 bytes are refused. /superagent/ws accepts the token as a query or a bearer. Replies go to every open bridge and to inbox/outbox. Gateway reconnect backoff starts at 1s, doubles, and caps at 30s. Windows prepare uses pwsh -NoProfile -NonInteractive -Command. Other platforms stay on sh -c. Windows shims are .cmd files that strip their own directory from PATH. .cmd and .bat run through cmd.exe /d /s /c. GitHub POST JSON goes on stdin. The main session names bash and pwsh and restrict keeps only tools the host has. noWait covers pwsh and Start-Sleep. The Windows credential helper is !\"<cli>\" auth git-credential. POSIX suites skip on win32. Windows suites skip elsewhere. Tests were not rerun."
+    },
+    {
+      "title": "window after 14:38Z changed no other list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Started after the 14:38Z scan at 6672d15. Window 2026-11-22T14:38:27Z to 2026-11-22T15:37:44Z. No other README rows rewritten. Prototype tip stays 8c32a9dc5d72; pushed_at stays 2026-11-03T09:29:14Z. updated_at is 2026-11-22T15:23:48Z and is not a new commit. Harness master stays 4b399c39a6d1; pushed_at stays 2026-11-22T11:00:05Z. updated_at is 2026-11-22T15:31:16Z and is not a new commit. Newest release stays dsh-v0.2.3-alpha.2 published 2026-11-22T11:00:39Z and is a prerelease. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z. alpha stays 0.2.3-alpha.2 at 2026-11-22T09:57:12.419Z. modified stays 2026-11-22T09:57:12.602Z. No gitHead. hermes-superagent main stays 28ae625e7739. PerryLink/dsh-github stays 0.7.36. tonbiattack stays 2b2147ba1f38. specmill stays 637beaae953e. Nelson master stays 12eb960a24e8. next/0.8 stays dcb7ecd8155e. pushed_at is 2026-11-22T15:32:16Z because open PRs moved. #804 head 2b21cfe50838, #806 head d4e5770584e9, and #807 head df406d0ed9db are not merged. npm preview stays 0.8.1-preview.28. latest stays 0.7.0. fliggy main stays 0f117633c0f7. Open PR #63 head stays 47040fb4468d. LofiSu main stays ca9823e5c096. Open PR #182 head stays 83770cce495d. oh-my-pi main stays b505770284de. pushed_at is 2026-11-22T15:01:42Z and is not a new commit. vicfei main stays 99c578617ba9. t3code is 2c4310eb0613, 6 commits and 16 files after ad2bdc76a5bf and 0 behind. No filename matches superagent, dsh, or DeepSeek. Not rewritten. IHUI is 44d1ebf1112f, 1 commit and 5 files after c11051f89eda and 0 behind. Files are next.config, web package.json, a dependency audit, the lockfile, and a drift baseline. Not rewritten. dbc-hbin/omp-superagent main is bf8f34c7f1d3 at 2026-11-22T15:13:17Z, merge of #35. Package stays omp-superagent 0.1.7. engines is bun >=1.4.4. There is no engines.dsh. Not listed. Rodert/wechat-win-versions is 3b15cac418a5. releases.json only changes download counts. Not rewritten. nihaoWX/wheelchair-agent pushed_at is 2026-11-22T15:31:30Z. main stays 7286d0aff9cc at 2026-11-18T13:21:07Z. Not rewritten. Of 261 repository names checked after dropping 11 that still do not resolve, 6 had pushed_at after 14:38:27Z. fsy0718/dsh-superagent-prototype still does not resolve. Discussions updated after 14:38:27Z include #14095, #10769, #12708, #13399, #13906, #14094, #4303, and #14093. #13906's new comment at 2026-11-22T14:55:27Z is a token-meter measurement and does not name this prototype. The other bodies do not contain dsh-superagent, Mandate, Ticket, superagent, or prototype. arXiv query all:dsh-superagent returned 0 results. Newest HN story for dsh-superagent remains 2026-11-11T16:50:41Z. No open PR on this list."
+    },
     {
       "title": "tonbiattack autopilot routes, reuses a session, and isolates a worktree",
       "url": "https://github.com/tonbiattack/dsh-superagent-prototype/commit/2b2147ba1f38",
@@ -15618,31 +15661,32 @@
   ],
   "rejected_this_run": [
     {
-      "title": "vicfei roadmap does not change 1.10.0",
-      "url": "https://github.com/vicfei/dsh-super-agent/commit/99c578617ba9",
+      "title": "t3code has no prototype filename",
+      "url": "https://github.com/pingdotgg/t3code/commit/2c4310eb0613",
       "confidence": 0.9,
-      "reason": "main is 99c578617ba9 at 2026-11-22T13:48:10Z. The message says it records a v1.11 plan. package.json stays @vicfei/dsh-super-agent 1.10.0. engines.node stays >=20. There is no engines.dsh. Not rewritten."
+      "reason": "main is 2c4310eb0613 at 2026-11-22T15:29:08Z, 6 commits and 16 files after ad2bdc76a5bf and 0 behind. No filename matches superagent, dsh, or DeepSeek. Not rewritten."
     },
     {
-      "title": "t3code and IHUI have no prototype filename",
-      "url": "https://github.com/pingdotgg/t3code/commit/ad2bdc76a5bf",
-      "confidence": 0.88,
-      "reason": "t3code main is ad2bdc76a5bf, 4 commits and 38 files after a985332c4471. IHUI main is c11051f89eda, files .gitignore and scripts/check-tracked-ignored.mjs. No filename matches superagent, dsh, or DeepSeek. Not rewritten."
+      "title": "IHUI dependency audit does not name this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/44d1ebf1112f",
+      "confidence": 0.9,
+      "reason": "main is 44d1ebf1112f at 2026-11-22T15:08:29Z, 1 commit and 5 files after c11051f89eda and 0 behind. Files are apps/web/next.config.ts, apps/web/package.json, docs/dependency-audit-2026-11-22.md, pnpm-lock.yaml, and scripts/data/cross-end-drift-gate-baseline.json. Not rewritten."
     },
     {
       "title": "omp-superagent 0.1.7 still has no engines.dsh",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/e5e0ce5635b2",
-      "confidence": 0.9,
-      "reason": "PR #34 merged. main is e5e0ce5635b2 at 2026-11-22T13:49:15Z. Package is omp-superagent 0.1.7. engines is bun >=1.4.4. There is no engines.dsh. Not listed."
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/bf8f34c7f1d3",
+      "confidence": 0.92,
+      "reason": "main is bf8f34c7f1d3 at 2026-11-22T15:13:17Z, merge of #35, 1 ahead of e5e0ce5635b2 and 0 behind. Package stays omp-superagent 0.1.7. engines is bun >=1.4.4. There is no engines.dsh. Not listed."
     },
     {
-      "title": "fliggy PR 63 is still not main",
-      "url": "https://github.com/fliggy-travel-ai/dsh-superagent-prototype/pull/63",
-      "confidence": 0.88,
-      "reason": "PR #63 is open. Head stays 47040fb4468d. updated_at 2026-11-22T13:29:24Z is before this window. main stays 0f117633c0f7. Not rewritten."
+      "title": "Rodert release cache only changes download counts",
+      "url": "https://github.com/Rodert/wechat-win-versions/commit/3b15cac418a5",
+      "confidence": 0.86,
+      "reason": "main is 3b15cac418a5 at 2026-11-22T14:57:38Z. The only file is releases.json. The patch changes download_count fields. Not rewritten."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-22T15:37:44Z: Nelson PRs #804 head 2b21cfe50838, #806 head d4e5770584e9, and #807 head df406d0ed9db are not merged. master stays 12eb960a24e8. next/0.8 stays dcb7ecd8155e. npm preview stays 0.8.1-preview.28.",
     "2026-11-22T13:36:32Z: specmill feat/superagent-container 29439d877692 is not main. Nelson PR #803 head 3fd1ab1cdb4f is not merged onto next/0.8 7df0d21a0d20. fliggy PR #63 head 47040fb4468d is not merged onto 0f117633c0f7. dbc-hbin PR #34 head 0f405a34a2fb is not main ac32463481e6. oh-my-pi b505770284de and t3code a985332c4471 have no dsh-superagent filename.",
     "2026-11-22T11:41:09Z: omp-superagent main has no commit after 10:39:38Z. Open PR #34 head f423c3a9738c is not main. oh-my-pi main is 69e007c45651 and has no dsh-superagent filename. Nelson feat/builder-github-source ff65051a1023 merged to next/0.8 as 7df0d21a0d20 and is not master. Hivebot a1bcffd2cc0a is main and was not listed.",
     "2026-11-22T09:34:34Z: dbc-hbin/omp-superagent main is ac32463481e6 and still has no engines.dsh. dsh-agent-swarm-console 0.4.4 has no engines.dsh. DataT-x 4c286d41a8cf is a settings iframe. agentdescent main stays 6accc708cb5d. Nelson next/0.8 stays 2d5788ebf777 and is an ancestor of master 12eb960a24e8. Tag v0.8.1-preview.28 points at 2d5788ebf777.",
