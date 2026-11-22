@@ -1,26 +1,32 @@
 {
-  "last_run_at": "2026-11-22T00:33:00Z",
+  "last_run_at": "2026-11-22T01:36:00Z",
   "timezone": "UTC",
-  "baseline_commit": "bc28592",
+  "baseline_commit": "a1fa877",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-21T23:35:20Z",
-    "to": "2026-11-22T00:33:00Z"
+    "from": "2026-11-22T00:33:00Z",
+    "to": "2026-11-22T01:36:00Z"
   },
   "added": [],
   "updated": [
     {
-      "title": "window after 23:35Z changed no list rows",
+      "title": "window after 00:33Z changed no list rows",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.9,
-      "reason": "Started after the 23:35Z scan at bc28592. Window 2026-11-21T23:35:20Z to 2026-11-22T00:33:00Z. No README rows added or rewritten. Prototype tip stays 8c32a9dc5d72; pushed_at stays 2026-11-03T09:29:14Z. Harness master stays 2e39e70496aa; pushed_at stays 2026-11-18T12:48:10Z. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z and is a prerelease. Tag dsh-v0.2.2-rc.5 is a lightweight tag and still points at 9c2670d3bce5. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5 at 2026-11-18T13:17:23.604Z, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. npm dsh-mini-superagent stays 0.10.4. dsh-session-superagent stays 0.10.12. dsh-superagent-inbox stays 0.3.2. dsh-whalepod stays 0.6.1. dsh-superagent-ptc stays 0.1.9. @vicfei/dsh-super-agent stays 1.10.0. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.27. @xiangyixie/dsh-superagent stays 0.24.0 at 2026-11-19T13:27:58.813Z. Unscoped dsh-patrol, dsh-superagent, dsh-superagent-linear, dsh-superagent-signal, and dsh-superagent-manager stay 404. @mystic7c/dsh-superagent-panel stays 404. Ladder main stays a808d46d1b4e. npm dsh-ladder-superagents latest stays 0.2.1. TechBlueprints main stays bbf16f0a56f5. wychmod stays 90e38575716b. session-superagent stays 95b5a727c04a. superagent-lite stays 62300657ad16. patrol stays 243c89b877b1. mystic7c stays fee36f5d2fa6. specmill stays 56d2581d9d4d. opencode-superagent stays 6b20f9eab394. inbox stays 0395d89a347b. lkshrk/dsh-superagent stays fff4b83bb04b. Nelson master stays d433add75295. next/0.8 stays 7e3381701a14 at 2026-11-21T18:45:19Z and is not master. LittleChenLiya main stays e247ce66912b. pushed_at is 2026-11-22T00:16:34Z because branch fix/superagent-ui-diet was created. That branch is 3743aac83d19, 19 ahead of main and 0 behind. The tip message says screens stay about the work. The patch was not line-read. Not listed. LofiSu main stays ca9823e5c096. pushed_at is 2026-11-21T23:35:41Z. Open PR #182 head moved to 759b2195a649, committer date 2026-11-21T23:29:37Z, updated 2026-11-21T23:42:55Z, and is not merged. The commit message says it loads only safe Ticket and operation fields. Files are src/cli/main.ts, src/core/receipt.ts, src/store/sqlite.ts, and test/cli-receipt.test.ts. The patch was not line-read. Not listed. Open PR #175 head stays 7044a54b7ec1 and is not merged. ft54482/dsh-control-bridge pushed_at stays 2026-11-21T21:50:48Z. Open PR #1 head stays c558a7880361 and is not merged. billLiao/awesome-dsh-plugin main is a9dcdaa90cd8 at 2026-11-22T00:01:33Z, 1 ahead of 26a25ac4e413. The commit is Sync 2026-11-22T08:01. The only superagent URL in the patch is the already listed MYCF711/dsh-session-superagent row. Not listed. awesome-dsh-plugin/awesome-dsh-plugin stays d9701b3a5f12, pushed 2026-11-21T23:19:51Z. pingdotgg/t3code main is a9447cedbdfe at 2026-11-22T00:23:50Z, 5 commits and 13 files after 10586f9e3183 and 0 behind. No filename matches superagent, dsh, or DeepSeek. Not listed. yb2630/superagent main is b62a6b1adba3 at 2026-11-21T23:35:30Z, 2 commits after f595c8b079a8. The commits rewrite the Columbia wish-driven paper. The README patch does not add dsh-superagent, DeepSeek, or harness. Not listed. Discussions updated after 23:35Z are #14034 at 2026-11-22T00:25:29Z, #10586 at 2026-11-22T00:19:48Z, #14033 at 2026-11-22T00:08:45Z, and #11667 at 2026-11-21T23:39:16Z. None of the bodies contain dsh-superagent, Mandate, Ticket, or superagent. #14033 links celsocba1/dsh-whisper-ptbr, a speech-to-text provider. Not listed. arXiv dsh-superagent hits: 0. Newest HN story for dsh-superagent remains 2026-11-11. No open PR on this list. Repo search for a dsh-superagent name created on 2026-11-22 returned 0. Of the README and watchlist names checked, 267 resolved. Five of those pushed after 23:35Z. Eleven names still do not resolve."
+      "reason": "Started after the 00:33Z scan at a1fa877. Window 2026-11-22T00:33:00Z to 2026-11-22T01:36:00Z. No README rows added or rewritten. Prototype tip stays 8c32a9dc5d72; pushed_at stays 2026-11-03T09:29:14Z. Harness master stays 2e39e70496aa; pushed_at stays 2026-11-18T12:48:10Z. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z and is a prerelease. Tag dsh-v0.2.2-rc.5 is a lightweight tag and still points at 9c2670d3bce5. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. npm dsh-mini-superagent stays 0.10.4. dsh-session-superagent stays 0.10.12. dsh-superagent-inbox stays 0.3.2. dsh-whalepod stays 0.6.1. dsh-superagent-ptc stays 0.1.9. @vicfei/dsh-super-agent stays 1.10.0. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.27. @xiangyixie/dsh-superagent stays 0.24.0. Unscoped dsh-patrol, dsh-superagent, dsh-superagent-linear, dsh-superagent-signal, and dsh-superagent-manager stay 404. @mystic7c/dsh-superagent-panel stays 404. Ladder main stays a808d46d1b4e. npm dsh-ladder-superagents latest stays 0.2.1. TechBlueprints main stays bbf16f0a56f5. wychmod stays 90e38575716b. session-superagent stays 95b5a727c04a. superagent-lite stays 62300657ad16. patrol stays 243c89b877b1. mystic7c stays fee36f5d2fa6. specmill stays 56d2581d9d4d. opencode-superagent stays 6b20f9eab394. inbox stays 0395d89a347b. lkshrk/dsh-superagent stays fff4b83bb04b. Nelson master stays d433add75295. next/0.8 stays 7e3381701a14 and is not master. LittleChenLiya main stays e247ce66912b. Branch fix/superagent-ui-diet stays 3743aac83d19 and is not main. LofiSu main stays ca9823e5c096. Open PR #182 head moved to d5e92ef8e870 at 2026-11-22T00:34:07Z, updated 2026-11-22T01:25:53Z, and is not merged. The commit message says it opens inspect commands on a read-only store. Files are src/cli/main.ts, test/cli-inspect-readonly.test.ts, and test/cli-memory-a2a.test.ts. The patch was not line-read. Not listed. Open PR #175 head stays 7044a54b7ec1 and is not merged. ft54482/dsh-control-bridge was not pushed after 00:33Z. Open PR #1 head stays c558a7880361 and is not merged. billLiao/awesome-dsh-plugin stays a9dcdaa90cd8. awesome-dsh-plugin/awesome-dsh-plugin stays d9701b3a5f12. pingdotgg/t3code main is 15d945faef4c at 2026-11-22T01:20:02Z, 5 commits and 13 files after a9447cedbdfe and 0 behind. No filename matches superagent, dsh, or DeepSeek. Not listed. yb2630/superagent main is 80a36ebe0f3c at 2026-11-22T01:09:41Z, 5 commits after b62a6b1adba3 and 0 behind. The commits reset the Columbia wish-driven paper to the milestone contract. The README names a removed DeepSeek/MiniLM pilot and does not name dsh-superagent, Mandate, Ticket, or this harness. Not listed. wang-junjian/wang-junjian.github.io main is 1b0e4f107524 at 2026-11-22T00:55:28Z. The only file is a mattpocock skills HTML page. The listed superagent post was not in the commit. Not listed. can1357/oh-my-pi default tip stays e1a9f4b41d24. pushed_at is 2026-11-22T01:13:56Z. Commits on main since the window: 0. Not listed. Discussions updated after 00:33Z are #14035 at 2026-11-22T01:02:45Z and #12460 at 2026-11-22T00:53:09Z. Neither body contains dsh-superagent, Mandate, Ticket, or superagent. #14035 is a ds-bot HTTP 404 after the desktop rc.5 upgrade. #12460 is a model-listing log switch. Not listed. arXiv dsh-superagent hits: 0. Newest HN story for dsh-superagent remains 2026-11-11. No open PR on this list. Repo search for a dsh-superagent name created or pushed on 2026-11-22 returned 0. Of the README and watchlist names checked, 268 resolved. Five of those pushed after 00:33Z. Eleven names still do not resolve."
     }
   ],
   "pending": [
+    {
+      "title": "window after 00:33Z changed no list rows",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Started after the 00:33Z scan at a1fa877. Window 2026-11-22T00:33:00Z to 2026-11-22T01:36:00Z. No README rows added or rewritten. Prototype tip stays 8c32a9dc5d72; pushed_at stays 2026-11-03T09:29:14Z. Harness master stays 2e39e70496aa; pushed_at stays 2026-11-18T12:48:10Z. Newest release stays dsh-v0.2.2-rc.5 published 2026-11-18T12:51:39Z and is a prerelease. Tag dsh-v0.2.2-rc.5 is a lightweight tag and still points at 9c2670d3bce5. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5, alpha stays 0.2.2-alpha.3, modified stays 2026-11-19T05:43:06.433Z. npm dsh-mini-superagent stays 0.10.4. dsh-session-superagent stays 0.10.12. dsh-superagent-inbox stays 0.3.2. dsh-whalepod stays 0.6.1. dsh-superagent-ptc stays 0.1.9. @vicfei/dsh-super-agent stays 1.10.0. @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview stays 0.8.1-preview.27. @xiangyixie/dsh-superagent stays 0.24.0. Unscoped dsh-patrol, dsh-superagent, dsh-superagent-linear, dsh-superagent-signal, and dsh-superagent-manager stay 404. @mystic7c/dsh-superagent-panel stays 404. Ladder main stays a808d46d1b4e. npm dsh-ladder-superagents latest stays 0.2.1. TechBlueprints main stays bbf16f0a56f5. wychmod stays 90e38575716b. session-superagent stays 95b5a727c04a. superagent-lite stays 62300657ad16. patrol stays 243c89b877b1. mystic7c stays fee36f5d2fa6. specmill stays 56d2581d9d4d. opencode-superagent stays 6b20f9eab394. inbox stays 0395d89a347b. lkshrk/dsh-superagent stays fff4b83bb04b. Nelson master stays d433add75295. next/0.8 stays 7e3381701a14 and is not master. LittleChenLiya main stays e247ce66912b. Branch fix/superagent-ui-diet stays 3743aac83d19 and is not main. LofiSu main stays ca9823e5c096. Open PR #182 head moved to d5e92ef8e870 at 2026-11-22T00:34:07Z, updated 2026-11-22T01:25:53Z, and is not merged. The commit message says it opens inspect commands on a read-only store. Files are src/cli/main.ts, test/cli-inspect-readonly.test.ts, and test/cli-memory-a2a.test.ts. The patch was not line-read. Not listed. Open PR #175 head stays 7044a54b7ec1 and is not merged. ft54482/dsh-control-bridge was not pushed after 00:33Z. Open PR #1 head stays c558a7880361 and is not merged. billLiao/awesome-dsh-plugin stays a9dcdaa90cd8. awesome-dsh-plugin/awesome-dsh-plugin stays d9701b3a5f12. pingdotgg/t3code main is 15d945faef4c at 2026-11-22T01:20:02Z, 5 commits and 13 files after a9447cedbdfe and 0 behind. No filename matches superagent, dsh, or DeepSeek. Not listed. yb2630/superagent main is 80a36ebe0f3c at 2026-11-22T01:09:41Z, 5 commits after b62a6b1adba3 and 0 behind. The commits reset the Columbia wish-driven paper to the milestone contract. The README names a removed DeepSeek/MiniLM pilot and does not name dsh-superagent, Mandate, Ticket, or this harness. Not listed. wang-junjian/wang-junjian.github.io main is 1b0e4f107524 at 2026-11-22T00:55:28Z. The only file is a mattpocock skills HTML page. The listed superagent post was not in the commit. Not listed. can1357/oh-my-pi default tip stays e1a9f4b41d24. pushed_at is 2026-11-22T01:13:56Z. Commits on main since the window: 0. Not listed. Discussions updated after 00:33Z are #14035 at 2026-11-22T01:02:45Z and #12460 at 2026-11-22T00:53:09Z. Neither body contains dsh-superagent, Mandate, Ticket, or superagent. #14035 is a ds-bot HTTP 404 after the desktop rc.5 upgrade. #12460 is a model-listing log switch. Not listed. arXiv dsh-superagent hits: 0. Newest HN story for dsh-superagent remains 2026-11-11. No open PR on this list. Repo search for a dsh-superagent name created or pushed on 2026-11-22 returned 0. Of the README and watchlist names checked, 268 resolved. Five of those pushed after 00:33Z. Eleven names still do not resolve."
+    },
     {
       "title": "window after 23:35Z changed no list rows",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
@@ -15367,30 +15373,31 @@
   "rejected_this_run": [
     {
       "title": "t3code main has no prototype filename",
-      "url": "https://github.com/pingdotgg/t3code/commit/a9447cedbdfe"
+      "url": "https://github.com/pingdotgg/t3code/commit/15d945faef4c"
     },
     {
-      "title": "billLiao sync only rewrites the listed session-superagent row",
-      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/a9dcdaa90cd8"
+      "title": "yb2630 paper reset is not this prototype",
+      "url": "https://github.com/yb2630/superagent/commit/80a36ebe0f3c"
     },
     {
-      "title": "yb2630 paper rewrite is not this prototype",
-      "url": "https://github.com/yb2630/superagent/commit/b62a6b1adba3"
+      "title": "wang-junjian skills page is not the listed post",
+      "url": "https://github.com/wang-junjian/wang-junjian.github.io/commit/1b0e4f107524"
     },
     {
-      "title": "LittleChenLiya UI branch is not main",
-      "url": "https://github.com/LittleChenLiya/dsh-superagent/commit/3743aac83d19"
+      "title": "oh-my-pi push did not move main",
+      "url": "https://github.com/can1357/oh-my-pi/commit/e1a9f4b41d24"
     },
     {
-      "title": "LofiSu receipt field filter is not merged",
+      "title": "LofiSu inspect store change is not merged",
       "url": "https://github.com/LofiSu/dsh-super-agent/pull/182"
     },
     {
-      "title": "dsh-whisper-ptbr is a speech provider",
-      "url": "https://github.com/celsocba1/dsh-whisper-ptbr"
+      "title": "Harness discussions 14035 and 12460 do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14035"
     }
   ],
   "held_on_other_branches": [
+    "2026-11-22T01:36:00Z: LofiSu #182 head d5e92ef8e870 is not main. LittleChenLiya fix/superagent-ui-diet stays 3743aac83d19 and is not main. control-bridge #1 head stays c558a7880361 and is not main. Nelson next/0.8 stays 7e3381701a14 and is not master.",
     "2026-11-22T00:33:00Z: LittleChenLiya fix/superagent-ui-diet 3743aac83d19 is 19 ahead of main and is not main. LofiSu #182 head 759b2195a649 is not main. control-bridge #1 head c558a7880361 is not main. Nelson next/0.8 stays 7e3381701a14 and is not master.",
     "2026-11-21T22:37:31Z: LofiSu #182 head 41841fb39899 is not main. control-bridge #1 head c558a7880361 is not main. Nelson next/0.8 stays 7e3381701a14 and is not master.",
     "2026-11-21T17:33:43Z: Nelson next/0.8 is cf5a99cab17d, merge of #779 and #795, and is not master. omp main stays af1d70e7e0e2. LofiSu #175 head stays 7044a54b7ec1 and is not merged.",
