@@ -1,18 +1,30 @@
 {
-  "last_run_at": "2026-11-23T01:32:11Z",
+  "last_run_at": "2026-11-23T02:37:12Z",
   "timezone": "UTC",
-  "baseline_commit": "1c79cb1",
+  "baseline_commit": "e1c724d",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T00:35:09Z",
-    "to": "2026-11-23T01:32:11Z"
+    "from": "2026-11-23T01:32:11Z",
+    "to": "2026-11-23T02:37:12Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "A2A records preview.29 as published and next/0.8 only adds tests",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/edb31cbcf1cc",
+      "confidence": 0.94,
+      "reason": "Window 2026-11-23T01:32:11Z to 2026-11-23T02:37:12Z. Updated NelsonLongxiang/dsh-open-a2a-net. master edb31cbcf1cc at 2026-11-23T01:52:12Z is 2 ahead of fd04580c9043 and 0 behind. #833 only edits docs/release.md and docs/ops/0.8.1-upgrade-check.md. Annotated tag v0.8.1-preview.29 object 8eae15143e2b points at 71cc5fcf. npm preview stays 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z, shasum fcaa0800826ea58cdf423e40b79a4706fea14650, fileCount 429, no gitHead. latest stays 0.7.0. The release note's unpacked 429-file comparison was not re-downloaded. next/0.8 tip c299f7a81f9d at 2026-11-23T02:25:39Z is 5 ahead of 71d7902bbee0 and 0 behind, and 8 ahead and 23 behind master. The five commits touch only four test files. package.json on next/0.8 stays 0.8.1-preview.28 with no engines.dsh. cardTtlMs schema default 172800000 was read in src/config.ts. The re-sign interval in src/index.ts is Math.max(1, Math.floor(config.cardTtlMs / 4)). #815 stays open, not a draft, and is not merged. Drafts #816, #819, #811, #806, and #804, and open #807, are not merged. No GitHub Release newer than v0.8.1-preview.28. Tests were not rerun."
+    },
+    {
+      "title": "lkshrk 0.5.1 follows a ticket repository, stops day-old poll failures, and moves bare threads",
+      "url": "https://github.com/lkshrk/dsh-superagent/commit/4bed3c55c86c",
+      "confidence": 0.93,
+      "reason": "Window 2026-11-23T01:32:11Z to 2026-11-23T02:37:12Z. Updated lkshrk/dsh-superagent. Tip 4bed3c55c86c at 2026-11-23T02:29:56Z is 4 ahead of fff4b83bb04b and 0 behind, and 77 ahead of 8c32a9dc5d72 and 0 behind. f4ef53515458 resolves a bare GitHub thread number in the ticket repository. 941981557cf2 stops failing the poll round after RETRY_WINDOW_MS (24h) and records pollFailedAt. c0101c93eab1 moves a bare 404 thread followed only by one additional repository at startup. 4bed3c55c86c changes the version from 0.5.0 to 0.5.1. Lightweight tag v0.5.1 points at that sha. GitHub Release v0.5.1 published 2026-11-23T02:32:07Z is not a draft or prerelease. engines.dsh stays ^0.2.1-alpha.2 || ^0.2.2-0. Unscoped dsh-superagent stays 404. Tests were not rerun."
+    },
     {
       "title": "A2A preview.29 is on master and the npm preview tag",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/fd04580c9043",
@@ -21,6 +33,12 @@
     }
   ],
   "pending": [
+    {
+      "title": "zxeryu/dsh-im-superagent was not line-read",
+      "url": "https://github.com/zxeryu/dsh-im-superagent",
+      "confidence": 0.62,
+      "reason": "Created 2026-11-23T02:00:05Z and pushed 2026-11-23T02:03:12Z. Tip 6268dbe16f23. Package dsh-im-superagent 0.1.0 is private. engines.dsh is exactly 0.2.2-rc.5. engines.node is ^22.19.0 || >=24.0.0. README says it routes Feishu, WeChat iLink, and a local mock file into Tickets for an isolated DSH worker, and that neither real channel has a device check. src/ was not line-read. Not written."
+    },
     {
       "title": "next/0.8 blueprints set approvers, join sessions, and name seats",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/0f9a3a43ed945ad4776ef2d21b7990a4ed03aee7",
@@ -15756,34 +15774,34 @@
   ],
   "rejected_this_run": [
     {
-      "title": "ai6code control script is a fresh full copy",
-      "url": "https://github.com/ai6code/dsh-superagent-prototype/commit/75769d267dc5",
-      "confidence": 0.74,
-      "reason": "Created 2026-11-23T00:45:02Z. Tip 75769d267dc5 is 1 ahead of 8c32a9dc5d72 and 0 behind. The only product change is scripts/dsh-superagent: Node 26 node-MainThread counts as the service, and status exchanges the newest log entry token for the management cookie. .gitignore adds __pycache__. Not written this hour."
+      "title": "feifan19/dsh-demo-clean is an empty demo",
+      "url": "https://github.com/feifan19/dsh-demo-clean",
+      "confidence": 0.15,
+      "reason": "Created 2026-11-23T02:10:42Z. Size 0. One initial commit. Description says dsh-superagent clean demo. Not written."
     },
     {
-      "title": "yb2630 course tip moved and still does not name this prototype",
-      "url": "https://github.com/yb2630/superagent/commit/c09145f7f0de",
-      "confidence": 0.2,
-      "reason": "main is c09145f7f0de at 2026-11-22T22:50:54Z, pushed during this window. The message is about A100 pilot provenance. Code search for dsh, deepseek, and superagent-prototype returned 0. Not listed."
+      "title": "dbc-hbin/omp-superagent 0.1.7 still has no engines.dsh",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/18054d059bfa",
+      "confidence": 0.86,
+      "reason": "Pushed 2026-11-23T01:56:42Z. main 18054d059bfa is 4 ahead of bf8f34c7f1d3 and 0 behind. Package omp-superagent 0.1.7. engines is bun >=1.4.4. No engines.dsh and no dsh field. The commits are Discord addressing, a Codex quota recovery, and usage resets. Not listed."
     },
     {
-      "title": "t3code, robinAKL, N.E.K.O, deer-flow, and the other superagent pushes are not this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/6b38ec931aab",
-      "confidence": 0.3,
-      "reason": "t3code 6b38ec931aab is a desktop proxy fix. robinAKL 6a26d7cd1f04 recognizes an expired Claude Code sign-in. N.E.K.O, deer-flow, touhid314/super-agent, and RudyCity/superagent do not name this prototype. Not listed."
+      "title": "IHUI-AI and t3code commits do not name this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/daf041bb2856",
+      "confidence": 0.4,
+      "reason": "IHUI-INF-AI/IHUI-AI daf041bb2856 is 63 ahead of 42a63c7813bb and 0 behind, 300 files, no filename matches superagent, dsh, or DeepSeek. pingdotgg/t3code 2808e878de91 is 7 ahead of 6b38ec931aab and 0 behind, 184 files, no filename matches. Not rewritten."
     },
     {
-      "title": "Harness discussions and the dsh-named plugin page do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14116",
+      "title": "Harness discussions updated in the window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14119",
       "confidence": 0.8,
-      "reason": "#14116 at 00:35:24Z asks for a Linux client. #14064 updated 01:00:16Z is about desktop installers and a 0.2.3-alpha.1 download link. The first page of dsh-in-name repos pushed today is general Harness plugins. Code search in dsh-subagent-model-policy, dsh-agent-studio-fusion, and dsh-eval found no superagent or Ticket. dsh-shadow-mind returned no match. Not listed."
+      "reason": "Bodies read for the eight most recently updated discussions: #14119, #13836, #14118, #14097, #11821, #7123, #1490, and #14102. None contain dsh-superagent, Mandate, Ticket, superagent, or prototype. Comments were not all read. Not written."
     },
     {
-      "title": "Open A2A drafts stay off master",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/816",
+      "title": "Open A2A drafts stay off master and next/0.8",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/815",
       "confidence": 0.9,
-      "reason": "Drafts #816, #819, #815, #811, #806, and #804 and open #807 are not merged. #832 is the preview.29 that landed."
+      "reason": "Drafts #816, #819, #811, #806, and #804, and open #807 and #815, are not merged. #815 is not a draft. Its latest commit merges next/0.8 #834 into the PR branch. #833 and #834 and #835 are merged and recorded on the list."
     }
   ],
   "held_on_other_branches": [
@@ -16311,5 +16329,5 @@
     "tonbiattack/autopilot-merge-check-86302 closed merge-check PRs are the disposable live-merge target. Do not list that repository."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). modified remains 2026-11-22T09:57:12.602Z. @perrylink/dsh-github latest is 0.7.37 (published 2026-11-22T16:11:16.134Z). @vicfei/dsh-super-agent latest is 1.11.0 (published 2026-11-22T18:08:44.725Z). @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview is 0.8.1-preview.29 (published 2026-11-23T01:03:53.448Z, shasum fcaa0800826ea58cdf423e40b79a4706fea14650, no gitHead). Rechecked 2026-11-23T01:32:11Z. Listed packages dsh-mini-superagent 0.10.4, dsh-session-superagent 0.10.12, dsh-superagent-inbox 0.3.2, dsh-whalepod 0.6.1, dsh-superagent-ptc 0.1.9, @xiangyixie/dsh-superagent 0.24.0, dsh-ladder-superagents 0.2.1, dsh-swarm-console 0.4.5, and dsh-foreman 0.9.1 are unchanged."
+  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). modified remains 2026-11-22T09:57:12.602Z. @perrylink/dsh-github latest is 0.7.37 (published 2026-11-22T16:11:16.134Z). @vicfei/dsh-super-agent latest is 1.11.0 (published 2026-11-22T18:08:44.725Z). @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview is 0.8.1-preview.29 (published 2026-11-23T01:03:53.448Z, shasum fcaa0800826ea58cdf423e40b79a4706fea14650, integrity sha512-AUVNlascNlSElF+wjPunz1KPdo65X+VtPk3kcC/08hjkeOJn0i9wdih7JmhspGy9goTbtgkzqwbhzcZR/whknQ==, fileCount 429, no gitHead). Rechecked 2026-11-23T02:37:12Z. Listed packages dsh-mini-superagent 0.10.4, dsh-session-superagent 0.10.12, dsh-superagent-inbox 0.3.2, dsh-whalepod 0.6.1, dsh-superagent-ptc 0.1.9, @xiangyixie/dsh-superagent 0.24.0, dsh-ladder-superagents 0.2.1, dsh-swarm-console 0.4.5, and dsh-foreman 0.9.1 were unchanged. @zephyrbd/opencode-superagent stays 404. Unscoped dsh-superagent stays 404."
 }
