@@ -1,18 +1,24 @@
 {
-  "last_run_at": "2026-11-23T05:34:29Z",
+  "last_run_at": "2026-11-23T06:36:10Z",
   "timezone": "UTC",
-  "baseline_commit": "c7e3b96",
+  "baseline_commit": "b8e11f6",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T04:35:55Z",
-    "to": "2026-11-23T05:34:29Z"
+    "from": "2026-11-23T05:34:29Z",
+    "to": "2026-11-23T06:36:10Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "next/0.8 caps the node-card lifetime and cleans health names",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/18240eff6af3",
+      "confidence": 0.94,
+      "reason": "Window 2026-11-23T05:34:29Z to 2026-11-23T06:36:10Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 9d5cddac2ac2. next/0.8 tip 18240eff6af3 at 2026-11-23T06:17:38Z is 9 ahead of 2850062a6bac and 0 behind, and 51 ahead and 25 behind master. #850 merged at 05:44:35Z. apply() throws before signing when cardTtlMs is above CARD_TTL_MAX_MS 8589934591 (4*(2^31-1)+3). It is not shortened. floor(TTL/4) at the ceiling is 2^31-1. One millisecond more is 2^31. The re-sign line was not in this diff. 8589934592 throws and agent-card.json is not 200. 8589934591 is accepted, the card is 200, and the test expects no TimeoutOverflow. The architecture diagram was reanchored and not line-read. #851 merged at 06:17:39Z. health() writes name only when cleanName(raw) is present and differs from the session id. cleanName turns newlines, tabs, U+2028 and U+2029 into one space, drops other controls, U+061C, U+200B, U+200E, U+200F, bidi U+202A-U+202E, U+2060-U+2064, U+2066-U+2069 and BOM, and keeps U+200C, U+200D and tag characters. Over 120 code points becomes 119 plus an ellipsis. problemKey stays the session id. The banner uses the same cleaner and otherwise session.slice(8, 16). tickets-queued also cleans the name. package.json on next/0.8 stays 0.8.1-preview.28 with engines.pnpm only and no engines.dsh. npm preview stays 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. latest stays 0.7.0. No GitHub Release newer than v0.8.1-preview.28. #819 and #816 stay closed and not merged. Drafts #811 and #804, and open #807, #847, #849, #853, and #855, are not merged. Tests were not rerun."
+    },
     {
       "title": "next/0.8 names the member on health problems and keeps terminal delivery proof",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/2850062a6bac",
@@ -66,15 +72,63 @@
       "url": "https://github.com/lkshrk/dsh-superagent/commit/4bed3c55c86c",
       "confidence": 0.93,
       "reason": "Window 2026-11-23T01:32:11Z to 2026-11-23T02:37:12Z. Updated lkshrk/dsh-superagent. Tip 4bed3c55c86c at 2026-11-23T02:29:56Z is 4 ahead of fff4b83bb04b and 0 behind, and 77 ahead of 8c32a9dc5d72 and 0 behind. f4ef53515458 resolves a bare GitHub thread number in the ticket repository. 941981557cf2 stops failing the poll round after RETRY_WINDOW_MS (24h) and records pollFailedAt. c0101c93eab1 moves a bare 404 thread followed only by one additional repository at startup. 4bed3c55c86c changes the version from 0.5.0 to 0.5.1. Lightweight tag v0.5.1 points at that sha. GitHub Release v0.5.1 published 2026-11-23T02:32:07Z is not a draft or prerelease. engines.dsh stays ^0.2.1-alpha.2 || ^0.2.2-0. Unscoped dsh-superagent stays 404. Tests were not rerun."
-    },
-    {
-      "title": "A2A preview.29 is on master and the npm preview tag",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/fd04580c9043",
-      "confidence": 0.94,
-      "reason": "Window 2026-11-23T00:35:09Z to 2026-11-23T01:32:11Z. #832 merged 2026-11-23T00:43:51Z. master is fd04580c9043c684fdd1c1b49d1b33001ad866e2. It merges next/0.8 at e1a93c16 and does not include #831. package.json is 0.8.1-preview.29 and still has no engines.dsh. next/0.8 stays 71d7902bbee0, 3 ahead and 21 behind. Annotated tag v0.8.1-preview.29 at 00:45:30Z points at 71cc5fcf, the same tree as the merge, and its message says it was not on npm yet. npm preview is 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z, 429 files, shasum fcaa0800826ea58cdf423e40b79a4706fea14650, no gitHead. The tag's candidate sha1 is 7b9a6fbe8c22913341546971f24fa05ff0c4c568. latest stays 0.7.0. No GitHub Release newer than v0.8.1-preview.28."
     }
   ],
   "pending": [
+    {
+      "title": "panel 1.1.1 redelivery is an open pull request",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/pull/103",
+      "confidence": 0.55,
+      "reason": "Opened 2026-11-23T06:32:48Z. Head f01039c83f44 on fix/1.1.1-ticket-redelivery is not merged. main stays ca3666bac994. develop is 0 ahead and 2 behind main. The commit message says a failed delivery can be delivered again as a new MR. The diff was not line-read. Not written."
+    },
+    {
+      "title": "multi-channel macOS bridge fix is an open pull request",
+      "url": "https://github.com/baojingyu/dsh-superagent-multi-channel/pull/3",
+      "confidence": 0.6,
+      "reason": "Updated 2026-11-23T05:51:06Z. Head 2d1f1851276c on agent/fix-ilink-bridge-token-f083886761f9 is not merged. main stays f750ae4797e6. pushed_at 2026-11-23T05:50:54Z is this branch. The message says a missing token path was printed as undefined and macOS bridge control was added. The diff was not line-read. Not written."
+    },
+    {
+      "title": "AstraBox main stayed 607bc6c827a2",
+      "url": "https://github.com/Colton-z/AstraBox/commit/607bc6c827a2",
+      "confidence": 0.4,
+      "reason": "pushed_at 2026-11-23T06:19:20Z is a DeleteEvent for claude/kind-ramanujan-b3r92i. Default main stays 607bc6c827a2. Not rewritten."
+    },
+    {
+      "title": "t3code 21b52875ea56 has no prototype filename",
+      "url": "https://github.com/pingdotgg/t3code/commit/21b52875ea56",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-23T06:31:10Z. 21b52875ea56 is 13 ahead of 0356d68835b7. 45 files, no filename matches superagent, dsh, or DeepSeek. Not rewritten."
+    },
+    {
+      "title": "IHUI e2e0b3dbc392 has no prototype filename",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/e2e0b3dbc392",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-23T05:34:33Z. e2e0b3dbc392 is 2 ahead of d4a394f0be95. 71 files, no filename matches superagent, dsh, or DeepSeek. Not rewritten."
+    },
+    {
+      "title": "omp-superagent 0.1.7 still has no engines.dsh",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/b3cad455d0d1",
+      "confidence": 0.45,
+      "reason": "Pushed 2026-11-23T06:32:12Z. Tip b3cad455d0d1. #48 and #41 are on main. Package stays omp-superagent 0.1.7. engines is bun >=1.4.4 only. No engines.dsh. Not written."
+    },
+    {
+      "title": "jinyu-dsh/agent-lab is a one-line work repo",
+      "url": "https://github.com/jinyu-dsh/agent-lab",
+      "confidence": 0.2,
+      "reason": "Created 2026-11-23T05:13:54Z. Tip 0f48d8fa155c adds a hello line. Size 1. Not written."
+    },
+    {
+      "title": "dataCodeFarmer/test-dsh-superagent is an empty test repo",
+      "url": "https://github.com/dataCodeFarmer/test-dsh-superagent",
+      "confidence": 0.15,
+      "reason": "Created 2026-11-23T06:02:02Z. Description says it is a dsh superagent test. The git repository is empty. Not written."
+    },
+    {
+      "title": "window after 05:34Z rewrote the A2A row",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Window 2026-11-23T05:34:29Z to 2026-11-23T06:36:10Z. Prototype tip stays 8c32a9dc5d72. pushed_at stays 2026-11-03T09:29:14Z. updated_at during the scan is not a new commit. Harness master stays 4b399c39a6d1. pushed_at stays 2026-11-22T11:00:05Z. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. Of 280 listed repository names, 15 still do not resolve and 6 had pushed_at after 05:34:29Z. mashang main stays 653349216c45. superagent-lite was not in the six. arXiv returned no entries. Newest HN story remains 2026-11-11. Harness issue search for dsh-superagent returned none. No open PR on this list."
+    },
     {
       "title": "t3code 0356d68835b7 has no prototype filename",
       "url": "https://github.com/pingdotgg/t3code/commit/0356d68835b7",
@@ -15888,29 +15942,29 @@
   ],
   "rejected_this_run": [
     {
-      "title": "t3code 0356d68835b7 has no prototype filename",
-      "url": "https://github.com/pingdotgg/t3code/commit/0356d68835b7",
+      "title": "t3code 21b52875ea56 has no prototype filename",
+      "url": "https://github.com/pingdotgg/t3code/commit/21b52875ea56",
       "confidence": 0.3
     },
     {
-      "title": "oh-my-pi tip moved to 31ffee513f27 with no prototype filename",
-      "url": "https://github.com/can1357/oh-my-pi/commit/31ffee513f27",
-      "confidence": 0.35
-    },
-    {
-      "title": "IHUI d4a394f0be95 has no prototype filename",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/d4a394f0be95",
+      "title": "IHUI e2e0b3dbc392 has no prototype filename",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/e2e0b3dbc392",
       "confidence": 0.3
     },
     {
-      "title": "ai6code branches stay off main",
-      "url": "https://github.com/ai6code/dsh-superagent-prototype",
-      "confidence": 0.55
+      "title": "jinyu-dsh/agent-lab is a one-line work repo",
+      "url": "https://github.com/jinyu-dsh/agent-lab",
+      "confidence": 0.2
     },
     {
-      "title": "LeftSeineM/Mydex-open-source is not a dsh-superagent source",
-      "url": "https://github.com/LeftSeineM/Mydex-open-source/commit/035d0a8ed8f5",
-      "confidence": 0.4
+      "title": "dataCodeFarmer/test-dsh-superagent is an empty test repo",
+      "url": "https://github.com/dataCodeFarmer/test-dsh-superagent",
+      "confidence": 0.15
+    },
+    {
+      "title": "omp-superagent 0.1.7 still has no engines.dsh",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/b3cad455d0d1",
+      "confidence": 0.45
     }
   ],
   "held_on_other_branches": [
@@ -16435,7 +16489,10 @@
     "dbc-hbin/omp-superagent PR #31 head feat/ssh-remote-lanes is 0fb02905fa60 and is not merged. main stays 7d437e4a5339. Do not list the branch.",
     "Momentum96/omp-superagent branch remote-workers was created at 2026-11-22T05:54:34Z and is not main. Do not list the branch.",
     "nelsonlongxiang/dsh-open-a2a-net PR #797 merged to next/0.8 at 2026-11-22T06:12:08Z. master stays d433add75295. Do not list next/0.8.",
-    "tonbiattack/autopilot-merge-check-86302 closed merge-check PRs are the disposable live-merge target. Do not list that repository."
+    "tonbiattack/autopilot-merge-check-86302 closed merge-check PRs are the disposable live-merge target. Do not list that repository.",
+    "mystic7c/dsh-superagent-panel PR #103 head fix/1.1.1-ticket-redelivery is f01039c83f44 at 2026-11-23T06:32:29Z and is not merged. Default main stays ca3666bac994.",
+    "baojingyu/dsh-superagent-multi-channel PR #3 head agent/fix-ilink-bridge-token-f083886761f9 is 2d1f1851276c at 2026-11-23T05:50:43Z and is not merged. Default main stays f750ae4797e6.",
+    "Colton-z/AstraBox pushed_at 2026-11-23T06:19:20Z deletes claude/kind-ramanujan-b3r92i. Default main stays 607bc6c827a2."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
   "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29. @mystic7c/dsh-superagent-panel remains 404."
