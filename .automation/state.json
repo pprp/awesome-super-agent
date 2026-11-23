@@ -1,18 +1,31 @@
 {
-  "last_run_at": "2026-11-23T22:35:01Z",
+  "last_run_at": "2026-11-23T23:34:30Z",
   "timezone": "UTC",
-  "baseline_commit": "07ea24b",
+  "baseline_commit": "26c9693",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T21:35:41Z",
-    "to": "2026-11-23T22:35:01Z"
+    "from": "2026-11-23T22:35:01Z",
+    "to": "2026-11-23T23:34:30Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "dsh-subagent-route sends a subagent to a named provider and model",
+      "url": "https://github.com/SpaceRelay/dsh-subagent-control/tree/main/subagent-route",
+      "confidence": 0.88,
+      "reason": "Window 2026-11-23T22:35:01Z to 2026-11-23T23:34:30Z. awesome-dsh-plugin #18287 merged at 2026-11-23T23:20:37Z as abf1a01e36d3. The source tip 9801bd1408d2 at 2026-11-23T19:45:44Z only edits PUBLISHING.md and the submission YAML. index.js is unchanged from npm gitHead e6b8065dfee1. Package dsh-subagent-route 1.0.2. engines.dsh >=0.2.1-rc.1 <0.3.0-0. npm latest 1.0.2 at 2026-11-23T19:07:27.320Z. subagent_route calls startActivation with provider spawn and agentOptions for the requested route. list_routes lists providers. Official tool is not wrapped. client.js was not line-read. Tests were not rerun."
+    }
+  ],
   "updated": [
+    {
+      "title": "dsh-superagent-manager public page now returns 404",
+      "url": "https://github.com/Aily-DSH/dsh-superagent-manager",
+      "confidence": 0.93,
+      "reason": "Confirmed this run. Aily-DSH/dsh-plugin-index 327bdce141ca at 2026-11-23T20:02:01Z deletes the catalogue row and says the repository was made private. The deleted version is still 0.3.15 at 4494b5bc62a5. Unauthenticated GET of the GitHub page returns 404. The GitHub App also cannot see the repository. The README row is kept."
+    },
     {
       "title": "dsh-agent-lines marks 0.14.1 and 0.14.0 sections as released",
       "url": "https://github.com/Lencen/dsh-agent-lines/commit/3e7bc7fbce3058de796989ebee66271ffe6ca922",
@@ -219,6 +232,12 @@
     }
   ],
   "pending": [
+    {
+      "title": "dsh-subagent-control parent tools were not line-read",
+      "url": "https://github.com/SpaceRelay/dsh-subagent-control",
+      "confidence": 0.7,
+      "reason": "Tip 9801bd1408d2 is the route docs commit. Package dsh-subagent-control 1.0.9 on npm at 2026-11-23T08:13:43.315Z, gitHead 9769685d982a. README names list_subagents, send_subagent_message, and interrupt_subagent. index.js was not line-read. Not listed as a second plugin."
+    },
     {
       "title": "linkinght/SuperAgent01 is a playground",
       "url": "https://github.com/linkinght/SuperAgent01",
@@ -16371,22 +16390,41 @@
       "title": "Official prototype, Harness, and npm @deepseek-ai/dsh did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.95,
-      "reason": "main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. npm latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. No commits on those branches since 2026-11-23T21:35:41Z."
+      "reason": "main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. npm latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. registry modified stays 2026-11-22T09:57:12.602Z."
     },
     {
-      "title": "t3code moved without naming this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/42c9107983d8f65c38117501cbcde1ee5c82ef14",
+      "title": "A2A branches and open heads did not move",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/d18d4ef88207",
+      "confidence": 0.95,
+      "reason": "next/0.8 stays d18d4ef88207. master stays 5e2ab4abe060. #873 head stays c8ef5bc1cc23. #876 head stays 44488627cc02. #869 head stays 774d1661d7c4. Draft #804 head stays 2b21cfe50838. #849 head stays da630522b0c2. #855 head stays 45e9a02e40b2. npm preview stays 0.8.1-preview.29. latest stays 0.7.0. 0.8.1-preview.30 is absent."
+    },
+    {
+      "title": "oh-my-pi catalog commit does not name this prototype",
+      "url": "https://github.com/can1357/oh-my-pi/commit/4df653426f40ee1eb78ef408528eb9e6a5275b9d",
+      "confidence": 0.9,
+      "reason": "2026-11-23T22:46:31Z. Files are the OpenRouter reasoning test, catalog CHANGELOG, resolve.ts, and models.json. No dsh-superagent path. Not listed."
+    },
+    {
+      "title": "t3code commits in the window do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/58b7878eb750d3e1f80b9a0a42b8802efba2adda",
       "confidence": 0.86,
-      "reason": "Default branch has commits since 2026-11-23T21:35:41Z. Tip seen is 42c9107983d8. Code search for dsh-superagent in pingdotgg/t3code returned 0. Not listed."
+      "reason": "Tip 58b7878eb750 at 2026-11-23T23:27:14Z. Commit search for dsh-superagent in pingdotgg/t3code since 2026-11-23T22:35:01Z returned 0. Not listed."
     },
     {
-      "title": "Harness discussion titles in the window do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14198",
-      "confidence": 0.7,
-      "reason": "#14198 updated 2026-11-23T21:38:38Z and #13964 updated 2026-11-23T21:37:43Z. Titles do not name dsh-superagent. Bodies were not read. Not listed."
+      "title": "IHUI commits in the window do not touch super-agent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/fbe858596a0e",
+      "confidence": 0.88,
+      "reason": "Commits since 2026-11-23T22:35:01Z include wechat-hub, guard, ai-service, mobile-rn, and provenance. packages/shared/src/super-agent has no commit in the window. Not rewritten."
+    },
+    {
+      "title": "Other awesome-dsh-plugin catalogue adds are outside this list",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/df1bc1b84c6d",
+      "confidence": 0.8,
+      "reason": "In-window catalogue commits also add or edit dsh-meta-theory, a piano tier note, dsh-disk-cleanup, claraconverts-agents, dsh-pet-see-live, dsh-delete-guard, dsh-gesture-control, and dsh-ldvh. They are not this prototype. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-23T23:34:30Z: next/0.8 stays d18d4ef88207. master stays 5e2ab4abe060. Open and not merged: #873 head c8ef5bc1cc23, #876 head 44488627cc02, #869 head 774d1661d7c4, draft #804 head 2b21cfe50838, #849 head da630522b0c2, #855 head 45e9a02e40b2.",
     "2026-11-23T22:35:01Z: next/0.8 stays d18d4ef88207. master stays 5e2ab4abe060. Open and not merged: #873 head c8ef5bc1cc23, #876 head 44488627cc02, #869 head 774d1661d7c4, draft #804 head 2b21cfe50838, #849 head da630522b0c2, #855 head 45e9a02e40b2.",
     "2026-11-23T18:31:51Z: next/0.8 is f5c560c47cfe. master stays 5e2ab4abe060. Open and not merged: #876 head e5fbdc013ac1, #875 head 018ec470d3e2, #873 head 2cf8aea5a512, #869 head 774d1661d7c4, #855 head 45e9a02e40b2, #849 head da630522b0c2. Draft #804 head stays 2b21cfe50838. #870 is merged. Panel main stays a0821c85ab3d. Wheelchair tip stays 4214b1bac4d7.",
     "2026-11-23T17:35:21Z: next/0.8 is 2d94b9307136. master stays 5e2ab4abe060. Open and not merged: #873 head 2cf8aea5a512, #870 head cecb4238a373, #869 head 774d1661d7c4, #855 head 45e9a02e40b2, #849 head da630522b0c2. Draft #804 head stays 2b21cfe50838. #811, #871, and #872 are merged. Panel main stays a0821c85ab3d. Wheelchair tip stays 4214b1bac4d7.",
@@ -16926,5 +16964,5 @@
     "NelsonLongxiang/dsh-open-a2a-net #870 head cecb4238a373 targets next/0.8 and is not merged. next/0.8 stays ad00c20aeeef. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "Rechecked 2026-11-23T22:35:01Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404. dsh-agent-lines latest remains 0.14.1 at 2026-11-23T21:28:54.955Z, no gitHead. Tip is 3e7bc7fbce30."
+  "npm_note": "Rechecked 2026-11-23T23:34:30Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404. dsh-agent-lines latest remains 0.14.1 at 2026-11-23T21:28:54.955Z, no gitHead. Tip stays 3e7bc7fbce30. dsh-subagent-route latest is 1.0.2 at 2026-11-23T19:07:27.320Z, gitHead e6b8065dfee1."
 }
