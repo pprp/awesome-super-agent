@@ -1,18 +1,31 @@
 {
-  "last_run_at": "2026-11-23T16:34:43Z",
+  "last_run_at": "2026-11-23T17:35:21Z",
   "timezone": "UTC",
-  "baseline_commit": "b566b65",
+  "baseline_commit": "0690b0f",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T15:35:21Z",
-    "to": "2026-11-23T16:34:43Z"
+    "from": "2026-11-23T16:34:43Z",
+    "to": "2026-11-23T17:35:21Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "yhPrime/dsh-superAgent-yh 0.2.1 isolates each ticket",
+      "url": "https://github.com/yhPrime/dsh-superAgent-yh/commit/51ca7e1a412e",
+      "confidence": 0.9,
+      "reason": "Created 2026-11-23T16:42:42Z. Tip 51ca7e1a412e at 2026-11-23T16:47:09Z. Private dsh-superagent-yh 0.2.1. MIT. engines.node ^22.19.0 || >=24.0.0. engines.dsh >=0.2.2-rc.5 <0.3.0. lib/ only. dryRun defaults true and only explicit false turns it off. A dry-run ticket returns skipped before worktree. maxWorkers other than 1 throws. Session id is worker- plus a sanitized ticket id, sliced to 64. Relay kinds are started, needHuman, done, and failed; empty mainSessionId records delivered false. Worker session sets danger-full-access and logs a failure. QQ clients were not line-read. Tests were not rerun."
+    }
+  ],
   "updated": [
+    {
+      "title": "next/0.8 merges the noWait diagnostics and the example-address backport",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/2d94b9307136",
+      "confidence": 0.96,
+      "reason": "Window 2026-11-23T16:34:43Z to 2026-11-23T17:35:21Z. next/0.8 tip 2d94b9307136 is 11 ahead of 9189cfaeacf7 and 0 behind, and 28 ahead and 33 behind master 5e2ab4abe060. Master had no commit. #811 merged at 2026-11-23T16:43:14Z as 63cb499f83e3. tests/wire/task-idempotency.spec.ts only. The pending noWait expectation stays. #871 merged at 2026-11-23T17:15:57Z as 37aa593bd008. Comment and demo addresses only: 192.0.2.30, 192.0.2.10:3080, and 198.51.100.20:13080. The architecture anchor rehashed planning-card-text.ts. #872 merged at 2026-11-23T17:29:15Z as 2d94b9307136. The S2 pointer says the plan is above. package.json stays 0.8.1-preview.28 with engines.pnpm only. No engines.dsh. No new git tag. GitHub Release stays v0.8.1-preview.28. npm preview stays 0.8.1-preview.29. 0.8.1-preview.30 is absent. latest stays 0.7.0. #873 head 2cf8aea5a512 is open on next/0.8 and was not written as behavior. #870 head stays cecb4238a373. #869 head stays 774d1661d7c4. Draft #804 head stays 2b21cfe50838. #849 head stays da630522b0c2. #855 head stays 45e9a02e40b2. Tests were not rerun."
+    },
     {
       "title": "next/0.8 records the S1a staffing status in the design doc",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/9189cfaeacf7",
@@ -183,6 +196,24 @@
     }
   ],
   "pending": [
+    {
+      "title": "xyt071024 v0.3.14 was not line-read",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/838f97024345",
+      "confidence": 0.55,
+      "reason": "Tip 838f97024345 at 2026-11-23T17:00:41Z. src-repo/package.json is private dsh-superagent 0.3.14, engines.dsh still ^0.2.1-alpha.2, engines.node ^22.19.0 || >=24.0.0, MIT. A root tree search for backup, bak, and orig names returned none. The changelog describes planDivisionsFromText and review binding. Those sources were not line-read. The explicit-request exception was not rechecked. Not listed."
+    },
+    {
+      "title": "IHUI tip 0ebb3f09fa7d does not touch superagent",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/0ebb3f09fa7d",
+      "confidence": 0.9,
+      "reason": "Commit 2026-11-23T17:27:58Z only changes apps/api/src/routes/auth-sso.ts. Not written into the listed row."
+    },
+    {
+      "title": "chengchengking/dsh-superagent-test is a scratch repository",
+      "url": "https://github.com/chengchengking/dsh-superagent-test",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-23T16:49:30Z. Description says test repository. Size 1. Not listed."
+    },
     {
       "title": "A2A #871 example-address backport is not merged",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/871",
@@ -16310,17 +16341,18 @@
     {
       "title": "Official prototype, Harness, and npm tags did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
-      "confidence": 0.9,
-      "reason": "Rechecked through 2026-11-23T16:34:43Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. @mystic7c/dsh-superagent-panel stays 404. Panel main stays a0821c85ab3d. #107 head stays 4815fa662302 and is not merged, so it is not 1.1.8. arXiv all:dsh-superagent returned 0. Newest HN story remains 2026-11-11."
+      "confidence": 0.95,
+      "reason": "Rechecked through 2026-11-23T17:35:21Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. @mystic7c/dsh-superagent-panel stays 404. Panel main stays a0821c85ab3d. A2A npm preview stays 0.8.1-preview.29 and latest stays 0.7.0. wangqiongkaka stays b1187a7546d2. superagent-lite stays 7fb7e8b6533a. waixv stays 7cd2bce19e67. Robert-Wang-08 stays 92891c43882d. mashang stays 653349216c45. lanshi17/dsh-booth stays c3e22a51209b. lkshrk/dsh-superagent stays 4bed3c55c86c. hextor-ndc/superagent stays 0dc3b4279c03. Wheelchair tip stays 4214b1bac4d7, already listed."
     },
     {
-      "title": "t3code and IHUI commits in the window do not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/3b08d975ab58",
-      "confidence": 0.55,
-      "reason": "t3code tip 3b08d975ab58 at 2026-11-23T16:20:14Z and the other commits since 2026-11-23T15:35:21Z have no superagent filename. IHUI tip 3ac12ff8b3ca at 2026-11-23T16:15:54Z and the other commits in the window have no superagent filename. Not listed."
+      "title": "A2A #873 is open and not merged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/873",
+      "confidence": 0.9,
+      "reason": "Opened against next/0.8. Head 2cf8aea5a512, updated 2026-11-23T17:28:18Z. Files are docs/guides/repository-layout.md, scripts/verify-repository-layout.mjs, and tests/repository-layout.test.mjs. Not written as behavior."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-23T17:35:21Z: next/0.8 is 2d94b9307136. master stays 5e2ab4abe060. Open and not merged: #873 head 2cf8aea5a512, #870 head cecb4238a373, #869 head 774d1661d7c4, #855 head 45e9a02e40b2, #849 head da630522b0c2. Draft #804 head stays 2b21cfe50838. #811, #871, and #872 are merged. Panel main stays a0821c85ab3d. Wheelchair tip stays 4214b1bac4d7.",
     "2026-11-23T16:34:43Z: Nelson master stays 5e2ab4abe060. next/0.8 is 9189cfaeacf7. Open and not merged: #871 head f3b2da3e0177, #870 head cecb4238a373, #869 head 774d1661d7c4, #849 head da630522b0c2, #855 head 45e9a02e40b2. Drafts #811 head 56940c9dc455 and #804 head 2b21cfe50838. Panel #107 head 4815fa662302 is not merged; main stays a0821c85ab3d.",
     "2026-11-23T14:34:45Z: Nelson master stays b4ae39d7f94c. next/0.8 stays 856d085c4ba7. Open and not merged: #867 head cf38053926ed (preview.30), #807 head a1deef7cb15b (docs only), #869 head 774d1661d7c4, #868 head ee941163430d, #855 head 45e9a02e40b2, #849 head da630522b0c2. Drafts #811 head 56940c9dc455 and #804 head 2b21cfe50838. Panel #107 head 4815fa662302 is not merged; main stays a0821c85ab3d. #819 and #816 stay closed and not merged.",
     "2026-11-23T13:39:10Z: Nelson open PRs #867 head cf38053926ed targets master as 0.8.1-preview.30, #869 head 774d1661d7c4, #868 head ee941163430d, #855 head 45e9a02e40b2, #849 head da630522b0c2, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #865 merged as 856d085c4ba7. #819 and #816 stay closed and not merged. xyt071024/dsh-superagent-cn 7dadcb0055f2 still has .bak-before files. superstar717 main stays e5fae586be3b.",
