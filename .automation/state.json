@@ -1,18 +1,24 @@
 {
-  "last_run_at": "2026-11-23T09:35:47Z",
+  "last_run_at": "2026-11-23T10:35:03Z",
   "timezone": "UTC",
-  "baseline_commit": "96be50e",
+  "baseline_commit": "6283567",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T08:37:01Z",
-    "to": "2026-11-23T09:35:47Z"
+    "from": "2026-11-23T09:35:47Z",
+    "to": "2026-11-23T10:35:03Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "next/0.8 caps distinct attention questions on an admitted receipt",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/5304ac9954df",
+      "confidence": 0.95,
+      "reason": "Window 2026-11-23T09:35:47Z to 2026-11-23T10:35:03Z. Updated NelsonLongxiang/dsh-open-a2a-net. master b4ae39d7f94c at 2026-11-23T09:34:08Z is 2 ahead of 9d5cddac2ac2 and 0 behind. #847 merged. The only file is tests/unit/superagent-credential-actions.spec.ts: on Windows the POSIX 0o600 assertion is skipped; content and restart read-back stay. src/ is untouched. next/0.8 tip 5304ac9954df at 2026-11-23T10:08:49Z is 9 ahead of a2e4302aae04 and 0 behind, and 81 ahead and 27 behind master. #859 merged at 2026-11-23T09:48:59Z as 2ee5d7186034. Behavior is 29c2e649ef00. receiptBypassAttentionMax defaults to 20. Distinct attention question ids on one owed task are counted. A transport id already in passed passes again and is not counted again. Under the cap the id is added to passed and the count increments. At the cap, check returns more than N attention questions for this task, does not increment, and does not record passed, so the same refused question is judged again. bypassRefused runs and scope() judges that receipt. 0 lets no attention receipt skip team-scope. An acknowledgement is not counted. A non-finite or negative value falls back to 20. Any other value is Math.floor. Progress max and interval still accept a non-negative finite value, so 0 stays valid: an interval of 0 means no interval and the count still applies. The README states that 0 is accepted for all three keys and that a very large finite value is effectively no limit. Counts stay in memory and reset on restart. A task whose ledger status is not pending is dropped. A new task past 1000 drops the oldest. src/config.ts, src/direct-forward.ts, and the src/index.ts wiring line changed. The architecture anchor for src/index.ts was rehashed. The drawing was not line-read. #860 merged at 2026-11-23T10:08:49Z. It copies the same Windows assertion guard into the next/0.8 test file and does not touch src/. package.json stays 0.8.1-preview.28. engines.pnpm stays >=11.24 <12. No engines.dsh. npm preview stays 0.8.1-preview.29. latest stays 0.7.0. No GitHub Release newer than v0.8.1-preview.28. #819 and #816 stay closed and not merged. Drafts #811 and #804, and open #807, #849, #855, and #861, are not merged. #861 opened 2026-11-23T09:57:59Z. Head 79c6f66db695 targets next/0.8. Its file list includes src/superagent/host/index.ts and tests/unit/superagent-member-name-display.spec.ts. Not line-read. Not written as behavior. #849 head stays da630522b0c2 and #855 head stays 45e9a02e40b2, both targeting master. Official prototype stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. arXiv returned no entries. Newest HN story remains 2026-11-11. Tests were not rerun."
+    },
     {
       "title": "next/0.8 merges the receipt-birth follow-up tests",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/a2e4302aae04",
@@ -118,10 +124,16 @@
   ],
   "pending": [
     {
-      "title": "A2A attention-cap pull request is open and not merged",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/859",
+      "title": "A2A member-name display pull request is open and not merged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/861",
       "confidence": 0.55,
-      "reason": "Opened 2026-11-23T09:07:45Z. Head 73f59dea3675 targets next/0.8 and is not merged. next/0.8 tip is a2e4302aae04. The title says it caps distinct attention questions in the admitted-receipt bypass. The diff was not line-read. Not written as behavior."
+      "reason": "Opened 2026-11-23T09:57:59Z. Head 79c6f66db695 targets next/0.8 and is not merged. The file list is src/superagent/host/index.ts and tests/unit/superagent-member-name-display.spec.ts. The diff was not line-read. Not written as behavior."
+    },
+    {
+      "title": "A2A attention-cap pull request merged and was written",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/859",
+      "confidence": 0.95,
+      "reason": "Merged 2026-11-23T09:48:59Z as 2ee5d7186034 onto next/0.8. The behavior is recorded on tip 5304ac9954df. No longer an open pull request."
     },
     {
       "title": "omp-superagent main moved and still has no engines.dsh",
@@ -16140,39 +16152,28 @@
   ],
   "rejected_this_run": [
     {
-      "title": "A2A attention-cap pull request is open and not merged",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/859",
-      "confidence": 0.55
-    },
-    {
       "title": "omp-superagent main moved and still has no engines.dsh",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/baa4d7d24136",
-      "confidence": 0.35
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/d45363ffcd20",
+      "confidence": 0.35,
+      "reason": "Pushed 2026-11-23T10:19:02Z. Tip d45363ffcd20. The message is a verbatim shell cron runner. Package stays omp-superagent 0.1.7. engines is bun >=1.4.4 only. No engines.dsh. Not written."
     },
     {
-      "title": "t3code 7180578cc9a4 has no prototype filename",
-      "url": "https://github.com/pingdotgg/t3code/commit/7180578cc9a4",
-      "confidence": 0.3
+      "title": "jinyu-dsh/agent-lab only changed its README",
+      "url": "https://github.com/jinyu-dsh/agent-lab/commit/cafcd789a5f6",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-23T10:25:36Z. Tip cafcd789a5f6. The tree is README.md only. The commit adds a self-assigned line. Not written."
     },
     {
-      "title": "IHUI c064aaadb134 has no prototype filename",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/c064aaadb134",
-      "confidence": 0.3
+      "title": "agent-playground repositories are playgrounds",
+      "url": "https://github.com/1787463152-hub/agent-playground",
+      "confidence": 0.25,
+      "reason": "Pushed 2026-11-23T10:32:41Z. 1787463152-hub/agent-playground and agent-playground-mac describe a dsh-superagent playground and a macOS instance. Playground repositories stay out. Not written."
     },
     {
-      "title": "oh-my-pi main stays f2309f846d13",
-      "url": "https://github.com/can1357/oh-my-pi/commit/f2309f846d13",
-      "confidence": 0.35
-    },
-    {
-      "title": "dataCodeFarmer/test-dsh-superagent stayed a docs-only test repository",
-      "url": "https://github.com/dataCodeFarmer/test-dsh-superagent/commit/40a30748a3e6",
-      "confidence": 0.25
-    },
-    {
-      "title": "dsh-booth refactor/architecture is not master",
-      "url": "https://github.com/lanshi17/dsh-booth/commit/ba4dcab4cc88",
-      "confidence": 0.4
+      "title": "dsh-role is an iOS health app",
+      "url": "https://github.com/dsh-superagent-robot/dsh-role/commit/2d26abb82747",
+      "confidence": 0.2,
+      "reason": "Created 2026-11-23T09:54:42Z. Tip 2d26abb82747 at 2026-11-23T10:31:00Z. The commits implement a native iOS Heartica app. The owner name matched a superagent search. The tree is not a DSH super-agent plugin. Not written."
     }
   ],
   "held_on_other_branches": [
@@ -16706,5 +16707,5 @@
     "lanshi17/dsh-booth refactor/architecture is ba4dcab4cc88 at 2026-11-23T09:18:42Z. Default master stays c3e22a51209b. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
+  "npm_note": "Rechecked 2026-11-23T10:35:03Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
 }
