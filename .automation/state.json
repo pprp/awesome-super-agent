@@ -1,15 +1,15 @@
 {
-  "last_run_at": "2026-11-23T19:31:48Z",
+  "last_run_at": "2026-11-23T20:34:29Z",
   "timezone": "UTC",
-  "baseline_commit": "2b6ffbf",
+  "baseline_commit": "daff699",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T18:31:51Z",
-    "to": "2026-11-23T19:31:48Z"
+    "from": "2026-11-23T19:31:48Z",
+    "to": "2026-11-23T20:34:29Z"
   },
   "added": [],
   "updated": [
@@ -15181,7 +15181,7 @@
       "title": "Ezra-Zhao/dsh-superagent-cheatsheet-es-pt",
       "url": "https://github.com/Ezra-Zhao/dsh-superagent-cheatsheet-es-pt",
       "confidence": 0.42,
-      "reason": "Created 2026-11-02T16:54:00Z. One README plus a setup checklist, with GitHub Sponsors, Gumroad, and Ko-fi links. The auth card says default observe only records work and does not start it, which drops the explicit-request exception in docs/002. Do not list until that sentence is fixed."
+      "reason": "Created 2026-11-02T16:54:00Z. One README plus a setup checklist, with GitHub Sponsors, Gumroad, and Ko-fi links. The auth card says default observe only records work and does not start it, which drops the explicit-request exception in docs/002. Do not list until that sentence is fixed. 2026-11-23T19:48:04Z d1953e0dd753 only adds a pointer to Ezra-Zhao/cheatsheets. The observe sentence is unchanged."
     },
     {
       "title": "lahavi/awesome-superagent",
@@ -16353,19 +16353,19 @@
       "title": "Official prototype, Harness, and npm tags did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.95,
-      "reason": "Rechecked through 2026-11-23T19:31:48Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2, published 2026-11-22T11:00:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. @mystic7c/dsh-superagent-panel stays 404. No Harness issue updated today names dsh-superagent."
+      "reason": "Window 2026-11-23T19:31:48Z to 2026-11-23T20:34:29Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2, published 2026-11-22T11:00:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. modified stays 2026-11-22T09:57:12.602Z. @mystic7c/dsh-superagent-panel stays 404."
     },
     {
-      "title": "A2A #876 head moved and stays unmerged",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/876",
+      "title": "A2A next/0.8 and master had no new commit",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/d18d4ef88207",
+      "confidence": 0.95,
+      "reason": "next/0.8 tip stays d18d4ef88207. master stays 5e2ab4abe060. package on next/0.8 stays 0.8.1-preview.28. npm preview stays 0.8.1-preview.29. 0.8.1-preview.30 is absent. latest stays 0.7.0. #876 head stays 44488627cc02. #873 head stays 2cf8aea5a512. #869 head stays 774d1661d7c4. Draft #804 head stays 2b21cfe50838. #849 head stays da630522b0c2. #855 head stays 45e9a02e40b2. None merged. Not written again."
+    },
+    {
+      "title": "The cheatsheet pointer, t3code, and the plugin catalog were not listed",
+      "url": "https://github.com/Ezra-Zhao/dsh-superagent-cheatsheet-es-pt/commit/d1953e0dd753",
       "confidence": 0.9,
-      "reason": "Head is 44488627cc02 at 2026-11-23T18:51:00Z, a merge of next/0.8 d18d4ef88207 into the PR branch. Earlier unmerged commits b9303065a335 (18:38Z) and 0251cb914eb7 (18:50Z) are not on next/0.8. Open, not written as behavior."
-    },
-    {
-      "title": "Playground and unrelated superagent pushes were not listed",
-      "url": "https://github.com/superstar717/dsh-superagent-playground",
-      "confidence": 0.86,
-      "reason": "superstar717/dsh-superagent-playground pushed 2026-11-23T18:46:09Z and remains a test repo. zoumo/mass b3603d7b1deb at 2026-11-23T18:58:17Z is a Codex/Claude session service, not DSH. saharghmai1995-ux/B-T 35e9ebc72409 is not DSH. Wheelchair and the panel had no commits in the window."
+      "reason": "Ezra-Zhao/dsh-superagent-cheatsheet-es-pt d1953e0dd753 at 2026-11-23T19:48:04Z only adds a pointer to Ezra-Zhao/cheatsheets. The observe card still drops the explicit-request exception. Stays pending. pingdotgg/t3code b5e1f91cba0e is 13 ahead of 1002934541b1 and 0 behind, 52 files, no superagent filename. awesome-dsh-plugin commit search for dsh-superagent on 2026-11-23 returned 0. Discussions #14198, #14197, #13571, and #13724 do not name this prototype. arXiv all:dsh-superagent returned 0. Newest HN story remains 2026-11-11T16:50:41Z. No open PR on this list."
     }
   ],
   "held_on_other_branches": [
@@ -16907,5 +16907,5 @@
     "NelsonLongxiang/dsh-open-a2a-net #870 head cecb4238a373 targets next/0.8 and is not merged. next/0.8 stays ad00c20aeeef. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "Rechecked 2026-11-23T19:31:48Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
+  "npm_note": "Rechecked 2026-11-23T20:34:29Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
 }
