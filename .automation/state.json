@@ -1,18 +1,36 @@
 {
-  "last_run_at": "2026-11-23T12:34:47Z",
+  "last_run_at": "2026-11-23T13:39:10Z",
   "timezone": "UTC",
-  "baseline_commit": "e2702bb",
+  "baseline_commit": "e90865b",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T11:32:14Z",
-    "to": "2026-11-23T12:34:47Z"
+    "from": "2026-11-23T12:34:47Z",
+    "to": "2026-11-23T13:39:10Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "next/0.8 stops only the work a credential card's session actually holds",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/856d085c4ba7",
+      "confidence": 0.95,
+      "reason": "Window 2026-11-23T12:34:47Z to 2026-11-23T13:39:10Z. #865 merged at 2026-11-23T12:57:08Z as 856d085c4ba7. next/0.8 is 4 ahead of 6c8d43ab6001 and 0 behind, and 104 ahead and 27 behind master b4ae39d7f94c. heldBy uses a binding when one exists and the named member only when none exists. An excluded member is not recorded and accept returns member_refused code excluded. A rebound ticket is not stopped. An unbound named ticket is stopped. No other member waits as all-excluded. Package stays 0.8.1-preview.28. npm preview stays 0.8.1-preview.29. latest stays 0.7.0. #867 head cf38053926ed is preview.30 and is not merged."
+    },
+    {
+      "title": "dsh-superagent-panel 1.1.7 retries idempotent reads and pages pipeline jobs",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/commit/a0821c85ab3d",
+      "confidence": 0.93,
+      "reason": "Main a0821c85ab3d at 2026-11-23T12:33:25Z is 8 ahead of 55c52298c12b and 0 behind. Package 1.1.7. engines.node stays >=22. Not private. 1.1.2 through 1.1.4 were not line-read. Reads time out at 20s and writes at 2 minutes. awaiting-answer is waiting. Orphan reconcile backs off from 10 minutes to 12 hours and stops after 8. Signal evidence expires after 30 days. handledEvents keeps 500. Worktree match is a whole line. Remote reuse requires ls-remote. A failed MR create sets mergeRequestUnconfirmed and run status failed. Gate defaults to 202. GitLab GET retries 429/500/502/503/504 three times; writes once. Pipeline jobs read up to 10 pages. Judge state clamps at 8000 characters. CHANGELOG says 703 pass. Tests were not rerun. npm stays 404."
+    },
+    {
+      "title": "wangqiongkaka scopes the worker git environment to bound sessions",
+      "url": "https://github.com/wangqiongkaka/dsh-superagent/commit/b1187a7546d2",
+      "confidence": 0.94,
+      "reason": "Tip b1187a7546d2 at 2026-11-23T12:40:43Z is 2 ahead of 7ee853776ca1 and 0 behind. b8f461a5e293 no longer writes process.env and no longer calls setup.restore. workerEnvironment is applied only when DSH_SESSION_ID belongs to a bound session. b1187a7546d2 sends a Feishu public_reply and human_action unchanged. Package stays private 0.1.0. engines.dsh stays ^0.2.1-alpha.2. engines.node stays ^22.19.0 || >=24.0.0. Tests were not rerun."
+    },
     {
       "title": "next/0.8 lets the router and the builder close their own lesson rounds",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/6c8d43ab6001",
@@ -136,10 +154,28 @@
   ],
   "pending": [
     {
-      "title": "A2A credential-card stop is open and not merged",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/865",
+      "title": "A2A preview.30 candidate is open and not merged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/867",
       "confidence": 0.55,
-      "reason": "Updated 2026-11-23T12:06:53Z. Head b7f72bb909d9 targets next/0.8 and is not merged. Files include src/superagent/host/index.ts, src/superagent/host/tools.ts, two design docs, and tests/unit/superagent-credential-actions.spec.ts. The diff was read. Not written as merged behavior."
+      "reason": "Updated 2026-11-23T13:21:12Z. Head cf38053926ed targets master and is not merged. package.json on that head is 0.8.1-preview.30. Not written as a release."
+    },
+    {
+      "title": "A2A name-cleaning re-review tests are open and not merged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/868",
+      "confidence": 0.5,
+      "reason": "Updated 2026-11-23T13:08:57Z. Head ee941163430d targets next/0.8 and is not merged. The only file is tests/unit/superagent-member-name-display.spec.ts."
+    },
+    {
+      "title": "A2A placeholder cleanup is open and not merged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/869",
+      "confidence": 0.45,
+      "reason": "Updated 2026-11-23T13:15:56Z. Head 774d1661d7c4 targets next/0.8 and is not merged. Files are two docs and tests/unit/superagent-builder.spec.ts."
+    },
+    {
+      "title": "A2A credential-card stop merged and was written",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/865",
+      "confidence": 0.95,
+      "reason": "Merged 2026-11-23T12:57:08Z onto next/0.8 as 856d085c4ba7. heldBy and member_refused excluded are recorded on that tip. No longer an open pull request."
     },
     {
       "title": "A2A member-name pull request merged and was written",
@@ -16201,36 +16237,43 @@
   "rejected_this_run": [
     {
       "title": "t3code moved without a super-agent filename",
-      "url": "https://github.com/pingdotgg/t3code/commit/27ecc0fad966",
+      "url": "https://github.com/pingdotgg/t3code/commit/2bc7878fff06",
       "confidence": 0.3,
-      "reason": "Tip 27ecc0fad966 is 17 ahead of 5b643a491358 and 0 behind. 56 files. No superagent filename. Not written."
+      "reason": "Tip 2bc7878fff06 is 8 ahead of 27ecc0fad966 and 0 behind. 19 files. No superagent filename. Not written."
     },
     {
       "title": "IHUI moved without a super-agent filename",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/33ab1e7b05b5",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/f6cfea0c541c",
       "confidence": 0.25,
-      "reason": "Tip 33ab1e7b05b5 is 7 ahead of 1193a7ab109c and 0 behind. 28 files. No superagent filename. Not written."
+      "reason": "Tip f6cfea0c541c is 17 ahead of 33ab1e7b05b5 and 0 behind. 71 files. No superagent filename. Not written."
     },
     {
       "title": "oh-my-pi main did not move",
       "url": "https://github.com/can1357/oh-my-pi/commit/0aefd54236b6",
       "confidence": 0.2,
-      "reason": "pushed_at 2026-11-23T11:59:37Z. Default main stays 0aefd54236b6. Not written."
+      "reason": "pushed_at 2026-11-23T12:53:20Z. Default main stays 0aefd54236b6 at 2026-11-23T10:41:10Z. Not written."
     },
     {
-      "title": "dsh-booth architecture branch adds a local Python prompt",
-      "url": "https://github.com/lanshi17/dsh-booth/commit/d565309d54cf",
+      "title": "dsh-superagent-cn still has backup scripts",
+      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/7dadcb0055f2",
       "confidence": 0.3,
-      "reason": "refactor/architecture d565309d54cf at 2026-11-23T11:49:02Z evaluates a leading dollar prompt with local python3. master stays c3e22a51209b. Not this prototype. Not listed."
+      "reason": "v0.3.12 at 2026-11-23T12:53:26Z still adds scripts ending in .bak-before-m02-profile-verify-20261122-230519. Not listed."
     },
     {
-      "title": "playground note is not this prototype",
+      "title": "playground main did not move",
       "url": "https://github.com/superstar717/dsh-superagent-playground/commit/e5fae586be3b",
       "confidence": 0.2,
-      "reason": "2026-11-23T11:34:07Z adds a Mago studio note. Not listed."
+      "reason": "pushed_at 2026-11-23T13:06:13Z. Default main stays e5fae586be3b at 2026-11-23T11:34:07Z. Not listed."
+    },
+    {
+      "title": "ArtemKoval lab note is not this prototype",
+      "url": "https://github.com/ArtemKoval/lab/commit/0c5c8b58ed19",
+      "confidence": 0.2,
+      "reason": "2026-11-23T13:27:25Z proposes loan-request-queue-control. Not this prototype. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-23T13:39:10Z: Nelson open PRs #867 head cf38053926ed targets master as 0.8.1-preview.30, #869 head 774d1661d7c4, #868 head ee941163430d, #855 head 45e9a02e40b2, #849 head da630522b0c2, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #865 merged as 856d085c4ba7. #819 and #816 stay closed and not merged. xyt071024/dsh-superagent-cn 7dadcb0055f2 still has .bak-before files. superstar717 main stays e5fae586be3b.",
     "2026-11-23T12:34:47Z: Nelson open PRs #865 head b7f72bb909d9, #855 head 45e9a02e40b2, #849 head da630522b0c2, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #862 merged as 70283f7a9c08, #863 merged as d3e35772cffc, #864 merged as 1dead7d23b66, #866 merged as 6c8d43ab6001. #819 and #816 stay closed and not merged. lanshi17/dsh-booth refactor/architecture is d565309d54cf; master stays c3e22a51209b.",
     "2026-11-23T08:37:01Z: Nelson open PRs #858 head 07f1c0164540, #855 head 45e9a02e40b2, #849 head da630522b0c2, #847 head ea5a0ea7a402, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #857 merged as 3d2f4a80fac5. #819 and #816 stay closed and not merged. baojingyu #3 head 2d1f1851276c stays open. panel has no open PRs.",
     "2026-11-23T07:33:18Z: Nelson open PRs #857 head 09ccf4e6715f, #855 head 45e9a02e40b2, #849 head da630522b0c2, #847 head ea5a0ea7a402, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #853 merged as 3774868a8d1e. baojingyu #3 head 2d1f1851276c stays open. panel has no open PRs.",
@@ -16763,5 +16806,5 @@
     "lanshi17/dsh-booth refactor/architecture is c729ff731233 at 2026-11-23T11:03:02Z, 5 ahead of ba4dcab4cc88 and 0 behind. Default master stays c3e22a51209b. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "Rechecked 2026-11-23T12:34:47Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. latest remains 0.7.0."
+  "npm_note": "Rechecked 2026-11-23T13:39:10Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
 }
