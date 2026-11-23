@@ -1,18 +1,30 @@
 {
-  "last_run_at": "2026-11-23T21:35:41Z",
+  "last_run_at": "2026-11-23T22:35:01Z",
   "timezone": "UTC",
-  "baseline_commit": "df8ca99",
+  "baseline_commit": "07ea24b",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T20:34:29Z",
-    "to": "2026-11-23T21:35:41Z"
+    "from": "2026-11-23T21:35:41Z",
+    "to": "2026-11-23T22:35:01Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "dsh-agent-lines marks 0.14.1 and 0.14.0 sections as released",
+      "url": "https://github.com/Lencen/dsh-agent-lines/commit/3e7bc7fbce3058de796989ebee66271ffe6ca922",
+      "confidence": 0.93,
+      "reason": "Window 2026-11-23T21:35:41Z to 2026-11-23T22:35:01Z. Tip 3e7bc7fbce30 at 2026-11-23T22:19:38Z is 3 ahead of 699e8335ab29 and 0 behind. Files are AGENTS.md, README.md, README.en.md, and scripts/check-docs-consistency.mjs. lib/ is absent. package.json is absent. Section headings for 0.14.1 and 0.14.0 change from unreleased-candidate wording to released 2026-11-24. AGENTS.md docs consistency count goes from 19 to 20. C16 strips a leading v from git tags, unions them with the package version, and fails a ### version heading that still says 未发布候选 or unreleased candidate. It also fails when scanned is 0 or releasedHit is 0. npm latest stays 0.14.1 at 2026-11-23T21:28:54.955Z, no gitHead. Tests were not rerun."
+    },
+    {
+      "title": "A2A #873 head moves and stays unmerged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/873",
+      "confidence": 0.9,
+      "reason": "Window 2026-11-23T21:35:41Z to 2026-11-23T22:35:01Z. Open PR #873 head moved from 2cf8aea5a512 to c8ef5bc1cc23. Base stays next/0.8 d18d4ef88207. merged_at is null. 4 commits, 3 files, +138 -6. The diff was not line-read and is not written as behavior. #876 head stays 44488627cc02. next/0.8 stays d18d4ef88207. master stays 5e2ab4abe060."
+    },
     {
       "title": "dsh-agent-lines 0.14.1 adds the board owner style",
       "url": "https://github.com/Lencen/dsh-agent-lines/commit/699e8335ab298a44c549c88cd2dc080747beb114",
@@ -16359,22 +16371,23 @@
       "title": "Official prototype, Harness, and npm @deepseek-ai/dsh did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.95,
-      "reason": "Window 2026-11-23T20:34:29Z to 2026-11-23T21:35:41Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2, published 2026-11-22T11:00:39Z. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. modified stays 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview stays 0.8.1-preview.29. 0.8.1-preview.30 is absent. latest stays 0.7.0. @mystic7c/dsh-superagent-panel stays 404."
+      "reason": "main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. npm latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. No commits on those branches since 2026-11-23T21:35:41Z."
     },
     {
-      "title": "A2A next/0.8 and master had no new commit",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/d18d4ef88207",
-      "confidence": 0.95,
-      "reason": "next/0.8 tip stays d18d4ef88207. master stays 5e2ab4abe060. package on next/0.8 stays 0.8.1-preview.28. No new git tag. #876 head stays 44488627cc02. #873 head stays 2cf8aea5a512. #869 head stays 774d1661d7c4. Draft #804 head stays 2b21cfe50838. #849 head stays da630522b0c2. #855 head stays 45e9a02e40b2. None merged. Not written again."
+      "title": "t3code moved without naming this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/42c9107983d8f65c38117501cbcde1ee5c82ef14",
+      "confidence": 0.86,
+      "reason": "Default branch has commits since 2026-11-23T21:35:41Z. Tip seen is 42c9107983d8. Code search for dsh-superagent in pingdotgg/t3code returned 0. Not listed."
     },
     {
-      "title": "t3code, oh-my-pi, and the new discussions were not listed",
-      "url": "https://github.com/pingdotgg/t3code/commit/5dc43ec43393c79a024e2c4a1d332c21040565a6",
-      "confidence": 0.9,
-      "reason": "pingdotgg/t3code 5dc43ec43393 at 2026-11-23T21:21:21Z is 6 ahead of b5e1f91cba0e and 0 behind, 14 files, no superagent or dsh filename. can1357/oh-my-pi e4fe8782978e pushed 2026-11-23T21:30:10Z is 40 ahead of 0aefd54236b6 and 0 behind, 106 files, no superagent, dsh, or harness filename. It is not a listed row. awesome-dsh-plugin commit search for dsh-superagent on 2026-11-23 returned 0. Discussion titles updated in the window, including #14199, #14188, #14198, #14179, #14088, and #11735, do not name dsh-superagent. arXiv all:dsh-superagent returned 0. Newest HN story remains 2026-11-11T16:50:41Z. No open PR on this list. Wheelchair tip stays 4214b1bac4d7. Panel tip stays a0821c85ab3d."
+      "title": "Harness discussion titles in the window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14198",
+      "confidence": 0.7,
+      "reason": "#14198 updated 2026-11-23T21:38:38Z and #13964 updated 2026-11-23T21:37:43Z. Titles do not name dsh-superagent. Bodies were not read. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-23T22:35:01Z: next/0.8 stays d18d4ef88207. master stays 5e2ab4abe060. Open and not merged: #873 head c8ef5bc1cc23, #876 head 44488627cc02, #869 head 774d1661d7c4, draft #804 head 2b21cfe50838, #849 head da630522b0c2, #855 head 45e9a02e40b2.",
     "2026-11-23T18:31:51Z: next/0.8 is f5c560c47cfe. master stays 5e2ab4abe060. Open and not merged: #876 head e5fbdc013ac1, #875 head 018ec470d3e2, #873 head 2cf8aea5a512, #869 head 774d1661d7c4, #855 head 45e9a02e40b2, #849 head da630522b0c2. Draft #804 head stays 2b21cfe50838. #870 is merged. Panel main stays a0821c85ab3d. Wheelchair tip stays 4214b1bac4d7.",
     "2026-11-23T17:35:21Z: next/0.8 is 2d94b9307136. master stays 5e2ab4abe060. Open and not merged: #873 head 2cf8aea5a512, #870 head cecb4238a373, #869 head 774d1661d7c4, #855 head 45e9a02e40b2, #849 head da630522b0c2. Draft #804 head stays 2b21cfe50838. #811, #871, and #872 are merged. Panel main stays a0821c85ab3d. Wheelchair tip stays 4214b1bac4d7.",
     "2026-11-23T16:34:43Z: Nelson master stays 5e2ab4abe060. next/0.8 is 9189cfaeacf7. Open and not merged: #871 head f3b2da3e0177, #870 head cecb4238a373, #869 head 774d1661d7c4, #849 head da630522b0c2, #855 head 45e9a02e40b2. Drafts #811 head 56940c9dc455 and #804 head 2b21cfe50838. Panel #107 head 4815fa662302 is not merged; main stays a0821c85ab3d.",
@@ -16913,5 +16926,5 @@
     "NelsonLongxiang/dsh-open-a2a-net #870 head cecb4238a373 targets next/0.8 and is not merged. next/0.8 stays ad00c20aeeef. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "Rechecked 2026-11-23T21:35:41Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404. dsh-agent-lines latest is 0.14.1 at 2026-11-23T21:28:54.955Z, no gitHead."
+  "npm_note": "Rechecked 2026-11-23T22:35:01Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404. dsh-agent-lines latest remains 0.14.1 at 2026-11-23T21:28:54.955Z, no gitHead. Tip is 3e7bc7fbce30."
 }
