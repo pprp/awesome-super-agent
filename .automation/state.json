@@ -1,15 +1,15 @@
 {
-  "last_run_at": "2026-11-23T17:35:21Z",
+  "last_run_at": "2026-11-23T18:31:51Z",
   "timezone": "UTC",
-  "baseline_commit": "0690b0f",
+  "baseline_commit": "a9fb42c",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T16:34:43Z",
-    "to": "2026-11-23T17:35:21Z"
+    "from": "2026-11-23T17:35:21Z",
+    "to": "2026-11-23T18:31:51Z"
   },
   "added": [
     {
@@ -20,6 +20,12 @@
     }
   ],
   "updated": [
+    {
+      "title": "A split part named to an excluded member records no member",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/f5c560c47cfecf340e7e81b01aa10ccb9ad0f634",
+      "confidence": 0.95,
+      "reason": "Window 2026-11-23T17:35:21Z to 2026-11-23T18:31:51Z. Updated NelsonLongxiang/dsh-open-a2a-net next/0.8. #870 merged 2026-11-23T17:58:47Z. Tip f5c560c47cfe is 14 ahead of 9189cfaeacf7 and 0 behind, and 31 ahead and 33 behind master 5e2ab4abe060. splitParent checks exclusion on the parent ticket. An excluded named part is not setMember and does not inherit the parent named seat; refused records the part. splitRequest adds member_refused code excluded. A part named to someone else still setMember. The same commit only tests that accept refuses a short id, upper case, or padded excluded name. package.json stays 0.8.1-preview.28. No new git tag. Release stays v0.8.1-preview.28. npm preview stays 0.8.1-preview.29. latest stays 0.7.0. Not run."
+    },
     {
       "title": "next/0.8 merges the noWait diagnostics and the example-address backport",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/2d94b9307136",
@@ -196,6 +202,12 @@
     }
   ],
   "pending": [
+    {
+      "title": "linkinght/SuperAgent01 is a playground",
+      "url": "https://github.com/linkinght/SuperAgent01",
+      "confidence": 0.3,
+      "reason": "Created 2026-11-23T12:23:16Z. Pushed 2026-11-23T18:15:08Z. Tip 9ea7336125ca adds hello() with a unittest. README calls it a playground for the prototype. Not listed."
+    },
     {
       "title": "xyt071024 v0.3.14 was not line-read",
       "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/838f97024345",
@@ -16342,16 +16354,23 @@
       "title": "Official prototype, Harness, and npm tags did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.95,
-      "reason": "Rechecked through 2026-11-23T17:35:21Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. @mystic7c/dsh-superagent-panel stays 404. Panel main stays a0821c85ab3d. A2A npm preview stays 0.8.1-preview.29 and latest stays 0.7.0. wangqiongkaka stays b1187a7546d2. superagent-lite stays 7fb7e8b6533a. waixv stays 7cd2bce19e67. Robert-Wang-08 stays 92891c43882d. mashang stays 653349216c45. lanshi17/dsh-booth stays c3e22a51209b. lkshrk/dsh-superagent stays 4bed3c55c86c. hextor-ndc/superagent stays 0dc3b4279c03. Wheelchair tip stays 4214b1bac4d7, already listed."
+      "reason": "Rechecked through 2026-11-23T18:31:51Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. @mystic7c/dsh-superagent-panel stays 404. Panel main stays a0821c85ab3d. A2A npm preview stays 0.8.1-preview.29 and latest stays 0.7.0. A2A release stays v0.8.1-preview.28. wangqiongkaka, superagent-lite, waixv, Robert-Wang-08, mashang, lanshi17/dsh-booth, lkshrk, hextor-ndc, wheelchair 4214b1bac4d7, yhPrime 51ca7e1a412e, and xyt071024 stayed. IHUI 6a519964b626, ffed788613c1, and 889e111e34b5 do not touch packages/shared/src/super-agent. arXiv had no in-window paper. Newest HN story remains 2026-11-11. Harness discussions had no updates."
     },
     {
-      "title": "A2A #873 is open and not merged",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/873",
+      "title": "A2A #876 and #875 are open and not merged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/876",
       "confidence": 0.9,
-      "reason": "Opened against next/0.8. Head 2cf8aea5a512, updated 2026-11-23T17:28:18Z. Files are docs/guides/repository-layout.md, scripts/verify-repository-layout.mjs, and tests/repository-layout.test.mjs. Not written as behavior."
+      "reason": "#876 head e5fbdc013ac1, updated 2026-11-23T18:26:01Z, base next/0.8. Files are docs/design/superagent-pr-follow.md, src/superagent/host/review-requests.ts, and tests/unit/superagent-pr-follow.spec.ts. #875 head 018ec470d3e2, updated 2026-11-23T18:20:38Z, only tests/unit/superagent-credential-actions.spec.ts. #873 head stays 2cf8aea5a512. #869 head stays 774d1661d7c4. Draft #804 head stays 2b21cfe50838. #849 head stays da630522b0c2. #855 head stays 45e9a02e40b2. Not written as behavior."
+    },
+    {
+      "title": "Playground and test pushes were not listed",
+      "url": "https://github.com/linkinght/SuperAgent01",
+      "confidence": 0.35,
+      "reason": "linkinght/SuperAgent01 tip 9ea7336125ca adds hello() and calls itself a playground. superstar717/dsh-superagent-playground tip 1d4b602b49a0 is a score-pipeline workspace. chengchengking/dsh-superagent-test tip 9cc1060b4f9b only rewrites README lines. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-23T18:31:51Z: next/0.8 is f5c560c47cfe. master stays 5e2ab4abe060. Open and not merged: #876 head e5fbdc013ac1, #875 head 018ec470d3e2, #873 head 2cf8aea5a512, #869 head 774d1661d7c4, #855 head 45e9a02e40b2, #849 head da630522b0c2. Draft #804 head stays 2b21cfe50838. #870 is merged. Panel main stays a0821c85ab3d. Wheelchair tip stays 4214b1bac4d7.",
     "2026-11-23T17:35:21Z: next/0.8 is 2d94b9307136. master stays 5e2ab4abe060. Open and not merged: #873 head 2cf8aea5a512, #870 head cecb4238a373, #869 head 774d1661d7c4, #855 head 45e9a02e40b2, #849 head da630522b0c2. Draft #804 head stays 2b21cfe50838. #811, #871, and #872 are merged. Panel main stays a0821c85ab3d. Wheelchair tip stays 4214b1bac4d7.",
     "2026-11-23T16:34:43Z: Nelson master stays 5e2ab4abe060. next/0.8 is 9189cfaeacf7. Open and not merged: #871 head f3b2da3e0177, #870 head cecb4238a373, #869 head 774d1661d7c4, #849 head da630522b0c2, #855 head 45e9a02e40b2. Drafts #811 head 56940c9dc455 and #804 head 2b21cfe50838. Panel #107 head 4815fa662302 is not merged; main stays a0821c85ab3d.",
     "2026-11-23T14:34:45Z: Nelson master stays b4ae39d7f94c. next/0.8 stays 856d085c4ba7. Open and not merged: #867 head cf38053926ed (preview.30), #807 head a1deef7cb15b (docs only), #869 head 774d1661d7c4, #868 head ee941163430d, #855 head 45e9a02e40b2, #849 head da630522b0c2. Drafts #811 head 56940c9dc455 and #804 head 2b21cfe50838. Panel #107 head 4815fa662302 is not merged; main stays a0821c85ab3d. #819 and #816 stay closed and not merged.",
@@ -16889,5 +16908,5 @@
     "NelsonLongxiang/dsh-open-a2a-net #870 head cecb4238a373 targets next/0.8 and is not merged. next/0.8 stays ad00c20aeeef. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "Rechecked 2026-11-23T16:34:43Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
+  "npm_note": "Rechecked 2026-11-23T18:31:51Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
 }
