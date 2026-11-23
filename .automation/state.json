@@ -1,18 +1,43 @@
 {
-  "last_run_at": "2026-11-23T02:37:12Z",
+  "last_run_at": "2026-11-23T03:37:05Z",
   "timezone": "UTC",
-  "baseline_commit": "e1c724d",
+  "baseline_commit": "a2553a9",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T01:32:11Z",
-    "to": "2026-11-23T02:37:12Z"
+    "from": "2026-11-23T02:37:12Z",
+    "to": "2026-11-23T03:37:05Z"
   },
-  "added": [],
+  "added": [
+    {
+      "title": "hwachief/dsh-superagent-webhook-bridge registers a webhook source",
+      "url": "https://github.com/hwachief/dsh-superagent-webhook-bridge/commit/a5d6d6117028",
+      "confidence": 0.9,
+      "reason": "Window 2026-11-23T02:37:12Z to 2026-11-23T03:37:05Z. Added hwachief/dsh-superagent-webhook-bridge. Not a fork. Created 2026-11-18T02:11:00Z. Tip a5d6d6117028 at 2026-11-23T03:16:28Z. Package 1.1.10, MIT, engines.node >=22.19.0, engines.dsh ^0.2.1-alpha.2. npm 404. Registers orchestrator source kind webhook. POST /hooks/:id authenticates with auth key. HMAC exists in security.js but this handler does not select it. Events queue before decideAdmission and source.receive. No test files. Tests were not rerun."
+    }
+  ],
   "updated": [
+    {
+      "title": "next/0.8 derives a recovery permit expiry from one clock sample",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/fb772de09625",
+      "confidence": 0.95,
+      "reason": "Window 2026-11-23T02:37:12Z to 2026-11-23T03:37:05Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays edb31cbcf1cc at 2026-11-23T01:52:12Z. next/0.8 tip fb772de09625 at 2026-11-23T03:27:00Z is 8 ahead of c299f7a81f9d and 0 behind, and 16 ahead and 23 behind master. #815 merged at 02:51:50Z. grant() samples now() once for issuedAt and expiresAt. #836 is tests only: owner-local team.retire and member.retemplate return code off. package.json on next/0.8 stays 0.8.1-preview.28 with no engines.dsh. npm preview stays 0.8.1-preview.29. latest stays 0.7.0. #837 is open and not merged. Drafts #819, #816, #811, #806, and #804, and open #807, are not merged. Tests were not rerun."
+    },
+    {
+      "title": "dsh-superagent-panel 1.0.23 keeps empty requires out of automatic dispatch",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/commit/05226316f743",
+      "confidence": 0.93,
+      "reason": "Window 2026-11-23T02:37:12Z to 2026-11-23T03:37:05Z. Updated mystic7c/dsh-superagent-panel. Tip 05226316f743 at 2026-11-23T03:01:56Z is 10 ahead of fee36f5d2fa6 and 0 behind. Package 1.0.23. engines.node stays >=22. Automatic dispatch keeps only bots whose requires length is greater than 0. Explicit selection can still name an empty requires list. Decision requests truncate title to 400 and body to 4000 and set truncated true when either is longer. A stage bot id is stored on stage.bot. Settings UI for 1.0.23 was not line-read. npm stays absent. Tests were not rerun."
+    },
+    {
+      "title": "superagent-lite answers without a worker and guards landing",
+      "url": "https://github.com/LMQ00/superagent-lite/commit/eb377dd45183",
+      "confidence": 0.93,
+      "reason": "Window 2026-11-23T02:37:12Z to 2026-11-23T03:37:05Z. Updated LMQ00/superagent-lite. Tip eb377dd45183 at 2026-11-23T03:04:26Z is 21 ahead of 46729f2758fe and 0 behind. mode answer returns delegate false. report cannot set land true. change land true records landAuthorizedVia dispatch. continue land true records landAuthorizedVia continue. Memory create overwrites a match at similarity >= 0.8 and keeps the id. land-all.sh auto-joins only additive diff3 hunks and does not push. Package stays private 1.0.0. engines.dsh stays exactly 0.2.2-rc.3. Tests were not rerun."
+    },
     {
       "title": "A2A records preview.29 as published and next/0.8 only adds tests",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/edb31cbcf1cc",
@@ -33,6 +58,12 @@
     }
   ],
   "pending": [
+    {
+      "title": "window after 02:37Z rewrote three rows and added the webhook source",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Window 2026-11-23T02:37:12Z to 2026-11-23T03:37:05Z. Prototype tip stays 8c32a9dc5d72. pushed_at stays 2026-11-03T09:29:14Z. updated_at during the scan is not a new commit. Harness master stays 4b399c39a6d1. pushed_at stays 2026-11-22T11:00:05Z. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. Listed package versions were unchanged. Of 275 listed repository names, 11 still do not resolve and 7 had pushed_at after 02:37:12Z. kulebbb/dsh-superagent main stays 4781fc6c4948. oh-my-pi 6f3c2844b58a is 33 files with no matching filename. t3code 18850a5eeb38 has no prototype filename. IHUI b68ab63c2ef5 has no matching filename. I2y0/dsh-superagent 4fddc59dce78 only refreshes the contributor wall. Discussions #14123, #14122, #14121, #14120, #8807, #13639, #5805, and #13875 do not name this prototype. arXiv returned no entries. Newest HN story remains 2026-11-11. No open PR on this list."
+    },
     {
       "title": "zxeryu/dsh-im-superagent was not line-read",
       "url": "https://github.com/zxeryu/dsh-im-superagent",
@@ -15774,34 +15805,34 @@
   ],
   "rejected_this_run": [
     {
-      "title": "feifan19/dsh-demo-clean is an empty demo",
-      "url": "https://github.com/feifan19/dsh-demo-clean",
-      "confidence": 0.15,
-      "reason": "Created 2026-11-23T02:10:42Z. Size 0. One initial commit. Description says dsh-superagent clean demo. Not written."
-    },
-    {
-      "title": "dbc-hbin/omp-superagent 0.1.7 still has no engines.dsh",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/18054d059bfa",
-      "confidence": 0.86,
-      "reason": "Pushed 2026-11-23T01:56:42Z. main 18054d059bfa is 4 ahead of bf8f34c7f1d3 and 0 behind. Package omp-superagent 0.1.7. engines is bun >=1.4.4. No engines.dsh and no dsh field. The commits are Discord addressing, a Codex quota recovery, and usage resets. Not listed."
-    },
-    {
-      "title": "IHUI-AI and t3code commits do not name this prototype",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/daf041bb2856",
+      "title": "I2y0/dsh-superagent only refreshed the contributor wall",
+      "url": "https://github.com/I2y0/dsh-superagent/commit/4fddc59dce78",
       "confidence": 0.4,
-      "reason": "IHUI-INF-AI/IHUI-AI daf041bb2856 is 63 ahead of 42a63c7813bb and 0 behind, 300 files, no filename matches superagent, dsh, or DeepSeek. pingdotgg/t3code 2808e878de91 is 7 ahead of 6b38ec931aab and 0 behind, 184 files, no filename matches. Not rewritten."
+      "reason": "Pushed 2026-11-23T03:20:17Z. The only in-window commit is a github-actions README contributor wall refresh. Not written."
     },
     {
-      "title": "Harness discussions updated in the window do not name this prototype",
-      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14119",
-      "confidence": 0.8,
-      "reason": "Bodies read for the eight most recently updated discussions: #14119, #13836, #14118, #14097, #11821, #7123, #1490, and #14102. None contain dsh-superagent, Mandate, Ticket, superagent, or prototype. Comments were not all read. Not written."
-    },
-    {
-      "title": "Open A2A drafts stay off master and next/0.8",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/815",
+      "title": "A2A docs PR #837 is not merged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/837",
       "confidence": 0.9,
-      "reason": "Drafts #816, #819, #811, #806, and #804, and open #807 and #815, are not merged. #815 is not a draft. Its latest commit merges next/0.8 #834 into the PR branch. #833 and #834 and #835 are merged and recorded on the list."
+      "reason": "Open, not a draft, updated 2026-11-23T03:29:52Z. It records the published preview.29 tgz file mode. Not merged. Not written."
+    },
+    {
+      "title": "oh-my-pi, t3code, and IHUI commits do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/18850a5eeb38",
+      "confidence": 0.4,
+      "reason": "oh-my-pi 6f3c2844b58a is 33 ahead with no filename match. t3code 18850a5eeb38 adds mobile and Claude adapter files. IHUI b68ab63c2ef5 is 12 ahead with no filename match. Not rewritten."
+    },
+    {
+      "title": "kulebbb/dsh-superagent main did not move",
+      "url": "https://github.com/kulebbb/dsh-superagent/commit/4781fc6c4948",
+      "confidence": 0.8,
+      "reason": "pushed_at 2026-11-23T02:47:05Z. Default branch tip stays 4781fc6c4948 at 2026-11-10T04:51:06Z. No main commit after 02:37:12Z. Not rewritten."
+    },
+    {
+      "title": "Harness discussions in the window do not name this prototype",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/discussions/14123",
+      "confidence": 0.8,
+      "reason": "Bodies read for #14123, #14122, #14121, #14120, #8807, #13639, #5805, and #13875. None contain dsh-superagent, Mandate, Ticket, superagent, or prototype. Not written."
     }
   ],
   "held_on_other_branches": [
@@ -16329,5 +16360,5 @@
     "tonbiattack/autopilot-merge-check-86302 closed merge-check PRs are the disposable live-merge target. Do not list that repository."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). modified remains 2026-11-22T09:57:12.602Z. @perrylink/dsh-github latest is 0.7.37 (published 2026-11-22T16:11:16.134Z). @vicfei/dsh-super-agent latest is 1.11.0 (published 2026-11-22T18:08:44.725Z). @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview is 0.8.1-preview.29 (published 2026-11-23T01:03:53.448Z, shasum fcaa0800826ea58cdf423e40b79a4706fea14650, integrity sha512-AUVNlascNlSElF+wjPunz1KPdo65X+VtPk3kcC/08hjkeOJn0i9wdih7JmhspGy9goTbtgkzqwbhzcZR/whknQ==, fileCount 429, no gitHead). Rechecked 2026-11-23T02:37:12Z. Listed packages dsh-mini-superagent 0.10.4, dsh-session-superagent 0.10.12, dsh-superagent-inbox 0.3.2, dsh-whalepod 0.6.1, dsh-superagent-ptc 0.1.9, @xiangyixie/dsh-superagent 0.24.0, dsh-ladder-superagents 0.2.1, dsh-swarm-console 0.4.5, and dsh-foreman 0.9.1 were unchanged. @zephyrbd/opencode-superagent stays 404. Unscoped dsh-superagent stays 404."
+  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). modified remains 2026-11-22T09:57:12.602Z. @perrylink/dsh-github latest is 0.7.37 (published 2026-11-22T16:11:16.134Z). @vicfei/dsh-super-agent latest is 1.11.0 (published 2026-11-22T18:08:44.725Z). @nelsonlongxiang/dsh-open-a2a-net latest stays 0.7.0 and preview is 0.8.1-preview.29 (published 2026-11-23T01:03:53.448Z, shasum fcaa0800826ea58cdf423e40b79a4706fea14650, integrity sha512-AUVNlascNlSElF+wjPunz1KPdo65X+VtPk3kcC/08hjkeOJn0i9wdih7JmhspGy9goTbtgkzqwbhzcZR/whknQ==, fileCount 429, no gitHead). Rechecked 2026-11-23T02:37:12Z. Listed packages dsh-mini-superagent 0.10.4, dsh-session-superagent 0.10.12, dsh-superagent-inbox 0.3.2, dsh-whalepod 0.6.1, dsh-superagent-ptc 0.1.9, @xiangyixie/dsh-superagent 0.24.0, dsh-ladder-superagents 0.2.1, dsh-swarm-console 0.4.5, and dsh-foreman 0.9.1 were unchanged. @zephyrbd/opencode-superagent stays 404. Unscoped dsh-superagent stays 404. Rechecked 2026-11-23T03:37:05Z: latest/next stay 0.2.2-rc.5, alpha stays 0.2.3-alpha.2, A2A preview stays 0.8.1-preview.29, listed package versions unchanged, unscoped dsh-superagent and the webhook package stay 404."
 }
