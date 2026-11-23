@@ -1,18 +1,30 @@
 {
-  "last_run_at": "2026-11-23T14:34:45Z",
+  "last_run_at": "2026-11-23T15:35:21Z",
   "timezone": "UTC",
-  "baseline_commit": "50797c9",
+  "baseline_commit": "f1f4a2d",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T13:39:10Z",
-    "to": "2026-11-23T14:34:45Z"
+    "from": "2026-11-23T14:34:45Z",
+    "to": "2026-11-23T15:35:21Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "next/0.8 pins cleaned names on the builder inventory",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/ad00c20aeeef",
+      "confidence": 0.97,
+      "reason": "Window 2026-11-23T14:34:45Z to 2026-11-23T15:35:21Z. #868 merged at 2026-11-23T14:44:59Z as ad00c20aeeef. Parents 856d085c4ba7 and ee941163430d. next/0.8 is 5 ahead of 856d085c4ba7 and 0 behind. The only file is tests/unit/superagent-member-name-display.spec.ts, plus 8 lines. src/ is untouched. The added step passes a team: router session-r and member session-m show dev lead, and member session-z shows the session id after the name cleans to nothing. package.json stays 0.8.1-preview.28. engines.pnpm stays >=11.24 <12. No engines.dsh. Tests were not rerun."
+    },
+    {
+      "title": "A2A master records 0.8.1-preview.30 without publishing it",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/5e2ab4abe060",
+      "confidence": 0.96,
+      "reason": "Window 2026-11-23T14:34:45Z to 2026-11-23T15:35:21Z. #867 merged at 2026-11-23T15:00:53Z as 5e2ab4abe060. Parents b4ae39d7f94c and cf38053926ed. Master is 104 ahead of b4ae39d7f94c and 0 behind. package.json is 0.8.1-preview.30. engines.pnpm stays >=11.24 <12. No engines.dsh. The note's cut is next/0.8 1dead7d23b66 (#864). Master is 33 ahead of that cut and 0 behind. The nine files past the cut are README.md, README_zh.md, docs/arch/a2a-architecture.anchors.json, docs/ops/0.8.1-upgrade-check.md, docs/release.md, nexus-stage/scripts/mockhost.py, nexus-stage/src/planning-card-text.ts, package.json, and src/config.ts. src/config.ts and planning-card-text.ts only change example addresses in comments. mockhost.py demo peers are 192.0.2.10 and 198.51.100.20. #865 and #866 are not in this cut. No git tag v0.8.1-preview.30. Newest GitHub Release stays v0.8.1-preview.28 published 2026-11-22T08:45:43Z. npm preview stays 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest stays 0.7.0. next/0.8 ad00c20aeeef is 11 ahead and 33 behind this master, so #865, #866, and #868 stay on next/0.8. Tests were not rerun."
+    },
     {
       "title": "wheelchair corrects the compaction fallback comment",
       "url": "https://github.com/nihaoWX/wheelchair-agent/commit/a93a55d52bef",
@@ -159,6 +171,30 @@
     }
   ],
   "pending": [
+    {
+      "title": "dbc-hbin/omp-superagent 0.1.8 still has no engines.dsh",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/fc8983cb5de3",
+      "confidence": 0.4,
+      "reason": "Commit 2026-11-23T15:28:02Z. Tip fc8983cb5de3 is 23 ahead of 7d437e4a5339 and 0 behind. Package omp-superagent 0.1.8. engines is bun >=1.4.4 only. No engines.dsh. Not written."
+    },
+    {
+      "title": "A2A inventory name test merged and was written",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/868",
+      "confidence": 0.97,
+      "reason": "Merged 2026-11-23T14:44:59Z onto next/0.8 as ad00c20aeeef. Test-only. Recorded on the list row. No longer an open pull request."
+    },
+    {
+      "title": "A2A preview.30 candidate merged and was written",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/867",
+      "confidence": 0.96,
+      "reason": "Merged 2026-11-23T15:00:53Z onto master as 5e2ab4abe060. package.json is 0.8.1-preview.30. Not tagged and not on npm. Recorded on the list row. No longer an open pull request."
+    },
+    {
+      "title": "A2A split-part exclusion is open and not merged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/870",
+      "confidence": 0.55,
+      "reason": "Opened 2026-11-23T15:17:31Z. Head cecb4238a373 targets next/0.8 ad00c20aeeef and is not merged. Not written as behavior."
+    },
     {
       "title": "dsh-superagent-panel 1.1.8 review is open and not merged",
       "url": "https://github.com/mystic7c/dsh-superagent-panel/pull/107",
@@ -16254,40 +16290,16 @@
   ],
   "rejected_this_run": [
     {
-      "title": "t3code moved without a super-agent filename",
-      "url": "https://github.com/pingdotgg/t3code/commit/1bc44f2732ce",
-      "confidence": 0.3,
-      "reason": "Tip 1bc44f2732ce is 11 ahead of 2bc7878fff06 and 0 behind. 28 files. No superagent filename. Not written."
+      "title": "Official prototype, Harness, and npm tags did not move",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
+      "confidence": 0.9,
+      "reason": "Rechecked through 2026-11-23T15:35:21Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. @mystic7c/dsh-superagent-panel stays 404. Panel main stays a0821c85ab3d. #107 head stays 4815fa662302 and is not merged, so it is not 1.1.8. arXiv had no in-window paper. Newest HN story remains 2026-11-11."
     },
     {
-      "title": "IHUI moved without a super-agent filename",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/684f8cad108c",
-      "confidence": 0.25,
-      "reason": "Tip 684f8cad108c is 19 ahead of f6cfea0c541c and 0 behind. 97 files. No superagent filename. Not written."
-    },
-    {
-      "title": "oh-my-pi main did not move",
-      "url": "https://github.com/can1357/oh-my-pi/commit/0aefd54236b6",
-      "confidence": 0.2,
-      "reason": "pushed_at 2026-11-23T14:18:37Z. Default main stays 0aefd54236b6. Not written."
-    },
-    {
-      "title": "playground tip is a local inference bench",
-      "url": "https://github.com/superstar717/dsh-superagent-playground/commit/e33f001cc607",
-      "confidence": 0.2,
-      "reason": "Main e33f001cc607 at 2026-11-23T13:35:51Z merges a 125B Qwen bench. pushed_at 2026-11-23T14:27:06Z. Not listed."
-    },
-    {
-      "title": "dsh-superagent-test only adds a failing smoke workflow",
-      "url": "https://github.com/chengchengking/dsh-superagent-test/commit/2b2dab999521",
-      "confidence": 0.2,
-      "reason": "README is a test-repository title. 2026-11-23T14:23:12Z adds .github/workflows/smoke.yml. Not listed."
-    },
-    {
-      "title": "dsh-ai-for-memory is a general DSH plugin announcement",
-      "url": "https://github.com/kuugakw/dsh-ai-for-memory",
-      "confidence": 0.35,
-      "reason": "Discussion #14175 at 2026-11-23T14:29:13Z is a self-promotion. The author says the introduction was generated. Package 0.5.3 at 2026-11-23T14:01:38.164Z. engines.dsh is >=0.2.0-rc.1 <0.3.0. README does not name this prototype. Window commits are comparison and release notes. Not listed."
+      "title": "dbc-hbin/omp-superagent 0.1.8 is not this bundle",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/fc8983cb5de3",
+      "confidence": 0.4,
+      "reason": "No engines.dsh. Not listed."
     }
   ],
   "held_on_other_branches": [
@@ -16822,8 +16834,9 @@
     "baojingyu/dsh-superagent-multi-channel PR #3 head agent/fix-ilink-bridge-token-f083886761f9 is 2d1f1851276c at 2026-11-23T05:50:43Z and is not merged. Default main stays f750ae4797e6.",
     "Colton-z/AstraBox pushed_at 2026-11-23T06:19:20Z deletes claude/kind-ramanujan-b3r92i. Default main stays 607bc6c827a2.",
     "lanshi17/dsh-booth refactor/architecture is ba4dcab4cc88 at 2026-11-23T09:18:42Z. Default master stays c3e22a51209b. Do not list the branch.",
-    "lanshi17/dsh-booth refactor/architecture is c729ff731233 at 2026-11-23T11:03:02Z, 5 ahead of ba4dcab4cc88 and 0 behind. Default master stays c3e22a51209b. Do not list the branch."
+    "lanshi17/dsh-booth refactor/architecture is c729ff731233 at 2026-11-23T11:03:02Z, 5 ahead of ba4dcab4cc88 and 0 behind. Default master stays c3e22a51209b. Do not list the branch.",
+    "NelsonLongxiang/dsh-open-a2a-net #870 head cecb4238a373 targets next/0.8 and is not merged. next/0.8 stays ad00c20aeeef. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "Rechecked 2026-11-23T14:34:45Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
+  "npm_note": "Rechecked 2026-11-23T15:35:21Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
 }
