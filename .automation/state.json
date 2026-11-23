@@ -1,18 +1,24 @@
 {
-  "last_run_at": "2026-11-23T07:33:18Z",
+  "last_run_at": "2026-11-23T08:37:01Z",
   "timezone": "UTC",
-  "baseline_commit": "59d5230",
+  "baseline_commit": "a6170ab",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T06:36:10Z",
-    "to": "2026-11-23T07:33:18Z"
+    "from": "2026-11-23T07:33:18Z",
+    "to": "2026-11-23T08:37:01Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "next/0.8 adds a reviewer mutation runner",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/3d2f4a80fac5",
+      "confidence": 0.95,
+      "reason": "Window 2026-11-23T07:33:18Z to 2026-11-23T08:37:01Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 9d5cddac2ac2. next/0.8 tip 3d2f4a80fac5 at 2026-11-23T08:22:26Z is 5 ahead of 3774868a8d1e and 0 behind, and 70 ahead and 25 behind master. #857 merged at 08:22:26Z. scripts/mutation-run.mjs is a reviewer mutation runner. src/ is untouched. scripts/ is not in package.json files and is not part of pnpm verify. package.json only adds scripts.mutate. Spec version must be 1. command is a non-empty string array and is not a shell. find is literal and must differ from replace. Without occurrence the anchor must hit exactly once; occurrence is a safe integer from 1 and replaces only that hit. expect is killed by default or survived. asExpected compares only whether the verdict is survived, so killed, only-new-kills, old-also-kills, and killed-by-wide all match expect killed. A dirty tree is refused. Preflight refuses paths that leave the repo, untracked targets, a bad oldTests rev, an existing probe file, and symbolic links. Exit 2 changes nothing. Narrow baseline must be green. Wide runs only after a green narrow. Without oldTests a red narrow is killed. With oldTests a red narrow is old-also-kills or only-new-kills. A green narrow and a red wide is killed-by-wide and does not run the old tests. Restore writes the original bytes, then git checkout, and a dirty tree stops the run. A probe copies from to zz-probe-<id> plus the original suffix, appends text, runs once on the unmutated tree, and deletes the copy. timeoutMs must be a safe integer above 0; it sends SIGTERM and SIGKILL after 5s and sets timedOut, while red/green still follows the exit code. Non-Windows runs use a process group. SIGINT, SIGTERM, and SIGHUP restore and return 130. Exit 0 means every mutation and probe matched expect; 1 means one did not; 3 is a restore or accounting failure. It reads no environment switch, does not touch the git index, and does not commit or push. package.json stays 0.8.1-preview.28 with engines.pnpm only. npm preview stays 0.8.1-preview.29. latest stays 0.7.0. No GitHub Release newer than v0.8.1-preview.28. #819 and #816 stay closed and not merged. Drafts #811 and #804, and open #807, #847, #849, #855, and #858, are not merged. #858 head 07f1c0164540 was not line-read. Tests were not rerun."
+    },
     {
       "title": "next/0.8 settles a forwarded receipt only after it leaves and bounds the admitted-receipt bypass",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/3774868a8d1e",
@@ -99,6 +105,90 @@
     }
   ],
   "pending": [
+    {
+      "title": "A2A receipt-birth tests stay an open pull request",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/858",
+      "confidence": 0.55,
+      "reason": "Opened 2026-11-23T08:30:17Z. Head 07f1c0164540 targets next/0.8 and is not merged. next/0.8 tip is 3d2f4a80fac5. The title says it follows the #806 review with echo proof, A6/A7 guards, and a wire test. The diff was not line-read. Not written as behavior."
+    },
+    {
+      "title": "hanlinkuku agent-harness-learning drops the explicit-request exception",
+      "url": "https://github.com/hanlinkuku/agent-harness-learning",
+      "confidence": 0.45,
+      "reason": "Created 2026-11-23T08:01:05Z. Tip 81d3194bbb04. references/superagent.md pins 8c32a9dc5d72 and then says off does not accept, observe only records would-accept, and auto accepts when rules match. That observe sentence drops the explicit-request exception. Not written."
+    },
+    {
+      "title": "omp-superagent main moved and still has no engines.dsh",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/1e304ddd3062",
+      "confidence": 0.35,
+      "reason": "Pushed 2026-11-23T07:57:46Z. Tip 1e304ddd3062 is 2 ahead of b3cad455d0d1 and 0 behind. Package stays omp-superagent 0.1.7. engines is bun >=1.4.4 only. No engines.dsh. The host-launch diff was not line-read. Not written."
+    },
+    {
+      "title": "t3code 8851fb79febe has no prototype filename",
+      "url": "https://github.com/pingdotgg/t3code/commit/8851fb79febe",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-23T08:33:14Z. 8851fb79febe is 15 ahead of 9f24cac6d42f. 47 files, no filename matches superagent, dsh, or DeepSeek. Not rewritten."
+    },
+    {
+      "title": "IHUI moved and has no prototype filename",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-23T08:30:38Z. 8 ahead of 687c0409a086. 53 files, no filename matches superagent, dsh, or DeepSeek. Not rewritten."
+    },
+    {
+      "title": "oh-my-pi main moved to f2309f846d13",
+      "url": "https://github.com/can1357/oh-my-pi/commit/f2309f846d13",
+      "confidence": 0.35,
+      "reason": "Pushed 2026-11-23T08:26:17Z. f2309f846d13 is 6 ahead of 31ffee513f27. 32 files, no filename matches superagent or dsh-superagent. Not rewritten."
+    },
+    {
+      "title": "billLiao topic sync is not a superagent change",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/05121b58e282",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-23T08:03:05Z. Sync 2026-11-23T16:02 refreshes the dsh-plugin catalog counts. The listed row does not pin that count. Not rewritten."
+    },
+    {
+      "title": "dataCodeFarmer/test-dsh-superagent stayed a one-file test repo",
+      "url": "https://github.com/dataCodeFarmer/test-dsh-superagent",
+      "confidence": 0.2,
+      "reason": "Pushed 2026-11-23T08:34:31Z. Tip 4744ea165cad. The tree is only README.md. Size stays 0. Not written."
+    },
+    {
+      "title": "gh-agent-lxx9527/dsh-superagent-demo added a hello line",
+      "url": "https://github.com/gh-agent-lxx9527/dsh-superagent-demo/commit/8a5aa78f6a11",
+      "confidence": 0.2,
+      "reason": "Pushed 2026-11-23T07:54:16Z. README adds Hello from dsh-superagent. Description stays playground. Not written."
+    },
+    {
+      "title": "jinyu-dsh/agent-lab stayed a one-line work repo",
+      "url": "https://github.com/jinyu-dsh/agent-lab/commit/0f48d8fa155c",
+      "confidence": 0.2,
+      "reason": "Pushed 2026-11-23T07:59:53Z. Tip stays 0f48d8fa155c. Size stays 1. Not written."
+    },
+    {
+      "title": "feifan19/dsh-demo-clean stayed a title-only demo",
+      "url": "https://github.com/feifan19/dsh-demo-clean",
+      "confidence": 0.2,
+      "reason": "Pushed 2026-11-23T08:24:54Z. README is the title and dsh-superagent clean demo. Size stays 0. Not written."
+    },
+    {
+      "title": "starcsdn/superagent-test is an empty repository",
+      "url": "https://github.com/starcsdn/superagent-test",
+      "confidence": 0.15,
+      "reason": "Pushed 2026-11-23T08:09:34Z. The Git repository is empty. Not written."
+    },
+    {
+      "title": "yhz superagent-prototype-v7 is an unrelated HTML page",
+      "url": "https://github.com/yhz412831511-coder/superagent-prototype-v7",
+      "confidence": 0.2,
+      "reason": "Pushed 2026-11-23T07:59:04Z. The tree is index.html. The description is 江川协同. It does not name this prototype. Not written."
+    },
+    {
+      "title": "SeqAnt is a LoopForge product, not this prototype",
+      "url": "https://github.com/huasheng718/SeqAnt/commit/2e37094063b4",
+      "confidence": 0.25,
+      "reason": "Pushed 2026-11-23T08:16:19Z. Description says it is an enterprise SuperAgent forked from LoopForge. The tip adds Gitee and GitLab credentials. Not written."
+    },
     {
       "title": "A2A mutation-run script is an open pull request",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/857",
@@ -16020,52 +16110,78 @@
   ],
   "rejected_this_run": [
     {
-      "title": "A2A mutation-run script is an open pull request",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/857",
+      "title": "A2A receipt-birth tests stay an open pull request",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/858",
       "confidence": 0.55
     },
     {
-      "title": "A2A file-grant refusal tiers stay an open pull request",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/855",
-      "confidence": 0.5
+      "title": "hanlinkuku agent-harness-learning drops the explicit-request exception",
+      "url": "https://github.com/hanlinkuku/agent-harness-learning",
+      "confidence": 0.45
     },
     {
-      "title": "multi-channel macOS bridge fix is still an open pull request",
-      "url": "https://github.com/baojingyu/dsh-superagent-multi-channel/pull/3",
-      "confidence": 0.6
-    },
-    {
-      "title": "t3code 9f24cac6d42f has no prototype filename",
-      "url": "https://github.com/pingdotgg/t3code/commit/9f24cac6d42f",
-      "confidence": 0.3
-    },
-    {
-      "title": "IHUI 687c0409a086 has no prototype filename",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/687c0409a086",
-      "confidence": 0.3
-    },
-    {
-      "title": "oh-my-pi main stayed 31ffee513f27",
-      "url": "https://github.com/can1357/oh-my-pi/commit/31ffee513f27",
+      "title": "omp-superagent main moved and still has no engines.dsh",
+      "url": "https://github.com/dbc-hbin/omp-superagent/commit/1e304ddd3062",
       "confidence": 0.35
     },
     {
-      "title": "HealthSulingfengQmpgn-II is a Swift app under a dsh-superagent username",
-      "url": "https://github.com/dsh-superagent-robot/HealthSulingfengQmpgn-II",
-      "confidence": 0.2
+      "title": "t3code 8851fb79febe has no prototype filename",
+      "url": "https://github.com/pingdotgg/t3code/commit/8851fb79febe",
+      "confidence": 0.3
     },
     {
-      "title": "gh-agent-lxx9527/dsh-superagent-demo stays an empty playground",
-      "url": "https://github.com/gh-agent-lxx9527/dsh-superagent-demo",
-      "confidence": 0.2
+      "title": "IHUI moved and has no prototype filename",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI",
+      "confidence": 0.3
     },
     {
-      "title": "dataCodeFarmer/test-dsh-superagent stayed size 0",
+      "title": "oh-my-pi main moved to f2309f846d13",
+      "url": "https://github.com/can1357/oh-my-pi/commit/f2309f846d13",
+      "confidence": 0.35
+    },
+    {
+      "title": "billLiao topic sync is not a superagent change",
+      "url": "https://github.com/billLiao/awesome-dsh-plugin/commit/05121b58e282",
+      "confidence": 0.3
+    },
+    {
+      "title": "dataCodeFarmer/test-dsh-superagent stayed a one-file test repo",
       "url": "https://github.com/dataCodeFarmer/test-dsh-superagent",
+      "confidence": 0.2
+    },
+    {
+      "title": "gh-agent-lxx9527/dsh-superagent-demo added a hello line",
+      "url": "https://github.com/gh-agent-lxx9527/dsh-superagent-demo/commit/8a5aa78f6a11",
+      "confidence": 0.2
+    },
+    {
+      "title": "jinyu-dsh/agent-lab stayed a one-line work repo",
+      "url": "https://github.com/jinyu-dsh/agent-lab/commit/0f48d8fa155c",
+      "confidence": 0.2
+    },
+    {
+      "title": "feifan19/dsh-demo-clean stayed a title-only demo",
+      "url": "https://github.com/feifan19/dsh-demo-clean",
+      "confidence": 0.2
+    },
+    {
+      "title": "starcsdn/superagent-test is an empty repository",
+      "url": "https://github.com/starcsdn/superagent-test",
       "confidence": 0.15
+    },
+    {
+      "title": "yhz superagent-prototype-v7 is an unrelated HTML page",
+      "url": "https://github.com/yhz412831511-coder/superagent-prototype-v7",
+      "confidence": 0.2
+    },
+    {
+      "title": "SeqAnt is a LoopForge product, not this prototype",
+      "url": "https://github.com/huasheng718/SeqAnt/commit/2e37094063b4",
+      "confidence": 0.25
     }
   ],
   "held_on_other_branches": [
+    "2026-11-23T08:37:01Z: Nelson open PRs #858 head 07f1c0164540, #855 head 45e9a02e40b2, #849 head da630522b0c2, #847 head ea5a0ea7a402, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #857 merged as 3d2f4a80fac5. #819 and #816 stay closed and not merged. baojingyu #3 head 2d1f1851276c stays open. panel has no open PRs.",
     "2026-11-23T07:33:18Z: Nelson open PRs #857 head 09ccf4e6715f, #855 head 45e9a02e40b2, #849 head da630522b0c2, #847 head ea5a0ea7a402, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #853 merged as 3774868a8d1e. baojingyu #3 head 2d1f1851276c stays open. panel has no open PRs.",
     "2026-11-22T23:32:58Z: Nelson open PRs #816 head 2afed541122d, #819 head 1756506268ae, #815 head 9c091bee6b22, #811 head 2fd4e9fe5418, #807 head df406d0ed9db, #806 head d4e5770584e9, and #804 head 2b21cfe50838 are not merged. #829, #830, and #831 merged to next/0.8 71d7902bbee0. master stays 12eb960a24e8.",
     "2026-11-22T18:35:23Z: Nelson open PRs #822 head 2472725d6ceb, #819 head 1756506268ae, #816 head 2afed541122d, #815 head 9c091bee6b22, #811 head 2fd4e9fe5418, #807 head df406d0ed9db, #806 head d4e5770584e9, and #804 head 2b21cfe50838 are not merged. #818 and #820 merged to next/0.8 0f9a3a43ed94. master stays 12eb960a24e8. oh-my-pi main stays da91f6af1d90; pushed_at 2026-11-22T18:28:21Z is not a new main commit.",
