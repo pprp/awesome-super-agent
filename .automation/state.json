@@ -1,18 +1,42 @@
 {
-  "last_run_at": "2026-11-23T06:36:10Z",
+  "last_run_at": "2026-11-23T07:33:18Z",
   "timezone": "UTC",
-  "baseline_commit": "b8e11f6",
+  "baseline_commit": "59d5230",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T05:34:29Z",
-    "to": "2026-11-23T06:36:10Z"
+    "from": "2026-11-23T06:36:10Z",
+    "to": "2026-11-23T07:33:18Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "next/0.8 settles a forwarded receipt only after it leaves and bounds the admitted-receipt bypass",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/3774868a8d1e",
+      "confidence": 0.95,
+      "reason": "Window 2026-11-23T06:36:10Z to 2026-11-23T07:33:18Z. Updated NelsonLongxiang/dsh-open-a2a-net. master stays 9d5cddac2ac2. next/0.8 tip 3774868a8d1e at 2026-11-23T07:21:04Z is 14 ahead of 18240eff6af3 and 0 behind, 23 ahead of 2850062a6bac and 0 behind, and 65 ahead and 25 behind master. #853 merged at 07:21:04Z. A forwarded receipt settles the owed row only when result.ok and settlementRefused is not true. A not-sent parsed receipt calls releaseUncompleted. admittedReceipt requires one header line plus at most one envelope line, no raw artifacts, inbound pending, row.team equals caller, receipt_target equals target, and transport id equals receiptTaskId. Progress is capped by receiptBypassProgressMax default 20 and receiptBypassProgressIntervalMs default 60000. Non-finite or negative settings fall back to those defaults. Counts are in memory, drop tasks that are no longer owed, and evict past 1000. sendReply reports a health error on every failed attempt and does not put the error message in that detail. package.json stays 0.8.1-preview.28 with engines.pnpm only. npm preview stays 0.8.1-preview.29. latest stays 0.7.0. No GitHub Release newer than v0.8.1-preview.28. #819 and #816 stay closed and not merged. Drafts #811 and #804, and open #807, #847, #849, #855, and #857, are not merged. #857 head 09ccf4e6715f was not line-read. Tests were not rerun."
+    },
+    {
+      "title": "dsh-superagent-panel 1.1.1 redelivers a failed ticket as a new merge request",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/commit/55c52298c12b",
+      "confidence": 0.94,
+      "reason": "Window 2026-11-23T06:36:10Z to 2026-11-23T07:33:18Z. Updated mystic7c/dsh-superagent-panel. Tip 55c52298c12b at 2026-11-23T07:15:04Z is 3 ahead of ca3666bac994 and 0 behind. #104 merges #103 at f01039c83f44. Package 1.1.1. Not private. engines.node stays >=22. openOrAdoptMergeRequest prefers opened. A merged MR is adopted only when headSha is absent, the MR has no head, or the head still equals HEAD. Stored MR reuse requires no iid, no state, opened, or merged at the current HEAD. linkMergeRequest drops deployment, autoMerge, pipeline, and verification when iid changes. PUBLISHABLE_STATUSES is ready, failed, pushed, ci-failed, deploy-failed, and closed. ci-failed and deploy-failed primary is redeliver via publish. Generic failed stays diagnose. CHANGELOG says 675 pass. The ticket tkt_67d46ecb809d4ce4 story was not rechecked. npm stays 404. Tests were not rerun."
+    },
+    {
+      "title": "waixv frees a workspace when the worker hands off and names the wait",
+      "url": "https://github.com/waixv-superagent/dsh-superagent-prototype/commit/7cd2bce19e67",
+      "confidence": 0.93,
+      "reason": "Window 2026-11-23T06:36:10Z to 2026-11-23T07:33:18Z. Updated waixv-superagent/dsh-superagent-prototype. Tip 7cd2bce19e67 at 2026-11-23T06:46:57Z is 5 ahead of 7bbd2d3fe688 and 0 behind. #144 merged at 06:44:21Z. 52e53a99e922 connects upstream 8c32a9dc5d72. holdsWorkspace is the starting slot or running(). assertWorkspaceFree throws Later as lease-conflict before waking a handed-off worker. recordWait writes worker-slot, workspace-exclusive, lease-conflict, and workspace-slot. The paused reason is in the type and was not written by this diff. /state gains waiting and the ticket page gains wait. package.json was not in the diff. It stays private dsh-superagent 0.1.0 with engines.dsh ^0.2.2-alpha.3. Tests were not rerun."
+    },
+    {
+      "title": "dsh-superagent-patch overlays the orchestrator tool allowlist at local build time",
+      "url": "https://github.com/Robert-Wang-08/dsh-superagent-patch/commit/92891c43882d",
+      "confidence": 0.92,
+      "reason": "Window 2026-11-23T06:36:10Z to 2026-11-23T07:33:18Z. Updated Robert-Wang-08/dsh-superagent-patch. Tip 92891c43882d at 2026-11-23T07:03:10Z is 1 ahead of 919d6b9c5981 and 0 behind. Overlay 0006 keeps a master tool only when tools.get returns it. build-local.ps1 applies overlay patches, runs pnpm build, and checks the tracked files back out. upstream.json local_overlays lists that patch. upstream_pinned stays 8c32a9dc5d72. fork_pinned stays 5f294cd7abaf. fork_origin_main stays 931a4be5e662. The README's aa575d5 and 18822dd claims were not found in upstream.json. The script was not run."
+    },
     {
       "title": "next/0.8 caps the node-card lifetime and cleans health names",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/18240eff6af3",
@@ -75,6 +99,60 @@
     }
   ],
   "pending": [
+    {
+      "title": "A2A mutation-run script is an open pull request",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/857",
+      "confidence": 0.55,
+      "reason": "Updated 2026-11-23T07:30:17Z. Head 09ccf4e6715f is not merged. next/0.8 tip is 3774868a8d1e. The title says it adds a reviewer mutation runner and its tests. The diff was not line-read. Not written as behavior."
+    },
+    {
+      "title": "A2A file-grant refusal tiers stay an open pull request",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/855",
+      "confidence": 0.5,
+      "reason": "Still open at 2026-11-23T06:36:31Z. Head 45e9a02e40b2 is not merged. Not line-read this window."
+    },
+    {
+      "title": "multi-channel macOS bridge fix is still an open pull request",
+      "url": "https://github.com/baojingyu/dsh-superagent-multi-channel/pull/3",
+      "confidence": 0.6,
+      "reason": "Still open. Head stays 2d1f1851276c. updated_at stays 2026-11-23T05:51:06Z, before this window. main was not in the pushed-after-06:36:10Z set. Not rewritten."
+    },
+    {
+      "title": "t3code 9f24cac6d42f has no prototype filename",
+      "url": "https://github.com/pingdotgg/t3code/commit/9f24cac6d42f",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-23T07:27:08Z. 9f24cac6d42f is 7 ahead of 21b52875ea56. 40 files, no filename matches superagent, dsh, or DeepSeek. Not rewritten."
+    },
+    {
+      "title": "IHUI 687c0409a086 has no prototype filename",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/687c0409a086",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-23T07:22:35Z. 687c0409a086 is 4 ahead of e2e0b3dbc392. 24 files, no filename matches superagent, dsh, or DeepSeek. Not rewritten."
+    },
+    {
+      "title": "oh-my-pi main stayed 31ffee513f27",
+      "url": "https://github.com/can1357/oh-my-pi/commit/31ffee513f27",
+      "confidence": 0.35,
+      "reason": "pushed_at 2026-11-23T07:17:47Z. Default main stays 31ffee513f27. Not rewritten."
+    },
+    {
+      "title": "HealthSulingfengQmpgn-II is a Swift app under a dsh-superagent username",
+      "url": "https://github.com/dsh-superagent-robot/HealthSulingfengQmpgn-II",
+      "confidence": 0.2,
+      "reason": "Created 2026-11-23T06:12:40Z and pushed 2026-11-23T07:01:40Z. Root is Heartica, an Xcode Swift project. Not a dsh-superagent plugin. Not written."
+    },
+    {
+      "title": "gh-agent-lxx9527/dsh-superagent-demo stays an empty playground",
+      "url": "https://github.com/gh-agent-lxx9527/dsh-superagent-demo",
+      "confidence": 0.2,
+      "reason": "Created 2026-11-23T03:46:40Z. pushed_at 2026-11-23T07:06:55Z. Description says playground. Size stays 0. Not written."
+    },
+    {
+      "title": "dataCodeFarmer/test-dsh-superagent stayed size 0",
+      "url": "https://github.com/dataCodeFarmer/test-dsh-superagent",
+      "confidence": 0.15,
+      "reason": "pushed_at 2026-11-23T06:39:28Z. Search size stays 0. Not written."
+    },
     {
       "title": "panel 1.1.1 redelivery is an open pull request",
       "url": "https://github.com/mystic7c/dsh-superagent-panel/pull/103",
@@ -15942,32 +16020,53 @@
   ],
   "rejected_this_run": [
     {
-      "title": "t3code 21b52875ea56 has no prototype filename",
-      "url": "https://github.com/pingdotgg/t3code/commit/21b52875ea56",
+      "title": "A2A mutation-run script is an open pull request",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/857",
+      "confidence": 0.55
+    },
+    {
+      "title": "A2A file-grant refusal tiers stay an open pull request",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/855",
+      "confidence": 0.5
+    },
+    {
+      "title": "multi-channel macOS bridge fix is still an open pull request",
+      "url": "https://github.com/baojingyu/dsh-superagent-multi-channel/pull/3",
+      "confidence": 0.6
+    },
+    {
+      "title": "t3code 9f24cac6d42f has no prototype filename",
+      "url": "https://github.com/pingdotgg/t3code/commit/9f24cac6d42f",
       "confidence": 0.3
     },
     {
-      "title": "IHUI e2e0b3dbc392 has no prototype filename",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/e2e0b3dbc392",
+      "title": "IHUI 687c0409a086 has no prototype filename",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/687c0409a086",
       "confidence": 0.3
     },
     {
-      "title": "jinyu-dsh/agent-lab is a one-line work repo",
-      "url": "https://github.com/jinyu-dsh/agent-lab",
+      "title": "oh-my-pi main stayed 31ffee513f27",
+      "url": "https://github.com/can1357/oh-my-pi/commit/31ffee513f27",
+      "confidence": 0.35
+    },
+    {
+      "title": "HealthSulingfengQmpgn-II is a Swift app under a dsh-superagent username",
+      "url": "https://github.com/dsh-superagent-robot/HealthSulingfengQmpgn-II",
       "confidence": 0.2
     },
     {
-      "title": "dataCodeFarmer/test-dsh-superagent is an empty test repo",
-      "url": "https://github.com/dataCodeFarmer/test-dsh-superagent",
-      "confidence": 0.15
+      "title": "gh-agent-lxx9527/dsh-superagent-demo stays an empty playground",
+      "url": "https://github.com/gh-agent-lxx9527/dsh-superagent-demo",
+      "confidence": 0.2
     },
     {
-      "title": "omp-superagent 0.1.7 still has no engines.dsh",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/b3cad455d0d1",
-      "confidence": 0.45
+      "title": "dataCodeFarmer/test-dsh-superagent stayed size 0",
+      "url": "https://github.com/dataCodeFarmer/test-dsh-superagent",
+      "confidence": 0.15
     }
   ],
   "held_on_other_branches": [
+    "2026-11-23T07:33:18Z: Nelson open PRs #857 head 09ccf4e6715f, #855 head 45e9a02e40b2, #849 head da630522b0c2, #847 head ea5a0ea7a402, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #853 merged as 3774868a8d1e. baojingyu #3 head 2d1f1851276c stays open. panel has no open PRs.",
     "2026-11-22T23:32:58Z: Nelson open PRs #816 head 2afed541122d, #819 head 1756506268ae, #815 head 9c091bee6b22, #811 head 2fd4e9fe5418, #807 head df406d0ed9db, #806 head d4e5770584e9, and #804 head 2b21cfe50838 are not merged. #829, #830, and #831 merged to next/0.8 71d7902bbee0. master stays 12eb960a24e8.",
     "2026-11-22T18:35:23Z: Nelson open PRs #822 head 2472725d6ceb, #819 head 1756506268ae, #816 head 2afed541122d, #815 head 9c091bee6b22, #811 head 2fd4e9fe5418, #807 head df406d0ed9db, #806 head d4e5770584e9, and #804 head 2b21cfe50838 are not merged. #818 and #820 merged to next/0.8 0f9a3a43ed94. master stays 12eb960a24e8. oh-my-pi main stays da91f6af1d90; pushed_at 2026-11-22T18:28:21Z is not a new main commit.",
     "2026-11-22T16:41:03Z: Nelson PRs #809 head 1e9b587d18b3, #811 head 2fd4e9fe5418, #806 head d4e5770584e9, #804 head 2b21cfe50838, and #807 head df406d0ed9db are not merged. #813 merged to next/0.8 cb925b3c661e. master stays 12eb960a24e8. npm preview stays 0.8.1-preview.28.",
@@ -16495,5 +16594,5 @@
     "Colton-z/AstraBox pushed_at 2026-11-23T06:19:20Z deletes claude/kind-ramanujan-b3r92i. Default main stays 607bc6c827a2."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29. @mystic7c/dsh-superagent-panel remains 404."
+  "npm_note": "latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
 }
