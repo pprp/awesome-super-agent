@@ -1,18 +1,24 @@
 {
-  "last_run_at": "2026-11-23T13:39:10Z",
+  "last_run_at": "2026-11-23T14:34:45Z",
   "timezone": "UTC",
-  "baseline_commit": "e90865b",
+  "baseline_commit": "50797c9",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T12:34:47Z",
-    "to": "2026-11-23T13:39:10Z"
+    "from": "2026-11-23T13:39:10Z",
+    "to": "2026-11-23T14:34:45Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "wheelchair corrects the compaction fallback comment",
+      "url": "https://github.com/nihaoWX/wheelchair-agent/commit/a93a55d52bef",
+      "confidence": 0.94,
+      "reason": "Window 2026-11-23T13:39:10Z to 2026-11-23T14:34:45Z. Main a93a55d52bef at 2026-11-23T14:13:55Z is 1 ahead of ea1fa63cad32 and 0 behind. #35. Only preset/agent.cordis.yml comments and tests/test-preset.mjs descriptions. auto stays false. Assertions stay. compaction-basic and command-compact are the fallback when billion-context is absent. When billion-context is installed and bili-native is active, disableBasicCompaction on internal/config disables both rows at runtime, so /compact is unavailable. tool-result-pruner is not in that list. package.json was not in the diff. Tests were not rerun."
+    },
     {
       "title": "next/0.8 stops only the work a credential card's session actually holds",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/856d085c4ba7",
@@ -153,6 +159,18 @@
     }
   ],
   "pending": [
+    {
+      "title": "dsh-superagent-panel 1.1.8 review is open and not merged",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/pull/107",
+      "confidence": 0.55,
+      "reason": "Opened 2026-11-23T13:44:32Z. Head 4815fa662302 targets develop. main and develop stay a0821c85ab3d / 1.1.7. Not written as 1.1.8."
+    },
+    {
+      "title": "A2A staffing status PR moved and is not merged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/807",
+      "confidence": 0.5,
+      "reason": "Updated 2026-11-23T13:41:25Z. Head a1deef7cb15b targets next/0.8. Docs only, 4 additions and 4 deletions in docs/design/superagent-staffing-changes.md. Not merged. Not written as behavior."
+    },
     {
       "title": "A2A preview.30 candidate is open and not merged",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/867",
@@ -16237,42 +16255,43 @@
   "rejected_this_run": [
     {
       "title": "t3code moved without a super-agent filename",
-      "url": "https://github.com/pingdotgg/t3code/commit/2bc7878fff06",
+      "url": "https://github.com/pingdotgg/t3code/commit/1bc44f2732ce",
       "confidence": 0.3,
-      "reason": "Tip 2bc7878fff06 is 8 ahead of 27ecc0fad966 and 0 behind. 19 files. No superagent filename. Not written."
+      "reason": "Tip 1bc44f2732ce is 11 ahead of 2bc7878fff06 and 0 behind. 28 files. No superagent filename. Not written."
     },
     {
       "title": "IHUI moved without a super-agent filename",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/f6cfea0c541c",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/684f8cad108c",
       "confidence": 0.25,
-      "reason": "Tip f6cfea0c541c is 17 ahead of 33ab1e7b05b5 and 0 behind. 71 files. No superagent filename. Not written."
+      "reason": "Tip 684f8cad108c is 19 ahead of f6cfea0c541c and 0 behind. 97 files. No superagent filename. Not written."
     },
     {
       "title": "oh-my-pi main did not move",
       "url": "https://github.com/can1357/oh-my-pi/commit/0aefd54236b6",
       "confidence": 0.2,
-      "reason": "pushed_at 2026-11-23T12:53:20Z. Default main stays 0aefd54236b6 at 2026-11-23T10:41:10Z. Not written."
+      "reason": "pushed_at 2026-11-23T14:18:37Z. Default main stays 0aefd54236b6. Not written."
     },
     {
-      "title": "dsh-superagent-cn still has backup scripts",
-      "url": "https://github.com/xyt071024/dsh-superagent-cn/commit/7dadcb0055f2",
-      "confidence": 0.3,
-      "reason": "v0.3.12 at 2026-11-23T12:53:26Z still adds scripts ending in .bak-before-m02-profile-verify-20261122-230519. Not listed."
-    },
-    {
-      "title": "playground main did not move",
-      "url": "https://github.com/superstar717/dsh-superagent-playground/commit/e5fae586be3b",
+      "title": "playground tip is a local inference bench",
+      "url": "https://github.com/superstar717/dsh-superagent-playground/commit/e33f001cc607",
       "confidence": 0.2,
-      "reason": "pushed_at 2026-11-23T13:06:13Z. Default main stays e5fae586be3b at 2026-11-23T11:34:07Z. Not listed."
+      "reason": "Main e33f001cc607 at 2026-11-23T13:35:51Z merges a 125B Qwen bench. pushed_at 2026-11-23T14:27:06Z. Not listed."
     },
     {
-      "title": "ArtemKoval lab note is not this prototype",
-      "url": "https://github.com/ArtemKoval/lab/commit/0c5c8b58ed19",
+      "title": "dsh-superagent-test only adds a failing smoke workflow",
+      "url": "https://github.com/chengchengking/dsh-superagent-test/commit/2b2dab999521",
       "confidence": 0.2,
-      "reason": "2026-11-23T13:27:25Z proposes loan-request-queue-control. Not this prototype. Not listed."
+      "reason": "README is a test-repository title. 2026-11-23T14:23:12Z adds .github/workflows/smoke.yml. Not listed."
+    },
+    {
+      "title": "dsh-ai-for-memory is a general DSH plugin announcement",
+      "url": "https://github.com/kuugakw/dsh-ai-for-memory",
+      "confidence": 0.35,
+      "reason": "Discussion #14175 at 2026-11-23T14:29:13Z is a self-promotion. The author says the introduction was generated. Package 0.5.3 at 2026-11-23T14:01:38.164Z. engines.dsh is >=0.2.0-rc.1 <0.3.0. README does not name this prototype. Window commits are comparison and release notes. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-23T14:34:45Z: Nelson master stays b4ae39d7f94c. next/0.8 stays 856d085c4ba7. Open and not merged: #867 head cf38053926ed (preview.30), #807 head a1deef7cb15b (docs only), #869 head 774d1661d7c4, #868 head ee941163430d, #855 head 45e9a02e40b2, #849 head da630522b0c2. Drafts #811 head 56940c9dc455 and #804 head 2b21cfe50838. Panel #107 head 4815fa662302 is not merged; main stays a0821c85ab3d. #819 and #816 stay closed and not merged.",
     "2026-11-23T13:39:10Z: Nelson open PRs #867 head cf38053926ed targets master as 0.8.1-preview.30, #869 head 774d1661d7c4, #868 head ee941163430d, #855 head 45e9a02e40b2, #849 head da630522b0c2, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #865 merged as 856d085c4ba7. #819 and #816 stay closed and not merged. xyt071024/dsh-superagent-cn 7dadcb0055f2 still has .bak-before files. superstar717 main stays e5fae586be3b.",
     "2026-11-23T12:34:47Z: Nelson open PRs #865 head b7f72bb909d9, #855 head 45e9a02e40b2, #849 head da630522b0c2, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #862 merged as 70283f7a9c08, #863 merged as d3e35772cffc, #864 merged as 1dead7d23b66, #866 merged as 6c8d43ab6001. #819 and #816 stay closed and not merged. lanshi17/dsh-booth refactor/architecture is d565309d54cf; master stays c3e22a51209b.",
     "2026-11-23T08:37:01Z: Nelson open PRs #858 head 07f1c0164540, #855 head 45e9a02e40b2, #849 head da630522b0c2, #847 head ea5a0ea7a402, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #857 merged as 3d2f4a80fac5. #819 and #816 stay closed and not merged. baojingyu #3 head 2d1f1851276c stays open. panel has no open PRs.",
@@ -16806,5 +16825,5 @@
     "lanshi17/dsh-booth refactor/architecture is c729ff731233 at 2026-11-23T11:03:02Z, 5 ahead of ba4dcab4cc88 and 0 behind. Default master stays c3e22a51209b. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "Rechecked 2026-11-23T13:39:10Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
+  "npm_note": "Rechecked 2026-11-23T14:34:45Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
 }
