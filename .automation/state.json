@@ -1,18 +1,30 @@
 {
-  "last_run_at": "2026-11-23T15:35:21Z",
+  "last_run_at": "2026-11-23T16:34:43Z",
   "timezone": "UTC",
-  "baseline_commit": "f1f4a2d",
+  "baseline_commit": "b566b65",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T14:34:45Z",
-    "to": "2026-11-23T15:35:21Z"
+    "from": "2026-11-23T15:35:21Z",
+    "to": "2026-11-23T16:34:43Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "next/0.8 records the S1a staffing status in the design doc",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/9189cfaeacf7",
+      "confidence": 0.96,
+      "reason": "Window 2026-11-23T15:35:21Z to 2026-11-23T16:34:43Z. #807 merged at 2026-11-23T16:04:39Z as 9189cfaeacf7. next/0.8 is 6 ahead of ad00c20aeeef and 0 behind, and 17 ahead and 33 behind master 5e2ab4abe060. The only file is docs/design/superagent-staffing-changes.md, 5 additions and 5 deletions. src/ is untouched. The status line says Partly implemented (S1a). The implementation check is dated against next/0.8 856d085c. The doc says owner-local confirm carries out team.create, member.add, team.rules.set, member.retire, team.github.set (PR #801, issue #800), and the #808 parts: canvas.create, canvas.member.add, canvas.member.remove, network.set, network.peer.add, network.peer.remove, network.originClaimByPeer.set, team.approvers.set, session.join, session.seatName.set, and team.settings.set for the team's A2A settings only. The doc says owner-local team.retire and member.retemplate are refused as off. S1b, S2, and S3 stay unbuilt. The market default has the #808 operations off, and market team.retire, member.retemplate, and member.retire stay not-yet. The next line says S1a is built. The session-controller unknown stays ctx.sessionController.create({ cwd, agentPreset }) in node-identity.md §4.4, with carrier fields in src/node-store.ts, and says superagent does not drive it yet; that wiring belongs to S2. #161 §8 is the 2026-11-02 owner ruling, r3 a390f894, wording follow-up 24ead2c, and seatId follows the node name. package.json on next/0.8 stays 0.8.1-preview.28 with engines.pnpm only. No engines.dsh. npm preview stays 0.8.1-preview.29. latest stays 0.7.0. 0.8.1-preview.30 is absent. No git tag. #865, #866, and #868 stay on next/0.8. Draft #811 head stays 56940c9dc455. Draft #804 head stays 2b21cfe50838. #869 head stays 774d1661d7c4. #870 head stays cecb4238a373 and is not merged. #871 head f3b2da3e0177 targets next/0.8 and is not merged. Its files are docs/arch/a2a-architecture.anchors.json, nexus-stage/scripts/mockhost.py, nexus-stage/src/planning-card-text.ts, and src/config.ts. Not written as behavior. #849 head stays da630522b0c2 and #855 head stays 45e9a02e40b2, both targeting master. Master stays 5e2ab4abe060 with package 0.8.1-preview.30 unpublished. Tests were not rerun."
+    },
+    {
+      "title": "wheelchair restart resumes the invoking session and leaves a foreign lease holder alone",
+      "url": "https://github.com/nihaoWX/wheelchair-agent/commit/4214b1bac4d7",
+      "confidence": 0.95,
+      "reason": "Window 2026-11-23T15:35:21Z to 2026-11-23T16:34:43Z. #36 merged at 2026-11-23T16:15:27Z as 19e71c4393e4. Tip 4214b1bac4d7 at 2026-11-23T16:22:40Z is 2 ahead of a93a55d52bef and 0 behind. The handler passes invocation.agent.session.id as --session when the trimmed id is non-empty. CLI --session requires one non-empty value and rejects a repeat. preflight uses that id when resolveSession finds a directory and marks source session. A missing directory, or no passed id, falls back to ~/.dsh-tui/resume.txt and logs one note. The narrator, detached child, and tmux fallback use that preflight resume. holderInRestartChain keeps a pid that is on the restart chain or reaches it by walking ppid; pid 1, a cycle, or a missing parent is foreign. Only chain holders enter the kill set: SIGTERM, then SIGKILL. A foreign holder is not signalled. The existing bounded wait still runs. Timeout returns blocked true and failed false, starts a new session, and logs occupied by another terminal; not preempted. session release without chain still releases every non-service holder. 4214b1bac4d7 only edits ARCHITECTURE/decisions.md, ARCHITECTURE/restart.md, and PROGRESS.md. package.json was not in the diff. Tests were not rerun."
+    },
     {
       "title": "next/0.8 pins cleaned names on the builder inventory",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/ad00c20aeeef",
@@ -171,6 +183,12 @@
     }
   ],
   "pending": [
+    {
+      "title": "A2A #871 example-address backport is not merged",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/871",
+      "confidence": 0.7,
+      "reason": "Opened in the window. Head f3b2da3e0177 targets next/0.8. Updated 2026-11-23T16:21:00Z. Files are the architecture anchor, mockhost.py, planning-card-text.ts, and src/config.ts. Not merged. Not written as behavior."
+    },
     {
       "title": "dbc-hbin/omp-superagent 0.1.8 still has no engines.dsh",
       "url": "https://github.com/dbc-hbin/omp-superagent/commit/fc8983cb5de3",
@@ -16293,16 +16311,17 @@
       "title": "Official prototype, Harness, and npm tags did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.9,
-      "reason": "Rechecked through 2026-11-23T15:35:21Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. @mystic7c/dsh-superagent-panel stays 404. Panel main stays a0821c85ab3d. #107 head stays 4815fa662302 and is not merged, so it is not 1.1.8. arXiv had no in-window paper. Newest HN story remains 2026-11-11."
+      "reason": "Rechecked through 2026-11-23T16:34:43Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2. npm @deepseek-ai/dsh latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. @mystic7c/dsh-superagent-panel stays 404. Panel main stays a0821c85ab3d. #107 head stays 4815fa662302 and is not merged, so it is not 1.1.8. arXiv all:dsh-superagent returned 0. Newest HN story remains 2026-11-11."
     },
     {
-      "title": "dbc-hbin/omp-superagent 0.1.8 is not this bundle",
-      "url": "https://github.com/dbc-hbin/omp-superagent/commit/fc8983cb5de3",
-      "confidence": 0.4,
-      "reason": "No engines.dsh. Not listed."
+      "title": "t3code and IHUI commits in the window do not name this prototype",
+      "url": "https://github.com/pingdotgg/t3code/commit/3b08d975ab58",
+      "confidence": 0.55,
+      "reason": "t3code tip 3b08d975ab58 at 2026-11-23T16:20:14Z and the other commits since 2026-11-23T15:35:21Z have no superagent filename. IHUI tip 3ac12ff8b3ca at 2026-11-23T16:15:54Z and the other commits in the window have no superagent filename. Not listed."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-23T16:34:43Z: Nelson master stays 5e2ab4abe060. next/0.8 is 9189cfaeacf7. Open and not merged: #871 head f3b2da3e0177, #870 head cecb4238a373, #869 head 774d1661d7c4, #849 head da630522b0c2, #855 head 45e9a02e40b2. Drafts #811 head 56940c9dc455 and #804 head 2b21cfe50838. Panel #107 head 4815fa662302 is not merged; main stays a0821c85ab3d.",
     "2026-11-23T14:34:45Z: Nelson master stays b4ae39d7f94c. next/0.8 stays 856d085c4ba7. Open and not merged: #867 head cf38053926ed (preview.30), #807 head a1deef7cb15b (docs only), #869 head 774d1661d7c4, #868 head ee941163430d, #855 head 45e9a02e40b2, #849 head da630522b0c2. Drafts #811 head 56940c9dc455 and #804 head 2b21cfe50838. Panel #107 head 4815fa662302 is not merged; main stays a0821c85ab3d. #819 and #816 stay closed and not merged.",
     "2026-11-23T13:39:10Z: Nelson open PRs #867 head cf38053926ed targets master as 0.8.1-preview.30, #869 head 774d1661d7c4, #868 head ee941163430d, #855 head 45e9a02e40b2, #849 head da630522b0c2, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #865 merged as 856d085c4ba7. #819 and #816 stay closed and not merged. xyt071024/dsh-superagent-cn 7dadcb0055f2 still has .bak-before files. superstar717 main stays e5fae586be3b.",
     "2026-11-23T12:34:47Z: Nelson open PRs #865 head b7f72bb909d9, #855 head 45e9a02e40b2, #849 head da630522b0c2, #807 head df406d0ed9db. Drafts #811 head 2fd4e9fe5418 and #804 head 2b21cfe50838. #862 merged as 70283f7a9c08, #863 merged as d3e35772cffc, #864 merged as 1dead7d23b66, #866 merged as 6c8d43ab6001. #819 and #816 stay closed and not merged. lanshi17/dsh-booth refactor/architecture is d565309d54cf; master stays c3e22a51209b.",
@@ -16838,5 +16857,5 @@
     "NelsonLongxiang/dsh-open-a2a-net #870 head cecb4238a373 targets next/0.8 and is not merged. next/0.8 stays ad00c20aeeef. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "Rechecked 2026-11-23T15:35:21Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
+  "npm_note": "Rechecked 2026-11-23T16:34:43Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404."
 }
