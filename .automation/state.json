@@ -1,25 +1,24 @@
 {
-  "last_run_at": "2026-11-23T23:34:30Z",
+  "last_run_at": "2026-11-24T00:31:59Z",
   "timezone": "UTC",
-  "baseline_commit": "26c9693",
+  "baseline_commit": "326d4b4",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T22:35:01Z",
-    "to": "2026-11-23T23:34:30Z"
+    "from": "2026-11-23T23:34:30Z",
+    "to": "2026-11-24T00:31:59Z"
   },
-  "added": [
-    {
-      "title": "dsh-subagent-route sends a subagent to a named provider and model",
-      "url": "https://github.com/SpaceRelay/dsh-subagent-control/tree/main/subagent-route",
-      "confidence": 0.88,
-      "reason": "Window 2026-11-23T22:35:01Z to 2026-11-23T23:34:30Z. awesome-dsh-plugin #18287 merged at 2026-11-23T23:20:37Z as abf1a01e36d3. The source tip 9801bd1408d2 at 2026-11-23T19:45:44Z only edits PUBLISHING.md and the submission YAML. index.js is unchanged from npm gitHead e6b8065dfee1. Package dsh-subagent-route 1.0.2. engines.dsh >=0.2.1-rc.1 <0.3.0-0. npm latest 1.0.2 at 2026-11-23T19:07:27.320Z. subagent_route calls startActivation with provider spawn and agentOptions for the requested route. list_routes lists providers. Official tool is not wrapped. client.js was not line-read. Tests were not rerun."
-    }
-  ],
+  "added": [],
   "updated": [
+    {
+      "title": "next/0.8 counts a review verdict only from one structured line at the full head",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/2a163cffdcb41e7d0992999d21a785059d1f18c3",
+      "confidence": 0.96,
+      "reason": "Window 2026-11-23T23:34:30Z to 2026-11-24T00:31:59Z. #876 merged at 2026-11-24T00:04:39Z as 2a163cffdcb4. Parents d18d4ef88207 and 44488627cc02. Three files: docs/design/superagent-pr-follow.md D6, src/superagent/host/review-requests.ts, tests/unit/superagent-pr-follow.spec.ts. readVerdict accepts one line: optional leading space/tab/>/*/_/`/-, then verdict:, PASS or FAIL in that case, head:, then 7-64 lowercase hex, then optional trailing space/tab/`/*/_ . Zero lines are reference. More than one line is unverified. A commit other than head.toLowerCase() is unverified. pass is true only for one PASS line. A structured FAIL is verified and not a pass. Free-text PASS is not a pass. The ticket note says 已核对完整提交 plus the full head, or 参考，未核验 plus the reason and 不计为通过. A stored verdict with no checked loads as reference with pass false. opened records state asking and an empty task before ask, and saves. At start, asking becomes unknown, told false, and one note is queued. The first opened or received flushes that note and sets told true. The same head returns without asking again. A new head still asks. A thrown ask, or an unlinked reviewer, restores the previous record. received ignores an empty task. A request that already has a verdict takes no second receipt. The ask text requires one line verdict: PASS head: plus the full head. Tip 2a163cffdcb4 is 21 ahead of 9189cfaeacf7 and 0 behind, and 38 ahead and 33 behind master 5e2ab4abe060. package.json stays 0.8.1-preview.28. engines.pnpm stays >=11.24 <12. No engines.dsh. Newest GitHub Release stays v0.8.1-preview.28. npm preview stays 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest stays 0.7.0. #873 head stays c8ef5bc1cc23. #869 head stays 774d1661d7c4. Draft #804 head stays 2b21cfe50838. #849 head stays da630522b0c2. #855 head stays 45e9a02e40b2. Tests were not rerun."
+    },
     {
       "title": "dsh-superagent-manager public page now returns 404",
       "url": "https://github.com/Aily-DSH/dsh-superagent-manager",
