@@ -1,18 +1,24 @@
 {
-  "last_run_at": "2026-11-24T00:31:59Z",
+  "last_run_at": "2026-11-24T01:35:35Z",
   "timezone": "UTC",
-  "baseline_commit": "326d4b4",
+  "baseline_commit": "1da6210",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-23T23:34:30Z",
-    "to": "2026-11-24T00:31:59Z"
+    "from": "2026-11-24T00:31:59Z",
+    "to": "2026-11-24T01:35:35Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "next/0.8 records the known limit of a review request resent after a thrown send",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/c7147fc7a194543fea8a34e71a666f45796aa60b",
+      "confidence": 0.96,
+      "reason": "Window 2026-11-24T00:31:59Z to 2026-11-24T01:35:35Z. #878 merged at 2026-11-24T00:54:59Z as c7147fc7a194. Parents 2a163cffdcb4 and 57f35fc720a2. The only change is one line in docs/design/superagent-pr-follow.md D6. src/ is untouched. The added sentence is the owner decision of 2026-11-24: if a send throws inside the process after the message actually went out, the record is restored and a later read sends the request again, so the reviewer may receive it twice. Receipts are bound to the full head and the request, and a second receipt is ignored, so the effect is a duplicate request. Making the resend idempotent is designed in open issue #877, created 2026-11-24T00:03:13Z, and is not a pull request. Tip c7147fc7a194 is 23 ahead of 9189cfaeacf7 and 0 behind, and 40 ahead and 33 behind master 5e2ab4abe060. package.json stays 0.8.1-preview.28. engines.pnpm stays >=11.24 <12. No engines.dsh. No new git tag. Newest tag stays v0.8.1-preview.29, tagged 2026-11-23T00:45:30Z. GitHub Release stays v0.8.1-preview.28. npm preview stays 0.8.1-preview.29. 0.8.1-preview.30 is absent. latest stays 0.7.0. #873 head stays c8ef5bc1cc23. Comments at 2026-11-24T00:47:29Z do not change the head. Not written as behavior. #869 head stays 774d1661d7c4. Draft #804 head stays 2b21cfe50838. #849 head stays da630522b0c2. #855 head stays 45e9a02e40b2. Tests were not rerun."
+    },
     {
       "title": "next/0.8 counts a review verdict only from one structured line at the full head",
       "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/2a163cffdcb41e7d0992999d21a785059d1f18c3",
@@ -16389,37 +16395,31 @@
       "title": "Official prototype, Harness, and npm @deepseek-ai/dsh did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.95,
-      "reason": "main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. npm latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. registry modified stays 2026-11-22T09:57:12.602Z."
+      "reason": "Window 2026-11-24T00:31:59Z to 2026-11-24T01:35:35Z. Prototype main stays 8c32a9dc5d72. Harness master stays 4b399c39a6d1. Newest release stays dsh-v0.2.3-alpha.2, published 2026-11-22T11:00:39Z. npm latest and next stay 0.2.2-rc.5. alpha stays 0.2.3-alpha.2. registry modified stays 2026-11-22T09:57:12.602Z."
     },
     {
-      "title": "A2A branches and open heads did not move",
-      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/commit/d18d4ef88207",
-      "confidence": 0.95,
-      "reason": "next/0.8 stays d18d4ef88207. master stays 5e2ab4abe060. #873 head stays c8ef5bc1cc23. #876 head stays 44488627cc02. #869 head stays 774d1661d7c4. Draft #804 head stays 2b21cfe50838. #849 head stays da630522b0c2. #855 head stays 45e9a02e40b2. npm preview stays 0.8.1-preview.29. latest stays 0.7.0. 0.8.1-preview.30 is absent."
-    },
-    {
-      "title": "oh-my-pi catalog commit does not name this prototype",
-      "url": "https://github.com/can1357/oh-my-pi/commit/4df653426f40ee1eb78ef408528eb9e6a5275b9d",
+      "title": "IHUI evidence note does not describe this prototype",
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/5d4423feef8a",
       "confidence": 0.9,
-      "reason": "2026-11-23T22:46:31Z. Files are the OpenRouter reasoning test, catalog CHANGELOG, resolve.ts, and models.json. No dsh-superagent path. Not listed."
+      "reason": "2026-11-24T01:12:10Z. Adds docs/benchmark-evidence/2026-11/qoder-dsh-deep-2026-11-24.md plus CLI serve registry checks. The note is a static read of Qoder and DeepSeek Harness desktop asar packages. It does not say superagent, super-agent, Ticket, or Mandate. packages/shared/src/super-agent had no commit in the window. Tip a66e68fb2fb6 is not listed."
     },
     {
       "title": "t3code commits in the window do not name this prototype",
-      "url": "https://github.com/pingdotgg/t3code/commit/58b7878eb750d3e1f80b9a0a42b8802efba2adda",
+      "url": "https://github.com/pingdotgg/t3code/commit/d244be81bace6ea2316fac387938d621ac03bad8",
       "confidence": 0.86,
-      "reason": "Tip 58b7878eb750 at 2026-11-23T23:27:14Z. Commit search for dsh-superagent in pingdotgg/t3code since 2026-11-23T22:35:01Z returned 0. Not listed."
+      "reason": "Tip d244be81bace at 2026-11-24T01:24:51Z is 10 ahead of be0619a29476 and 0 behind. The compare has no filename matching superagent, super-agent, or dsh. The tip commit only edits KeybindingsSettings. Not listed."
     },
     {
-      "title": "IHUI commits in the window do not touch super-agent",
-      "url": "https://github.com/IHUI-INF-AI/IHUI-AI/commit/fbe858596a0e",
-      "confidence": 0.88,
-      "reason": "Commits since 2026-11-23T22:35:01Z include wechat-hub, guard, ai-service, mobile-rn, and provenance. packages/shared/src/super-agent has no commit in the window. Not rewritten."
+      "title": "superagent-lite master did not move in this window",
+      "url": "https://github.com/LMQ00/superagent-lite/commit/8323cc2a93bdcac853fb5c99b7c5ab8f65ed91da",
+      "confidence": 0.84,
+      "reason": "Master tip stays 8323cc2a93bd, committed 2026-11-23T10:36:45Z, 5 ahead of the listed 7fb7e8b6533a. Commit search for 2026-11-24 returned 0. Repo pushedAt is 2026-11-24T01:06:11Z with no new master commit in the window. The five commits were not line-read. Not written."
     },
     {
-      "title": "Other awesome-dsh-plugin catalogue adds are outside this list",
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/commit/df1bc1b84c6d",
-      "confidence": 0.8,
-      "reason": "In-window catalogue commits also add or edit dsh-meta-theory, a piano tier note, dsh-disk-cleanup, claraconverts-agents, dsh-pet-see-live, dsh-delete-guard, dsh-gesture-control, and dsh-ldvh. They are not this prototype. Not listed."
+      "title": "Tracked plugin tips did not move",
+      "url": "https://github.com/Lencen/dsh-agent-lines/commit/3e7bc7fbce30",
+      "confidence": 0.9,
+      "reason": "dsh-agent-lines main stays 3e7bc7fbce30. Panel main stays a0821c85ab3d. Wheelchair main stays 4214b1bac4d7. wangqiongkaka main stays b1187a7546d2. dsh-booth master stays c3e22a51209b. dsh-subagent-control main stays 9801bd1408d2. oh-my-pi main stays 4df653426f40. Aily-DSH/dsh-plugin-index stays 327bdce141ca. No repository named dsh-superagent was created on 2026-11-24. arXiv all:dsh-superagent returned 0. Newest HN story remains 2026-11-11T16:50:41Z. No Harness issue updated on 2026-11-24. No open PR on this list."
     }
   ],
   "held_on_other_branches": [
@@ -16963,5 +16963,5 @@
     "NelsonLongxiang/dsh-open-a2a-net #870 head cecb4238a373 targets next/0.8 and is not merged. next/0.8 stays ad00c20aeeef. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "Rechecked 2026-11-23T23:34:30Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404. dsh-agent-lines latest remains 0.14.1 at 2026-11-23T21:28:54.955Z, no gitHead. Tip stays 3e7bc7fbce30. dsh-subagent-route latest is 1.0.2 at 2026-11-23T19:07:27.320Z, gitHead e6b8065dfee1."
+  "npm_note": "Rechecked 2026-11-24T01:35:35Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). registry modified remains 2026-11-22T09:57:12.602Z. @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404. dsh-agent-lines latest remains 0.14.1 at 2026-11-23T21:28:54.955Z, no gitHead. Tip stays 3e7bc7fbce30. dsh-subagent-route latest is 1.0.2 at 2026-11-23T19:07:27.320Z, gitHead e6b8065dfee1."
 }
