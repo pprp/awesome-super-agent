@@ -1,18 +1,36 @@
 {
-  "last_run_at": "2026-11-24T03:34:10Z",
+  "last_run_at": "2026-11-24T04:34:17Z",
   "timezone": "UTC",
-  "baseline_commit": "21debb6",
+  "baseline_commit": "395692e",
   "npm_dsh_latest_checked": "0.2.2-rc.5",
   "npm_dsh_latest_time": "2026-11-18T13:17:23.604Z",
   "upstream_prototype_head": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
   "upstream_prototype_head_date": "2026-10-31T12:06:31Z",
   "max_new_items": 5,
   "window": {
-    "from": "2026-11-24T02:32:24Z",
-    "to": "2026-11-24T03:34:10Z"
+    "from": "2026-11-24T03:34:10Z",
+    "to": "2026-11-24T04:34:17Z"
   },
   "added": [],
   "updated": [
+    {
+      "title": "dsh-superagent-panel 1.1.10 merges the second review batch",
+      "url": "https://github.com/mystic7c/dsh-superagent-panel/commit/0e5e9b22ced7",
+      "confidence": 0.94,
+      "reason": "Window 2026-11-24T03:34:10Z to 2026-11-24T04:34:17Z. #108 merged at 2026-11-24T03:39:52Z. Tip 0e5e9b22ced7 at 2026-11-24T03:40:31Z is 4 ahead of a2b9adcc1a92 and 0 behind. Package 1.1.10. engines.node stays >=22. Behavior commits 3b34ab31e6b6 and 6b27c77e7bcd were line-read for lib/ and index.js. Inbox refresh failure stays 200. Disabled backend is 400. Gate stop does not require the executor; release and retry do, and release also requires push. Revision checks assertTicketFree first. pollSeconds is 2-3600. verifySeconds settings are 2-86400 and file load clamps to 30-86400. stop() closes the four ledgers. Terminal processed/ignored signals are not rejudged. A failed event cursor stops at id-1. A scheduled attempt with no new run is restored. labelSignal appends inside signals.commit. An existing replay decision heals the signal. Non-sha diff bases are dropped. assertBranchName refuses option-shaped names. Remote delete matches featurePrefix plus ticketId only. A merged adopted MR is status merged. verify skips dismissed and closed. failRun clears stopRequested. Publish runs the frontend pnpm bootstrap. Client files were not line-read. CHANGELOG says 733 pass. Tests were not rerun. npm stays 404."
+    },
+    {
+      "title": "dsh-superAgent-yh 0.4.2 adds single-session compaction and loopback origin",
+      "url": "https://github.com/yhPrime/dsh-superAgent-yh/commit/fcee928d4cf6",
+      "confidence": 0.93,
+      "reason": "Window 2026-11-24T03:34:10Z to 2026-11-24T04:34:17Z. Tip fcee928d4cf6 at 2026-11-24T03:56:44Z is 6 ahead of 6e8909ab2218 and 0 behind. The four earlier commits in that range landed at 02:25Z-02:47Z and were not in the previous note. Package stays private dsh-superagent-yh 0.4.2. engines.dsh stays >=0.2.2-rc.5 <0.3.0. singleSession defaults off. Maintain runs on the existing tick and compacts one intake session per workspace when idle or over pressure, never while running, queued, or waiting for input. Aggressive mode uses compactRegion. action and settings use originAllowed: exact origin, or a loopback connection when Origin is missing or null, or a loopback Origin on a loopback connection. Tests were not rerun."
+    },
+    {
+      "title": "A2A #880 stays unmerged on next/0.8",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/pull/880",
+      "confidence": 0.9,
+      "reason": "Opened 2026-11-24T03:59:17Z. Open, merged_at null. Head d4a419d06724. Base next/0.8 fa8cd6501f02. 5 commits, 8 files, +132 -17. The diff was not line-read and is not written as behavior. next/0.8 stays fa8cd6501f02. master stays 5e2ab4abe060. package.json stays 0.8.1-preview.28. npm preview stays 0.8.1-preview.29. 0.8.1-preview.30 is absent. latest stays 0.7.0. #879 head stays 99ff2d3778c8."
+    },
     {
       "title": "dsh-superagent-gitlab-source 0.2.0 requires repository protocol 1",
       "url": "https://github.com/jiechic/dsh-superagent-gitlab-source/commit/b085a1bf87b39880f33c14e2f39ec60f3dc1c544",
@@ -285,6 +303,18 @@
     }
   ],
   "pending": [
+    {
+      "title": "kmatzen/pi-superagent was not line-read",
+      "url": "https://github.com/kmatzen/pi-superagent",
+      "confidence": 0.55,
+      "reason": "Pushed 2026-11-24T04:18:21Z. Tip eda9175b7d00. Package pi-superagent 0.2.0. engines.node >=22.19.0. No engines.dsh. Description says the dsh-superagent ticket engine bound to pi, herdr, GitHub and SQLite. src/ was not line-read. Not listed beside the existing pi ports."
+    },
+    {
+      "title": "gerdr-panel-superagent cites the prototype and runs on Gerdr",
+      "url": "https://github.com/gerdr-dev/gerdr-panel-superagent",
+      "confidence": 0.35,
+      "reason": "Pushed 2026-11-24T04:14:46Z. README says it is a Gerdr panel and that its principle follows dsh-superagent. It is not a DSH plugin. Not listed."
+    },
     {
       "title": "dsh-subagent-control parent tools were not line-read",
       "url": "https://github.com/SpaceRelay/dsh-subagent-control",
@@ -16443,22 +16473,35 @@
       "title": "Official prototype, Harness, and npm @deepseek-ai/dsh did not move",
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/8c32a9dc5d72",
       "confidence": 0.95,
-      "reason": "Window 2026-11-24T02:32:24Z to 2026-11-24T03:34:10Z. Prototype main had no commit. Harness master had no commit. npm latest and next stay 0.2.2-rc.5 (2026-11-18T13:17:23.604Z). alpha stays 0.2.3-alpha.2 (2026-11-22T09:57:12.419Z). No new Harness issue matching dsh-superagent created on 2026-11-24. arXiv all:dsh-superagent returned 0 results. Newest HN story matching dsh-superagent remains 2026-11-11."
+      "reason": "Window 2026-11-24T03:34:10Z to 2026-11-24T04:34:17Z. Prototype main had no commit. Harness master had no commit. No Harness issue matching dsh-superagent was created or updated on 2026-11-24. npm latest and next stay 0.2.2-rc.5 (2026-11-18T13:17:23.604Z). alpha stays 0.2.3-alpha.2 (2026-11-22T09:57:12.419Z). arXiv all:dsh-superagent returned 0 results. Newest HN story matching dsh-superagent remains 2026-11-11."
     },
     {
-      "title": "dataCodeFarmer/test-dsh-superagent is a test workspace",
+      "title": "dataCodeFarmer/test-dsh-superagent is still a test workspace",
       "url": "https://github.com/dataCodeFarmer/test-dsh-superagent",
       "confidence": 0.4,
-      "reason": "Pushed 2026-11-24T03:18:33Z. Description is 测试dsh superagent. Root has only README.md and docs/. #6 and #7 merged agent-written Feishu notes. Not listed."
+      "reason": "Pushed 2026-11-24T03:49:19Z. Tip 5f8d55f902e8 merges a README wording change. Root is still README.md and docs/. Not listed."
+    },
+    {
+      "title": "HongJinjin9/agent-workspace is a personal work repo",
+      "url": "https://github.com/HongJinjin9/agent-workspace",
+      "confidence": 0.35,
+      "reason": "Pushed 2026-11-24T04:07:36Z. Description says it is the issue and PR workspace for a dsh-superagent. Root directories are personal projects, not a plugin. Not listed."
+    },
+    {
+      "title": "DearWuu/superagent-agents is an OpenCode plugin",
+      "url": "https://github.com/DearWuu/superagent-agents",
+      "confidence": 0.3,
+      "reason": "Pushed 2026-11-24T03:56:19Z. Tip f6eb13b70f20. Package superagent-agents 0.2.2. README describes an OpenCode panel and does not name this prototype. No engines.dsh. Not listed."
     },
     {
       "title": "Listed quiet repos had no commit in the window",
       "url": "https://github.com/Lencen/dsh-agent-lines/commit/3e7bc7fbce30",
       "confidence": 0.9,
-      "reason": "No commits since 2026-11-24T02:32:24Z on Lencen/dsh-agent-lines, nihaoWX/wheelchair-agent, wangqiongkaka/dsh-superagent, SpaceRelay/dsh-subagent-control, yhPrime/dsh-superAgent-yh, or Robert-Wang-08/dsh-superagent-patch. A2A next/0.8 and master had no commit. Panel main had no commit."
+      "reason": "No commits since 2026-11-24T03:34:10Z on Lencen/dsh-agent-lines, nihaoWX/wheelchair-agent, wangqiongkaka/dsh-superagent, SpaceRelay/dsh-subagent-control, Robert-Wang-08/dsh-superagent-patch, LMQ00/superagent-lite, jiechic/dsh-superagent-gitlab-source, NelsonLongxiang/dsh-open-a2a-net next/0.8, or master. npm panel stays 404. gitlab-source stays 404. @vfvrpq/dsh-superagent latest stays 0.3.0. dsh-agent-lines npm stays 0.14.1."
     }
   ],
   "held_on_other_branches": [
+    "2026-11-24T04:34:17Z: next/0.8 stays fa8cd6501f02. master stays 5e2ab4abe060. Open and not merged: #880 head d4a419d06724, #879 head 99ff2d3778c8, #869 head 774d1661d7c4, draft #804 head 2b21cfe50838, #849 head da630522b0c2, #855 head 45e9a02e40b2. Panel #108 merged; main is 0e5e9b22ced7.",
     "2026-11-24T03:34:10Z: next/0.8 stays fa8cd6501f02. master stays 5e2ab4abe060. Open and not merged: #879 head 99ff2d3778c8, #869 head 774d1661d7c4, draft #804 head 2b21cfe50838, #849 head da630522b0c2, #855 head 45e9a02e40b2. Panel #108 head 6b27c77e7bcd targets develop 7d3666428384 and is not merged; main stays a2b9adcc1a92.",
     "2026-11-23T23:34:30Z: next/0.8 stays d18d4ef88207. master stays 5e2ab4abe060. Open and not merged: #873 head c8ef5bc1cc23, #876 head 44488627cc02, #869 head 774d1661d7c4, draft #804 head 2b21cfe50838, #849 head da630522b0c2, #855 head 45e9a02e40b2.",
     "2026-11-23T22:35:01Z: next/0.8 stays d18d4ef88207. master stays 5e2ab4abe060. Open and not merged: #873 head c8ef5bc1cc23, #876 head 44488627cc02, #869 head 774d1661d7c4, draft #804 head 2b21cfe50838, #849 head da630522b0c2, #855 head 45e9a02e40b2.",
@@ -17000,5 +17043,5 @@
     "NelsonLongxiang/dsh-open-a2a-net #870 head cecb4238a373 targets next/0.8 and is not merged. next/0.8 stays ad00c20aeeef. Do not list the branch."
   ],
   "rejected_pattern": "Sandbox, playground, demo, trial, mirror, empty, and ticket-workspace repositories were not listed. Closed unmerged PRs #3, #7, and #15 stay out until a human asks. cursor/dsh-super-agent-c285 was not copied. Non-default branches were not listed. Hourly window only. An installer or recap whose observe sentence drops the explicit-request exception stays pending. A preset bundle that does not implement Ticket is listed as presets, not as a second prototype.",
-  "npm_note": "Rechecked 2026-11-24T03:34:10Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404. dsh-superagent-gitlab-source remains 404. @vfvrpq/dsh-superagent latest remains 0.3.0 at 2026-11-15T03:02:14.357Z."
+  "npm_note": "Rechecked 2026-11-24T04:34:17Z. latest and next remain 0.2.2-rc.5 (published 2026-11-18T13:17:23.604Z). alpha remains 0.2.3-alpha.2 (published 2026-11-22T09:57:12.419Z). @nelsonlongxiang/dsh-open-a2a-net preview remains 0.8.1-preview.29 at 2026-11-23T01:03:53.448Z. 0.8.1-preview.30 is absent. latest remains 0.7.0. @mystic7c/dsh-superagent-panel remains 404. dsh-superagent-gitlab-source remains 404. @vfvrpq/dsh-superagent latest remains 0.3.0 at 2026-11-15T03:02:14.357Z."
 }
